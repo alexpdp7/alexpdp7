@@ -1,0 +1,52 @@
+v2f https://github.com/alexpdp7/v2f
+
+* A completely declarative SQL CRUD framework
+** CRUD definition is done through SQL objects (schemas, views, etc.)
+** Permissions
+** Row auditing
+** Multiple components
+*** Server-side HTML frontend
+*** REST API
+** Commercial frontend for design
+
+Pure HTML5 decentralized IM system
+
+* Uses web push
+* Conversations are URLs to be shared
+* End-to-end encryption
+
+SQL Query tool
+
+* ipython notebook style interface
+* Backend + multiple frontends
+** HTML/JS Frontend
+** Curses frontend
+** Native GUIs frontends
+* Smart join completion
+
+Decentralized Social Network
+
+Development stack
+
+* Easy to deploy modular platform of:
+** Identity Management (FreeIPA)
+** Git repo with code review (Gerrit)
+** Ticketing system (Redmine?)
+** CI (Jenkins)
+** Binary artifact repository
+** Monitoring system (Nagios)
+
+Scalable personal cloud
+
+* 1..n node VM/container hosting platform
+* ZFS storage
+* Automation ready (Ansible, Salt, Foreman, etc.)
+* Monitoring friendly
+* Apt for single public IP
+** Integrated DNS/DHCP
+** VPN interfaces
+** Reverse proxies
+
+C64 Roguelike
+
+Software development book https://github.com/alexpdp7/wakat
