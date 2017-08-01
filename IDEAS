@@ -50,3 +50,8 @@ Scalable personal cloud
 C64 Roguelike
 
 Software development book https://github.com/alexpdp7/wakat
+
+Development environment setup
+
+* Spin a VM (locally or in the cloud) which runs your project
+* Synchronized workspace using Syncthing
