@@ -1,4 +1,7 @@
-v2f https://github.com/alexpdp7/v2f
+CRUD framework
+
+* https://github.com/alexpdp7/v2f
+* https://github.com/alexpdp7/zqxjkcrud
 
 * A completely declarative SQL CRUD framework
 ** CRUD definition is done through SQL objects (schemas, views, etc.)
@@ -13,7 +16,10 @@ Pure HTML5 decentralized IM system
 
 * Uses web push
 * Conversations are URLs to be shared
+* "User identity" is a private URL to be shared to handle multi-device
 * End-to-end encryption
+* Can have WebRTC audio/video
+* Anyone could run its own instance, as it is clientless there is no friction to have multiple providers
 
 SQL Query tool
 
