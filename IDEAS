@@ -61,3 +61,11 @@ Development environment setup
 
 * Spin a VM (locally or in the cloud) which runs your project
 * Synchronized workspace using Syncthing
+
+SQL2
+
+* A new language that compiles to SQL
+* Handles RDBMS differences
+* Makes queries composable (e.g. declare a query object, then add paging/sorting, for framework usage)
+* Declarative join via foreign key constraint names
+* Better ordering for code completion (e.g. FROMs first)
