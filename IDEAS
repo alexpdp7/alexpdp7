@@ -18,12 +18,15 @@ CRUD framework
 
 Pure HTML5 decentralized IM system
 
+* https://github.com/alexpdp7/imnei
+
 * Uses web push
 * Conversations are URLs to be shared
 * "User identity" is a private URL to be shared to handle multi-device
 * End-to-end encryption
 * Can have WebRTC audio/video
 * Anyone could run its own instance, as it is clientless there is no friction to have multiple providers
+* Broadcast channels to be a pseudo-social network
 
 SQL Query tool
 
@@ -33,8 +36,6 @@ SQL Query tool
 ** Curses frontend
 ** Native GUIs frontends
 * Smart join completion
-
-Decentralized Social Network
 
 Development stack
 
