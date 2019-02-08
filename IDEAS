@@ -37,6 +37,16 @@ SQL Query tool
 ** Native GUIs frontends
 * Smart join completion
 
+Parallel execution framework
+
+* A tool to run stuff such as CI builds which need sophisticated parallelization
+* Create differently sized resource pools (for CPU-bound tasks, "API"-bound, etc.)
+* Local execution of workflows on a workstation, remote execution on a CI server
+* Handle task dependencies and artifact passing from parent to child tasks
+* Capture stdout/stderr of tasks, allow viewing in realtime
+* Timestamp stdout/stderr for crude profiling
+* Implement a CI system on top?
+
 Development stack
 
 * Easy to deploy modular platform of:
