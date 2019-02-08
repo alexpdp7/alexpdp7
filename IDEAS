@@ -61,6 +61,7 @@ Scalable personal cloud
 
 * 1..n node VM/container hosting platform
 * ZFS storage
+** Use https://github.com/marcan/takeover.sh for easy set up of a ZFS mirror root system
 * Automation ready (Ansible, Salt, Foreman, etc.)
 * Monitoring friendly
 * Apt for single public IP
