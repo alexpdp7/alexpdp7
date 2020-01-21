@@ -85,3 +85,11 @@ SQL2
 * Makes queries composable (e.g. declare a query object, then add paging/sorting, for framework usage)
 * Declarative join via foreign key constraint names
 * Better ordering for code completion (e.g. FROMs first)
+
+Streaming DB
+
+* Simple relational database
+* Can act as replication target of other databases
+* Supports a limited SQL subset that can be easily reasoned about functional dependencies
+* Can stream efficiently the results of an SQL query (e.g. keep a query running and receive new/modified rows)
+* Supports efficient replication of a subset of a database (initial checkpoint + streaming or batched updates)
