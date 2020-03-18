@@ -10,8 +10,8 @@
   * LXC container running my Wordpress blog
   * LXC container running PostgreSQL
   * LXC container running a workstation
-  * VM running Jenkins, Gitolite
-  * VM running Discourse
+  * VM running Jenkins, Gitolite and an old app I haven't migrated yet to another system
+  * VM running a Discourse forum
   * VM running Dokku
 * Flat 1
   * HP Proliant Microserver: 4Gb RAM, 2x4Tb HDD
