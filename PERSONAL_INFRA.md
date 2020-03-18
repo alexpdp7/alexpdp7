@@ -87,6 +87,12 @@ I run Nextcloud on an LXC container, files are stored in a ZFS filesystem.
 
 Media and other non-critical files are stored in the Proliant and shared via Samba and NFS.
 
+### Media
+
+I run a Jellyfin server on the Proliant to serve media to phones, a MiBox and a Raspberry running LibreElec.
+
+The Raspberry has a DVB-T tuner and TVHeadend, recordings are stored on the Proliant in an NFS share.
+
 ### Backup
 
 Systems with valuable data dump databases, etc. to `/srv/backup/$HOSTNAME/`. This is rsynced to the Proliant Microserver.
