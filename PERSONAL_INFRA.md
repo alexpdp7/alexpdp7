@@ -46,11 +46,11 @@ My laptop is joined to the domain so I can even log in to some web applications 
 
 Ipsilon adds SAML for some applications which do not support Kerberos.
 
-# Mail
+## Mail
 
 All systems are running Postfix configured to send emails through an account on my free G Suite account.
 
-# TLS
+## TLS
 
 I set up certificates using certbot-route53 on Ansible playbooks.
 DNS verification allows me to run TLS on non-reachable hosts.
@@ -107,7 +107,7 @@ I have two external USB HDDs. Each one is a ZPOOL. I plug them in monthly and ru
 
 I use Dokku to host a few personal applications, so I can update them with `git push`. I also have Ansible playbooks to set up the applications and handle some of them which have more complex deployments.
 
-# Possible improvements
+## Possible improvements
 
 * Adapt backup scripts so they can be run from everywhere and I can do "offsite" backups
 * Use Grafana instead of pnp4nagios
