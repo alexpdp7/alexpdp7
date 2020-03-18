@@ -111,3 +111,4 @@ I use Dokku to host a few personal applications, so I can update them with `git 
 
 * Adapt backup scripts so they can be run from everywhere and I can do "offsite" backups
 * Use Grafana instead of pnp4nagios
+* Convert the Proliant to Proxmox so it uses ZFS (for even simpler backups and snapshotting) and can host some services in LXC containers.
