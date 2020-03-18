@@ -7,7 +7,7 @@
   * LXC container running NextCloud
   * LXC container running Grafana
   * LXC container running Ipsilon
-  * LXC container running my Wordpress blog
+  * LXC container running my WordPress blog
   * LXC container running PostgreSQL
   * LXC container running a workstation
   * VM running Jenkins, Gitolite and an old app I haven't migrated yet to another system
