@@ -109,6 +109,11 @@ I use Dokku to host a few personal applications, so I can update them with `git 
 
 ## Possible improvements
 
-* Adapt backup scripts so they can be run from everywhere and I can do "offsite" backups
-* Use Grafana instead of pnp4nagios
-* Convert the Proliant to Proxmox so it uses ZFS (for even simpler backups and snapshotting) and can host some services in LXC containers.
+* Right now I execute backups in the Proliant, plugging in small USB HDDs. As I'm often away from flat 1, I'd like to re-do my backup scripts so I can plug in the USB drives in any system (e.g. my laptop, the Proliant in flat 1 or the Raspberry Pi on flat 2) and run the backup wherever I am.
+* Convert the Proliant to Proxmox so it uses ZFS (for even simpler backups and snapshotting) and the few misc services there can run isolated in LXC containers.
+* Kill the VM running Jenkins and migrate to individual LXC containers (Git repo hosting, Jenkins and the other old app).
+* Find a way to run the stuff that relies on Docker (Dokku, Discourse) nested in an LXC container using ZFS in a "correct" way, so I can drop more VMs and have more density.
+* Deploy a good virtual workstation. I'd like to have a persistent desktop I can use when I'm not at my laptop, where I can run overnight jobs, etc. My current LXC workstation works well, but I'd like to have a good graphical remote desktop solution.
+* Better sync'ing of stuff. NextCloud is not well-suited to headless systems.
+* Add a lab so I can experiment with things in isolated environments.
+* Set up SSO on my smartphone, perhaps do some MDM
