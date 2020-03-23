@@ -28,8 +28,17 @@
 I like having working DNS, so I run dnsmasq on both flats and for the Proxmox network on the Hetzner server.
 It also does integrated DHCP (mostly everything gets a DHCP IP and thus, a hostname).
 Every environment has a /24 network with DNS/DHCP and their own domain (hetzner.int.mydomain, flat1.int.mydomain, etc.).
-I've set up SRV records so DNS resolution works across networks (even reverse DNS).
 I use Route 53 for DNS records (except those of my own networks). DNS records are created with Ansible playbooks.
+
+I have the following snippets on dnsmasq's configuration:
+
+```
+server=/flat1.mydomain/ip.of.flat1.dns
+rev-server=net.mask.of/flat1,ip.of.flat1.dns
+```
+
+So one dnsmasq instance can lookup records (even reverse DNS) on the other dnsmasq instances, so I can address systems on other networks by their name.
+This could also be achieved by NS records, if I'm not mistaken, but this way everything is private on my own dnsmasq servers and not on public DNS.
 
 I join all networks using tinc in a mesh. Tinc keys are generated and distributed using an Ansible playbook.
 
