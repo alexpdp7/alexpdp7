@@ -114,6 +114,6 @@ I use Dokku to host a few personal applications, so I can update them with `git 
 * Kill the VM running Jenkins and migrate to individual LXC containers (Git repo hosting, Jenkins and the other old app).
 * Find a way to run the stuff that relies on Docker (Dokku, Discourse) nested in an LXC container using ZFS in a "correct" way, so I can drop more VMs and have more density.
 * Deploy a good virtual workstation. I'd like to have a persistent desktop I can use when I'm not at my laptop, where I can run overnight jobs, etc. My current LXC workstation works well, but I'd like to have a good graphical remote desktop solution.
-* Better sync'ing of stuff. NextCloud is not well-suited to headless systems.
+* Better sync'ing of user files. NextCloud out of the box only works on systems with a graphical interface. There are solutions to mount NextCloud using WebDav, but I prefer to do a sync (so if the server is down I still can access my files) and to run the client headless, but I prefer to stay within supported solutions. Probably syncthing would be a good solution for headless systems to sync dotfiles, etc.
 * Add a lab so I can experiment with things in isolated environments.
 * Set up SSO on my smartphone, perhaps do some MDM
