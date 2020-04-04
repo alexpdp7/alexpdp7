@@ -119,6 +119,49 @@ I have two external USB HDDs. Each one is a ZPOOL. I plug them in monthly and ru
 
 I use Dokku to host a few personal applications, so I can update them with `git push`. I also have Ansible playbooks to set up the applications and handle some of them which have more complex deployments.
 
+## Why not Docker/Kubernetes?
+
+Delivering applications as Docker images is massively popular right now, so it's worth explaining why I'm running VMs and LXC containers and I'm not more container-driven.
+
+#### Some things are not containerized
+
+FreeIPA has some support for running in containers, but it doesn't seem to be the most recommended way of running it.
+While it's not a "core" service, I don't think I have an alternative way to get some of its benefits (single users/passwords database across other services and systems, single-sign on, sudo management, etc.).
+It looks like integrating Ipsilon with FreeIPA if Ipsilon is running in a container would not be easy/supported either.
+
+WordPress has Docker images, but like the EPEL packages I use, they don't seem to be officially supported by Wordpress.
+However, both seem to be well maintained, but EPEL packages are automatically updated using the same process than the rest of my systems (`yum-cron`).
+
+I need to have non-container infrastructure in place, so I have the option of running additional things there or add the overhead of setting up container infrastructure on top.
+Containerization has its advantages, so it's just an equation about how much you benefit from containers compared to the overhead of having container infrastructure.
+
+#### Some containerized things are special
+
+This is principally Discourse.
+Discourse does some unique weird Docker stuff, so it doesn't seem to be supported/straightforward to throw it into Kubernetes nor I feel comfortable running more containers in its host (I could do that, but still I wouldn't get uniform management as Discourse is managed in a non-standard way).
+
+Dokku is another thing which I feel is special. I could replace it wholesale with Kubernetes, I guess, but that would require more work as running Dokku is very simple (mostly because it lacks a lot of Kubernetes features, such as supporting multiple nodes).
+
+So elements like those affect the previous equation; they don't fit in the "generic container infrastructure" and thus reduce its benefit.
+
+#### Containerization infrastructure has its cost
+
+There are lightweight ways to run containers; docker-compose, plain Docker, etc.
+These require significant additional work to automate them to the level of my existing non-containerized infrastructure (automation, backups, etc.), but they consume little additional resources.
+The cost analysis for those is that my existing automation works and the cost of re-implementing them makes them not worthwhile at this point.
+
+Heavyweight solutions like Kubernetes tend to consume more resources, but have better automation features built-in.
+The cost analysis for those is that with the money I'm spending now (single 48gb RAM Hetzner dedicated server) I wouldn't be able to run the same amount of stuff.
+If I was running a significantly greater amount of stuff or I had high-availability requirements, then this would change.
+
+#### Conclusion
+
+If I was starting from scratch, perhaps a light-weight container solution would have been worthwhile, as some services might be easier to provide using a container approach. Also perhaps setting up the automation/etc. would be easier and would give me some advantages.
+
+If I was running more services or had greater availability requirements, a cluster-ready solution like Kubernetes would probably be required.
+
+In my current situation, with the work already performed, I don't think investing more in containers is the most effective use of my limited resources.
+
 ## Possible improvements
 
 * Right now I execute backups in the Proliant, plugging in small USB HDDs. As I'm often away from flat 1, I'd like to re-do my backup scripts so I can plug in the USB drives in any system (e.g. my laptop, the Proliant in flat 1 or the Raspberry Pi on flat 2) and run the backup wherever I am.
