@@ -59,6 +59,7 @@ Ipsilon adds SAML for some applications which do not support Kerberos.
 ## Mail
 
 All systems are running Postfix configured to send emails through an account on my free G Suite account.
+This way I get notifications on failed cronjobs or automated updates.
 
 ## TLS
 
