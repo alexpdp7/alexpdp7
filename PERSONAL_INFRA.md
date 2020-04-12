@@ -92,7 +92,7 @@ I use an Ansible playbook using https://github.com/alexpdp7/ansible-puppet/ to r
 
 ### Software updates
 
-I use `yum-cron` on CentOS and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
+I use `yum-cron` on CentOS 7, `dnf-automatic` on CentOS 8 and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
 
 `ragent` monitors when Debian/Ubuntu systems need a reboot and warns me through Nagios.
 
