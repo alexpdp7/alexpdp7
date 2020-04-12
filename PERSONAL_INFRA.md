@@ -66,7 +66,7 @@ This way I get notifications on failed cronjobs or automated updates.
 I set up certificates using certbot-route53 on Ansible playbooks.
 DNS verification allows me to run TLS on non-reachable hosts.
 
-I run the playbooks from my workstation periodically.
+I run the playbooks from my workstation periodically to renew certificates.
 
 ## Monitoring
 
