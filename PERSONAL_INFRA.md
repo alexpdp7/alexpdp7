@@ -1,19 +1,18 @@
 # My personal infrastructure
 
-* OVH 2Gb RAM VPS running FreeIPA (also tinc/ocserv)
 * Hetzner auction server: 48Gb RAM, 2x2Tb HDD. Runs Proxmox, tinc/ocserv, Apache as reverse proxy
+  * LXC container running NextCloud
+  * LXC container running my WordPress blog
+  * LXC container running an acquaintances Twitter bot
+  * VM running Dokku, hosting a few personal apps
+  * VM running a Discourse forum
   * LXC container running FreeIPA replica
   * LXC container running Nagios
-  * LXC container running NextCloud
   * LXC container running Grafana
   * LXC container running Ipsilon
-  * LXC container running my WordPress blog
   * LXC container running PostgreSQL
   * LXC container running a workstation
   * LXC container running Gitolite
-  * LXC container running an acquaintances Twitter bot
-  * VM running a Discourse forum
-  * VM running Dokku
 * Flat 1
   * HP Proliant Microserver: 4Gb RAM, 2x4Tb HDD
     * DHCP/DNS
@@ -23,6 +22,7 @@
   * Raspberry Pi running LibreElec + TVHeadend, records to NFS share on HP server
 * Flat 2
   * Raspberry Pi running Raspbian, runs DHCP/DNS, tinc/ocserv
+* OVH 2Gb RAM VPS running FreeIPA (also tinc/ocserv)
 
 ## Networking
 
