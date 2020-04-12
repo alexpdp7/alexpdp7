@@ -72,8 +72,9 @@ I run the playbooks from my workstation periodically to renew certificates.
 
 I run Nagios monitoring all hosts and services.
 I get alerts for hosts and services being down.
-I monitor some stuff like Nextcloud updates using Nagios and cron jobs.
 I use https://github.com/alexpdp7/ragent as the monitor, which also means I get notifications when a host is updated and requires a reboot.
+
+To monitor certain things, such as FreeIPA, I set up cronjobs which run health checks and drop the output somewhere in `/var/www/html/*`, which then I check using check_http.
 
 I also run Netdata on many hosts, which I can access via a reverse proxy at https://netdata.mydomain/<hostname> with single sign on.
 
