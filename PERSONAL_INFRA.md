@@ -76,7 +76,7 @@ I use https://github.com/alexpdp7/ragent as the monitor, which also means I get 
 
 To monitor certain things, such as FreeIPA, I set up cronjobs which run health checks and drop the output somewhere in `/var/www/html/*`, which then I check using check_http.
 
-I also run Netdata on many hosts, which I can access via a reverse proxy at https://netdata.mydomain/<hostname> with single sign on.
+I also run Netdata on many hosts, which I can access via a reverse proxy at https://netdata.mydomain/$HOSTNAME with single sign on.
 
 ## Configuration management
 
