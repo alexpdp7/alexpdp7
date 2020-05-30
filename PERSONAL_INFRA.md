@@ -3,6 +3,8 @@
 * Hetzner auction server: 48Gb RAM, 2x2Tb HDD. Runs Proxmox, tinc/ocserv, Apache as reverse proxy
   * LXC container running NextCloud
   * LXC container running my WordPress blog
+  * LXC container running Miniflux
+  * LXC container running bitwarden_rs
   * LXC container running an acquaintances Twitter bot
   * VM running Dokku, hosting a few personal apps
   * VM running a Discourse forum
@@ -95,6 +97,10 @@ I use an Ansible playbook using https://github.com/alexpdp7/ansible-puppet/ to r
 I use `yum-cron` on CentOS 7, `dnf-automatic` on CentOS 8 and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
 
 `ragent` monitors when Debian/Ubuntu systems need a reboot and warns me through Nagios.
+
+### Packaging
+
+* https://github.com/alexpdp7/bitwarden_rs/tree/rpm
 
 ## Storage
 
