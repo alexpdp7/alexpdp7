@@ -7,7 +7,6 @@
   * LXC container running bitwarden_rs
   * LXC container running an acquaintances Twitter bot
   * VM running Dokku, hosting a few personal apps
-  * VM running a Discourse forum
   * LXC container running FreeIPA replica
   * LXC container running Nagios
   * LXC container running Grafana
@@ -146,12 +145,7 @@ Containerization has its advantages, so it's just an equation about how much you
 
 #### Some containerized things are special
 
-This is principally Discourse.
-Discourse does some unique weird Docker stuff, so it doesn't seem to be supported/straightforward to throw it into Kubernetes nor I feel comfortable running more containers in its host (I could do that, but still I wouldn't get uniform management as Discourse is managed in a non-standard way).
-
-Dokku is another thing which I feel is special. I could replace it wholesale with Kubernetes, I guess, but that would require more work as running Dokku is very simple (mostly because it lacks a lot of Kubernetes features, such as supporting multiple nodes).
-
-So elements like those affect the previous equation; they don't fit in the "generic container infrastructure" and thus reduce its benefit.
+Dokku is its own special system. It could be replaced completely with Kubernetes, but with additional complexity.
 
 #### Containerization infrastructure has its cost
 
@@ -175,7 +169,7 @@ In my current situation, with the work already performed, I don't think investin
 
 * Right now I execute backups in the Proliant, plugging in small USB HDDs. As I'm often away from flat 1, I'd like to re-do my backup scripts so I can plug in the USB drives in any system (e.g. my laptop, the Proliant in flat 1 or the Raspberry Pi on flat 2) and run the backup wherever I am.
 * Convert the Proliant to Proxmox so it uses ZFS (for even simpler backups and snapshotting) and the few misc services there can run isolated in LXC containers.
-* Find a way to run the stuff that relies on Docker (Dokku, Discourse) nested in an LXC container using ZFS in a "correct" way, so I can drop more VMs and have more density.
+* Investigate running Dokku in an LXC container or other alternatives to stop using VMs
 * Better sync'ing of user files. NextCloud out of the box only works on systems with a graphical interface. There are solutions to mount NextCloud using WebDav, but I prefer to do a sync (so if the server is down I still can access my files) and to run the client headless, but I prefer to stay within supported solutions. Probably syncthing would be a good solution for headless systems to sync dotfiles, etc.
 * Add a lab so I can experiment with things in isolated environments.
 * Set up SSO on my smartphone, perhaps do some MDM
