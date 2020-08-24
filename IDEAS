@@ -93,3 +93,9 @@ Streaming DB
 * Supports a limited SQL subset that can be easily reasoned about functional dependencies
 * Can stream efficiently the results of an SQL query (e.g. keep a query running and receive new/modified rows)
 * Supports efficient replication of a subset of a database (initial checkpoint + streaming or batched updates)
+* Functional dependencies could be used to create materialized views *and* indexes
+
+Key escrow for everyone
+
+* Easy-to-use key escrow/secret sharing
+* Provide emergency recovery of passwords, keys, 2FA, etc.
