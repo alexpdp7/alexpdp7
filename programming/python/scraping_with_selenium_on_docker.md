@@ -1,3 +1,11 @@
+Check that Docker is installed and your user can run Docker:
+
+```
+$ docker run --rm hello-world
+```
+
+Docker should print a success message, if not, review your Docker installation.
+
 Create a virtualenv and install `testcontainers` with `selenium` support:
 
 ```
