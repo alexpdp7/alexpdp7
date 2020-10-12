@@ -33,7 +33,7 @@ Use in code:
 from testcontainers import selenium
 from selenium.webdriver import DesiredCapabilities
 
-with BrowserWebDriverContainer(DesiredCapabilities.CHROME) as chrome:
+with selenium.BrowserWebDriverContainer(DesiredCapabilities.CHROME) as chrome:
     webdriver = chrome.get_driver()
     ...
 ```
