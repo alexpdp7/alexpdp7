@@ -99,3 +99,5 @@ Key escrow for everyone
 
 * Easy-to-use key escrow/secret sharing
 * Provide emergency recovery of passwords, keys, 2FA, etc.
+
+Deterministic embeddable simple language for calculator and notebooks
