@@ -7,3 +7,12 @@ $ pipx install md2gemini
 
 $ find md -name '*.md' -execdir md2gemini -l at-end -w '{}' ';' 
 $ find md -name "*.md" -delete
+
+$ ./fix.py
+$ ./build.py
+
+$ pipx install jetforce
+
+$ jetforce --dir build/gmi/
+
+$ amfora localhost:1965
