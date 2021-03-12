@@ -27,11 +27,9 @@ def fix():
                 content += f"{date}\n"
                 content += "\n".join(old_content_lines[separator_line + 1:])
 
-                import pdb; pdb.set_trace()
-
-#                print(new_dir, file)
-#                os.makedirs(new_dir, exist_ok=True)
-#                shutil.copyfile(, f"{new_dir}/{file}")
+                os.makedirs(new_dir, exist_ok=True)
+                with open(f"{new_dir}/{file}", "w") as new_file:
+                    new_file.write(content)
             else:
                 # FIXME
                 pass
