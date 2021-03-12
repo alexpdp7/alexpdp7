@@ -6,3 +6,4 @@ $ npx wordpress-export-to-markdown --input elblogesmo.WordPress.2021-03-12.xml -
 $ pipx install md2gemini
 
 $ find md -name '*.md' -execdir md2gemini -l at-end -w '{}' ';' 
+$ find md -name "*.md" -delete
