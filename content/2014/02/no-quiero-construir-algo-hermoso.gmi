@@ -1,0 +1,15 @@
+# NO quiero construir algo hermoso
+2014-02-02
+
+El proyecto con más estrellitas ahora mismo en Github[1] es el famoso Bootstrap (con más del doble de estrellas que su más inmediato perseguidor, jQuery), ese framework CSS *beautiful* y *awesome* que nos asegura que nuestra web tenga un aspecto único e individual como un extraordinario copo de nieve.
+
+Viendo esto, me entra la sensación de que de alguna manera hemos abandonado el pasado sombrío donde los proyectos de software fracasan a raudales, que se pasan en costes y tiempos y que no tienen la mitad de la funcionalidad que requieren sus usuarios. Que encontrar la perfecta combinación de iconos, tipografías y widgets es la mayor preocupación ahora mismo- el backend es un problema resuelto y el frontend es donde tenemos que enfocar nuestros esfuerzos.
+
+O eso, o somos seres simples e importar Bootstrap en nuestro proyecto (¡oh, no, perdón! Usar un framework que nos trae Bootstrap y media docena de *opinionated awesomeness* en una simple operación) y asegurarnos que todo tenga un borde redondeado es más entretenido y fácil que poner una funcionalidad de búsqueda en nuestra aplicación que sirva de algo. Implementar un wireframe de un autoproclamado experto en UI/UX nos dará mucha más usabilidad que asegurarnos que nuestro interfaz reporte errores al usuario de una manera clara y entendible.
+
+Es una preocupante tendencia ahora mismo dedicar unas cantidades desproporcionadas de tiempo a la parte visual en detrimento de hacer cosas que funcionen, sean robustas y rápidas. Nuestra web cargará a toda pastilla en nuestra conexión de fibra con el flamante y bonito portátil recién estrenado- ¿a quién le importa el tipo que tira de 3G con un móvil de hace un par de años? Estamos lejos aún de que el desarrollo de hasta aplicaciones moderadamente simples sea rápido, eficiente y barato, pero hemos pulido hasta el infinito las técnicas para darle un bonito aspecto.
+
+Sé perfectamente que soy un caso extremo- el CSS de este blog son 20 líneas (y son 20 líneas más de las que me gustarían), y hasta hace poco tenía un sistema en producción moderadamente popular cuyo backend tenía **0** CSS (de cuya austeridad, por cierto, en una empresa artística, no se quejaba nadie). Soy consciente de la necesidad de vender y que la apariencia es una de las claves para ello, pero me temo que en 10 o 20 años nos preguntaremos por qué narices le dedicamos tanto tiempo a inflar la burbuja y no dedicarnos a resolver los problemas de verdad.
+
+
+=> https://github.com/search?o=desc&amp;q=stars%3A%3E1&amp;s=stars&amp;type=Repositories 1: https://github.com/search?o=desc&amp;q=stars%3A%3E1&amp;s=stars&amp;type=Repositories

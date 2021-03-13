@@ -1,0 +1,43 @@
+# ¿Qué es el RPC?
+2012-11-28
+
+Aunque ciertos conceptos de programación son más viejos que yo, hay ciertas técnicas muy potentes que son desconocidas o ignoradas por mucha (demasiada) gente.
+
+A principios de los 80 (la Wikipedia cita un RFC de 1975 y, cómo no, Xerox) se hizo la formulación obvia que la comunicación entre sistemas se podía modelar como una llana y simple llamada a una función que se ejecuta en otro sistema y nos devuelve el valor.
+
+El mecanismo que se utilice para ello debe ser irrelevante, nosotros sólo queremos ser capaces de escribir:
+
+> resultado = suma(a,b)
+y que la suma se realice en el sistema remoto. A esto le llamaron llamada de procedimiento remoto o Remote Procedure Call en inglés.
+
+Sun implementó uno de los primeros sistemas de RPC para implementar el sistema de archivos distribuido NFS, y a lo largo del tiempo han ido apareciendo diferentes mecanismos de RPC para diferentes plataformas y necesidades.
+
+Con la popularización de la WWW, el protocolo HTTP y Javascript en los 90, pronto la gente comenzó a implementar comunicaciones entre sistema utilizándolos. Por ejemplo, una web podía exponer algunos de sus contenidos y funcionalidades en HTML para consumo humano, pero también exponerlos para consumo de otros sistemas. Mecanismos simples como poner una URL en la que si hacemos un POST http con unos argumentos, nos devuelve el resultado de una operación en un formato fácilmente parseable.
+
+Pronto, uno de los padres fundadores del HTTP, procesó los principios fundamentales del HTTP y la WWW, en concreto que todo era una cuestión de URLs y acciones como GET/POST/PUT/DELETE que soporta el protocolo HTTP; cada URL representa un recurso y podemos expresar acciones mediante los "verbos" HTTP. A esto le llamó REST y supuso una perspectiva limpia y poderosa de lo que es la WWW.
+
+De allí se pasó a los RESTful Web Services, maneras de exponer servicios en Internet utilizando los principios del REST.
+
+Típicamente, los desarrolladores de servicios web utilizan técnicas similares a las del desarrollo de aplicaciones web para publicar servicios REST, y los desarrolladores de servicio ejecutan las llamadas HTTP correspondientes para utilizarlos. Los formatos se intercambian en cualquier formato de intercambio de datos; desde texto plano, a XML u otros formatos como JSON, YAML o lo que se le ocurra la persona, teniendo que codificarse en origen y decodificarse e interpretarse en destino.
+
+Pero paralelamente, otros desarrolladores recordaron el RPC y desarrollaron sistemas de RPC sobre HTTP. Uno de los primeros fue XMLRPC, que posteriormente evolucionaría hacia el denostado SOAP. Muchas implementaciones de RPC sobre HTTP inicialmente eran malas; en parte por ser nuevas y primitivas, pero principalmente por la interoperabilidad. Mucho RPC anterior era entre sistemas muy homogénenos, con el mismo lenguaje en cliente y en servidor y desarrollados por las mismas personas, pero en el mundo de la WWW, son comunes entornos más heterogéneos, con lo que el RPC es mucho menos sencillo; diferentes modelos de datos y convenciones en cada extremo de la comunicación trae muchas dificultades y muchos RPC primitivos tenían grandes problemas de interoperabilidad.
+
+La visión de la transparencia entre sistemas no se daba. A veces, incluso, utilizando el mismo lenguaje pero diferentes implementaciones del mismo protocolo se tenían muchos problemas.
+
+Queda claro que una idea, por buena que sea, está limitada por sus implementaciones, y el pobre estado de los RPC sobre http ha impulsado muchísimo el uso de REST en vez de RPC. Eso es malo, porque en general REST te da más trabajo que RPC; mientras que en REST uno debe definir el formato de datos de intercambio e implementar la codificación y decodificación de estos, los mecanismos RPC realizan todo el trabajo sucio sin que el programador se tenga que preocupar de nada.
+
+Además, para invocar un servicio REST, simplemente has de usar las librerías de HTTP y de codificación que hayas escogido (parseo de texto plano, XML, JSON, etc.); con un sistema de RPC has de aprender a usar la librería, que si bien te puede ahorrar código, es más complicada conceptualmente.
+
+Esto llevó a que SOAP fuese condenado por gran parte del mercado (la interoperabilidad era siempre problemática, las librerías complejas, etc.) y el REST se popularizase mucho e incluso fuese en la práctica la mejor opción en muchos casos.
+
+Sin embargo, el RPC ha avanzado mucho. Disponemos de librerías decentes de SOAP, XML-RPC y otros protocolos como JSON-RPC para la mayoría de lenguajes, y hoy en día ya no me sorprende consumir un servicio implementado en un lenguaje desde otro sin ningún problema.
+
+Por otra parte, gente como Facebook y Google han inventado protocolos nuevos que son decididamente interoperables y multilenguaje, como Thrift de Facebook (ahora Apache) y los protobuf, que resuelven el RPC de una manera limpia y eficiente.
+
+Con RPC nos podemos ahorrar mucho código repetitivo de comunicación que supone REST, con el consiguiente aumento de productividad.
+
+¿Deja de tener sentido REST y sólo debemos comunicarnos mediante mecanismos RPC, por tanto?
+
+No, desde luego que no. Aún pueden existir problemas de interoperabilidad entre algunas plataformas poco populares, o los mecanismos de RPC puede que no sean buenos. REST es siempre un mínimo común denominador y la verdadera manera de asegurarnos que nuestros servicios pueden ser utilizados universalmente- incluso yo recomendaría que aunque implementemos RPC, ofrezcamos también REST para quien no pueda utilizarlo (recordemos igualmente que puede ser sencillo exponer un mismo servicio tanto con XML-RPC, como con JSON-RPC simultáneamente sin mucho esfuerzo, ampliando horizontes), y REST sigue siendo útil para exploración y "descubribilidad".
+
+Pero, cuando sea posible y adecuado, ahorrémonos escribir código de más.

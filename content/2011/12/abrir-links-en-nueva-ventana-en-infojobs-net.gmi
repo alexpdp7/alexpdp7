@@ -1,0 +1,29 @@
+# Abrir links en nueva ventana en infojobs.net
+2011-12-06
+
+Si estáis hasta las narices de que no podáis usar el botón de la ruedecita para abrir ofertas de trabajo en una ventana nueva en infojobs.net[1], el siguiente script de Greasemonkey[2] os puede ser útil:
+
+> // ==UserScript==
+> // @name       Open in new tab in Infojobs
+> // @namespace  http://use.i.E.your.homepage/[3]
+> // @version    0.1
+> // @description  enter something useful
+> // @include    http://www.infojobs.net/jobsearch/search-results/list.xhtml[4]
+> // @include    https://www.infojobs.net/jobsearch/search-results/list.xhtml[5]
+> // @copyright  2011+, You
+> // ==/UserScript==
+> 
+> window.setInterval(function() {
+> unsafeWindow.jQuery("[id^='table_results_offer']").each(function() { this.onclick = null; })
+> }, 1000);
+Yo lo uso en Chrome con Tampermonkey[6]. Es cutre y nada correcto, pero funciona.
+
+actualización: pongo la URL https:// en el @include para que también funcione si te has identificado en Infojobs.
+
+
+=> http://www.infojobs.net/ 1: http://www.infojobs.net/
+=> https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ 2: https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
+=> http://use.i.E.your.homepage/ 3: http://use.i.E.your.homepage/
+=> http://www.infojobs.net/jobsearch/search-results/list.xhtml 4: http://www.infojobs.net/jobsearch/search-results/list.xhtml
+=> https://www.infojobs.net/jobsearch/search-results/list.xhtml 5: https://www.infojobs.net/jobsearch/search-results/list.xhtml
+=> https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo 6: https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo

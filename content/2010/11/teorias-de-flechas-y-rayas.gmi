@@ -1,0 +1,7 @@
+# Teorías de flechas y rayas
+2010-11-02
+
+Una nota mental: yEd es un editor de diagramas fantástico[1].
+
+
+=> http://www.yworks.com/en/products_yed_about.html 1: http://www.yworks.com/en/products_yed_about.html

@@ -1,0 +1,17 @@
+# ¿Eje de payos?
+2011-11-11
+
+Me he abierto una cuenta de GitHub[1]... De momento no hay nada útil, pero enumero:
+
+* https://github.com/alexpdp7/best-practices[2][3]: ejemplos de programación (de momento, creación de web service invocado mediante JSON-RPC en Java con Spring (variante Java Config, esto es, con muy poquitos XML)
+* https://github.com/alexpdp7/anoqa[4][5]: un proyecto en el que estoy experimentando (publicación de encuestas y extracción de estadísticas), de momento en pañales.
+* https://github.com/alexpdp7/f1.prediction[6][7]: código en pañales para automatizar las porras de Formula 1 al estilo del extinto F1 Wolf. De momento tiene un extractor de datos de la Wikipedia a una base de datos SQL.
+
+
+=> https://github.com/alexpdp7/ 1: https://github.com/alexpdp7/
+=> https://github.com/alexpdp7/best-practices 2: https://github.com/alexpdp7/best-practices
+=> https://github.com/alexpdp7/best-practices 3: https://github.com/alexpdp7/best-practices
+=> https://github.com/alexpdp7/anoqa 4: https://github.com/alexpdp7/anoqa
+=> https://github.com/alexpdp7/anoqa 5: https://github.com/alexpdp7/anoqa
+=> https://github.com/alexpdp7/f1.prediction 6: https://github.com/alexpdp7/f1.prediction
+=> https://github.com/alexpdp7/f1.prediction 7: https://github.com/alexpdp7/f1.prediction

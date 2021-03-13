@@ -1,0 +1,11 @@
+# Emulando a la mula
+2020-09-08
+
+Podría ser que la segunda versión del protocolo BitTorrent resolviese el mayor defecto que le veo.
+
+https://blog.libtorrent.org/2020/09/bittorrent-v2/[1]
+
+Parece que se podrán "sembrar" archivos independientemente de su torrent; es decir, que si un archivo es común a varios torrents, sembrar uno de esos torrents sería efectivo para todos los torrents con el mismo archivo. Y quizá podríamos sembrar archivos en bloque.
+
+
+=> https://blog.libtorrent.org/2020/09/bittorrent-v2/ 1: https://blog.libtorrent.org/2020/09/bittorrent-v2/

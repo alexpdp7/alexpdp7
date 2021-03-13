@@ -1,0 +1,20 @@
+# Google Apps es de pago
+2013-02-20
+
+(llego muy tarde a esto, disculpas)
+
+Hace mucho mucho tiempo, Google sacó Google Apps con su edición gratuita. Nos daba una posibilidad de usar las aplicaciones de Google (GMail, Docs [ahora Drive], etc.), bajo un dominio propio y con administración centralizada de usuarios. ¡Y gratis!
+
+Y hubo gran regocijo y cantidad de gente con dominio propio se hizo la cuenta gratuita, migró su correo y demás a Apps (perdiendo datos o con gran trabajo- yo tengo pesadillas de cuando pasé mis estrellitas de Google Reader...) y contempló maravillada la nueva realidad.
+
+Inicialmente, Apps era gratuito hasta 25 usuarios, y a parte de ese límite, las características de la versión de pago no eran tan atractivas (si no recuerdo mal, más espacio, herramientas para migrar correo e integración con directorios, básicamente). Naturalmente, no sólo particulares se hicieron esto sino que empresas (sospecho que **muchas**) se pasaron a Google Apps.
+
+Puedo entender la frustración que sintieron en Google al comprobar cómo empresas con ingresos para las que tendría todo el sentido del mundo contratar la versión de pago por un coste ínfimo (40€/usuario/año es ridiculo comparado con, pongamos, lo que cuesta el empleado- imaginad como os sentiríais si os aumentasen en 40€ el sueldo bruto anual...), utilizaban la versión gratuita (que Google vendía como para pequeñas asociaciones, familias y otras entidades no precisamente con ánimo de lucro). Obviamente no se trata de nada ilegal, e incluso si pensamos que Google es una empresa enorme con unos beneficios inimaginables, podemos defender que no se trata de algo inmoral siquiera... pero insisto, puedo comprenderles.
+
+Así pues, fueron recortando. La versión gratuita se iba ocultando más y más, luego se redujo el límite de 25 a 10 usuarios y finalmente, se eliminó completamente.
+
+Dos apuntes:
+
+Uno, es posible que las empresas que "abusaron" (insisto en las comillas), hayan hecho que los verdaderos destinatarios del invento lo hayan perdido.
+
+Dos, para los friquis que lo echamos de menos... ¿realmente aporta tanto? Lo más visible es el dominio personalizado para los emails, pero con las opciones de accounts y forwarding, se puede simular bastante bien con el GMail tradicional. La gestión centralizada de usuarios... vaya, si la necesitas es porque tienes bastantes usuarios (probablemente, más de 25).

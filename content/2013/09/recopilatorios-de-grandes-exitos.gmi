@@ -1,0 +1,32 @@
+# Recopilatorios de grandes éxitos
+2013-09-14
+
+Indudablemente, una de las asignaturas coco de cuando yo estudiaba informática era Compiladores- compis, para los amigos. No porque hubiese una tonelada de apuntes que memorizar, ni porque los profesores fuesen particularmente estrictos sino porque, simplemente, era tremendamente complicada.
+
+Implementar un lenguaje de programación es seguramente una de las labores más complicadas que hay en el campo de la programación pura.  Tanto intérpretes como compiladores son fieras complejas que necesitan el uso de técnicas bastante sofisticadas para poder ser programadas efectivamente.
+
+Tanto intérpretes como compiladores tienen que leer los programas escritos en su lenguaje- algo no trivial que en general se resuelve usando herramientas descendientes de los venerables lex[1] y yacc[2]; que en conjunto convierten una descripción de un lenguaje (un listado y definición de los átomos del lenguaje; palabras clave, separadores, sintaxis de literales, etc.; y una descripción de cómo se combinan para formar las estructuras del lenguaje) y que típicamente generan código en el que incrustamos nuestro compilador e intérprete.
+
+Estas herramientas, básicas para el desarrollo, no son tampoco precisamente simples. Definir gramáticas de lenguajes es algo que se complica rápidamente- si no estamos hablando de lenguajes simples, no es sencillo encontrar una sintaxis y gramática no ambigua y, curiosamente, que no sea exponencialmente compleja de procesar. Lenguajes como C++ y Perl son notorios por sus particularmente enrevesadas gramáticas- en ambos casos son de tal complejidad que ellas mismas son, en cierta manera, lenguajes de programación.
+
+Una vez podemos tenemos un mecanismo que nos permite pasar del código fuente de nuestro lenguaje a algo tratable por un programa (que es aún más complicado de lo que hemos descrito, ya que las herramientas comentadas, a parte de su complejidad teórica, nos plantean dificultades prácticas porque suelen ser, en general, bastante inaccesibles y poco amistosas), nos queda lo peor.
+
+Los intérpretes deben, como su nombre indica, interpretar el código ya dispuesto en una estructura tratable (aunque probablemente compleja) y ejecutarlo. Para ello, debemos coger la representación del código e ir ejecutándolo paso a paso igual que haríamos si quisiesemos verificar la ejecución del código manualmente. Esto tampoco es sencillo, ya que características del lenguaje tales como los distintos alcances de los identificadores, los sistemas de objetos, la comprobación de tipos, etc. son en general problemas de por sí complejos.
+
+Pero quizás el hueso más duro de roer es la compilación. En un problema algo relacionado con la traducción de lenguaje natural, un compilador debe coger el código una vez procesado y presentado de una manera estructurada y convertirlo en código de otro lenguaje. Esto, tal como es la traducción de lenguaje natural, es harto difícil.
+
+En general, los compiladores suelen ser de lenguajes de mayor nivel a menor nivel; solía ser que los lenguajes se compilaban directamente al lenguaje ensamblador propio de las CPU- lenguaje ensamblador que es mucho más simple, poco expresivo y limitado que la mayoría de lenguajes de alto nivel, y por tanto esta traducción es compleja- en cierta manera debemos coger Dublineses y explicarlo de manera que un niño de cuatro años pueda entenderlo perfectamente.
+
+En estos casos, la cosa se suele complicar mucho más porque una implementación naíf de un compilador a ensamblador suele redundar en programas que al ejecutarse son espectacularmente ineficientes. Conseguir ejecutables eficientes es un problema completo en sí mismo sobre el que se han escrito toneladas de libros.
+
+Sin embargo, recientemente son más habituales los compiladores que compilan lenguajes a cosas que no son ensamblador- por diversos motivos entre los que destaca que un compilador a ensamblador sólo es útil para una familia de CPUs, y pese a que la familia x86 de Intel y los ARM copan la mayor parte del mercado, sigue habiendo muchos otros procesadores en uso hoy en día. Por otra parte, plataformas como la máquina virtual Java, LLVM o incluso Javascript también son populares como destinos de los compiladores- en el caso de Java o LLVM por ser más simples para la generación de código sin sacrificar eficiencia, y en el caso de Javascript, por ser un destino particularmente útil ya que nos permite ejecutar el código compilado en un navegador.
+
+Tanto la JVM como la LLVM han sido diseñadas especialmente para este propósito, con lo que tienden a simplificarnos el proceso de compilación. En el caso de Javascript, pese a estar pensado con otros propósitos, proyectos como GWT o Emscripten han hecho grandes esfuerzos para hacer funcionar compiladores sobre Javascript. Mozilla incluso ha lanzado la iniciativa asm.js para definir un subconjunto de Javascript que sea práctico como plataforma a la que compilar de una manera eficiente.
+
+El proceso no se queda aquí, ya que una vez tenemos un lenguaje funcional con intérprete o compilador, siempre hay un interés en acelerarlo- tanto el proceso de compilación como la ejecución de los programas. Una vez más, se trata de un área complicada y sutilezas- se han llegado a técnicas extremadamente sofisticadas que incluso "aprenden" de la ejecución del programa y modifican su funci0namiento para adaptarse y mejorar "en vivo".
+
+Como decíamos, una de las áreas de la informática pura más complejas y duras. Si bien en inteligencia artificial, bases de datos, proceso de imágen, etc. existen problemas duros, no suelen ser tan duros en cuanto a programación, sino a las matemáticas y otras áreas no estrictamente informáticas que tocan. También en programación empresarial existen sistemas extraordinariamente complejos, pero en este caso suelen serlo por el tamaño y la cantidad de entidades y conceptos interactuando entre sí del negocio. Pero son los compiladores probablemente una de las hazañas de programación más sofisticadas que hay y, así mismo, primordial para la programación en sí.
+
+
+=> http://en.wikipedia.org/wiki/Lex_programming_tool 1: http://en.wikipedia.org/wiki/Lex_programming_tool
+=> http://en.wikipedia.org/wiki/Yacc 2: http://en.wikipedia.org/wiki/Yacc

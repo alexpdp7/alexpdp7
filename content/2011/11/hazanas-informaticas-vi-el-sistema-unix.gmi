@@ -1,0 +1,27 @@
+# Hazañas informáticas VI: el sistema UNIX
+2011-11-16
+
+Si habéis estado siguiendo esta serie de artículos[1], habréis podido percibir un notable patrón- los sujetos de los que hablo no suelen ser muy recientes. Internet se conoce como tal desde el 82, el modelo relacional se formuló en el 69, las funciones hash aparecen mencionadas en una publicación en el 53, el sistema RSA data del 78 y las máquina de Turing y von Neumann son de allá por los años 40.
+
+Es decir, la hazaña informática más jovencita es más vieja que yo con sus 33 años de edad. Pero ninguna de ellas está obsoleta- es más, todas ellas siguen vigentes y es posible que algunas sobrevivan más de un siglo (sólo es posible que el criptosistema RSA quede obsoleto si algún día la computación cuántica resulta práctica- aunque con toda probabilidad sea reemplazado por un criptosistema de clave pública similar).
+
+El que hoy nos ocupa es otro jovenzuelo- el sistema operativo UNIX nació en 1970 en un laboratorio de Bell Labs, como sistema operativo para un videojuego implementado por un equipo de programadores aburridos en el proyecto Multics. Con el pretexto de adaptarlo para el procesado de textos, Thompson, Ritchie, Kernighan, McIlroy y Ossanna asentaron una de las dos familias de sistemas operativos que aún hoy pervive con cierta popularidad (la otra sería la familia de los 360 de IBM, que es más antigua aún).
+
+UNIX se basa en conceptos sencillos- se implementa usando el lenguaje C (hijo del recientemente fallecido Ritchie) portable, simple y eficiente en un momento en que los sistemas operativos se implementaban directamente sobre el procesador, ligándolos al hardware para el cuál estaban diseñados y dificultando su desarrollo; un sistema de archivos jerárquico, cualidades de multiusuario y multitarea... todos ellos conceptos imprescindibles hoy en día. Además, introduce la filosofía Unix de programas pequeños comunicándose entre ellos- haciéndolo extremadamente versátil pero simple, una cualidad vital para ser extremadamente apropiado para gente como los programadores.
+
+Pero más allá de ello, UNIX fue "pionero" en el hecho de que su código (junto con el de los compiladores del lenguaje C) fueran distribuidos libremente- la condena de las prácticas monopolísticas de AT&T impedían su comercialización y por contra forzaban a distribuirlo a quien lo pidiera. Si hoy en día es increíblemente costoso desarrollar un sistema operativo, en esa época primitiva, lo era aún más; y los sistemas operativos de la época eran por tanto costosos y, al ser no portables, sólo funcionaban en un determinado tipo de hardware. La distribución de Unix, por tanto, permitía a cualquiera aprovechar su código, adaptarlo al hardware que tenían y disponer de un sistema operativo potente por un coste relativamente bajo.
+
+Lógicamente, mucha gente se sumó al carro- compañías comerciales que lo usaron o incluso lo extendieron y comercializaron (HP, Solaris, IBM, etc.; hasta Microsoft comercializaba su propio Unix hasta el 89). Pero el desarrollo quizás más importante se dio en universidades, particularmente en la de Berkeley en California. En el 83 AT&T quedó liberada de los corsés antimonopolistas y pudo comercializar Unix, movimiento con el cual los Unix no comerciales, y en especial el de Berkeley comenzaron a cobrar importancia, ya que eran los únicos que quedaban como libremente distribuibles.
+
+Los sistemas comerciales siguieron su camino y perduran hasta nuestros días; HPUX, AIX y especialmente Solaris aún son moderadamente populares, sobre todo en grandes entornos comerciales de computación.
+
+Por otra parte, los sistemas académicos también siguieron su evolución paralela.  Del código de Berkeley surgieron sistemas operativos como NetBSD, FreeBSD y OpenBSD- el BSD es de Berkeley Software Distribution- y el nucleo de Darwin que está en las entrañas de Mac OS X (y según dice Apple, el iOS del iPhone, iPod Touch e iPad) es también un "BSD".
+
+En los 90, un estudiante de informática finlandés, frustrado por no disponer de un sistema operativo Unix viable para ordenadores personales (que en aquel entonces eran básicamente Ataris, Amigas, Macs y PCs con MS/DOS y Windows), desarrolló un sistema operativo estilo Unix, aprovechando las herramientas GNU; algo que acabo dando luz a Linux (o GNU/Linux).
+
+Llegando hasta hoy, los Unix comerciales siguen teniendo su importancia en entornos empresariales- Linux y los BSD libres han ganado una gran importancia, OS X es el segundo sistema operativo para ordenadores personales más popular; en el ámbito móvil, Android se basa en Linux y según dice Apple, el iOS del iPhone también, con lo que en realidad, gran parte de los ordenadores de hoy en día son "Unix"- las excepciones más notables son Windows, los sistemas operativos de los mainframes (básicamente los de IBM descendientes de la serie 360) y los sistemas operativos de móviles que no son Android ni iOS (Blackberry está transicionando de su sistema operativo a QNX [un Unix], Nokia aún conserva su Series 40 para móviles de bajo coste y está matando Symbian...).
+
+El mérito de Unix radica en simplemente eso- su sencillez y claridad de conceptos inicial han perdurado hasta nuestros días- siendo difícil la valoración de su repercusión frente a la serie 360, pero claramente siendo uno de los desarrollos informáticos más significativos de la historia de la computación.
+
+
+=> http://alex.corcoles.net/categoria/series/hazanas-informaticas/ 1: http://alex.corcoles.net/categoria/series/hazanas-informaticas/

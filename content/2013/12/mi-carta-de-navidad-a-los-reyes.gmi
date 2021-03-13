@@ -1,0 +1,46 @@
+# Mi carta de navidad a los reyes
+2013-12-28
+
+Mi querida Blackberry 9780 cada día está un paso más cerca de la muerte, y con ello se repite insistentemente la pregunta... ¿y cuando muera, qué?
+
+Pues lo que quiero es:
+
+1. El formato Blackberry Bold. Quiero un teclado físico. He tecleado y tecleado en pantallas táctiles y sigue siendo un agobio. No sólo porque soy perceptiblemente más lento, sino porque es frustrante. Tampoco quiero un móvil enorme. Suelo llevar el teléfono en el bolsillo de los pantalones y no quiero chistes sobre estar contento de ver a nadie. La pequeña pantalla de mi Bold (2,44") nunca me ha supuesto un impedimento para nada.
+
+Un slider QWERTY sería aceptable, pero es mucho, mucho más preferible "candybar"
+
+
+2. También quiero un touchpad táctil. Insisto, no me gustan las pantallas táctiles. El touchpad de la Bold es fantástico para seleccionar texto y mover cursor- cortar y pegar es un sufrimiento en una pantalla táctil, pero ágil y rápido con el touchpad.
+
+
+3. Android. Los sistemas operativos de Blackberry están muertos. Soy bastante de ecosistema Google (GMail, Google Calendar, etc. sobre Google Apps) y sus servicios cada vez van peor sobre Blackberry. No soy muy de apps, pero necesito el mínimo imprescindible
+
+
+4. Pero con atajos de teclado. Dada la falta de Androids QWERTY, no estoy seguro que estén muy soportados. Comenzar a teclear algo para buscar contactos desde la home, teclitas para responder y borrar rápido mails, espacio y shift-espacio para paginar en el navegador, t y b para saltar al principio y final de algo (¡imprescindible para páginas web!)... son cosas que te hacen mucho más ágil.
+
+
+5. Batería, batería, batería. Quiero un móvil que sólo necesite cargarse durante la noche. Dado que he pedido una pantalla pequeña (y un móvil comparativamente grande), no debería ser complicado. Soy fan de las baterías intercambiables, pero si el móvil puede vivir años y conservar la batería para aguantar un día de uso intenso, puedo renunciar a ello.
+
+Mi Blackberry inicialmente lo soportaba todo muy bien, pero mis patrones de uso (hasta 2h de uso intenso diario en el metro con mala cobertura, casa y trabajo con zonas de baja cobertura, etc.) pueden con todo
+
+
+6. RAM. Creo que cuando los móviles lleven 4Gb de RAM el mundo será un lugar mejor. Mi Netbook con 1Gb de RAM aguanta todo lo que le echen, lo cual me lleva a pensar que aún queda optimización de memoria en los sistemas operativos móviles (pendientes siempre de ver cómo tira Kit Kat en dispositivos de poca memoria). Quiero tener varias aplicaciones abiertas y muchas pestañas de navegador sin que se cierren por falta de memoria
+
+
+7. CPU/optimización. Como todo el mundo, quiero una experiencia de usuario suave. Sobre todo, cambio de aplicación rápido, navegador rápido y pocas pausas.
+
+
+8. Cámara. Con 5mpx, autofocus y flash me conformo. Pero que sea rápida. Quiero meter la mano en el bolsillo, sacar el móvil y sacar una foto ágilmente. Quiero un enfoque rápido. Mi gata no se está quieta.
+
+
+9. Conectividad. Pues yo con 3G y wifi mínimo ya hago
+
+
+10. Control remoto. El día que pueda instalar un software en los ordenadores que uso (Linux, básicamente) y cuando el móvil esté en la misma wifi (por 3G/bluetooth también molaría), me aparezcan las notificaciones del móvil en el ordenador, pueda hacer clic y tener control remoto del móvil, seré feliz (y compensará un poco deficiencias en el siguiente punto). Si el móvil comparte su sistema de archivos por SMB, de manera que puedo entrar en él desde el PC y gestionar archivos, ya será la leche.
+
+
+11. Mensajería instantánea. Quiero un sistema de mensajería eficaz. Pensado para móvil (notificaciones de entrega, robustez, estilo Whatsapp/BBM), pero multidispositivo (e.g. si atiendes una notificación en el escritorio, desaparece del móvil; paso fluido de conversación de dispositivo a dispositivo, etc.). Si es abierto y puedo tenerlo como plugin de Pidgin y en versión web, ya sería la releche. Por supuesto, un punto clave es que sea popular.
+
+
+
+¿Tanto pido? ¿Nadie se animará a hacer un kickstarter para fabricármelo?

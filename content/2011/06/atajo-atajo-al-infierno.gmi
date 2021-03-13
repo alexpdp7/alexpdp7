@@ -1,0 +1,9 @@
+# Atajo al infierno
+2011-06-22
+
+Me falta uno de esos sesudos artículos de investigación que analicen el coste en productividad perdido por las siguientes dos combinaciones de teclas:
+
+* alt+mayúsculas: en un Windows español por defecto, alterna entre la disposición de teclado española y la americana. Resultado: los acentos y muchas otras teclas "no funcionan" y no es obvio averiguar por qué.
+* control+alt+cursor: con drivers de tarjeta gráfica de Intel, gira la pantalla. Resultado: el texto de la pantalla de lado o boca abajo, haciendo bastante complicado la lectura de la pantalla y el manejo del ratón, dificultando bastante deshacer el cambio
+
+¿Sería tan complicado que por defecto estas teclas no hicieran nada o pidieran confirmación la primera vez que se utilizan? Son completamente inútiles para la mayoría de los usuarios, sólo sirven para que el informático presuma...

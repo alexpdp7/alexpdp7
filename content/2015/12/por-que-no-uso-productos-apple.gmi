@@ -1,0 +1,48 @@
+# Por qué no uso productos Apple
+2015-12-19
+
+En un mundo en el que el iPhone es el modelo de teléfono más vendido y parece que una inmensa cantidad de desarrolladores de software utiliza ordenadores Apple, a veces uno se siente necesitado de justificar por qué no usa ningún producto de esta compañía. Aquí va, para facilidad de referencia.
+
+## La censura no mola
+
+Apple desea controlar lo que el usuario de sus dispositivos puede ver y no ver. El ejemplo más claro es la prohibición de pornografía en la App Store. Si bien es su tienda y pueden poner sus reglas, y puede parecer una política respetable, sigue siendo censura y control. Me parece perfecto que se etiqueten los contenidos que pueden ser malignos (obviamente no digo que la industria pornográfica sea un nido de virtud, más bien al contrario) e incluso los que puedan ofender la sensibilidad de unos pocos- y incluso creo que es levemente defendible que el responsable de un menor pueda intentar bloquear el acceso de ciertos materiales a éste [aunque personalmente no esté de acuerdo], pero estoy firmemente opuesto a que una empresa intente restringir lo que puedo hacer con su dispositivo.
+
+Entiendo que los dispositivos iOS disponen de navegadores que hacen que estas restricciones sean más bien un brindis al sol, pero temo que Apple no haya extendido estas restricciones a la totalidad del dispositivo no por falta de ganas sino por la imposibilidad de hacerlo.
+
+Si bien los inicios de la censura suelen ser por motivos loables, el uso de ella es incorrecto de por sí por más de acuerdo que podemos estar con la indeseabilidad del material bloqueado, ya que la voluntad de usar la censura se extiende fácilmente a otros materiales cuya indeseabilidad es mucho más relativa o incluso incorrecta. El hecho de que dispongamos alternativas que nos permitan sortear esta censura tampoco las justifica- la censura es malvada y la única manera de que avance es cortándola de raíz antes de que sea inevitable.
+
+## La libertad de desarrollo
+
+Como desarrollador de software, creo que los dispositivos programables son uno de los grandes avances de la humanidad, quizá no a la altura del agua corriente o la higiene, pero sin duda con el potencial de hacer del mundo un lugar mejor. Recuerdo con cariño el Commodore 64 de mi infancia que arrancaba directamente a un interprete de BASIC y que permitía distribuir el software que uno mismo desarrollaba grabándolo en una cinta de cassette de coste mínimo.
+
+Si bien los ordenadores Apple con OS X hasta vienen con herramientas de desarrollo incluidas, la punta de lanza de Apple son sus dispositivos más vendidos, los que usan iOS donde la situación de desarrollo es totalmente diferente. Para desplegar las aplicaciones que desarrollamos sobre hasta 100 iPhones, debemos ser desarrolladores registrados por Apple, lo que tiene un coste y requiere aprobación (dudo mucho que rechacen muchas solicitudes, pero aún así, pueden hacerlo). Si queremos que use nuestro software más de 100 personas, debemos pasar inevitablemente por la App Store y que Apple examine y apruebe nuestra aplicación.
+
+Es decir, no podemos desarrollar software para iPhone y que sea usado por más de 100 personas si este software no es del agrado de Apple- según unos criterios que además son poco transparentes- para lo cual deben tener acceso completo a él.
+
+Esta restricción de la libertad de desarrollo de software me parece completamente draconiana e inaceptable- y extremadamente dañina si se extendiese, por lo cuál una vez más creo que debe ser cortada de raíz.
+
+## Apple ya tiene suficiente dinero
+
+Apple gana mucho dinero. Muchísimo. Tiene un margen comercial más amplio que sus competidores. A igualdad de condiciones, si la empresa A tiene un margen del 15% y la empresa B tiene un margen del 30%, voy a comprar el producto de la empresa A. Si bien la eficiencia en la producción de Apple muchas veces significa que los precios de Apple son competitivos (durante mucho tiempo, el Macbook Air de 13" era imbatible en calidad/precio, y sigue dando mucha guerra), en muchas ocasiones los precios de Apple coloca a sus productos en el segmento de lujo que yo no puedo justificar.
+
+## Apariencia sobre utilidad
+
+Con la famosa batería del iPhone, el cargador del Magic Mouse y el lapiz del iPad Pro, últimamente se hace mucho cachondeo sobre la supuesta caída en picado del diseño de Apple. La verdad, no creo que sea algo nuevo.
+
+Hace mucho, mucho tiempo que me compré mi primer producto Apple, un Mighty Mouse  que en vez de ruedecilla tenía una bolita que permitía hacer scroll en dos dimensiones, una idea que me intrigaba sobremanera. Sin embargo, al cabo de muy poco tiempo descubrí que el mecanismo de la bolita acumulaba suciedad sin que hubiese un mecanismo razonable para limpiarla, con lo que el ratón murió prematuramente. Una idea cojonuda pero mal ejecutada.
+
+Veo en los productos de Apple pantallas ultrabrillantes con insoportables reflejos, portátiles innecesariamente delgados (el peso de un portátil importa mucho, que sean finos no aporta nada) que tienen teclados sin profundidad (el teclado del nuevo Macbook es realmente terrible), insistencia en los touchpad cuando los ratones y trackpoints son superiores, teclados a los que les faltan teclas vitales (reemplazando la útil "suprimir" por una peligrosísima tecla de apagado), etc. etc. Apple sacrifica constantemente la utilidad por la apariencia, y yo uso los ordenadores, no los contemplo.
+
+## El camino de la verdad y la virtud
+
+Apple tiene claro cómo quiere que el usuario interactúe con sus dispositivos. Más allá de su deseo de controlar los contenidos y software que se pueden experimentar, también tiene una idea clara de los patrones de uso. Si bien debo decir que seguramente su visión sea de las más claras y coherentes del mercado y que su persecución de la simplicidad es acertada en la mayoría de los casos, uno no puede evitar pensar que para usar adecuadamente un producto Apple uno debe convertirse a su verdadera religión y su manera de hacer las cosas.
+
+Creo que diferentes personas prefieren interactuar con los ordenadoras de diferentes maneras, y que cada uno puede encontrar la manera de trabajar más eficiente para él. Puede que lo haga para fastidiar, pero uso un entorno de escritorio muy peculiar (un "tiling window manager"), utilizo un móvil con teclado físico, prefiero las líneas de comandos y adoro los trackpoints. Apple reduce su diversidad al máximo y si quisiese adoptar sus productos, tendría que renunciar a muchas de estas cosas, ya que Apple nunca se dedicará a ellas. Y si bien su visión es completa y poderosa, a mi no me convence.
+
+## Prefiero el software libre
+
+Como programador creo que el software libre es una alternativa muy atractiva al software propietario. Los intereses comerciales raramente se alinean con los de los usuarios (podría parecer que sí, y a veces coinciden, pero no), mientras que si el usuario puede participar activamente en el desarrollo del software, esta alineación es más probable. Mis experiencias en este sentido han sido muy positivas- he conseguido influir en el desarrollo de software que utilizo para obtener arreglos y mejoras que me han beneficiado directamente, algo que creo es muy complicado con el software propietario.
+
+Adicionalmente, también me he beneficiado de poder estudiar y analizar código publicado por terceros, y creo que es una poderosa herramienta de aprendizaje para los nuevos desarrolladores de software.
+
+Así pues, en la medida que sea posible utilizo software libre. Si bien Apple coopera con el software libre en ocasiones, lo hace a regañadientes y primando su interés comercial por encima de todo- y por supuesto, la mayoría del software que desarrolla no es libre.

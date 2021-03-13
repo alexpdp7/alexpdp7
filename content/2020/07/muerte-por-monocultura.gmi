@@ -1,0 +1,18 @@
+# Muerte por monocultura
+2020-07-28
+
+No sé cuánta pasta habrán sacado los que consiguieron controlar un puñado de cuentas de tuiteros de alto alcance, pero creo que está claro que Twitter (y Facebook, Instagram, etc.) son un blanco muy jugoso.
+
+Con todo el mundo enganchado a un puñado de redes sociales, el impacto de una brecha de seguridad en estas es mayor que en otros muchos blancos. No, probablemente no nos van a robar dinero directamente como si robasen un banco, pero si ya es preocupante el uso de la influencia de estas plataformas por parte de las compañías que las controlan, bajo el escrutinio de gobiernos y grandes empresas(1), ¿cuán preocupante es cuando asumen el control agentes declaradamente malignos?
+
+Ciertamente Twitter puede permitirse mucha mejor seguridad que la que me puedo permitir yo en este blog, pero ¿cómo funcionan los números de coste/beneficio cuando resquebrajar un poquito Twitter te permite suplantar de un plumazo las publicaciones de algunas de las personalidades con más alcance del mundo?
+
+Es especialmente flagrante cuando esta monocultura letal es innecesaria. Estuvimos ahí rozando con los dedos una época en la que todo tenía RSS y la muerte de Google Reader tuvo un impacto significativo en el mundo. Aún a día de hoy muchos medios disponen de RSS (aunque los medios de noticias generalistas en general, no[1]) y es razonablemente fácil meterse en el mundillo (Feedly gratis hasta 100 fuentes de RSS. Yo soy un exagerado y tengo 106 fuentes vivas en mi Miniflux).
+
+Quizá el fediverso, la IndieWeb o lo que sea esta semana aún no están listos del todo para reemplazar las redes sociales cerradas por un hermoso mundo distribuido y federado (yo, que tengo bastante obsesión por estos temas, aún no lo veo del todo claro para uso propio y aún estoy lejos de tener una recomendación para uso en general), pero hoy mismo se pueden dar pequeños pasos en la buena dirección
+
+(1) ¿Qué le da más insomnio a Zuck? ¿Los monstruos gigantes pero lentos que son los gobiernos o que Coca-Cola decida retirar su publicidad de Facebook?[2]
+
+
+=> https://alex.corcoles.net/2020/07/noticiarios-y-documentales/ 1: https://alex.corcoles.net/2020/07/noticiarios-y-documentales/
+=> https://www.theverge.com/21307454/unilever-verizon-coca-cola-starbucks-microsoft-ads-facebook 2: https://www.theverge.com/21307454/unilever-verizon-coca-cola-starbucks-microsoft-ads-facebook

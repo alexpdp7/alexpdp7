@@ -1,0 +1,37 @@
+# Algo viejo, algo prestado, algo nuevo y algo azul
+2020-11-19
+
+Cada día vertemos más confianza en un campo relativamente nuevo como es la seguridad informática. Muestra de ello son las contraseñas, un concepto más bien primitivo (si bien el uso informático está relativamente cercano en el tiempo, las contraseñas indudablemente llevan milenios en uso. Particularmente entrañable revisar la historia de su primo el shibboleth[1]) del que pende muchísima de nuestra seguridad.
+
+De momento no existen muchas alternativas a las contraseñas que sean viables para la mayoría de usos comunes que les damos. Una manera de complementar la seguridad de las contraseñas es aplicar el concepto de un doble factor de autenticación. Un factor de autenticación es algo que usamos para identificarnos. Normalmente se clasifican de la siguiente manera:
+
+* Algo que sabemos (por ejemplo, una contraseña)
+* Algo que tenemos (por ejemplo, un dispositivo físico específico)
+* Algo que somos (por ejemplo, nuestra huella dactilar)
+* Un lugar en el que estamos (por ejemplo, nuestra casa)
+* ...
+
+Combinando dos factores podemos protegernos del fallo de uno de ellos. Un uso típico es tener un dispositivo físico que genera códigos numéricos cada cierto tiempo y tener que introducir nuestra contraseña y este código para identificarnos. Si alguien descubre nuestra contraseña, no podrá hacerse pasar por nosotros porque no tendrá el dispositivo físico; al contrario, si alguien nos roba el dispositivo físico, normalmente no conocerá nuestra contraseña.
+
+Obviamente esto no ofrece una protección total (alguien puede robarnos y torturarnos para que le digamos la contraseña), pero sí nos protege de unos cuántos ataques verosímiles.
+
+Muchos sistemas que requieren identificación, como nuestra cuenta de correo, nuestro banco o incluso las redes sociales nos permiten utilizar dobles factores para identificarnos y proteger nuestra identidad. Además, aparte de dispositivos físicos dedicados a actuar como doble factor, se han estandarizado protocolos que permiten que podamos usar nuestros móviles como un factor.
+
+Se nos anima mucho a utilizar estos dobles factores para protegernos, pero cabe ser cauteloso.
+
+Un primer elemento que tenemos que considerar es el uso de envío de mensajes SMS a nuestro móvil como factor de autenticación. Se han documentado suficientes casos de duplicación de SIM, en los que mediante ingeniería social alguien consigue un duplicado de la SIM de nuestro móvil con lo que puede recibir los SMS y saltarse el doble factor, como para que varias entidades hayan dejado de recomendar los SMS como factor de autenticación.
+
+Otro elemento, más peliagudo, es que tenemos que analizar el riesgo que supone perder (sin actor malicioso de por medio) nuestro segundo factor de autenticación. Al igual que perder una contraseña puede ser más problemático de lo que parece (por ejemplo, si perdemos la contraseña para acceder a nuestro correo- de manera que no podemos pedir un enlace para cambiar nuestra contraseña por correo), hay que tener claro cómo recuperar una cuenta en la que dependemos de un segundo factor como autenticación.
+
+Para usos laborales, las empresas pueden establecer protocolos relativamente sencillos para identificarnos que aprovechen el hecho de que nuestros compañeros de trabajo nos conocen, por ejemplo. En general, el uso de doble factor laboralmente es por tanto fácil, de coste razonable y efectivo.
+
+Pero para usos personales, la cosa se complica. Podríamos pensar que hay factores de autenticación que no podemos perder, como los que "somos"- nuestra huella dactilar, el iris, etc. A pesar de que el uso de este tipo de identificadores es conveniente (soy el primero que desbloquea su móvil con su huella), tenemos que considerar que el otro nombre de esta práctica (a parte de "identificación biométrica") es "la contraseña que no puedes cambiar y que todo el mundo puede ver". Se ha engañado a lectores de huella creando reproducciones de huellas dactilares a partir de fotografías. Cualquier pérdida de seguridad de un identificador biométrico es definitivo.
+
+Un dispositivo físico así mismo puede perderse. Afortunadamente, la mayoría de sistemas de doble autenticación permiten tener varios dobles factores que podemos usar alternativamente. Por ejemplo, es típico poder crear un conjunto de códigos de un solo uso que podemos imprimir, por ejemplo, y utilizar en caso de perder el móvil. Sin embargo, dependiendo de lo crítico que sea una cuenta, la urgencia con la que podamos necesitarla, etc. podemos comenzar a plantearnos preguntas como "qué pasa si necesito un factor alternativo y estoy lejos de mi casa donde guardo mi copia impresa de mi doble factor de respaldo" o "qué pasa si se incendia mi casa y se destruye", por no hablar de que somos seres humanos y cometemos errores.
+
+Yo, personalmente, de momento no utilizo doble factor- lo que conlleva un déficit de seguridad importante, pero que personalmente creo que me vale la pena y puedo compensar con otros mecanismos (uso de un gestor de contraseñas, las medidas adicionales de Google que protegen mi cuenta de correo, etc.). Existen medidas en este sentido (como contactos en los que confiamos de emergencia) y probablemente existe espacio para más mejoras en este sentido.
+
+Es recomendable analizar la situación de cada uno y decidir- creo que el uso de doble factor en entornos personales tiene sentido bajo muchos puntos de vista, pero sólo cada uno puede juzgar los riesgos y ventajas de cada sistema.
+
+
+=> https://en.wikipedia.org/wiki/Shibboleth 1: https://en.wikipedia.org/wiki/Shibboleth

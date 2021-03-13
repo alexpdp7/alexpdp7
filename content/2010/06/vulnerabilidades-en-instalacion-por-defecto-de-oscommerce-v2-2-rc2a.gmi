@@ -1,0 +1,11 @@
+# Vulnerabilidades en instalación por defecto de osCommerce v2.2 RC2a
+2010-06-30
+
+Una pequeña nota para compañeros del gremio:
+
+> Una instalación por defecto de la última versión de osCommerce (v2.2 RC2a) contiene agujeros de seguridad en la configuración por defecto que permiten a un atacante adquirir control sobre la tienda
+Aparentemente la práctica recomendada es aplicar los consejos de seguridad explicados en este mensaje en un foro[1], el agujero de seguridad está detallado en este otro mensaje del mismo foro[2] y como guinda, comentaré que existen consultoras que trabajan esta tienda que no están al tanto de este agujero.
+
+
+=> http://forums.oscommerce.com/topic/313323-how-to-secure-your-site/ 1: http://forums.oscommerce.com/topic/313323-how-to-secure-your-site/
+=> http://forums.oscommerce.com/topic/351671-the-major-security-hole-that-has-been-the-buzz-spam-loginphp-exploit/ 2: http://forums.oscommerce.com/topic/351671-the-major-security-hole-that-has-been-the-buzz-spam-loginphp-exploit/

@@ -1,0 +1,36 @@
+# Hazañas informáticas V: Las máquinas de Turing y Von Neumann
+2011-11-05
+
+¿Qué es un ordenador?
+
+A primera vista, esto parece una pregunta sencilla. ¿Es una cosa con pantalla y teclado? Si es eso, ¿es una calculadora de mesa convencional un ordenador? ¿Es una consola un ordenador? ¿Un móvil?
+
+Antes de 1936, existían bastantes máquinas bastante parecidas a ordenadores- existían calculadoras, máquinas de codificación como la Enigma, etc.; hasta los griegos construyeron máquinas que podían calcular la posición de las estrellas en el firmamento[1]. Sin embargo, ninguna de estas máquinas tenía la flexibilidad que tienen los ordenadores de hoy en día- las calculadoras pueden hacer operaciones matemáticas, Enigma podía codificar y decodificar textos, el mecanismo de Anticitera podía localizar los astros- pero ninguna de ellas podía hacer nada más que aquello para lo que estaban pensadas.
+
+En 1936, Turing[2], uno de los padres fundadores, describió una sencilla máquina teórica que consiste en un cabezal situado sobre una cinta (infinita) que contiene símbolos. El cabezal puede desplazarse por la cinta, leyendo y escribiendo símbolos. Esta máquina tiene un estado, y según lo que lee mediante el cabezal, puede alterar su estado, desplazarse y escribir.
+
+Esta construcción simple (la definición informal es de un par de líneas; la formal[3] no es mucho más larga) es sin embargo muy flexible. Dada una definición de estados y comportamientos adecuados, la máquina de Turing puede realizar, por ejemplo, cualquier cálculo que se nos ocurra; dada una cinta con símbolos que describan números, puede sumarlos, multiplicarlos, etc. y en general, realizar cualquier computación que pueda realizar un ordenador de hoy en día. Esto tiene un primer interés; la máquina de Turing puede modelizar cualquier proceso informatizable, y por tanto, nos puede servir como base teórica para analizarlos- podemos describir una máquina de Turing (sus comportamientos, símbolos, movimientos, estados, etc.) que realice cualquier cálculo.
+
+Sin embargo, podemos dar un paso más allá. Dado que podemos realizar cualquier operación computable con una máquina de Turing, esto nos lleva a decir que podríamos programar una máquina de Turing de manera que interprete los símbolos en su cinta como la descripción de una máquina de Turing- con los comportamientos del cabezal, sus estados, los símbolos etc.; y luego colocar más allá en la cinta los datos que queremos que procese. Es decir; podríamos describir el proceso de suma y luego colocarle unos números para que sume. Esta máquina de Turing podría, sin variar su programación y sólo cambiando los símbolos impresos en la cinta, realice cualquier cosa que pueda realizar una máquina de Turing- es decir, podemos obtener una máquina de Turing única "universal"- cuya programación le permite realizar cualquier cálculo computable.
+
+Este proceso mental teórico nos sugiere una cosa interesante- podemos construir una máquina que a partir de unos "datos" (en este caso, unos símbolos en una cinta) que describen el cálculo a realizar y los datos en sí, realice cualquier operación que podamos describir- en efecto, una máquina "programable".
+
+Una vez más, esto tiene un interés teórico considerable, pero obviamente una máquina que procese una cinta infinita, leyendo y escribiendo símbolos de ella no parece algo muy práctico (y de hecho no lo es).
+
+Paralelamente a las elucubraciones de Turing, otros científicos que trabajaban en máquinas de computación llegaban a ideas similares;  Konrad Zuse[4] en Alemanía y Eckert y Mauchly en EEUU comenzaron a elaborar máquinas con conceptos de programabilidad; Zuse, aburrido de realizar cálculos en su trabajo como ingeniero aeronáutico,  creo el Z1, de programabilidad limitada y funcionamiento problemático en  1938, seguido del Z2 en 1939 y finalmente el completamente programable Z3  en 1941. Eckert y Mauchly trabajaban en el proyecto EDVAC[5], para crear una máquina para calcular trayectorias de artillería, al que se unió John Von Neumann[6] en 1944. Se acredita a Von Neumann con la primera descripción "práctica" de una máquina programable ampliamente conocida publicada en 1945, que explica lo que ahora se conoce como arquitectura de Von Neumann.
+
+La arquitectura de von Neumann es en sí muy parecida a la máquina universal de Turing, pero con una implementación física mucho más realizable- un procesador con unidades capaces de realizar cálculos aritméticos y de almacenar pequeñas cantidades de información, una memoria que almacena datos y programas, dispositivos de entrada y salida (teclados, pantallas, etc.) y lo que une a todos; el hecho de que el procesador lee instrucciones de su memoria y las va ejecutando, leyendo y modificando datos de la misma memoria y interactuando mediante sus dispositivos.
+
+Las máquinas con arquitectura de Von Neumann eran infinitamente más versátiles que las máquinas de propósito único anteriores- eran programables y eso hacía que cualquier problema se pudiese afrontar con un programa nuevo, y que las mejoras en potencia de estas se verían traducidas en mejoras en la resolución de todos los problemas- máquinas potentes podrían resolver problemas más complejos y más grandes en menos tiempo.
+
+Pese a mejoras conceptuales, y por supuesto, una brutal evolución tecnológica, el ordenador donde estoy tecleando esto ahora mismo es esencialmente una máquina de Von Neumann según descripciones de hace 66 años, y los problemas que puede resolver no son ni más ni menos que aquellos que podía resolver teóricamente la máquina universal de Turing tal como fue descrita hace 75 años- sorprendentemente en todo esto tiempo aún no hemos inventado nada práctico que pueda resolver algo que no pudiera resolver una máquina de Turing. Además, ahora prácticamente cada dispositivo electrónico es programable- hasta las calculadoras de escritorio son por dentro máquinas de von Neumann (aunque no sean fácilmente programables)- las máquinas de un solo propósito están casi extintas.
+
+Así pues, en más de 60 años hemos visto una descomunal evolución en las máquinas programables- que han pasado de costar millones de euros y ocupar habitaciones a ser asequibles por todo el mundo y hacer cosas que nadie soñó cuando se crearon, pero por contra, aún no hemos superado los principios teóricos postulados por los fundadores de la informática.
+
+
+=> http://en.wikipedia.org/wiki/Antikythera_mechanism 1: http://en.wikipedia.org/wiki/Antikythera_mechanism
+=> http://en.wikipedia.org/wiki/Alan_Turing 2: http://en.wikipedia.org/wiki/Alan_Turing
+=> http://en.wikipedia.org/wiki/Turing_machine#Formal_definition 3: http://en.wikipedia.org/wiki/Turing_machine#Formal_definition
+=> http://en.wikipedia.org/wiki/Konrad_Zuse 4: http://en.wikipedia.org/wiki/Konrad_Zuse
+=> http://en.wikipedia.org/wiki/EDVAC 5: http://en.wikipedia.org/wiki/EDVAC
+=> http://en.wikipedia.org/wiki/John_von_Neumann 6: http://en.wikipedia.org/wiki/John_von_Neumann

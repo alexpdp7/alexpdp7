@@ -1,0 +1,13 @@
+# Consolación en serie
+2011-07-29
+
+Con la triste excusa de que no me van muy finas las máquinas virtuales en mi servidor personal (la pantalla no se actualiza bien, con lo que es una lata crear una máquina virtual nueva), he investigado un poco cómo hacer instalaciones por consola de serie, es decir, sin teclado ni pantalla- ni siquiera virtual.
+
+El comando mágico es el siguiente
+
+> virt-install --name $VM_NAME --ram $RAM_MB --location http://ftp.es.debian.org/debian/dists/squeeze/main/installer-amd64/[1] --os-type=linux --os-variant=debiansqueeze --disk /var/lib/libvirt/images/$VM_NAME.img,size=$DISK_GB -w bridge=br0 --extra-args='console=tty0 console=ttyS0,115200n8'
+Esto nos instala Debian activando la consola de serie. Lo gracioso del método es que se baja el instalador por http, con lo que ni siquiera necesitamos una iso para poner en marcha el proceso. Eso sí, si lo queremos hacer varias veces y acelerarlo, podemos hacer algo así como...
+
+> rsync --progress -avz rsync://ftp.es.debian.org/debian/dists/squeeze/main/installer-amd64/ dists/squeeze/main/installer-amd64/
+
+=> http://ftp.es.debian.org/debian/dists/squeeze/main/installer-amd64/ 1: http://ftp.es.debian.org/debian/dists/squeeze/main/installer-amd64/

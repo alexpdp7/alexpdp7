@@ -1,0 +1,71 @@
+# Reseña Nokia C5
+2010-07-08
+
+Tras la muerte, resurrección y agonía de mi LG Viewty, que me hizo volver a mi querido y robusto Nokia 6234, decidí finlandizarme un poco más y hacerme con un Nokia C5[1]. El ruso ha hablado[2], al igual que GSMArena[3]- ambos tienen fotos, detalles y cosas, pero me veo obligado a aportar mi granito de arena.
+
+Para entrar en situación
+
+* Formato "candybar" con pantalla 240x320 de 2,2" y teclado numérico
+* Cámara "full-focus" de 3,2MP con flash
+* 3,5G, pero no WLAN
+* Sistema Operativo Symbian S60 3.2
+* Radio, GPS, conector de audio 3,5mm, microUSB (admite carga por USB), microSD
+
+Mi experiencia con la (supongo que inferior a la media) pantalla táctil del Viewty, me apetecían teclas físicas. Tras S40 y el límitado sistema operativo del Viewty, me apetecía algo más. Siendo un agarrado, me apetecía algo barato. Y sobre todo, quería algo ligero.
+
+El C5 es quizá la versión moderna del 6234; mejor sistema operativo (S60 en vez de S40), mejor cámara (más MP, más flash), GPS... ¡y todo por un precio inferior! Respecto a los móviles de moda, el C5 aporta bajo precio (159€) combinado con sistema operativo medianamente avanzado y teclado físico- una combinación prácticamente inexistente en el mercado.
+
+El móvil tiene un diseño sobrio, con un teclado numérico grande, una delgadez respetable y una construcción mayormente sólida, con un buen peso del aparato; la única nota discordante es que en mi ejemplar la tapa de la batería no encaja perfectamente y tiene juego, pero por lo demás, el móvil da sensación de calidad.
+
+Lógicamente por este precio el móvil ha de tener limitaciones. La pantalla no es para tirar cohetes, echo en falta un teclado QWERTY y para navegar, no iría mal una pantalla táctil. S60 no es lo más estable del mundo y la batería no dura tanto como hacían pensar las reseñas.
+
+Si no usamos datos, el móvil puede alargar su vida un par de días- con un uso ligero de internet (i.e. email, algo de navegación), podemos conseguir un día y medio. El GPS, la reproducción de audio y vídeo y un uso intensivo de internet (i.e. mensajería instantánea durante periodos prolongados) pueden hacer que se nos acabe la batería más rápido, pero aún así me parece que el C5 está un poco por encima de los teléfonos de moda que llegan a casa pidiendo la hora.
+
+El uso del móvil es muy agradable. Si no fuera por una cierta inestabilidad, el móvil es muy ágil (tiene más procesador que un N97 y mueve una pantalla de menor resolución) y S60 es espartano y muy personalizable- en especial, los atajos de teclado que podemos tener con el teclado numérico son muy, muy útiles.
+
+La entrada de texto cuenta con escritura predictiva T9, que funciona muy bien y además cuenta con dos cosas muy buenas:
+
+* Diccionario catalán
+* Idioma secundario- podemos definir un idioma secundario de entrada de texto y la escritura predictiva usará ambos diccionarios- dando preferencia al primario
+
+Si bien parece que un teclado QWERTY decente (o incluso un SWYPE táctil) es lo mejor de lo mejor, gracias a esto y buenos atajos de teclado para introducir símbolos, el teclado numérico es bastante para casi todo. En particular, el lenguaje dual hace que sólo tengamos que tirar de escritura no predictiva para nombres propios.
+
+El navegador está basado en Webkit, trae Flash y si bien no es muy rápido, funciona más que correctamente. A destacar que la versión móvil que nos ofrece Google Reader para este móvil es perfectamente utilizable. Los atajos de teclado no acaban de compensar la falta de pantalla táctil- es navegando donde más echamos de menos poder tocar los enlaces y desplazarnos a dedo.
+
+El cliente de correo también es correcto, me permite sincronizar varias cuentas IMAP y trabajar con ellas decentemente. Aunque aparentemente Nokia ofrece correo push mediante Nokia Messaging[4], he sido incapaz de hacerlo funcionar. Hay un cierto "push" mediante (creo) IMAP IDLE que funciona cuando corremos la aplicación de correo (aunque sea en segundo plano).
+
+La agenda de contactos está muy bien, se integra con Facebook y permite una sincronización bastante indolora con OVI, los servicios online de Nokia- se agradece poder gestionar y editar los contactos vía web en el PC. El calendario también sincroniza con OVI, pero echo en falta sincronización con Google Calendar que es el sistema que uso; estoy evaluando GoogaSync[5] para compensar esto.
+
+También viene una aplicación GPS, con mapas y navegación por voz para coche gratuitos.  Funciona bastante decentemente, aunque supongo que la falta de pantalla táctil y la minipantalla juegan bastante en su contra para su uso para conducción. También podemos poner Google Maps y disfrutar del Street View (aunque aún no le hemos encontrado mucha utilidad).
+
+Luego vienen un puñado de aplicaciones para redes sociales y similares- en realidad sólo he probado la de Facebook, que es correcta.
+
+En el aspecto multimedia, hay un reproductor de MP3 normalillo, pero que gracias a la presencia del jack de audio de 3,5 es bastante útil, al igual que la radio que cuenta con RDS. También podremos reproducir vídeos, aunque queda al criterio de cada uno si vale la pena dado el tamaño de la pantalla.
+
+La cámara es decente y cumple lo que le pido- poder sacar fotos de las cosas curiosas con las que me voy tropezando para meterlas en este blog; ni más, ni menos.
+
+En cuanto a aplicaciones Symbian, de momento estoy usando:
+
+* Sports Tracker[6], que uso cuando corro y ando para grabar las rutas y tiempos
+* PuTTY for Symbian OS[7], un cliente de SSH más que aceptable para Symbian. Pese a la falta de teclado QWERTY, es sorprendentemente usable
+* Fring[8], un cliente de mensajería (MSN, Google Talk, etc.), con anuncios y no 100% estable, pero que funciona más o menos bien. Permite unificar varios contactos de diferentes protocolos, lo cuál es bastante práctico. La alternativa es Nimbuzz[9], que no permite esta unificación pero que soporta mensajería de Facebook, o el sistema OVI que aún no he conseguido hacer funcionar
+* Frodo[10], un emulador de C64 bastante curioso que me debería servir para suplir la falta de juegos para S60
+* Custom Dictionary[11], un útil programa de los Nokia Beta Labs[12] que permite editar las palabras que añadimos al diccionario T9- algo que siempre se echa en falta en otros móviles cuando añadimos palabras incorrectas al diccionario, algo muy molesto
+* Nokia Energy Profiler[13], una curiosa aplicación de Nokia para ver cómo está consumiendo el móvil- en el que se descubre que el móvil aguantaría meses sin necesitar de carga si no fuese por las conexiones a red.
+
+En definitiva, un móvil barato al que le podemos exprimir bastante (email, web, multimedia, GPS), siempre inferior a los modelos más lujosos pero compitiendo en cuanto a calidad/precio. Gustará especialmente a los fans de Symbian y detractores de las pantallas táctiles, así como los que miran más el precio.
+
+
+=> http://europe.nokia.com/find-products/devices/nokia-c5-00/specifications 1: http://europe.nokia.com/find-products/devices/nokia-c5-00/specifications
+=> http://www.mobile-review.com/review/nokia-c5-en.shtml 2: http://www.mobile-review.com/review/nokia-c5-en.shtml
+=> http://www.gsmarena.com/nokia_c5-review-474.php 3: http://www.gsmarena.com/nokia_c5-review-474.php
+=> http://email.nokia.com 4: http://email.nokia.com
+=> http://www.googasync.com/ 5: http://www.googasync.com/
+=> http://www.sports-tracker.com/ 6: http://www.sports-tracker.com/
+=> http://s2putty.sourceforge.net/ 7: http://s2putty.sourceforge.net/
+=> http://www.fring.com/ 8: http://www.fring.com/
+=> http://www.nimbuzz.com/ 9: http://www.nimbuzz.com/
+=> http://koti.mbnet.fi/~haviital/index.shtml?projects_frodo 10: http://koti.mbnet.fi/~haviital/index.shtml?projects_frodo
+=> http://betalabs.nokia.com/apps/nokia-custom-dictionary 11: http://betalabs.nokia.com/apps/nokia-custom-dictionary
+=> http://betalabs.nokia.com/ 12: http://betalabs.nokia.com/
+=> http://www.forum.nokia.com/Library/Tools_and_downloads/Other/Nokia_Energy_Profiler/ 13: http://www.forum.nokia.com/Library/Tools_and_downloads/Other/Nokia_Energy_Profiler/

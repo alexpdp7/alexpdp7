@@ -1,0 +1,29 @@
+# Apuntes sobre Dart
+2011-10-10
+
+Google ha sacado hoy Dart[1].
+
+El apunte rápido (que seguro que otros mejoran) es que es un verdadero **Java**script. Es un lenguaje muy muy Java que compila a Javascript. Las diferencias con Java van por dos lados:
+
+* Adecuaciones para funcionar bien cuando se compila a Javascript- i.e. no hay threads, hay "isolates", etc.
+* Esas mejoras puntuales de Java que llevamos pidiendo a gritos desde hace siglos
+
+Las mejoras de Java son de ovación cerrada:
+
+* Las clases en Dart generan un interfaz equivalente a su parte pública
+* Constructores con inicializadores concisos
+* Declaraciones anónimas y concisas de funciones
+* getters y setters transparentes. De bonus, se integran con los interfaces
+* Literales para listas y mapas
+* "==" es equals y "===" es "==". Ver "===" me produce grima por traumas varios, pero creo que es la solución correcta.
+
+Siendo realistas, cubre la mayoría de "defectos" "resolubles" de Java. No, no tiene inferencia de tipos, ni lambdas con excepciones chulas, ni "final" por defecto... y quizás no es todo como uno lo había soñado, pero es una solución práctica y disponible **hoy**.
+
+Eso es lo positivo. En lo negativo, el tipado opcional me escama- y me duele que signifique sacrificios (hay ahí una cosilla un poco rara con las funciones que no devuelven valor que me deja intranquilo). Me queda la curiosidad de estudiar los isolates para saber si aportan algo o si son sencillamente la manera correcta de montar concurrencia en código que será compilado a Javascript y ejecutado por los motores de Javascript existentes.
+
+He visto otras cosas que aún no me he mirado a fondo que no sé dónde colocar: soporte en el lenguaje para factorías, "const" el sistema de librerías y que null sea un objeto; es difícil saber si serán cosas buenas o malas.
+
+En fin, cosas interesantes. No parece, sin embargo, que Dart aspire de momento a ser algo más que un sustituto de Javascript (algo que no me interesa mucho- el principal problema de Javascript no es el lenguaje en sí, en mi opinión)... con lo que **para mi**, no es muy interesante de momento.  Si algún día se planta como una alternativa para desarrollo de aplicaciones y para programación, tiene  la oportunidad de ser Java++, pero sin añadir la complejidad y cerradez de C#... pero ni siquiera sé si Google pretende que lo sea (ese rol lo quieren para... ¿Go? ¿Dart? ¿Java? ¿Python?) .
+
+
+=> http://www.dartlang.org/ 1: http://www.dartlang.org/

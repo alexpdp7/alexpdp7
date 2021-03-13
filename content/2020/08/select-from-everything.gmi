@@ -1,0 +1,10 @@
+# select * from everything
+2020-08-19
+
+https://www.splitgraph.com/blog/data-delivery-network-launch[1][2]
+
+Sobre la mejor API para manejar datos.
+
+
+=> https://www.splitgraph.com/blog/data-delivery-network-launch 1: https://www.splitgraph.com/blog/data-delivery-network-launch
+=> https://www.splitgraph.com/blog/data-delivery-network-launch 2: https://www.splitgraph.com/blog/data-delivery-network-launch

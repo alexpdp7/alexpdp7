@@ -1,0 +1,42 @@
+# Tengo dos móviles
+2014-04-12
+
+En junio de 2011 me compré una Blackberry Bold 9780. En aquel momento, el iPhone 4 era el iPhone a la venta, Nokia sacó el N9 con Meego y Gingerbread era la última versión de Android para teléfonos. La Blackberry me costó 139€ (a base de puntos), sustituyendo un Nokia C5 que me encantaba pero que comenzaba a quedarse atrás.
+
+Mi experiencia táctil anterior con un LG Viewty (modelo de 2007, coetáneo del primer iPhone) me hizo decantarme por un teléfono con teclado. No tardé en acostumbrarme a él y disfrutar de mi primer smartphone real.
+
+Hace unas semanas, Feedly rompió el interfaz web que me permitía usarlo con relativa comodidad en mi Blackberry- unos ajustes en el comportamiento del viewport lo hicieron completamente inusable, con lo que perdí mis dos horas de metro diarias como mecanismo para ponerme al día de noticias y novedades.
+
+Habiendo jugado bastante con un Nook y un Xperia Mini Pro, me resigné a reconocer que vivir sin un dispositivo Android o iOS (o incluso quizá Windows Phone) era una lucha cuesta arriba. La verdad que mi Blackberry de casi 3 años de edad seguía cumpliendo mis necesidades ampliamente pese a sus defectos, así que estuve bastante tiempo valorando alternativas.
+
+Estaba bastante claro que la mejor opción era un dispositivo Android- no soy un gran fan de Apple y Windows Phone no fue una opción que consideré demasiado (¿está maduro ya? ¿Google le hace caso?). Me plantée algún tablet pequeño (7” es demasiado para llevar en mis bolsillos), haciendo tethering con la Blackberry, pero el tethering Bluetooth (BB OS 7 soporta tethering wifi, pero mi dispositivo es BB OS 6 y por tanto la única opción es Bluetooth) es frágil y en cualquier caso, la batería de mi Bold no creo que se lo tomase muy bien, así que me incliné por algo con SIM. Realmente no hay muchas opciones, y al final se redujo a un Galaxy S III rebajado o al Moto G- seguramente los mejores móviles en la franja alrededor de los 200€ (el S III estaba por 229€ con un cupón de Rakuten recibiendo además 45€ en puntos, el Moto G comienza en 150€ por la versión con 8Gb).
+
+El Moto G me gustaba más por su tamaño, pero a nivel de especificaciones el S III se impone en casi todo lo demás, especialmente cámara y batería, así que no con muchas dudas, me lancé a ser un zombie de Samsung más.
+
+Provisionalmente, le he puesto una SIM nueva de Yoigo (tarjeta, 7€/mes, 600Mb) y sí, soy un pringao que lleva dos móviles encima. Tengo dudas sobre las capacidades de comunicación de un dispositivo con pantalla táctil y prefiero no saltar al vacío.
+
+Las impresiones del S III son las que uno esperaría. Enorme, pero delgado. Usar un Android potente (el S III tiene dos años, sí, una barbaridad en móviles, pero recordemos que fue el buque insignia de Samsung) es una revelación acostumbrado a BB OS- un navegador que puede con todo (el de BB OS es muy bueno con páginas adaptadas a móviles, pero le puede cualquier cosa página no móvil con una tonelada de anuncios e imágenes) y con soporte de primera línea de aplicaciones.
+
+Sí, aplicaciones. Realmente debo decir que las aplicaciones importantes para mí (mensajería, redes sociales, mapas [aunque el soporte de Google Maps empezaba a preocuparme], etc.) están para Blackberry, y que no estoy tirando casi nada de aplicaciones en el S III (salvo Feedly, claro- pero hasta que lo rompieron, la versión web me iba aceptablemente bien), pero se nota que las apps de Blackberry están… descuidadas.
+
+La cámara también se nota- con mi pésimo pulso sacar una foto con la Blackberry decente era un desafío- con el S III es todo mucho más sencillo.
+
+Por último, aunque cuando lo compré la batería de la Blackberry era fantástica (un día de uso intensísimo sin problemas, fines de semana de uso ligero sin recargar), dos horas de uso intensivo en el metro con poca cobertura durante tres años destruyen cualquier batería (tanto, que me compré una sin marca- pero da más o menos el mismo rendimiento que la batería de marca usada). El S III tira de su enorme batería y no sufre para acabar el día, mientras que la Blackberry la tenía que cargar durante el día para que no me dejase tirado volviendo a casa (como curiosidad, ahora que no le doy tanto tute a la Blackberry, aguanta mucho mejor).
+
+Pero…
+
+Sí, teclear en cristal sigue siendo un despropósito. No tanto como pensaba, pero entre la Blackberry donde puedes teclear lo que quieras sin mirar a la pantalla, alternando idiomas, metiendo puntuación compleja, etc. y el agónico teclado táctil, sigue habiendo un mundo de diferencia. El swipe que lleva el teclado por defecto y el buen soporte multi idioma ayuda bastante, pero tiene puntos bastante débiles- sobre todo la puntuación y cuando te apartas mínimamente del diccionario. La Blackberry aguantaba hasta usos muy exigentes como usarla de terminal SSH- algo que requiere del uso de modificadores, combinaciones de teclas y palabras “raras” era algo que soportaba de maravilla, mientras que con un teclado táctil se puede hacer algo… pero es muy incómodo.
+
+También se nota, y mucho, la atención que requiere teclear en pantalla táctil. Mientras que con la Blackberry puedes escribir andando por la calle casi sin prestarle atención, el S III dificulta muchísimo esto.
+
+Por otra parte, el tamaño, que sí importa. No tengo las manos grandes, pero tampoco pequeñas, y el uso a una mano es terriblemente poco práctico. El ridiculizado trackpad de la Blackberry es realmente una virguería ergonómica. Se usa perfectamente con una mano, tiene muchísima precisión y para ciertos movimientos (e.g. scroll continuo), es mucho más cómodo. El S III a una mano es harto incómodo y a dos manos, hay tareas en las que pierde claramente contra el cutre trackpad. Quizá el más pequeño Moto G hubiese sido mejor en este sentido, pero…
+
+Sí, la anticuada Blackberry es mucho más… cómoda. El teclado ayuda enormemente en la faceta “comunicativa” y alguna más esotérica, y el trackpad resuelve algunas mecánicas muy bien (selección y movimiento dentro de texto, etc.). Los atajos de teclado y búsqueda son la guinda- es mucho más cómodo teclear calc y hacer click con el trackpad que ir al menú aplicaciones, hacer swipe hasta encontrar la calculadora y pulsar el icono.
+
+Combinar las ventajas de ambos dispositivos parece el camino a seguir, al menos de momento, aunque me costará 7€/mes (e igual los 600Mb se me hacen cortos).
+
+Lo curioso del tema es que mi netbook sí ha sufrido un inesperado desplazamiento en su “uso en el sofá”. El S III es un digno contrincante: tiene más resolución de pantalla (¡1280x720 contra 1024x600!), 1Gb de RAM (mi netbook ahora tiene 2Gb, pero durante mucho tiempo tuvo 1Gb) y hasta reproduce mejor vídeos de Youtube. Obviamente, el teclado del netbook apabulla aún más que el de la Blackberry, pero aún así… hay días que no arranco el netbook.
+
+La conclusión es que por favor, que alguien saque un móvil Android con el formato Blackberry clásico. Tenía esperanzas en que Lenovo comprase Blackberry, pero la política se ha puesto en medio. Igual ahora que Lenovo tiene Motorola, sacan un móvil Thinkpad con teclado, pero eso parece un sueño ahora mismo. Aunque la nueva directiva de Blackberry parece que se ha dado cuenta que sus nuevos formatos cojean (los BB OS clásicos siguen vendiendo más que los nuevos), veo muy complicado que le den la vuelta a su situación, e impensable que adopten Android.
+
+Mientras, seguiré en esta curiosa vida con dos móviles esperando a ver como se desenvuelven los acontecimientos.

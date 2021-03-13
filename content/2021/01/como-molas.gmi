@@ -1,0 +1,29 @@
+# Cómo molas
+2021-01-24
+
+Ayer me terminé el Control.
+
+Creo que desde que me acabé el GTA V (sobre el 2013, supongo), que no me acababa un juego de esos "triple A", y mucho menos en un PC.
+
+Todo comenzó como una investigación sobre cómo "amortizar" el PC con GTX 2060 que me compré para el Flight Simulator[1]. Todo apuntaba a este juego, desconocido por mí, que era de los primeros en soportar técnicas de trazado de rayos. Vi un par de vídeos en Youtube de esos que te ponen los dientes largos y, por suerte, cayó una oferta en Steam del juego y sus dos DLC por 20€ a finales de noviembre, y los festivos de diciembre fueron una ocasión propicia para dedicarle el tiempo que se merece (unas 50 horas, según Steam).
+
+Juego con un mando de Xbox desde el sofá, en una tele de 40 pulgadas que sólo llega a 1920x1080, con lo que mi sistema da para poner todo a tope. Eso quiere decir trazado de rayos con reflejos (todo se ve reflejado en cristales y suelos pulidos) y muchísimo detalle gráfico, que sobre todo permite que durante los combates haya una cantidad impresionante de escombros volando.
+
+El juego sigue la historia de Jesse, que de pequeña experimentó un suceso paranormal que acabó con su hermano abducido por el misterioso Federal Bureau of Control. Años después, Jesse localiza The Oldest House, el brutalista edificio de oficinas en Nueva York que hospeda al FBC.
+
+Poco más quiero apuntar del argumento, que vale la pena descubrir. Sólo hay que decir que durante el juego, Jesse adquiere una variedad de habilidades sobrenaturales que adornan el combate mediante ingeniosos mecanismos. Pese a poder utilizar una peculiar pistola, el juego obliga a alternar el uso de esta con poderes telequinéticos, que junto con el entorno destruible lleva a unos espectaculares combates que podéis encontrar ampliamente documentados en Youtube.
+
+Todo esto me recordaba un poco al Max Payne, un juego al que estuve bastante enganchado en 2001, otro juego de tiros que salió dos años después de Matrix, y que también mezclaba una habilidad sobrenatural de ralentizar el tiempo. Qué sorpresa descubrir que ambos juegos comparten más o menos los mismos creadores.
+
+Control al parecer es un Metroidvania de esos. Jesse puede moverse por The Oldest House, aunque hay áreas inicialmente inaccesibles. Van apareciendo misiones- tanto de la historia principal como de tramas secundarias, que permiten explorar más mapa, adquirir nuevas habilidades y, por supuesto, ir revelando el misterio.
+
+Hay una variedad de puzzles, combate, alguna que otra carrera de obstáculos/plataforma y bastante exploración. El juego tiene un buen mapa y la posibilidad de transportarse a los puntos de control que se van descubriendo. Aun así hay que caminar bastante, aunque los gráficos lo hacen bastante agradable. Encontrar cosas es en ocasiones frustrante, y para algunas cosas debo confesar que consulté guías en Internet (en particular, hay alguna misión en el juego que es fácil no descubrir espontáneamente y que vale la pena experimentar), además de que algunos combates me requirieron un montón de intentos (especialmente los dos jefes finales de los DLC).
+
+El combate es muy gratificante, especialmente a medida que mejoramos nuestras aptitudes y las capacidades del arma. El manejo con controlador en tercera persona es adecuado, aunque yo a veces tengo bastantes problemas localizando los enemigos (algunos vuelan, otros son invisibles, otros acechan...) y puede resultar un poco estresante. Hay mucha variedad de cosas que podemos hacer en combate; pese a que el juego intenta que usemos una variedad de técnicas, alguna en concreto, si se desarrolla a su nivel más alto, es bastante potente y podemos abusar bastante de ella. A pesar de ello, uno de los DLC introduce un tipo de enemigo bastante complicado con el que merece la pena experimentar otras técnicas. El juego también tiene unos cuántos combates muy guionizados con sorpresas visuales que a mí al menos me dejaron boquiabierto.
+
+Otro punto interesante es la cantidad de secretos y detalles que oculta el juego. Por todo el escenario hay memorándums, grabaciones, proyectores y otros que nos van dando pequeños detalles sobre el mundo del juego. A destacar los curiosos vídeos de "Threshold Kids", una especie de serie para niños con marionetas bastante siniestra.
+
+Creo que Control fue el gran pelotazo de 2019, con mogollón de premios y reconocimiento, con los que desde luego estoy bastante de acuerdo. Muy recomendable para los que gusten de los juegos de acción de tiros.
+
+
+=> https://alex.corcoles.net/2020/11/si-los-fanfarrones-volasen/ 1: https://alex.corcoles.net/2020/11/si-los-fanfarrones-volasen/

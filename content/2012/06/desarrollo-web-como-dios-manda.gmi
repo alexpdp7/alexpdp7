@@ -1,0 +1,62 @@
+# Desarrollo web como Dios manda
+2012-06-23
+
+Con la cantidad de faena a hacer en el mundo del desarrollo web, es natural preguntarse cosas como qué tecnología elegir y por dónde comenzar si uno quiere dedicarse a esto.
+
+No son preguntas triviales- la espectacularidad diversidad de plataformas, filosofías y frameworks intimida y lleva a pensar que no es posible tomar una buena decisión- es impracticable probar todas las alternativas y en las etapas iniciales de aprendizaje es difícil formarse una opinión razonada.
+
+En este post pretendo dar unos apuntes que espero sirvan para colocar a alguien en el buen camino.
+
+Una manera fácil de comenzar es por el lenguaje. Es conveniente que escojamos un lenguaje que cumpla las siguientes características:
+
+* Popular
+* Con tracción para el desarrollo web
+* De calidad
+
+Comenzando por el principio, un buen punto de partida es mi querido TIOBE[1]. El TIOBE es un ránking de la popularidad de los lenguajes de programación calculado a partir de su presencia en la web. La metodología es inevitablemente discutible, pero el ránking está bastante alineado con mi percepción, así que para mi, es una opción cómoda.
+
+En el top 20 (a junio de 2012) encontramos tan solo 8 lenguajes utilizados comunmente para el desarrollo web: Java, C#, PHP, Python, Perl, Ruby, Javascript y Visual Basic .NET. Fuera del Top 20 encontramos muy poquitas opciones (Haskell, Scala y poco más), así que nos ceñiremos a estos.
+
+Vamos a descartar unos pocos:
+
+* PHP[2]: pese a ser un lenguaje explícitamente diseñado para el desarrollo web, en mi opinión PHP nunca debe usarse para desarrollar un proyecto desde 0- a no ser que lo que queramos desarrollar sea extremadamente mínimo- ya sea porque se trate de un desarrollo extremadamente pequeño o bien que pretendamos reutilizar completamente un desarrollo existente como Wordpress o Magento. Desarrollar grandes bases de código en PHP es un ejercicio frustrante ya que, sencillamente, no está pensado para ello. Sus limitaciones en cuanto a modelo de ejecución, estructura y modularidad son motivo suficiente para descartarlo, pues el resto de lenguajes que consideramos lo superan ampliamente en estos aspectos, ofreciendo PHP muy poco para compensar (su velocidad para proyectos mínimos).Puede sernos útil conocer PHP, pues existe mucho trabajo manteniendo código PHP (sin embargo, no se trata de un trabajo especialmente gratificante) y en algún momento nos puede ser útil. Pero debe ser erradicado lo antes posible.
+* Perl[3]: durante mucho tiempo fue una de las mejores opciones disponibles, en realidad, una de las pocas viables. Una vez más, el resto de lenguajes de la lista le superan en virtudes sin que Perl ofrezca muchas ventajas propias. El mercado de Perl decae lentamente y cada vez se inician menos proyectos que lo utilicen.
+* JavaScript[4]: si bien deberemos conocer JavaScript para desarrollar efectivamente sobre la web, aún no lo considero una opción viable en el lado servidor. Tendremos que aprender JavaScript, pero el grueso del proyecto deberá ser siempre en otro de los lenguajes. Soy anti-aplicaciones web 100% Javascript, creo que su campo de aplicación es extremadamente limitado y presentan desventajas considerables, pero hay quien les encuentra virtudes
+
+C#[5] y Visual Basic .NET[6] son dos opciones que el lector mismo puede escoger descartar o considerar- desarrollar razonablemente en ambos supone unos costes que yo prefiero no asumir (se necesitan licencias de Windows para el desarrollo y despliegue y las versiones gratuitas de Visual Studio tienen bastantes limitaciones)- a parte de que soy un firme creyente en que las herramientas de desarrollo deben ser libres y gratuitas. Si eso no supone un impedimento para el lector, puede aplicar mi opinión sobre Java, ambas plataformas son extremadamente similares; quizás .NET goce de herramientas más sencillas de utilizar inicialmente, el sistema base es más completo que el de Java pero el ecosistema goza de menor vida.
+
+Por tanto, nos quedamos con Java, Python y Ruby. Los dos factores más diferenciales entre los tres para mi son:
+
+* Python[7]cuenta con el framework Django[8], que a su vez goza del "Admin". El Admin es un desarrollo genérico que implementa un sistema de gestión de modelos web genérico muy sofisticado, que nos permite definir las entidades con las que trabaja nuestra aplicación (e.g. en una web de contenidos, artículos, categorías, etc.) y obtener prácticamente sin esfuerzo una interfaz de gestión bastante buena que permite a los usuarios gestionar los objetos, añadiendo un sistema de permisos más que aceptable (i.e. podemos decir que los reporteros pueden crear y editar sus artículos y que los administradores pueden crear y gestionar secciones). Dado que en la mayoría de los proyectos se necesita una funcionalidad así y Django nos la proporciona sin dedicarle apenas tiempo (y desarrollar algo de ese calibre es considerablemente costoso), para muchos proyectos Django nos puede ahorrar muchísimo tiempo de desarrollo tedioso, dándonos una gran ventaja.Puede parecer que otras plataformas cuentan con cosas similares (e.g. Roo en Java, el scaffolding de Rails), pero no están a la altura.
+* Java[9]es el único de los lenguajes que cuenta con tipado estático. El tipado estático (deber declarar explícitamente el tipo de las variables) parece un problema (debemos "perder tiempo" especificando tipos), pero en realidad no lo es (uno ya razona sobre el tipo que debe tener una variable, escribirlo explícitamente no es costoso) y en cambio permite la existencia de herramientas sofisticadas que trabajen sobre el código. En los lenguajes dinámicos, por poner un ejemplo, es extremadamente laborioso localizar dónde se utiliza un determinado trozo de código, algo necesario para tareas como eliminarlo (debemos asegurarnos que no exista otro código que lo utilice y adaptarlo si existe) o modificarlo (debemos asegurarnos que adaptamos el código que lo utilice), tenemos que buscar las referencias por todo el código y esto puede ser extremadamente problemático si la búsqueda no es muy específica (i.e. si tenemos un campo llamado "página" en un objeto concreto, una búsqueda de texto nos reportará usos de "página" en clases no relacionadas, o que contengan "página"), pues podemos tener una cantidad de falsos positivos muy elevada fácilmente.Esto propicia que los cambios en el código sean mucho más trabajo del que debiera. En cambio, en un lenguaje estático es posible implementar búsquedas muy exactas gracias a la presencia de tipos en el código fuente (básicamente, la herramienta puede discernir si la referencia que buscamos es la que encuentra con exactitud). En Java el compilador nos avisará si un cambio/eliminación rompe código, y las herramientas nos pueden localizar exactamente todas las referencias a un trozo de código. Adicionalmente, las herramientas no se quedan aquí, sino que implementan funcionalidades similares mucho más avanzadas y potentes que no pueden ser implementadas efectivamente sobre lenguajes dinámicos.
+
+En mi opinión, ambas herramientas deben estar en el arsenal de un desarrollador web. Python + Django para proyectos sencillos o en los que el Admin de Django suponga una gran ventaja, y Java para proyectos grandes y complejos. Python nos da agilidad y el Admin y Java nos da la potencia para desarrollar sistemas complejos.
+
+Por supuesto, la cosa no se queda aquí. El desarrollo web requiere unos conocimientos de base; más allá de los conocimientos de programación estándar (que obviamente son necesarios), necesitaremos conocer:
+
+* El protocolo HTTP, el "alma" de las comunicaciones web
+* HTML + CSS, con los que desarrollamos la capa visual de la aplicación
+* JavaScript para las funcionalidades que lo requieran (con jQuery[10])
+
+Seguramente también necesitaremos un mecanismo de persistencia (donde SQL es la opción más popular, yo recomendaría usar PostgreSQL y evitar el popularísimo MySQL pero infame) y conocimientos básicos de sistemas (deberíamos saber hacer funcionar un servidor web, la base de datos, etc.).
+
+Con todo esto podríamos desarrollar alguna web sencilla con Django, que nos proporciona una plataforma bastante completa y bien documentada con la que podremos implementar bastantes proyectos.
+
+Una vez asentados los fundamentos del desarrollo web, podemos comenzar a investigar Java. Java no es como Django, que incluye prácticamente todo lo necesario en un sencillo paquete y, una vez más nos plantea unos problemas de decisión importantes. Lamentablemente, desconozco una buena referencia completa y vertical de desarrollo Java que ofrezca un stack completo comparable al de Django. Mi recomendación sería partir de Java, añadir Spring (el mecanismo de inyección de dependencias, su librería de JDBC y el motor MVC) y JSP, todo corriendo sobre un contenedor como Jetty o Tomcat (que se integre en nuestro entorno de desarrollo), utilizando Eclipse y Maven para la compilación. Desgraciadamente es una solución más compleja para la parte inicial (y muchas de ellas se deben aprender prácticamente simultáneamente, incrementando la dificultad), pero adoptando todas estas tecnologías tendremos una base similar a la de Django. El camino es mucho más largo, pero nos ofrece una alternativa más apropiada para grandes proyectos.
+
+Lógicamente, esta es una vía "ideal". Quizás no debe completarse completamente, si no hemos de trabajar en proyectos muy complejos Java es una exageración, o bien la vida nos lleve a sumergirnos en otras tecnologías, pero es un recorrido completo. Si no llegamos a Java (o incluso si llegamos), puede ser conveniente pasar tiempo usando algún microframework que no nos dé un stack completo como el de Django, Django nos lo da casi todo mascado y seguramente hay detalles interesantes de conocer a bajo nivel que nos perdamos. Hacer desarrollo web sin un stack completo ciertamente puede ayudarnos a completar nuestras habilidades. Podemos hacer esto tanto en Python (usando un microframework de los muchos existentes, o incluso desarrollando el nuestro) como en Java (programando directamente servlets en vez de usar el MVC de Spring) o en cualquier otro lenguaje.
+
+nota: más ediciones y sugerencias del de siempre[11].
+
+
+=> http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html 1: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+=> http://www.php.net/ 2: http://www.php.net/
+=> http://www.perl.org 3: http://www.perl.org
+=> http://en.wikipedia.org/wiki/JavaScript 4: http://en.wikipedia.org/wiki/JavaScript
+=> http://msdn.microsoft.com/en-us/vstudio/hh388566.aspx 5: http://msdn.microsoft.com/en-us/vstudio/hh388566.aspx
+=> http://msdn.microsoft.com/en-us/vstudio/hh388568.aspx 6: http://msdn.microsoft.com/en-us/vstudio/hh388568.aspx
+=> http://www.python.org/ 7: http://www.python.org/
+=> https://www.djangoproject.com/ 8: https://www.djangoproject.com/
+=> http://www.oracle.com/technetwork/java/index.html 9: http://www.oracle.com/technetwork/java/index.html
+=> http://jquery.com/ 10: http://jquery.com/
+=> http://obm.corcoles.net 11: http://obm.corcoles.net

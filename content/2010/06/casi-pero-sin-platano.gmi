@@ -1,0 +1,9 @@
+# Casi, pero sin plátano
+2010-06-23
+
+Enumeración en la Wikipedia sobre descubrimientos múltiples[1] (a raíz de recordar que el famoso RSA[2] en realidad lo inventó Cocks[3]).
+
+
+=> http://en.wikipedia.org/wiki/List_of_multiple_discoveries 1: http://en.wikipedia.org/wiki/List_of_multiple_discoveries
+=> http://en.wikipedia.org/wiki/RSA 2: http://en.wikipedia.org/wiki/RSA
+=> http://en.wikipedia.org/wiki/Clifford_Cocks 3: http://en.wikipedia.org/wiki/Clifford_Cocks

@@ -1,0 +1,42 @@
+# Maventuras
+2011-02-08
+
+Los que me conozcan sabrán que éste es un momento de derrota. Tras casi 9 años participando en proyectos de desarrollo Java, hoy he commitado a Subversion un pom.xml.
+
+La versión larga: voy a usar Maven profesionalmente.
+
+¿Qué es Maven, a todo esto? (los no informáticos, ya deberíais haber apagado hace tres párrafos).
+
+Maven es el estándar de facto para compilar (en moderno, hacer build-management) proyectos Java. Existe Ant (y otras cosas más modernas de las que hablaré más tarde), pero Ant es make, es una fantástica herramienta que puede hacer de todo, pero que por defecto, hace muy poco y, especialmente, no resuelve dos de las mayores pérdidas de tiempo en desarrollo Java:
+
+* Gestión de dependencias de terceros. Quieres usar Hibernate. Hibernate tiene como unas 15 dependencias directas, y algunas de esas dependencias tienen otras dependencias... resultado final, un ratito muy divertido descargando y colocando jars. Y, sobre todo, unas enormes ganas de actualizarse a versiones nuevas...
+* Dependencias entre proyectos. Uno quiere ser bueno y reusar código y modularizar. Poner las clases de utilidad que uno escribe siempre en un módulo que usen todos los proyectos. Hacer librerías de utilidad temáticas. Partir proyectos gordos en módulos separados. Pues bien, hacer un montaje que haga que el proyecto se pueda compilar automáticamente [pongamos con Ant] *y* que se integre propiamente en tu entorno [pongamos Eclipse], no es nada trivial. Queremos que al modificar una clase en un subproyecto, nos la cojan los proyectos de lo que depende. Esto, de hecho, es muy facilito de hacer en Eclipse... pero si quieres tener builds automáticos (pongamos, para hacer integración continua o barbaridades semejantes)... se complica el tema.
+
+Los primeros en solucionar esto, fueron los sres. de Maven, con dos elementos:
+
+* Un sistema para describir proyectos *declarativo* (Ant es imperativo), que contempla especificar dependencias
+* Un repositorio de librerías Java que contiene todas las librerías relevantes, con sus dependencias especificadas
+
+Con esto, yo puedo declarar que mi proyecto depende de Hibernate y Maven se descargará automágicamente todos los jars necesarios y los meterá en mi proyecto.  Esto ya sería suficiente, pero Maven ofrece más cosas:
+
+* Arquetipos.  Son una especie de plantillas de proyectos que te permiten crear proyectos típicos fácilmente (Eclipse ofrece algo similar, claro, pero Maven tiene más). Estos reducen, junto a la resolución de dependencias, permiten reducir bastante el coste de montar el esqueleto de un proyecto (nota: ¿más de lo que cuesta hacer funcionar Maven? No.). Estos arquetipos suelen estar bastante bien pensados (i.e. un arquetipo de proyecto web normalmente te generará un .war automáticamente, etc.).
+* Plugins. Todos esos programitas de unit testing, cobertura, análisis estático, etc. se ven traducidos en un plugin de Maven, que con añadirlo al descriptor del proyecto, ya se encarga de hacerlos funcionar casi automáticamente. Uno de estos plugins, por ejemplo, es el que te genera una mini-web de proyecto con documentación, javadocs, descargas, etc. que habréis visto mil veces si habéis visto webs de proyectos Java.
+
+Yo hasta ahora había evitado usar Maven. La primera vez, porque estaban en un momento de transición (de Maven 1 a 2, si no recuerdo mal), había poca documentación, la integración con Eclipse no parecía muy boyante y, por qué no decirlo, bastante NIH[1]. Acabé montando un sistema faraónico basado en Ant que si bien funcionaba como a mi me gustaba, era un poco pesado. Las veces siguientes, acabé reinventando mi pirámide, puliéndola a cada paso, pero haciéndola más complicada y aún no perfecta.
+
+Y hasta hoy hemos llegado.  Se plantea la necesidad de compilar proyectos complejos. La diferencia esta vez es que hay menos libertad inventar cosas y poca voluntad de imponer el sistema a otros. Hora de jugar con Maven.
+
+El primer descubrimiento, parece que hay plugin de Eclipse como Dios manda. Como siempre, hay un inconveniente. Si queremos integración con sistemas de control de versiones, tenemos que instalar los extras, y hay una pequeña nota en la web que dice:
+
+> M2Eclipse extensions are available from separate "extras" update site, see Installing m2eclipse for more details. *Not all extensions are compatible with the latest M2Eclipse version.*
+Esto, lógicamente, hace que nos rompamos la cabeza hasta el infinito intentando instalar la compatibilidad con Subversive hasta leer este párrafo. La solución, instalar la versión 0.10.
+
+Hasta ahora, poco más. El descubrimiento es que la manera Maven de gestionar multiproyectos pasa por tener un repositorio propio, cuando opino que no sería estrictamente necesario (al menos en mi caso particular), así que probablemente tendremos que añadir al coste de aprendizaje y montaje de Maven el montar un repositorio (los hay desde muy simples- una carpeta compartida, a auténticos mastodontes).
+
+Para el futuro:
+
+* Ver si acierto pensando que el repositorio de Maven público es bastante caótico y problemático. Existe un repositorio de Maven de Springsource que tiene buena pinta, pero... ¿estará mucho mejor organizado? Probablemente, sí. ¿Estará todo lo que necesito allí? Probablemente no. ¿Será problemático mezclar el repositorio público y el de Spring? Seguramente.
+* Ver si la cosa funcionará como debe o si requerirá de cuidados.
+
+
+=> http://en.wikipedia.org/wiki/Not_Invented_Here 1: http://en.wikipedia.org/wiki/Not_Invented_Here

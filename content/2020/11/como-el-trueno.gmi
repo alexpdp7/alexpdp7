@@ -1,0 +1,28 @@
+# Como el trueno
+2020-11-01
+
+Disculpen el meme:
+
+=> https://external-preview.redd.it/_B_AteIgDNG5jcT1QXp8-DzS7mvH3-Le2BGNifAK5aA.jpg?auto=webp&s=4da26787b881393117de64f63ee6d63a01986c58 r/Windows10 - "How likely are you to recommend Windows 10 to a friend or colleague?" [IMG]
+
+How likely are you to recommend Windows 10 to a friend of colleage?
+
+I need you to understand that people don't have conversations where they randomly recommend operating systems to one another
+
+Parece indiscutible la evidencia sobre la efectividad del Net Promoter Score[1], pero sigue chirriándome un poco. Personalmente, en mi escala personal, raramente soy un promoter y puedo poner un 6 (detractor) a algo que no creo que necesite mejorar o que no puede mejorar eficientemente.
+
+Pero bueno, igual hay peores maneras de, por ejemplo, formar un gobierno[2].
+
+También me han recordado últimamente a Cynthia Rothrock[3], con:
+
+https://twitter.com/TimesSqKungFu/status/1320524098141904896[4]
+
+, que aunque ahora viendo las respuestas al tuit, ya no puedo dejar de ver a su doble, me hizo gracia descubrir repasando su artículo en la Wikipedia, que triunfó antes en Asia antes de pasarse a la serie B directa a vídeo americana.
+
+Finalmente, me pregunto si hay por ahí benchmarks de los nuevos Apple de escritorio con ARM. Las medidas de los chips de Apple para móvil siempre me han sorprendido un pelín y tengo bastante curiosidad por ver cómo se transladan a escritorio.
+
+
+=> https://en.wikipedia.org/wiki/Net_Promoter 1: https://en.wikipedia.org/wiki/Net_Promoter
+=> https://www.bbc.com/news/world-europe-45753455 2: https://www.bbc.com/news/world-europe-45753455
+=> https://en.m.wikipedia.org/wiki/Cynthia_Rothrock 3: https://en.m.wikipedia.org/wiki/Cynthia_Rothrock
+=> https://twitter.com/TimesSqKungFu/status/1320524098141904896 4: https://twitter.com/TimesSqKungFu/status/1320524098141904896

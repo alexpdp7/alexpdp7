@@ -1,0 +1,33 @@
+# Un PC enchufado a la tele
+2012-05-27
+
+Como todo buen informático que se precie, llevo un tiempo trabajando en un proyecto "PC enchufado a la tele". Detallo aquí un poco mi montaje actual.
+
+El punto de partida es uno de estos PCs pequeñitos con Atom. En mi caso escogí por disponibilidad un Giada SLIM-N10[1], con chipset Nvidia ION, que en teoría debería compensar la poca potencia del Atom para reproducir vídeo- dispone de descodificadores de vídeo que permiten reproducir ciertos formatos de vídeo por hardware, permitiendo ver vídeos 1080p suavemente.
+
+A este aparato le añadí un pequeño dongle Bluetooth y un teclado inalámbrico Bluetooth para controlarlo. Adicionalmente, amplié mi red con un par de dispositivos Powerline (los más baratos que encontré, 50€ el par); mi red inalámbrica no llega muy bien a la zona del televisor y la antena del Giada parece ser bastante horrible; la conexión no era nada estable y el ancho de banda bastante lamentable- el powerline, aún en malas condiciones, me da entre 3-5 megabytes/s de transferencias sostenidas sobre NFS. Esto no siempre da para streaming perfecto, especialmente de vídeos en HD, pero al menos permite copiar un vídeo para reproducción local rápida e indoloramente. Añadimos también una sintonizadora USB barata.
+
+Finalmente, conectamos el PC al televisor vía HDMI, lo que nos da 1920x1080 + audio y añadimos unos altavoces de escritorio conectados por jack de audio; esto nos da una segunda salida de audio que usaremos más adelante.
+
+En el software, escogimos Mythbuntu. MythTV parece ser la solución estándar para mediacenter con TDT (XBMC tiene arreglos para reproducir TDT, pero no parecen muy soportados). Dado que MythTV no está en Debian, parece apropiado usar Mythbuntu para instalarlo sobre Ubuntu, pues parece bastante usado y con una buena comunidad detrás.
+
+La instalación es indolora, lo único complicado fue la configuración de la sintonizadora, pues el modelo concreto que encontramos no está soportado directamente por Linux, pero existen instrucciones para hacerlo funcionar e integrarlo con DKMS[2] (con lo que se actualiza automáticamente con las actualizaciones del kernel). Hace falta un poquito de trasteo con MythTV para que el audio vaya por defecto por la salida HDMI y no por la salida de audio estándar y que utilice el ION para tratamiento de vídeo.
+
+A partir de aquí, añadimos MythWeb que nos da un interfaz web que permite ver la programación y programar grabaciones de programas con un interfaz muy práctico.
+
+Otra funcionalidad que añadimos es un servidor de MPD[3]. MPD es un reproductor de audio controlable por red, del que existen varios controladores; web, móvil, escritorio, etc. Configurándolo para que envíe su audio por la salida minijack, podemos encender los altavoces, usar nuestro PC/móvil/tablet para controlar la música sin tener que encender el televisor.
+
+También configuramos Mame, un emulador de máquinas recreativas que pese a la limitada potencia del procesador Atom funciona bastante bien.
+
+Otro añadido es configurar Flash para que utilice VDPAU, un interfaz que permite la reproducción de vídeo por hardware. Con esto, usando Chrome de escritorio podemos, por ejemplo, ver vídeos 1080p de Youtube suavemente; el teclado inalámbrico que usamos dispone de un minijoystick que podemos usar de ratón, con lo que podemos navegar sin mucho problema.
+
+Cosas de futuro en las que hay que investigar más:
+
+* Un mando inalámbrico que permita jugar a Mame sin usar el teclado Bluetooth. Podemos usar el mando de la PS3, pero sólo por USB- inalámbrico vía Bluetooth parece complicado de configurar e impráctico (al encender el mando se enciende automáticamente la PS3, etc.)
+* Un mando a distancia "normal" para controlar MythTV
+* x2vnc/Win2VNC para usar un PC normal como teclado y ratón, truco muy chulo y conveniente
+
+
+=> http://www.giada.com.au/store/SLIM-N10-B.php 1: http://www.giada.com.au/store/SLIM-N10-B.php
+=> http://linuxtv.org/wiki/index.php/Mygica_T1800B 2: http://linuxtv.org/wiki/index.php/Mygica_T1800B
+=> http://mpd.wikia.com/wiki/Music_Player_Daemon_Wiki 3: http://mpd.wikia.com/wiki/Music_Player_Daemon_Wiki

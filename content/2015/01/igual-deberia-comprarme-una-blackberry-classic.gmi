@@ -1,0 +1,36 @@
+# Igual debería comprarme una Blackberry Classic
+2015-01-17
+
+Si siguieron entregas anteriores (1[1], 2[2], 3[3] y 4[4]) soy un enajenado mental que usa una Blackberry Bold 9780 comprada hace casi 4 años y un Samsung Galaxy SIII comprado en abril del año pasado. Recientemente, la Bold se ha deteriorado aún más (se reinicia varias veces al día [un proceso horripilantemente lento] y ha dejado de reconocer tarjetas MicroSD [lo cuál es un fastidio muy grande de cara al uso de Whatsapp- salta un error cada vez que entro en la aplicación y por algún extraño motivo, hace que recibir fotos sea una odisea]), haciendo empeorando una situación que ya no era muy ideal (tener que preocuparme de dos teléfonos y que el principal sea una antigualla).
+
+Y justo por estas fechas, esos canadienses decadentes han sacado la Blackberry Classic, la nueva Blackberry pensada para los desequilibrados como yo.
+
+¿Qué hacer? Hablemos por pros y contras...
+
+# Pros
+
+La Classic es prácticamente la Blackberry que yo querría. Formato Bold (pelín más grande, pero con trackpad y surtido de botones físicos), batería no intercambiable pero decente (GSM Arena le da 62h[5]- lejos de las 101h que le da al Z3 Compact, pero más que suficiente) y si bien no usa Android como yo querría, es compatible con algunas aplicaciones Android (básicamente lo que quiero es Feedly, que es lo que me llevó al SIII. Parece ser que se pueden meter las aplicaciones Google de maneras turbias, lo cuál sería la leche).
+
+Es decir, que sobre el papel han sacado un móvil que se acerca (realistamente) mucho a lo que yo querría[6], pero...
+
+# Contras
+
+En EEUU cuesta $450 que parece caro pero al cambio son 389€, un precio no exorbitante para un móvil que uno quiere (está lejos de los 700€ del iPhone 6 más barato, debajo de los 450€ de un S5 o un Z3 Compact), pero en España cuesta unos 430€ de momento. Esos 40€ por vivir en un país pobre duelen, y duelen más cuando una Blackberry Classic es prácticamente el mismo hardware que la Blackberry Q10 de 2013 que ahora se vende por 280€. Es decir, que me están vendiendo hardware a un precio muy elevado.
+
+Por otra parte, es una Blackberry. Sigue siendo muy complicado que Blackberry remonte el vuelo y hay bastantes números de que desaparezca en un futuro no muy lejano y me haya gastado los dineros en un móvil huérfano que seguramente tenga mucho de los problemas que tiene mi Bold ahora (soporte insuficiente de operadores y aplicaciones importantes). Y desde luego ahora mismo ni aplicaciones Google (las chapuzas no cuentan), ni smartwatches que lo soporten, ni nada... lo mínimo que necesito (Whatsapp, Twitter, Facebook, etc.) está, pero duele ser ciudadano de segunda categoría aunque eso no te afecte realmente mucho. La compatibilidad con aplicaciones Android es relativa y muchas reseñas dicen que se arrastran (normal- es hardware más bien poco potente).
+
+# Pero
+
+Llevo usando el SIII casi un año y... las pantallas táctiles siguen siendo un problema. Cuando tengo que teclear algo, por mucho Swiftkey que haya... cada cambio de idioma, palabra fuera de diccionario, puntuación que no entiende y cada símbolo (y ya no hablemos de usarlo en un terminal SSH, totalmente impracticable) me hace querer cada vez el maravilloso teclado Blackberry. Hay gente que imagina los futuros apocalípticos con inviernos nucleares, desiertos sin agua y ruinas; yo me imagino un mundo de pantallas táctiles donde ni móviles ni ordenadores tengan teclados físicos... y eso me da escalofríos. Si Blackberry se hunde, los terroristas habrán ganado y los pocos que apreciamos teclear estaremos condenados. Antes algún fabricante sacaba terminales Android con teclado físico... malos... pero ahora ya ni eso. En mi desesperación, hasta Typo era una opción.
+
+La única esperanza es que ya sea por un cambio de rumbo o una adquisición, Blackberry (u otro fabricante) comience a sacar móviles decentes Android con formato Blackberry. Igual porque Blackberry esté a punto de la quiebra, o porque los rumores de que Samsung la compre sean ciertos y decidan hacer algo arriesgado. ¿Pero quién haría eso si no se compran móviles QWERTY?
+
+En fin, una decisión dura. Les mantendremos informados.
+
+
+=> http://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/ 1: http://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/
+=> http://alex.corcoles.net/2012/07/si-sigo-usando-una-blackberry/ 2: http://alex.corcoles.net/2012/07/si-sigo-usando-una-blackberry/
+=> http://alex.corcoles.net/2013/12/mi-carta-de-navidad-a-los-reyes/ 3: http://alex.corcoles.net/2013/12/mi-carta-de-navidad-a-los-reyes/
+=> http://alex.corcoles.net/2014/04/tengo-dos-moviles/ 4: http://alex.corcoles.net/2014/04/tengo-dos-moviles/
+=> http://www.gsmarena.com/blackberry_classic-review-1186p3.php 5: http://www.gsmarena.com/blackberry_classic-review-1186p3.php
+=> http://alex.corcoles.net/2013/12/mi-carta-de-navidad-a-los-reyes/ 6: http://alex.corcoles.net/2013/12/mi-carta-de-navidad-a-los-reyes/

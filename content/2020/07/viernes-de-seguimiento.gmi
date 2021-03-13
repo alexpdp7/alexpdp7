@@ -1,0 +1,18 @@
+# Viernes de seguimiento
+2020-07-17
+
+Dentro de mis planes para reconquistar al mundo... Un poco de contenido que podéis añadir a vuestro (¿nuevo?) lector de RSS...
+
+* The Universe of Discourse[1], el blog Mark Dominus, que ahora descubro que aparentemente es conocido por un libro de programación funcional para Perl. Aunque su verdadera joya es Content-Type: text/shitpost[2]. Todo son curiosidades que divagan entre la matemática, literatura y historia.
+* dangermouse.net[3], el blog de David Morgan-Mar. Un clásico de los webcómics, sobre todo por Irregular Webcomic!, hecho con Lego desde tiempos inmemoriales. Quizá es mejor seguir sus webcómics, pero hace un post diario en su blog con sus vivencias y enlaces a los webcómics del día.
+* Fabien Sanglard's Website[4], del autor de esos libros cojonudos sobre la implementación de los primeros juegos de id Software. Postea poco, sobre todo artículos sobre gráficos de videojuegos.
+* jwz[5], el blog de JWZ. Un sr. muy raro que postea cosas muy raras. Pero claro, qué se podría esperar del autor de XScreenSaver y contribuidor histórico de XEmacs y Netscape Navigator.
+* otro blog más[6], el blog de mi hermano, otro que debería tuitear menos y escribir más.
+
+
+=> https://blog.plover.com/ 1: https://blog.plover.com/
+=> https://shitpost.plover.com/ 2: https://shitpost.plover.com/
+=> https://www.dangermouse.net/ 3: https://www.dangermouse.net/
+=> https://fabiensanglard.net/ 4: https://fabiensanglard.net/
+=> https://www.jwz.org/blog/ 5: https://www.jwz.org/blog/
+=> https://obm.corcoles.net/ 6: https://obm.corcoles.net/

@@ -1,0 +1,73 @@
+# Hazañas informáticas II: el modelo de datos relacional
+2011-04-24
+
+Los primeros ordenadores se destinaron a la introducción y proceso de datos- no en vano los orígenes de IBM se remontan a la gestión del censo de habitantes de los Estados Unidos. Naturalmente, hasta el más primitivo de los sistemas de programación provee de primitivas de almacenamiento de datos, mecanismos sencillos para almacenar, organizar y acceder a datos en la memoria volátil del sistema (es decir, que estos datos se pierden al finalizar la ejecución del programa).
+
+Rápidamente, los programadores se ocuparon de implementar funcionalidades que almacenaban estos datos en algún soporte persistente, de manera que los datos se conserven entre ejecución y ejecución del programa, y diseñaron maneras de organizar los datos de manera que las operaciones que se quieren realizar con ellos se hagan de una manera eficiente.
+
+E. F. Codd, allá por 1969, planteó un sistema generalizado de almacenamiento y proceso de datos basado en unos principios muy sencillos.
+
+Codd se dio cuenta que la información que típicamente se quería procesar se podía particionar en hechos simples, del siguiente estilo:
+
+* La factura #1 es a nombre de Javier Sánchez, a fecha 3/12/2007
+* La factura #2 es a nombre de Lucía Martínez, a fecha 5/12/2007
+* ...
+* La línea 1 de la factura #32 es para "Mano de obra", precio 300€
+* La línea 2 de la factura #32 es para "Materiales", precio 450€
+
+Podemos escribir estos hechos de una manera compacta empleando dos tablas:
+
+```table
+┌───────────────────┬────────────────┬───────────┐
+│ Número de factura │     Nombre     │   Fecha   │
+╞═══════════════════╪════════════════╪═══════════╡
+│ 1                 │ Javier Sánchez │ 3/12/2007 │
+├───────────────────┼────────────────┼───────────┤
+│ 2                 │ Lucía Martínez │ 5/12/2007 │
+├───────────────────┼────────────────┼───────────┤
+│ ...               │ ...            │ ...       │
+└───────────────────┴────────────────┴───────────┘
+```
+```table
+┌───────────────────┬───────┬──────────────┬──────────┐
+│ Número de factura │ Línea │   Concepto   │ Cantidad │
+╞═══════════════════╪═══════╪══════════════╪══════════╡
+│ 32                │ 1     │ Mano de obra │ 300€     │
+├───────────────────┼───────┼──────────────┼──────────┤
+│ 32                │ 2     │ Materiales   │ 450€     │
+├───────────────────┼───────┼──────────────┼──────────┤
+│ ...               │ ...   │ ...          │ ...      │
+└───────────────────┴───────┴──────────────┴──────────┘
+```
+Cuando usemos el modelo relacional, definiremos las "tablas" (relaciones) que usaremos en nuestra aplicación, especificando qué "columnas" (atributos) tendrán y qué tipo de valores podrán ponerse en cada columna (en el ejemplo anterior, números de factura, números de línea, nombres, conceptos, fechas y cantidades).
+
+Los sistemas de bases de datos relacionales nos permiten definir con precisión estas tablas, insertar valores, actualizarlos y realizar consultas sobre ellos (e.g. ¿cuál es la fecha del último pedido de Miguel Hernández?), sin preocuparnos de la implementación real de esta estructura de datos, su almacenamiento persistente ni los algoritmos de búsqueda para las consultas.
+
+El trabajo con las bases de datos relacionales se realiza a través de un lenguaje específico adaptado a ellas; el lenguaje más común se conoce como SQL (Structured Query Language) mediante el cuál podemos expresar cosas como:
+
+create table facturas (   numero_factura          numero,   nombre                  texto,   fecha_factura           fecha );
+
+Que define la tabla facturas con las columnas que hemos visto anteriormente, o:
+
+insert into facturas(numero_factura, nombre, fecha_factura) values (1, 'Javier Sánchez', 3/12/2007);
+
+, que nos permite insertar uno de los hechos que hemos tabulado antes y consultas como:
+
+select max(fecha) from facturas where nombre = 'Miguel Hernández';
+
+a la que nos referíamos anteriormente.
+
+Fijémonos que estas consultas son "declarativas", es decir que no hablan de cómo se deben almacenar estos datos ni realizarse estas operaciones, sino que sólo dicen "qué se quiere hacer".
+
+Un siguiente paso interesante en el trabajo con estas relaciones es darnos cuenta que podemos trabajar con varias tablas simultáneamente que comparten información. Por ejemplo, podríamos preguntarnos cuánto se ha gastado Ana Jiménez en concepto de mano de obra entre todos sus pedidos; la tabla de pedidos nos dice qué facturas corresponden a Ana Jiménez y la tabla de líneas de facturas nos dice qué líneas de factura son de mano de obra y por qué cantidad- podemos asociar las dos tablas mediante la columna número de factura presente en ambas. Mediante una sencilla abstracción matemática, podemos realizar consultas y operaciones sobre varias tablas utilizando las posibles asociaciones que haya entre ellas.
+
+Como el modelo relacional es tremendamente abstracto, es apropiado para una gran cantidad de aplicaciones. Así pues, se han desarrollado implementaciones de bases de datos que utilizan el modelo relacional que podemos usar en nuestros programas en vez de tener que "reinventar la rueda" del almacenamiento de datos constantemente. Además, resulta que toda "mejora" que se introduzca en una de estas implementaciones se aprovecha inmediatamente por todas las aplicaciones que usen la implementación.  Por ejemplo, las operaciones entre varias tablas se pueden beneficiar de técnicas de optimización que hacen que las bases de datos sean muchísimo más rápidas que las implementaciones simples de estas operaciones.
+
+Adicionalmente, las aplicaciones se benefician de otras características de los sistemas de gestión de base de datos, como son:
+
+* Restricciones de integridad. Podemos definir en la base de datos restricciones que deben cumplir los datos para considerarse correctos. Por ejemplo, una factura para ser correcta debe incluir un número correcto, un nombre y una fecha válida, evitando que se puedan introducir datos inválidos. Más allá, podemos decir cosas más interesantes como que el número de factura de una línea de factura debe corresponder a un número de factura en la tabla de facturas.
+* Transacciones. Muchas veces una serie de operaciones sobre una base de datos deben realizarse en conjunto o no realizarse. Por ejemplo, una transferencia bancaria debe incluir un cargo en la cuenta origen y un ingreso en la cuenta destino; claramente si una de las dos operaciones falla, la otra no puede realizarse.
+
+Estas y otras facilidades que ofrecen las bases de datos no son triviales de implementar, y el hecho de poder aprovechar la implementación de la base de datos nos permite desarrollar nuestra aplicación más rápidamente sin tenernos que preocupar de estos complicados detalles.
+
+Hoy en día, tras más de 40 de años desde su invención, el modelo relacional es el estándar de facto para almacenamiento de datos en aplicaciones donde la integridad de los datos es vital- y es también inmensamente popular en aplicaciones menos críticas por su conveniencia, sencillez y velocidad.

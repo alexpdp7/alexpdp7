@@ -1,0 +1,8 @@
+# Notas mentales
+2011-10-29
+
+1. Si tenemos un portátil que tenía Windows XP Media Center Edition 2005 preinstalado por el fabricante (en el caso que nos ocupa, un Acer Aspire 5050), reinstalar el sistema operativo de 0 no es posible mediante coger las isos del sistema operativo que da Microsoft y reinstalar. El instalador no aceptará la clave que viene en la pegatina de autenticidad (!). Intentad usar siempre la utilidad de restauración.
+2. En esta página pública de Microsoft[1] podemos obtener los checksums SHA-1 de las isos que proporciona Microsoft de sus sistemas operativos.
+
+
+=> http://msdn.microsoft.com/en-us/subscriptions/downloads/default.aspx 1: http://msdn.microsoft.com/en-us/subscriptions/downloads/default.aspx

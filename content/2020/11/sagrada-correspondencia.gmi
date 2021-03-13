@@ -1,0 +1,45 @@
+# Sagrada correspondencia
+2020-11-18
+
+Hace unos días salió una noticia sobre alguien que había perdido el acceso a su cuenta de Google[1]. Esto me ha llevado a revisar un poco mi situación.
+
+Adelanto que hay un factor que aún no tengo resuelto, que es que uso mi cuenta de Google para identificarme en servicios no Google. Dentro de la configuración de vuestra cuenta de Google podéis ver en qué webs podéis entrar usando vuestra cuenta de Google. En mi caso son 17, y podría perder esas cuentas si perdiese mi cuenta Google. Algunas de ellas permiten mecanismos alternativos de identificación, así que vale la pena auditar aquellos servicios que sean importantes.
+
+Otro punto es el correo. La inmensa mayoría de servicios usan una dirección de correo para identificarnos y funcionalidades como "olvidé mi contraseña" son especialmente peligrosas si perdemos el acceso a la dirección de correo asociada.
+
+Personalmente, no uso prácticamente jamás ninguna dirección del dominio gmail.com. Tengo un dominio propio y uso un dominio de un allegado cercano, y uso direcciones de correo de esos dominios, que es bastante complicado perder (notifican con mucho margen para renovar, es un servicio de pago y no he oído nunca que se rescinda un dominio unilateralmente). Esa es la dirección de correo; la cuenta de correo en sí si la tengo con Google, que almacena el correo y me da acceso a él (nota: uso una arcaica versión gratuita de Google Workspaces. Para asuntos personales, **no** recomiendo usar Google Workspaces. Es posible usar un dominio propio con Google sin Google Workspaces). Pero al usar un dominio propio, puedo reemplazar a Google sin demasiado problema si fuera necesario- sin tener que cambiar mi dirección de correo.
+
+Con esto, mi correo lo almacena Google, que también perdería si no pudiese acceder a mi cuenta. Google proporciona una amplia variedad de maneras de exportar el correo. Para empezar, he decidido usar un procedimiento bastante sencillo e incómodo, pero efectivo.
+
+Uso isync[2], una herramienta para sincronizar cuentas de correo IMAP con archivos locales. IMAP es un protocolo para consultar el correo muy común en herramientas como Thunderbird y Outlook. Google da acceso al correo de GMail mediante IMAP, con lo que podemos usar cualquier herramienta IMAP como isync.
+
+Para hacer la sincronización, basta crear un sencillo archivo de configuración:
+
+IMAPAccount gmail
+Host imap.gmail.com
+User <usuario_de_gmail>
+PassCmd +"head -1"
+SSLType IMAPS
+
+IMAPStore gmail-remote
+Account gmail
+
+MaildirStore gmail-local
+SubFolders Verbatim
+Path ~/.mail/gmail/
+Inbox ~/.mail/gmail/Inbox
+
+Channel gmail
+Master :gmail-remote:
+Slave :gmail-local:
+Patterns *
+Create Both
+SyncState *
+
+El fragmento `+"head -1"` hace que isync nos pregunte nuestra contraseña por pantalla (de una manera bastante fea, y mostrando la contraseña por pantalla) al hacer la sincronización. Ejecutando `mbsync -a`, tendremos que teclear nuestra contraseña interactivamente y se realizará la sincronización.
+
+Para que esto funcione, sin embargo, necesitaremos permitir el acceso "menos seguro" a nuestra cuenta Google, que permite el acceso al correo IMAP mediante una simple contraseña (mecanismo que Google no considera seguro). De momento y para salir del paso, dado que tampoco me preocupo de ejecutar el proceso automáticamente, lo que he hecho es programarme un recordatorio para ejecutar el proceso semanalmente y sólo activar el acceso "menos seguro" mientras se ejecuta el proceso.
+
+
+=> https://www.cmmedia.es/noticias/espana/un-calvario-digital-google-cancela-mi-cuenta-de-correo-y-todo-lo-asociado-con-ella/ 1: https://www.cmmedia.es/noticias/espana/un-calvario-digital-google-cancela-mi-cuenta-de-correo-y-todo-lo-asociado-con-ella/
+=> https://isync.sourceforge.io/ 2: https://isync.sourceforge.io/

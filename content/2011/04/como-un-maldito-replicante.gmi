@@ -1,0 +1,21 @@
+# Como un maldito replicante
+2011-04-21
+
+Me hallo en la enésima reorganización de mi preciado correo electrónico. Nada, abrirme un Google Apps Standard bajo un dominio propio mío, para poder gozar de algunas de las cosas de Google Apps (¿cuáles? No estoy seguro). Por supuesto, estoy aprovechando para reclasificar y agrupar correo, de manera que todos los preciosos mensajes estén almacenados centralizadamente (y duplicados).
+
+Para ello, estoy recogiendo el correo de todas mis cuentas de correo activas- que sin incluir una o dos direcciones que desaparecieron en el olvido, son:
+
+* La cuenta de correo de mi universidad, de la cuál no soy alumno desde hace más de 5 años, pero ahí sigue abierta
+* Mi cuenta personal, alex-arroba-corcoles-punto-net, en un alojamiento familiar compartido
+* Mi cuenta "secundaria" en fastmail.fm, que recién fueron comprados por Opera y siguen siendo uno de los pocos proveedores que dan cuentas IMAP gratuitas- si no podéis usar GMail por algún motivo o queréis una cuenta IMAP menos especial, los recomiendo
+* Mi cuenta en mi compañía de móvil- la cuál prometía push al móvil, pero que nunca he conseguido hacer funcionar
+* Mi cuenta de GMail, que utilizo para muchos servicios de Google, pero curiosamente uso relativamente poco para correo (en realidad, tenía mi cuenta de correo personal redirigida a GMail como archivo y para usar GMail de webmail donde no tengo Thunderbird)
+* Una cuenta alternativa de GMail
+
+Es interesante comprobar cosas como que apostar por IMAP desde el principio fue complicado, pero me ha permitido conservar correo casi sin esfuerzo- he recuperado correo hasta del 99, unos 11.000 mensajes de correo totalizando 685 megas (63kb por email). Lamentablemente, he podido cuantificar bastante correo enviado perdido- sólo conservo 2400 correos escritos por mi mismo. Los números están aquí[1], pequeña gráfica:
+
+=> https://spreadsheets.google.com/a/pdp7.net/spreadsheet/oimg?key=0Atd_0Z9UHnqJdDhzOGQ1T09PeWozX1pnVkVhNm1DMEE&oid=2&zx=2o7nzs59hs8k Uso de email anual [IMG]
+Puede apreciarse que, tras conseguir mi cuenta de Gmail (el 15/4/2004)... conservo bastante más correo y recibo más correo, in crescendo hasta hoy donde estoy de media en 6 emails diarios. En cambio desde 2004, parece ser que escribo menos; de 1,2 al día en 2004 hasta 0,8 en 2010.
+
+
+=> https://spreadsheets.google.com/a/pdp7.net/spreadsheet/pub?hl=en&amp;hl=en&amp;key=0Atd_0Z9UHnqJdDhzOGQ1T09PeWozX1pnVkVhNm1DMEE&amp;single=true&amp;gid=0&amp;output=html 1: https://spreadsheets.google.com/a/pdp7.net/spreadsheet/pub?hl=en&amp;hl=en&amp;key=0Atd_0Z9UHnqJdDhzOGQ1T09PeWozX1pnVkVhNm1DMEE&amp;single=true&amp;gid=0&amp;output=html

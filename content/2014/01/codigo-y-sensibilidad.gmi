@@ -1,0 +1,12 @@
+# Código y sensibilidad
+2014-01-10
+
+Cada persona, y los programadores no dejan de ser personas, desarrolla a lo largo del tiempo diferentes sensibilidades. A base de cometer errores y sufrir por ellos, nos hacemos especialmente perceptivos a los síntomas que nos causan dolor. Un programador de lenguajes de la familia de C es capaz de notar la ausencia de un ; para terminar una sentencia en una pantalla plagada de símbolos. Alguien que trabaje con SQL habitualmente desarrolla un sexto sentido para no lanzar un DELETE que no lleve WHERE (normalmente tras el tercer incidente grave). Y así, cada uno enumerará sus ejemplos favoritos en los que ha desarrollado una aptitud sobrehumana para evitar inacabables pérdidas de tiempo.
+
+Es esto, por encima de otros factores, lo que nos hace expertos en algo. Saberse de pe a pa todos los comandos UNIX habituales no te convierte en experto- es saber que nunca debes ejecutar killall en Solaris, pese a lo útil que resulta este comando en Linux lo que demuestra que has vivido tus propios vietnames- y has aprendido de ellos.
+
+Una observación curiosa sobre las sensibilidades es que estas no se adquieren así como así. Uno de los motivos por los que creo que las enseñanzas en materias de programación deben ser eminentemente prácticas y rehuyo la formación por exposición- sean cursos, sea un compañero que escriba un documento descriptivo sobre un área funcional/librería/arquitectura, ya que en general son una pérdida de tiempo. Saber cómo funciona algo es relativamente fácil- se puede acelerar pero raramente es el problema. El problema es que cuando no tenemos sensibilidad en lo que hacemos, todo nos cuesta un orden de magnitud más. Lo que necesitamos es ponernos manos a la obra y tener alguien con la sensibilidad que nos hace falta mirándonos por encima del hombro y arreándonos un sopapo cuando vayamos a hacer algo estúpido, o que nos desatasque cuando seamos incapaces de ver el bosque.
+
+La sensibilidad no es más que un atajo heurístico que nos permite ser eficaces antes de haberlo aprendido y comprendido todo en el más absoluto detalle (algo frecuentemente necesario, pero no siempre), y que aún cuando somos expertos en algo, seguimos aplicando por su efectividad.
+
+Seamos sensibles. Transmitamos nuestras sensibilidades. No perdamos el tiempo de entrada, lancémonos de cabeza- démonos golpes que desarrollen nuestra sensibilidad o aprovechemos los golpes que se han dado otros antes.

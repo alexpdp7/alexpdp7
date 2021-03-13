@@ -1,0 +1,11 @@
+# Emergentes bibliotecas emergidas
+2010-12-07
+
+=> http://eucaliptus.ath.cx/~alex/marsugal/Otras/biblioteca.jpg?height=450 libros de informática apilados [IMG]
+
+Adelantos, el Accelerated C++[1] está al nivel del K&R[2] y C++[3] es mu complejo.
+
+
+=> http://www.acceleratedcpp.com/ 1: http://www.acceleratedcpp.com/
+=> http://cm.bell-labs.com/cm/cs/cbook/ 2: http://cm.bell-labs.com/cm/cs/cbook/
+=> http://en.wikipedia.org/wiki/C%2B%2B 3: http://en.wikipedia.org/wiki/C%2B%2B

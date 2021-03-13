@@ -1,0 +1,9 @@
+# Why it is Important that Software Projects Fail
+2020-09-10
+
+https://www.berglas.org/Articles/ImportantThatSoftwareFails/ImportantThatSoftwareFails.html[1][2]
+
+> Some may misinterpret this article as satire. Surely it is not really desirable for software projects to fail. But the facts speak for themselves.
+
+=> https://www.berglas.org/Articles/ImportantThatSoftwareFails/ImportantThatSoftwareFails.html 1: https://www.berglas.org/Articles/ImportantThatSoftwareFails/ImportantThatSoftwareFails.html
+=> https://www.berglas.org/Articles/ImportantThatSoftwareFails/ImportantThatSoftwareFails.html 2: https://www.berglas.org/Articles/ImportantThatSoftwareFails/ImportantThatSoftwareFails.html

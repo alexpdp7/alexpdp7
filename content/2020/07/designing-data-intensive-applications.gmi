@@ -1,0 +1,10 @@
+# Designing Data-Intensive Applications
+2020-07-05
+
+Creo que una métrica fundamental de un libro técnico es su periodo de vigencia, especialmente en contraste con su precio y tamaño.
+
+Aunque me parece poco probable que este "DDIA" tenga una vida tan larga como pongamos "The Mythical Man-Month", que a sus 45 años muchos aún deberían leer, creo que es un libro que puede ser útil durante quizá más de una década. Proporciona una visión bastante general sobre el mundo del almacenado y procesado de datos, con el nivel de detalle suficiente para poder evaluar y comparar las diferentes tecnologías existentes para poder tomar decisiones informadas.
+
+El libro está razonablemente escrito, y puede leerse tanto secuencialmente como ser usado como referencia, o incluso como índice para localizar material más detallado gracias a las extensivas bibliografías de cada capítulo.
+
+Quizá lo que más he echado en falta es un análisis más claro sobre los límites y carencias de algunas tecnologías, confiando mucho en que el lector sabrá deducir y contextualizar. A pesar de esto, recomendaría este libro a todo aquel que trabaje con sistemas que necesitan almacenar datos para tener una visión general a la hora de escoger tecnologías.

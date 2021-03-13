@@ -1,0 +1,24 @@
+# Tapos y estudios
+2021-02-26
+
+Estos tiempos extraños me han terminado de arrastrar a la vorágine de las cámaras de videoconferencia. Ante la hambruna y escasez, he decidido innovar y probar si una cámara de vigilancia IP de 20€[1] puede sustituir a pongamos la webcam recomendada por Wirecutter de Logitech[2], que ahora mismo cuesta cinco veces más.
+
+La idea tiene truco, claro. La inspiración fue que un fabricante de estas cámaras sacó una actualización que permitía usar fácilmente su cámara de seguridad como webcam[3]. Quizá esto influyó en que precisamente esa cámara tampoco parece fácil de adquirir ahora mismo, pero me hizo investigar.
+
+Al final me decidí por una cámara barata, sin USB. Esto imposibilita el mismo truco y obliga a ser más creativo. El modelo en cuestión va por red inalámbrica y soporta el protocolo de streaming RTSP (como la mayoría de productos de este tipo), con el que podemos montar una webcam virtual. En Linux he usado v4l2loopback (un módulo de kernel que permite crear "webcams virtuales") y ffmpeg para coger el stream RTSP por red inalámbrica y crear una webcam que podemos usar en cualquier software de streaming. Por cosas de Linux, aún no he hecho funcionar el mismo proceso con el famoso OBS, que es el elemento mágico que permite hacer virguerías, pero el cutremontaje funciona adecuadamente.
+
+La idea es usar la webcam para mi ansiada idea de videoconferenciar usando el televisor, algo que siempre me ha sorprendido no sea algo habitual. Mi PS4 tiene una cámara enchufada justo encima de la TV, pero no hay manera de usarla para este propósito. Duo está para Android TV, pero el Chromecast del que acabo de hablaros sólo tiene un USB que usa para alimentación, con lo que necesitaría un hub para enchufarle una cámara (y pagar la broma de comprar una webcam USB en los tiempos que corren). Por suerte Google Meet soporta Chromecast para proyectar la pantalla a la tele, y puedo usar la cámara de seguridad "sin cable" y por tanto ponerla en el televisor, mientras que el portátil que controla todo el asunto está a mi lado.
+
+Funcionar funciona, y es barato, pero es un lío considerable, el ojo de pez que es útil para funciones de seguridad se hace un poco raro en videoconferencia, y todo el montaje tiene algo de lag, cuando los lags normales ya exacerban mis limitaciones comunicativas en videoconferencias. Habrá que seguir investigando y refinando, pero al menos entretiene.
+
+Por otra parte, todo este experimento me ha llevado a experimentar un poco con el arriba mencionado OBS. Siempre me había parecido un software místico e inalcanzable, que permite añadir fondos virtuales a las aplicaciones de videoconferencia que no disponen de esta característica *imprescindible*, o esta astracanada de Scott Hanselman[4] (sí, el de Dark Matter Developers[5]- ahora se dedica a innovar en OBS- como lo de los títulos de crédito para acabar una videoconferencia[6]). La verdad que es menos chungo de lo que parece (menos hacer funcionar lo de la webcam virtual en Linux- se puede, pero uno se acostumbra a no tener que trastear) y se pueden hacer cosas graciosas. Vale la pena dedicarle un ratito aunque seguramente no le llegaremos a Scott Hanselman ni a la suela de los zapatos.
+
+Al menos ahora mismo no tengo excusa para ponerme a experimentar con pizarras virtuales :)
+
+
+=> https://www.amazon.es/gp/product/B083V41T6M/ 1: https://www.amazon.es/gp/product/B083V41T6M/
+=> https://www.nytimes.com/wirecutter/reviews/the-best-webcams/ 2: https://www.nytimes.com/wirecutter/reviews/the-best-webcams/
+=> https://wyzelabs.zendesk.com/hc/en-us/articles/360041605111-Webcam-Firmware-Instructions 3: https://wyzelabs.zendesk.com/hc/en-us/articles/360041605111-Webcam-Firmware-Instructions
+=> https://www.youtube.com/watch?v=-oaikJCR6ec 4: https://www.youtube.com/watch?v=-oaikJCR6ec
+=> https://www.hanselman.com/blog/DarkMatterDevelopersTheUnseen99.aspx 5: https://www.hanselman.com/blog/DarkMatterDevelopersTheUnseen99.aspx
+=> https://twitter.com/shanselman/status/1357036562077241344 6: https://twitter.com/shanselman/status/1357036562077241344

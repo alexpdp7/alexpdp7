@@ -1,0 +1,15 @@
+# Git, gitosis, gradle
+2011-03-13
+
+Dos apuntes rápidos.
+
+Uno. Los que se hayan visto atraídos por git, ese sistema de control de versiones distribuido tan molón se habrán dado cuenta que es un poco rollo montar un repositorio para que lo usen varias personas. Repositorios desnudos, autenticación UNIX, etc. ... son cosas que dan mucho palo. Resulta ser que existe una solución simple que es gitosis[1]. gitosis se instala fácilmente (está hasta en EPEL para los amigos de CentOS/RHEL) y resuelve muy rápidamente todos estos problemas.
+
+Dos. Pese a que admití que iba a usar Maven[2], como hobby me estoy mirando gradle[3]. Gradle es Ant[4], pero en Groovy[5] en vez de xml, añadiendo elementos de Maven como son la gestión de las dependencias (del famoso repositorio) y superándolo (al parecer) en asuntos como la gestión de proyectos interrelacionados. El defecto que le he visto hasta ahora es que no hay una integración obvia y potente con Eclipse como puede ser el soporte de Eclipse para Ant o ese callejon oscuro que es m2eclipse, pero por el momento parece proporcionar la potencia de Maven, pero con la sencillez de Ant y sin el cansancio del XML.
+
+
+=> http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way 1: http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way
+=> http://alex.corcoles.net/2011/02/maventuras/ 2: http://alex.corcoles.net/2011/02/maventuras/
+=> http://www.gradle.org/ 3: http://www.gradle.org/
+=> http://ant.apache.org/ 4: http://ant.apache.org/
+=> http://groovy.codehaus.org/ 5: http://groovy.codehaus.org/

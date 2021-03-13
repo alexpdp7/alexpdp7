@@ -1,0 +1,11 @@
+# ISOs y USBs
+2020-07-01
+
+Acabo de instalar un Windows mediante Ventoy[1]. Ventoy te formatea un USB te mete una partición con su bootloader y te deja una partición vacía. El bootloader detecta ISOs botables en esa partición y te saca un menu al arrancar para escoger una.
+
+Esto te permite tener varios ISOs en el mismo USB y no tener que reformatear e instalar cada instalador nuevo que queramos usar.
+
+Ya existían otros sistemas que permiten hacer esto, pero generalmente son sólo para Windows, son complicados o no funcionan bien, pero Ventoy funciona también en Linux y me ha funcionado todo a la primera y sin complicaciones.
+
+
+=> https://www.ventoy.net/ 1: https://www.ventoy.net/

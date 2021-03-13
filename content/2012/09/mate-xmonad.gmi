@@ -1,0 +1,32 @@
+# MATE + xmonad
+2012-09-07
+
+Aunque Gnome 3 no me desagrada tanto como a otros, llevo un tiempo trasteando con xmonad[1], MATE[2] y otras alternativas. Tras jugar un poco hoy con el multimonitor de xmonad, he decidido lanzarme a la piscina con una combinación de MATE y xmonad.
+
+xmonad mola. Es un gestor de ventanas "tiling"; es decir, por defecto no solapa ventanas y las encaja como mosaicos, de manera que podemos visualizar fácilmente varias ventanas simultáneamente. A parte, tiene unos atajos de teclado bastante bien pensados por defecto y un soporte multimonitor bastante interesante.
+
+El problema es que es excesivamente minimalista. Uno espera un panel con un reloj, notificaciones de programas, control de redes inalámbricas, etc.; y en xmonad hay que currárselo; instalar utilidades para cada cosa, escribir scripts para arrancarlos, tunearlo todo... en fin, tiempo que te permite crearte algo 100% a medida, pero demasiado tiempo.
+
+Lo que hace bastante gente es usar un entorno de escritorio (que trae todo eso de serie) y sustituir su gestor de ventanas por xmonad. Inicialmente había trasteado con Gnome 3 para esto, pero no parece sencillo montarlo sobre la versión completa, y el "Classic" o "fallback mode" es feo y tampoco funciona muy bien.
+
+Finalmente he optado por MATE. MATE es un fork de Gnome 2, para mi enormemente familiar y que me da todas las funcionalidades que necesito. Tiene un repositorio apt para Debian y añadir un
+
+xmonad --replace
+
+al inicio es trivial. Lo único que nos queda es un mínimo tuneo para que xmonad:
+
+* use la tecla Windows en vez de alt para sus atajos
+* maneje correctamente los paneles de MATE
+
+Mi config es tan sencilla como:
+
+import XMonad import XMonad.Hooks.ManageDocks
+
+main = xmonad defaultConfig     {     	manageHook = manageDocks  manageHook defaultConfig,     	layoutHook = avoidStruts  $  layoutHook defaultConfig,     	modMask = mod4Mask      }
+
+Luego mi última personalización es dejar un solo panel inferior y llenarlo de applets. Ya sólo nos queda aprendernos los atajos por defecto de xmonad[3].
+
+
+=> http://xmonad.org 1: http://xmonad.org
+=> http://mate-desktop.org/ 2: http://mate-desktop.org/
+=> http://www.haskell.org/haskellwiki/Image:Xmbindings.png 3: http://www.haskell.org/haskellwiki/Image:Xmbindings.png

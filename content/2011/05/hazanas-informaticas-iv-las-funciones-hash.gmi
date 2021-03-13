@@ -1,0 +1,62 @@
+# Hazañas informáticas IV: Las funciones hash
+2011-05-14
+
+Los mayores problemas de rendimiento de un sistema informático vienen causados por tener que trabajar con volúmenes grandes de información. La mayoría de algoritmos tienen un tiempo de ejecución relacionado con el tamaño de la información que manejan. Por ejemplo, encontrar el valor máximo de un conjunto de valores es directamente proporcional al tamaño del conjunto- si duplicamos el tamaño del conjunto, tardamos el doble en encontrar el  máximo.
+
+También es obvio que el tamaño de los datos afecta también a la velocidad de las comunicaciones- bajarse un fichero de dos megas normalmente cuesta el doble que uno de un mega.
+
+Así pues, parece una obviedad que reduciendo el tamaño de los datos con los que trabajamos, normalmente incrementaremos la velocidad de nuestros cálculos y/o nuestras comunicaciones.
+
+Por ejemplo, si comprimimos archivos que queremos transferir, reduciendo su tamaño, los podremos comunicar más rápidamente. Existen algoritmos de compresión que permiten reducir el tamaño de los datos sin perder fidelidad, con lo cual la mayoría de veces nos interesa transmitir datos comprimidos (sobre todo en el caso común en el que la compresión es efectiva y más rápida que la transferencia en sí).
+
+Hay algoritmos de compresión que no conservan la fidelidad con el archivo original; el popular formato de imagen jpeg permite comprimir imágenes fotográficas muchísimo, pero sacrificando la calidad de la imagen- la gracia del algoritmo es que la calidad que se pierde a menudo es imperceptible o despreciable.
+
+Los algoritmos de compresión con pérdida son muy útiles- eliminando el requerimiento de conservar toda la información, se consiguen cotas de compresión muchísimo más elevadas de lo que se pueden conseguir mediante algoritmos que preservan todos los datos.
+
+Existe una cosa parecida pero que da un paso más, que son las funciones hash.
+
+Una función hash es en cierta manera una compresión- se coge unos datos de un tamaño arbitrario y se obtienen unos datos mucho más pequeños. Un hash típico da como resultado un puñado de bytes (16, 32, etc.) a partir de entradas de cualquier tamaño.
+
+Está claro que debe haber una pérdida sustancial de información al pasar de una cosa a otra. Cierto. Es más, la mayoría de funciones hash no permiten reconstrucción alguna de los datos originales a partir del hash.
+
+¿Para qué puede servir algo que supone esta pérdida de información?
+
+La utilidad de las funciones hash viene dada por una propiedad muy simple. Una función hash debe ser determinista. Es decir, que para el mismo dato, el resultado de la función hash siempre tiene que ser el mismo.
+
+Esto nos permite, por ejemplo, hacer una cosa muy interesante. Alicia se ha bajado de internet un fichero enorme y se encuentra que al intentar utilizarlo, no le funciona. ¿Se trata de que se ha bajado el fichero incorrectamente o de que su ordenador no funciona correctamente o el fichero original no era correcto?
+
+Si el fichero fuese pequeño, la solución sería muy sencilla; se lo puede bajar más veces- cuantas más veces se lo baje, más probable será que una de las descargas sea correcta. Si se lo baja 10 veces y no funciona nunca, es poco probable que haya habido un error en la transmisión, lo más probable es que el fichero sea incorrecto en origen o ella tenga un problema usándolo.
+
+Pero claro, si el fichero es grande y tarda mucho en descargarse, es impráctico bajarlo varias veces para asegurarse que está bien.
+
+¿Cómo pueden ayudar las funciones hash aquí?
+
+La persona que tiene el fichero original, puede calcular un hash del fichero y pasárselo a Alicia. Dado que el hash es pequeño, este es rápido de transferir y es más fácil comprobar su validez.
+
+Una vez Alicia tiene el fichero que se ha descargado y su hash, puede calcular ella el hash del fichero. Si el hash que calcula es diferente al hash del fichero original, está claro que su fichero no es idéntico al fichero original- si lo fuese, el hash debería ser igual ya que la función hash debe ser determinista.
+
+¿Ahora bien, y si los dos hashes son iguales?
+
+Pues lógicamente, no podemos garantizar que los ficheros sean iguales. En la práctica, si escogemos las funciones hash cuidadosamente (básicamente, que cumpla que dos entradas parecidas tengan hashes muy diferentes y que la distribución de hashes generados sea uniforme), la posibilidad de que dos ficheros tengan hashes idénticos son muy reducidas. Si una función hash puede dar como resultado 16 hashes diferentes, la probabilidad de que dos entradas tengan un hash idéntico es de 16^2 o 256.
+
+Lo bueno aquí es que si doblamos el tamaño de las salidas del hash, reducimos a una cuarta parte las posibilidades de error.
+
+Una función hash tipica que dé hashes de 16 bytes puede dar 2 elevado a 128 posibles hashes (o 340282366920938463463374607431768211456 valores diferentes), con lo que la probabilidad de que dos hashes coincidan es microscópica (de 1 entre 2 elevado a 256, o en concreto de 1 entre 115792089237316195423570985008687907853269984665640564039457584007913129639936), con lo cuál, simplemente escogiendo una buena función hash podemos hacer comprobaciones de integridad tan fiables como deseemos con hashes muy pequeñitos.
+
+¿Tienen las funciones hash más utilidades?
+
+Pues sí, infinidad más. Programando muchas veces queremos almacenar datos y acceder rápidamente a ellos por un concepto concreto. Por ejemplo, querríamos almacenar todos los datos de los habitantes de España y poder acceder a ellos por su nombre.
+
+Una solución sencilla sería guardar los datos de todos ellos en una lista y cada vez que tuviésemos un nombre, recorrer la lista hasta encontrar a la persona que buscamos.
+
+Si hay 40.000.000 de habitantes en España, de media necesitaremos leernos la mitad de la lista (20 millones de entradas) hasta encontrar los datos de la persona.
+
+¿Cómo podemos emplear un hash para acelerar esto?
+
+Buscaremos una función hash que a partir de un nombre, nos pueda dar n posibles hashes. Crearemos n listas, y en cada una, guardaremos los datos de las personas cuyo nombre tenga un hash concreto.
+
+Si escogemos una función hash que haga que cada valor hash sea más o menos equiprobable, cada lista contendrá 40.000.000/n personas.
+
+Así pues, para localizar los datos de una persona sabiendo su nombre, calcularemos el hash de su nombre, y eso nos llevará a la lista donde están sus datos. Dentro de eso tendremos que recorrerla para encontrar sus datos, pero en vez de recorrer una lista de 40.000.000 de personas, recorreremos una lista reducida tanto como queramos.
+
+Aquí hay un pequeño balance que hay que hacer; cuantas más listas diferentes tengamos, menos eficiente será su almacenamiento y acceso, con lo cual seguramente no será efectivo escoger una función hash con 40.000.000 dde valores hash posible (con lo cual, encontrar una persona sería prácticamente inmediato), pero seguramente con funciones hash más pequeñas, sí que consigamos un aumento sustancial del rendimiento.

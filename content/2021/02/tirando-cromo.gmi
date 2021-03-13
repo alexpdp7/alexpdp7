@@ -1,0 +1,26 @@
+# Tirando cromo
+2021-02-26
+
+El nuevo tercer elemento que tengo conectado a mi tele (que sólo tiene dos entradas HDMI, así que tengo la PS4 y el PC para jugar en un conmutador) es el nuevo dispositivo de Google, con el sencillo nombre de "Chromecast con Google TV". He perdido la cuenta de alternativas para poder ver en grande contenido audiovisual (la familia Android/Google TV, los Fire TV de Amazon, el Apple TV, los hágalo usted mismo...), pero el término "Chromecast" siempre me ha seducido (buscar en este blog indica que tuve uno al menos en 2015 y sobre el que escribí en una anterior encarnación de este artículo[1]).
+
+Estaba usando hasta ahora un Mi Box 3, también Android TV, pero a pesar de que destaca en su calidad/precio (la última iteración de Android TV de Xiaomi es aún más barata a 35€, yo me he gastado el doble ahora), las últimas actualizaciones fueron la gota que colmo el vaso de las pequeñas inconveniencias. El mayor problema del Mi Box 3 era precisamente que Xiaomi no parecía entender la "magia" del Chromecast. Esto es, un Chromecast debería estar siempre disponible para enviarle contenido y que este aparezca rápidamente en una tele otrora apagada, pero el Mi Box 3 sólo funcionaba con el televisor encendido y sintonizado en la entrada del Mi Box.
+
+Uso habitualmente los servicios de Netflix, Prime Video, Disney+ y Movistar+. Movistar+ descarta automáticamente la PS4, y todos complican bastante el tema Raspberry (sí, seguramente se puede hacer funcionar, pero, ¿para qué?). La falta de HDMI-CEC en los PC con Windows elimina un poco el PC para jugar que tengo en la tele, y como he mencionado, la verdad que me gusta mucho el concepto Chromecast.
+
+Así pues, con pocas opciones y queriendo probar con algo que no venga de Xiaomi (que igual finalmente ha entendido la magia del Chromecast, pero quizá no), me decidí por el dispositivo estrella de Google, tras comprobar que su selección de aplicaciones cubre mis necesidades (y la mayoría de servicios disponibles en España).
+
+La verdad que ha sido un acierto, pese al coste. El Chromecast no es 100% perfecto, pero suficientemente cerca del 99% para que en un par de meses no me haya molestado, y Google parece haber clavado un par de cosas en las que el Mi Box (y otros dispositivos) cojeaban un pelín.
+
+Lo que más me ha sorprendido es algo aparentemente tan poco destacable como el volumen. En general, mi mente ya ha asimilado que al saltar de la tele convencional a cualquier otra cosa (consola, PC, dispositivo, etc.), hay que ajustar el volumen, porque mientras que la tele se oye bien pongamos al 8 de volumen de mi Samsung, Netflix necesita un 13. Yo ya casi lo hago automáticamente, pero esto no sucede con este Chromecast y se agradece. Además, no tiene volumen propio- los botones de volumen ajustan el volumen de la tele (por HDMI-CEC o infrarrojo según dispositivo), lo que me parece que reduce un poco la carga cognitiva.
+
+Esto nos lleva a un mando la mar de funcional, que aunque carece de una superficie de apoyo plana (¿qué narices pasa con esto? El mando de mi tele Samsung tiene el mismo problema) y tener dos botones etiquetados como Netflix y Youtube (que perturba mis sensibilidades), funciona bastante bien y, al poder ajustar el volumen de la tele con él, es bastante autónomo. Gracias a la magia del HDMI-CEC también podemos usar el mando de la tele adecuadamente (aunque esto evidencia que tengo un botón de pausa en el mando de la tele que le falta al mando del Chromecast. Creo que podría remapear uno de los dos botones inútiles de aplicación, pero tener un botón mal etiquetado profundizaría mi agravio).
+
+El mando gobierna la cacareada nueva interfaz "Google TV", que supuestamente unifica el catálogo de las aplicaciones y es a su vez un nido de publicidad carroñera. La verdad que ni lo uno ni lo otro. Sí, tenemos una página principal con contenidos de muchos servicios de streaming unificados, pero no todos (e.g. nada de Movistar+ por el momento, y creo que podemos olvidarnos de RTVE a la carta, o del contenido de mi servidor Jellyfin). Y sí, aparecen contenidos de pago tipo la compra/alquiler de películas de Google Play, pero la verdad, no lo encuentro tan molesto. Puede que en algún momento encuentre algo que ver con esto, pero en general sigo tirando de JustWatch[2], que al menos añade Movistar+ y que tiene una vista de novedades menos "algorítmica".
+
+Por supuesto, al ser Android TV podemos añadir aplicaciones como Jellyfin y Kodi, que funcionan adecuadamente para reproducir contenidos que tengo a 500 kilómetros y 20 milisegundos de ping al otro lado de una VPN.
+
+En definitiva, aunque algo más caro que otros, este Chromecast es un buen cacharro que funciona bastante bien con la oferta de contenidos en España y que acierta en su mayoría de decisiones ergonómicas.
+
+
+=> https://alex.corcoles.net/2017/06/hdmi-cec-algunas-cosas-que-se-enchufan-a-la-tele-y-complementos/ 1: https://alex.corcoles.net/2017/06/hdmi-cec-algunas-cosas-que-se-enchufan-a-la-tele-y-complementos/
+=> https://www.justwatch.com/ 2: https://www.justwatch.com/

@@ -1,0 +1,26 @@
+# Popurrí
+2020-12-05
+
+Parece ser que Apple ha alterado los términos de uso de macOS de manera que permite servicios cloud basados en macOS, pero con un periodo mínimo de 24h[1]. Curiosamente, esto ha sucedido a la vez que AWS ha sacado su servicio de EC2 con macOS[2]. He usado algún servicio (Flow[3]) para cuando he necesitado hacer algo con macOS sin disponer de hardware físico; por una parte se agradece que por fin haya cierta claridad legal, pero por otra parte, el mínimo de 24h le quita bastante el sentido para algunos usos. Para CI/CD GitHub Actions tiene runners con macOS que se cobran al minuto (!), pero para uso general, el Mac Mini de AWS sale a unos 24€ por día. Son unos 30 días para que cueste como comprarse un Mac Mini, con la ventaja de no tener que mantenerlo/reemplazarlo/etc.
+
+Por supuesto, tanto Linux como Windows se pueden usar por minuto en EC2 (y cualquier otro proveedor) sin problemas, pudiendo aprovechar mucho más la elasticidad. De las pocas cosas que me fastidia de Windows (a parte del coste base, claro) es que cosas como el escritorio remoto y, especialmente, Hyper-V, estén valladas en la edición Pro de Windows 10[4]. Este último complicando un poco la vida de quien quiere desarrollar software y usar cosas como Docker o Kubernetes.
+
+La queja que tenía sobre Linux recientemente- la pérdida de la "transparencia en red" al pasar de X11 a Wayland- parece que está en vías de ponerse interesante[5].
+
+En temas más lúdicos, acabo de descubrir (años después de acabarme el juego) que "The Music of Grand Theft Auto V, Vol. 2: The Score" (YouTube Music[6], Spotify)[7] es un interesante pelotazo de Tangerine Dream, DJ Shadow y otros nombres que no conozco.
+
+Llevo días sin viciarme a los recientemente adquiridos art of rally y Control. art of rally es un homenaje a los rallies de los del Absolute Drift. Es una experiencia prácticamente hipnoticorelajante de derrapes con un estilo gráfico la mar de agradable y una banda sonora que acompaña.
+
+Control por otra parte es un juego de tiros en tercera persona con elementos sobrenaturales y superpoderes que inmediatamente me dio unas vibraciones fantásticas del Max Payne al que jugaba hace casi dos décadas. Qué sorpresa descubrir que comparte muchos responsables. Me lo compré para amortizar un poco el PC con GTX 2060 que me compré por culpa del Flight Simulator. No sé si todos los juegos modernos son así, pero entre los gráficos con trazado de rayos y el entorno físico con mogollón de elementos destruibles, se me está haciendo agua con lo que es posible en los videojuegos de hoy y de la próxima década.
+
+La bola extra es que debería ser un deportista de élite y no lo soy[8].
+
+
+=> https://blog.macstadium.com/blog/developers-big-sur-and-vindication 1: https://blog.macstadium.com/blog/developers-big-sur-and-vindication
+=> https://aws.amazon.com/es/blogs/aws/new-use-mac-instances-to-build-test-macos-ios-ipados-tvos-and-watchos-apps/ 2: https://aws.amazon.com/es/blogs/aws/new-use-mac-instances-to-build-test-macos-ios-ipados-tvos-and-watchos-apps/
+=> https://flow.swiss/ 3: https://flow.swiss/
+=> https://en.wikipedia.org/wiki/Windows_10_editions#Comparison_chart 4: https://en.wikipedia.org/wiki/Windows_10_editions#Comparison_chart
+=> https://mstoeckl.com/notes/gsoc/blog.html 5: https://mstoeckl.com/notes/gsoc/blog.html
+=> https://music.youtube.com/playlist?list=OLAK5uy_mJ7Myt-6KnTTpsy_8q6iOxOjZ_1NbvBl8 6: https://music.youtube.com/playlist?list=OLAK5uy_mJ7Myt-6KnTTpsy_8q6iOxOjZ_1NbvBl8
+=> https://open.spotify.com/album/0NeWQGtJD0LfXdVvgYNZM4 7: https://open.spotify.com/album/0NeWQGtJD0LfXdVvgYNZM4
+=> https://fivethirtyeight.com/features/why-are-great-athletes-more-likely-to-be-the-younger-siblings/ 8: https://fivethirtyeight.com/features/why-are-great-athletes-more-likely-to-be-the-younger-siblings/

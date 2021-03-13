@@ -1,0 +1,30 @@
+# Mi lenguaje de programación favorito
+2014-10-11
+
+A todos nos gusta meternos en disquisiciones filosóficas inútiles, generalmente de la forma de "escoger el mejor X". Para esta aburrida mañana de sábado, voy a hablar de mi lenguaje de programación preferido- un tema nada original.
+
+Para empezar, ¿cuál es el criterio subjetivo para definir "favorito"?
+
+Pues voy a escoger "productividad en su ámbito"; es decir, lo rápido que me permite resolver problemas en un área específica. Por supuesto este criterio está influenciado por los ámbitos en los que uno trabaja y requiere esta productividad.
+
+Dentro de estos criterios, cada vez me es más difícil no responder "el bash". Con el paso del tiempo he descubierto que para una amplia gama de situaciones, la mejor respuesta es indudablemente abrir un terminal y vomitar una sarta de bash y, muy frecuentemente, observar como funciona a la primera.
+
+Podéis quejaros de que es un argumento un poco tramposo. Cuando uno habla de bash, nunca habla del bash en aislamiento- lo que hace realmente útil al bash es la infinidad de comandos que puede combinar- ya sea herramientas estándar como cut, grep, find, etc. como otras más evolucionadas como el curl u otras más esotéricas como el genial xmlstarlet- o incluso herramientas que son lenguajes de programación a escondidas, como el sed o el awk.
+
+Pero argumentaré que el resto de lenguajes también son inútiles sin sus librerias- es sólo que el bash tiene una librería estándar descomunal que resulta ser cualquier cosa que se pueda ejecutar desde una línea de comandos.
+
+El bash también cuenta con el concepto del pipe- presente en todos los shells pero sorprendemente ausente de la mayoría de los demás lenguajes de programación. El pipe es el pegamento perfecto para combinar cosas en el bash- la mayor parte de bashismos son cosas del tipo:
+
+cat fichero | grep foo | cut -d , -f 3,5 | sed "s/^/foo:/" >resultado
+
+; con esta sencilla primitiva combinamos sin fisuras cuatro comandos distintos- e infinitos más.
+
+El conjunto del bash y el conjunto de herramientas estándar es tan armonioso que la mayor parte de manipulaciones de ficheros de texto, operaciones entre ficheros, etc. pueden resolverse con unos cuantos pipes y unos cuantos grep. Bash también nos permite definir funciones bastante ágilmente, cuenta con estructuras de flujo de control bastante majas, nos permite un primitivo control de errores y lo mejor de todo, permite reciclar nuestro código en scripts fácilmente reutilizables.
+
+Si tuviese que escoger otro lenguaje favorito, por motivos similares escogería el SQL. SQL pelado, sí. Si puedes meter tu información en una base de datos relacional (y a menudo ya vive allí, porque las bases de datos son los mejores hogares para los datos), el SQL te permite con la misma brevedad que bash aplicar cualquier transformación a esos datos, extraer los que te interesan y sumarizarlos a gusto. En mi carrera profesional, pocas cosas se me han valorado más que la habilidad de extraer datos en minutos de una base de datos.
+
+Lo más sorprendente de SQL es que, a diferencia del bash, es un lenguaje profundamente declarativo: raramente le decimos a SQL cómo tiene que hacer las cosas, sino que le decimos lo que queremos y él se preocupa de ejecutarlo de una manera eficiente (siendo capaz de realizar operaciones complejas sobre enormes conjuntos de datos en un periquete).
+
+Detras del bash y SQL vendrían otros; Python por ser un lenguaje de propósito general claro y productivo (que además cuenta con Django- el framework para CRUD más productivo que he encontrado nunca)- Java por similares motivos, pero contando además con un rendimiento espectacular y características y herramientas esenciales para construir programas de gran tamaño, o Haskell, cuya elegancia matemática y su sorprendente modelo siempre me deja boquiabierto.
+
+Pero antes de todos estos lenguajes populares siempre están esos dos- que muchos ni tendrían en cuenta como lenguajes de programación (pues son de ámbitos reducidos), pero que ejecutan funciones (específicas, eso sí- pero muy comunes) a la perfección.

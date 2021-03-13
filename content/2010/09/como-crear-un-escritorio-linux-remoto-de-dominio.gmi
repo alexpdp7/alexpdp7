@@ -1,0 +1,24 @@
+# Cómo crear un escritorio Linux remoto de dominio
+2010-09-02
+
+En alguna ocasión nos puede ser útil crear un sistema que corre un entorno de escritorio y está siempre encendido. Por ejemplo, queremos que usuarios acostumbrados a un entorno gráfico puedan ejecutar tareas largas desacopladas de su terminal.
+
+Dentro del mundo Microsoft bastante dominante en las empresas, la opción sencilla es crear una máquina con Terminal Server activado y permitir su acceso remoto. Sin embargo, un Windows Server con TS y una licencia normalita (pero aún así, de coste) sólo admite dos usuarios concurrentes. Si no tenemos presupuesto o un buen acuerdo de licencias, puede salirnos bastante caro dar acceso a unos cuantos usuarios.
+
+Una alternativa que podemos usar es la siguiente:
+
+* Instalar una distribución Linux (en mi caso concreto, Ubuntu Lucid Lynx[1]- una versión LTS[2] ya que soy fan de los ciclos de soporte largos)
+* Instalar FreeNX[3], un sistema de escritorio remoto de rendimiento bastante similar al escritorio remoto de Microsoft (en mi caso concreto, esto es una buena guía para instalar FreeNX en Ubuntu[4], de muy poquitos pasos)
+
+Con esto, escribiendo una pequeña guía de configuración de un cliente de NX para los usuarios, conseguiremos lo que queremos. Si hacemos que el servidor de NX sea accesible vía Internet, nuestros usuarios podrán conectarse desde cualquier sitio, ejecutar sus programas, desconectarse y volverse a reconectar en cualquier sitio, recuperando todo en el estado en que lo dejaron.
+
+Si nuestro entorno utiliza los popularísimos dominos de Windows Server para gestionar los usuarios, podemos añadir integración al dominio de Windows para que los usuarios puedan utilizar sus credenciales del dominio para acceder al sistema. En el caso que nos ocupa, aquí explican como usar likewise-open para realizar esta tarea en muy pocos pasos en Ubuntu[5].
+
+Como bonus, los usuarios podrán acceder automáticamente a recursos de red con sus privilegios de Windows, como carpetas de red.
+
+
+=> https://wiki.ubuntu.com/LucidLynx 1: https://wiki.ubuntu.com/LucidLynx
+=> https://wiki.ubuntu.com/LTS 2: https://wiki.ubuntu.com/LTS
+=> http://freenx.berlios.de/ 3: http://freenx.berlios.de/
+=> https://help.ubuntu.com/community/FreeNX 4: https://help.ubuntu.com/community/FreeNX
+=> http://www.mabishu.com/blog/2010/07/27/joining-ubuntu-lucid-lynx-to-active-directory/ 5: http://www.mabishu.com/blog/2010/07/27/joining-ubuntu-lucid-lynx-to-active-directory/

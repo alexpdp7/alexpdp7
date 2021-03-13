@@ -1,0 +1,24 @@
+# El futuro ya está aquí
+2018-12-15
+
+Problemente algún amigo de Spike Jonze le enseñó un prototipo de unos auriculares "verdaderamente inalámbricos" y le vino la inspiración para la terrible "Her" de 2013. Luego vendrían el Moto Hint en 2014, los Bragi Dash de 2015 y finalmente los AirPods de Apple en 2016 que trajeron la verdadera inalambricidad a las masas.
+
+Yo he esperado hasta que los Jabra Elite 65t tuvieran estupendas reseñas y estuviesen de oferta (130€) para subirme al carro de una tecnología intrigante. No estoy muy puesto en el tema, pero al parecer conseguir dos miniauriculares inalámbricos es bastante complicado, así que seguro que hay todavía más avances por delante. Espero especialmente los AirDots de Xiaomi, que seguro que son usables a un precio mucho menor de los otros auriculares de los que hablo.
+
+En cualquier caso, es una tecnología incipiente, pero los Elite funcionan la mar de bien, aunque:
+
+* ¡No tienen botón de mute! No es tanto problema, pero no te libera totalmente del dispositivo emparejado
+* El truco de conectar dos dispositivos a la vez no funciona con dispositivos que no tengan Bluetooth 5. No sé si con que uno de los dispositivos sea 5 basta o han de serlo ambos, con lo que los cambios de dispositivo son bastante incómodos (mantener el botón del auricular derecho pulsado unos 10s y darle a emparejar en el dispositivo).
+* Que sean dos aparatitos pequeños sin cuerda tiene sus limitaciones. No se pueden dejar colgando del cable y esas cosas
+* La aplicación de móvil no es completamente fiable y a veces se cierra, causando pequeños problemas de funcionalidad (deja de funcionar el modo "dejar pasar audio externo al pulsar el botón del auricular derecho dos veces"). En general es bastante mejorable
+
+Por contra, tienen cosas interesantes:
+
+* Los controles son la mar de intuitivos. Siempre he tenido problemas con los auriculares Bluetooth, pero estos son absolutamente fáciles de usar
+* La calidad de sonido es excelente (al menos para oídos muy poco sofisticados)
+* Los modos de dejar pasar sonido y de "escuchar tu propia voz en una llamada" funcionan bastante bien, aunque el "dejar pasar el sonido" introduce un perceptible ruido blanco de fondo
+* La caja cargadora es la mar de práctica (aunque no es USB-C)
+
+y mi mayor preocupación, que los auriculares con silicona no me funcionan muy bien, no es para tanto. El ajuste es bastante bueno y aunque dan un poco de calor y cansan en usos prolongados, son bastante cómodos.
+
+Creo que la tecnología aún no está del todo a punto, y que hace falta que se extienda más el Bluetooth 5 y estos aparatos bajen de precio para que rompan el mercado, pero aún así, los más inquietos pueden lanzarse a la piscina con bastante tranquilidad.

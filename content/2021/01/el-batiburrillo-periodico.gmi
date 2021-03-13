@@ -1,0 +1,29 @@
+# El batiburrillo periódico
+2021-01-30
+
+Nunca usé Gopher, pero estoy loco por Project Gemini[1]. Desgraciadamente no creo que pueda justificar mover todo lo que pueda al espacio Géminis, pero sería algo maravilloso.
+
+Pese a que conseguí usar los certificados del DNI electrónico en mi sistema Linux sin demasiado problema, usos más avanzados que requieren el uso de AutoFirma integrado en el navegador, fracasaron estrepitosamente y tuve que recurrir a Windows. Pero al final, me dieron la solución[2]. Nótese que podéis presentar reclamaciones a la AEPD contra la gente que no respeta las reglas sobre envíos de publicidad (lamentablemente, hace una semana que presenté la reclamación y aún no he recibido respuesta). Pero cabe decir que el uso del DNI electrónico me fascina. No parece complicado implantar autenticación sin contraseña (más allá del pin del DNI), segura y efectiva- el mayor problema que le veo es que no suelo tener el DNI cerca del ordenador.
+
+Para los que aún no lo sepan, soy un gran fan de Elsa y no lo puedo dejar ir. Por tanto me encanta que los algoritmos para animar la nieve en Frozen hayan servido para resolver un misterio histórico de hace seis décadas[3].
+
+Imprescindible este artículo de la BBC sobre gamers que no se mudan y que sí deberían ser nuestros modelos a seguir.[4]
+
+El otro día por algún motivo tuve la necesidad de volver a ver el videoclip literal de White Wedding. Es más complicado de lo que parece, porque ha desaparecido de YouTube. Pero lo peor es que creo que no ha envejecido bien. Ni siquiera el de Total Eclipse of the Heart. Deliberadamente no pongo enlaces para que os sea más difícil perder la ilusión.
+
+Aunque precisamente ahora no necesito una pizarra electrónica, sí las he necesitado en el pasado, con lo cual tengo excusa para perder el tiempo investigando sobre el tema. Este artículo encuentra una solución interesante de 50€[5].
+
+Añadid a vuestra colección de navajas la de Hitchen[6]. ¿Programador o psicópata? (un test sobre prejuicios físicos, no una valoración de la ergonomía de algunos lenguajes de programación)[7]. Google prueba una aproximación más al tema de los monorepos[8]. Microsoft suelta en el Excel a una de las figuras del Haskell, con resultados harto predecibles[9]. Los sistemas de reglas arbitrarios y complicados me son interesantes, así que me entretuve un rato con [las nuevas reglas de acicalado del ejército norteamericano](http:// https://www.snopes.com/ap/2021/01/27/let-down-your-hair-new-army-rules-for-ponytails-nail-color/[10]). El nuevo diccionario histórico de la ciencia ficción parece maravillosamente entretenido[11].
+
+
+=> https://gemini.circumlunar.space/ 1: https://gemini.circumlunar.space/
+=> https://github.com/ctt-gob-es/clienteafirma/issues/172#issuecomment-767120025 2: https://github.com/ctt-gob-es/clienteafirma/issues/172#issuecomment-767120025
+=> https://www.nationalgeographic.com/science/2021/01/has-science-solved-history-greatest-adventure-mystery-dyatlov/ 3: https://www.nationalgeographic.com/science/2021/01/has-science-solved-history-greatest-adventure-mystery-dyatlov/
+=> https://www.bbc.co.uk/news/stories-55811621 4: https://www.bbc.co.uk/news/stories-55811621
+=> https://www.earth.li/~noodles/blog/2021/01/remote-whiteboard.html 5: https://www.earth.li/~noodles/blog/2021/01/remote-whiteboard.html
+=> https://en.wikipedia.org/wiki/Hitchens%27s_razor 6: https://en.wikipedia.org/wiki/Hitchens%27s_razor
+=> https://vole.wtf/coder-serial-killer-quiz/ 7: https://vole.wtf/coder-serial-killer-quiz/
+=> https://fuchsia.googlesource.com/jiri/ 8: https://fuchsia.googlesource.com/jiri/
+=> https://www.microsoft.com/en-us/research/blog/lambda-the-ultimatae-excel-worksheet-function/ 9: https://www.microsoft.com/en-us/research/blog/lambda-the-ultimatae-excel-worksheet-function/
+=> https://www.snopes.com/ap/2021/01/27/let-down-your-hair-new-army-rules-for-ponytails-nail-color/ 10: https://www.snopes.com/ap/2021/01/27/let-down-your-hair-new-army-rules-for-ponytails-nail-color/
+=> https://sfdictionary.com/ 11: https://sfdictionary.com/

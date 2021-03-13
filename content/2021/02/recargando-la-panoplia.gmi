@@ -1,0 +1,17 @@
+# Recargando la panoplia
+2021-02-26
+
+No soy **nada** fan de las limitaciones artificiales de hardware. PERO, esto de que Nvidia lastre el minado de Bitcoin para intentar que la gente juegue con su hardware diseñado para jugar[1], aunque me siga pareciendo problemático (como a John Carmack, que propone mecanismos más libremercadistas para cumplir ese propósito[2], que tampoco me convencen del todo), me parece interesante.
+
+Me descubrieron recientemente en el trabajo que uno de los programadores más infames de la historia[3] fue interpretado en el cine por Christian Slater[4] (yo siempre le veo más como el inolvidable J.D. de la inolvidable Heathers/Escuela de Jóvenes Asesinos o como el Clarence de Amor a Quemarropa, pero la verdad que estuvo en Mr. Robot), en un reparto con James Franco, Ed Harris, Timothée Chalamet y Cynthia Nixon.
+
+La sensibilidad de Guido por la legibilidad a veces choca con monstruos que "descubren" "operadores" "cósmicos"[5]. Soy uno de esos fans del Bushido Blade aludidos por esta nota de Polygon sobre Hellish Quart[6]. Lástima que se me ha pasado la demo :( Los místicos microclimas ibéricos ofrecen alternativas verdes para la refrigeración informática[7]- me pregunto si AWS y Azure habrán considerado este ángulo.
+
+
+=> https://www.polygon.com/2021/2/18/22289224/nvidia-rtx-3060-mining-cmp-ethereum 1: https://www.polygon.com/2021/2/18/22289224/nvidia-rtx-3060-mining-cmp-ethereum
+=> https://www.theverge.com/2021/2/19/22290905/john-carmack-gpu-console-auctions-proposal-scalpers 2: https://www.theverge.com/2021/2/19/22290905/john-carmack-gpu-console-auctions-proposal-scalpers
+=> https://en.wikipedia.org/wiki/Hans_Reiser#Nina_Reiser%27s_disappearance 3: https://en.wikipedia.org/wiki/Hans_Reiser#Nina_Reiser%27s_disappearance
+=> https://www.imdb.com/title/tt1735907/ 4: https://www.imdb.com/title/tt1735907/
+=> https://bugs.python.org/issue43255#msg387248 5: https://bugs.python.org/issue43255#msg387248
+=> https://www.rockpapershotgun.com/hellish-quart-physics-swordfighting-game-is-out-now 6: https://www.rockpapershotgun.com/hellish-quart-physics-swordfighting-game-is-out-now
+=> https://www.xataka.com/pro/cpd-seguridad-social-se-trasladara-a-soria-porque-hace-frio-permitira-ahorrar-refrigeracion 7: https://www.xataka.com/pro/cpd-seguridad-social-se-trasladara-a-soria-porque-hace-frio-permitira-ahorrar-refrigeracion

@@ -1,0 +1,10 @@
+# El universo recursivo
+2020-08-30
+
+http://www.amandaghassaei.com/blog/2020/05/01/the-recursive-universe/[1][2]
+
+Aunque me parece intuitivo que es posible, no sabía que se había conseguido implementar el juego de la vida usando el juego de la vida.
+
+
+=> http://www.amandaghassaei.com/blog/2020/05/01/the-recursive-universe/ 1: http://www.amandaghassaei.com/blog/2020/05/01/the-recursive-universe/
+=> http://www.amandaghassaei.com/blog/2020/05/01/the-recursive-universe/ 2: http://www.amandaghassaei.com/blog/2020/05/01/the-recursive-universe/

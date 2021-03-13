@@ -1,0 +1,18 @@
+# Un dios griego, el servicio postal, una frambuesa y un elemento de una imagen
+2020-12-25
+
+```
+$ cat check_pixel
+#!/bin/bash
+
+set -ue
+
+curl -s https://store.google.com/config/pixel_4a?hl=es >/tmp/pixel
+grep Agotado /tmp/pixel >/dev/null || mail yo@example.com -s "pixel disponible" </dev/null
+
+$ crontab -l
+# m h  dom mon dow   command
+16  *    *   *   *   /home/alex/check_pixel
+```
+
+Actualización: parece ser que el script no funciona correctamente (acabo de comprobar que ya hay Pixels y no he recibido email). Me da un poco igual porque ya he comprado uno en la FNAC de Francia, como 40€ más barato, que ha llegado hoy.

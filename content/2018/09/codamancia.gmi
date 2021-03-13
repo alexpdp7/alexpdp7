@@ -1,0 +1,23 @@
+# Codamancia
+2018-09-26
+
+Por fin me ha llegado la invitación a la beta de coda[1] (aunque creo que muy selecta no es, puedo invitar a quien quiera, diría). Cuando vi un anuncio original me sorprendió porque parecía encarnar bastante algunas ideas que me recorren la cabeza de cuando en cuando.
+
+El impacto de la hoja de cálculo y el procesador del texto es tan grande que se hace casi difícil de cuantificar (o de imaginar la vida antes de). Pero ambas ideas son bastante antiguas (Wordstar y Visicalc son de mi misma quinta, y uno no es precisamente joven) y sus limitaciones y problemáticas ya son por todos bien conocidas.
+
+La hoja de cálculo es quizá de las dos la idea más potente, pero más peligrosa. Una hoja de cálculo pone al alcance de todos funcionalidades de manejo de datos que de otra manera son bastante inaccesibles si uno no quiere dedicar una cantidad muy significativa de tiempo a aprender a programar, pero a su vez, está basado en un concepto un tanto primitivo (una rejilla sin estructura implícita) que por mucho que se le apilen funcionalidades encima, acaba padeciendo por estar carente de funcionalidades más propias de las bases de datos relacionales, por ejemplo.
+
+Por otra parte, el concepto de procesador de textos resulta a menudo limitado por estar orientado (accidentalmente, en mi opinión) a obtener una versión impresa de los documentos. Vivimos en un mundo donde el papel es mucho menos predominante de lo que era hace un par de décadas y, sin embargo, los procesadores de texto aún viven esclavizados a la paginación.
+
+Seguramente haya habido otros intentos de renovar estas dos herramientas, sin embargo no recuerdo ninguna (probablemente por ignorancia) tan ambiciosa como coda. Coda unifica proceso de textos y hoja de cálculo, y acerca la hoja de cálculo a la base de datos relacional como todos- consciente o inconscientemente- siempre habíamos deseado.
+
+Las "tablas" de coda no son espacios ilimitados y desestructurados que vagan libres por el espacio; son tablas con columnas definidas y que viven incrustadas en documentos. Los documentos tienen una estructura jerárquica no continua y paginada. Podemos crear "vistas" sobre tablas, que pueden ser tableros tipo Kanban, gráficas, subtablas, etc. y que viven incrustadas en los mismos documentos.
+
+A pesar de sus obvias limitaciones (el interfaz tiene algún defectillo, me parece que no tienen nada para ver documentos en móviles, no veo manera fácil de hacer "pivot tables", etc.), creo que por fin tenemos un verdadero competidor para el vetusto estado del arte ofimático. Creo que sus creadores han sabido adoptar un alcance sabiamente limitado, con lo que hoy nos pueden entregar un producto ya útil para multitud de escenarios, pero que a su vez es suficientemente simple como para que la gente se pueda arrojar sobre él sin miedo.
+
+¿Será coda el heraldo de un cambio de paradigma? Pues la verdad, desearía que sí, lo que pasa es que conseguir algo así es algo que requiere una espectacular carambola de condiciones que uno puede buscar con ahinco, pero que al final depende de tener suerte. Quizá en un tiempo miremos atrás y veamos que si bien no fue precisamente coda el que se llevó el gato al agua, puede que podamos encontrarlo en el linaje de los vencedores.
+
+Probadlo.
+
+
+=> https://coda.io/welcome 1: https://coda.io/welcome

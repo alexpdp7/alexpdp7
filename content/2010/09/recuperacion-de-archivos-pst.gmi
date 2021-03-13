@@ -1,0 +1,28 @@
+# Recuperación de archivos .pst
+2010-09-02
+
+Outlook debería morir, pero muchos se niegan a lo que es correcto. Outlook sin Exchange es una combinación particularmente letal por muchos motivos.
+
+Dicho esto, en alguna ocasión alguien puede verse en el brete de tener que recuperar un archivo .pst (donde los Outlook sin Exchange guardan correo local). Los motivos son muchos, y la herramienta scanpst.exe[1] puede resolver bastantes. A veces el asunto se complica, especialmente si se trata un .pst de formato "antiguo" y este supera los 2gb. En esta situación, es bastante sencillo verse obligado a usar esta herramienta de Microsoft para truncar destructivamente el archivo[2] y poderlo recuperar con .pst (proceso harto entretenido, ya que operar con archivos de 2gb suele ser bastante lento y podemos necesitar varios intentos de truncado antes de tener éxito).
+
+Pero, aún usando estas dos herramientas, podemos hallarnos en casos donde no funcionan y es absolutamente necesario recuperar el archivo. Existen herramientas de pago, pero las ignoro idiosincráticamente.
+
+Existe un procedimiento que he usado exitosamente una vez que consiste en lo siguiente:
+
+1. Usar el programa readpst[3] para convertir el .pst en archivos mbox
+2. Utilizar un servidor de correo IMAP como puede ser Dovecot[4] para mostrar estos mbox como una cuenta de correo IMAP
+3. Usar la interesante herramienta IMAPSize[5] para hacer una copia de seguridad de esta cuenta IMAP, lo que nos genera una jerarquía de carpetas en nuestro sistema de archivos con los mensajes individuales en formato .eml
+4. Recrear la jerarquía de carpetas en Windows Live Mail[6] y arrastrar los archivos .eml a su sitio en ésta
+5. Usar la funcionalidad de exportar de Windows Live Mail para meter estos datos en el .pst predeterminado de Outlook (que previamente habremos creado y asignado)
+
+Si seguimos estos pasos, al cabo de un buen rato (el 4 es especialmente tedioso), 4 programas diferentes y probablemente 2 sistemas operativos, y sin coste, tendremos como resultado un .pst que nos salve la vida.
+
+Nota, es probable que los pasos se puedan optimizar. En teoría, readpst puede generar archivos .eml, pero a mi no me ha funcionado (probablemente por nombres irregulares de las carpetas del pst), saltándonos varios pasos. También podríamos intentar automatizar el doloroso paso 4, pero de momento no lo he conseguido.
+
+
+=> http://support.microsoft.com/kb/287497 1: http://support.microsoft.com/kb/287497
+=> http://support.microsoft.com/kb/296088 2: http://support.microsoft.com/kb/296088
+=> http://www.five-ten-sg.com/libpst/ 3: http://www.five-ten-sg.com/libpst/
+=> http://www.dovecot.org/ 4: http://www.dovecot.org/
+=> http://www.broobles.com/imapsize/ 5: http://www.broobles.com/imapsize/
+=> http://explore.live.com/windows-live-mail 6: http://explore.live.com/windows-live-mail

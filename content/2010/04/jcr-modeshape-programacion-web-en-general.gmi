@@ -1,0 +1,53 @@
+# JCR, Modeshape, programación web en general
+2010-04-10
+
+Una cosa muy habitual requerida de un programador es realizar páginas web. La programación web, a un nivel muy alto, particularmente se preocupa de dos cosas:
+
+* Generar contenido- usualmente HTML[1]- en respuesta a una petición HTTP[2] para una URL[3]. Es decir, cuando en nuestro navegador introducimos http://www.google.com[4][5], los servidores de Google nos responden con un HTML con la página de búsqueda de Google.
+* Procesar formularios. Tecleo la entrada de este blog en el interfaz de administración; cuando le doy a "Publicar", los datos del formulario se envían al sistema de mi blog, que los procesa y los introduce en la base de datos del blog.
+
+Hoy nos ocuparemos, en parte, de lo primero.
+
+¿Cómo almacenamos el contenido de nuestra web?
+
+Una primera aproximación sencilla es guardarlo en el sistema de archivos. Algo tan sencillo como guardar el HTML en carpetas del servidor funciona casi sin esfuerzo- simplemente le decimos a nuestro servidor web que para cada petición HTTP busque un fichero con la misma ruta y nombre que la petición y lo sirva al usuario.
+
+Lógicamente, normalmente esto no es suficiente. Por ejemplo, no queremos repetirnos continuamente con la cabecera y pie de nuestra página web en cada HTML que creamos. Aquí, cosas tan sencillas como los server-side includes[6], el PHP[7] o cualquier cosa con directiva "include" puede bastar.
+
+Otro problema que plantea esta alternativa es su falta de versatilidad. Una evolución lógica (y popular) es guardar los contenidos en una base de datos, típicamente una que use SQL[8] (básicamente, una base de datos relacional[9]). Creamos un esquema de datos de la información que queremos mostrar en nuestra página (por ejemplo, entradas de blog, usuarios, categorías, etc.) y programamos una serie de páginas que, en función de la URL que nos piden, recupera la información de la base de datos y crea un HTML con esa información.
+
+Esta mecánica es profundamente popular, y una parte muy significante de la web actual está implementada de esta manera.
+
+Sin embargo, la opción más popular, las bases de datos SQL, no son apropiadas para todos los contenidos que queramos mostrar en una web. Las bases de datos suelen representar datos altamente estructurados, con esquemas rígidos (es decir, un usuario tiene un nombre, email; una entrada de blog tiene título, autor, fecha de modificación, cuerpo, etc.), y los sistemas de presentación web basados en bases de datos SQL suelen ser por consecuencia, rígidos. Esto en muchas ocasiones no es especialmente problemático, en otras es fastidioso pero soportable y en ocasiones, puede ser muy incómodo.
+
+Lógicamente surgen alternativas a las bases de datos SQL; el movimiento NoSQL[10] abandera a toda una serie de bases de datos no relacionales que se oponen a usar SQL. Normalmente, por motivos erróneos y en gran medida motivados por la existencia de MySQL[11], probablemente la menos relacional y SQLifica base de datos popular que existe.
+
+Por mucho que uno opine que la mayoría de argumentos que esgrimen los defensores del NoSQL, uno sí piensa que pueden existir cosas mejores para almacenar contenidos para web. Una tecnología interesante en este sentido es Java Content Repository[12], un mecanismo de almacenaje de información muy adecuado para el contenido web. Unas cuantas características de los repositorios JCR son:
+
+* Jerárquico. Los contenidos (nodos) de JCR se organizan en una jerarquía, directamente identificable con la jerarquización típica de las URLs del contenido web
+* Versionado/con espacios de trabajo. Podemos almacenar todas las versiones que vayan habiendo del contenido, y disponer de varios espacios de trabajo paralelos (e.g. el espacio de trabajo público, un espacio de trabajo de borradores, etc.)
+* Con metadatos. Podemos almacenar metadatos sobre el contenido (autor, fecha de publicación, etc.) de una manera flexible
+
+Así pues, en principio, JCR parece un sistema muy útil de cara a almacenar información web. Lo interesante de JCR es que es sólo una API, con varias implementaciones. Así, un repositorio JCR podría guardar su información en una base de datos SQL, en una NoSQL o en cualquier cosa que se le ocurre al implementador.
+
+Y es aquí donde aparece Modeshape[13] de JBoss[14]. Modeshape es un JCR cuyo almacenaje es flexible. Más bien, JCR es una librería para implementar JCRs. Podemos implementar JCRs que cojan los datos de una base de datos, de otro JCR, de una fuente de datos NoSQL, de lo que sea. Y también nos permite unificar varios JCRs y acceder a ellos como si fueran uno.
+
+Esto es harto interesante. Muchas aplicaciones web quieren recoger datos de diversas fuentes- algunas preexistentes y otras que se crean ad-hoc para la aplicación web en cuestión. Mediante Modeshape, podemos unificar el acceso a estas fuentes de dato, creando un adaptador a JCR que nos permita acceder a todos los datos que requerimos presentar vía web, mediante un mecanismo especialmente adecuado para su presentación web.
+
+Para completar una aplicación web- o al menos su parte de presentación de contenidos, sólo necesitaríamos añadir algo que exponga el repositorio JCR que creamos a la web, lo cual sería algo interesante a comentar otro día.
+
+
+=> http://en.wikipedia.org/wiki/HTML 1: http://en.wikipedia.org/wiki/HTML
+=> http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol 2: http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+=> http://en.wikipedia.org/wiki/Uniform_Resource_Locator 3: http://en.wikipedia.org/wiki/Uniform_Resource_Locator
+=> http://www.google.com 4: http://www.google.com
+=> http://www.google.com 5: http://www.google.com
+=> http://en.wikipedia.org/wiki/Server_Side_Includes 6: http://en.wikipedia.org/wiki/Server_Side_Includes
+=> http://en.wikipedia.org/wiki/PHP 7: http://en.wikipedia.org/wiki/PHP
+=> http://en.wikipedia.org/wiki/SQL 8: http://en.wikipedia.org/wiki/SQL
+=> http://en.wikipedia.org/wiki/Relational_database_management_system 9: http://en.wikipedia.org/wiki/Relational_database_management_system
+=> http://en.wikipedia.org/wiki/NoSQL 10: http://en.wikipedia.org/wiki/NoSQL
+=> http://www.mysql.com/ 11: http://www.mysql.com/
+=> http://en.wikipedia.org/wiki/Content_repository_API_for_Java 12: http://en.wikipedia.org/wiki/Content_repository_API_for_Java
+=> http://www.jboss.org/modeshape 13: http://www.jboss.org/modeshape
+=> http://www.jboss.org 14: http://www.jboss.org

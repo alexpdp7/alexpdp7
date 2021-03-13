@@ -1,0 +1,35 @@
+# Integración, APIs y no me toques los bezos
+2014-01-10
+
+Según Steve Yegge, un día Jeff Bezos, el capo de Amazon, envió un memorándum interno que venía a decir:
+
+> 1.
+> All teams will henceforth expose their data and functionality through service interfaces.
+> 
+> 2.
+> Teams must communicate with each other through these interfaces.
+> 
+> 3.
+> There will be no other form of interprocess communication allowed: no direct linking, no direct reads of another team's data store, no shared-memory model, no back-doors whatsoever. The only communication allowed is via service interface calls over the network.
+> 
+> 4.
+> It doesn't matter what technology they use. HTTP, Corba, Pubsub, custom protocols -- doesn't matter. Bezos doesn't care.
+> 
+> 5.
+> All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
+> 
+> 6.
+> Anyone who doesn't do this will be fired.
+Este puñetero memo, y toda la gente que lo ha leído y ha aplicado el silogismo falaz de "En Amazon son unos cracks, en Amazon siguen este credo ergo si yo sigo este credo seré un crack" son un maldito dolor de cabeza.
+
+Conste que no es que considere que las APIs sean una plaga a exterminar, ni mucho menos, pero debería olernos mal las sentencias absolutistas y los razonamientos de talla única. No todos los entornos son iguales, ni se enfrentan a los mismos problemas- y por tanto lo que funciona para unos, no funciona para otros. Adicionalmente, es difícil razonar que la aplicación ciega de esta doctrina es lo que ha llevado a Amazon al éxito y estoy seguro que no en pocas ocasiones mejor les hubiera ido siendo un poco más críticos.
+
+La realidad, maldita ella, siempre se interpone a los ideales. Implementar una API tiene un coste en tiempo que no siempre es amortizable por sus beneficios. Conste que el hecho que no se vaya a usar la citada API tampoco es un argumento tan fuerte en contra de estas- el hecho de añadir una API usable nos fuerza a hacer el código modular lo cual es un valioso beneficio en sí mismo que si puede valer la pena- aunque es perverso el argumento de ser modulares porque tenemos que implementar una API: seamos modulares porque está bien ser modular sin necesidad de dichosas APIs.
+
+Pero más allá del coste de implementar la API, la imbezosidad esta muchas veces lleva a auténticos pantanazos donde dos departamentos de la misma empresa fuerzan que dos sistemas se comuniquen a través de una API. API a la que muchas veces no se le dedica el tiempo necesario y que no permite alcanzar todo lo que se necesita de una forma eficiente y efectiva, que fuerzan a implementar soluciones chapuceras que no benefician a nadie, cuando habría alternativas perfectamente efectivas.
+
+Bezos prohibe explícitamente, por ejemplo, el acceso a base de datos entre aplicaciones- quizá la situación más común en el que la gente se arma del memorándum para tomar decisiones insensatas. "¡Os daremos una API maravillosa!", "¡Permitirá que saquéis toda la información que necesitéis!", "¡La extenderemos rápidamente con vuestras nuevas necesidades!". Mentiras y más mentiras. Cuando yo te podría escribir un par de selects que me sacan todos los datos que necesito fácil y eficientemente, tú me darás una API castrada en la que tendré que hacer numerosas llamadas de API para obtener los mismos resultados y que se tendrá que extender cada vez que surja un nuevo requerimiento. Eso si lo extiendes, porque "oh, lo siento, ahora estamos liados con otra cosa" hará que no se pueda implementar tal requerimiento en no pocas ocasiones.
+
+Sí, desde luego, esto no es algo universal tampoco- como tampoco lo es la doctrina de las API. Si son los mismas personas las que implementan la API y la consumen, o hay una suficiente coordinación de objetivos, esto no tiene por qué ser un problema. Sin embargo, muchas veces lo es. Y es precisamente para levantar vallas entre vecinos uno de los motivos con los que se esgrime el credo- consciente o inconscientemente.
+
+¿La solución? No sigas ninguna regla ciegamente. Como siempre.

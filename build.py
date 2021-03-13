@@ -1,22 +1,111 @@
 #!/usr/bin/env python3
+import datetime
 import os
 import shutil
+import textwrap
+
+
+class Post:
+    def __init__(self, slug, content):
+        self.content = content
+        self.slug = slug
+
+    @property
+    def title(self):
+        return self.content.splitlines()[0][2:]
+
+    @property
+    def posted(self):
+        return datetime.date.fromisoformat(self.content.splitlines()[1])
+
+    @property
+    def uri(self):
+        yyyy = self.posted.strftime("%Y")
+        mm = self.posted.strftime("%m")
+        return f"{yyyy}/{mm}/{self.slug}"
+
+
+    def __repr__(self):
+        return f"Post(slug={self.slug},title={self.title},posted={self.posted}"
+
+
+def load_posts():
+    posts = []
+
+    for directory, _, files in os.walk("content"):
+        for file in files:
+            if file.endswith("gmi"):
+                with open(f"{directory}/{file}") as old_file:
+                    posts.append(Post(file[:-4], old_file.read()))
+            else:
+                # FIXME
+                pass
+
+    return posts
+
+
+def create_index(posts):
+    with open("build/gmi/index.gmi", "w") as index:
+        index.write(textwrap.dedent("""
+            # El blog es mío
+
+            Hay otros como él, pero este es el mío
+        """))
+
+        for post in posts[0:10]:
+            index.write(textwrap.dedent(f"""
+                => {post.uri} {post.title}
+
+            """))
+
+            post_lines = post.content.splitlines()
+
+            index.write("\n".join(post_lines[1:]))
+            index.write("\n\n")
+
+        index.write(textwrap.dedent("""
+            # Sobre mí
+
+            => https://github.com/alexpdp7/ GitHub
+            => https://es.linkedin.com/in/alexcorcoles LinkedIn
+            => https://projecteuler.net/profile/koalillo.png Project Euler
+            => https://stackexchange.com/users/13361/alex Stack Exchange
+            => https://twitter.com/koalillo Twitter
+
+            # El resto...
+        """))
+
+
+
+        for post in posts[10:]:
+            index.write(textwrap.dedent(f"""
+                => {post.uri} {post.title}
+            """)[:-1])
+
+def create_individual_posts(posts):
+    for post in posts:
+        os.makedirs(f"build/gmi/{post.uri}", exist_ok=True)
+        with open(f"build/gmi/{post.uri}/index.gmi", "w") as post_file:
+            post_file.write(textwrap.dedent("""
+                => / El blog es mío
+
+            """))
+            post_file.write(post.content)
+            post_file.write(textwrap.dedent("""
+
+                # Volver al inicio
+
+                => / El blog es mío
+            """))
 
 
 def build():
     shutil.rmtree("build", ignore_errors=True)
     os.makedirs("build/gmi")
 
-    for directory, _, files in os.walk("content"):
-        for file in files:
-            if file.endswith("gmi"):
-                new_dir = f"build/gmi/{directory[8:]}"
-                os.makedirs(new_dir, exist_ok=True)
-                shutil.copyfile(f"{directory}/{file}", f"{new_dir}/{file}")
-            else:
-                # FIXME
-                pass
-
+    posts = load_posts()
+    create_index(sorted(posts, key=lambda p: p.posted, reverse=True))
+    create_individual_posts(posts)
 
 if __name__ == "__main__":
     build()

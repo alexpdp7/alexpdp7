@@ -1,0 +1,44 @@
+# Dinosaurios que rondan la tierra
+2011-06-15
+
+Acabo de poner un clavo más en el ataúd de una compañía canadiense de cuyo nombre nadie se acuerda.
+
+Sí, he decidido pasar a la única alternativa más moderna a mi Symbian S60 (Nokia C5, del que ya hablamos aquí[1]); una rompedora Blackberry Bold 9780 con el innovador Blackberry OS 6.
+
+¿Por qué?, que diría un sabio portugués...
+
+* No me gustan las pantallas táctiles
+* Me ha salido por 140€ + puntos del outlet Vodafone (ya están agotadas), vs. los 289€ + puntos que cuestan el Desire, el Optimus 2x, el Galaxy S, etc. o la misma Bold sin oferta de outlet
+* Me gusta ser retrógrado
+* Me gustan las baterías que duran y duran
+* Capricho
+* ... no me gustan las pantallas táctiles
+
+Ahora, con el olor aún a nuevo, es el momento de dar las primeras apreciaciones.
+
+La Blackberry me recuerda a mis Nokias. Usabilidad pulida a lo largo del tiempo. La interfaz de usuario podría calificarse de rudimentaria, pero está muy bien pensada, ejemplos:
+
+* El móvil es consciente de que está dentro de su funda. Podemos hacer cosas como cambiar las notificaciones según esté guardado o no, o configurar que nos muestre el último mensaje automáticamente al sacarlo de la funda
+* Led de aviso y dos botones estratégicamente situados para que no queden tapados por la funda
+* Muchos atajos de tecleo; por ejemplo doble espacio inserta punto-espacio y pone las mayúsculas. Podemos configurar sustitución de texto global para poder convertir "bb" en "BlackBerry" automáticamente en todas las aplicaciones. Alt+intro cambia el lenguaje de escritura.
+* Atajos lógicos de teclado por todos lados; tener un teclado físico hace que la mayoría de operaciones comunes estén a una pulsación
+* Aunque los sistemas de correo y mensajería instantánea (BlackBerry Messenger) están desactualizados en un par de aspectos, realmente son un ejemplo de libro de cómo deben implementarse estas dos funcionalidades- aunque por ejemplo, Whatsapp ya ha clonado lo más interesante de BBM (notificaciones de entrega). El resto de áreas, como calendario, contactos, etc. también son ejemplares.
+
+Respecto al teclado y trackpad, aún no me he adaptado 100%. El mecanismo de entrada de acentos (pulsar y aguantar la letra en cuestión, mover trackpad para escoger acento) no me convence del todo, y la escritura predictiva... no es perfecta (sobre todo porque al escribir "si", ¡"sí" está bastante abajo de la lista de sugerencias de completado!). Por tanto, escribir castellano y catalán "correcto" requiere un cierto esfuerzo. En mi opinión, el T9 es superior escribiendo a una mano- y siempre que no tengamos que alternar mucho de idioma. Comparado con las pantallas táctiles, sigo opinando que no hay color- en poco tiempo tecleo mucho mejor que tras bastantes intentos con un iPad, que debería tener una escritura táctil ejemplar y cuyo mayor tamaño debería hacerlo mejor que los móviles.
+
+El trackpad tiene sus incidencias, pero en general es un mecanismo muy práctico para según qué cosas (seleccionar texto, por ejemplo), pero que obviamente no es ideal para tareas como moverse por un navegador.
+
+El navegador, hablando del tema, sí, sigue siendo un problema. Se atasca bastante presentando páginas complejas, y se echa de menos la pantalla táctil, sí. Pese a ello, es perfectamente usable y las combinaciones de tecla (especialmente espacio y mayúsculas+espacio, que funcionan como en un navegador de escritorio convencional), compensan bastante la falta de uso "a dedo". Personalmente, dado que mi requisito de navegación móvil número es Google Reader y que la versión de iPhone (no la bazofia de versión web móvil eestándar) funciona de maravilla en el navegador de la BlackBerry, estoy bien contento.
+
+Más problemáticas:
+
+* Pese a que el interfaz es rápido en el 90% de las tareas, hay tareas específicas en las que sufre; instalar aplicaciones y el arrancado son particularmente sangrantes. Se nota que han optimizado todo lo optimizable, pero que el hardware no da más de sí
+* La cámara... es de 5 megapíxeles, pero poco más. Dado que yo soy incapaz de sacar una foto en condiciones con una buena cámara, flash y luz en abundancia... la verdad es que tampoco aprovecharía algo mejor
+* La batería no es fantástica... aguanta un día perfectamente, pero sospecho que no llega al segundo día de uso intenso sin cargar
+* La integración con GMail... de momento tiro con la estándar de BlackBerry para lectura de nuevos mensajes y la aplicación de Google para consultar mensajes antiguos. El problema es que con la función de correo estándar, los mensajes borrados fuera del móvil permanecen en el móvil, con lo que ocupan espacio si no los borramos una segunda vez. Aún tengo que encontrar la manera de trabajo idónea cuando estoy delante del ordenador.
+* Echo de menos una aplicación de mensajería instantánea como BBM o Whatsapp pero que pueda funcionar en el escritorio. Las notificaciones e integración con la agenda de ambos son muy útiles, pero no poder aprovechar el escritorio cuando está ahí... es un fallo
+
+Aún así, de momento estoy plenamente contento con el aparatito. Creo que se merece la fama de artefacto adictivo y a su vez productivo... y además encaja bien en las idiosincrasias de uno... pero ya les contaré.
+
+
+=> http://alex.corcoles.net/2010/07/resena-nokia-c5/ 1: http://alex.corcoles.net/2010/07/resena-nokia-c5/

@@ -1,0 +1,48 @@
+# Nena, enciende mi fuego: Kindle Fire HD 8 (7ª Generación)
+2017-10-08
+
+Con motivo de fechas señaladas me he hecho con un Kindle Fire HD 8 (7ª Generación), que viene más o menos a reemplazar a un iPad pre-Air con la pantalla rota heredado y a complementar una BlackBerry Classic (que cuando salga la BlackBerry KEYone Black a la venta en España...).
+
+Los que me conozcan puede que sepan que no soy muy fan de las tabletas y se preguntarán por qué tengo dos. Pues hay que pensar en la relación coste/utilidad. Mi opinión es que las tabletas aportan muy poca utilidad si uno tiene un móvil decente y, por ejemplo, los 400€ que cuesta el iPad más barato me parecen un desperdicio en general (aunque seguro que hay casos en los que tiene sentido). El problema viene porque las tabletas de bajo coste son un campo de minas, en los que el compromiso puede ser inevitable.
+
+Marcas desconocidas, fabricación barata, software cutre, falta de soporte, etc. siempre hay algo que no nos cuadrará en una tableta barata y que tendremos que aceptar si queremos obtener su utilidad.
+
+En este caso concreto, el Kindle Fire HD 8 podría contar con los siguientes puntos negros:
+
+* Es Amazon, que es anti-Google; no hay Play Store de serie, aunque se pueden hacer hacks no soportados. Esto es, no hay app de GMail, Youtube, etc. Como cliente de Google Play Music esto es especialmente sangrante.
+* Además, no todos los servicios Amazon están disponibles en España; notablemente Alexa
+* Hay que escoger entre pagar 15€ o ahorrártelos y ver anuncios en la pantalla de bloqueo
+* El hardware está bien, pero no es para tirar cohetes. Las dos cámaras podrían ser perfectamente de un móvil de inicio de siglo. Intuyo que podrían ser útiles para hacer videoconferencias si uno no es especialmente exigente, pero poco más
+
+Pero en mi opinión, son todo puntos que podemos aceptar y que aún nos proporciona bastante utilidad por 110€. Para mi esta utilidad es:
+
+* Visionado de vídeo. Uso un móvil con una pantalla cuadrada de 3,5" y probablemente me pase a un 4,5" 3:2. Aunque para mi es suficiente para ver vídeos, una pantalla de 8" 16:10 con una resolución de 1280x800 es una mejora apreciable. Adicionalmente, tiene cliente de Netflix oficial
+* Un procesador 4x veces más potente en el benchmark Kraken de Mozilla que el móvil que uso, que redunda en que para cosas como navegar por Internet, se engancha bastante menos que mi teléfono
+
+Para mí, los 110€ están más que justificados en poder ver vídeos en la cama o en el tren cómodamente y como dispositivo de navegación de andar por casa.
+
+Pero entremos en detalle.
+
+Físicamente, es una tableta de 8", que pesa menos que un iPad de 10" (que para mí es ligeramente poco manejable) pero más que un iPad mini del mismo tamaño. Para mí es un peso más que manejable y que no se me hace incómodo en ningún momento. La pantalla no es destacable en ningún sentido- ni maravilla ni molesta, es perfectamente razonable pese a no ser de altísima resolución o brillo. Tiene un par de botones para volumen, un botón de encendido, un conector micro-USB y jack de auriculares, todo en el borde superior, lo cual no es ideal, pero tampoco supone una gran molestia.
+
+El software es Android, pero sin servicios Google y con Amazon. El interfaz es correcto, aunque el ecosistema Amazon está muy presente; no sólo por los anuncios en la pantalla de bloqueo, sino porque en la pantalla inicial, con un gesto nos vamos a pantallas de libros, música y aplicaciones de Amazon. Obviamente también viene precargada con todas las aplicaciones de Amazon (las disponibles en España, claro).
+
+Amazon destaca su navegador "Silk", que aparentemente descarga parte del trabajo a la nube de Amazon- como el clásico Opera móvil que renderizaba las páginas externamente para funcionar mejor en dispositivos de poca potencia. Es difícil saber cuán importante es este aspecto- si ayuda muchísimo o si el procesador es simplemente suficientemente potente, pero la navegación con Silk es buena; es ágil con mi patrón de uso (que no es intensísimo), pero me ha bastado para poder depender de la página web de Twitter, Facebook, etc. y no instalar ninguna app de servicio que tenga versión para web móvil.
+
+Así pues, sólo he instalado unas pocas aplicaciones:
+
+* Netflix
+* VLC (porque el reproductor de vídeo de Amazon no soporta subtítulos)
+* F-Droid (porque tengo algo de paranoia a la appstore de Amazon)
+* Ghost Commander (gestor de archivos que soporta el compartir archivos de Windows)
+
+Para todo lo demás, web. Los únicos problemas notables son las versiones web de Feedy y GMail, que no funcionan demasiado bien en modo vertical y que tengo que usar en horizontal (donde por cierto, desearía tener un control de orientación físico- aunque la detección de orientación del Kindle funciona muy bien, un interruptor físico es la mar de práctico), y el hecho de perder la funcionalidad típica de compartir con para compartir a la versión web de Twitter o Facebook, por ejemplo, que para las webs que no disponen del widget adecuado, implica hacer cortar y pegar (al parecer pronto saldrá un estándar para tener una funcionalidad de compartir de navegadores, veremos si llega al Kindle).
+
+Con Ghost Commander se resuelve adecuadamente la transferencia de archivos (otra alternativa, si bien algo friki, es usar el servidor web incorporado en Python[1], que mediante un comando permite compartir una carpeta accesible por el navegador), aunque echaría de menos el soporte nativo de BlackBerry OS para el compartir archivos de Windows (que permite pasar archivos al revés; es decir, desde el PC acceder a la carpeta compartida y transferir archivos- suele ser más cómodo dirigir el proceso desde el PC), pero esto no está en Android sin rootear el dispositivo, algo que preferiría no tener que hacer.
+
+Creo que poco más queda por decir. La batería es suficiente- en ningún momento me siento esclavizado por cargarlo, y eso compartiendo cargador con mi teléfono. Proporciona sobradamente entretenimiento en trayectos de tren de tres horas y media (aunque ahora disponen de cargador). No juzgo los altavoces porque siempre lo uso con auriculares.
+
+En definitiva, una tableta barata que da una buena pantalla para ver vídeos y un navegador que cumple prácticamente todas las funciones de ocio doméstico. En muchas circunstancias, supongo que será mejor compra que cambiarse a un teléfono más grande y potente, aunque para muchos también una buena tele con Chromecast o dispositivo similar y un buen móvil pueden ser mejor opción.
+
+
+=> https://docs.python.org/3.6/library/http.server.html 1: https://docs.python.org/3.6/library/http.server.html
