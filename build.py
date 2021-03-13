@@ -16,7 +16,7 @@ class Post:
 
     @property
     def posted(self):
-        return datetime.date.fromisoformat(self.content.splitlines()[1])
+        return datetime.datetime.strptime(self.content.splitlines()[1], "%Y-%m-%d")
 
     @property
     def uri(self):
