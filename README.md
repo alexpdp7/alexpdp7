@@ -64,8 +64,18 @@ service gemini
 }
 ```
 
+To create an HTML proxy of the capsule:
+
+```
 $ docker build -t kineto -f Dockerfile.proxy .
-$ docker run --rm -p 8080:8080 kineto
+$ docker run --rm -p 5000:5000 kineto
+```
+
+To generate an RSS feed:
+
+```
+$ ( cd gemini2rss/ ; poetry run python gemini2rss.py https://alex.corcoles.net 10 "El blog es mío" "https://alex.corcoles.net" ; ) >/tmp/feed.rss
+```
 
 ## Migrating a Wordpress blog to Gemini
 
