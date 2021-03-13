@@ -71,6 +71,12 @@ $ docker build -t kineto -f Dockerfile.proxy .
 $ docker run --rm -p 5000:5000 kineto
 ```
 
+Or to preview the HTML rendering of a local running instance:
+
+```
+$ docker run --rm --network host kineto /app/kineto gemini://localhost
+```
+
 To generate an RSS feed:
 
 ```
