@@ -1,0 +1,6 @@
+FROM golang:latest
+WORKDIR /app
+RUN git clone https://git.sr.ht/~sircmpwn/kineto /app
+RUN go build
+EXPOSE 8080
+CMD ["/app/kineto", "gemini://alex.corcoles.net"]

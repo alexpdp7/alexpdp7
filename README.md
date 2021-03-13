@@ -64,6 +64,9 @@ service gemini
 }
 ```
 
+$ docker build -t kineto -f Dockerfile.proxy .
+$ docker run --rm -p 8080:8080 kineto
+
 ## Migrating a Wordpress blog to Gemini
 
 Note: only posts are migrated.
