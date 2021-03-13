@@ -91,7 +91,9 @@ def create_individual_posts(posts):
 
             """))
             post_file.write(post.content)
-            post_file.write(textwrap.dedent("""
+            post_file.write(textwrap.dedent(f"""
+
+                => https://github.com/alexpdp7/gemini_blog/edit/master/content/{post.uri}.gmi Editar este post
 
                 # Volver al inicio
 
