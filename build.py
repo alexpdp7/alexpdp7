@@ -16,7 +16,7 @@ class Post:
 
     @property
     def posted(self):
-        return datetime.datetime.strptime(self.content.splitlines()[1], "%Y-%m-%d")
+        return datetime.datetime.strptime(self.content.splitlines()[1], "%Y-%m-%d").date()
 
     @property
     def uri(self):
@@ -49,18 +49,18 @@ def create_index(posts):
         index.write(textwrap.dedent("""
             # El blog es mío
 
-            Hay otros como él, pero este es el mío
-        """))
+            ## Hay otros como él, pero este es el mío
+        """).lstrip())
 
         for post in posts[0:10]:
             index.write(textwrap.dedent(f"""
-                => {post.uri} {post.title}
+                => {post.uri} {post.posted} {post.title}
 
             """))
 
             post_lines = post.content.splitlines()
 
-            index.write("\n".join(post_lines[1:]))
+            index.write("\n".join(post_lines[2:]))
             index.write("\n\n")
 
         index.write(textwrap.dedent("""
@@ -79,7 +79,7 @@ def create_index(posts):
 
         for post in posts[10:]:
             index.write(textwrap.dedent(f"""
-                => {post.uri} {post.title}
+                => {post.uri} {post.posted} {post.title}
             """)[:-1])
 
 def create_individual_posts(posts):
