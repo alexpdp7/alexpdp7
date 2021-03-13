@@ -1,15 +1,16 @@
 import datetime
 import re
+import sys
 import urllib.request
 
 import bs4
 from feedgen import feed
 
+url = sys.argv[1]
+feed_size = int(sys.argv[2])
+title = sys.argv[3]
+id = sys.argv[4]
 
-url = "http://localhost:8080/"
-feed_size = 10
-title = "El blog es mío"
-id = "https://foo.bar"
 
 with urllib.request.urlopen(url) as f: 
     content = f.read().decode("utf8")
