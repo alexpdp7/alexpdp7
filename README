@@ -16,3 +16,7 @@ $ pipx install jetforce
 $ jetforce --dir build/gmi/ --host 0.0.0.0
 
 $ amfora localhost:1965
+
+...
+
+$ ./agate --content build/gmi/

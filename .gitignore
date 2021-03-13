@@ -1,2 +1,5 @@
 build
 md
+agate
+cert.pem
+key.rsa
