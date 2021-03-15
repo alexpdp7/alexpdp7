@@ -108,6 +108,10 @@ def build():
     posts = load_posts()
     create_index(sorted(posts, key=lambda p: p.posted, reverse=True))
     create_individual_posts(posts)
+    for directory, _, files in os.walk("static/gmi"):
+        new_dir = directory.replace("static/gmi", "build/gmi")
+        for file in files:
+            shutil.copy(f"{directory}/{file}", f"{new_dir}/{file}")
 
 if __name__ == "__main__":
     build()
