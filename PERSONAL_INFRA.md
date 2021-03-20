@@ -83,7 +83,7 @@ I also run Netdata on many hosts, which I can access via a reverse proxy at http
 I use Ansible playbooks to provision VMs and LXC containers on Proxmox.
 The playbooks add the new hosts automatically to FreeIPA, set up SSH, etc. See:
 
-https://github.com/alexpdp7/ansible-create-proxmox-vm-ubuntu1604-ipa
+https://github.com/alexpdp7/ansible-create-proxmox-host
 https://github.com/alexpdp7/ansible-create-proxmox-centos7-ipa
 
 I also use Ansible for some orchestration tasks (such as deploying FreeIPA replicas, handling Letsencrypt certificates, etc.).
