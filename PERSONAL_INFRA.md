@@ -2,7 +2,6 @@
 
 * Hetzner auction server: 48Gb RAM, 2x2Tb HDD. Runs Proxmox, tinc/ocserv, Apache as reverse proxy
   * LXC container running NextCloud
-  * LXC container running my WordPress blog
   * LXC container running Miniflux
   * LXC container running bitwarden_rs
   * LXC container running an acquaintances Twitter bot
@@ -100,6 +99,7 @@ I use `yum-cron` on CentOS 7, `dnf-automatic` on CentOS 8 and `unattended-upgrad
 ### Packaging
 
 * https://github.com/alexpdp7/bitwarden_rs/tree/rpm
+* https://github.com/alexpdp7/nextcloud-rpm
 
 ## Storage
 
@@ -164,6 +164,14 @@ If I was starting from scratch, perhaps a light-weight container solution would 
 If I was running more services or had greater availability requirements, a cluster-ready solution like Kubernetes would probably be required.
 
 In my current situation, with the work already performed, I don't think investing more in containers is the most effective use of my limited resources.
+
+## My blog
+
+I was never a fan of Wordpress (I prefer other platforms to PHP and MySQL), but it had very up to date EPEL packages and thus was one of the most easy to maintain options for blogging.
+
+However, after reading about Geminispace, I decided to port my blog to Geminispace. Right now I run some custom scripts that generate a static blog and serves them using Agate in my workstation container. I run a Kineto proxy on Dokku that makes the content available through conventional HTML/HTTP. See details at:
+
+https://github.com/alexpdp7/gemini_blog
 
 ## Possible improvements
 
