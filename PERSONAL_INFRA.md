@@ -167,9 +167,9 @@ In my current situation, with the work already performed, I don't think investin
 
 ## My blog
 
-I was never a fan of Wordpress (I prefer other platforms to PHP and MySQL), but it had very up to date EPEL packages and thus was one of the most easy to maintain options for blogging.
+I was never a fan of Wordpress (I prefer other platforms to PHP and MySQL), Remi maintains very up to date EPEL 7 packages. Remi also maintains some packages for EL 8 (derived from Remi's own packages in Fedora, hosted on Remi's personal repositories).
 
-However, after reading about Geminispace, I decided to port my blog to Geminispace. Right now I run some custom scripts that generate a static blog and serves them using Agate in my workstation container. I run a Kineto proxy on Dokku that makes the content available through conventional HTML/HTTP. See details at:
+However, after reading about Geminispace, I decided to port my blog to Geminispace and skip migrating from EL 7 to EL 8. Right now I run some custom scripts that generate a static blog and serves them using Agate in my workstation container. I run a Kineto proxy on Dokku that makes the content available through conventional HTML/HTTP. See details at:
 
 https://github.com/alexpdp7/gemini_blog
 
