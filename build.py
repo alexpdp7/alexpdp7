@@ -56,6 +56,7 @@ def create_index(posts):
             index.write(textwrap.dedent(f"""
                 => {post.uri} {post.posted} {post.title}
 
+                ### {post.title}
             """))
 
             post_lines = post.content.splitlines()
