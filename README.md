@@ -5,11 +5,6 @@ The blog is basically a static Gemini capsule.
 
 This repo also contains scripts I used to migrate my Wordpress blog to Gemini.
 
-## TODO
-
-* Configure an HTML/HTTP proxy so the blog is accessible by non-Gemini users
-* Generate an RSS file at the same URI Wordpress used.
-
 ## Running the blog
 
 The `build.py` script renders a static blog using `.gmi` files in a `content` directory.
