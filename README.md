@@ -75,7 +75,7 @@ $ docker run --rm --network host kineto /app/kineto gemini://localhost
 To generate an RSS feed:
 
 ```
-$ ( cd gemini2rss/ ; poetry run python gemini2rss.py https://alex.corcoles.net 10 "El blog es mío" "https://alex.corcoles.net" ; ) >/tmp/feed.rss
+$ ( cd gemini2rss/ ; poetry run python gemini2rss.py https://alex.corcoles.net 10 "El blog es mío" "https://alex.corcoles.net" Alex alex@corcoles.net ; ) >/tmp/feed.rss
 ```
 
 ## Migrating a Wordpress blog to Gemini

@@ -10,6 +10,8 @@ url = sys.argv[1]
 feed_size = int(sys.argv[2])
 title = sys.argv[3]
 id = sys.argv[4]
+author_name = sys.argv[5]
+author_email = sys.argv[6]
 
 
 with urllib.request.urlopen(url) as f: 
@@ -22,7 +24,7 @@ posts = 0
 
 f = feed.FeedGenerator()
 f.title(title)
-f.id(id)
+f.id(id + "/")
 
 for a in soup.find_all("a"):
     if posts == feed_size:
@@ -35,8 +37,9 @@ for a in soup.find_all("a"):
     
     fi = f.add_item()
     fi.title(title)
-    fi.id(a["href"])
+    fi.id(url + a["href"])
     fi.link(href=a["href"])
+    fi.author(name=author_name, email=author_email)
     fi.updated(datetime.datetime.combine(date, datetime.datetime.min.time(), tzinfo=datetime.timezone.utc))
 
     node = a.parent.next_sibling
@@ -48,7 +51,7 @@ for a in soup.find_all("a"):
         if node and node.name == "h1" and node.string and node.string == "Sobre mí":
             break
         content += node if isinstance(node, bs4.NavigableString) else node.prettify() 
-    fi.content(content)
+    fi.content(content, type="html")
 
     posts += 1
 
