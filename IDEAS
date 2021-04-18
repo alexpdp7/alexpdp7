@@ -16,6 +16,12 @@ CRUD framework
 *** REST API
 ** Commercial frontend for design
 
+Federated unified communications platform
+
+* Handles text instant messaging (1:1 and group chats), voice/video/screensharing conferencing
+* Federated, domain-based identities
+* Can use SIP phones
+
 Pure HTML5 decentralized IM system
 
 * https://github.com/alexpdp7/imnei
@@ -101,3 +107,5 @@ Key escrow for everyone
 * Provide emergency recovery of passwords, keys, 2FA, etc.
 
 Deterministic embeddable simple language for calculator and notebooks
+
+* https://github.com/alexpdp7/plankalkul/ , that deprecated https://github.com/alexpdp7/pdp7_calc/ .
