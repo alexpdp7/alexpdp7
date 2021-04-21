@@ -19,9 +19,9 @@
     * Runs SMB/NFS
     * ZFS backups on external USB drives
     * tinc/ocserv
-  * Raspberry Pi running LibreElec + TVHeadend, records to NFS share on HP server
+  * Raspberry Pi (1Gb RAM) running LibreElec + TVHeadend, records to NFS share on HP server
 * Flat 2
-  * Raspberry Pi running Raspbian, runs DHCP/DNS, tinc/ocserv
+  * Raspberry Pi (1Gb RAM) running Raspbian, runs DHCP/DNS, tinc/ocserv
 * OVH 2Gb RAM VPS running FreeIPA (also tinc/ocserv)
 
 ## Networking
