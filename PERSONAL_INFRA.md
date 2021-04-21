@@ -48,7 +48,7 @@ On every network I've also set up ocserv to provide remote access if I'm outside
 ## Authentication
 
 I run a two-node FreeIPA cluster.
-It provides a user directory and centralized auth, with paswordless single-sign on.
+It provides a user directory and centralized auth, with passwordless single-sign on.
 It also has sudo integration, so I can sudo on all systems with a single password.
 
 Many systems and services are integrated in FreeIPA.
