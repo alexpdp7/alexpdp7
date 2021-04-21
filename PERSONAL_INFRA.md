@@ -98,6 +98,16 @@ I also use Ansible for some orchestration tasks (such as deploying FreeIPA repli
 
 I use an Ansible playbook using https://github.com/alexpdp7/ansible-puppet/ to run Puppet to configure individual systems.
 
+### Operating systems
+
+I use:
+
+* Proxmox, as it provides LXC containers (and VMs if needed) and ZFS storage. I like ZFS for its protection about bitrot, and because send/recv and snapshots are great for backups
+* CentOS 7/CentOS 8, due to the long life cycle and stability. Due to the CentOS 8 life cycle changes, I will probably have to switch those systems to Stream, another RHEL clone, free RHEL or a completely different system.
+* Debian for the Proliant. I really did not think that through a lot. I love Debian, but I'd prefer to standardize on Proxmox (for ZFS, although the files in the Proliant are not as critical as the ones on NextCloud) or CentOS.
+* Raspbian for my server Raspberry. This could be switched to CentOS/Debian.
+* LibreElec for my mediacenter Raspberry. Common distros are not an option, as they don't support hardware video acceleration. LibreElec sets up everything I need with minimal fuss, so while it's the system that doesn't use configuration management, it works fine.
+
 ### Software updates
 
 I use `yum-cron` on CentOS 7, `dnf-automatic` on CentOS 8 and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
