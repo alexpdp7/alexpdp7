@@ -56,6 +56,14 @@ My laptop is joined to the domain so I can even log in to some web applications 
 
 Ipsilon adds SAML for some applications which do not support Kerberos.
 
+Ipsilon is backed by Red Hat, although they seem to have shifted their focus to KeyCloak. KeyCloak is much more featureful, but I prefer Ipsilon because:
+
+* It's deployed via RPM
+* Integration with FreeIPA is a one-liner
+* It's still used by the Fedora Project infrastructure
+
+FreeIPA and Ipsilon are running in CentOS 7- I will probably reconsider this stack around 2024 when CentOS gets close to EOL.
+
 ## Mail
 
 All systems are running Postfix configured to send emails through an account on my free G Suite account.
