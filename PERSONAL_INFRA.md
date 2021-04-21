@@ -4,7 +4,7 @@
   * LXC container running NextCloud
   * LXC container running Miniflux
   * LXC container running bitwarden_rs
-  * LXC container running an acquaintances Twitter bot
+  * LXC container running an acquaintance's Twitter bot
   * LXC container running Dokku, hosting a few personal apps
   * LXC container running FreeIPA replica
   * LXC container running Nagios
