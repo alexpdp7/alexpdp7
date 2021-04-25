@@ -16,11 +16,9 @@ CRUD framework
 *** REST API
 ** Commercial frontend for design
 
-Federated unified communications platform
+Federated real-time communications using open protocols
 
-* Handles text instant messaging (1:1 and group chats), voice/video/screensharing conferencing
-* Federated, domain-based identities
-* Can use SIP phones
+* https://github.com/alexpdp7/frtcuop
 
 Pure HTML5 decentralized IM system
 
