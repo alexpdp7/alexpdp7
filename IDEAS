@@ -73,6 +73,15 @@ Scalable personal cloud
 ** VPN interfaces
 ** Reverse proxies
 
+Userland WASM Linux distro
+
+* Bootstrap a Linux distro to run on WASM
+* Should be able to run as a non-privileged user, installed in the user's home directory
+* Focused on userland programs, not a full OS
+* Should be able to run on non-POSIX filesystems
+* Could replace Docker/containers for developers
+* Similar to https://github.com/WAVM/Wavix
+
 C64 Roguelike
 
 Software development book https://github.com/alexpdp7/wakat
