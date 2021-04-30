@@ -99,6 +99,8 @@ SQL2
 * Declarative join via foreign key constraint names
 * Better ordering for code completion (e.g. FROMs first)
 
+See https://github.com/EvgSkv/logica
+
 Streaming DB
 
 * Simple relational database
