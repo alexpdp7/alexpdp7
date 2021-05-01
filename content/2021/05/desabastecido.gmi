@@ -1,0 +1,38 @@
+# Desabastecido
+2021-05-01
+
+Siempre es reconfortante saber que no se está solo con un problema, por tanto me ha gustado este artículo sobre como finalizar conversaciones. Sólo falta enlazarlo con el problema de los dos generales.
+
+=> https://www.vox.com/science-and-health/22368306/social-awkwardness-conversations-adam-mastroianni How to walk away from an awkward conversation
+=> https://en.wikipedia.org/wiki/Two_Generals%27_Problem Two Generals' Problem
+
+El PineTime es uno de esos proyectos maravillosos que me atraen inevitablemente. La falta de un sistema operativo base estable siempre me había salvado, pero cada vez tengo menos salvaguardas.
+
+=> https://www.pine64.org/2021/04/22/its-time-infinitime-1-0/
+
+Aunque parece un hecho que los iPhones llevan mucha ventaja a los móviles Android en temas de accesibilidad, me desconcierta que sea imposible responder una llamada sólo usando la voz. Me emocioné con esto:
+
+=> https://www.applemust.com/how-to-get-siri-to-answer-or-decline-an-incoming-call/
+
+, pero parece ser que sólo funciona con auriculares (y además, compatibles con Siri). Tras un poco de investigación, al parecer hay aplicaciones para Android que sí lo permiten (pero me parecen dudosas). También he encontrado una aplicación open source que permite descolgar llevando el teléfono a la oreja:
+
+=> https://f-droid.org/en/packages/me.hackerchick.raisetoanswer/
+
+Y lo demás:
+
+=> https://qntm.org/mmacevedo Wikipedia especulativa y la consciencia, una gran combinación para captar mi atención.
+=> https://www.theverge.com/2021/4/16/22388238/asus-eee-pc-netbook-laptop-line-linux-ipad-pro Sobre los netbooks- sigo nostálgico de mi terrible, pero económico, EEE.
+=> https://xkcd.com/2453/ xkcd sobre la computación, el cálculo Lambda y el Excel.
+=> https://www.polygon.com/entertainment/22394564/marvel-cinematic-universe-kissing Sobre la escasez de ósculos maravillosos.
+=> https://www.vox.com/the-highlight/22373580/animals-intelligent-smart-orcas-chickens Las distintas inteligencias animales (¿que no humanas?).
+=> https://en.wikipedia.org/wiki/Emu_War Seguido del genio militar de los emús.
+=> https://www.engadget.com/humble-bundle-15-percent-test-224435840.html Humble Bundle experimenta con eliminar sus valientes sliders.
+=> https://stratis-storage.github.io/stratis-rootfs/ Que Stratis permita instalar en / lo cambia *TODO*.
+=> https://statmodeling.stat.columbia.edu/2021/04/22/eu-proposing-to-regulate-the-use-of-bayesian-estimation/ El peligroso Bayes.
+=> https://kottke.org/19/05/meet-aerospace-engineer-judith-love-cohen Jack Black debería ser famoso por ser hijo de su madre.
+=> https://www.straitstimes.com/asia/east-asia/russian-man-trapped-on-chinese-reality-tv-show-finally-voted-out Los realities avanzan hacia la distopía.
+=> https://www.eljueves.es/vinetas/que-fue-aquello-pc-futbol_6002/9 El Jueves (que aún existe) sobre el PC Fútbol (que ya no).
+=> https://mycoai.com/code-of-ethics/ El juramento payasocrático.
+=> https://www.pcgamer.com/oculus-will-sell-you-a-quest-2-headset-that-doesnt-need-facebook-for-an-extra-dollar500/ El coste de tener un Oculus sin venderse a Facebook: 500 dólares.
+=> https://fivebooks.com/best-books/ariel-rubinstein-on-game-theory/ Ariel Rubinstein sobre la teoría de juegos.
+=> https://www.rtve.es/noticias/20210430/museo-historia-computacion-se-traslada/2088425.shtml Majadas de Tiétar, el pueblo con más ordenadores históricos por habitante del mundo.
