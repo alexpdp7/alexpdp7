@@ -1,0 +1,60 @@
+# Seguir roncando, en pijama, con doble factor
+2021-05-15
+
+## Los ronquidos
+
+En uno de esos esenciales proyectos vitales, he dedicado mis últimos meses a verme entera "Sigue Soñando", la serie de HBO de los 90 que aquí Canal+ emitía en abierto. Quizá la recordaréis por el intercalado de secuencias de televisión antigua en blanco y negro que puntuaban y afinaban la comedia, un recurso simple pero efectivo que eleva una comedia picante (Juego de Tronos no inventó la desnudez constante y sonrojante en HBO) a lo que según la Wikipedia fue una de las primeras series de "prestigio" del canal y que:
+
+> To this day, the static shown on the TV towards the end of the opening credits forms part of the opening credits or introduction for every show made by HBO. 
+
+Detrás de esto estaba John Landis y los creadores de (la a mi juicio inferior) Friends.
+
+¿Vale la pena el periplo para verla hoy en día (sólo las dos primeras temporadas se editaron en DVD y que yo sepa, ningún servicio de streaming la ofrece)? Es complicado. Hay unos cuántos episodios bastante destacables (el primer episodio doble de la segunda temporada cuenta con... ¡David Bowie! rozando el síndrome de Tourette, aparte de Tom Berenger, Mimi Rogers y Fran Drescher), el truco de los clips antiguos funciona consistentemente y la verdad que es bastante entretenida. Por otra parte, no ha envejecido del todo bien y como siempre, lo que nos parecía normal en los 90 hoy se nos hace un poco extraño.
+
+## Insistimos sobre el 2FA en Google
+
+En cosas más técnicas, ya escribí por aquí en
+
+=> /2020/11/algo-viejo-algo-prestado-algo-nuevo-y-algo-azul/
+
+mis preocupaciones sobre el uso del 2FA en entornos particulares. El otro día me pegó otro susto con:
+
+=> https://www.blog.google/technology/safety-security/a-simpler-and-safer-future-without-passwords/
+
+en donde no me queda 100% claro si pronto el 2FA será obligatorio para las cuentas Google.
+
+## Equis-eme-pe-pe
+
+En proyectos personales,
+
+=> https://github.com/alexpdp7/frtcuop
+
+comienza a resultar útil. Como habréis intuido de entradas como:
+
+=> /2020/07/muerte-por-monocultura/
+=> /2020/07/soy-un-ser-determinista/
+
+la centralización reciente me agobia. No sólo la absorción de los blogs por parte de las redes sociales. La mensajería instantánea siempre ha sido el hermano pobre del descentralizado y federado email. Sólo durante unos precisos instantes pareció que, con el impulso de Google, pareció que podríamos tener mensajería instantánea descentralizada para todos. Duró poco, obviamente.
+
+=> https://matrix.org/ Hoy en día, la red Matrix parece coger impulso y podría convertirse en una opción para todos.
+
+Pero yo soy más retro y he decidido volver al XMPP. En FRTCUOP encontraréis unos playbooks que os montan un servidor de XMPP en vuestro propio dominio, que da una experiencia de mensajería bastante a la altura de los sospechosos habituales. Con la diferencia de que podéis ser *propietarios* de vuestra cuenta y si no queréis comeros la cabeza, podéis escoger entre múltiples proveedores sin caer demasiado en servicios propietarios, aislados entre sí.
+
+Que no cambiará el mundo, pero ¿los pequeños cambios son poderosos?
+
+## Lo del pijama
+
+=> https://github.com/remote-es/remotes Empecé este proyecto ante lo complicado que me resultaba encontrar ofertas de empleo de trabajo remoto en ciertas condiciones...
+
+=> https://github.com/remote-es/remotes ... pero al fin parece que alguien ha hecho un intento *serio* de hacerlo *bien*.
+
+## Lo demás
+
+=> https://en.wikipedia.org/wiki/Thought-terminating_clich%C3%A9 Otro neologismo imprescindible: el cliché que liquida el pensamiento.
+=> https://www.jwz.org/blog/2021/05/animated-map-projections/ JWZ encuentra una joya que anima la tira de XKCD sobre proyecciones cartográficas.
+=> https://world.hey.com/joaoqalves/data-driven-optimization-and-local-maxima-cd0a44c3 João la clava un montón; en esta ocasión habla sobre los peligros de la magia de las decisiones empresariales basadas en datos.
+=> https://www.bbc.co.uk/news/world-asia-china-56967923 Lelush y el sang wenhua.
+=> https://github.com/karmab/kcli Una estupenda herramienta de gestión de máquinas virtuales de línea de comandos.
+=> https://arxiv.org/abs/2103.03198#:~:text=Catala%20aims%20to%20bring%20together,incorrect%20implementations%20of%20the%20law Catala: A Programming Language for the Law.
+=> https://blog.sesse.net/blog/tech/2021-05-09-11-03_a_ball_throwing_problem.html Resultados físicos.
+=> https://www.smithsonianmag.com/smart-news/once-upon-time-exploding-billiard-balls-were-everyday-thing-180962751/ La antañamente común explosividad del billar.
