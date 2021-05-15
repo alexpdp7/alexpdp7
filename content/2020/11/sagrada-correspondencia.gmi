@@ -15,6 +15,7 @@ Uso isync[2], una herramienta para sincronizar cuentas de correo IMAP con archiv
 
 Para hacer la sincronización, basta crear un sencillo archivo de configuración:
 
+```
 IMAPAccount gmail
 Host imap.gmail.com
 User <usuario_de_gmail>
@@ -34,8 +35,9 @@ Slave :gmail-local:
 Patterns *
 Create Both
 SyncState *
+```
 
-Ejecutando `mbsync -a`, tendremos que teclear nuestra contraseña interactivamente y se realizará la sincronización.
+Ejecutando "mbsync -a", tendremos que teclear nuestra contraseña interactivamente y se realizará la sincronización.
 
 Para que esto funcione, sin embargo, necesitaremos permitir el acceso "menos seguro" a nuestra cuenta Google, que permite el acceso al correo IMAP mediante una simple contraseña (mecanismo que Google no considera seguro). De momento y para salir del paso, dado que tampoco me preocupo de ejecutar el proceso automáticamente, lo que he hecho es programarme un recordatorio para ejecutar el proceso semanalmente y sólo activar el acceso "menos seguro" mientras se ejecuta el proceso.
 
