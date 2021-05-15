@@ -30,8 +30,8 @@ Path ~/.mail/gmail/
 Inbox ~/.mail/gmail/Inbox
 
 Channel gmail
-Master :gmail-remote:
-Slave :gmail-local:
+Far :gmail-remote:
+Near :gmail-local:
 Patterns *
 Create Both
 SyncState *
@@ -40,7 +40,6 @@ SyncState *
 Ejecutando "mbsync -a", tendremos que teclear nuestra contraseña interactivamente y se realizará la sincronización.
 
 Para que esto funcione, sin embargo, necesitaremos permitir el acceso "menos seguro" a nuestra cuenta Google, que permite el acceso al correo IMAP mediante una simple contraseña (mecanismo que Google no considera seguro). De momento y para salir del paso, dado que tampoco me preocupo de ejecutar el proceso automáticamente, lo que he hecho es programarme un recordatorio para ejecutar el proceso semanalmente y sólo activar el acceso "menos seguro" mientras se ejecuta el proceso.
-
 
 => https://www.cmmedia.es/noticias/espana/un-calvario-digital-google-cancela-mi-cuenta-de-correo-y-todo-lo-asociado-con-ella/ 1: https://www.cmmedia.es/noticias/espana/un-calvario-digital-google-cancela-mi-cuenta-de-correo-y-todo-lo-asociado-con-ella/
 => https://isync.sourceforge.io/ 2: https://isync.sourceforge.io/
