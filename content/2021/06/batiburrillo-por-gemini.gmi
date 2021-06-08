@@ -4,7 +4,7 @@
 => https://openbci.com/ Comentan en el curro que lo de enchufar un USB a una rana, ahora puede ser open source.
 => https://www.polygon.com/22524397/in-defense-of-scrabble-feature El torneo de Scrabble eterno.
 => https://www.schneier.com/blog/archives/2021/05/adding-a-russian-keyboard-to-protect-against-ransomware.html Bruce Schneier sobre cómo instalarnos el teclado ruso nos puede proteger.
-=> https://www.snopes.com/fact-check/facebook-prayer-request-posts/ Por una parte, guay que Snopes confirme la nueva funcionalidad celestial de Google; por otra parte era más gracioso el post de JWZ.
+=> https://www.snopes.com/fact-check/facebook-prayer-request-posts/ Por una parte, guay que Snopes confirme la nueva funcionalidad celestial de Facebook; por otra parte era más gracioso el post de JWZ.
 => https://www.quantamagazine.org/why-is-quantum-computing-so-hard-to-explain-20210608/ La explicación que yo tenía para la computación cuántica era errónea. Pero tampoco he entendido muy bien la buena.
 => https://blog.google/products/workspace/google-workspace-features/ Páginas infinitas en Google Docs, o muerte al esqueuomorfismo (o algo así)...
 => https://blog.google/technology/research/project-starline/ ... ¿y no os parece que la sala de reunión futurista de Google parece la sala de visitas de una prisión hollywoodiense?
