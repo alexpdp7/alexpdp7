@@ -1,0 +1,24 @@
+# Distopía en celuloide
+2021-06-16
+
+Como muchos de vosotros, no me dedico a cortar bloques con una espada láser en la vida real, con lo que a veces me cuesta calibrar cuán real es la realidad virtual.
+
+Hasta que descubrí Eleven.
+
+Eleven es un juego de ping pong, nativo en Oculus, y también disponible en Steam para otros dispositivos.
+
+El que escribe dedicaba hace décadas bastante tiempo al tenis de mesa, y no podía dejar pasar la oportunidad de probar qué tal se traslada a la realidad virtual. Ciertamente el ping pong es quizá de las experiencias más adecuadas para el medio; no hay contacto, durante el juego sólo tocamos la pala (que no es del todo distinta en peso y empuñadura a los mandos típicos de la realidad virtual), y la pelota tiene un peso insignificante. Además, cada jugador se mueve en un espacio relativamente pequeño (yo juego en un rincón de poco más de 1,4x2m, aunque me falta un poco de espacio para jugar con perfecta libertad), que de bonus, es mucho menor que lo que se necesita para un entorno real (la mesa son más o menos 1,5x2,75m, más el espacio para moverse), con lo que sumado a poder jugar contra la máquina o por Internet (y no tener que buscar rival presencialmente), hace que el potencial del ping pong en realidad virtual sea muy grande.
+
+Pues Eleven lo cumple, y con creces. El tenis de mesa es un juego donde la memoria muscular juega un papel importante, y puedo decir que yo (en mi nivel de aficionado), prácticamente no he necesitado adaptación para aplicarla en el entorno virtual. La física está suficientemente conseguida como para que (a mi nivel) la experiencia sea poco distinguible de una partida real.
+
+Además, se añaden cosas chulas como no tener que agacharse o perseguir la pelota, poder disponer de un robot de ping pong programable (200€ los más baratos que veo, y diría que mucho menos funcionales), o por supuesto, poder jugar contra el ordenador u otra persona.
+
+Ahí surgen un par de defectos; el ordenador es un adversario bastante aburrido- sabe jugar a la perfección y el ajuste de dificultad sólo sirve para que no devuelva pelotas a partir de ciertas velocidades, con lo que es ideal para calentar y pelotear, pero no para mejorar o divertirse. Los adversarios online son por supuesto mucho mejores, pero tienen también ciertos inconvenientes.
+
+Para empezar, el juego permite ajustar los parámetros de la pala y dar unos efectos un tanto exagerados; sumado a la posibilidad de poder practicar ciertos golpes como los servicios muy fácilmente, hace que haya una gran cantidad de adversarios contra los que no es muy divertido jugar; con servicios extremadamente efectivos, y que ante una bola simple, la pueden devolver con unos efectos bastante complicados de controlar. Si le sumamos que en otros aspectos del juego están descompensados, llegamos a partidas muy aburridas (puedo ganar puntos fácilmente con mis propios tiros heterodoxos, pero pocos puntos son largos y divertidos); además estos jugadores parecen estar concentrados en mi parte del ranking de ELO.
+
+Además, el juego es (lógicamente) bastante sensible a la latencia, con lo que normalmente hay un corto abanico de jugadores disponibles- quizá menos de una docena (aunque ciertamente juego a horas intempestivas; antes de ponerme a trabajar). Para acabarlo de rematar, mucha gente juega con el micrófono abierto, pero intentando reproducir una línea erótica- la respiración y jadeos de algunos resulta muy desconcertante.
+
+Pero, a pesar de todo esto, cuando uno se encuentra un rival divertido... pues es todo lo divertido que es el tenis de mesa- que para el que escribe, es mucho. En mi opinión, los 20€ del juego (y los 350€ del Oculus) son insignificantes para cualquiera que disfrute con el tenis de mesa.
+
+La única limitación de la realidad virtual que le encuentro es que el mejor ping pong es el ping pong de dobles, que no parece viable en un futuro próximo (los miembros de cada pareja deben alternarse en el golpeo, con lo que las colisiones con el propio compañero son un elemento fundamental del juego).
