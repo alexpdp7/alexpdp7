@@ -21,6 +21,8 @@ Parece que el ataque a discos duros externos del martes[1] ha sido rápidamente 
 => https://www.theverge.com/2021/6/29/22555959/wd-my-book-live-second-exploit-authentication-factory-reset-without-password-root-control [1] Ojo con los WD My Book Live fuera de soporte.
 => https://www.reddit.com/r/msp/comments/ocggbv/crticial_ransomware_incident_in_progress/ [2] El ataque a Kaseya.
 
+El resto basta en batiburrillo...
+
 => https://www.theverge.com/2021/7/2/22550853/electric-vehicles-disabled-wheelchair-conversion-battery Las curiosas inaccesibilidades de los coches eléctricos.
 
 => https://nitter.mha.fi/JoelBurgess/status/1409013849584504833 La historia del aparentemente perro más buenísimo del mundo en el mundo de los videojuegos.
