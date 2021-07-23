@@ -52,6 +52,9 @@ def create_index(posts):
             ## Hay otros como él, pero este es el mío
         """).lstrip())
 
+        index.write("_" * 80)
+        index.write("\n")
+
         for post in posts[0:10]:
             index.write(textwrap.dedent(f"""
                 => {post.uri} {post.posted} {post.title}
@@ -63,6 +66,8 @@ def create_index(posts):
 
             index.write("\n".join(post_lines[2:]))
             index.write("\n\n")
+            index.write("_" * 80)
+            index.write("\n")
 
         index.write(textwrap.dedent("""
             # Sobre mí
