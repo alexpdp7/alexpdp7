@@ -1,0 +1,20 @@
+# Postvacacional
+2021-08-30
+
+Apunte rápido que aunque una suscripción a O'Reilly (el "Netflix" de los libros técnicos) son $500/año, ser miembro de la ACM (algo así como un colegio de informáticos) incluye gran parte de los beneficios (faltan vídeos y laboratorios, pero los libros están) pero por sólo $100/año.
+
+JWZ apuntaba al misterio del emoji del sr. trajeado saltarín[1]. La BBC aclara que es un "Wailer"[2].
+
+=> https://www.jwz.org/blog/2021/08/unicode-character-u1f574-man-in-business-suit-levitating/ [1]
+=> https://www.bbc.co.uk/news/technology-58180556 [2]
+
+Pese a que no soy fan de los emojis, debo admitir que las reactions de Slack y demás son útiles (permiten hacer "ack" de un mensaje sin generar una notificación). Parece que pronto estarán en Whatsapp:
+
+=> https://www.gsmarena.com/message_reactions_are_coming_to_whatsapp-news-50668.php
+
+El resto en batiburrillo...
+
+=> https://www.penny-arcade.com/comic/2021/08/04 Penny Arcade sobre esos juegos a los que no conseguimos jugar.
+=> https://arstechnica.com/gaming/2021/08/how-game-makers-are-catering-to-disabled-players/ Otro de accesibilidad en videojuegos
+=> https://www.jwz.org/blog/2021/08/nestflix/ JWZ me descubre Nestflix, sobre ficciones anidadas.
+=> https://arstechnica.com/gadgets/2021/08/new-glowworm-attack-recovers-audio-from-devices-power-leds/ Otro ataque "Tempest".
