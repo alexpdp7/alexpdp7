@@ -3,9 +3,9 @@
 
 Esta es la primera entrada que creo en mi blog en el Geminiespacio (¿Gemeloespacio? ¿Geminispacio? Dudo que la RAE o la Fundéu me ayuden con esto). El Geminiespacio es un fascinante proyecto del que ya os hablé[1] anteriormente que define un protocolo parecido a la web, pero simplificado al máximo- los que recuerden el protocolo Gopher les sonará- pero el Geminiespacio está modernizado (requiere TLS, por ejemplo) y aprende unas cuantas lecciones de la web.
 
-Es un protocolo muy inflexible- no permite formularios, por ejemplo (sí permite pedir al usuario una cadena de texto, por ejemplo para implementar un buscador)- que impide todo lo que odiamos de la web moderna. Una cápsula Gemini sólo es hipertexto y nada más- ni lo bueno ni lo maligno.
+Es un protocolo muy inflexible (si quisiesemos implementar un buscador, por ejemplo, no permite formularios aunque sí permite pedir al usuario una cadena de texto) que impide todo lo que odiamos de la web moderna. Una cápsula Gemini sólo es hipertexto y nada más, ni lo bueno ni lo maligno.
 
-He publicado el código fuente del terrible invento rubegoldberesco que me ha permitido migrar este blog de Wordpress a un extraño injerto estático y el proxy a través del cuál muy probablemente estéis leyendo esta entrada mediante un navegador convencional. Lo podéis encontrar aquí:
+He publicado el código fuente del terrible invento rubegoldberesco que me ha permitido migrar este blog de WordPress a un extraño injerto estático y el proxy a través del cuál muy probablemente estéis leyendo esta entrada mediante un navegador convencional. Lo podéis encontrar aquí:
 
 => https://github.com/alexpdp7/gemini_blog/ El repositorio con el código de sostiene este blog
 
