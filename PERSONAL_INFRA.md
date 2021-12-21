@@ -21,7 +21,7 @@
     * tinc/ocserv
   * Raspberry Pi (1Gb RAM) running LibreElec + TVHeadend, records to NFS share on HP server
 * Flat 2
-  * Raspberry Pi (1Gb RAM) running Raspbian, runs DHCP/DNS, tinc/ocserv
+  * Raspberry Pi (1Gb RAM) running Rocky Linux, runs DHCP/DNS, tinc/ocserv
 * OVH 2Gb RAM VPS running FreeIPA (also tinc/ocserv)
 
 ## Networking
@@ -104,15 +104,14 @@ I use:
 
 * Proxmox, as it provides LXC containers (and VMs if needed) and ZFS storage. I like ZFS for its protection about bitrot, and because send/recv and snapshots are great for backups
 * CentOS 7/CentOS 8, due to the long life cycle and stability. Due to the CentOS 8 life cycle changes, I will probably have to switch those systems to Stream, another RHEL clone, free RHEL or a completely different system.
-* Debian for the Proliant. I really did not think that through a lot. I love Debian, but I'd prefer to standardize on Proxmox (for ZFS, although the files in the Proliant are not as critical as the ones on NextCloud) or CentOS.
-* Raspbian for my server Raspberry. This could be switched to CentOS/Debian.
+* Rocky Linux for my server Raspberry.
 * LibreElec for my mediacenter Raspberry. Common distros are not an option, as they don't support hardware video acceleration. LibreElec sets up everything I need with minimal fuss, so while it's the system that doesn't use configuration management, it works fine.
 
 ### Software updates
 
 I use `yum-cron` on CentOS 7, `dnf-automatic` on CentOS 8 and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
 
-`ragent` monitors when Debian/Ubuntu systems need a reboot and warns me through Nagios.
+`ragent` monitors when systems need a reboot and warns me through Nagios.
 
 ### Packaging
 
@@ -133,13 +132,11 @@ The Raspberry has a DVB-T tuner and TVHeadend, recordings are stored on the Prol
 
 ### Backup
 
-Systems with valuable data dump databases, etc. to `/srv/backup/$HOSTNAME/`. This is rsynced to the Proliant Microserver.
+Valuable data is on dedicated datasets. Each Proxmox host (the Proliant and the Hetzner server) run scripts daily that create snapshots.
 
-I have two external USB HDDs. Each one is a ZPOOL. I plug them in monthly and run a backup script that:
+The Hetzner server sends/receives datasets to the Proliant daily.
 
-* rsyncs `/srv/backup` and local storage folders
-* Uses zfs send/receive and snapshots to backup some ZFS filesystems (Nextcloud).
-* Creates snapshots
+I send/receive datasets from the Proliant to USB drives using ZFS.
 
 ## Dokku
 
@@ -193,9 +190,6 @@ https://github.com/alexpdp7/gemini_blog
 
 ## Possible improvements
 
-* Right now I execute backups in the Proliant, plugging in small USB HDDs. As I'm often away from flat 1, I'd like to re-do my backup scripts so I can plug in the USB drives in any system (e.g. my laptop, the Proliant in flat 1 or the Raspberry Pi on flat 2) and run the backup wherever I am.
-* Convert the Proliant to Proxmox so it uses ZFS (for even simpler backups and snapshotting) and the few misc services there can run isolated in LXC containers.
 * Better sync'ing of user files. NextCloud out of the box only works on systems with a graphical interface. There are solutions to mount NextCloud using WebDav, but I prefer to do a sync (so if the server is down I still can access my files) and to run the client headless, but I prefer to stay within supported solutions. Probably syncthing would be a good solution for headless systems to sync dotfiles, etc.
-* Add the Proliant and Raspberry to FreeIPA.
 * Add a lab so I can experiment with things in isolated environments.
 * Set up SSO on my smartphone, perhaps do some MDM
