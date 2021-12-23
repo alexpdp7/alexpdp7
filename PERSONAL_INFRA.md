@@ -103,13 +103,13 @@ I use an Ansible playbook using https://github.com/alexpdp7/ansible-puppet/ to r
 I use:
 
 * Proxmox, as it provides LXC containers (and VMs if needed) and ZFS storage. I like ZFS for its protection about bitrot, and because send/recv and snapshots are great for backups
-* CentOS 7/CentOS 8, due to the long life cycle and stability. Due to the CentOS 8 life cycle changes, I will probably have to switch those systems to Stream, another RHEL clone, free RHEL or a completely different system.
+* EL7/EL8, due to the long life cycle and stability. Due to the CentOS 8 life cycle changes, I'm switching CentOS 8 hosts to Rocky Linux, while CentOS 7 remains.
 * Rocky Linux for my server Raspberry.
 * LibreElec for my mediacenter Raspberry. Common distros are not an option, as they don't support hardware video acceleration. LibreElec sets up everything I need with minimal fuss, so while it's the system that doesn't use configuration management, it works fine.
 
 ### Software updates
 
-I use `yum-cron` on CentOS 7, `dnf-automatic` on CentOS 8 and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
+I use `yum-cron` on EL7, `dnf-automatic` on EL8 and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
 
 `ragent` monitors when systems need a reboot and warns me through Nagios.
 
