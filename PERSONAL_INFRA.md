@@ -13,6 +13,7 @@
   * LXC container running PostgreSQL
   * LXC container running a workstation
   * LXC container running Gitolite
+  * LXC container running FreeSWITCH
 * Flat 1
   * HP Proliant Microserver: 4Gb RAM, 2x4Tb HDD
     * DHCP/DNS
@@ -187,6 +188,10 @@ I was never a fan of Wordpress (I prefer other platforms to PHP and MySQL), Remi
 However, after reading about Geminispace, I decided to port my blog to Geminispace and skip migrating from EL 7 to EL 8. Right now I run some custom scripts that generate a static blog and serves them using Agate in my workstation container. I run a Kineto proxy on Dokku that makes the content available through conventional HTML/HTTP. See details at:
 
 https://github.com/alexpdp7/gemini_blog
+
+## Phones
+
+I wanted to eliminate my landlines, because I get a ton of spam there. However, I need to provide calls between my home and another home using physical phones, so I set up FreeSWITCH and two GrandStream HT801 devices.
 
 ## Possible improvements
 
