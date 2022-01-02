@@ -9,7 +9,7 @@ Dos. Pese a que admití que iba a usar Maven[2], como hobby me estoy mirando gra
 
 
 => http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way 1: http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way
-=> http://alex.corcoles.net/2011/02/maventuras/ 2: http://alex.corcoles.net/2011/02/maventuras/
+=> gemini://alex.corcoles.net/2011/02/maventuras/ 2: gemini://alex.corcoles.net/2011/02/maventuras/
 => http://www.gradle.org/ 3: http://www.gradle.org/
 => http://ant.apache.org/ 4: http://ant.apache.org/
 => http://groovy.codehaus.org/ 5: http://groovy.codehaus.org/

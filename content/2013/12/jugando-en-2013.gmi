@@ -34,9 +34,9 @@ Sí, le doy más a los videojuegos que antes. Con los Humble Bundles y Steam, la
 => http://positech.co.uk/gratuitousspacebattles/ 2: http://positech.co.uk/gratuitousspacebattles/
 => http://www.shattergame.com/ 3: http://www.shattergame.com/
 => http://spacepiratesandzombies.com/ 4: http://spacepiratesandzombies.com/
-=> http://alex.corcoles.net/2013/06/ensaladilla-de-tiros-frozen-synapse/ 5: http://alex.corcoles.net/2013/06/ensaladilla-de-tiros-frozen-synapse/
+=> gemini://alex.corcoles.net/2013/06/ensaladilla-de-tiros-frozen-synapse/ 5: gemini://alex.corcoles.net/2013/06/ensaladilla-de-tiros-frozen-synapse/
 => http://www.dejobaan.com/awesome/ 6: http://www.dejobaan.com/awesome/
 => http://www.puppygames.net/ 7: http://www.puppygames.net/
 => http://www.yamagi.org/quake2/ 8: http://www.yamagi.org/quake2/
 => http://www.lmctf.com/ 9: http://www.lmctf.com/
-=> http://alex.corcoles.net/2013/11/el-cinco/ 10: http://alex.corcoles.net/2013/11/el-cinco/
+=> gemini://alex.corcoles.net/2013/11/el-cinco/ 10: gemini://alex.corcoles.net/2013/11/el-cinco/

@@ -14,4 +14,4 @@ Los Simpson, por supuesto, son los primeros en cuanto a series de animación "pa
 Los datos cubren más o menos desde mediados de diciembre de 2011 hasta hoy, con un hueco en agosto-octubre de 2013 por problemas técnicos.
 
 
-=> http://alex.corcoles.net/2013/01/los-simpson-en-a3/ 1: http://alex.corcoles.net/2013/01/los-simpson-en-a3/
+=> gemini://alex.corcoles.net/2013/01/los-simpson-en-a3/ 1: gemini://alex.corcoles.net/2013/01/los-simpson-en-a3/

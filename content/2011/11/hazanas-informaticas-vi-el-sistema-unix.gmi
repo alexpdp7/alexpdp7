@@ -24,4 +24,4 @@ Llegando hasta hoy, los Unix comerciales siguen teniendo su importancia en entor
 El mérito de Unix radica en simplemente eso- su sencillez y claridad de conceptos inicial han perdurado hasta nuestros días- siendo difícil la valoración de su repercusión frente a la serie 360, pero claramente siendo uno de los desarrollos informáticos más significativos de la historia de la computación.
 
 
-=> http://alex.corcoles.net/categoria/series/hazanas-informaticas/ 1: http://alex.corcoles.net/categoria/series/hazanas-informaticas/
+=> gemini://alex.corcoles.net/categoria/series/hazanas-informaticas/ 1: gemini://alex.corcoles.net/categoria/series/hazanas-informaticas/

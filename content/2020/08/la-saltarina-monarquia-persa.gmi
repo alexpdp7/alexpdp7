@@ -16,5 +16,5 @@ Jordan Mechner pretendía un juego cinematográfico y creo que, con las limitaci
 Para los pacientes (la verdad que el juego me ha parecido la mar de difícil y me ha costado mucho acabármelo) que no hayan gozado de esta pequeña maravilla, vale la pena escarbar para encontrar la manera de jugar al Prince of Persia.
 
 
-=> https://alex.corcoles.net/2020/08/sistemas-oxidados/ 1: https://alex.corcoles.net/2020/08/sistemas-oxidados/
+=> gemini://alex.corcoles.net/2020/08/sistemas-oxidados/ 1: gemini://alex.corcoles.net/2020/08/sistemas-oxidados/
 => https://github.com/jmechner/Prince-of-Persia-Apple-II/ 2: https://github.com/jmechner/Prince-of-Persia-Apple-II/

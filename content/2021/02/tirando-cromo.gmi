@@ -22,5 +22,5 @@ Por supuesto, al ser Android TV podemos añadir aplicaciones como Jellyfin y Kod
 En definitiva, aunque algo más caro que otros, este Chromecast es un buen cacharro que funciona bastante bien con la oferta de contenidos en España y que acierta en su mayoría de decisiones ergonómicas.
 
 
-=> https://alex.corcoles.net/2017/06/hdmi-cec-algunas-cosas-que-se-enchufan-a-la-tele-y-complementos/ 1: https://alex.corcoles.net/2017/06/hdmi-cec-algunas-cosas-que-se-enchufan-a-la-tele-y-complementos/
+=> gemini://alex.corcoles.net/2017/06/hdmi-cec-algunas-cosas-que-se-enchufan-a-la-tele-y-complementos/ 1: gemini://alex.corcoles.net/2017/06/hdmi-cec-algunas-cosas-que-se-enchufan-a-la-tele-y-complementos/
 => https://www.justwatch.com/ 2: https://www.justwatch.com/

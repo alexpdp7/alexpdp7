@@ -14,5 +14,5 @@ Lamentablemente creo que la popularidad de Go va en detrimento de un lenguaje qu
 Por último, Kotlin aún anda por el #33- algo pobre para el lenguaje de moda que Google también ha decidido impulsar como primer lenguaje para hacer aplicaciones sobre Android (offtopic: Fuchsia Programming Language Policy[2]). Quizá que Swift se quede por el #16 quiere decir algo sobre Android e iOS. A mí me sigue pareciendo un bonito lenguaje alternativo a Java (aunque a parte de la JVM, también compila a JS/WASM y nativo mediante LLVM) que además quizá está motivando muchas de las mejoras que Oracle está metiendo (con gran acierto, en mi opinión) a marchas forzadas a Java últimamente. Pero yo sigo sin verlo reemplazando a Java fuera de Android (como Scala, Ceylon, etc.).
 
 
-=> https://alex.corcoles.net/2015/08/mi-opinion-sobre-unos-cuantos-lenguajes-de-programacion/ 1: https://alex.corcoles.net/2015/08/mi-opinion-sobre-unos-cuantos-lenguajes-de-programacion/
+=> gemini://alex.corcoles.net/2015/08/mi-opinion-sobre-unos-cuantos-lenguajes-de-programacion/ 1: gemini://alex.corcoles.net/2015/08/mi-opinion-sobre-unos-cuantos-lenguajes-de-programacion/
 => https://fuchsia.dev/fuchsia-src/contribute/governance/policy/programming_languages 2: https://fuchsia.dev/fuchsia-src/contribute/governance/policy/programming_languages
