@@ -1,0 +1,133 @@
+# Cuentos del Triángulo Verde
+
+## 1.
+
+Nadie recordaba ya nada de la antigua civilización, pero Grub estaba bastante seguro de que el templo de suministros había sido uno de sus pilares. Entre polvo y escombros, el templo se alzaba majestuoso desafiando al sol y a las tormentas de arena.
+
+Su tribu anhelaba los extraños artefactos que atesoraba, pero muchos de sus guerreros habían sido diezmados intentando asaltarlo o interceptando los convoys fuertemente armados que lo abastecían periódicamente.
+
+Recordaba el salvoconducto que había encontrado su abuelo cuando Grub era apenas un cachorro. El esqueleto se aferraba a su posesión más valiosa, pero apenas un tirón bastó para arrancarle el pequeño rectángulo plastificado. Casi no pudo contener la emoción cuando su abuelo se lo enseñó al guardia y éste les invitó a entrar.
+
+No sabían qué magia iluminaba el lugar, ni qué extraña fuerza impulsaba las vías a las plantas superiores, ni de dónde salía ese frescor que al principio te hacía olvidar el infierno exterior, pero que luego te helaba hasta los huesos.
+
+Pasaron varias horas recogiendo tesoros, que los propios guardias les colocaban en alforjas de plástico simplemente presentando el salvoconducto.
+
+El día acabó cuando un guardia se quedó con el salvoconducto a cambio del último artefacto y les escoltó hacia la puerta, pero fue una jornada gloriosa de la cual seguían hablando cada noche al caer el sol, aunque ni siquiera eran capaces de comprender su botín.
+
+Esos borrosos recuerdos emergían en la mente de Grub mientras se dirigía al templo. Como explorador, le correspondía introducirse e interpretar los auspicios regularmente. Esto era más complicado de lo que parecía e infinitamente más peligroso. Habían descubierto que la actitud exacta, con un preciso equilibrio de interés y desinterés, podía mantener a los guardias a raya. Si no mirabas lo suficiente, te conducían a empujones hasta la entrada. Pero si demostrabas mucho interés por un artefacto, tu destino era mucho peor. El guardia se acercaba y entablaba conversación. Nadie conocía el lenguaje ni las encantaciones apropiadas, sólo arrodillarse y ofrecerles un salvoconducto los apaciguaba. Nunca descubrieron qué hacían con los cadáveres.
+
+Grub deambulaba entre las estanterías. De vez en cuando añadía su toque personal, cogía algo y hacía ver que interpretaba sus escrituras, mientras controlaba al guardia por el rabillo del ojo. Esto parecía satisfacerles.
+
+Las miradas de los guardias eran cada vez más insistentes y cuando Grub estaba a punto de dar por concluida su incursión, lo vio. Cayó de rodillas donde se encontraba. Su padre le había enseñado a interpretar los cuatro auspicios, igual que su padre antes que él, y aquel era el peor de todos.
+
+El árbol de frutos redondos y brillantes, el hombre de rojo y los abrigos de animales.
+
+En dos o tres lunas nuevas, llegaría el frío y la desolación. Su abuelo le había explicado cómo el anterior invierno prácticamente acabó con ellos. Grub escuchó una voz, pero no supo interpretarla. Sus sollozos acabaron de ahogar la locución mística y la tétrica melodía.
+
+«Ya es Navidad en El Corte Inglés.»
+
+## 2.
+
+—No lo queremos.
+
+—¿Cómo?
+
+—Que no lo queremos.
+
+El robot se encogió de hombros. No era algo habitual, pero esto había excedido su programación.
+
+—Tendrán que hablar con mi supervisor.
+
+Eva y Lucas se acomodaron en sus asientos.
+
+—De acuerdo.
+
+El robot se levantó, dio la vuelta, se dirigió al hombre del despacho y le explicó todo. Antes de salir a hablar con ellos, el supervisor convirtió su cara de sorpresa en su mejor sonrisa.
+
+—Buenos días. RA21 me ha comentado su caso y creo que no le he entendido del todo bien.
+
+—Que queremos devolverlo.
+
+—Ya —enterró la vista en los papeles que había en la mesa—. Pero veo que no tiene ningún problema, ningún defecto de fábrica.
+
+—Eso es técnicamente cierto, desde luego —dijo ella.
+
+—Pero queremos devolverlo —dijo él.
+
+—No lo comprendo.
+
+—No forma parte de su… ¿política?
+
+—Sé lo que quieren decir, pero esto es del todo irregular. Cubrimos los defectos de fabricación, pero…
+
+—Pero es que no nos gusta. Es un… pesado.
+
+—Y un cabroncete.
+
+—¿Cómo? —A pesar de su amplia experiencia, no pudo evitar la sorpresa. Se recompuso rápido.
+
+—Mire, al principio éramos comprensivos. No nos dejaba dormir, pero… pensábamos que era normal. Pero iba pasando el tiempo y no mejoraba.
+
+—Lo que mi mujer quiere decir… pues sí, crecía con normalidad, dentro de lo esperado. Pero…
+
+—Es un gamberro. Y no para de tocarnos las narices.
+
+El supervisor, bajo una mueca de atención absoluta, no daba crédito. En un mundo saturado de contaminación, la tecnología que los chicos del supermercado habían inventado no sólo producía unos filetes excelentes, sino que resultó ser la mejor manera de tener hijos sanos y perfectos, completamente libres de la plaga de las mutaciones. Buscando atender todas las necesidades de sus clientes, abrieron el departamento de reproducción asistida hacía apenas seis años.
+
+—Pero todo esto son criterios subjetivos. El niño no presenta ninguna mutación. Su ADN es —Alzó los papeles y les enseñó los marcadores— completamente armonioso. El fenotipo... admitirán que el parecido es notable.
+
+—Sí, pero el crío es un maldito caprichoso e insoportable.
+
+—Debe disculparla, ayer volvieron a expulsarle del centro educativo. Es que no hay manera.
+
+—Mire, nos da igual el dinero. Sólo queremos que… que se lo queden. Ustedes siempre insisten en eso, ¿no?
+
+El supervisor suspiró sonoramente. «La política que ha sobrevivido una guerra nuclear», pensó. Entonó la letanía con resignación.
+
+«Si no quedan satisfechos, les devolvemos su dinero.»
+
+## 3.
+
+Se sentó delante del ordenador. Era un tipo bajito, algo barrigón y bastante calvo. Sudaba.
+
+Abrió el navegador e introdujo la dirección.
+
+«Instalando el plugin Mindterest 3.5 para una perfecta experiencia de compra», decía la pantalla, mientras el hipnótico círculo giraba en su danza infinita.
+
+Golpeteó nerviosamente el ratón.
+
+La página cargó, con el habitual listado de categorías. Vio la muchacha tridimensional en la parte derecha de la pantalla. «Haga clic aquí si desea saber más sobre su nueva experiencia de compra.» Era bastante atractiva, pensó, y le echaba una mirada inquisitiva. Sonrió levemente.
+
+«Me temo que no ofrecemos ese tipo de servicios.» Había desaprobación en ese cuadro de texto.
+
+Enrojeció levemente. Clic, clic, cancelar.
+
+«En nuestra sección de psicología encontrará títulos como ‘Superar el ridículo’ y ‘Conteniendo sus deseos’, haga clic en los títulos para más información.»
+
+Una gota de sudor recorrió su frente. Clic, clic, cancelar.
+
+Se echó una ojeada rápida, avergonzado.
+
+«El departamento de alimentación tiene una amplia selección de comida dietética preparada por nuestros especialistas en nutrición.”
+
+CLIC, CLIC…
+
+«... programas de ejercicios...», los popups emergían más rápido de lo que podía cerrarlos.
+
+¡CANCELAR!
+
+Joder con el plugin, era peor que el Flash de los antepasados. Su vida era una mierda, pero no necesitaba que un avatar impoluto se lo recordase.
+
+«Quizás podrían interesarle nuestros nuevos servicios de psicología, haga clic aquí para obtener detalles.»
+
+Alzó una ceja. En aquel momento tampoco le pareció tan mala idea. Quizás le haría bien.
+
+Clic, clic.
+
+La página cargó lentamente. Sin pensarlo, se desplazó hasta la parte inferior para ver los precios. «Puf, prohibitivos», pensó, y vio su desilusión reflejada en la pantalla.
+
+«En el supermercado encontrará una promoción 3x2 en cuchillas de afeitar. Bueno, en realidad sólo necesitará una…»
+
+Reparó con resignación en el eslogan en el pie de la página y se quedó mirando al infinito.
+
+«Especialistas en ti.»
