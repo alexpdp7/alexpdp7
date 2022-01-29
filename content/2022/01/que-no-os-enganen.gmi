@@ -1,0 +1,55 @@
+# Que no os engañen, la inflación es importante
+2022-01-29
+
+Reiterando un poco en mis obsesiones, estas semanas he estado un poco disperso.
+
+Lo más interesante ha sido descubrir que lo que parece que hoy en día se llama "pubnix"[1] sigue bastante activo. Los pubnix hoy en día son servidores corriendo algún sistema operativo tipo UNIX (frecuentemente Linux, pero abundan BSDs y cosas más esotéricas) que permiten registrarse y crearse una cuenta gratuita. Uno de los históricos y más impresionantes es SDF[2], Super Dimension Fortress, que hasta permite en esta era de nuestro señor acceder vía un modem y líneas telefónicas de cobre. Podemos acceder al servidor vía SSH y usar todo tipo de programas. Muy frecuentemente están vinculados a comunidades y proveen servicios ligeros y abiertos que podemos utilizar desde el terminal. Estos servicios son cosas más o menos friquis como IRC, pero abundan cosas tipo Gopher (con hosting gratuito). Una subcorriente de los pubnixes es el Tildeverso[3], que engloba varias pequeñas comunidades de intereses afines.
+
+=> https://gopher.mills.io/rawtext.club/1/~cmccabe/pubnixhist/ [1] Historia de los Pubnix
+=> https://sdf.org/ [2] Super Dimension Fortress
+=> gemini://tildeverse.org/ [3] El Tildeverso
+
+Esto me ha llevado a meterme, con mi edad y en los tiempos que corren, en tilde.chat[1], la red de IRC del Tildeverso. Ciertamente, es más complejo que usar Slack (IRC no tiene "persistencia" por defecto- una manera de conseguirla es correr tu cliente IRC en una sesión persistente SSH de la que uno se puede desconectar y reconectar cuando apaga su ordenador), pero la verdad que tras Gemini, ha sido otra revelación pasar de los horriblemente pesados Slack, Google Chat, Telegram, Whatsapp, Discord... a un sistema prácticamente instantáneo cuya carga en nuestro portátil es irrisoria (incluso sin pensar que últimamente los 8gb de mi portátil se me antojan cortos para usar estos sistemas de mensajería. El proceso de weechat que uso no consume ni 50 megas de RAM).
+
+=> https://tilde.chat/ tilde.chat, la red IRC del Tildeverso
+
+La verdad que el software y protocolos cerrados ya no son el único problema. Los navegadores y la web se han vuelto tan complejos, que ya casi nadie- ni siquiera Microsoft- es capaz de ofrecer un navegador que no sea básicamente Chrome. Esto me ha dispersado todavía más a pensar en montar un pubnix[1] (sin una visión clara todavía) y continuar indagando en otros protocolos ligeros- libres y fuera de la complejidad de la web.
+
+=> https://packages.debian.org/bookworm/molly-brown [1] (y hasta he encontrado un servidor de Gemini potente en Debian)
+
+Uno de ellos sería twtxt[1], que es poco más que una especificación de un formato de texto que contiene algo parecido a los tuits, que se cuelga en una URL. Han sacado toda una serie de "clientes" que permiten crear estos archivos, seguir a otros usuarios, etc.[2] Parece bastante interesante, por tratarse de algo más sencillo que el fediverso. De momento voy a seguir sin hacer "microblogging", pero quizá sea algo interesante que seguir.
+
+=> https://twtxt.readthedocs.io/en/latest/ [1] El protocolo twtxt
+=> https://yarn.social/ [2] Por ejemplo, un sofisticado mecanismo para hacer accesible twtxt desde la web
+
+Otro es el más antiguo NNTP, comunmente conocido como "news". News es un sistema bastante parecido a las listas de correo, pero con ligeras diferencias. Recientemente, básicamente se utilizan como otro mecanismo para distribuir binarios de dudosa reputación, y la mayoría de proveedores de servicio son de pago. Sin embargo, siguen existiendo proveedores gratuitos que omiten los contenidos más problemáticos[1]. Pendiente me queda comparar las posibilidades de NNTP contra algo tipo las carpetas compartidas de Cyrus IMAP o el propio Cyrus NNTP[3].
+
+=> http://news.aioe.org/ [1] news.aioe.org, uno de los proveedores de NNTP gratuito que he encontrado.
+=> https://www.cyrusimap.org/imap/concepts/features/namespaces.html [2] Correo compartido en Cyrus
+=> https://www.cyrusimap.org/3.4/imap/reference/admin/nntp.html [3] Cyrus NNTP
+
+El resto en batiburrillo:
+
+=> https://blog.robertelder.org/jeri-ellsworth-robot-uprising/ Alguien por fin ha descubierto la perturbadora realidad de los oscuros origines mitológicos de la grandiosa tecnorrenacentista que es Jeri Ellsworth.
+=> https://arstechnica.com/tech-policy/2022/01/chip-shortage-has-canon-telling-customers-how-to-skirt-its-printer-toner-drm/ Ante la escasez, Canon explica a sus clientes como saltarse el DRM de su tóner.
+=> https://arstechnica.com/gaming/2022/01/the-underground-network-bringing-japans-arcades-to-the-us/ El complejo entramado internacional de tráfico de recreativas japonesas
+=> https://www.theverge.com/22882705/slovak-design-museum-classic-game-preservation-1980s La preservación de los videojuegos eslovacos de los ochenta
+=> https://www.linkedin.com/in/woutervo/ Es curioso descubrir que el autor de los Flatbuffers de Google no sólo participó en el desarrollo del Farcry, sino que además es el creador del lenguaje E para el Commodore Amiga y el autor de unos históricos motores de juegos de tiros en primera persona.
+=> https://blog.plover.com/2022/01/13/#self-esteem Enlazando levemente con el último episodio de "excesivo artículo sobre la excesiva dependencia en el trauma como recurso argumental", uno que opina que Monsters University es una pura innovación argumental por su falta de dependencia en la superación personal.
+
+Y por último recordar la ironía de que siendo una de las palabras de moda "inflación", la gente nos siga vendiendo motos ignorando adrede conceptos básicos de la economía. No me refiero a los tecnotulipaneros, sino a los de los unicornios y los que creen que el séptimo episodio de Star Wars y Avengers: Endgame son las películas más taquilleras de la historia. Es complicado saberlo, pero una lista de taquillazos de verdad se parecería a esto:
+
+1 Gone with the Wind (1939)
+2 Star Wars: Episode IV - A New Hope (1977)
+3 The Sound of Music (1965)
+4 E.T. the Extra-Terrestrial (1982)
+5 Titanic (1997)
+6 The Ten Commandments (1956)
+7 Jaws (1975)
+8 Doctor Zhivago (1965)
+9 The Exorcist (1973)
+10 Snow White and the Seven Dwarfs (1937)
+
+Donde la más joven tiene 25 años, seguida de una de 40... y con dos octogenarias en primera y décima posición. 53 taquitos de edad mediana, 56 de media. Dicho de otra manera, sólo una peli más allá de los 80...
+
+(Sin tener yo nada en contra del cine "moderno"...)
