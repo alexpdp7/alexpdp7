@@ -116,8 +116,8 @@ I use `yum-cron` on EL7, `dnf-automatic` on EL8 and `unattended-upgrades` on Deb
 
 ### Packaging
 
-* https://github.com/alexpdp7/bitwarden_rs/tree/rpm
-* https://github.com/alexpdp7/nextcloud-rpm
+* https://github.com/alexpdp7/bitwarden_rs/tree/rpm / https://copr.fedorainfracloud.org/coprs/koalillo/bitwarden_rs/
+* https://github.com/alexpdp7/nextcloud-rpm / https://copr.fedorainfracloud.org/coprs/koalillo/nextcloud/
 
 ## Storage
 
