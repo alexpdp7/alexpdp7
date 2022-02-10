@@ -132,3 +132,10 @@ Presentation tool
 * A tool to edit reveal.js-style slides
 * But also record and do basic audio editing
 * So it can help with timing/pacing, and even generate a nice video
+
+Nice mailing lists
+
+* GH-style user/organization creation
+* Every user/organization can create mailing lists
+* Mailing lists have a web UI
+* The mailing list UI can be completely customized to look like microblogging, blogs, comment systems, etc.
