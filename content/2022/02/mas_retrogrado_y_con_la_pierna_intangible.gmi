@@ -1,0 +1,25 @@
+# Más retrógrado y con la pierna intangible
+2022-02-27
+
+Creo que una resurrección de las listas de correo sería importante para librarnos de las redes sociales comerciales. El gran problema es que hoy en día es muy complicado crear listas de correo y diría que imposible ofrecer una experiencia de uso moderna. Los chicos de Shortwave sólo me respondieron con un mail educado cuando les expliqué esto, pero su artículo "Email: The Future of Messaging"[1] me llena de esperanza. No creo que resuciten Wave, pero con eso y JMAP[2], estoy esperanzado.
+
+=> https://www.shortwave.com/blog/future-of-messaging/ [1] Email: The Future of Messaging
+=> https://jmap.io/ [2] JMAP. The modern mail standard
+
+Obviamente, no iba a dejar de mencionaros un artículo con el jugoso (para mí) título de "Regresan a los quioscos los 'toi', precursores de los emoticonos"[1] (hasta el subtítulo de "Icónicas viñetas" parece de los míos). No entiendo muy bien como esta comparación no se me había ocurrido antes, pero a ver si resulta que el emoji también viene del mismo sitio que el Chupa Chups y la fregona (aunque no tengan palo).
+
+=> https://www.elperiodico.com/es/gente/20220221/regresan-quioscos-toi-precursores-emoticonos-13269344 [1] Regresan a los quioscos los 'toi', precursores de los emoticonos
+
+Yo no tenía ni puñetera idea de lo que es el Amidar que menciona Jeff[1], pero cualquier sistema de aleatoriedad como el Amidakuji captura siempre mi atención y más si es una pata fantasma[2].
+
+=> https://farside.link/nitter/llamasoft_ox/status/1497324926646239234 [1] if you've ever wondered why the game "Amidar" had that name...
+=> https://en.wikipedia.org/wiki/Ghost_Leg [2] El Amidakuji o pata fantasma
+
+El resto, en batiburrillo.
+
+=> https://www.nme.com/news/music/jonny-greenwood-pretended-play-keyboards-radiohead-3156953 "I can't quite hear what you're doing, but I think you're adding a really interesting texture because I can tell when you're not playing.". No, Thom Yorke, tu teclista no sabía "teclear".
+=> https://support.google.com/docs/answer/11528737 Yo ni estoy a favor ni en contra del esqueuomórfismo, pero siempre me ha parecido una tontería que los procesadores de texto obliguen a paginar. Ya no.
+=> https://blog.plover.com/2022/02/22/#will Dominus, will, shall y la fuerza de voluntad
+=> https://www.penny-arcade.com/comic/2022/02/23 Penny Arcade y el cualquier tiempo pasado fue mejor. Pero seguramente aquí tengan razón.
+=> https://dino.im/blog/2022/02/dino-0.3-release/ Parece que con el lanzamiento de Dino 0.3, ya es posible tener hacer llamadas y videollamadas cifradas con XMPP en móvil, escritorio y web.
+=> https://www.polygon.com/22893265/china-aaa-indie-video-games-genshin-impact-dyson-sphere-program Sobre el auge de los videojuegos chinos
