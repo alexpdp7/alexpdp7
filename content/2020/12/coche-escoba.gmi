@@ -17,10 +17,10 @@ De bonus, algo que ha sacado mi querido Internet Archive en su función de bibli
 => https://arstechnica.com/features/2020/12/a-damn-stupid-thing-to-do-the-origins-of-c/ 1: https://arstechnica.com/features/2020/12/a-damn-stupid-thing-to-do-the-origins-of-c/
 => https://www.quantamagazine.org/ 2: https://www.quantamagazine.org/
 => https://www.quantamagazine.org/the-busy-beaver-game-illuminates-the-fundamental-limits-of-math-20201210/ 3: https://www.quantamagazine.org/the-busy-beaver-game-illuminates-the-fundamental-limits-of-math-20201210/
-=> https://invidious.xyz/watch?v=mfI1S0PKJR8 4: https://invidious.xyz/watch?v=mfI1S0PKJR8
-=> https://www.youtube.com/watch?v=mfI1S0PKJR8 5: https://www.youtube.com/watch?v=mfI1S0PKJR8
+=> https://farside.link/invidious/watch?v=mfI1S0PKJR8 4: https://farside.link/invidious/watch?v=mfI1S0PKJR8
+=> https://farside.link/invidious/watch?v=mfI1S0PKJR8 5: https://farside.link/invidious/watch?v=mfI1S0PKJR8
 => https://en.wikipedia.org/wiki/True_Faith_(song)#Music_video 6: https://en.wikipedia.org/wiki/True_Faith_(song)#Music_video
-=> https://invidious.xyz/watch?v=KFDlVgBMomQ 7: https://invidious.xyz/watch?v=KFDlVgBMomQ
-=> https://www.youtube.com/watch?v=KFDlVgBMomQ 8: https://www.youtube.com/watch?v=KFDlVgBMomQ
+=> https://farside.link/invidious/watch?v=KFDlVgBMomQ 7: https://farside.link/invidious/watch?v=KFDlVgBMomQ
+=> https://farside.link/invidious/watch?v=KFDlVgBMomQ 8: https://farside.link/invidious/watch?v=KFDlVgBMomQ
 => https://www.polygon.com/star-wars/2020/12/21/22063580/star-wars-toys-action-figures-collectors-mandalorian-replicas 9: https://www.polygon.com/star-wars/2020/12/21/22063580/star-wars-toys-action-figures-collectors-mandalorian-replicas
 => https://openlibrary.org/explore 10: https://openlibrary.org/explore
