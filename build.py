@@ -76,7 +76,7 @@ def create_index(posts):
             => https://es.linkedin.com/in/alexcorcoles LinkedIn
             => https://projecteuler.net/profile/koalillo.png Project Euler
             => https://stackexchange.com/users/13361/alex Stack Exchange
-            => https://twitter.com/koalillo Twitter
+            => https://farside.link/nitter/koalillo Twitter
 
             # El resto...
         """))
