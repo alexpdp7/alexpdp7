@@ -9,9 +9,7 @@ Las órdenes son relativamente simples y dispones de un modo de previsualizació
 
 Para el aspecto visual, podéis echarle un vistazo al trailer:
 
-```html
-<iframe src="http://www.youtube.com/embed/BOlV_9DYnOw?feature=player_embedded" height="360" width="640" allowfullscreen frameborder="0"></iframe>
-```
+=> https://farside.link/invidious/watch?v=BOlV_9DYnOw
 
 , los gráficos son sencillos y atractivos (y como bonus, ¡funciona aceptablemente hasta en mi netbook!).
 
@@ -20,7 +18,6 @@ Debo decir que sólo he echado unas cuantas escaramuzas, las primeras misiones d
 Ni cuando tenía mucho tiempo para jugar me atraían los juegos complejos, y ahora que dispongo de pocos ratos para los videojuegos, más aún. Los juegos con mil tipos de unidades, opciones, recursos a gestionar, etc. me cansan y me hacen sentir como si estuviese trabajando de contable más que jugando. Frozen Synapse, en cambio, con muy pocas variables y mecanismos de juego en los que pensar, consigue mucha profundidad táctica. El sistema de turnos le da bastante emoción a la cosa, y de momento parece todo bastante equilibrado. Me recuerda mi parte favorita del UFO: Enemy Unknown[3], los tensos tiroteos, sin los (para mi) tediosos interludios de gestión de recursos.
 
 Si buscáis un juego táctico sin complicaciones pero con dosis de emoción, creo que Frozen Synapse es una excelente opción... y es tan barato que casi no entraña riesgo.
-
 
 => http://www.humblebundle.com/ 1: http://www.humblebundle.com/
 => http://www.frozensynapse.com/ 2: http://www.frozensynapse.com/
