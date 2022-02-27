@@ -3,7 +3,7 @@
 
 Scott Hanselman no es sólo el autor del imprescindible Dark Matter Developers[1], sino que además comparte conmigo dificultades en finalizar conversaciones. Lo que no comparto con él es su genio para encontrar una deliciosa solución:
 
-https://twitter.com/shanselman/status/1357036562077241344[2]
+https://farside.link/nitter/shanselman/status/1357036562077241344[2]
 
 Hace décadas era superfán del crítico de cine en televisión de El País, Luis Martínez (hasta el punto de recortar y coleccionar sus críticas, algo de lo que sólo se acuerda ahora el Internet Archive[3]). Qué sorpresa cuando la aplicación de noticias de Microsoft me llevó a una entrevista de este señor con el inigualable John Carpenter[4] (link tipo AMP de Microsoft, pues el original en El Mundo está enmurallapagado[5]). Lamentablemente, para retomar el contacto y seguirle, tendré que usar Twitter.
 
@@ -15,7 +15,7 @@ Como traca final: NNCP, otro protocolo de internet para descentralizar comunicac
 
 
 => https://www.hanselman.com/blog/dark-matter-developers-the-unseen-99 1: https://www.hanselman.com/blog/dark-matter-developers-the-unseen-99
-=> https://twitter.com/shanselman/status/1357036562077241344 2: https://twitter.com/shanselman/status/1357036562077241344
+=> https://farside.link/nitter/shanselman/status/1357036562077241344 2: https://farside.link/nitter/shanselman/status/1357036562077241344
 => http://web.archive.org/web/20050225041521/http://campus.uab.es/~2075931/otras/quid.html 3: http://web.archive.org/web/20050225041521/http://campus.uab.es/~2075931/otras/quid.html
 => https://www.msn.com/es-es/noticias/movies/john-carpenter-el-asalto-al-capitolio-demuestra-que-los-monstruos-viven-entre-nosotros/ar-BB1dgsIH 4: https://www.msn.com/es-es/noticias/movies/john-carpenter-el-asalto-al-capitolio-demuestra-que-los-monstruos-viven-entre-nosotros/ar-BB1dgsIH
 => https://www.elmundo.es/cultura/cine/2021/02/01/60166e3efdddff15bd8b456f.html 5: https://www.elmundo.es/cultura/cine/2021/02/01/60166e3efdddff15bd8b456f.html

@@ -28,4 +28,4 @@ Correcciones: @chechar[4]
 => https://eustore.blackberrymobile.com/eu/keyone-blackberry.html 1: https://eustore.blackberrymobile.com/eu/keyone-blackberry.html
 => http://www.mi.com/es/mi-a1/ 2: http://www.mi.com/es/mi-a1/
 => https://www.gsmarena.com/compare.php3?idPhone1=8508&amp;idPhone2=8776 3: https://www.gsmarena.com/compare.php3?idPhone1=8508&amp;idPhone2=8776
-=> https://twitter.com/chechar 4: https://twitter.com/chechar
+=> https://farside.link/nitter/chechar 4: https://farside.link/nitter/chechar

@@ -21,4 +21,4 @@ Al menos ahora mismo no tengo excusa para ponerme a experimentar con pizarras vi
 => https://wyzelabs.zendesk.com/hc/en-us/articles/360041605111-Webcam-Firmware-Instructions 3: https://wyzelabs.zendesk.com/hc/en-us/articles/360041605111-Webcam-Firmware-Instructions
 => https://farside.link/invidious/watch?v=-oaikJCR6ec 4: https://farside.link/invidious/watch?v=-oaikJCR6ec
 => https://www.hanselman.com/blog/DarkMatterDevelopersTheUnseen99.aspx 5: https://www.hanselman.com/blog/DarkMatterDevelopersTheUnseen99.aspx
-=> https://twitter.com/shanselman/status/1357036562077241344 6: https://twitter.com/shanselman/status/1357036562077241344
+=> https://farside.link/nitter/shanselman/status/1357036562077241344 6: https://farside.link/nitter/shanselman/status/1357036562077241344
