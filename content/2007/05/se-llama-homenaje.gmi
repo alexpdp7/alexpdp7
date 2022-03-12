@@ -3,5 +3,5 @@
 
 Me pasan un anuncio [1] que podría ser la continuación, fusilada o parodia de lo mencionado en este post anterior [2].
 
-=> http://www.youtube.com/watch?v=E3B__ovj2jU [1] un anuncio
+=> https://farside.link/invidious/watch?v=E3B__ovj2jU [1] un anuncio
 => http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=623 [2] este post anterior

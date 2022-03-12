@@ -20,8 +20,8 @@ Más encuestas [1] imposibles en la IMDb [2]. La de hoy [3] reza: Which of these
 * Logan/Wolverine – The X-Men Movies. ¡Snikt!
 * Eric Lensherr/Magneto – The X-Men Movies. Bueno, a excepción de la posible discusión sobre su heroicidad, antiheroicidad y... err... villanidad, tampoco estaría nada mal
 
-=> http://uk.imdb.com/poll/ [1] encuestas
+=> https://www.imdb.com/poll/ [1] encuestas
 => http://imdb.com [2] IMDb
-=> http://uk.imdb.com/poll/results/2007-03-14 [3] La de hoy
+=> https://www.imdb.com/poll/results/2007-03-14 [3] La de hoy
 => http://en.wikipedia.org/wiki/Got_Milk%3F [4] Got Milk?
 => http://www.imdb.com/title/tt0089767/ [5] El Jinete Pálido

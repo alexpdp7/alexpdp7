@@ -12,5 +12,5 @@ Podéis videar su monólogo inicial [8] y un delirante rapeo [9] con una agresiv
 => http://www.imdb.com/title/tt0115639/ [5] Beatiful Girls
 => http://www.imdb.com/name/nm0000204/ [6] Portman
 => http://www.nbc.com/Saturday_Night_Live/ [7] Saturday Night Live
-=> http://youtube.com/watch?v=UhFln_ZAaN4 [8] monólogo inicial
-=> http://youtube.com/watch?v=EakiHXnw6os [9] delirante rapeo
+=> https://farside.link/invidious/watch?v=UhFln_ZAaN4 [8] monólogo inicial
+=> https://farside.link/invidious/watch?v=EakiHXnw6os [9] delirante rapeo
