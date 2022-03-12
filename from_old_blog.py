@@ -35,6 +35,8 @@ for post in posts:
     post["post"] = post["post"].encode("iso-8859-1").decode("utf8")
     post["title"] = post["title"].encode("iso-8859-1").decode("utf8")
 
+    post["post"] = post["post"].replace("\\r\\n", "")
+
     t = post["title"]
 
     y,m,d = post["posted"].split(" ")[0].split("-")
