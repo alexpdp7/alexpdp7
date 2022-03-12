@@ -1,13 +1,13 @@
 # This is Halloween
 2008-10-31
 
-> 
-> 
-> 
+>
+>
+>
 > He recited the entire manual page for the UNIX sed command and then
 > slumped to the floor, completely exhausted by the ordeal
-> 
-> 
+>
+>
 
 ... eso es una posesión infernal y el resto son puñetas. Más, aquí [1].
 

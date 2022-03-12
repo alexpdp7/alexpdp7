@@ -1,6 +1,16 @@
 # I never said I was a role model
 2006-03-05
 
-Pese a que no ha hecho nada de provecho (desde un punto de vistainterpretativo que no monetario) desde Léon y Beatiful Girls, la Portman lució sus talentospresentando una reciente edición del Saturday Night Live.
+Pese a que no ha hecho nada [1] de [2] provecho [3] (desde un punto de vista interpretativo que no monetario) desde Léon [4] y Beatiful Girls [5], la Portman [6] lució sus talentos presentando una reciente edición del Saturday Night Live [7].
 
-Podéis videar su monólogo inicial y un delirante rapeo con unaagresividad que ya querría el M&M ese.
+Podéis videar su monólogo inicial [8] y un delirante rapeo [9] con una agresividad que ya querría el M&M ese.
+
+=> http://www.imdb.com/title/tt0120915/ [1] nada
+=> http://www.imdb.com/title/tt0121765/ [2] de
+=> http://www.imdb.com/title/tt0121766/ [3] provecho
+=> http://www.imdb.com/title/tt0110413/ [4] Léon
+=> http://www.imdb.com/title/tt0115639/ [5] Beatiful Girls
+=> http://www.imdb.com/name/nm0000204/ [6] Portman
+=> http://www.nbc.com/Saturday_Night_Live/ [7] Saturday Night Live
+=> http://youtube.com/watch?v=UhFln_ZAaN4 [8] monólogo inicial
+=> http://youtube.com/watch?v=EakiHXnw6os [9] delirante rapeo

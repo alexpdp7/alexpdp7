@@ -1,24 +1,44 @@
 # Sustancias digitales adictivas
 2006-09-07
 
-Uno de los abismos más insondables de la inmundicia informática son los juegos Roguelike [1],descendientes del histórico Rogue- juegos cuyosgráficos son simples caracteres y donde el jugador encarna a un personaje(tradicionalmente representado por una arroba) que merodea por su entorno combatiendocontra bichos y llevando a cabo misiones, típicamente en una ambientaciónmedieval fantástica.
+Uno de los abismos más insondables de la inmundicia informática son los juegos Roguelike [1], descendientes del histórico Rogue [2] - juegos cuyos gráficos son simples caracteres y donde el jugador encarna a un personaje (tradicionalmente representado por una arroba) que merodea por su entorno combatiendo contra bichos y llevando a cabo misiones, típicamente en una ambientación medieval fantástica.
 
-Hay miles de ellos y suelen ser peligrosamente adictivos (servidor mismoha estado adicto al ADOM [2] en variasocasiones), en parte por una habitual dificultad extrema (es tradicionalque no sea posible [sin mediar trampas] volver a una partida grabada; grabarla partida sale del juego), la profundidad del juego (uno de los másfamosos, Nethack [3] es conocido porqué... the DevTeam thinks of everything : tiene infinidad de detallitos comoque si un paladín bueno hunde su espada en el agua, puede aparecer la Damadel Lago y convertirla en Excalibur) o simplementeque es divertido ser perseguido por una horda de des mayúsculas.
+Hay miles de ellos y suelen ser peligrosamente adictivos (servidor mismo ha estado adicto al ADOM [3] en varias ocasiones), en parte por una habitual dificultad extrema (es tradicional que no sea posible [sin mediar trampas] volver a una partida grabada; grabar la partida sale del juego), la profundidad del juego (uno de los más famosos, Nethack [4] es conocido porqué... the DevTeam thinks of everything : tiene infinidad de detallitos como que si un paladín bueno hunde su espada en el agua, puede aparecer la Dama del Lago y convertirla en Excalibur [5]) o simplemente que es divertido ser perseguido por una horda de des mayúsculas.
 
-Curiosamente, uno de los juegos con fama de más viciante, el Diablo esbásicamente un Roguelike, pero con gráficos no ASCII y en tiempo real.
+Curiosamente, uno de los juegos con fama de más viciante, el Diablo [6] es básicamente un Roguelike, pero con gráficos no ASCII y en tiempo real.
 
 => http://en.wikipedia.org/wiki/Roguelike [1] Roguelike
-=> http://www.adom.de/ [2] ADOM
-=> http://www.nethack.org/ [3] Nethack
+=> http://www.wichman.org/roguehistory.html [2] Rogue
+=> http://www.adom.de/ [3] ADOM
+=> http://www.nethack.org/ [4] Nethack
+=> http://en.wikipedia.org/wiki/Excalibur [5] Excalibur
+=> http://en.wikipedia.org/wiki/Diablo_%28computer_game%29 [6] Diablo
 
-Pero divagamos. Al parecer, Dwarf Fortress es toda una evoluciónen el género. A parte de Roguelike, también tiene un modo en el que tienesque montar una fortaleza enana comenzando con siete enanitos. Pero destaca,como debe ser, por su atención al detalle- particularmente por suscombates:
+Pero divagamos. Al parecer, Dwarf Fortress [7] es toda una evolución en el género. A parte de Roguelike, también tiene un modo en el que tienes que montar una fortaleza enana comenzando con siete enanitos. Pero destaca, como debe ser, por su atención al detalle- particularmente por sus combates:
 
-My dwarven spearman came upon some hills that were named something likeThe Joyous Hills of Knighting. I took a little nap there, since the namesounded innocent enough. When I woke up, I was bleeding profusely and bothof my arms were crippled, causing me to drop my spear and my shield. Theculprit was a little groundhog who was trying his damndest to kill me in mysleep. Reviewing the combat log later would reveal that he had passed outfrom over-exertion five or six times trying to nibble me to death. Soanyway, what does a prone dwarf with crippled arms do when confronted with asmall rodent hell-bent on trying to kill him?
+=> http://www.bay12games.com/dwarves/ [7] Dwarf Fortress
 
-You bite The groundhog in the head!
-It is torn!
-You latch on firmly to The groundhog's throat!
-You shake The groundhog around by the throat!
-The groundhog's throat has been torn out!
-You break the grip of The groundhog's left rear leg on Your right hand.
-The groundhog has bled to death.
+>
+>
+>
+> My dwarven spearman came upon some hills that were named something like
+> The Joyous Hills of Knighting. I took a little nap there, since the name
+> sounded innocent enough. When I woke up, I was bleeding profusely and both
+> of my arms were crippled, causing me to drop my spear and my shield. The
+> culprit was a little groundhog who was trying his damndest to kill me in
+> my sleep. Reviewing the combat log later would reveal that he had passed
+> out from over-exertion five or six times trying to nibble me to death. So
+> anyway, what does a prone dwarf with crippled arms do when confronted with
+> a small rodent hell-bent on trying to kill him?
+>
+>
+>
+> You bite The groundhog in the head!
+> It is torn!
+> You latch on firmly to The groundhog's throat!
+> You shake The groundhog around by the throat!
+> The groundhog's throat has been torn out!
+> You break the grip of The groundhog's left rear leg on Your right hand.
+> The groundhog has bled to death.
+>
+>

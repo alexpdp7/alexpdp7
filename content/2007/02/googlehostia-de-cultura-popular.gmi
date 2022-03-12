@@ -1,8 +1,11 @@
 # Googlehostia de cultura popular
 2007-02-27
 
-Bueno, no se ahostia del todo, pero estabúsqueda sólo devuelve 6 resultados.
+Bueno, no se ahostia del todo, pero esta búsqueda [1] sólo devuelve 6 resultados.
 
 C'mon...
 
-Bueller?...Bueller?... Bueller?
+Bueller?... Bueller?... Bueller? [2]
+
+=> http://www.google.com/search?q=%22soy%20un%20cowboy%20solitario%22 [1] esta búsqueda
+=> http://en.wikiquote.org/wiki/Ferris_Bueller%27s_Day_Off#Dialogue [2] Bueller?... Bueller?... Bueller?

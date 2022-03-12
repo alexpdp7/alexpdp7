@@ -1,9 +1,12 @@
 # Wiki*
 2006-07-23
 
-A la larga familia iniciada por la Wikipedia, seguida por el Wiktionary [1], el Wikiquote, los Wikibooks y alguno más, parece unirseahora Wikibios [2] (no afiliada a losanteriores).
+A la larga familia iniciada por la Wikipedia [1], seguida por el Wiktionary [2], el Wikiquote [3], los Wikibooks [4] y alguno más, parece unirse ahora Wikibios [5] (no afiliada a los anteriores).
 
-La diferencia es que aquí no todo el mundo puede editar todo. Cada serhumano designa a las personas a las que permite escribir su biografía.Parece un experimento curioso.
+La diferencia es que aquí no todo el mundo puede editar todo. Cada ser humano designa a las personas a las que permite escribir su biografía. Parece un experimento curioso.
 
-=> http://en.wiktionary.org [1] Wiktionary
-=> http://www.wikibios.com/ [2] Wikibios
+=> http://en.wikipedia.org [1] Wikipedia
+=> http://en.wiktionary.org [2] Wiktionary
+=> http://en.wikiquote.org [3] Wikiquote
+=> http://en.wikibooks.org [4] Wikibooks
+=> http://www.wikibios.com/ [5] Wikibios

@@ -1,4 +1,6 @@
 # El pequeño A* con sentido del humor
 2007-03-30
 
-Fijénse en eltrayecto NY, NY a Paggí, Fgans que nos ofrece Google. Particularmente,el paso 23.
+Fijénse en el trayecto NY, NY a Paggí, Fgans [1] que nos ofrece Google. Particularmente, el paso 23.
+
+=> http://maps.google.com/maps?f=d&hl=en&saddr=new+york,+ny&daddr=paris+france [1] el trayecto NY, NY a Paggí, Fgans

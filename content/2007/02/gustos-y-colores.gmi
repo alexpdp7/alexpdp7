@@ -1,10 +1,13 @@
 # Gustos y colores
 2007-02-25
 
-¿Hay algo peor que hacerse un programa que descarga lacartelera de LaNetro, saca una ventanita:
+¿Hay algo peor que hacerse un programa que descarga la cartelera de LaNetro [1], saca una ventanita:
 
 [‡ Programa para seleccionar pelis]
 
-donde te pide que pelis quieres ver y cuáles no y te genera una lista en HTML?
+donde te pide que pelis quieres ver y cuáles no y te genera una lista en HTML [2]?
 
 Posiblemente, que mi intención es actualizarlo semana a semana.
+
+=> http://barcelona.lanetro.com/canales/estrenos.cfm?tipo=3&idresumen=&csubtipo=T&crango=s&Estrenos=No&ctipo=10 [1] la cartelera de LaNetro
+=> http://eucaliptus.ath.cx/~alex/pelis.html [2] una lista en HTML

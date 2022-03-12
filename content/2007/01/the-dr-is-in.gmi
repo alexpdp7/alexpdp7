@@ -1,9 +1,10 @@
 # The Dr. is in
 2007-01-30
 
-El Dr. Dobb's [1] es una de las revistascon solera del mundillo informático. Lleva ahí más que la mayoríade nosotros (nació tres años despues antes que un servidor) y seguramente nossobrevivirá. Es sobre desarrollo de software profesional bastante hardcore yde nivel- en ella encuentro muchas cosas que no entiendo, algo quenormalmente sólo me pasa en LambdaThe Ultimate [2].
+El Dr. Dobb's [1] es una de las revistas con solera del mundillo informático. Lleva ahí más que la mayoría de nosotros (nació tres años despues antes que un servidor) y seguramente nos sobrevivirá. Es sobre desarrollo de software profesional bastante hardcore y de nivel- en ella encuentro muchas cosas que no entiendo, algo que normalmente sólo me pasa en Lambda The Ultimate [2].
 
-Para muestra, lareseña de un móvil en la que hablan más del proceso de fabricación y eldiseño de su hardware (diría) que de si tienepantalla en color o no...
+Para muestra, la reseña de un móvil [3] en la que hablan más del proceso de fabricación y el diseño de su hardware (diría) que de si tiene pantalla en color o no...
 
 => http://www.ddj.com/ [1] Dr. Dobb's
-=> http://lambda-the-ultimate.org/ [2] LambdaThe Ultimate
+=> http://lambda-the-ultimate.org/ [2] Lambda The Ultimate
+=> http://www.pheedo.com/click.phdo?i=2d136f56f913a1243083a1e2260a5c67 [3] la reseña de un móvil

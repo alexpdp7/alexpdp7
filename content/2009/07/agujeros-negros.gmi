@@ -2,7 +2,7 @@
 2009-07-14
 
 ```
-case:~# fdisk /dev/sdbThe number of cylinders for this disk is set to 267349.There is nothing wrong with that, but this is larger than 1024,and could in certain setups cause problems with:1) software that runs at boot time (e.g., old versions of LILO)2) booting and partitioning software from other OSs   (e.g., DOS FDISK, OS/2 FDISK)Command (m for help): pDisk /dev/sdb: 2199.0 GB, 2199023255552 bytes255 heads, 63 sectors/track, 267349 cylindersUnits = cylinders of 16065 * 512 = 8225280 bytesDisk identifier: 0x00000000   Device Boot      Start         End      Blocks   Id  System/dev/sdb1               1      121601   976760001   83  Linux
+case:~# fdisk /dev/sdb  The number of cylinders for this disk is set to 267349. There is nothing wrong with that, but this is larger than 1024, and could in certain setups cause problems with: 1) software that runs at boot time (e.g., old versions of LILO) 2) booting and partitioning software from other OSs    (e.g., DOS FDISK, OS/2 FDISK)  Command (m for help): p  Disk /dev/sdb: 2199.0 GB, 2199023255552 bytes 255 heads, 63 sectors/track, 267349 cylinders Units = cylinders of 16065 * 512 = 8225280 bytes Disk identifier: 0x00000000     Device Boot      Start         End      Blocks   Id  System /dev/sdb1               1      121601   976760001   83  Linux
 ```
 
 Para los profanos, un disco duro externo que tengo proclama que tiene 2,2Tb de capacidad. El modelo más grande que he visto a la venta es de 1,5Tb.

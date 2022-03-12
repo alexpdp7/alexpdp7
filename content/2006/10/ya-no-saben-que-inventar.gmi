@@ -4,12 +4,16 @@
 (parafraseando una conversación que tuve ayer)
 
 Compañero de curro: ¿Qué escuchas?
-Servidor: Um. Kula Shaker [1].Es pop con influencias hindúes. Um. Normalmente no escucho música tanculta...
+Servidor: Um. Kula Shaker [1]. Es pop con influencias hindúes. Um. Normalmente no escucho música tan culta...
 Compañero: Ya...
 
-Quizás por esa conversación, quizás por confraternizar con el genio que dijo [2] : Busco la fusión porque la música ya está inventada, quizás por lanecesidad de cambio, me he agenciado un Nokia6234. Afortunadamente, su ediciónespecialidad no es más queun cambio de diseño respecto al modelo 6233 (mal) y una reducción sensiblede precio (bien).
+Quizás por esa conversación, quizás por confraternizar con el genio que dijo [2] : Busco la fusión porque la música ya está inventada, quizás por la necesidad de cambio, me he agenciado un Nokia 6234 [3]. Afortunadamente, su ediciónespecialidad no es más que un cambio de diseño respecto al modelo 6233 (mal) y una reducción sensible de precio (bien).
 
 => http://en.wikipedia.org/wiki/Kula_Shaker [1] Kula Shaker
 => http://www.diarioadn.com/cultura/detail.php?id=14318 [2] dijo
+=> http://tienda.vodafone.es/do/catalogo/moviles/ficha?s=todos&p=402882720d17d31c010d64c03683003a [3] Nokia 6234
 
-Quizás en unos días haga una reseña más completa (tarjeta de dos gigas enmano), pero de momento, bonita pantalla, bonita reproducción de video,aspecto medianamente aceptable, ligeros problemas (no sincroniza por IrMCcomo los Sony Ericsson, con lo cual no puedo usar mi sincronización deagenda habitual y su sistema de USB no debe ser muy educado, porque cuandolo desconecto, el subsistema de USB Storage de Linux se va a tomar viento),bonita cámara y bueno, ya veremos como sale el hermano de R2-D2 (a).
+Quizás en unos días haga una reseña más completa (tarjeta de dos gigas en mano), pero de momento, bonita pantalla, bonita reproducción de video, aspecto medianamente aceptable, ligeros problemas (no sincroniza por IrMC [4] como los Sony Ericsson, con lo cual no puedo usar mi sincronización de agenda habitual y su sistema de USB no debe ser muy educado, porque cuando lo desconecto, el subsistema de USB Storage de Linux se va a tomar viento), bonita cámara y bueno, ya veremos como sale el hermano de R2-D2 (a) [5].
+
+=> http://en.wikipedia.org/wiki/Bluetooth_profile#Synchronisation_Profile_.28SYNCH.29 [4] IrMC
+=> http://youtube.com/watch?v=x2GAsrYBAjY [5] R2-D2 (a)

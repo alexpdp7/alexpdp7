@@ -1,4 +1,6 @@
 # Me hagan un plano...
 2007-10-30
 
-¿Han probado alguna vez a localizar cosas de Japón en Google Maps? Harto práctico para los bárbaros.
+¿Han probado alguna vez a localizar cosas de Japón en Google Maps [1]? Harto práctico para los bárbaros.
+
+=> http://maps.google.com/?ie=UTF8&ll=35.56798,137.768555&spn=13.833567,21.005859&z=6&om=1 [1] cosas  de Japón en Google Maps

@@ -1,14 +1,17 @@
 # Por petición (no muy) popular
 2006-05-18
 
-Los avezados en los temas de ceros y unos (una costumbre informática quesurge por las 2,0 neuronas en el cerebro del informático medio), sabrá quecuando un informático dice mega no piensa en mil, sino en el mágico número1024- mismamente con los gigas y los petas y demás cosas fumables- siempre ycuando no se intente vender algo; ahí entra la contabilidad creativa y megaquerrá decir 1024 o 1000 según más convenga.
+Los avezados en los temas de ceros y unos (una costumbre informática que surge por las 2,0 neuronas en el cerebro del informático medio), sabrá que cuando un informático dice mega no piensa en mil, sino en el mágico número 1024- mismamente con los gigas y los petas y demás cosas fumables- siempre y cuando no se intente vender algo; ahí entra la contabilidad creativa y mega querrá decir 1024 o 1000 según más convenga.
 
-Esta aproximación es harto práctica, pero por supuesto nosotros losexpertos en ceros y unos somos cuadrados y no nos gustan esto de lasambigüedades. Por tanto, uno de esos grupos de señores con demasiado tiempolibre que se dedican a hacer que cada día haya más estándares, el IEC unos suizos que casualmente se asocianbastante con los señores ISO [1], decidieronque basta de mangoneo y que 2 10 no es mil, ni siquieraaproximadamente.
+Esta aproximación es harto práctica, pero por supuesto nosotros los expertos en ceros y unos somos cuadrados y no nos gustan esto de las ambigüedades. Por tanto, uno de esos grupos de señores con demasiado tiempo libre que se dedican a hacer que cada día haya más estándares, el IEC [1] unos suizos que casualmente se asocian bastante con los señores ISO [2], decidieron que basta de mangoneo y que 2 10 no es mil, ni siquiera aproximadamente.
 
-Por tanto, según estos señores debemos decir kibi, mebi, gibi, tebi,pebi, ex, zebi y yobi en vez de los habituales kilo, mega, giga, tera, peta,exa, zeta y yota. A parte de la clara fuente de inspiración (los nombres delos compañeros enanos del bueno de Bilbo en El Hóbbit), está claroque se trata de un intento de ridiculizar (más) a los expertos en ceros yunos haciéndoles pronunciar unas palabrejas teletubbiescas en su afán de serprecisos y rigurosos. Un ultraje, vaya.
+Por tanto, según estos señores debemos decir kibi, mebi, gibi, tebi, pebi, ex, zebi y yobi en vez de los habituales kilo, mega, giga, tera, peta, exa, zeta y yota. A parte de la clara fuente de inspiración (los nombres de los compañeros enanos del bueno de Bilbo [3] en El Hóbbit [4]), está claro que se trata de un intento de ridiculizar (más) a los expertos en ceros y unos haciéndoles pronunciar unas palabrejas teletubbiescas en su afán de ser precisos y rigurosos. Un ultraje, vaya.
 
-=> http://www.iso.org/ [1] ISO
+=> http://www.iec.ch/ [1] IEC
+=> http://www.iso.org/ [2] ISO
+=> http://www.glyphweb.com/ARDA/b/bilbobaggins.html [3] Bilbo
+=> http://en.wikipedia.org/wiki/The_Hobbit [4] El Hóbbit
 
-Yo, en un intento de mediar la paz entre el mundo binario y el decimal,propongo que usemos para todo lo binario y santas pascuas. Después de todo,mola mucho más decir que hay medio gigametro conduciendo desde Luxemburgo aLe Havre, ¿no?
+Yo, en un intento de mediar la paz entre el mundo binario y el decimal, propongo que usemos para todo lo binario y santas pascuas. Después de todo, mola mucho más decir que hay medio gigametro conduciendo desde Luxemburgo a Le Havre, ¿no?
 
-(En fin, hoy no discutiré esa bonita costumbre que tienen las compañías quevenden transmisiones en medir los anchos de banda en bits cuando todo elmundo mira los tamaños de los ficheros que hay que pasar por el canutillo enbytes...)
+(En fin, hoy no discutiré esa bonita costumbre que tienen las compañías que venden transmisiones en medir los anchos de banda en bits cuando todo el mundo mira los tamaños de los ficheros que hay que pasar por el canutillo en bytes...)

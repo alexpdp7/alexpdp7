@@ -35,7 +35,7 @@ for post in posts:
     post["post"] = post["post"].encode("iso-8859-1").decode("utf8")
     post["title"] = post["title"].encode("iso-8859-1").decode("utf8")
 
-    post["post"] = post["post"].replace("\\r\\n", "")
+    post["post"] = post["post"].replace("\\r\\n", " ")
 
     t = post["title"]
 
@@ -47,4 +47,6 @@ for post in posts:
     with open(p, "w") as f:
         f.write(f"# {t}\n")
         f.write(f"{y}-{m}-{d}\n\n")
-        f.write(subprocess.run(["/home/alex/go/bin/html2gmi", "-mn"], input=post["post"].encode("utf8"), stdout=subprocess.PIPE).stdout.decode("utf8"))
+        gmi = subprocess.run(["/home/alex/go/bin/html2gmi", "-mn"], input=post["post"].encode("utf8"), stdout=subprocess.PIPE).stdout.decode("utf8")
+        gmi = "\n".join(map(str.rstrip, gmi.splitlines()))
+        f.write(gmi)

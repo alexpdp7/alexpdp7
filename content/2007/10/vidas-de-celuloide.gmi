@@ -4,5 +4,5 @@
 La IMDb [1] nos regala otra feature. Fichas de personaje [2] al más puro estilo rolero. Por supuesto, su mayor utilidad es recoger la verbigracia de Harry [3].
 
 => http://www.imdb.com [1] IMDb
-=> https://www.imdb.com/swiki/special?CharacterHelp [2] Fichas de personaje
-=> https://www.imdb.com/character/ch0007342/quotes [3] recoger la verbigracia de Harry
+=> http://uk.imdb.com/swiki/special?CharacterHelp [2] Fichas de personaje
+=> http://uk.imdb.com/character/ch0007342/quotes [3] recoger la verbigracia de Harry

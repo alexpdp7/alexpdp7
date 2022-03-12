@@ -1,7 +1,8 @@
 # Introducing...
 2006-02-02
 
-Un blog con lamayor soltura lingüística que he visto nunca [1], un aparato que todo el mundo conocíaantes que yo y una hilarante demo derealidad virtual no en Python, sino con Python [2]. Todo esto y nada más en la edición de hoy de mi blog...
+Un blog con la mayor soltura lingüística que he visto nunca [1], un aparato que todo el mundo conocía antes que yo [2] y una hilarante demo de realidad virtual no en Python, sino con Python [3]. Todo esto y nada más en la edición de hoy de mi blog...
 
-=> http://rrrrrrrrrrrrrnnnnnnnnnnhhhh.blogspot.com/ [1] Un blog con lamayor soltura lingüística que he visto nunca
-=> http://blog.jasonnussbaum.com/?p=152 [2] una hilarante demo derealidad virtual no en Python, sino con Python
+=> http://rrrrrrrrrrrrrnnnnnnnnnnhhhh.blogspot.com/ [1] Un blog con la mayor soltura lingüística que he visto nunca
+=> http://www.grid7.org/?p=265 [2] un aparato que todo el mundo conocía antes que yo
+=> http://blog.jasonnussbaum.com/?p=152 [3] una hilarante demo de realidad virtual no en Python, sino con Python

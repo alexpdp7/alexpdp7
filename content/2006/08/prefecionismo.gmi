@@ -1,9 +1,10 @@
 # Prefecionismo
 2006-08-25
 
-Generalmente no hablo de cosas informáticas aburridas, pero mis integristaspreferidos los tíos de Debian [1] hicieron un concursillo hacepoco sobre los bugs de Debian [2] (Debian es una distribución de software libre que integra decenas de miles de programasde diferentes orígenes- hacen un seguimiento de los problemas que dan paraarreglarlos localmente o comunicárselos a sus autores).
+Generalmente no hablo de cosas informáticas aburridas, pero mis integristas preferidos los tíos de Debian [1] hicieron un concursillo hace poco sobre los bugs de Debian [2] (Debian es una distribución de software libre que integra decenas de miles de programas de diferentes orígenes- hacen un seguimiento de los problemas que dan para arreglarlos localmente o comunicárselos a sus autores).
 
-Yo hubiera votado por el tercerclasificado. Quejarse de que un salvapantallas de Pacman no sigue lasreglas de juego describe perfectamente el perfeccionismo de losdebianitas.
+Yo hubiera votado por el tercer clasificado [3]. Quejarse de que un salvapantallas de Pacman no sigue las reglas de juego describe perfectamente el perfeccionismo de los debianitas.
 
 => http://www.debian.org/ [1] Debian
 => http://www.debian.org/Bugs/ [2] bugs de Debian
+=> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=236874 [3] el tercer clasificado

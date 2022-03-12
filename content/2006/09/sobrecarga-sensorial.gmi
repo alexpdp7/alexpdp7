@@ -1,9 +1,11 @@
 # Sobrecarga sensorial
 2006-09-30
 
-Parece que el remodeladodel Google Reader [1], el lector de RSS [2] deGoogle, lo ha puesto al nivel de mi preferido Bloglines- o incluso por encima.
+Parece que el remodelado [1] del Google Reader [2], el lector de RSS [3] de Google, lo ha puesto al nivel de mi preferido Bloglines [4] - o incluso por encima.
 
 Probémoslo un tiempo, a ver que tal...
 
-=> http://www.google.com/reader/ [1] Google Reader
-=> http://en.wikipedia.org/wiki/RSS_%28file_format%29 [2] RSS
+=> http://googlereader.blogspot.com/2006/09/something-looks-different.html [1] remodelado
+=> http://www.google.com/reader/ [2] Google Reader
+=> http://en.wikipedia.org/wiki/RSS_%28file_format%29 [3] RSS
+=> http://bloglines.com/ [4] Bloglines

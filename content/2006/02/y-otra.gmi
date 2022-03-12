@@ -1,4 +1,6 @@
 # y otra...
 2006-02-28
 
-Latelevisión pública de este estado está cambiando.
+La televisión pública de este estado está cambiando [1].
+
+=> http://www.laguiatv.com/programa.php?fecha=01/03/2006&hora=00:15&cadena=TVE%2B1&id=143518&tipo=0&titulo=Gala%2Bde%2Belecci%257Bocute%257Dn%2BDrag%2BQueen%2Bdel%2BCarnaval%2Bde%2Blas%2BPalmas%2Bde%2BGran%2BCanaria&mi_ventana=window.name&fecha_sig=01/03/2006&hora_sig=02:00&idpelicula= [1] La televisión pública de este estado está cambiando

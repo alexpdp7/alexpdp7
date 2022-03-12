@@ -1,10 +1,14 @@
 # 228252
 2006-04-19
 
-Algo que intento hacer habitualmente es dirigirme a mis interlocutores enel idioma que prefieran- algo no siempre posible y no siempre conveniente.A los obstáculos innatos de mi obtusez mental se ha añadido en tiemposrecientes este invento del diablo que son los móviles.
+Algo que intento hacer habitualmente es dirigirme a mis interlocutores en el idioma que prefieran- algo no siempre posible y no siempre conveniente. A los obstáculos innatos de mi obtusez mental se ha añadido en tiempos recientes este invento del diablo que son los móviles.
 
-Pues los convenientes mensajitos cortos (que servidor suele preferir alring-ring-atiéndeme-ahora) no lo son tanto cuando se tienen que introducirmediante un teclado sin letras y lo que debería ser un "vale, nos vemosluego" se convierte en un clic-clic-clic-espera-clic-clic continuo. Porsuerte, esto se alivia brutalmente mediante ese gran invento que es el T9 que, a parte de reducir el clic-clicbastante, te obliga a utilizar el lenguaje como es debido y no someterlo acortes y vilipendios.
+Pues los convenientes mensajitos cortos (que servidor suele preferir al ring-ring-atiéndeme-ahora) no lo son tanto cuando se tienen que introducir mediante un teclado sin letras y lo que debería ser un "vale, nos vemos luego" se convierte en un clic-clic-clic-espera-clic-clic continuo. Por suerte, esto se alivia brutalmente mediante ese gran invento que es el T9 [1] que, a parte de reducir el clic-clic bastante, te obliga a utilizar el lenguaje como es debido y no someterlo a cortes y vilipendios.
 
-Pero no todo es maravilloso. Este invento requiere para su funcionamientoun diccionario con las palabras del idioma empleado. Por caprichos deldestino, una importante parte de mis interlocutores prefieren emplear elcatalán, una lengua que no debe estar precisamente arriba en los estudios demárketing globales- con lo cual no suele estar disponible en los móvilespara el T9 y con lo cual, escribir mensajitos en catalán es una odiseacomparado a escribirlos en inglés o castellano.
+Pero no todo es maravilloso. Este invento requiere para su funcionamiento un diccionario con las palabras del idioma empleado. Por caprichos del destino, una importante parte de mis interlocutores prefieren emplear el catalán, una lengua que no debe estar precisamente arriba en los estudios de márketing globales- con lo cual no suele estar disponible en los móviles para el T9 y con lo cual, escribir mensajitos en catalán es una odisea comparado a escribirlos en inglés o castellano.
 
-En fin, a todo esto, me he encontrado estemensaje en uno de los blogs que leo que detalla un poquito la situaciónactual al respecto. Práctico.
+=> http://www.t9.com/ [1] T9
+
+En fin, a todo esto, me he encontrado este mensaje [2] en uno de los blogs que leo que detalla un poquito la situación actual al respecto. Práctico.
+
+=> http://oskuro.net/blog/stuff/catalan-siemens-ap75-2006-04-19-14-29 [2] este mensaje

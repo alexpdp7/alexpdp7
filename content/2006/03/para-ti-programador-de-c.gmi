@@ -3,14 +3,22 @@
 
 Porque habréis tenido uno de esos días...
 
-Uno de esos días en los que un apuntador se va de madre y una insospechadaoperación causa el caos y la destrucción veintisiete llamadas de función mástarde. Uno de esos días en los que el maldito heisenbug hace honora su nombre y desaparece en cuanto añades medidas para detectarlo. Uno deesos días en los que pierdes la confianza en tu valor como machacadel C...
+Uno de esos días en los que un apuntador se va de madre y una insospechada operación causa el caos y la destrucción veintisiete llamadas de función más tarde. Uno de esos días en los que el maldito heisenbug [1] hace honor a su nombre y desaparece en cuanto añades medidas para detectarlo. Uno de esos días en los que pierdes la confianza en tu valor como machaca del C [2]...
 
-Para esos días, tú, desarrollador, necesitas Valgrind, porque te dice exactamente dóndeestá el problema antes del momento...
+Para esos días, tú, desarrollador, necesitas Valgrind [3], porque te dice exactamente dónde está el problema antes del momento...
+
+=> http://en.wikipedia.org/wiki/Heisenbug [1] heisenbug
+=> http://en.wikipedia.org/wiki/C_programming_language [2] C
+=> http://valgrind.org/ [3] Valgrind
+
+[‡ hombrecillo dejándose la cabeza en el teclado en un arranque de ira]
 
 Porque tú lo vales. Porque sólo nosotros podemos comprenderlo.
 
 disclaimer 1: vale, vale, me he pasado
 
-disclaimer 2: vale, vale, el gif animado es excesivo, pero hoy he tenidouno de esos días que he salvado mediante el uso de Valgrind.
+disclaimer 2: vale, vale, el gif animado es excesivo, pero hoy he tenido uno de esos días que he salvado mediante el uso de Valgrind [4].
 
-disclaimer 3: vale, vale, sé que esto existe desde hace siglos y queestoy descubriendo la sopa de pan.
+=> http://valgrind.org/ [4] Valgrind
+
+disclaimer 3: vale, vale, sé que esto existe desde hace siglos y que estoy descubriendo la sopa de pan.

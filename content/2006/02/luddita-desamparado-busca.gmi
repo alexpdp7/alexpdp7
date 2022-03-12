@@ -1,9 +1,9 @@
 # Luddita desamparado busca...
 2006-02-13
 
-Mi reproductor mp3 [1] ha sufrido unpequeño esguince que me ha hecho pensar en un nuevo reproductor de mp3.
+Mi reproductor mp3 [1] ha sufrido un pequeño esguince que me ha hecho pensar en un nuevo reproductor de mp3.
 
-Desde lueguísimo, un cuco a la par que fino y seguro Nano [2] sería una opción respetable(máxime ahora que han recortado precios), pero no acaba de ser lo que busco, que viene a ser:
+Desde lueguísimo, un cuco a la par que fino y seguro Nano [2] sería una opción respetable (máxime ahora que han recortado precios), pero no acaba de ser lo que busco, que viene a ser:
 
 * Conexión directa y recarga USB (vaya, que no necesite un cable para transferir archivos y que lo pueda cargar enchufándolo al puerto USB)- esto lo tiene mi modelo actual y es harto práctico.
 * Pilas normales recargables. Esto mola porque las baterías se van deteriorando poco a poco; si son pilas recargables puedes tirarlas (al sitio que toca) y comprarte otras. A parte, si te vas a pasar mucho rato sin poder cargar, siempre puedes llevar unas pilas extras.
@@ -15,4 +15,4 @@ Desde lueguísimo, un cuco a la par que fino y seguro Nano [2] sería una opció
 => http://www.apple.com/es/ipodnano/ [2] cuco a la par que fino y seguro Nano
 => http://www.cadenaser.com/programas.html?anchor=serprocar [3] carrusel
 
-No todos estos requisitos son necesidades absolutas. Simplemente es el ideal. Por supuesto un diseño cuco (y pequeñito) también sería deseable,así como un precio ajustado, pues uno es un poco bastante agarrado.
+No todos estos requisitos son necesidades absolutas. Simplemente es el ideal. Por supuesto un diseño cuco (y pequeñito) también sería deseable, así como un precio ajustado, pues uno es un poco bastante agarrado.

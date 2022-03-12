@@ -2,7 +2,7 @@
 2006-01-01
 
 ```
-case:~# dmesgClock: inserting leap second 23:59:60 UTC
+case:~# dmesg Clock: inserting leap second 23:59:60 UTC
 ```
 
 ¡Feliz 2006!

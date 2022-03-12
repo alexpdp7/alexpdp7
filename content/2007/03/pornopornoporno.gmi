@@ -1,6 +1,14 @@
 # pornopornoporno
 2007-03-18
 
-Ya deberían ustedes sospecharde mi afición a la pornochartografía, ese deporte al que juegan Tufte y 10 más. Siguiendo con eltema, he tropezado con esta fantástica gráfica deejemplo de las virguerías que hacen los de Gapminder (o esta),unos señores a los que Google ha fichado (al menos a una parte) para susdesignios (y no es que se les dé mal el tema, véase Trends).
+Ya deberían ustedes sospechar [1] de mi afición a la pornochartografía, ese deporte al que juegan Tufte [2] y 10 más. Siguiendo con el tema, he tropezado con esta fantástica gráfica de ejemplo [3] de las virguerías que hacen los de Gapminder [4] (o esta [5]), unos señores a los que Google ha fichado (al menos a una parte) para sus designios (y no es que se les dé mal el tema, véase Trends [6]).
 
-Con esto supongo que podremos de gozar de cucas a la par que informativasgráficas en cosas como el Analytics, que de momento estábastante falto de factor wow (y de muchos otros); aunque en nuestrocaso simplemente servirá para ver tres bolitas solitarias de los escasosvisitantes que recibimos.
+Con esto supongo que podremos de gozar de cucas a la par que informativas gráficas en cosas como el Analytics [7], que de momento está bastante falto de factor wow (y de muchos otros); aunque en nuestro caso simplemente servirá para ver tres bolitas solitarias de los escasos visitantes que recibimos.
+
+=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=623 [1] sospechar
+=> http://www.edwardtufte.com/ [2] Tufte
+=> http://tools.google.com/gapminder/ [3] esta fantástica gráfica de ejemplo
+=> http://www.gapminder.org/ [4] Gapminder
+=> http://www.gapminder.org/downloads/applications/income-distribution-2003.html [5] esta
+=> http://www.google.com/trends [6] Trends
+=> http://www.google.com/analytics/ [7] Analytics

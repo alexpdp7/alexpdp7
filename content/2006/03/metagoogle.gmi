@@ -1,19 +1,21 @@
 # Metagoogle
 2006-03-08
 
-Es bien sabido que Google [1] se basa en los enlaces y el texto de estosa la hora de generar sus resultados. Por tanto, búsquedas como "failure"pueden dar resultados "graciosos" si suficiente gente se pone de acuerdopara enlazar con un determinado texto a una determinada página.
+Es bien sabido que Google [1] se basa en los enlaces y el texto de estos a la hora de generar sus resultados. Por tanto, búsquedas como "failure" [2] pueden dar resultados "graciosos" si suficiente gente se pone de acuerdo para enlazar con un determinado texto a una determinada página.
 
-En fin. Lo que me hace gracia es que (supongo que han sido los googlitas)hay un anuncio contratado para "failure", que reza:
+En fin. Lo que me hace gracia es que (supongo que han sido los googlitas) hay un anuncio contratado para "failure", que reza:
 
 => http://www.google.com [1] Google
+=> http://www.google.com/search?hl=en&lr=&ie=UTF-8&oe=UTF-8&safe=off&q=failure&btnG=Google+Search [2] "failure"
 
-> 
-> 
-> 
+>
+>
+>
 > These results may seem politically slanted. Here's what happened.
-> 
-> 
+>
+>
 
-enlazando a su vez aquí. the DevTeam thinks ofeverything * [2]!
+enlazando a su vez aquí [3]. the DevTeam thinks of everything * [4]!
 
-=> http://en.wikipedia.org/wiki/Nethack [2] *
+=> http://googleblog.blogspot.com/2005/09/googlebombing-failure.html [3] aquí
+=> http://en.wikipedia.org/wiki/Nethack [4] *

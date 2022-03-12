@@ -1,4 +1,6 @@
 # Privacy...
 2008-11-24
 
-... concerns.
+... concerns [1].
+
+=> http://maps.google.com/?ie=UTF8&t=h&layer=c&cbll=41.387223,2.168068&panoid=urOeGqW7dmS_WUaH7xNJIA&cbp=1,165.09306250245197,,2,-1.1843451301265522&ll=41.389544,2.16892&spn=0.01246,0.019312&z=16 [1] concerns

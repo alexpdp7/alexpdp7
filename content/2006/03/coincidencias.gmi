@@ -1,4 +1,6 @@
 # Coincidencias
 2006-03-07
 
-¿A nadie le resulta interesante que mañana TVE programe Asesinato en la Casa Blancadespués del partido del Madrí?
+¿A nadie le resulta interesante que mañana TVE programe Asesinato en la Casa Blanca [1] después del partido del Madrí?
+
+=> http://www.imdb.com/title/tt0119731/ [1] Asesinato en la Casa Blanca

@@ -6,4 +6,4 @@
 La noticia [2].
 
 => http://en.wikipedia.org/wiki/Digital_Rights_Management [1] DRM
-=> https://www.imdb.com/news/sb/2006-04-19/#film1 [2] La noticia
+=> http://uk.imdb.com/news/sb/2006-04-19/#film1 [2] La noticia

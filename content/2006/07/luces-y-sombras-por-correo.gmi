@@ -1,23 +1,29 @@
 # Luces y sombras por correo
 2006-07-19
 
-La ídea de Netflix [1] se nos antojainteresante; nos permiten organizar una cola de pelis y nos las van enviandoa casa para que las veamos. Se paga mensualmente, con diferentes cuotassegún el número de alquileres máximos al mes y DVD's simultáneos que podemosobtener- entre los 6 dólares (2 pelis al mes, sólo 1 a la vez) y los 24 (4dvd's a la vez, tantos como queramos mensualmente) (yo me quedaría con los15 pavos de 2 dvd's simultáneos, pelis mensuales ilimitadas). El serviciosuena harto conveniente.
+La ídea de Netflix [1] se nos antoja interesante; nos permiten organizar una cola de pelis y nos las van enviando a casa para que las veamos. Se paga mensualmente, con diferentes cuotas según el número de alquileres máximos al mes y DVD's simultáneos que podemos obtener- entre los 6 dólares (2 pelis al mes, sólo 1 a la vez) y los 24 (4 dvd's a la vez, tantos como queramos mensualmente) (yo me quedaría con los 15 pavos de 2 dvd's simultáneos, pelis mensuales ilimitadas). El servicio suena harto conveniente.
 
-¿Hay algo similar por estos lares? Un poquito de Google nos descubre mediaxpress y digitae.
+¿Hay algo similar por estos lares? Un poquito de Google nos descubre mediaxpress [2] y digitae [3].
 
-Los precios no parecen tan ajustados; 17,5€ (2 dvd's a la vez, mensualesilimitados) para digitae y 14,95€-17,95€ (2 envios de 2 pelis mensuales y 2de 3, respectivamente) en mediaxpress. El otro factor inmediatamente evaluable es laselección. Veamos una muestra:
+Los precios no parecen tan ajustados; 17,5€ (2 dvd's a la vez, mensuales ilimitados) para digitae y 14,95€-17,95€ (2 envios de 2 pelis mensuales y 2 de 3, respectivamente) en mediaxpress. El otro factor inmediatamente evaluable es la selección. Veamos una muestra:
 
 => http://www.netflix.com/ [1] Netflix
+=> http://www.mxp.tv [2] mediaxpress
+=> http://www.digitae.com/ [3] digitae
 
-Bienvendo MisterMarshall [2], Los caballeroslos prefieren rubias [3], Elclub de la lucha [4], VanillaSky [5], K-Pax [6] y muchasmás, las he podido encontrar en ambas. En pelis un poquillo más raras como Bloody Mallory [7] (serie Bfrancesa, debo tener una de las pocas copias vendidas en España), Cazador blanco, corazónnegro (un Eastwood clásico que podemos encontrar en la FNAC) y Grupo Salvaje (recientementeeditada), gana mediaxpress. Ambas me han sorprendido con Pulp Fiction (hoy en díadescatalogada) y ninguna con Blade Runner(descatalogadísima). Digitae vence en 22 Pfeiffers contra 18, 28 Eastwoodsen Digitae contra 44 de Mediaxpress y en cuanto a Christopher Lees,mediaxpress tiene 18 contra los 11 de Digitae (consta como actor en 257pelis, según la IMDb).
+Bienvendo Mister Marshall [4], Los caballeros los prefieren rubias [5], El club de la lucha [6], Vanilla Sky [7], K-Pax [8] y muchas más, las he podido encontrar en ambas. En pelis un poquillo más raras como Bloody Mallory [9] (serie B francesa, debo tener una de las pocas copias vendidas en España), Cazador blanco, corazón negro [10] (un Eastwood clásico que podemos encontrar en la FNAC) y Grupo Salvaje [11] (recientemente editada), gana mediaxpress. Ambas me han sorprendido con Pulp Fiction [12] (hoy en día descatalogada) y ninguna con Blade Runner [13] (descatalogadísima). Digitae vence en 22 Pfeiffers contra 18, 28 Eastwoods en Digitae contra 44 de Mediaxpress y en cuanto a Christopher Lees, mediaxpress tiene 18 contra los 11 de Digitae (consta como actor en 257 pelis, según la IMDb).
 
-Parece pues que la selección es mejor en Mediaxpress, pero no así susprecios...
+Parece pues que la selección es mejor en Mediaxpress, pero no así sus precios...
 
-Meditaremos en los próximos días ofrecerles una comparativa con fuegoreal.
+Meditaremos en los próximos días ofrecerles una comparativa con fuego real.
 
-=> http://www.imdb.com/title/tt0045554/ [2] Bienvendo MisterMarshall
-=> http://www.imdb.com/title/tt0045810/ [3] Los caballeroslos prefieren rubias
-=> http://www.imdb.com/title/tt0137523/ [4] Elclub de la lucha
-=> http://www.imdb.com/title/tt0259711/ [5] VanillaSky
-=> http://www.imdb.com/title/tt0272152/ [6] K-Pax
-=> http://www.imdb.com/title/tt0299556/ [7] Bloody Mallory
+=> http://www.imdb.com/title/tt0045554/ [4] Bienvendo Mister Marshall
+=> http://www.imdb.com/title/tt0045810/ [5] Los caballeros los prefieren rubias
+=> http://www.imdb.com/title/tt0137523/ [6] El club de la lucha
+=> http://www.imdb.com/title/tt0259711/ [7] Vanilla Sky
+=> http://www.imdb.com/title/tt0272152/ [8] K-Pax
+=> http://www.imdb.com/title/tt0299556/ [9] Bloody Mallory
+=> http://www.imdb.com/title/tt0100928/ [10] Cazador blanco, corazón negro
+=> http://www.imdb.com/title/tt0272152/ [11] Grupo Salvaje
+=> http://www.imdb.com/title/tt0110912/ [12] Pulp Fiction
+=> http://www.imdb.com/title/tt0083658/ [13] Blade Runner

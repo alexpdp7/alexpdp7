@@ -1,9 +1,12 @@
 # Planeta oficina
 2006-07-23
 
-Parece ser que Cuatro [1] emitirá The Office, una serie dela BBC [2] sobre las aventuras y desventurasde una oficina.
+Parece ser que Cuatro [1] emitirá [2] The Office [3], una serie de la BBC [4] sobre las aventuras y desventuras de una oficina.
 
-Uno ha tenido el placer de ver unos cuantos episodios con antelación.Obviamente, hay humor inglés del peligrosamente corrosivo (llega a veceshasta a resultar violento). Destáquese el jefe y también guionista Ricky Gervais, tipejo al que habríaque psicoanalizar; la de barbaridades que se obliga a si mismo a decir estehombre.
+Uno ha tenido el placer de ver unos cuantos episodios con antelación. Obviamente, hay humor inglés del peligrosamente corrosivo (llega a veces hasta a resultar violento). Destáquese el jefe y también guionista Ricky Gervais [5], tipejo al que habría que psicoanalizar; la de barbaridades que se obliga a si mismo a decir este hombre.
 
 => http://www.cuatro.com/ [1] Cuatro
-=> http://www.bbc.co.uk/ [2] BBC
+=> http://www.cuatro.com/programas/series/theoffice/ [2] emitirá
+=> http://www.bbc.co.uk/comedy/theoffice/ [3] The Office
+=> http://www.bbc.co.uk/ [4] BBC
+=> http://www.rickygervais.com/ [5] Ricky Gervais

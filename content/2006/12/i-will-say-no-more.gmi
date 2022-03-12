@@ -1,6 +1,7 @@
 # I will say no more
 2006-12-08
 
-Al agh [1] le sigue el ugh.
+Al agh [1] le sigue el ugh [2].
 
 => http://en.wikipedia.org/wiki/.cat [1] agh
+=> http://news.google.com/news?ncl=1152979903&hl=es [2] ugh

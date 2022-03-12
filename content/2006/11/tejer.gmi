@@ -1,8 +1,11 @@
 # ... ¿tejer?
 2006-11-10
 
-Es peligroso animarse con un tráiler, pero parece quela serie de Spider-Man sigue in su crescendo.
+Es peligroso animarse con un tráiler [1], pero parece que la serie de Spider-Man sigue in su crescendo.
 
-De bonus, y ya que mencionamosanteriormente el dilema del prisionero, veamos lo que hace el sublime xkcd con lateoría de juegos [1].
+De bonus, y ya que mencionamos anteriormente el dilema del prisionero [2], veamos lo que hace el sublime xkcd [3] con la teoría de juegos [4].
 
-=> http://xkcd.com/c182.html [1] lateoría de juegos
+=> http://www.ifilm.com/presents/spiderman3 [1] tráiler
+=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=529 [2] mencionamos anteriormente el dilema del prisionero
+=> http://xkcd.com/ [3] xkcd
+=> http://xkcd.com/c182.html [4] la teoría de juegos

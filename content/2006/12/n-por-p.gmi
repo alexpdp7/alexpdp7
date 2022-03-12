@@ -1,18 +1,23 @@
 # n por p
 2006-12-31
 
-Sería redundante repetir todos los mensajes de Malaprensa, pero esta vez se hansuperado. Ejemplo:
+Sería redundante repetir todos los mensajes de Malaprensa [1], pero esta vez se han superado. Ejemplo [2] :
 
-> 
-> 
-> 
+=> http://www.malaprensa.com/ [1] Malaprensa
+=> http://www.informativos.telecinco.es/loteria/gordo/navidad/dn_38310.htm [2] Ejemplo
+
+>
+>
+>
 > El 7, una terminación rara para el Gordo
-> 
-> 
-> 
-> Desde que comenzó el tradicional sorteo de la Lotería de Navidad, hace192
+>
+>
+>
+> Desde que comenzó el tradicional sorteo de la Lotería de Navidad, hace 192
 > años, el premio "gordo" ha terminado en siete sólo en 19 ocasiones
-> 
-> 
+>
+>
 
-No sé qué "esperanza" tendrían... ninguna, supongo. Lareferencia de Josu.
+No sé qué "esperanza" tendrían... ninguna, supongo. La referencia de Josu [3].
+
+=> http://personales.ya.com/josumezo/malaprensa/2006/12/slo-19-veces.html [3] La referencia de Josu

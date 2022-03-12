@@ -1,9 +1,9 @@
 # Las leyes de la física, vencidas
 2006-02-15
 
-... o destreza digital, como queráis llamarlo. La gente hace virguerías con los yoyós [1]. Aquí podéis vera un desarrollador [2] de Mozilla [3] (nótesela camiseta) haciéndole cosas a un yoyó [4].
+... o destreza digital, como queráis llamarlo. La gente hace virguerías con los yoyós [1]. Aquí podéis ver a un desarrollador [2] de Mozilla [3] (nótese la camiseta) haciéndole cosas a un yoyó [4].
 
-Eso sí, se demuestra que uno pierde la concentración, los programas tienen memory leaks y las acrobacias, pérdidas de yoyó (aún asíyo sería incapaz de hacer algo así- probablemente el yoyó acabaría empotrado en algún juez).
+Eso sí, se demuestra que uno pierde la concentración, los programas tienen memory leaks y las acrobacias, pérdidas de yoyó (aún así yo sería incapaz de hacer algo así- probablemente el yoyó acabaría empotrado en algún juez).
 
 => http://www.devilducky.com/media/37630/ [1] hace virguerías con los yoyós
 => http://alex.polvi.net/ [2] desarrollador

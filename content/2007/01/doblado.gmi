@@ -1,4 +1,8 @@
 # Doblado
 2007-01-15
 
-Alguien ha descubierto que para lo que realmente sirven el tutubo y demás es para sustituir los horriblesdiagramas ascii (link abatido en estos momentos, pero volverá) con losque antes se explicaba por internet como hacer simpáticos artilugios. Unaentretenida muestra.
+Alguien ha descubierto que para lo que realmente sirven el tutubo [1] y demás es para sustituir los horribles diagramas ascii [2] (link abatido en estos momentos, pero volverá) con los que antes se explicaba por internet como hacer simpáticos artilugios. Una entretenida muestra [3].
+
+=> http://www.youtube.com/ [1] tutubo
+=> http://www.everything2.com/index.pl?node_id=978002 [2] los horribles diagramas ascii
+=> http://www.techeblog.com/index.php/tech-gadget/7-cool-things-you-can-make-with-paper [3] Una entretenida muestra

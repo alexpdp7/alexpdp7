@@ -1,6 +1,10 @@
 # Seguimos con temas de inspiración religiosa
 2006-06-14
 
-Me entero por la prensa caja tonta que Cristux, la primera (en llegar amis pabellones auditivos con capacidad para miles de espectadores)distribución de Linux cristiana es un invento hispano y no del Eje.
+Me entero por la prensa caja tonta que Cristux [1], la primera (en llegar a mis pabellones auditivos con capacidad para miles de espectadores) distribución de Linux cristiana es un invento hispano y no del Eje [2].
 
-De todos los chistes que dejo que pululen por vuestras muertes, intentadevitar pensar en logos con pingüinos crucificados y demás barbaridades.Simplemente pensad en BSD.
+De todos los chistes que dejo que pululen por vuestras muertes, intentad evitar pensar en logos con pingüinos crucificados y demás barbaridades. Simplemente pensad en BSD [3].
+
+=> http://laparroquia.net/cristux/ [1] Cristux
+=> http://images.google.com/images?q=jesusland [2] Eje
+=> http://images.google.com/images?q=bsd [3] BSD

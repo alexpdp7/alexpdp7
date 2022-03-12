@@ -1,20 +1,20 @@
 # ¡Katamari!
 2006-02-18
 
-Hay un fenómeno por ahí que es el Katamari Damacy [1] unode esos fantásticos juegos surreales japos en el que controlas una bola a la que se van pegando cosas. En su web lo dejan claro:
+Hay un fenómeno por ahí que es el Katamari Damacy [1] uno de esos fantásticos juegos surreales japos en el que controlas una bola a la que se van pegando cosas. En su web lo dejan claro:
 
 => http://www.namco.com/games/katamari_damacy/ [1] Katamari Damacy
 
-> 
-> 
-> 
+>
+>
+>
 > Play is controlled with the analog sticks only. No buttons to press. No
 > combos to cause distress. Featuring ball-rolling and object-collecting
 > gameplay mechanics of mesmerizing fluidity, reduced to Pac-Man simplicity,
 > through pure absurdity.
-> 
-> 
+>
+>
 
-Para los que no podemos probar el juego (yo aún no lo he visto por estos lares), hay una versiónFlash "oficial" [2], un poco rollo juego de la era de los 8 bits.
+Para los que no podemos probar el juego (yo aún no lo he visto por estos lares), hay una versión Flash "oficial" [2], un poco rollo juego de la era de los 8 bits.
 
-=> http://katamaridamacy.jp/qa_data/katamari.html [2] versiónFlash "oficial"
+=> http://katamaridamacy.jp/qa_data/katamari.html [2] versión Flash "oficial"

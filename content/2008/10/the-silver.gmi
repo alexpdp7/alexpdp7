@@ -1,4 +1,6 @@
 # The Silver
 2008-10-28
 
-Conmemorando la inauguración del Street View de Google Maps en Barcelona,les invito a que prueben elmejor bacon con queso de Barcelona.
+Conmemorando la inauguración del Street View de Google Maps en Barcelona, les invito a que prueben el mejor bacon con queso de Barcelona [1].
+
+=> http://maps.google.com/?ie=UTF8&ll=41.395097,2.160165&spn=0.010254,0.02326&z=16&g=Carrer+de+Mallorca+245,+08008+Barcelona,+Spain&layer=c&cbll=41.391661,2.159666&panoid=fjcfk0yU-VNqtgxQhFuokg&cbp=1,116.46541679315847,,2,1.3888568672502783 [1] el mejor bacon con queso de Barcelona

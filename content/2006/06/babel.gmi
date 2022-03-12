@@ -1,4 +1,6 @@
 # Babel
 2006-06-16
 
-Quien quiera adoctrinarse en el fascinante mundo de los lenguajes de loslenguajes de programación, haría bien en leer esteartículo.
+Quien quiera adoctrinarse en el fascinante mundo de los lenguajes de los lenguajes de programación, haría bien en leer este artículo [1].
+
+=> http://www.americanscientist.org/template/AssetDetail/assetid/51982/ [1] este artículo
