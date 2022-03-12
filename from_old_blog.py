@@ -1,5 +1,6 @@
 import pathlib
 import re
+import subprocess
 import yaml
 
 
@@ -7,7 +8,7 @@ def slug(s):
     orig = s
     s = re.sub(r"""[*\^/\-":+#.,¿?¡!()[\]'%]+""", " ", s)
     s = s.strip()
-    s = re.sub(" +", "_", s)
+    s = re.sub(" +", "-", s)
     s = s.lower()
     acc = {
         "áà": "a",
@@ -21,7 +22,7 @@ def slug(s):
     for ds, r in acc.items():
         for d in ds:
             s = s.replace(d, r)
-    assert re.match("^[a-z0-9_]+$", s), (orig, s)
+    assert re.match(r"^[a-z0-9\-]+$", s), (orig, s)
     return s
 
 
@@ -34,6 +35,14 @@ for post in posts:
     post["post"] = post["post"].encode("iso-8859-1").decode("utf8")
     post["title"] = post["title"].encode("iso-8859-1").decode("utf8")
 
+    t = post["title"]
+
     y,m,d = post["posted"].split(" ")[0].split("-")
 
-    p = pathlib.Path("content") / y / m / d / slug(post["title"])
+    p: pathlib.Path = pathlib.Path("content") / y / m / (slug(post["title"]) + ".gmi")
+    p.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(p, "w") as f:
+        f.write(f"# {t}\n")
+        f.write(f"{y}-{m}-{d}\n\n")
+        f.write(subprocess.run(["/home/alex/go/bin/html2gmi", "-mn"], input=post["post"].encode("utf8"), stdout=subprocess.PIPE).stdout.decode("utf8"))
