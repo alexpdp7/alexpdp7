@@ -128,3 +128,9 @@ The `fix.py` script takes all `.gmi` files in the `md` directory, "fixes" them i
 ```
 $ ./fix.py
 ```
+
+## More stuff
+
+```
+$ find content/ -name '*.gmi' -execdir sed -i 's|http[^ ]*watch?v=|https://farside.link/invidious/watch?v=|g' {} \;
+```

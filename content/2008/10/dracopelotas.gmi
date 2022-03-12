@@ -3,4 +3,4 @@
 
 en youtube [1]...
 
-=> http://es.youtube.com/watch?v=7tx1djCBRYE [1] en youtube
+=> https://farside.link/invidious/watch?v=7tx1djCBRYE [1] en youtube
