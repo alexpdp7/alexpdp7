@@ -1,0 +1,8 @@
+# La web dospuntocero-monástica
+2006-09-12
+
+Casi todo el mundo [que hace cosas web] conoce a estas alturas el CSS Zen Garden, lugar donde sedemuestra que los CSS [1] están en elcamino de la virtud del diseño web.
+
+Sin embargo, yo, todo un tradicionalista, me rijo por el ascetismo, lasobriedad y el asueto de El Monasterio Trapense delCSS y la Orden Cascadiana de la Conformancia Estricta (podría decirseque esta página sigue sus reales decretos, aunque yo renuncio a usarimágenes).
+
+=> http://www.w3.org/Style/CSS/ [1] CSS

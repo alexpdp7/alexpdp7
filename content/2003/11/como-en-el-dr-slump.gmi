@@ -1,0 +1,6 @@
+# Como en el Dr. Slump
+2003-11-28
+
+Creo que esta librería gráfica [1] tiene el mejor nombre de la historia.
+
+=> http://sam.zoy.org/projects/libcaca/ [1] esta librería gráfica

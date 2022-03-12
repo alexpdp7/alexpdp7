@@ -1,0 +1,6 @@
+# Para programadores...
+2005-04-20
+
+Esto es una de las formas más visuales que he visto de entender ciertos problemas de la ingeniería del software. [1]
+
+=> http://enthusiasm.cozy.org/archives/2005/04/interface-sistering/ [1] Esto es una de las formas más visuales que he visto de entender ciertos problemas de la ingeniería del software.

@@ -1,0 +1,6 @@
+# Codecs y eso
+2005-01-02
+
+Una guía [1] por si no sabéis con qué codificar vuestros videos
+
+=> http://www.doom9.org/index.html?/codecs-104-1.htm [1] Una guía

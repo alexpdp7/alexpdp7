@@ -1,0 +1,10 @@
+# Gustos y colores
+2007-02-25
+
+¿Hay algo peor que hacerse un programa que descarga lacartelera de LaNetro, saca una ventanita:
+
+[‡ Programa para seleccionar pelis]
+
+donde te pide que pelis quieres ver y cuáles no y te genera una lista en HTML?
+
+Posiblemente, que mi intención es actualizarlo semana a semana.

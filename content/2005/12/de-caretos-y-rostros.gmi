@@ -1,0 +1,15 @@
+# De caretos y rostros
+2005-12-28
+
+He entrado por casualidad en Menéame [1] (el Digg [2] hispano) y me he topado con este buscador de parecidos [3], que te permite saber a qué famoso te pareces.
+
+Por supuesto lo he probado. Con la primera foto el mayor parecido ha sido con Charlton Heston. En la segunda me ha puesto un parecido al 61% con Beckham, al 55% con Italo Calvino y parecidos más tenues con Ariel Sharon y Orlando Bloom.
+
+Quizás lo más sorprendente es que el segundo parecido en ambas rondas ha sido con Rosalind Franklin [4], una científica famosa.
+
+=> http://meneame.net/ [1] Menéame
+=> http://www.digg.com/ [2] Digg
+=> http://www.myheritage.com/FP/Company/tryFaceRecognition.php?s=1&u=g0&lang=EN [3] buscador de parecidos
+=> http://en.wikipedia.org/wiki/Rosalind_Franklin [4] Rosalind Franklin
+
+Bah. Al menos concedámosle el mérito que encontrar una cara en una foto es un problema chungo de procesamiento de imágenes :)

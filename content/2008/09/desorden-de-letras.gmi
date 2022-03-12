@@ -1,0 +1,7 @@
+# Desorden de letras
+2008-09-21
+
+Impresionante lista de anagramas [1], acompañada de un generador de ídems [2].
+
+=> http://wordsmith.org/anagram/hof.html [1] Impresionante lista de anagramas
+=> http://wordsmith.org/anagram/advanced.html [2] un generador de ídems

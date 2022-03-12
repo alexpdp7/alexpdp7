@@ -1,0 +1,8 @@
+# Reproducción de video en Nokia 6233/6234
+2007-01-27
+
+Ya apunte aquí [1] las limitaciones a la hora de reproducir vídeo de mi Nokia 6234. El Nokia Vid Player [2] es una especie de intento de resolver estos problemas. Pronto, release en freshmeat.net [3].
+
+=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=516 [1] Ya apunte aquí
+=> http://eucaliptus.ath.cx/~alex/nokia-vid-player/ [2] Nokia Vid Player
+=> http://freshmeat.net/projects/nokia-vid-player/ [3] release en freshmeat.net

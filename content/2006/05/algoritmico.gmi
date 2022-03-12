@@ -1,0 +1,9 @@
+# Algorítmico
+2006-05-06
+
+Las discusiones de Lamba The Ultimate [1] como esta [2] algún día me llevarán a crear un blog sobre programación.
+
+Estáis avisados.
+
+=> http://lambda-the-ultimate.org/ [1] Lamba The Ultimate
+=> http://lambda-the-ultimate.org/node/1439 [2] esta

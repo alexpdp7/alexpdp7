@@ -1,0 +1,11 @@
+# Posting for numbers...
+2006-02-17
+
+Desde hace ya tiempo que news.google [1] ofrece señales [2] RSS de sus contenidos, pero hasta hoy, las noticias en cristiano espanish no tenían RSS.
+
+Fantástica noticia, pues ahora puedo leer mis noticias via Bloglines [3] con mi selección personalizada [4].
+
+=> http://news.google.com/ [1] news.google
+=> http://mutantur.blogspot.com/2005/12/nuevo-feed.html [2] señales
+=> http://bloglines.com/ [3] Bloglines
+=> http://news.google.com/news?ned=:ePkh8BM9EwLbwQo02YAFRKUCKV4gBVMD5HIDbYRxIdYDRfKQRXKFGMAuhDkEACDbDdg [4] selección personalizada

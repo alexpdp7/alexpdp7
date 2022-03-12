@@ -1,0 +1,8 @@
+# Todos los sistemas funcionando
+2006-01-01
+
+```
+case:~# dmesgClock: inserting leap second 23:59:60 UTC
+```
+
+¡Feliz 2006!

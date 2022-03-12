@@ -1,0 +1,12 @@
+# ¿SingStar en Flash?
+2009-01-12
+
+Karaoke Party [1], a mi no me tira muy bien, pero raro que es uno.
+
+Otras alternativas son Performous [2], Ultrastar Deluxe [3], Sinatra [4] y Canta [5].
+
+=> http://www.karaokeparty.com/ [1] Karaoke Party
+=> http://performous.org/ [2] Performous
+=> http://sourceforge.net/projects/ultrastardx/ [3] Ultrastar Deluxe
+=> http://sinatra.nu/ [4] Sinatra
+=> http://www.canta-game.org/ [5] Canta

@@ -1,0 +1,7 @@
+# Perlas...
+2005-11-23
+
+He de admitir que yo de Perl [1], ni leches. Hay buenos motivos [2].
+
+=> http://www.perl.org/ [1] Perl
+=> http://vrm.wom.hu/scriptgen.cgi [2] buenos motivos

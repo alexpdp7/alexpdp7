@@ -1,0 +1,8 @@
+# ¡Traidores!
+2006-06-16
+
+Uno de esos bonitos mensajes de log que a veces sueltan los pingüinos:
+
+```
+TCP: Treason uncloaked! Peer xxxxx:33592/59955 shrinks window 1115304737:1115306134. Repaired.
+```

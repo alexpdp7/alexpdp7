@@ -1,0 +1,9 @@
+# Proxies y cachés (me niego a que sea cach)
+2006-03-04
+
+Me notifican que parece que ser que la conexión ADSL doméstica ha dejado de estar detrás del famoso proxy-caché de Telefónica [1] (también me niego a que se escriba sin acento).
+
+Básicamente, lo único que parece querer decir es que puedo volver a postear en Slashdot [2] y otros sitios que (erróneamente) hacen cosas como filtrar según la IP.
+
+=> http://www.telefonica.com/ [1] Telefónica
+=> http://slashdot.org/ [2] Slashdot

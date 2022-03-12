@@ -1,0 +1,7 @@
+# Last and only drinks, please
+2007-07-19
+
+:([1] (véase [2])
+
+=> http://nymag.com/daily/intel/2007/07/now_its_roses_turn_to_cry_for.html [1] :(
+=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=681 [2] véase

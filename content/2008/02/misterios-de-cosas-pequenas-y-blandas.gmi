@@ -1,0 +1,7 @@
+# Misterios de cosas pequeñas y blandas
+2008-02-19
+
+Al parecer, esto [1] es un adelanto de esto [2]. Yo no me atrevo a seguir más links, pero obviamente el más poderoso es el que tiene que lidiar con el Word.
+
+=> http://msdn.microsoft.com/events/hero/sfbio/ [1] esto
+=> http://www.microsoft.com/opensource/heroes/default.mspx [2] esto

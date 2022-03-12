@@ -1,0 +1,6 @@
+# RAE 2.0
+2008-06-11
+
+Para los que no gozan creando marcadores con palabras clave y otros atajos friquis, los amigos del DRAE [1] nos bendicen con la posibilidad de usar bonitas URLs como http://rae.es/felicidad para realizar búsquedas.
+
+=> http://drae.rae.es/ [1] DRAE
