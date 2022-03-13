@@ -12,5 +12,5 @@
 
 Vimos Camino [1] y El Tren de las 3:10 [2].
 
-=> http://es.groups.yahoo.com/group/laspelis/message/1071 [1] Camino
-=> http://es.groups.yahoo.com/group/laspelis/message/1072 [2] El Tren de las 3:10
+=> /laspelis/1071 [1] Camino
+=> /laspelis/1072 [2] El Tren de las 3:10

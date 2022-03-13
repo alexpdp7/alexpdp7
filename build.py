@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import datetime
 import os
+import pathlib
 import shutil
 import textwrap
 
@@ -117,6 +118,7 @@ def build():
     for directory, _, files in os.walk("static/gmi"):
         new_dir = directory.replace("static/gmi", "build/gmi")
         for file in files:
+            pathlib.Path(new_dir).mkdir(parents=True, exist_ok=True)
             shutil.copy(f"{directory}/{file}", f"{new_dir}/{file}")
 
 if __name__ == "__main__":

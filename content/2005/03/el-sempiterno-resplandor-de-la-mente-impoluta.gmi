@@ -3,4 +3,4 @@
 
 ... o algo [1]
 
-=> http://es.groups.yahoo.com/group/laspelis/message/984 [1] ... o algo
+=> /laspelis/984 [1] ... o algo

@@ -3,5 +3,5 @@
 
 La Sombra del Poder [1] y Mi Vecino Totoro [2].
 
-=> http://es.groups.yahoo.com/group/laspelis/message/1075 [1] La Sombra del Poder
-=> http://es.groups.yahoo.com/group/laspelis/message/1076 [2] Mi Vecino Totoro
+=> /laspelis/1075 [1] La Sombra del Poder
+=> /laspelis/1076 [2] Mi Vecino Totoro

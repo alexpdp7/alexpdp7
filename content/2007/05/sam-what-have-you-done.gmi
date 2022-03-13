@@ -3,4 +3,4 @@
 
 I'm sorry, Pete. I couldn't help it [1].
 
-=> http://es.groups.yahoo.com/group/laspelis/message/1050 [1] I'm sorry, Pete. I couldn't help it
+=> /laspelis/1050 [1] I'm sorry, Pete. I couldn't help it
