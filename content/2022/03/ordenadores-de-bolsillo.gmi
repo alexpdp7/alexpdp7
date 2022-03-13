@@ -12,11 +12,17 @@ No he encontrado ningún post hablando de mi primer móvil; sólo esta referenci
 
 No recuerdo mucho de ese móvil, aparte de jugar a (creo) ponerle un tono de llamada creado por mí. La verdad que sí, en aquella época los móviles eran bastante limitados.
 
-Creo que ese Siemens me lo regalaron alrededor del año 2000, y aunque comencé a trabajar poco después en 2002, me parece que no vi motivo para sustituirlo quizá hasta 2006 (o al menos no recuerdo un móvil anterior). 
+Creo que ese Siemens me lo regalaron alrededor del año 2000, y aunque comencé a trabajar poco después en 2002, me parece que no vi motivo para sustituirlo quizá hasta 2006 (o al menos no recuerdo un móvil anterior).
+
+Corrijo: tremendo error, se me ha olvidado que tuve un Sony Ericsson Z520i, inmortalizado en este vídeo:
+
+=> https://farside.link/invidious/watch?v=x2GAsrYBAjY
+
+El susodicho móvil según GSMArena salió en 2005, así que realmente aunque recuerdo que me encantaba ese móvil, parece ser que decidí retirarlo rápido.
 
 => gemini://alex.corcoles.net/2006/10/computer-computer/ 2006 - Nokia 6234
 
-Diría que el Nokia 6234 fue mi segundo móvil, y el primero que me compré con mi dinero. Esto era dos años antes de que saliese el N97 y lo que me suena que dominaba en ese momento era el S40 de Nokia. El 6234 era una variante del más normal 6233, y como indico en la reseña de arriba, lo que me atrajo era la posibilidad de escuchar música e incluso ver vídeos.
+Diría que el Nokia 6234 fue mi segundo (tercer) móvil, y el primero (segundo) que me compré con mi dinero. Esto era dos años antes de que saliese el N97 y lo que me suena que dominaba en ese momento era el S40 de Nokia. El 6234 era una variante del más normal 6233, y como indico en la reseña de arriba, lo que me atrajo era la posibilidad de escuchar música e incluso ver vídeos.
 
 En aquella época veía House (2004-2012), pero creo que nunca pude ver episodios satisfactoriamente en el Nokia; básicamente los reproductores de vídeo de S40 eran muy primitivos (no permitían avanzar/retroceder bien sin hacks, ni soportaban subtítulos), y aunque desarrollé un burdo reproductor usando J2ME que usaba vídeos partidos en trozos pequeños, creo que nunca tuvo tracción la cosa.
 
