@@ -1,0 +1,40 @@
+# Votando con el bolsillo
+2022-03-27
+
+Es muy bonita la teoría de votar con el bolsillo. Pero lamentablemente, en la práctica esto es una vaca esférica de cuidado; intentad votar por móviles con baterías fácilmente intercambiables, con sistemas operativos potentes que no sean iOS o Android, que tengan brújulas funcionales (quizá en esto simplemente tengo mala suerte) o simplemente con alguna diferencia destacable dentro de la uniformidad reinante. Votar con el bolsillo puede resultar imposible, o con dificultades prácticamente inasumibles.
+
+Pero igualmente, siendo yo ese señor mayor agitando el puño a la nube, he decidido que en mi larga saga de móviles, el inusual Titan Pocket sería el siguiente de la lista.
+
+Es un móvil de Unihertz, una compañía que básicamente se dedica a hacer móviles raros. El Titan no Pocket era una copia del ya extraño BlackBerry Passport (y nada pocket), pero aparte de eso Unihertz saca móviles minúsculos, a prueba de golpes o incluso con walkie-talkie.
+
+El Titan Pocket es una especie de intento de sacar algo lo más cercano posible a una BlackBerry sin acabar en el juzgado, con ciertos elementos de fabricación robusta, y añadiendo un toque de excentricidad.
+
+Tiene el tamaño aproximado de una BlackBerry Classic con bastante más grosor. Como esta referencia no le sirve prácticamente a nadie, diré que se aproxima bastante a un iPhone 6 o un Samsung Galaxy SIII. O sea, que es enano- o lo que entendíamos por un móvil normal en 2012-2014. Además, un buen trozo de móvil está ocupado por, por supuesto, un teclado físico, lo que deja una pantalla minúscula (para lo que estamos acostumbrados hoy), cuadrada y con unos bordes enormes. El grosor de casi 17mm (dos iPhone 13), peso (bastante más que un iPhone 13) y el llamativo diseño que no sabemos si quiere evocar solidez o retrofuturismo contribuye a que sea un móvil marciano que llama poderosamente la atención.
+
+Sin embargo, aparte de lo físico, aunque comentaremos un par de aspectos extraños del software del móvil, se trata de un Android 11 con 6gb de RAM y mayormente dentro de lo habitual en estos días.
+
+Lo que hay que comentar primero es, por supuesto, el teclado. A pesar de algunas reseñas preocupantes, la calidad y sensación del teclado es muy buena. Se notan bien las pulsaciones y las teclas se distinguen bien por tacto. Si todavía no puedo teclear sin mirar el teclado como es tradición en las BlackBerries, es porque la disposición del teclado es harto extraña. Seguramente para evitar problemas de patentes, tiene un QWERTY de tres filas con la barra espaciadora en la mitad de la última fila, que no tiene modificadores. Los modificadores, junto con las teclas Android de atrás/cambio de aplicación y el lector de huella (que también hace de botón "casa") están por encima del QWERTY.
+
+Esto es la mar de raro. Es un poco el extraño teclado del BlackBerry Passport (tres filas de QWERTY sin modificadores), con una variante marciana del "toolbelt" clásico de BlackBerry. Es raro de narices que para teclear mayúsculas tengamos que pulsar la tecla de mayúsculas *encima* de la letra, por no hablar de lo raro que es que atrás/cambio de aplicación en Android sean botones físicos. Que no es malo- de hecho hacer doble pulsación para cambiar a otra aplicación en un teclado físico es mucho más intuitivo que en un móvil táctil, por ejemplo.
+
+Aún no me he acostumbrado, en parte porque el software del teclado es bastante inferior al de BlackBerry. El soporte multiidioma y autocorrector es bastante malo y tengo pendiente evaluar opciones (que, sorprendentemente, las hay). Pero sin embargo, sigue siendo preferible para los que detestamos teclear en pantallas táctiles.
+
+Aparte de eso tiene cuatro teclas físicas más; dos botones de volumen en el lado izquierdo y dos teclas programables en el derecho. Se pueden poner atajos con pulsación corta, larga y doble, aparte de poder usar el teclado para atajos de aplicaciones (pulse T para Twitter, etc.) o búsqueda instantánea. También heredamos el teclado "táctil"; podemos hacer swipe en el teclado para hacer scroll y también eso tan olvidado, pero tan práctico, de poder usar la barra espaciadora para saltar páginas en el navegador.
+
+El resto del teléfono es bastante normalillo y encaja dentro de lo que es un móvil de menos de 300€. Lo más destacable es:
+
+* Android no está pensado para las pantallas cuadradas. En mi uso no supone demasiado problema y prácticamente no uso un extraño atajo que permite reducir la pantalla horizontalmente para emular las pantallas alargadas que imperan hoy día. Pero si usáis el móvil como personas normales en esta época, es posible que no agradezcáis precisamente el formato.
+
+* El móvil tiene un emisor de infrarrojos. Con lo que se puede usar de mando a distancia. Lerdo que es uno, creo que borré accidentalmente la aplicación que venía, que sospecho que era "ZazaRemote" sin anuncios y no ha habido manera de recuperarla. Pero bueno, la versión con anuncios funciona.
+
+* También trae una extraña aplicación "caja de herramientas" con brújula, medidor de sonido, diversas aplicaciones para medir ángulos/distancias, lupa e incluso un pulsímetro mediante la cámara. Es muy rara.
+
+* La aplicación de llamadas incorporada tiene grabación de llamadas "invisible".
+
+* También hay un "emulador de NFC", que en principio permite duplicar un NFC "pasivo", con lo que igual podríamos usar el móvil para sustituir algún identificador de acceso, aunque esto no lo he probado.
+
+En definitiva, aparte de ser físicamente un móvil raro de narices, el software tiene unos cuántos elementos llamativos que convierten al Titan Pocket en un teléfono nada convencional.
+
+La verdad, siendo quizá el único móvil con teclado físico que es razonable comprar en esta época, y además teniendo un precio razonable, es por supuesto *el* móvil a recomendar para aquellos que quieran tener un teclado físico. E incluso para aquellos que quieran experimentar. Creo que aparte de los problemas derivados de tener una pantalla cuadrada (tuve que enviar un parche para el juego de ajedrez que uso, por ejemplo) y pequeña, este sería un móvil la mar de funcional dentro del rango de precios en el que se sitúa.
+
+Queda por ver cómo le irá a Unihertz. Yo la verdad que espero que aguanten un poco más- y tengo cierta curiosidad porque algunos modelos de BlackBerry relativamente modernos ya se acercan a las fechas en las que expiren sus patentes, con lo que en no demasiado tiempo Unihertz podría tener bastante más libertad en copiar las fórmulas depuradas de BlackBerry que, en mi opinión, podrían acabar de redondear un producto bastante interesante. Yo ya he votado.
