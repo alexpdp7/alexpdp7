@@ -53,7 +53,7 @@ def create_index(posts):
             ## Hay otros como él, pero este es el mío
         """).lstrip())
 
-        index.write("_" * 80)
+        index.write("_" * 40)
         index.write("\n")
 
         for post in posts[0:10]:
@@ -79,6 +79,8 @@ def create_index(posts):
             => https://stackexchange.com/users/13361/alex Stack Exchange
             => https://farside.link/nitter/koalillo Twitter
 
+            Podéis escribirme cogiendo el dominio de esta web y cambiando el primer punto por una arroba.
+
             # El resto...
         """))
 
@@ -101,6 +103,8 @@ def create_individual_posts(posts):
             post_file.write(textwrap.dedent(f"""
 
                 => https://github.com/alexpdp7/gemini_blog/edit/master/content/{post.uri}.gmi Editar este post
+
+                Podéis escribirme cogiendo el dominio de esta web y cambiando el primer punto por una arroba.
 
                 # Volver al inicio
 
