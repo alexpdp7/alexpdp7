@@ -1,9 +1,9 @@
 * Nice mailing lists
 
-** GH-style user/organization creation
-** Every user/organization can create mailing lists
-** Mailing lists have a web UI
-** The mailing list UI can be completely customized to look like microblogging, blogs, comment systems, etc.
+- GH-style user/organization creation
+- Every user/organization can create mailing lists
+- Mailing lists have a web UI
+- The mailing list UI can be completely customized to look like microblogging, blogs, comment systems, etc.
 * Turing Parser
 
 ** A toolkit to write parsers for languages which are not CFGs and that need Turing-complete parsing code.
