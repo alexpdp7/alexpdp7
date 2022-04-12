@@ -1,0 +1,129 @@
+* Nice mailing lists
+
+** GH-style user/organization creation
+** Every user/organization can create mailing lists
+** Mailing lists have a web UI
+** The mailing list UI can be completely customized to look like microblogging, blogs, comment systems, etc.
+* Turing Parser
+
+** A toolkit to write parsers for languages which are not CFGs and that need Turing-complete parsing code.
+** Provides tools to implement stateful lexers, keeping line-column information and generating good error messages.
+** Provides tools to transform the token stream, using arbitrary code, to generate annotated ASTs (i.e. with line/column number information)
+* Userland WASM Linux distro
+
+** Bootstrap a Linux distro to run on WASM
+** Should be able to run as a non-privileged user, installed in the user's home directory
+** Focused on userland programs, not a full OS
+** Should be able to run on non-POSIX filesystems
+** Could replace Docker/containers for developers
+** Similar to https://github.com/WAVM/Wavix
+* Parallel execution framework
+
+** A tool to run stuff such as CI builds which need sophisticated parallelization
+** Create differently sized resource pools (for CPU-bound tasks, "API"-bound, etc.)
+** Local execution of workflows on a workstation, remote execution on a CI server
+** Handle task dependencies and artifact passing from parent to child tasks
+** Capture stdout/stderr of tasks, allow viewing in realtime
+** Timestamp stdout/stderr for crude profiling
+** Implement a CI system on top?
+* SQL Query tool
+
+** ipython notebook style interface
+** Backend + multiple frontends
+*** HTML/JS Frontend
+*** Curses frontend
+*** Native GUIs frontends
+** Smart join completion
+* CRUD framework
+** https://github.com/alexpdp7/v2f
+** https://github.com/alexpdp7/zqxjkcrud
+
+A completely declarative SQL CRUD framework
+
+** CRUD definition is done through SQL objects (schemas, views, etc.)
+** Permissions
+** Row auditing
+** Multiple components
+*** Server-side HTML frontend
+*** REST API
+** Commercial frontend for design
+
+* Development stack
+
+** Easy to deploy modular platform of:
+*** Identity Management (FreeIPA)
+*** Git repo with code review (Gerrit)
+*** Ticketing system (Redmine?)
+*** CI (Jenkins)
+*** Binary artifact repository
+*** Monitoring system (Nagios)
+
+* Scalable personal cloud
+
+** 1..n node VM/container hosting platform
+** ZFS storage
+*** Use https://github.com/marcan/takeover.sh for easy set up of a ZFS mirror root system
+** Automation ready (Ansible, Salt, Foreman, etc.)
+** Monitoring friendly
+** Apt for single public IP
+*** Integrated DNS/DHCP
+*** VPN interfaces
+*** Reverse proxies
+
+* C64 Roguelike
+
+* Software development book https://github.com/alexpdp7/wakat
+
+* Development environment setup
+
+** Spin a VM (locally or in the cloud) which runs your project
+** Synchronized workspace using Syncthing
+
+* Streaming DB
+
+That's probably https://github.com/MaterializeInc/materialize , but it's not OSS.
+
+** Simple relational database
+** Can act as replication target of other databases
+** Supports a limited SQL subset that can be easily reasoned about functional dependencies
+** Can stream efficiently the results of an SQL query (e.g. keep a query running and receive new/modified rows)
+** Supports efficient replication of a subset of a database (initial checkpoint + streaming or batched updates)
+** Functional dependencies could be used to create materialized views *and* indexes
+
+* Key escrow for everyone
+
+** Easy-to-use key escrow/secret sharing
+** Provide emergency recovery of passwords, keys, 2FA, etc.
+
+* Presentation tool
+
+** A tool to edit reveal.js-style slides
+** But also record and do basic audio editing
+** So it can help with timing/pacing, and even generate a nice video
+
+* Pure HTML5 decentralized IM system
+
+https://letsconvene.im/
+https://github.com/alexpdp7/imnei
+
+
+** Uses web push
+** Conversations are URLs to be shared
+** "User identity" is a private URL to be shared to handle multi-device
+** End-to-end encryption
+** Can have WebRTC audio/video
+** Anyone could run its own instance, as it is clientless there is no friction to have multiple providers
+** Broadcast channels to be a pseudo-social network
+* Federated real-time communications using open protocols https://github.com/alexpdp7/frtcuop
+* SQL2
+
+See https://github.com/EvgSkv/logica
+
+** A new language that compiles to SQL
+** Handles RDBMS differences
+** Makes queries composable (e.g. declare a query object, then add paging/sorting, for framework usage)
+** Declarative join via foreign key constraint names
+** Better ordering for code completion (e.g. FROMs first)
+* Deterministic embeddable simple language for calculator and notebooks
+
+** https://github.com/alexpdp7/plankalkul/ , that deprecated https://github.com/alexpdp7/pdp7_calc/ .
