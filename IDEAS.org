@@ -5,12 +5,6 @@
 - Mailing lists have a web UI
 - The mailing list UI can be completely customized to look like microblogging, blogs, comment systems, etc.
 
-* Turing Parser
-
-- A toolkit to write parsers for languages which are not CFGs and that need Turing-complete parsing code.
-- Provides tools to implement stateful lexers, keeping line-column information and generating good error messages.
-- Provides tools to transform the token stream, using arbitrary code, to generate annotated ASTs (i.e. with line/column number information)
-
 * Userland WASM Linux distro
 
 - Bootstrap a Linux distro to run on WASM
@@ -19,6 +13,59 @@
 - Should be able to run on non-POSIX filesystems
 - Could replace Docker/containers for developers
 - Similar to https://github.com/WAVM/Wavix
+* Turing Parser
+
+- A toolkit to write parsers for languages which are not CFGs and that need Turing-complete parsing code.
+- Provides tools to implement stateful lexers, keeping line-column information and generating good error messages.
+- Provides tools to transform the token stream, using arbitrary code, to generate annotated ASTs (i.e. with line/column number information)
+* Extensible lightweight markup language
+
+- A language similar to AsciiDoc...
+- But with a well-defined AST
+- Complex nested lists
+- Styling of code blocks (highlighting, user input, replaceable...)
+
+* Streaming DB
+
+That's probably https://github.com/MaterializeInc/materialize , but it's not OSS.
+
+- Simple relational database
+- Can act as replication target of other databases
+- Supports a limited SQL subset that can be easily reasoned about functional dependencies
+- Can stream efficiently the results of an SQL query (e.g. keep a query running and receive new/modified rows)
+- Supports efficient replication of a subset of a database (initial checkpoint + streaming or batched updates)
+- Functional dependencies could be used to create materialized views *and* indexes
+* CRUD framework
+
+- https://github.com/alexpdp7/v2f
+- https://github.com/alexpdp7/zqxjkcrud
+
+A completely declarative SQL CRUD framework
+
+- CRUD definition is done through SQL objects (schemas, views, etc.)
+- Permissions
+- Row auditing
+- Multiple components
+  -  Server-side HTML frontend
+  -  REST API
+- Commercial frontend for design
+* Key escrow for everyone
+
+- Easy-to-use key escrow/secret sharing
+- Provide emergency recovery of passwords, keys, 2FA, etc.
+* SQL2
+
+See https://github.com/EvgSkv/logica
+
+- A new language that compiles to SQL
+- Handles RDBMS differences
+- Makes queries composable (e.g. declare a query object, then add paging/sorting, for framework usage)
+- Declarative join via foreign key constraint names
+- Better ordering for code completion (e.g. FROMs first)
+* User-friendly GMail synchronization tool
+
+- Speaks XOAUTH2
+- Syncs to something Mutt/Notmuch/etc. can use easily
 
 * Parallel execution framework
 
@@ -39,32 +86,11 @@
   -  Native GUIs frontends
 - Smart join completion
 
-* CRUD framework
+* Presentation tool
 
-- https://github.com/alexpdp7/v2f
-- https://github.com/alexpdp7/zqxjkcrud
-
-A completely declarative SQL CRUD framework
-
-- CRUD definition is done through SQL objects (schemas, views, etc.)
-- Permissions
-- Row auditing
-- Multiple components
-  -  Server-side HTML frontend
-  -  REST API
-- Commercial frontend for design
-
-* Development stack
-
-Easy to deploy modular platform of:
-
-- Identity Management (FreeIPA)
-- Git repo with code review (Gerrit)
-- Ticketing system (Redmine?)
-- CI (Jenkins)
-- Binary artifact repository
-- Monitoring system (Nagios)
-
+- A tool to edit reveal.js-style slides
+- But also record and do basic audio editing
+- So it can help with timing/pacing, and even generate a nice video
 * Scalable personal cloud
 
 1..n node VM/container hosting platform
@@ -78,36 +104,7 @@ Easy to deploy modular platform of:
   -  Reverse proxies
 
 * C64 Roguelike
-
 * Software development book ( https://github.com/alexpdp7/wakat )
-
-* Development environment setup
-
-- Spin a VM (locally or in the cloud) which runs your project
-- Synchronized workspace using Syncthing
-
-* Streaming DB
-
-That's probably https://github.com/MaterializeInc/materialize , but it's not OSS.
-
-- Simple relational database
-- Can act as replication target of other databases
-- Supports a limited SQL subset that can be easily reasoned about functional dependencies
-- Can stream efficiently the results of an SQL query (e.g. keep a query running and receive new/modified rows)
-- Supports efficient replication of a subset of a database (initial checkpoint + streaming or batched updates)
-- Functional dependencies could be used to create materialized views *and* indexes
-
-* Key escrow for everyone
-
-- Easy-to-use key escrow/secret sharing
-- Provide emergency recovery of passwords, keys, 2FA, etc.
-
-* Presentation tool
-
-- A tool to edit reveal.js-style slides
-- But also record and do basic audio editing
-- So it can help with timing/pacing, and even generate a nice video
-
 * Pure HTML5 decentralized IM system
 
 https://letsconvene.im/
@@ -122,16 +119,6 @@ https://github.com/alexpdp7/imnei
 - Broadcast channels to be a pseudo-social network
 
 * Federated real-time communications using open protocols https://github.com/alexpdp7/frtcuop
-
-* SQL2
-
-See https://github.com/EvgSkv/logica
-
-- A new language that compiles to SQL
-- Handles RDBMS differences
-- Makes queries composable (e.g. declare a query object, then add paging/sorting, for framework usage)
-- Declarative join via foreign key constraint names
-- Better ordering for code completion (e.g. FROMs first)
 
 * Deterministic embeddable simple language for calculator and notebooks
 
