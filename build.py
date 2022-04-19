@@ -67,7 +67,7 @@ def create_index(posts):
 
             index.write("\n".join(post_lines[2:]))
             index.write("\n\n")
-            index.write("_" * 80)
+            index.write("_" * 40)
             index.write("\n")
 
         index.write(textwrap.dedent("""
