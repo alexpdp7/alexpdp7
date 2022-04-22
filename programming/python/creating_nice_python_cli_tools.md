@@ -25,6 +25,8 @@
     You can also use logging module to implement flags such as `--debug` and `--verbose`.
 * Although you can use other fancier tools for parsing command-line arguments, the standard [argparse](https://docs.python.org/3/library/argparse.html) module is good enough for most tools.
   It has decent support for [sub-commands](https://docs.python.org/3/library/argparse.html#sub-commands), and the linked document describes a very nice pattern to define functions for sub-commands, under "One particularly effective way of handling sub-commands..."
+  Try to provide help texts for parameters that may not be obvious.
+  argparse supports a lot of different argument types, such as enumerated options, integers, file names, and others, that provide a lot of functionality out of the box.
 * Remember that the standard [json](https://docs.python.org/3/library/json.html) module is built-in.
   You can use it to add a mode to your tool that generates JSON output instead of human-readable output, for easy automation of your tool, maybe using [jq](https://stedolan.github.io/jq/) or [fx](https://github.com/antonmedv/fx).
 * Use the standard [subprocess](https://docs.python.org/3/library/subprocess.html) module to execute other commands.
