@@ -1,6 +1,6 @@
 Following this advice can make your tools easy to install by others, pleasant to use, robust, cross-platform, and powerful.
 
-* Use [my suggestions for setting up Python projects](project_setup), particularly:
+* Use [my suggestions for setting up Python projects](project_setup.md), particularly:
   * Provide instructions for installing your tool using [pipx](https://github.com/pypa/pipx).
     Using pipx, people can install and upgrade your script using a simple command that requires no administrative privileges (but it requires having Python and pipx installed).
   * As you are using [poetry](https://python-poetry.org/), following the indications above:
