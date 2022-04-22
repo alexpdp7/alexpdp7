@@ -4,7 +4,10 @@
   * As you are using [poetry](https://python-poetry.org/), following the indications above:
     * Use [Poetry's support for specifying scripts](https://python-poetry.org/docs/pyproject/#scripts), so when installing your tool via pipx or other means, your scripts are added to the user's path.
     * Dependencies you define will be installed automatically along with your application.
+      This reduces the effort users need to use your application if you need third-party libraries.
+      However, I would still advise to avoid unnecessary dependencies (for simple HTTP requests you can use the base library. If you do complex requests, then using a third-party library might be much simpler).
       As you are using pipx, those dependencies will be installed to a isolated virtualenv, so they will not interfere with anything on your system.
+    * As your application is properly packaged, you can split your code into different Python files and use imports without issues.
 * If your application requires secrets, such as credentials or others, consider using:
   * The standard [getpass](https://docs.python.org/3/library/getpass.html) module.
     This prompts for a string on the command line, hiding what the user types.
