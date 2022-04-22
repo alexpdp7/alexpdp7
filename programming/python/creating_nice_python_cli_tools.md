@@ -24,5 +24,10 @@
   It has decent support for [sub-commands](https://docs.python.org/3/library/argparse.html#sub-commands), and the linked document describes a very nice pattern to define functions for sub-commands, under "One particularly effective way of handling sub-commands..."
 * Remember that the standard [json](https://docs.python.org/3/library/json.html) module is built-in.
   You can use it to add a mode to your tool that generates JSON output instead of human-readable output, for easy automation of your tool, maybe using [jq](https://stedolan.github.io/jq/) or [fx](https://github.com/antonmedv/fx).
+* Use the standard [subprocess](https://docs.python.org/3/library/subprocess.html) module to execute other commands.
+  * Remember never to use `shell=True`, so among other things, your tool will work correctly with files using spaces in their names.
+  * Use `check=True` so if the subprocess fails, an exception will be raised.
+    This is likely the best default behavior, although the error is a bit ugly, this normally prevents ugly problems and it's a safe option.
+
 
 You can find examples for many of those techniques in my [repos](https://github.com/alexpdp7?tab=repositories&q=&type=&language=python&sort=).
