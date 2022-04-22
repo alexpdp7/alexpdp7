@@ -13,7 +13,13 @@
 * Use the [appdirs](https://pypi.org/project/appdirs/) library to obtain "user paths", such as the users directory for configuration, cache, or data.
   appdirs knows the proper paths for Linux, macOS and Windows.
   So for example, if your tool caches files and uses appdirs to find the cache directory, you might gain benefits such as cache files being excluded from backups.
-* Use the [tqdm](https://tqdm.github.io/) library to add a progress bar if your tool requires significant time to complete a process.
+* If your tool requires significant time to complete a process:
+  * Use the [tqdm](https://tqdm.github.io/) library to add a progress bar.
+  * But also consider using the standard [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html) module to add parallelism if you can.
+    The [map](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.Executor.map) function is particularly easy to use.
+    Use it with a [ThreadPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ThreadPoolExecutor) if the parallel tasks are IO-bound or invoke other programs, or with [ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#processpoolexecutor) if they perform significant CPU work in Python (to avoid the [GIL](https://wiki.python.org/moin/GlobalInterpreterLock)).
+  * Consider using the standard [logging](https://docs.python.org/3/library/logging.html) module with a format that uses a timestamp, so users can inspect how much time is spent in different parts of the program.
+    You can also use logging module to implement flags such as `--debug` and `--verbose`.
 * Although you can use other fancier tools for parsing command-line arguments, the standard [argparse](https://docs.python.org/3/library/argparse.html) module is good enough for most tools.
   It has decent support for [sub-commands](https://docs.python.org/3/library/argparse.html#sub-commands), and the linked document describes a very nice pattern to define functions for sub-commands, under "One particularly effective way of handling sub-commands..."
 * Remember that the standard [json](https://docs.python.org/3/library/json.html) module is built-in.
