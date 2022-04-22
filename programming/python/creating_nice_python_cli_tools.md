@@ -36,5 +36,4 @@ Following this advice can make your tools easy to install by others, pleasant to
   * Use `check=True` so if the subprocess fails, an exception will be raised.
     This is likely the best default behavior, although the error is a bit ugly, this normally prevents ugly problems and it's a safe option.
 
-
 You can find examples for many of those techniques in my [repos](https://github.com/alexpdp7?tab=repositories&q=&type=&language=python&sort=).
