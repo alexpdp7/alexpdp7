@@ -7,7 +7,7 @@ Uno de los motivos por los que me he enfrascado esta mañana a recuperar mi blog
 
 No he encontrado ningún post hablando de mi primer móvil; sólo esta referencia[1] que me confirma que era un Siemens. He estado un rato por GSMArena mirando Siemens para ver si se me encendía la bombilla, pero es que hay muchos Siemens de esa época que son casi idénticos[2] (y nos quejamos hoy de que todos los móviles son iguales).
 
-=> https://alex.corcoles.net/2006/04/228252/ [1] Quejándome sobre el T9 sin catalán de mi móvil Siemens
+=> gemini://alex.corcoles.net/2006/04/228252/ [1] Quejándome sobre el T9 sin catalán de mi móvil Siemens
 => https://www.gsmarena.com/siemens-phones-f-3-0-p2.php [2] La variedad de modelos de Siemens
 
 No recuerdo mucho de ese móvil, aparte de jugar a (creo) ponerle un tono de llamada creado por mí. La verdad que sí, en aquella época los móviles eran bastante limitados.
@@ -70,6 +70,6 @@ Con lo que me compré un Samsung barato para salir del paso. Aparte de ser el pr
 
 Con lo que en cuanto se anunció que Onward Mobility había muerto y BlackBerry parecía quemar naves para no volver a involucrarse jamás en crear un nuevo móvil, tras barajar unas cuantas alternativas[1], me pasé a un Titan Pocket.
 
-=> https://alex.corcoles.net/2022/02/requiem-por-el-qwerty/ [1] Mis reflexiones sobre BlackBerry
+=> gemini://alex.corcoles.net/2022/02/requiem-por-el-qwerty/ [1] Mis reflexiones sobre BlackBerry
 
 Escribiré una reseña más completa sobre el Titan Pocket pronto- se trata de un extraño cruce entre una KeyONE, un Passport y unas curiosas maniobras evasivas para con las patentes de los teclados BlackBerries, combinado con unas cuantas bizarradas adicionales, pero que de momento es una opción más que decente para permitirme seguir con mis peculiaridades mentales (que principalmente consisten en la dichosa manía de no querer teclear en cristal, cosa que sólo hice brevemente con el Viewty [2008-2010] y con el A02S [unos meses entre 2021-2022]).
