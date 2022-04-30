@@ -1,0 +1,40 @@
+# Antes de partir
+2022-04-30
+
+En otro destello del pasado, el otro día descubrí que uno de mis primeros sitios preferidos de Internet sigue vivo:
+
+=> http://www.filmwise.com/
+
+Lamentablemente no tienen RSS que yo haya podido encontrar. Pero sus enigmáticos acertijos de películas (fotogramas de películas con los cuerpos humanos digitalmente eliminados) tienen muchas de las virtudes de ese juego de palabras del que ustedes hablan, y más.
+
+=> https://www.jwz.org/blog/2022/04/leetspeek-2-0/ Sobre las innovaciones lingüísticas derivadas de la censura. Del bueno de JWZ, claro.
+
+=> https://graydon2.dreamwidth.org/189377.html Y de otro tipo de innovador lingüístico, Graydon Hoare, un espectacular artículo sobre el tema. Con ceceos, claro.
+
+=> https://en.wikipedia.org/wiki/Penguin_diagram Otro de esos artículos esenciales de la Wikipedia
+
+=> https://blog.plover.com/2022/04/16/#missing Y si queréis crear uno, Dominus os ayuda.
+
+=> https://precursor.dev/ Un curioso dispositivo de esos de Kickstarter. La verdad que ni idea de para qué sirve, pero el diseño me tienta.
+
+=> https://www.unihertz.com/pages/titan-slim-signup Este también me tienta, pero ya tengo un móvil Titan. ¡Pero hay que votar con el bolsillo!
+
+=> https://fivethirtyeight.com/features/how-colorblind-nhl-players-see-the-game/ Sobre jugadores de hockey daltónicos
+
+=> https://wasm4.org/ Una consola "de fantasía" de esas, pero en WASM
+
+=> https://en.wikipedia.org/wiki/The_Bard%27s_Tale_(1985_video_game)#Gameplay Otra fantasía de los videojuegos es que ahora hace falta una técnica terrible para conseguir lo que ya se hacía en 1985.
+
+=> http://www.markround.com/blog/2022/02/01/devops-for-the-sinclair-spectrum-part-3/ Y lo que se puede hacer con los ordenadores de esa época. La serie es impresionante, este episodio es lo más.
+
+=> https://www.bbc.co.uk/news/world-asia-61117434 Qué complicado lo de la edad. Sobre todo en Corea.
+
+=> https://www.polygon.com/22996738/bungie-destiny-paul-mccartney-marty-odonnell-history La historia (desconocida para mí) sobre Macca y los videojuegos
+
+=> https://drewdevault.com/2022/03/29/free-software-free-infrastructure.html El bueno de Drew sobre mis monotemas, dando bastantes enlaces interesantes
+
+=> https://tookmund.com/2022/04/importance-of-the-trailing-slash Sobre si en UNIX hay que poner una barra al final de la ruta de un directorio, o no
+
+=> https://www.polygon.com/23015543/marie-kondo-erase-internet-presence-delete-accounts-inbox-zero El sistema Marie Kondo para Internet
+
+=> https://www.quantamagazine.org/elegant-six-page-proof-reveals-the-emergence-of-random-structure-20220425/ Cosas de grafos aleatorios que llevan a conclusiones metafísicas
