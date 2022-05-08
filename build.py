@@ -73,6 +73,7 @@ def create_index(posts):
         index.write(textwrap.dedent("""
             # Sobre mí
 
+            => https://alex.corcoles.net/feed/ Feed RSS de este blog
             => https://github.com/alexpdp7/ GitHub
             => https://es.linkedin.com/in/alexcorcoles LinkedIn
             => https://projecteuler.net/profile/koalillo.png Project Euler
