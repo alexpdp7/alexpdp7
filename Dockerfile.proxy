@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM docker.io/library/golang:latest
 WORKDIR /app
 RUN git clone https://git.sr.ht/~sircmpwn/kineto /app
 RUN go build
