@@ -87,6 +87,12 @@ See https://github.com/EvgSkv/logica
   -  Native GUIs frontends
 - Smart join completion
 
+* HTML/JS only browser engine
+
+- Use an existing JS engine to implement a browser that can parse HTML and execute JS, but which has no concept of graphics
+- Could be used to implement a text HTML browser that can access the modern web
+- Extensible and scriptable, to generate "article mode" scripts, scrapers, and "API proxies"
+
 * Presentation tool
 
 - A tool to edit reveal.js-style slides
