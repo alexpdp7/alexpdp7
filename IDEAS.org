@@ -20,6 +20,7 @@
 - A toolkit to write parsers for languages which are not CFGs and that need Turing-complete parsing code.
 - Provides tools to implement stateful lexers, keeping line-column information and generating good error messages.
 - Provides tools to transform the token stream, using arbitrary code, to generate annotated ASTs (i.e. with line/column number information)
+- See https://github.com/alexpdp7/lmparser
 
 * Extensible lightweight markup language
 
@@ -27,6 +28,7 @@
 - But with a well-defined AST
 - Complex nested lists
 - Styling of code blocks (highlighting, user input, replaceable...)
+- See https://github.com/alexpdp7/lmparser
 
 * Streaming DB
 
@@ -73,6 +75,7 @@ See https://github.com/EvgSkv/logica
 
 - Speaks XOAUTH2
 - Syncs to something Mutt/Notmuch/etc. can use easily
+- See https://github.com/alexpdp7/notsomuchcomplex
 
 * Parallel execution framework
 
