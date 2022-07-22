@@ -98,9 +98,11 @@ See https://github.com/EvgSkv/logica
 - A tool to edit reveal.js-style slides
 - But also record and do basic audio editing
 - So it can help with timing/pacing, and even generate a nice video
-* Gamepad desktop shortcuts
+* Touch controller/meeting controller/gamepad desktop shortcuts
 
+- API server to control Google Meet (mute, etc.)
 - Use a USB gamepad to mute in videoconferences, etc
+- Small webapp for touch interface in phone
 * Scalable personal cloud
 
 1..n node VM/container hosting platform
