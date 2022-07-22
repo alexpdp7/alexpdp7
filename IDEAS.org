@@ -14,11 +14,13 @@
 - Should be able to run on non-POSIX filesystems
 - Could replace Docker/containers for developers
 - Similar to https://github.com/WAVM/Wavix
+
 * Turing Parser
 
 - A toolkit to write parsers for languages which are not CFGs and that need Turing-complete parsing code.
 - Provides tools to implement stateful lexers, keeping line-column information and generating good error messages.
 - Provides tools to transform the token stream, using arbitrary code, to generate annotated ASTs (i.e. with line/column number information)
+
 * Extensible lightweight markup language
 
 - A language similar to AsciiDoc...
@@ -36,6 +38,7 @@ That's probably https://github.com/MaterializeInc/materialize , but it's not OSS
 - Can stream efficiently the results of an SQL query (e.g. keep a query running and receive new/modified rows)
 - Supports efficient replication of a subset of a database (initial checkpoint + streaming or batched updates)
 - Functional dependencies could be used to create materialized views *and* indexes
+
 * CRUD framework
 
 - https://github.com/alexpdp7/v2f
@@ -50,10 +53,12 @@ A completely declarative SQL CRUD framework
   -  Server-side HTML frontend
   -  REST API
 - Commercial frontend for design
+
 * Key escrow for everyone
 
 - Easy-to-use key escrow/secret sharing
 - Provide emergency recovery of passwords, keys, 2FA, etc.
+
 * SQL2
 
 See https://github.com/EvgSkv/logica
@@ -63,6 +68,7 @@ See https://github.com/EvgSkv/logica
 - Makes queries composable (e.g. declare a query object, then add paging/sorting, for framework usage)
 - Declarative join via foreign key constraint names
 - Better ordering for code completion (e.g. FROMs first)
+
 * User-friendly GMail synchronization tool
 
 - Speaks XOAUTH2
@@ -98,12 +104,14 @@ See https://github.com/EvgSkv/logica
 - A tool to edit reveal.js-style slides
 - But also record and do basic audio editing
 - So it can help with timing/pacing, and even generate a nice video
+
 * Touch controller/meeting controller/desktop shortcuts
 
 - API server to control Google Meet (mute, etc.)
 - Use a USB gamepad to mute in videoconferences, etc
 - Small webapp for touch interface in phone
 - See https://github.com/alexpdp7/meet-controller
+
 * Scalable personal cloud
 
 1..n node VM/container hosting platform
@@ -117,7 +125,9 @@ See https://github.com/EvgSkv/logica
   -  Reverse proxies
 
 * C64 Roguelike
+
 * Software development book ( https://github.com/alexpdp7/wakat )
+
 * Pure HTML5 decentralized IM system
 
 https://letsconvene.im/
