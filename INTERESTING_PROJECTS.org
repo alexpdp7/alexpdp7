@@ -1,0 +1,145 @@
+* Technical writing
+** Document formats
+*** https://github.com/nota-lang/nota - Proper parser, Markdown, LaTeX...
+*** https://github.com/markdoc/markdoc
+*** https://github.com/christianvoigt/argdown - Argumentation
+*** Markdown
+**** https://github.com/lezer-parser/markdown
+**** https://github.com/kivikakk/comrak
+**** https://github.com/raphlinus/pulldown-cmark
+*** Org
+**** https://github.com/karlicoss/orgparse
+**** https://github.com/200ok-ch/org-parser
+** Spelling, etc.
+*** https://github.com/bminixhofer/nlprule - LanguageTool in Rust
+*** https://github.com/valentjn/ltex-ls - LanguageTool LSP with LaTeX support
+*** https://github.com/jmartorell/LTlab - Spanish tools for LanguageTool
+*** https://github.com/languagetool-org/languagetool
+** ProseMirror
+*** https://github.com/ProseMirror/prosemirror-markdown
+* Parsers
+** https://github.com/hydro-project/rust-sitter - TreeSitter in Rust
+** https://github.com/petitparser/dart-petitparser
+** https://github.com/metaborg/sdf
+** https://github.com/antlr/grammars-v4
+** https://github.com/tree-sitter/tree-sitter
+** https://github.com/stephan-tolksdorf/fparsec
+** https://github.com/Engelberg/instaparse
+* CI/CD
+** https://github.com/earthly/earthly - Standalone build tool with containers
+* Systems
+** Identity
+*** Keycloak
+**** https://github.com/adorsys/keycloak-config-cli - Config as code for KeyCloak
+** Email
+*** https://github.com/simonrob/email-oauth2-proxy
+*** Notmuch
+**** https://github.com/gauteh/lieer - GMail
+** Configuration management
+*** https://github.com/habitat-sh/habitat
+** File sync
+*** https://github.com/mutagen-io/mutagen
+*** https://github.com/tkellogg/dura
+*** https://github.com/perkeep/perkeep
+*** https://github.com/upspin/upspin
+** Home automation
+*** https://github.com/Yakifo/amqtt	
+** PaaS
+*** https://github.com/piku/piku
+** Virtualization
+*** https://github.com/karmab/kcli
+*** WASM
+**** https://github.com/WAVM/Wavix
+** BI
+*** https://github.com/getredash/redash
+*** https://github.com/metabase/metabase
+** Networking
+*** VPN
+**** https://github.com/StreisandEffect/streisand
+** Misc
+*** https://github.com/ventoy/Ventoy
+*** https://github.com/marcan/takeover.sh
+*** https://github.com/dflemstr/rq - Record tool
+* Coding
+** Observability
+*** https://github.com/equinix-labs/otel-cli
+*** https://github.com/timescale/promscale
+** Web development
+*** Frameworks
+**** https://github.com/hotwire-django/turbo-django
+**** https://github.com/mit-pdos/noria
+**** https://github.com/frappe/frappe
+**** https://github.com/aquametalabs/aquameta
+**** https://github.com/urweb/urweb
+**** https://github.com/workflowproducts/envelope
+**** https://github.com/PostgREST/postgrest
+*** https://github.com/yudai/gotty - Terminals on the web
+*** https://github.com/BafS/Gutenberg - Printing
+*** https://github.com/barbajs/barba - Smooth transitions
+*** https://github.com/kristopolous/BOOTSTRA.386
+** Notebooks
+*** https://github.com/jupytercalpoly/reactivepy
+*** https://github.com/executablebooks/jupyter-book
+** Testing
+*** https://github.com/Mikuu/Micoo - visual diff testing
+*** https://github.com/minimaxir/big-list-of-naughty-strings
+** Literate
+*** https://github.com/kosmikus/lhs2tex
+*** https://github.com/simplistix/sybil - testing in documentation
+** Distributed
+*** https://github.com/unisonweb/unison
+*** RPC
+**** gRPC
+***** https://github.com/grpc/grpc-web
+** Databases
+*** Relational
+**** https://github.com/EvgSkv/logica
+**** https://github.com/edgedb/edgedb - Graphs
+**** https://github.com/lorint/AdventureWorks-for-Postgres
+**** Tools
+***** https://github.com/dbcli/pgcli
+***** https://github.com/okbob/pspg
+***** https://github.com/djrobstep/migra
+***** https://github.com/julianhyde/sqlline
+***** https://github.com/monkeysintown/jdbc-ssh
+**** Streaming
+***** https://github.com/MaterializeInc/materialize
+***** https://github.com/confluentinc/ksql
+** Low code
+*** https://github.com/microsoft/Power-Fx
+** Rust
+*** https://github.com/flutter-rs/flutter-rs
+*** https://github.com/xTibor/rust-on-c64
+** Java
+*** https://github.com/jbangdev/jbang
+*** https://github.com/mabe02/lanterna - TUI
+*** https://github.com/testcontainers/testcontainers-java
+*** https://github.com/google/error-prone
+*** https://github.com/google/auto
+** Email
+*** https://github.com/moggers87/salmon - Mail applications
+** Misc
+*** https://github.com/rulex-rs/pomsky - regex alternative
+*** https://github.com/sourcegraph/doctree - code browser
+*** https://github.com/singer-io/getting-started
+* Anti social
+** Platforms
+*** https://github.com/taviso/nntpit - Reddit over NNTP
+*** https://github.com/CyberShadow/DFeed - Web NNTP
+*** https://github.com/epilys/tade - Forum, mailing list, NNTP
+** Pubnix
+*** https://github.com/cwmccabe/pubnixhist
+** Other
+*** https://github.com/SimonBrazell/privacy-redirect
+*** https://github.com/benbusby/farside
+* Tabular data
+** https://github.com/gristlabs/grist-core
+** https://github.com/aardappel/treesheets
+* Hardware
+** Phones
+*** https://github.com/Dakkaron/Fairberry - add Blackberry keyboard to other phones
+*** https://github.com/Genymobile/scrcpy - remote control Android
+*** https://github.com/wolpi/prim-ftpd
+* Other
+** https://github.com/jhuangtw/xg2xg
+** https://github.com/mzucker/noteshrink - handwriting to PDF
