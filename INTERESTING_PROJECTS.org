@@ -1,3 +1,7 @@
+I have decided to not use GitHub stars any more.
+Mainly because it excludes projects not on GitHub.
+Also keeping things in a Org mode means I can classify and add notes.
+
 * Technical writing
 ** Document formats
 *** https://github.com/nota-lang/nota - Proper parser, Markdown, LaTeX...
