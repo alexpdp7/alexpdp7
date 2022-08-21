@@ -3,6 +3,7 @@
 *** https://github.com/nota-lang/nota - Proper parser, Markdown, LaTeX...
 *** https://github.com/markdoc/markdoc
 *** https://github.com/christianvoigt/argdown - Argumentation
+*** https://github.com/jgm/djot - JGM designs a simpler Markdown, with an AST
 *** Markdown
 **** https://github.com/lezer-parser/markdown
 **** https://github.com/kivikakk/comrak
