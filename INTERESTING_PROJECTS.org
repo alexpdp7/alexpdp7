@@ -69,6 +69,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Observability
 *** https://github.com/equinix-labs/otel-cli
 *** https://github.com/timescale/promscale
+*** https://github.com/SigNoz/signoz
 ** Web development
 *** Frameworks
 **** https://github.com/hotwire-django/turbo-django
