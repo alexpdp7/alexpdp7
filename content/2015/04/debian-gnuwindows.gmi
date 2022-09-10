@@ -1,6 +1,8 @@
 # Debian GNU/Windows
 2015-04-11
 
+ACTUALIZACIÓN 2022-09-10: Obviamente ahora existe WSL, que es algo parecido a esto, pero no es lo mismo... Últimamente pienso que lo que molaría es coger una distro Linux, compilarla a WASM, y modificarla para que se pueda ejecutar como proceso de usuario sin privilegios.
+
 Aunque muchas veces digo que soy usuario de Linux (desde 2002 en casa, 2011 en el trabajo), la verdad es que lo que soy es usuario de Debian (también uso CentOS en algunos servidores).
 
 Debian aspira a ser el sistema operativo universal- su versión "testing" contiene la friolera de 58.000 paquetes de software, que incluyen un entorno tipo UNIX y el kernel de Linux, todo en un formato fácilmente instalable. Cantidad no equivalente siempre a calidad, pero al menos para mi, Debian cubre prácticamente todas mis necesidades informáticas con un coste mínimo en tiempo y dinero: en un momento tengo acceso a la mayoría del software que necesito en un entorno eficiente y agradable.
@@ -13,7 +15,7 @@ Son dos filosofías completamente diferentes. Debian aspira a empaquetar todo el
 
 Hasta ahora, obtener los beneficios de Windows y Debian suponía mantener dos sistemas. Yo personalmente tengo máquinas virtuales Windows que utilizo para acceder a software que sólo está disponible en Windows- como Microsoft Office, pero en general evito en la medida de lo posible usar Windows porque es un tostón trabajar dentro de una máquina virtual y por tanto aprovecho poco todo el software disponible para Windows.
 
-Ahora bien, Microsoft está cambiando y comienza a contemplar Linux como algo diferente a un enemigo a destruir. Curiosamente, Microsoft parece escoger Debian cuando comienza a acercarse a Linux (sin ir más lejos, han sacado un contenedor Docker para ejecutar aplicaciones de ASP.NET que es Debian Wheezy[1]).
+Ahora bien, Microsoft está cambiando y comienza a contemplar Linux como algo diferente a un enemigo a destruir. Curiosamente, Microsoft parece escoger Debian cuando comienza a acercarse a Linux (sin ir más lejos, han sacado un contenedor Docker para ejecutar aplicaciones de ASP.NET que es Debian Wheezy [actualización 2022-09-10: estrictamente ahora las imágenes de Docker de dotnet tienen de base Debian Bullseye, pero también Alpine, Ubuntu y CBL-Mariner, que es la distro Linux de Microsoft, pero basada en RPM]).
 
 Por otra parte, Debian está preparada para correr bajo otros sistemas operativos. Sin ir más lejos Debian GNU/kFreeBSD es Debian corriendo sobre FreeBSD. También anda por ahí un intento de ejecutar Debian sobre Hurd, el kernel de GNU que quizá algún día sea relevante.
 
@@ -28,6 +30,3 @@ En este mundo extraño con un Microsoft desconocido que saca software para sus c
 ...
 
 Postdata: soy plenamente consciente que OS X sería una alternativa a Windows en un escenario así. Sin embargo, debo decir que prefiero Windows. Apple y su entorno comienza a disgustarme más de lo que me disgustaba Microsoft. Y desde luego, creo que Apple sería infinitamente menos cooperativa.
-
-
-=> https://github.com/aspnet/aspnet-docker/blob/master/nightly/Dockerfile 1: https://github.com/aspnet/aspnet-docker/blob/master/nightly/Dockerfile

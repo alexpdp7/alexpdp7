@@ -22,41 +22,46 @@ libgreader proporciona cuatro alternativas a la hora de manejar la autenticació
 
 Para ello, he localizado django-social-auth[6], que integra en el sistema de autenticación de Django diversos mecanismos de login social entre los que se incluye OAuth2. La configuración de django-social-auth con OAuth2 es relativamente sencilla, simplemente tenemos que añadir el siguiente fragmento a nuestro settings.py[7]:
 
-> INSTALLED_APPS = (
-> # ...
-> 'social_auth',
-> )
-> 
-> AUTHENTICATION_BACKENDS = (
-> 'social_auth.backends.google.GoogleOAuth2Backend',
-> )
-> 
-> GOOGLE_OAUTH_EXTRA_SCOPE = [
-> 'https://www.googleapis.com/auth/userinfo.email[8]',
-> 'https://www.googleapis.com/auth/userinfo.profile[9]',
-> 'https://www.google.com/reader/api/[10]',
-> ]
-> 
-> LOGIN_URL = '/login/google-oauth2'
-> LOGIN_REDIRECT_URL = '/logged-in/'
-> LOGIN_ERROR_URL = '/login-error/'
-> 
-> GOOGLE_OAUTH2_CLIENT_ID = 'xxxx'
-> GOOGLE_OAUTH2_CLIENT_SECRET = 'xxxx'
+```
+INSTALLED_APPS = (
+    # ...
+    'social_auth',
+)
+
+AUTHENTICATION_BACKENDS = (
+    'social_auth.backends.google.GoogleOAuth2Backend',
+)
+
+GOOGLE_OAUTH_EXTRA_SCOPE = [
+    'https://www.googleapis.com/auth/userinfo.email[8]',
+    'https://www.googleapis.com/auth/userinfo.profile[9]',
+    'https://www.google.com/reader/api/[10]',
+]
+
+LOGIN_URL = '/login/google-oauth2'
+LOGIN_REDIRECT_URL = '/logged-in/'
+LOGIN_ERROR_URL = '/login-error/'
+
+GOOGLE_OAUTH2_CLIENT_ID = 'xxxx'
+GOOGLE_OAUTH2_CLIENT_SECRET = 'xxxx'
+```
+
 , donde los dos últimos parámetros los podemos obtener de la Google API Console[11] (donde también deberemos añadir las URLs de nuestra aplicación para validar el proceso de login)
 
 Con esto, con anotar una vista como @login_required, al visitarla se nos redirigirá a la página de autenticación de las cuentas Google donde haremos login y se nos redirigirá de nuevo a la vista ya autenticados (se creará un usuario de Django correspondiente al usuario de Google y se vinculará a la sesión del usuario).
 
 Finalmente, para "propagar" esta autenticación a libgreader, el mecanismo que he encontrado es extraer el token de acceso que recoge django-social-auth y almacena en una base de datos y pasárselo a libgreader, algo que he encapsulado en un módulo[12], pero que en realidad es bastante sencillo:
 
-> usa = UserSocialAuth.objects.get(user=user)
-> auth = OAuth2Method(settings.GOOGLE_OAUTH2_CLIENT_ID, settings.GOOGLE_OAUTH2_CLIENT_SECRET)
-> auth.authFromAccessToken(usa.extra_data['access_token'])
-> reader = GoogleReader(auth)
+```
+usa = UserSocialAuth.objects.get(user=user)
+auth = OAuth2Method(settings.GOOGLE_OAUTH2_CLIENT_ID, settings.GOOGLE_OAUTH2_CLIENT_SECRET)
+auth.authFromAccessToken(usa.extra_data['access_token'])
+reader = GoogleReader(auth)
+```
+
 , donde user es el usuario (que desde una vista podemos obtener por ejemplo haciendo request.user). Una vez tenemos esto, ya obtenemos el objeto GoogleReader que constituye el punto de acceso a la API.
 
 El resto de código implementado por el momento tan sólo obtiene la reading-list (los elementos sin leer) y muestra sus 20 primeras entradas.
-
 
 => http://blog.feedly.com/2013/03/14/google-reader/ 1: http://blog.feedly.com/2013/03/14/google-reader/
 => https://code.google.com/p/greader-unofficial/ 2: https://code.google.com/p/greader-unofficial/
