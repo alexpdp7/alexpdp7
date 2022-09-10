@@ -134,3 +134,7 @@ $ ./fix.py
 ```
 $ find content/ -name '*.gmi' -execdir sed -i 's|http[^ ]*watch?v=|https://farside.link/invidious/watch?v=|g' {} \;
 ```
+
+```
+$ { cat alex.corcoles.net_access.log alex.corcoles.net_access.log.1 ; zcat alex.corcoles.net_access.log.*gz ; } | cut -d \" -f 2 | grep GET | cut -d " " -f 2 | grep -E -e '^/[0-9]{4}/[0-9]{2}/.+' | grep -v '/feed/$' | sort | uniq -c | sort -n
+```
