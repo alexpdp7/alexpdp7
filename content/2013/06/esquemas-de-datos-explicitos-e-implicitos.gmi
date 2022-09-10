@@ -1,11 +1,11 @@
 # Esquemas de datos explícitos e implícitos
 2013-06-06
 
-Hablando de bases de datos relacionales, es común referirse al esquema de datos como la definición de las tablas, vistas, funciones, etc. que conforman la base de datos*. El esquema es sumamente importante, por supuesto, nos define qué datos admitimos y nos condiciona todo código que accede a la base de datos.
+Hablando de bases de datos relacionales, es común referirse al esquema de datos como la definición de las tablas, vistas, funciones, etc. que conforman la base de datos[1]. El esquema es sumamente importante, por supuesto, nos define qué datos admitimos y nos condiciona todo código que accede a la base de datos.
 
 Este es un esquema explícito; está ahí, podemos enumerar los objetos de los que se compone y conocer milimétricamente su estructura; podemos saber qué tablas hay y qué columnas tienen, etc.
 
-Ahora bien, supongamos que cogemos una aplicación que usa una base de datos y de repente, ocultamos el esquema. Asumamos por un momento que no podemos saber qué tablas hay, ni qué columnas, ni nada. Aún haciendo este gran cambio, nuestra aplicación seguirá funcionando**. Aún más, si desconectamos todas las restricciones de integridad y admitimos que se inserten valores en columnas que no existen (e incluso los almacenamos)... nuestra aplicación muy probablemente seguirá funcionando correctamente.
+Ahora bien, supongamos que cogemos una aplicación que usa una base de datos y de repente, ocultamos el esquema. Asumamos por un momento que no podemos saber qué tablas hay, ni qué columnas, ni nada. Aún haciendo este gran cambio, nuestra aplicación seguirá funcionando[2]. Aún más, si desconectamos todas las restricciones de integridad y admitimos que se inserten valores en columnas que no existen (e incluso los almacenamos)... nuestra aplicación muy probablemente seguirá funcionando correctamente.
 
 La primera observación interesante que podemos hacer es que aquello a lo que llamábamos el esquema de datos puede que no esté ahí, pero los datos que tenemos almacenados seguirán siguiendo el anterior esquema de datos. La programación seguirá condicionada por ese mismo esquema; seguiremos insertando en las tablas y columnas que definía el esquema.
 
@@ -17,7 +17,7 @@ Aparentemente, no. En cuanto a funcionamiento, quizá ocultemos y amplifiquemos 
 
 Pero cuando nos llegue el momento de modificar o ampliar el código, sí tendremos un problema: al no poder consultar el esquema, se dificultará mucho nuestra labor. El esquema explícito era eso: explícito, claro, fácil. El esquema implícito sigue ahí, pero está oculto. Lo duro es que antes bastaba con ajustarnos al esquema explícito de los datos, que estaba delante de nuestros ojos, pero ahora seguimos teniéndo que seguir un esquema de datos implícito, mucho más críptico. Tendremos que mirar los datos almacenados o el código para saber cómo se llamaba cada tabla y cada columna, y esta información muy probablemente no esté centralizada.
 
-Por supuesto, hay un caso en el que sí seguirá disponible. Si usamos un algo como un ORM, podremos contar con otro esquema explícito de datos; la definición del ORM -e incluso en algunos casos podremos reconstruir perfectamente el esquema a partir de la definición del ORM- claramente son conceptos si no equivalentes siempre, muy cercanos***. Si este esquema es suficientemente bueno, podría suplir perfectamente al esquema explícito de las bases de datos (e incluso mejorarlo: podría permitirnos expresar un esquema de datos más restringido).
+Por supuesto, hay un caso en el que sí seguirá disponible. Si usamos un algo como un ORM, podremos contar con otro esquema explícito de datos; la definición del ORM -e incluso en algunos casos podremos reconstruir perfectamente el esquema a partir de la definición del ORM- claramente son conceptos si no equivalentes siempre, muy cercanos[3]. Si este esquema es suficientemente bueno, podría suplir perfectamente al esquema explícito de las bases de datos (e incluso mejorarlo: podría permitirnos expresar un esquema de datos más restringido).
 
 Podríamos decir que el esquema de datos explícito de la base de datos no es estrictamente necesario, pero ciertamente, **un** esquema de datos explícito es una herramienta muy útil, quizás no tanto para el funcionamiento de las aplicaciones como para su codificación y mantenimiento.
 
@@ -25,13 +25,10 @@ Adicionalmente, es bien cierto que puedan existir datos que no se ajusten al mod
 
 Así pues, aunque es posible que un esquema relacional no sea lo más adecuado para nuestros datos, es falaz concluir que la ausencia de un esquema explícito es una ventaja -el esquema implícito sigue existiendo y nos debemos ajustar a él- y es más fácil ajustarse a algo explícito y claro que a algo implícito y oculto.
 
-* en algunos gestores de bases de datos, el término se confunde un poco porque se pueden separar los objetos de la base de datos en "esquemas" para gestionarlos mejor
+[1] en algunos gestores de bases de datos, el término se confunde un poco porque se pueden separar los objetos de la base de datos en "esquemas" para gestionarlos mejor
 
-** las bases de datos permiten a las aplicaciones consultar el esquema [explícito]; hay aplicaciones que utilizan esta funcionalidad (para permitir su personlización mediante la creación de nuevas tablas, etc.); en este poco frecuente caso, dejarían de funcionar, claro
+[2] las bases de datos permiten a las aplicaciones consultar el esquema [explícito]; hay aplicaciones que utilizan esta funcionalidad (para permitir su personlización mediante la creación de nuevas tablas, etc.); en este poco frecuente caso, dejarían de funcionar, claro
 
-*** lo que nos debería llevar a pensar que uno de los dos es redundante e innecesario
+[3] lo que nos debería llevar a pensar que uno de los dos es redundante e innecesario
 
-corregido por el de siempre[1]
-
-
-=> http://obm.corcoles.net 1: http://obm.corcoles.net
+=> https://obm.corcoles.net corregido por el de siempre

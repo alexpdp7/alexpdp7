@@ -46,17 +46,15 @@ Una vez asentados los fundamentos del desarrollo web, podemos comenzar a investi
 
 Lógicamente, esta es una vía "ideal". Quizás no debe completarse completamente, si no hemos de trabajar en proyectos muy complejos Java es una exageración, o bien la vida nos lleve a sumergirnos en otras tecnologías, pero es un recorrido completo. Si no llegamos a Java (o incluso si llegamos), puede ser conveniente pasar tiempo usando algún microframework que no nos dé un stack completo como el de Django, Django nos lo da casi todo mascado y seguramente hay detalles interesantes de conocer a bajo nivel que nos perdamos. Hacer desarrollo web sin un stack completo ciertamente puede ayudarnos a completar nuestras habilidades. Podemos hacer esto tanto en Python (usando un microframework de los muchos existentes, o incluso desarrollando el nuestro) como en Java (programando directamente servlets en vez de usar el MVC de Spring) o en cualquier otro lenguaje.
 
-nota: más ediciones y sugerencias del de siempre[11].
+=> https://www.tiobe.com/tiobe-index/ [1] El índice TIOBE
+=> https://www.php.net/ [2] PHP
+=> https://www.perl.org [3] Perl
+=> https://en.wikipedia.org/wiki/JavaScript [4] JavaScript
+=> https://docs.microsoft.com/en-us/dotnet/csharp/ [5] C#
+=> https://docs.microsoft.com/en-us/dotnet/visual-basic/ [6] Visual Basic .NET
+=> https://www.python.org/ [7] Python
+=> https://www.djangoproject.com/ [8] Django
+=> https://www.oracle.com/java/ [9] Java
+=> https://jquery.com/ [10] jQuery
 
-
-=> http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html 1: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
-=> http://www.php.net/ 2: http://www.php.net/
-=> http://www.perl.org 3: http://www.perl.org
-=> http://en.wikipedia.org/wiki/JavaScript 4: http://en.wikipedia.org/wiki/JavaScript
-=> http://msdn.microsoft.com/en-us/vstudio/hh388566.aspx 5: http://msdn.microsoft.com/en-us/vstudio/hh388566.aspx
-=> http://msdn.microsoft.com/en-us/vstudio/hh388568.aspx 6: http://msdn.microsoft.com/en-us/vstudio/hh388568.aspx
-=> http://www.python.org/ 7: http://www.python.org/
-=> https://www.djangoproject.com/ 8: https://www.djangoproject.com/
-=> http://www.oracle.com/technetwork/java/index.html 9: http://www.oracle.com/technetwork/java/index.html
-=> http://jquery.com/ 10: http://jquery.com/
-=> http://obm.corcoles.net 11: http://obm.corcoles.net
+=> http://obm.corcoles.net nota: más ediciones y sugerencias del de siempre
