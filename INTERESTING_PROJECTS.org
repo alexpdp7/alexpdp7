@@ -28,6 +28,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 *** https://github.com/mthom/scryer-prolog/
 *** https://github.com/rla/prolog-markdown
 ** https://github.com/hydro-project/rust-sitter - TreeSitter in Rust
+** https://github.com/jzimmerman/langcc
 ** https://github.com/petitparser/dart-petitparser
 ** https://github.com/metaborg/sdf
 ** https://github.com/antlr/grammars-v4
