@@ -5,6 +5,7 @@ Specifically, if you have seen files named `requirements.txt` and have wondered 
 
 If you are starting to write Python software and you are looking at an introductory text about distributing your software and using dependencies, I would recommend you to skip directly to using the "new generation" Python packaging tools.
 This way, you can avoid most of the complexities in this post.
+You can also check out the [Python Packaging User Guide](https://packaging.python.org/en/latest/).
 
 Most programs can use third-party libraries to implement parts of their functionality without implementing everything from scratch.
 
@@ -104,7 +105,12 @@ Also, this approach of dependency management is not obvious, and may not be easy
 For these reasons, several projects have appeared that implement approaches similar to the one described above, but more automatic and prescriptive.
 These projects often manage automatically a file equivalent to `requirements.txt`, while the developer only specifies coarse dependencies for applications.
 
+Some of these tools are listed by [a page about relevant projects about packaging](https://packaging.python.org/en/latest/key_projects/) maintained by the [Python Packaging Authority](https://www.pypa.io/).
+Look for tools about managing dependencies and packaging.
+
 Thanks to some improvements in the Python ecosystem, pip can nowadays install dependencies using many different packaging tools correctly.
 
 These projects can also offer some other improvements, so I would encourage Python developers to investigate them and try them out.
+
 However, also note that following a correct approach, Setuptools and manual version locking are perfectly valid ways to manage Python code dependencies.
+Also, there are projects such as [pip-tools](https://github.com/jazzband/pip-tools) that complement Setuptools, addressing many of the issues described here, without requiring entirely new packaging tools.
