@@ -25,10 +25,10 @@ Following this advice can make your tools easy to install by others, pleasant to
     Use it with a [ThreadPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ThreadPoolExecutor) if the parallel tasks are IO-bound or invoke other programs, or with [ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#processpoolexecutor) if they perform significant CPU work in Python (to avoid the [GIL](https://wiki.python.org/moin/GlobalInterpreterLock)).
   * Consider using the standard [logging](https://docs.python.org/3/library/logging.html) module with a format that uses a timestamp, so users can inspect how much time is spent in different parts of the program.
     You can also use logging module to implement flags such as `--debug` and `--verbose`.
-* Although you can use other fancier tools for parsing command-line arguments, the standard [argparse](https://docs.python.org/3/library/argparse.html) module is good enough for most tools.
+* Although fancier tools exist, the standard [argparse](https://docs.python.org/3/library/argparse.html) module is good enough for most argument parsing.
   It has decent support for [sub-commands](https://docs.python.org/3/library/argparse.html#sub-commands), and the linked document describes a very nice pattern to define functions for sub-commands, under "One particularly effective way of handling sub-commands..."
-  Try to provide help texts for parameters that may not be obvious.
-  argparse supports a lot of different argument types, such as enumerated options, integers, file names, and others, that provide a lot of functionality out of the box.
+  Provide help text for non-obvious parameters.
+  argparse supports a lot of different argument types with a lot of functionality out of the box, such as enumerated options, integers, and file names.
 * Remember that the standard [json](https://docs.python.org/3/library/json.html) module is built-in.
   You can use it to add a mode to your tool that generates JSON output instead of human-readable output, for easy automation of your tool, maybe using [jq](https://stedolan.github.io/jq/) or [fx](https://github.com/antonmedv/fx).
 * Use the standard [subprocess](https://docs.python.org/3/library/subprocess.html) module to execute other commands.
