@@ -1,4 +1,10 @@
-# A brief explanation of Python dependency management
+# Some brief notes about Python dependency management
+
+This article is mostly written for people who have already used Setuptools and have faced issues derived from its "limitations".
+Specifically, if you have seen files named `requirements.txt` and have wondered how they work, what problem do they solve, and if they are something you should investigate, I hope you find this article interesting.
+
+If you are starting to write Python software and you are looking at an introductory text about distributing your software and using dependencies, I would recommend you to skip directly to using the "new generation" Python packaging tools.
+This way, you can avoid most of the complexities in this post.
 
 Most programs can use third-party libraries to implement parts of their functionality without implementing everything from scratch.
 
