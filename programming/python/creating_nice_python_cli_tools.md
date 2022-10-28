@@ -26,6 +26,7 @@ Following this advice can make your tools easy to install by others, pleasant to
   * Consider using the standard [logging](https://docs.python.org/3/library/logging.html) module with a format that uses a timestamp, so users can inspect how much time is spent in different parts of the program.
     You can also use logging module to implement flags such as `--debug` and `--verbose`.
 * Although fancier tools exist, the standard [argparse](https://docs.python.org/3/library/argparse.html) module is good enough for most argument parsing.
+  The main functionality missing is easy tab completion.
   It has decent support for [sub-commands](https://docs.python.org/3/library/argparse.html#sub-commands), and the linked document describes a very nice pattern to define functions for sub-commands, under "One particularly effective way of handling sub-commands..."
   Provide help text for non-obvious parameters.
   argparse supports a lot of different argument types with a lot of functionality out of the box, such as enumerated options, integers, and file names.
