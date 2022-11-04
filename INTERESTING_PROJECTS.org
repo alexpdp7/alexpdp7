@@ -134,6 +134,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 *** https://github.com/rulex-rs/pomsky - regex alternative
 *** https://github.com/sourcegraph/doctree - code browser
 *** https://github.com/singer-io/getting-started
+*** https://github.com/kellyjonbrazil/jc - JSON converter for common CLI tools
 * Anti social
 ** Platforms
 *** https://github.com/taviso/nntpit - Reddit over NNTP
