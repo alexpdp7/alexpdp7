@@ -1,0 +1,29 @@
+# Melón
+2022-11-05
+
+Toca edición medio especial, porque un señor con más dinero que cabeza me trolea.
+
+Leo Twitter, porque hay gente a la que sólo puedo seguir en Twitter. Posteo en Twitter, porque hay gente que me lee en Twitter que creo que se "perdería" mi contenido si no lo pusiese allí.
+
+Pero lo importante es que yo no obligo a nadie a usar Twitter para seguirme. Todo lo que pongo allí son enlaces a un blog que tiene RSS. Si alguien necesita algo más que un RSS (pensaba que Mastodon permitía seguir RSS), me enviáis un correo y lo hablamos.
+
+Pero creo que esta es la clave. No publiquéis contenido exclusivamente en un medio cerrado como Twitter (o Facebook, o Instagram). El otro día tuve el hito de poder comenzar a seguir a alguien que estaba exclusivamente en Twitter por otro medio, y fue maravilloso.
+
+Con plataformas abiertas, todos viviríamos mejor. Si alguien os puede obligar a pasar por el aro, se pierden muchas ventajas. Puedo usar IRC con clientes de todo tipo, y no tengo que hundir mi portátil de la manera que lo hundo cuando participo en comunidades que usan Slack, Discord o Google Chat. Uso GMail, pero tengo una copia de todo mi correo y mi dirección es propiedad de un familiar, no de Google; si Google cruza las líneas que cruzó Facebook en su día, podré moverme en vez de abandonar el barco. Telegram no es ideal, pero al menos existe cierta libertad en la elección de la aplicación que use uno para interactuar con Telegram.
+
+Seguís pudiendo abrir un blog gratis en muchos sitios, donde no sólo os pueden leer la legión de usuarios de Twitter, sino *TODOS* los usuarios de Internet con un navegador, sin tener que registrarse en ningún sitio.
+
+También os pediría que os replantearais lo del microblogging. Sigue teniendo usos legítimos, pero existen muchas alternativas para expresaros.
+
+=> https://www.theguardian.com/tv-and-radio/2022/oct/20/ceefax-is-dead-long-live-ceefax-meet-the-fans-resurrecting-the-ingenious-service Hubo una época en el que el teletexto era más popular que Twitter.
+=> https://join-lemmy.org/news/2022-11-02-_First_release_of_LemmyBB Y por qué no hablar de phpBB. lemmyBB igual es de lo más interesante del fediverso.
+=> https://en.wikipedia.org/wiki/Ignaz_Semmelweis Todos conocemos el impacto de eso de lavarse las manos antes de operar. Lo que creo que no todos sabemos es qué pasó con el que lo inventó.
+=> https://www.polygon.com/animation-cartoons/20971782/x-men-the-animated-series-best-episodes-creator-interviews Me temía un arduo periplo como el de Gargoyles para repasar los fascinantes dibujos de la Patrulla X de los noventa (en D+). Pero sus creadores han tenido el detalle de seleccionar los mejores episodios.
+=> https://www.reddit.com/r/dune/comments/y256x6/aigenerated_art_is_not_allowed_on_this_subreddit/ "Thou shalt not make a machine in the likeness of a human mind." /r/dune es coherente.
+=> http://nlpprogress.com/ Que aunque soy un escéptico de todo esto, admito que me he de poner al día sobre el estado del arte del procesado de lenguaje natural. Un amable castellano me ha hecho llegar este aparentemente maravilloso índice.
+=> https://www.polygon.com/23425085/splatoon-jelfonzo-fuck-you-shirt-inklanguage-translation Y ya sabéis que me derrito con los lenguajes ficticios. Pero que sean subversión en el universo Nintendo es delicioso.
+=> https://disneymusic.co/LofiMinnieFocus El imperio del ratón se apunta a todas las nuevas tendencias, claro.
+=> https://www.lapaginadefinitiva.com/2022/10/17/el-senor-de-los-anillos-los-anillos-de-poder-amazon-2022/ A mí me ha gustado Los Anillos del Poder. Pero La Página Definitiva sigue viva y su reseña es reseñable.
+=> https://hpjansson.org/blag/2022/11/01/balance-of-power-a-rematch-served-cold/ En su momento jugué poco al Balance of Power. Este análisis no me hará recuperarlo, pero sólo porque no soy mucho de los juegos de pensar.
+=> https://unifiedpush.org/ El push en los móviles es una de las cosas importantes cerradas. UnifiedPush es un paso en la dirección correcta.
+=> https://arstechnica.com/gadgets/2022/10/apple-clarifies-security-update-policy-only-the-latest-oses-are-fully-patched/ La oscuridad de Apple en materia de seguridad siempre me ha llamado la atención. Otro día hablamos de la conspiranoia sobre que sus movimientos en privacidad sean una hipócrita jugada maestra.
