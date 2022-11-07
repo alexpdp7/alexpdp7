@@ -122,6 +122,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Rust
 *** https://github.com/flutter-rs/flutter-rs
 *** https://github.com/xTibor/rust-on-c64
+*** https://crates.io/crates/crossterm
 ** Java
 *** https://github.com/jbangdev/jbang
 *** https://github.com/mabe02/lanterna - TUI
