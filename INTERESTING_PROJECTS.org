@@ -138,6 +138,9 @@ Also keeping things in a Org mode means I can classify and add notes.
 *** https://github.com/kellyjonbrazil/jc - JSON converter for common CLI tools
 * Anti social
 ** Platforms
+*** Fediverse
+**** https://github.com/bashrc2/epicyon
+**** https://microblog.pub/
 *** https://github.com/taviso/nntpit - Reddit over NNTP
 *** https://github.com/CyberShadow/DFeed - Web NNTP
 *** https://github.com/epilys/tade - Forum, mailing list, NNTP
