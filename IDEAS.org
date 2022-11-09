@@ -87,6 +87,10 @@ See https://github.com/EvgSkv/logica
 - Timestamp stdout/stderr for crude profiling
 - Implement a CI system on top?
 
+* ActivityPub reverse proxy
+
+Run the reverse proxy on your domain so you can "duplicate" your identity on your own domain
+
 * Statically-typed AST transform-friendly language
 
 - A Haskell/Rusty language, but with GC and nice compiler errors.
