@@ -1,8 +1,4 @@
 # Un doctor diagnostica los sistemas informáticos
 2020-09-01
 
-https://www.newyorker.com/magazine/2018/11/12/why-doctors-hate-their-computers[1][2]
-
-
-=> https://www.newyorker.com/magazine/2018/11/12/why-doctors-hate-their-computers 1: https://www.newyorker.com/magazine/2018/11/12/why-doctors-hate-their-computers
-=> https://www.newyorker.com/magazine/2018/11/12/why-doctors-hate-their-computers 2: https://www.newyorker.com/magazine/2018/11/12/why-doctors-hate-their-computers
+=> https://www.newyorker.com/magazine/2018/11/12/why-doctors-hate-their-computers

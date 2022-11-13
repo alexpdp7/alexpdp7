@@ -1,18 +1,8 @@
 # Ronda relámpago
 2020-10-04
 
-* La quijotesca saga inacabada de Disney y el ingenioso hidalgo[1]
-* ¿Por qué los sistemas POSIX tienen un binario de[2] `[cd](https://unix.stackexchange.com/questions/50058/what-is-the-point-of-the-cd-external-command)` (que no puede servir para cambiar de directorio)?[3]
-* El código fuente[4] *anotado[5]* del juego más elitista[6]
-* Siempre se me escapa el nombre del efecto amnésico de Gell-Mann, que acuñó Michael Crichton[7]
-* Uno de cada 400 planetas de No Man's Sky tienen Diplos. La tragedia de su extinción en New Lennon[8]
-
-
-=> https://www.polygon.com/entertainment/2020/9/15/21436961/disneys-failed-attempts-to-bring-don-quixote-to-the-screen 1: https://www.polygon.com/entertainment/2020/9/15/21436961/disneys-failed-attempts-to-bring-don-quixote-to-the-screen
-=> https://unix.stackexchange.com/questions/50058/what-is-the-point-of-the-cd-external-command 2: https://unix.stackexchange.com/questions/50058/what-is-the-point-of-the-cd-external-command
-=> https://unix.stackexchange.com/questions/50058/what-is-the-point-of-the-cd-external-command 3: https://unix.stackexchange.com/questions/50058/what-is-the-point-of-the-cd-external-command
-=> https://www.bbcelite.com/ 4: https://www.bbcelite.com/
-=> https://www.bbcelite.com/ 5: https://www.bbcelite.com/
-=> https://www.bbcelite.com/ 6: https://www.bbcelite.com/
-=> https://en.wikipedia.org/wiki/Michael_Crichton#Other_speeches 7: https://en.wikipedia.org/wiki/Michael_Crichton#Other_speeches
-=> https://www.polygon.com/2020/9/30/21495266/no-mans-sky-origins-update-diplo-new-lennon-extinct-galactic-hub-hello-games 8: https://www.polygon.com/2020/9/30/21495266/no-mans-sky-origins-update-diplo-new-lennon-extinct-galactic-hub-hello-games
+=> https://www.polygon.com/entertainment/2020/9/15/21436961/disneys-failed-attempts-to-bring-don-quixote-to-the-screen La quijotesca saga inacabada de Disney y el ingenioso hidalgo
+=> https://unix.stackexchange.com/questions/50058/what-is-the-point-of-the-cd-external-command ¿Por qué los sistemas POSIX tienen un binario de cd (que no puede servir para cambiar de directorio)?
+=> https://www.bbcelite.com/ El código fuente *anotado* del juego más elitista
+=> https://en.wikipedia.org/wiki/Michael_Crichton#Other_speeches Siempre se me escapa el nombre del efecto amnésico de Gell-Mann, que acuñó Michael Crichton.
+=> https://www.polygon.com/2020/9/30/21495266/no-mans-sky-origins-update-diplo-new-lennon-extinct-galactic-hub-hello-games Uno de cada 400 planetas de No Man's Sky tienen Diplos. La tragedia de su extinción en New Lennon
