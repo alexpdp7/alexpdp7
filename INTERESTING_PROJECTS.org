@@ -149,6 +149,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Other
 *** https://github.com/SimonBrazell/privacy-redirect
 *** https://github.com/benbusby/farside
+*** https://github.com/timhutton/twitter-archive-parser
 * Tabular data
 ** https://github.com/gristlabs/grist-core
 ** https://github.com/aardappel/treesheets
