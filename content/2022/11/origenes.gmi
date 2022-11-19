@@ -1,0 +1,16 @@
+# Orígenes
+2022-11-19
+
+Para los que estéis perdidos sin esa web de la que usted me habla, mi insomnio ha decidido que os dedique un ratito.
+
+=> https://github.com/alexpdp7/alexpdp7/blob/master/FUENTES.md He recopilado algunos de los sitios en Internet que sigo por RSS.
+
+Ahora mismo son treinta y pico sitios web que tienen feed RSS, ligeramente clasificados.
+
+Mi recomendación es que os vayáis iniciando en el RSS por lo que pudiera pasar. Sigue siendo un mecanismo la mar de práctico para recibir actualizaciones de sitios web de una manera eficiente. Incluso si la gente se pasa a Mastodon, podéis seguir a usuarios de Mastodon por RSS (basta añadir .rss a la URL).
+
+=> https://feedly.com/ Podéis comenzar con Feedly, que con 100 feeds gratis, da para rato.
+
+(A los que me podáis escribir y describir de alguna manera una relación conmigo, si queréis os abro una cuenta en mi Miniflux personal. Ilimitado, sencillito y sin problemas.)
+
+Cambiar de lector de RSS es trivial (todos importan y exportan listados de fuentes en el formato OPML), así que no os comáis la cabeza con qué servicio usar. Incluso si no queréis instalar nada, ayer indagué un poco y el soporte de Chrome para RSS parece usable, aunque necesita hacer una frikada en el navegador para activarlo.
