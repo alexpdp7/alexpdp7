@@ -1,3 +1,5 @@
+(Véase [el artículo correspondiente en mi blog](https://t.co/Vyzn78riPZ).)
+
 # Gente
 
 * [https://www.jwz.org/blog/](jwz) el blog de JWZ, uno de los inventores de Internet.
