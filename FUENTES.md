@@ -1,7 +1,7 @@
 # Gente
 
 * [https://www.jwz.org/blog/](jwz) el blog de JWZ, uno de los inventores de Internet.
-* [Maartje Eyskens](https://blahaj.social/@maartje.rss) brevemente excompañera de trabajo, curioso cruce entre retrotecnología (faxes, Windows 2000, etc.), trenes y tiburones de IKEA.
+* [Maartje Eyskens](https://blahaj.social/@maartje.rss) brevemente excompañera de trabajo, curioso cruce entre retrotecnologia (faxes, Windows 2000, etc.), trenes y tiburones de IKEA.
 * [Danger Mouse](https://www.dangermouse.net/), astrofísico, es mediofamoso por sus webcómics de Lego, decanos de Internet.
   El blog es su vida cotidiana, como profesor particular de ética y ciencia.
   De vez en cuando cuelga artículos divulgativos excelentes.
@@ -18,7 +18,7 @@
 * [XKCD](https://xkcd.com/)
 * [El Mundo Today](https://www.elmundotoday.com) aunque ya no es el fenómeno que era, los titulares me hacen reír (aunque nunca entro al artículo).
 * [Penny Arcade](https://www.penny-arcade.com/comic/) una tira clásica sobre subcultura, principalmente videojuegos.
-  A veces descarrilan, a veces se pierden en sus mundos de fantasia, pero ocasionalmente aún me hacen sonreír.
+  A veces descarrilan, a veces se pierden en sus mundos de fantasía, pero ocasionalmente aún me hacen sonreír.
 
 # Potenciales Mastodon
 
@@ -31,7 +31,7 @@
 
 * [The Film Experience](http://thefilmexperience.net/blog/) es un blog de cine al que me aficioné en la prehistoria.
   Lleva activo desde 2009.
-  Ha incorporado nuevos columnistas, aunque a mi la verdad sólo me interesan los artículos de su fundador, Nathaniel Rogers.
+  Ha incorporado nuevos columnistas, aunque a mí la verdad sólo me interesan los artículos de su fundador, Nathaniel Rogers.
 * [LoQueYoTeDiga](https://www.elcinedeloqueyotediga.net/) herederos del programa de cine mítico de Cadena Ser.
   Tienen un podcast, pero yo no tengo paciencia para los podcasts.
   Sacan reseñas de todo lo que se estrena en España, el día del estreno.
