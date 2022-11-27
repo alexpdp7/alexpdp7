@@ -1,0 +1,32 @@
+# El doble factor y su progenitora
+2022-11-27
+
+Google me ha obligado a poner autenticación de doble factor. No estoy nada contento. El doble factor es fantástico e imprescindible en entornos empresariales, pero una bomba de relojería en algo como Google, donde prácticamente no tenemos relación con la empresa. Es relativamente complejo tener un buen respaldo del doble factor si no tenemos mecanismos como poder ir a un sitio físico y enseñar nuestro DNI para identificarnos; si no podemos hacer algo así, o bien usamos un respaldo relativamente poco seguro como es SMS, o tenemos que tener una buena estrategia para mantener ese respaldo, lo cual es algo complejo para mucha gente que depende mucho de su cuenta de Google.
+
+Yo personalmente tengo SMS activado (porque no estoy preocupado de un ataque dirigido a mi persona) y también tengo un factor en un Bitwarden (bueno, Vaultwarden) autogestionado. Pero me parece que ahora mismo el mejor respaldo para los usuarios de Google en general es el SMS... y deberíamos irnos apartando del SMS (no lo digo yo, lo dice el NIST).
+
+En mi monotema, el blog de Martin Fowler (no escrito siempre por Martin Fowler) recomienda a las organizaciones tener su propio Mastodon[1], que me parece una idea estupenda que resuelve bastante el "cringe" de cuando queremos hablar de nuestra empresa en redes sociales. JWZ se hace las mismas preguntas que yo sobre ser el propietario de nuestro dominio en ActivityPub[2]. Pero parece que finalmente alguien ha decidido a hacer algo al respecto[3].
+
+Pero igual se simplifica todo porque Tumblr también tiene su propio "cringe"[4]... y parece que añadirá ActivityPub[5].
+
+=> https://martinfowler.com/articles/your-org-run-mastodon.html [1] Your organization should run its own Mastodon server
+=> https://www.jwz.org/blog/2022/11/using-your-own-domain-as-a-mastodon-handle/ [2] (JWZ) Using your own domain as a Mastodon handle
+=> https://jointakahe.org/ [3] Un servidor de ActivityPub multidominio.
+=> https://www.polygon.com/23451836/twitter-alternative-tumblr-cringeposting [4] How Tumblr cringeposters are fighting against a Twitter influx
+=> https://farside.link/nitter/photomatt/status/1594577983028740096 [5] Matt Mullenweg: Come to @tumblr. We'll add activitypub for interconnect. Don't stress.
+=> https://github.com/writefreely/writefreely/pull/273 Pero quizá WriteFreely sea el mejor sistema de ActivityPub... ¡porque soporta Gopher!
+
+=> https://toot.wales/@llamasoft_ox Pero bueno, Jeff Minter ya va explicándonos la historia de su rebaño (literal) en Mastodon, en una instancia galesa...
+=> https://toot.wales/tags/Defaidodon ... donde arrasa el #defaidodon.
+
+Relacionado con protocolos abiertos, por motivos oscuros, al final he descubierto que Telegram funciona razonablemente bien en Pidgin. Aunque Telegram sigue formando parte del eje del mal, su actitud respecto a clientes alternativos es única dentro del eje, y debemos celebrarlo.
+
+El resto, en batiburrillo:
+
+=> https://farside.link/nitter/ClaraGrima/status/1592189665565724674 Sólo un miembro de esa rara especie que conocemos como matemático describe como "tarea 'muy rica' para jugar y practicar con las restas" a un problema que casi me hace explotar el cerebro.
+=> https://xkcd.com/2694/ xkcd con chiste sobre Königsberg
+=> https://xkcd.com/2696/ y xkcd sobre el tocino y la velocidad
+=> https://goattack.alignmentfund.org/ Las inteligencias artificiales que juegan tienen sus propias vulnerabilidades...
+=> https://github.com/facebookresearch/diplomacy_cicero ... pero que jueguen bien al Diplomacia sí me impresiona.
+=> https://news.ycombinator.com/item?id=33622825 El vasco en HN: Hand of Irulegi: ancient artefact could help trace origins of Basque language
+=> https://arcadeblogger.com/2022/11/20/the-last-ridge-racer/ Los que conserváis el recuerdo del Ridge Racer de las Ramblas, aplaudiréis una de las iniciativas más dramáticas de preservación del videojuego.
