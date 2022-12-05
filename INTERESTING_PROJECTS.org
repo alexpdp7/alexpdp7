@@ -119,6 +119,8 @@ Also keeping things in a Org mode means I can classify and add notes.
 ***** https://github.com/confluentinc/ksql
 ** Low code
 *** https://github.com/microsoft/Power-Fx
+** Python
+*** https://github.com/inducer/pudb Full-screen console debugger for Python
 ** Rust
 *** https://github.com/flutter-rs/flutter-rs
 *** https://github.com/xTibor/rust-on-c64
