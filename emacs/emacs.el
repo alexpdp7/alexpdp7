@@ -1,5 +1,12 @@
 ;; symlink this file to ~/.emacs
 
+;; if you get "End of file during parsing", refer to:
+;;
+;; https://github.com/radian-software/straight.el#debugging
+;;
+;; , particularly the note "Sometimes, in a corporate environment"... you
+;; might need to clone straight.el into ~/.emacs.d manually
+
 (defvar bootstrap-version)
 (let ((bootstrap-file
        (expand-file-name "straight/repos/straight.el/bootstrap.el" user-emacs-directory))
