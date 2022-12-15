@@ -50,3 +50,4 @@
           (lambda () (setq indent-tabs-mode nil)))
 (setq rust-format-on-save t)
 
+(straight-use-package 'elpy)
