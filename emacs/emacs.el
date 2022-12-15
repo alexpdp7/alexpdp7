@@ -20,7 +20,7 @@
       (eval-print-last-sexp)))
   (load bootstrap-file nil 'nomessage))
 
-;;(straight-use-package 'helm)
+(straight-use-package 'helm)
 (straight-use-package 'projectile)
 (straight-use-package 'adoc-mode)
 (straight-use-package
