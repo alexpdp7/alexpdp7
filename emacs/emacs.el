@@ -20,7 +20,7 @@
       (eval-print-last-sexp)))
   (load bootstrap-file nil 'nomessage))
 
-(straight-use-package 'helm)
+;;(straight-use-package 'helm)
 (straight-use-package 'projectile)
 (straight-use-package 'adoc-mode)
 (straight-use-package
@@ -32,7 +32,7 @@
 (global-set-key (kbd "M-x") #'helm-M-x)
 (global-set-key (kbd "C-x r b") #'helm-filtered-bookmarks)
 (global-set-key (kbd "C-x C-f") #'helm-find-files)
-(helm-mode 1)
+;; (helm-mode 1) Disabled for now, this interferes with C-x b/C-x C-b
 
 (add-hook 'adoc-mode-hook #'flymake-vale-load)
 (add-hook 'find-file-hook 'flymake-vale-maybe-load)
