@@ -40,3 +40,6 @@
 (add-hook 'adoc-mode-hook #'flymake-vale-load)
 (add-hook 'find-file-hook 'flymake-vale-maybe-load)
 (add-hook 'adoc-mode-hook 'flymake-mode)
+
+(straight-use-package 'lsp-mode)
+(straight-use-package 'company-mode)
