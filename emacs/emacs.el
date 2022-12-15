@@ -51,3 +51,4 @@
 (setq rust-format-on-save t)
 
 (straight-use-package 'elpy)
+(elpy-enable)
