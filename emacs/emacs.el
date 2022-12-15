@@ -43,3 +43,10 @@
 
 (straight-use-package 'lsp-mode)
 (straight-use-package 'company-mode)
+
+(straight-use-package 'rust-mode)
+(add-hook 'rust-mode-hook #'lsp)
+(add-hook 'rust-mode-hook
+          (lambda () (setq indent-tabs-mode nil)))
+(setq rust-format-on-save t)
+
