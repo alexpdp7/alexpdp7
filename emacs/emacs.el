@@ -54,3 +54,6 @@
 
 (straight-use-package 'elpy)
 (elpy-enable)
+
+(straight-use-package 'lsp-java)
+(add-hook 'java-mode-hook 'lsp)
