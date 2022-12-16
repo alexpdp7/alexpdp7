@@ -44,6 +44,7 @@
 
 (straight-use-package 'lsp-mode)
 (straight-use-package 'company-mode)
+(straight-use-package 'lsp-ui)
 
 (straight-use-package 'rust-mode)
 (add-hook 'rust-mode-hook #'lsp)
