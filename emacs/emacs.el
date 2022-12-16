@@ -28,6 +28,7 @@
 ;; (helm-mode 1) Disabled for now, this interferes with C-x b/C-x C-b
 
 (straight-use-package 'projectile)
+(straight-use-package 'helm-projectile)
 
 (projectile-mode +1)
 (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
