@@ -57,3 +57,7 @@
 
 (straight-use-package 'lsp-java)
 (add-hook 'java-mode-hook 'lsp)
+
+(straight-use-package 'yaml-mode)
+(straight-use-package 'ansible)
+(add-hook 'yaml-mode-hook 'ansible)
