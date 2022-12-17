@@ -59,7 +59,10 @@
 (add-hook 'java-mode-hook 'lsp)
 
 (straight-use-package 'yaml-mode)
+
+;; lsp-mode seems unusably slow, so don't install the Ansible language server
 (straight-use-package 'ansible)
 (add-hook 'yaml-mode-hook 'ansible)
 
+;; mostly for syntax highlighting
 (straight-use-package 'puppet-mode)
