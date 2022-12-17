@@ -1,0 +1,40 @@
+---
+- name: apply puppet config
+  hosts: all
+  collections:
+    - ansible.builtin
+    - community.general
+
+  tasks:
+    - name: install puppet
+      package:
+        name: puppet
+    - name: create local temporary directory
+      tempfile:
+        state: directory
+      register: local_temp
+      delegate_to: 127.0.0.1
+    - name: create remote temporary directory
+      tempfile:
+        state: directory
+      register: remote_temp
+    - name: package manifests
+      archive:
+        path: ../puppet
+        dest: "{{ local_temp.path }}/puppet.tar.gz"
+      delegate_to: 127.0.0.1
+    - name: unpackage manifests
+      unarchive:
+        src: "{{ local_temp.path }}/puppet.tar.gz"
+        dest: "{{ remote_temp.path }}"
+    - name: run puppet
+      command: puppet apply {{ remote_temp.path }}
+    - name: clean up local temporary directory
+      file:
+        state: absent
+        path: "{{ local_temp.path}}"
+      delegate_to: 127.0.0.1
+    - name: clean up remote temporary directory
+      file:
+        state: absent
+        path: "{{ remote_temp.path }}"
