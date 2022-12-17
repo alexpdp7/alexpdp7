@@ -61,6 +61,7 @@
 (straight-use-package 'yaml-mode)
 
 ;; lsp-mode seems unusably slow, so don't install the Ansible language server
+;; if you want to get it working, try https://www.reddit.com/r/emacs/comments/ybbkks/how_to_properly_set_up_lsp_ansible_language/itfxoaa/
 (straight-use-package 'ansible)
 (add-hook 'yaml-mode-hook 'ansible)
 
