@@ -1,6 +1,6 @@
-= Proxmox
+# Proxmox
 
-== Networking
+## Networking
 
 Configures a public Internet IP, and an internal network with forwarding for containers and virtual machines.
 
