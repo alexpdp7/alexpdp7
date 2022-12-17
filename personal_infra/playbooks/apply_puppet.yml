@@ -27,8 +27,24 @@
       unarchive:
         src: "{{ local_temp.path }}/puppet.tar.gz"
         dest: "{{ remote_temp.path }}"
+    - name: dump variables
+      copy:
+        dest: "{{ remote_temp.path }}/vars.json"
+        content: "{{ hostvars }}"
+    - name: create hiera.yaml
+      copy:
+        dest: "{{ remote_temp.path }}/hiera.yaml"
+        content: |
+          version: 5
+          hierarchy:
+            - name: ansible
+              datadir: {{ remote_temp.path }}
+              path: vars.json
+              data_hash: json_data
     - name: run puppet
-      command: puppet apply {{ remote_temp.path }}
+      command: puppet apply {{ remote_temp.path }} --modulepath={{ remote_temp.path }}/puppet/modules --hiera_config={{ remote_temp.path }}/hiera.yaml
+      environment:
+        FACTER_ansible_inventory_hostname: "{{ inventory_hostname }}"
     - name: clean up local temporary directory
       file:
         state: absent

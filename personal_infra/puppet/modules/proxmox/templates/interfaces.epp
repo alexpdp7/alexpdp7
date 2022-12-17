@@ -1,0 +1,18 @@
+auto lo
+iface lo inet loopback
+
+auto eno1
+iface eno1 inet static
+	address <%= $network['ip'] %>
+	netmask <%= $network['netmask'] %>
+	gateway <%= $network['gateway'] %>
+
+auto vmbr0
+iface vmbr0 inet static
+	address <%= $network['proxmox']['ip'] %>
+	netmask <%= $network['proxmox']['netmask'] %>
+	bridge_ports none
+	bridge_stp off
+	bridge_fd 0
+	post-up echo 1 > /proc/sys/net/ipv4/ip_forward
+	post-up iptables -t nat -A POSTROUTING -s '<%= $network['proxmox']['network'] %>' -o eno1 -j MASQUERADE
