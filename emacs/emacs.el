@@ -61,3 +61,5 @@
 (straight-use-package 'yaml-mode)
 (straight-use-package 'ansible)
 (add-hook 'yaml-mode-hook 'ansible)
+
+(straight-use-package 'puppet-mode)
