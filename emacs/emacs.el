@@ -67,3 +67,6 @@
 
 ;; mostly for syntax highlighting
 (straight-use-package 'puppet-mode)
+
+;; emacs 28 has modus themes, but EL9 only has emacs 27
+(straight-use-package 'modus-themes)
