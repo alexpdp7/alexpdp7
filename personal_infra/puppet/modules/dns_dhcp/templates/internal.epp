@@ -1,0 +1,15 @@
+domain-needed
+no-resolv
+no-hosts
+
+server=<%= $dns_dhcp['upstream_dns'] %>
+<% if $dns_dhcp['domain'] { %>
+local=/<%= $dns_dhcp['domain'] %>/
+domain=<%= $dns_dhcp['domain'] %>
+<% } %>
+
+<% if $dns_dhcp['dhcp_range'] { %>
+dhcp-range=<%= $dns_dhcp['dhcp_range'] %>
+
+dhcp-option=option:router,<%= $dns_dhcp['router'] %>
+<% } %>
