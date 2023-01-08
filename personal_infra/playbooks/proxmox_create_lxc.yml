@@ -1,0 +1,32 @@
+---
+- name: create lxc
+  hosts: lxc
+  gather_facts: false
+  collections:
+    - ansible.builtin
+    - community.general
+
+  vars:
+    flavors:
+      el9:
+        template: rockylinux-9-default_20221109
+        
+  tasks:
+    - name: download template
+      command: "pveam download local {{ flavors[proxmox.flavor].template }}"
+      args:
+        creates: "/var/lib/vz/template/cache/{{ flavors[proxmox.flavor].template }}_amd64.tar.xz"
+      delegate_to: "{{ proxmox.host }}"
+    - name: create host
+      command: >
+        pct create {{ proxmox.id }} "/var/lib/vz/template/cache/{{ flavors[proxmox.flavor].template }}_amd64.tar.xz"
+          --hostname {{ inventory_hostname }}
+          --storage local-zfs
+          -net0 name=eth0,bridge=vmbr0,ip=dhcp
+          -onboot 1
+          --unprivileged
+          --password {{ ansible_password }}
+          --nameserver {{ hostvars[proxmox.host].network.self_internal_ip }}
+      args:
+        creates: "/etc/pve/lxc/{{ proxmox.id }}.conf"
+      delegate_to: "{{ proxmox.host }}"
