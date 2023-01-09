@@ -1,0 +1,27 @@
+---
+- hosts: tinc
+  tasks:
+  - name: create tinc folder
+    file:
+      path: /etc/ansible/tinc/
+      state: directory
+      recurse: yes
+  - name: generate key
+    command: openssl genrsa -out /etc/ansible/tinc/private.pem 2048
+    args:
+      creates: /etc/ansible/tinc/private.pem
+  - name: generate public
+    command: openssl rsa -in /etc/ansible/tinc/private.pem -outform PEM -pubout -out /etc/ansible/tinc/public_{{ network.public_hostname }}.pem
+    args:
+      creates: /etc/ansible/tinc/public_{{ network.public_hostname }}.pem
+  - name: get public
+    fetch:
+      src: "/etc/ansible/tinc/public_{{ network.public_hostname }}.pem"
+      dest: /tmp/
+      flat: yes
+  - name: distribute public
+    copy:
+      src: "/tmp/public_{{ hostvars[item].network.public_hostname }}.pem"
+      dest: "/etc/ansible/tinc/"
+    with_inventory_hostnames:
+      - tinc
