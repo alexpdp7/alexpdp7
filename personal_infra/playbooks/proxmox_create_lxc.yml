@@ -10,6 +10,7 @@
     flavors:
       el9:
         template: rockylinux-9-default_20221109
+        pct_ostype: centos
         
   tasks:
     - name: download template
@@ -27,6 +28,26 @@
           --unprivileged
           --password {{ ansible_password }}
           --nameserver {{ hostvars[proxmox.host].network.self_internal_ip }}
+          --ostype {{ flavors[proxmox.flavor].pct_ostype }}
       args:
         creates: "/etc/pve/lxc/{{ proxmox.id }}.conf"
+      delegate_to: "{{ proxmox.host }}"
+    # https://bugzilla.proxmox.com/show_bug.cgi?id=4460
+    - name: set hostname
+      copy:
+        content: "{{ inventory_hostname }}"
+        dest: /rpool/data/subvol-{{ proxmox.id }}-disk-0/etc/hostname
+      delegate_to: "{{ proxmox.host }}"
+    - name: start host
+      command: pct start {{ proxmox.id }}
+      delegate_to: "{{ proxmox.host }}"
+    - name: install ssh
+      command: pct exec {{ proxmox.id }} -- dnf install -y openssh-server
+      retries: 10
+      delay: 1
+      until: result.rc == 0
+      register: result
+      delegate_to: "{{ proxmox.host }}"
+    - name: enable ssh
+      command: pct exec {{ proxmox.id }} -- systemctl enable --now sshd
       delegate_to: "{{ proxmox.host }}"
