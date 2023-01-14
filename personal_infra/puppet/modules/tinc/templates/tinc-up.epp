@@ -1,0 +1,11 @@
+<%- | $ip,
+      $netmask,
+      $tinc_other_networks,
+| -%>
+#!/bin/sh
+
+ifconfig $INTERFACE <%= $ip %> netmask 255.255.255.255
+
+<% $tinc_other_networks.each |$tinc_other_network| { %>
+  route add -net <%= $tinc_other_network %> dev $INTERFACE
+<% } %>

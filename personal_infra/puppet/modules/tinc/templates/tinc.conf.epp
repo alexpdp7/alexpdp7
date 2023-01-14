@@ -1,0 +1,8 @@
+<%- | $tinc_name,
+      $tinc_location,
+      $tinc_connect_to,
+| -%>
+Name = <%= $tinc_location %>
+<% $tinc_connect_to.each | $tinc_connection | { -%>
+ConnectTo = <%= $tinc_connection %>
+<% } %>
