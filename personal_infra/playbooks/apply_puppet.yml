@@ -6,51 +6,70 @@
     - community.general
 
   tasks:
-    - name: install puppet
-      package:
-        name: puppet
     - name: create local temporary directory
       tempfile:
         state: directory
+        path: "{{ inventory_dir }}/tmp"
       register: local_temp
       delegate_to: 127.0.0.1
-    - name: create remote temporary directory
-      tempfile:
+    - name: create data directory in local temp
+      file:
+        path: "{{ local_temp.path }}/data"
         state: directory
-      register: remote_temp
-    - name: package manifests
-      archive:
-        path: ../puppet
-        dest: "{{ local_temp.path }}/puppet.tar.gz"
       delegate_to: 127.0.0.1
-    - name: unpackage manifests
-      unarchive:
-        src: "{{ local_temp.path }}/puppet.tar.gz"
-        dest: "{{ remote_temp.path }}"
-    - name: dump variables
-      copy:
-        dest: "{{ remote_temp.path }}/vars.json"
-        content: "{{ hostvars }}"
     - name: create hiera.yaml
       copy:
-        dest: "{{ remote_temp.path }}/hiera.yaml"
+        dest: "{{ local_temp.path }}/hiera.yaml"
         content: |
           version: 5
           hierarchy:
             - name: ansible
-              datadir: {{ remote_temp.path }}
               path: vars.json
               data_hash: json_data
-    - name: run puppet
-      command: puppet apply {{ remote_temp.path }} --modulepath={{ remote_temp.path }}/puppet/modules --hiera_config={{ remote_temp.path }}/hiera.yaml
+      delegate_to: 127.0.0.1
+    - name: dump all vars
+      copy:
+        dest: "{{ local_temp.path }}/data/vars.json"
+        content: "{{ hostvars }}"
+      delegate_to: 127.0.0.1
+    - name: compile catalogs
+      command: puppet catalog compile --modulepath={{ inventory_dir }}/puppet/modules --hiera_config={{ local_temp.path }}/hiera.yaml --manifest={{ inventory_dir }}/puppet/site --terminus compiler {{ inventory_hostname }}
       environment:
         FACTER_ansible_inventory_hostname: "{{ inventory_hostname }}"
+      delegate_to: 127.0.0.1
+      register: catalog
+    - name: install puppet
+      package:
+        name: puppet
+    - name: create remote temporary directory
+      tempfile:
+        state: directory
+      register: remote_temp
+    - name: write catalog
+      copy:
+        dest: "{{ remote_temp.path }}/catalog.json"
+        content: "{{ catalog.stdout | regex_replace('\\A.*?\\n', multiline=True) }}"
+    - name: preview catalog
+      command: puppet apply --catalog {{ remote_temp.path }}/catalog.json --noop
+      register: catalog_apply
+    - name: display catalog preview
+      debug:
+        msg: "{{ catalog_apply.stdout }}"
+    - name: pause to confirm
+      pause:
+      tags: pause
+    - name: apply catalog
+      command: puppet apply --catalog {{ remote_temp.path }}/catalog.json
+      register: catalog_apply
+    - name: display catalog application
+      debug:
+        msg: "{{ catalog_apply.stdout }}"
+    - name: clean up remote temporary directory
+      file:
+        state: absent
+        path: "{{ remote_temp.path }}"
     - name: clean up local temporary directory
       file:
         state: absent
         path: "{{ local_temp.path}}"
       delegate_to: 127.0.0.1
-    - name: clean up remote temporary directory
-      file:
-        state: absent
-        path: "{{ remote_temp.path }}"
