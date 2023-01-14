@@ -50,11 +50,11 @@
         dest: "{{ remote_temp.path }}/catalog.json"
         content: "{{ catalog.stdout | regex_replace('\\A.*?\\n', multiline=True) }}"
     - name: preview catalog
-      command: puppet apply --catalog {{ remote_temp.path }}/catalog.json --noop
+      command: puppet apply --catalog {{ remote_temp.path }}/catalog.json --noop --test
       register: catalog_apply
     - name: display catalog preview
       debug:
-        msg: "{{ catalog_apply.stdout }}"
+        msg: "{{ catalog_apply.stdout_lines }}"
     - name: pause to confirm
       pause:
       tags: pause
@@ -63,7 +63,7 @@
       register: catalog_apply
     - name: display catalog application
       debug:
-        msg: "{{ catalog_apply.stdout }}"
+        msg: "{{ catalog_apply.stdout_lines }}"
     - name: clean up remote temporary directory
       file:
         state: absent
