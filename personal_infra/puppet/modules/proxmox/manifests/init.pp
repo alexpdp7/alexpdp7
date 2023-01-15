@@ -21,4 +21,12 @@ class proxmox {
     enable => mask,
   }
 
+  file {'/etc/apt/sources.list.d/pve-enterprise.list':
+    ensure => absent,
+  }
+
+  file {'/etc/apt/sources.list.d/pve-no-subscription.list':
+    content => 'deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
+',
+  }
 }
