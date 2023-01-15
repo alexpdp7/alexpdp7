@@ -13,3 +13,5 @@ dhcp-range=<%= $dns_dhcp['dhcp_range'] %>
 
 dhcp-option=option:router,<%= $dns_dhcp['router'] %>
 <% } %>
+
+interface=<%= join($dns_dhcp['interfaces'], ',') %>
