@@ -1,5 +1,5 @@
 class automatic_updates {
-  if ($osfamily == 'Debian') {
+  if ($facts['os']['family'] == 'Debian') {
     package {["unattended-upgrades", "apt-listchanges"]:}
   }
 }
