@@ -1,11 +1,11 @@
 class dns_dhcp {
-  $domain = lookup("'$ansible_inventory_hostname'.network.dns_dhcp.domain")
+  $domain = lookup("network.dns_dhcp.domain")
 
   package {'dnsmasq':}
   ->
   file {'/etc/dnsmasq.d/internal':
     content => epp('dns_dhcp/internal', {
-      'dns_dhcp' => lookup("'$ansible_inventory_hostname'.network.dns_dhcp"),
+      'dns_dhcp' => lookup("network.dns_dhcp"),
     }),
   }
   ~>

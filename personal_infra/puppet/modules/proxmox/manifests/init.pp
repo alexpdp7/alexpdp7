@@ -1,7 +1,7 @@
 class proxmox {
   file {'/etc/network/interfaces':
     content => epp('proxmox/interfaces', {
-      "network" => lookup("'$ansible_inventory_hostname'.network"),
+      "network" => lookup("network"),
     }),
   }
   ~>

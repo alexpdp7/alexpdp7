@@ -23,19 +23,38 @@
         content: |
           version: 5
           hierarchy:
-            - name: ansible
-              path: vars.json
+            - name: hostvars
+              path: hostvars.json
+              data_hash: json_data
+            - name: this
+              path: this.json
               data_hash: json_data
       delegate_to: 127.0.0.1
-    - name: dump all vars
+    - name: dump hostvars
       copy:
-        dest: "{{ local_temp.path }}/data/vars.json"
-        content: "{{ hostvars }}"
+        dest: "{{ local_temp.path }}/data/hostvars.json"
+        content: "{'hostvars': {{ hostvars }} }"
+      delegate_to: 127.0.0.1
+    - name: dump this
+      copy:
+        dest: "{{ local_temp.path }}/data/this.json"
+        content: "{{ hostvars[inventory_hostname] }}"
+      delegate_to: 127.0.0.1
+    - name: get facts
+      command: facter -y
+      register: facter_output
+    - name: create facts directory in local temp
+      file:
+        path: "{{ local_temp.path }}/yaml/facts"
+        state: directory
+      delegate_to: 127.0.0.1
+    - name: dump facts
+      copy:
+        dest: "{{ local_temp.path }}/yaml/facts/{{ inventory_hostname }}.yaml"
+        content: "--- !ruby/object:Puppet::Node::Facts\nvalues:\n  {{ facter_output.stdout | indent(width=2) }}"
       delegate_to: 127.0.0.1
     - name: compile catalogs
-      command: puppet catalog compile --modulepath={{ inventory_dir }}/puppet/modules --hiera_config={{ local_temp.path }}/hiera.yaml --manifest={{ inventory_dir }}/puppet/site --terminus compiler {{ inventory_hostname }}
-      environment:
-        FACTER_ansible_inventory_hostname: "{{ inventory_hostname }}"
+      command: puppet catalog compile --modulepath={{ inventory_dir }}/puppet/modules --hiera_config={{ local_temp.path }}/hiera.yaml --manifest={{ inventory_dir }}/puppet/site --terminus compiler --vardir {{ local_temp.path }}/ --facts_terminus yaml {{ inventory_hostname }}
       delegate_to: 127.0.0.1
       register: catalog
     - name: install puppet
