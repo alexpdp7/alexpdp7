@@ -22,9 +22,22 @@ class tinc($tinc_name, $tinc_location, $tinc_connect_to, $tinc_locations, $tinc_
   }
 
   $tinc_locations.each |$name, $location| {
-    exec {"/bin/echo Subnet = ${location['subnet']} >/etc/tinc/${tinc_name}/hosts/${name} && echo Address = ${location['address']} >>/etc/tinc/${tinc_name}/hosts/${name} ; cat /etc/ansible/tinc/public_${location['address']}.pem >>/etc/tinc/${tinc_name}/hosts/${name}":
+    file {"/etc/tinc/${tinc_name}/generate_host_${name}.sh":
+      content => "#!/bin/sh
+
+set -ue
+
+echo Subnet = ${location['subnet']} >/etc/tinc/${tinc_name}/hosts/${name}
+echo Address = ${location['address']} >>/etc/tinc/${tinc_name}/hosts/${name}
+cat /etc/ansible/tinc/public_${location['address']}.pem >>/etc/tinc/${tinc_name}/hosts/${name}
+      ",
+      mode => '755',
+    }
+    ~> 
+    exec {"/etc/tinc/${tinc_name}/generate_host_${name}.sh":
       require => File["/etc/tinc/${tinc_name}/hosts"],
       notify => Service["tinc@${tinc_name}"],
+      creates => "/etc/tinc/${tinc_name}/hosts/${name}",
     }
   }
 
