@@ -6,6 +6,7 @@ class dns_dhcp {
   file {'/etc/dnsmasq.d/internal':
     content => epp('dns_dhcp/internal', {
       'dns_dhcp' => lookup("network.dns_dhcp"),
+      'dns_other_server_defs' => $dns_other_server_defs,
     }),
   }
   ~>

@@ -15,3 +15,8 @@ dhcp-option=option:router,<%= $dns_dhcp['router'] %>
 <% } %>
 
 interface=<%= join($dns_dhcp['interfaces'], ',') %>
+
+<% $dns_other_server_defs.each |$server_def| { %>
+server=/<%= $server_def['network_name'] %>/<%= $server_def['dns_ip'] %>
+rev-server=<%= $server_def['reverse_ip_range'] %>,<%= $server_def['dns_ip'] %>
+<% } %>
