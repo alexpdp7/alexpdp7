@@ -3,6 +3,11 @@ class dns_dhcp {
 
   package {'dnsmasq':}
   ->
+  file {'/etc/dnsmasq.d':
+    ensure => directory,
+    purge => true,
+    recurse => true,
+  }
   file {'/etc/dnsmasq.d/internal':
     content => epp('dns_dhcp/internal', {
       'dns_dhcp' => lookup("network.dns_dhcp"),
