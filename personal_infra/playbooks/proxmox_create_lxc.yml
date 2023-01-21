@@ -8,13 +8,16 @@
 
   vars:
     flavors:
+      el8:
+        template: rockylinux-8-default_20210929
+        pct_ostype: centos
       el9:
         template: rockylinux-9-default_20221109
         pct_ostype: centos
         
   tasks:
     - name: download template
-      command: "pveam download local {{ flavors[proxmox.flavor].template }}"
+      command: "pveam download local {{ flavors[proxmox.flavor].template }}_amd64.tar.xz"
       args:
         creates: "/var/lib/vz/template/cache/{{ flavors[proxmox.flavor].template }}_amd64.tar.xz"
       delegate_to: "{{ proxmox.host }}"
