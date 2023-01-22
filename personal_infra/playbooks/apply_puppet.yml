@@ -43,7 +43,7 @@
     - name: install epel
       package:
         name: epel-release
-      when: "{{ ansible_distribution_file_variety == 'RedHat' }}"
+      when: ansible_distribution_file_variety == 'RedHat'
     - name: install puppet
       package:
         name: puppet
