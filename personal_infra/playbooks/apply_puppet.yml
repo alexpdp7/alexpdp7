@@ -40,6 +40,13 @@
         dest: "{{ local_temp.path }}/data/this.json"
         content: "{{ hostvars[inventory_hostname] }}"
       delegate_to: 127.0.0.1
+    - name: install epel
+      package:
+        name: epel-release
+      when: "{{ ansible_distribution_file_variety == 'RedHat' }}"
+    - name: install puppet
+      package:
+        name: puppet
     - name: get facts
       command: facter -y
       register: facter_output
@@ -57,9 +64,6 @@
       command: puppet catalog compile --modulepath={{ inventory_dir }}/puppet/modules --hiera_config={{ local_temp.path }}/hiera.yaml --manifest={{ inventory_dir }}/puppet/site --terminus compiler --vardir {{ local_temp.path }}/ --facts_terminus yaml {{ inventory_hostname }}
       delegate_to: 127.0.0.1
       register: catalog
-    - name: install puppet
-      package:
-        name: puppet
     - name: create remote temporary directory
       tempfile:
         state: directory
