@@ -1,5 +1,5 @@
 node 'h1.pdp7.net' {
-  class {'proxmox':}
+  class {'proxmox::freeipa':}
   class {'dns_dhcp':}
   class {'freeipa::dnsmasq':}
 

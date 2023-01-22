@@ -1,0 +1,2 @@
+root:100000:65536
+root:<%= $freeipa['idrange_start'] %>:<%= $freeipa['idrange_size'] %>
