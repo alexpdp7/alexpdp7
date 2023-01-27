@@ -72,3 +72,9 @@
 (straight-use-package 'modus-themes)
 
 (setq column-number-mode t)
+
+(straight-use-package 'undo-tree)
+(global-undo-tree-mode)
+(setq undo-tree-visualizer-diff t)
+(setq undo-tree-visualizer-timestamp t)
+(setq undo-tree-auto-save-history t)
