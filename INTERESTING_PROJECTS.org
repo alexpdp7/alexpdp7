@@ -148,6 +148,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 *** Fediverse
     - https://github.com/bashrc2/epicyon
     - https://microblog.pub/
+    - https://jointakahe.org/
 ** Pubnix
    - https://github.com/cwmccabe/pubnixhist
 ** Other
