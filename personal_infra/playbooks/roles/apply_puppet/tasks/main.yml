@@ -46,7 +46,7 @@
   package:
     name:
       - puppet
-      - tar
+      - unzip
 - name: get facts
   command: facter -y
   register: facter_output
@@ -81,12 +81,13 @@
 - name: package modules
   archive:
     path: ../puppet/modules
-    dest: "{{ local_temp.path }}/puppet_modules.tar.gz"
+    dest: "{{ local_temp.path }}/puppet_modules.zip"
+    format: zip
   delegate_to: 127.0.0.1
   tags: puppet_fast
 - name: unpackage modules
   unarchive:
-    src: "{{ local_temp.path }}/puppet_modules.tar.gz"
+    src: "{{ local_temp.path }}/puppet_modules.zip"
     dest: "{{ remote_temp.path }}"
   tags: puppet_fast
 - name: preview catalog
