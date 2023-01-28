@@ -27,7 +27,7 @@ Run Ansible commands normally.
 
 I prefer using Ansible for orchestration, and Puppet for configuration management.
 
-`playbooks/apply_puppet.yml` runs Puppet using Ansible.
+`playbooks/roles/apply_puppet` runs Puppet using Ansible.
 The `puppet` directory contains Puppet manifests.
 
-The playbook adds the Ansible inventory to Puppet using Hiera.
+The role adds the Ansible inventory to Puppet using Hiera.
