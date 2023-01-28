@@ -42,9 +42,11 @@
   package:
     name: epel-release
   when: ansible_distribution_file_variety == 'RedHat'
-- name: install puppet
+- name: install packages
   package:
-    name: puppet
+    name:
+      - puppet
+      - tar
 - name: get facts
   command: facter -y
   register: facter_output
@@ -76,8 +78,19 @@
     dest: "{{ remote_temp.path }}/catalog.json"
     content: "{{ catalog.stdout | regex_replace('\\A.*?\\n', multiline=True) }}"
   tags: puppet_fast
+- name: package modules
+  archive:
+    path: ../puppet/modules
+    dest: "{{ local_temp.path }}/puppet_modules.tar.gz"
+  delegate_to: 127.0.0.1
+  tags: puppet_fast
+- name: unpackage modules
+  unarchive:
+    src: "{{ local_temp.path }}/puppet_modules.tar.gz"
+    dest: "{{ remote_temp.path }}"
+  tags: puppet_fast
 - name: preview catalog
-  command: puppet apply --catalog {{ remote_temp.path }}/catalog.json --noop --test
+  command: puppet apply --catalog {{ remote_temp.path }}/catalog.json --noop --test --modulepath={{ remote_temp.path }}/modules/
   register: catalog_apply
   tags: puppet_fast
 - name: display catalog preview stdout
@@ -92,7 +105,7 @@
   pause:
   tags: pause
 - name: apply catalog
-  command: puppet apply --catalog {{ remote_temp.path }}/catalog.json
+  command: puppet apply --catalog {{ remote_temp.path }}/catalog.json --modulepath={{ remote_temp.path }}/modules/
   register: catalog_apply
   tags: puppet_fast
 - name: display catalog apply stdout
