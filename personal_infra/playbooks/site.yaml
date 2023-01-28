@@ -19,4 +19,5 @@
 - name: verify root mail
   hosts: all
   roles:
-    - verify_root_mail
+    - role: verify_root_mail
+      tags: verify_root_mail
