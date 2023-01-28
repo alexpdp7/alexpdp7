@@ -1,0 +1,22 @@
+---
+- name: create lxc
+  hosts: lxc
+  gather_facts: false
+  roles:
+    - proxmox_create_lxc
+
+- name: complete provision
+  hosts: all
+  roles:
+    - role: apply_puppet
+      tags: puppet
+
+- name: join ipa
+  hosts: join_ipa
+  roles:
+    - join_ipa
+
+- name: verify root mail
+  hosts: all
+  roles:
+    - verify_root_mail

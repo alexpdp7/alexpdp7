@@ -1,0 +1,4 @@
+- name: restart_container
+  delegate_to: "{{ proxmox.host }}"
+  command: pct reboot {{ proxmox.id }}
+

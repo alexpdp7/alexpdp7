@@ -1,0 +1,15 @@
+---
+- name: join
+  # TODO:
+  # -N: no NTP (LXC doesn't need NTP)
+  shell: getent passwd admin || ipa-client-install -U -N --domain={{ freeipa.domain }} -w {{ freeipa.join_password|trim }} --mkhomedir -p {{ freeipa.join_user }}
+- name: set idmappings
+  blockinfile:
+    path: /etc/pve/lxc/{{ proxmox.id }}.conf
+    block: |
+      lxc.idmap = u 0 100000 65536
+      lxc.idmap = g 0 100000 65536
+      lxc.idmap = u {{ freeipa.idrange_start }} {{ freeipa.idrange_start }} {{ freeipa.idrange_size }}
+      lxc.idmap = g {{ freeipa.idrange_start }} {{ freeipa.idrange_start }} {{ freeipa.idrange_size }}
+  delegate_to: "{{ proxmox.host }}"
+  notify: restart_container

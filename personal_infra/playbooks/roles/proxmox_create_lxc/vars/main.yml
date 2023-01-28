@@ -1,0 +1,8 @@
+---
+flavors:
+  el8:
+    template: rockylinux-8-default_20210929
+    pct_ostype: centos
+  el9:
+    template: rockylinux-9-default_20221109
+    pct_ostype: centos

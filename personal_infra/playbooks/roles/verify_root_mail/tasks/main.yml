@@ -1,0 +1,4 @@
+- name: send root mail
+  command:
+    cmd: mail -s "ansible test {{ inventory_hostname }}" root
+    stdin: test

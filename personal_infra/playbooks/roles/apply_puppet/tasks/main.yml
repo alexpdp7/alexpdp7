@@ -1,0 +1,116 @@
+---
+- name: create local temporary directory
+  tempfile:
+    state: directory
+    path: "{{ inventory_dir }}/tmp"
+  register: local_temp
+  delegate_to: 127.0.0.1
+  tags: puppet_fast
+- name: create data directory in local temp
+  file:
+    path: "{{ local_temp.path }}/data"
+    state: directory
+  delegate_to: 127.0.0.1
+  tags: puppet_fast
+- name: create hiera.yaml
+  copy:
+    dest: "{{ local_temp.path }}/hiera.yaml"
+    content: |
+      version: 5
+      hierarchy:
+        - name: hostvars
+          path: hostvars.json
+          data_hash: json_data
+        - name: this
+          path: this.json
+          data_hash: json_data
+  delegate_to: 127.0.0.1
+  tags: puppet_fast
+- name: dump hostvars
+  copy:
+    dest: "{{ local_temp.path }}/data/hostvars.json"
+    content: "{'hostvars': {{ hostvars }} }"
+  delegate_to: 127.0.0.1
+  tags: puppet_fast
+- name: dump this
+  copy:
+    dest: "{{ local_temp.path }}/data/this.json"
+    content: "{{ hostvars[inventory_hostname] }}"
+  delegate_to: 127.0.0.1
+  tags: puppet_fast
+- name: install epel
+  package:
+    name: epel-release
+  when: ansible_distribution_file_variety == 'RedHat'
+- name: install puppet
+  package:
+    name: puppet
+- name: get facts
+  command: facter -y
+  register: facter_output
+  tags: puppet_fast
+- name: create facts directory in local temp
+  file:
+    path: "{{ local_temp.path }}/yaml/facts"
+    state: directory
+  delegate_to: 127.0.0.1
+  tags: puppet_fast
+- name: dump facts
+  copy:
+    dest: "{{ local_temp.path }}/yaml/facts/{{ inventory_hostname }}.yaml"
+    content: "--- !ruby/object:Puppet::Node::Facts\nvalues:\n  {{ facter_output.stdout | indent(width=2) }}"
+  delegate_to: 127.0.0.1
+  tags: puppet_fast
+- name: compile catalogs
+  command: puppet catalog compile --modulepath={{ inventory_dir }}/puppet/modules --hiera_config={{ local_temp.path }}/hiera.yaml --manifest={{ inventory_dir }}/puppet/site --terminus compiler --vardir {{ local_temp.path }}/ --facts_terminus yaml {{ inventory_hostname }}
+  delegate_to: 127.0.0.1
+  register: catalog
+  tags: puppet_fast
+- name: create remote temporary directory
+  tempfile:
+    state: directory
+  register: remote_temp
+  tags: puppet_fast
+- name: write catalog
+  copy:
+    dest: "{{ remote_temp.path }}/catalog.json"
+    content: "{{ catalog.stdout | regex_replace('\\A.*?\\n', multiline=True) }}"
+  tags: puppet_fast
+- name: preview catalog
+  command: puppet apply --catalog {{ remote_temp.path }}/catalog.json --noop --test
+  register: catalog_apply
+  tags: puppet_fast
+- name: display catalog preview stdout
+  debug:
+    msg: "{{ catalog_apply.stdout_lines }}"
+  tags: puppet_fast
+- name: display catalog preview stderr
+  debug:
+    msg: "{{ catalog_apply.stderr_lines }}"
+  tags: puppet_fast
+- name: pause to confirm
+  pause:
+  tags: pause
+- name: apply catalog
+  command: puppet apply --catalog {{ remote_temp.path }}/catalog.json
+  register: catalog_apply
+  tags: puppet_fast
+- name: display catalog apply stdout
+  debug:
+    msg: "{{ catalog_apply.stdout_lines }}"
+  tags: puppet_fast
+- name: display catalog apply stderr
+  debug:
+    msg: "{{ catalog_apply.stderr_lines }}"
+  tags: puppet_fast
+- name: clean up remote temporary directory
+  file:
+    state: absent
+    path: "{{ remote_temp.path }}"
+  tags: puppet_fast
+- name: clean up local temporary directory
+  file:
+    state: absent
+    path: "{{ local_temp.path}}"
+  delegate_to: 127.0.0.1
+  tags: puppet_fast
