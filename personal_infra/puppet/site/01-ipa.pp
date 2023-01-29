@@ -11,3 +11,4 @@ if $facts['os']['family'] == 'Debian' and $facts['os']['release']['major'] == "1
 }
 
 package {$ipa_client_package:}
+package {'sudo':}
