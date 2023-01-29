@@ -6,10 +6,16 @@ class root_mail {
     enable => true,
   }
 
+  $cron_service = case $facts['os']['family'] {
+    'Debian': { 'cron' }
+    'RedHat': { 'crond' }
+    default: { fail($facts['os']['family']) }
+  }
+
   # if crond doesn't see /usr/bin/sendmail on startup, it won't send mails
   Package['postfix']
   ~>
-  service{"crond":
+  service{$cron_service:
     ensure => running,
   }
 
