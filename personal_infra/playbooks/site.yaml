@@ -14,7 +14,8 @@
 - name: join ipa
   hosts: join_ipa
   roles:
-    - join_ipa
+    - role: join_ipa
+      tags: join_ipa
 
 - name: verify root mail
   hosts: all
