@@ -70,6 +70,8 @@
 
 ;; emacs 28 has modus themes, but EL9 only has emacs 27
 (straight-use-package 'modus-themes)
+(require 'modus-themes)
+(load-theme 'modus-operandi :no-confirm)
 
 (setq column-number-mode t)
 
