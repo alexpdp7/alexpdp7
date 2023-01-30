@@ -78,3 +78,17 @@
 (setq undo-tree-visualizer-diff t)
 (setq undo-tree-visualizer-timestamp t)
 (setq undo-tree-auto-save-history t)
+
+(clear-abbrev-table global-abbrev-table)
+
+(progn
+  (when (boundp 'daoc-mode-abbrev-table)
+    (clear-abbrev-table adoc-mode-abbrev-table))
+  (define-abbrev-table 'adoc-mode-abbrev-table
+    '(
+      ("oomit" "_...output omitted..._")
+)))
+
+(set-default 'abbrev-mode t)
+
+(setq save-abbrevs nil)
