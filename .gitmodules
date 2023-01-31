@@ -1,3 +1,6 @@
 [submodule "personal_infra/puppet/modules/mailalias_core"]
 	path = personal_infra/puppet/modules/mailalias_core
 	url = https://github.com/puppetlabs/puppetlabs-mailalias_core.git
+[submodule "personal_infra/puppet/modules/nagios_core"]
+	path = personal_infra/puppet/modules/nagios_core
+	url = https://github.com/puppetlabs/puppetlabs-nagios_core.git

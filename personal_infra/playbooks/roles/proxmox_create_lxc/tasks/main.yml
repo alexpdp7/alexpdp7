@@ -37,6 +37,12 @@
 - name: install ssh
   command: pct exec {{ proxmox.id }} -- dnf install -y openssh-server
   delegate_to: "{{ proxmox.host }}"
+- name: permit root password
+  lineinfile:
+    path: /rpool/data/subvol-{{ proxmox.id }}-disk-0/etc/ssh/sshd_config
+    regexp: "^#?PermitRootLogin"
+    line: "PermitRootLogin yes"
+  delegate_to: "{{ proxmox.host }}"
 - name: enable ssh
   command: pct exec {{ proxmox.id }} -- systemctl enable --now sshd
   delegate_to: "{{ proxmox.host }}"
