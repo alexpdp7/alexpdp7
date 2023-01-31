@@ -61,7 +61,7 @@ cat /etc/ansible/tinc/public_${location['address']}.pem >>/etc/tinc/${tinc_name}
     notify => Service["tinc@${tinc_name}"],
   }
 
-  if ($osfamily == 'RedHat') {
+  if ($facts['os']['family'] == 'RedHat') {
     exec {'open firewall for tinc':
       command => '/usr/bin/firewall-cmd --permanent --add-port=655/{tcp,udp}',
       unless => '/usr/bin/firewall-cmd --query-port=655/udp',
