@@ -1,97 +1,77 @@
 ---
-- name: create local temporary directory
-  tempfile:
-    state: directory
-    path: "{{ inventory_dir }}/tmp"
-  register: local_temp
-  delegate_to: 127.0.0.1
+- name: clean puppet build directory
+  local_action:
+    module: file
+    path: "{{ inventory_dir }}/build/puppet"
+    state: absent
+  run_once: True
   tags: puppet_fast
-- name: create data directory in local temp
-  file:
-    path: "{{ local_temp.path }}/data"
+- name: create puppet build directories
+  local_action:
+    module: file
+    path: "{{ inventory_dir }}/{{ item }}"
     state: directory
-  delegate_to: 127.0.0.1
+  loop:
+    - build/puppet/global_vars
+    - build/puppet/host_vars
+    - build/puppet/facts
+  run_once: True
   tags: puppet_fast
-- name: create hiera.yaml
-  copy:
-    dest: "{{ local_temp.path }}/hiera.yaml"
-    content: |
-      version: 5
-      hierarchy:
-        - name: hostvars
-          path: hostvars.json
-          data_hash: json_data
-        - name: this
-          path: this.json
-          data_hash: json_data
-  delegate_to: 127.0.0.1
+- name: create puppet build host vars directories
+  local_action:
+    module: file
+    path: "{{ inventory_dir }}/build/puppet/host_vars/{{ inventory_hostname }}"
+    state: directory
   tags: puppet_fast
 - name: dump hostvars
-  copy:
-    dest: "{{ local_temp.path }}/data/hostvars.json"
+  local_action:
+    module: copy
+    dest: "{{ inventory_dir }}/build/puppet/global_vars/hostvars.json"
     content: "{'hostvars': {{ hostvars }} }"
-  delegate_to: 127.0.0.1
+  run_once: True
   tags: puppet_fast
 - name: dump this
-  copy:
-    dest: "{{ local_temp.path }}/data/this.json"
+  local_action:
+    module: copy
+    dest: "{{ inventory_dir }}/build/puppet/host_vars/{{ inventory_hostname }}/this.json"
     content: "{{ hostvars[inventory_hostname] }}"
-  delegate_to: 127.0.0.1
   tags: puppet_fast
-- name: install epel
-  package:
-    name: epel-release
-  when: ansible_distribution_file_variety == 'RedHat'
-- name: install packages
-  package:
-    name:
-      - puppet
-      - unzip
 - name: get facts
   command: facter -y
   register: facter_output
   tags: puppet_fast
-- name: create facts directory in local temp
-  file:
-    path: "{{ local_temp.path }}/yaml/facts"
-    state: directory
-  delegate_to: 127.0.0.1
-  tags: puppet_fast
 - name: dump facts
-  copy:
-    dest: "{{ local_temp.path }}/yaml/facts/{{ inventory_hostname }}.yaml"
-    content: "--- !ruby/object:Puppet::Node::Facts\nvalues:\n  {{ facter_output.stdout | indent(width=2) }}"
+  local_action:
+    module: copy
+    dest: "{{ inventory_dir }}/build/puppet/facts/{{ inventory_hostname }}.yaml"
+    content: "{{ facter_output.stdout }}"
   delegate_to: 127.0.0.1
   tags: puppet_fast
-- name: compile catalogs
-  command: puppet catalog compile --modulepath={{ inventory_dir }}/puppet/modules --hiera_config={{ local_temp.path }}/hiera.yaml --manifest={{ inventory_dir }}/puppet/site --terminus compiler --vardir {{ local_temp.path }}/ --facts_terminus yaml {{ inventory_hostname }}
+- name: compile puppet catalogs
+  local_action:
+    module: command
+    cmd: "{{ inventory_dir }}/up.py {{ inventory_dir }}/build/puppet {{ inventory_dir }}/puppet/modules {{ inventory_dir }}/puppet/site {% for host in ansible_play_batch %}{{ host }} {% endfor %}"
+  tags: puppet_fast
+  run_once: True
+- name: package catalog
+  archive:
+    path: "{{ inventory_dir }}/build/puppet/build/output/{{ inventory_hostname }}"
+    dest: "{{ inventory_dir }}/build/puppet/puppet_catalog_{{ inventory_hostname }}.zip"
+    format: zip
   delegate_to: 127.0.0.1
-  register: catalog
   tags: puppet_fast
 - name: create remote temporary directory
   tempfile:
     state: directory
   register: remote_temp
   tags: puppet_fast
-- name: write catalog
-  copy:
-    dest: "{{ remote_temp.path }}/catalog.json"
-    content: "{{ catalog.stdout | regex_replace('\\A.*?\\n', multiline=True) }}"
-  tags: puppet_fast
-- name: package modules
-  archive:
-    path: ../puppet/modules
-    dest: "{{ local_temp.path }}/puppet_modules.zip"
-    format: zip
-  delegate_to: 127.0.0.1
-  tags: puppet_fast
-- name: unpackage modules
+- name: unpackage catalog
   unarchive:
-    src: "{{ local_temp.path }}/puppet_modules.zip"
+    src: "{{ inventory_dir }}/build/puppet/puppet_catalog_{{ inventory_hostname }}.zip"
     dest: "{{ remote_temp.path }}"
   tags: puppet_fast
 - name: preview catalog
-  command: puppet apply --catalog {{ remote_temp.path }}/catalog.json --noop --test --modulepath={{ remote_temp.path }}/modules/
+  command: puppet apply --catalog {{ remote_temp.path }}/{{ inventory_hostname }}/catalog.json --noop --test --modulepath={{ remote_temp.path }}/{{ inventory_hostname }}/modules/
   register: catalog_apply
   tags: puppet_fast
 - name: display catalog preview stdout
@@ -106,7 +86,7 @@
   pause:
   tags: pause
 - name: apply catalog
-  command: puppet apply --catalog {{ remote_temp.path }}/catalog.json --modulepath={{ remote_temp.path }}/modules/
+  command: puppet apply --catalog {{ remote_temp.path }}/{{ inventory_hostname }}/catalog.json --modulepath={{ remote_temp.path }}/{{ inventory_hostname }}/modules/
   register: catalog_apply
   tags: puppet_fast
 - name: display catalog apply stdout
@@ -125,6 +105,8 @@
 - name: clean up local temporary directory
   file:
     state: absent
-    path: "{{ local_temp.path}}"
+    path: "{{ inventory_dir }}/build/puppet/"
   delegate_to: 127.0.0.1
   tags: puppet_fast
+  run_once: True
+
