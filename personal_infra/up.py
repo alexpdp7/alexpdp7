@@ -8,17 +8,44 @@ import subprocess
 import textwrap
 import yaml
 
+
 """
+This script performs Puppet catalog compilation without a central server.
+
+It receives the following arguments:
+
+* directory: a working directory. The script expects to find some data, like
+  variables to use in the compilation process, facts, etc. The script also
+  generates intermediate files and output there.
+
+* modulepath: path to your modules directory
+* manifest: path to your site directory
+* host: the hosts to compile catalogs to
+
+The script expects the following content on the working directory:
+
 directory/
   global_vars/*.json: these JSON files will be available to all hosts
   host_vars/{host}/*.json: these JSON files will be available in each host
   facts/{host}.json: output from "facter -y" for each host
 
+And produces the following files:
+
 directory/
   output/
     {host}/
-      catalog.json
-      modules/
+      catalog.json: the compiled catalog for the host
+      modules: a copy of the module directory
+
+Just ship the {host} directory to each host and run:
+
+$ puppet apply --catalog .../catalog.json --modulepath=.../modules/
+
+Check the apply_catalog Ansible role for example usage.
+
+As we have the catalogs, we can manipulate them. See
+pseudo_resource_exporter.py for an example hack. We can simulate exported
+resources without PuppetDB.
 """
 
 
