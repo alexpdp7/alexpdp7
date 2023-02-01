@@ -5,3 +5,19 @@ include root_mail
 if $facts['os']['family'] == "Debian" {
   class {'debian':}
 }
+
+$nagios_host = $facts['networking']['fqdn']
+
+nagios_host {$nagios_host:
+  use => 'generic-host',
+  address => $facts['networking']['fqdn'],
+  max_check_attempts => 5,
+  contact_groups => "admins",
+}
+
+nagios_service {"${nagios_host}-ssh":
+  use => 'generic-service',
+  host_name => $facts['networking']['fqdn'],
+  service_description => "ssh",
+  check_command => "check_ssh",
+}
