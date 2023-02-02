@@ -10,7 +10,7 @@ $nagios_host = $facts['networking']['fqdn']
 
 nagios_host {$nagios_host:
   use => 'generic-host',
-  address => $facts['networking']['fqdn'],
+  address => lookup({name => 'nagios.address', default_value => $facts['networking']['fqdn']}),
   max_check_attempts => 5,
   contact_groups => "admins",
   check_command => "check-host-alive",
