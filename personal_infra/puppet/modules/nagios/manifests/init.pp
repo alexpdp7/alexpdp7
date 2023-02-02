@@ -40,11 +40,17 @@ class nagios {
     notify => Service['nagios'],
     owner => 'nagios',
   }
- 
+
   package {'httpd':}
   ->
   service {'httpd':
     ensure => running,
     enable => true,
+  }
+
+  if $facts['virtual'] == 'lxc' {
+    file {'/bin/ping':
+      mode => 'u+s',
+    }
   }
 }

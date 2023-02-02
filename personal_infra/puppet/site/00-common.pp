@@ -13,6 +13,7 @@ nagios_host {$nagios_host:
   address => $facts['networking']['fqdn'],
   max_check_attempts => 5,
   contact_groups => "admins",
+  check_command => "check-host-alive",
 }
 
 nagios_service {"${nagios_host}-ssh":
