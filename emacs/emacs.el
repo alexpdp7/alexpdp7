@@ -26,6 +26,8 @@
 (global-set-key (kbd "C-x C-f") #'helm-find-files)
 (global-set-key (kbd "C-x C-b") #'helm-mini)
 
+(setq helm-ff-skip-boring-files t)
+
 (straight-use-package 'projectile)
 (straight-use-package 'helm-projectile)
 
