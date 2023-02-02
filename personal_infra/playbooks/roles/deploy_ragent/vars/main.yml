@@ -1,0 +1,26 @@
+---
+ragent:
+  package_key:
+    Debian:
+      '9':
+        x86_64: debian_stretch
+        armv7l: debian_stretch_rpi3
+      '10': # apparently the stretch package works for buster
+        x86_64: debian_stretch
+        armv7l: debian_stretch_rpi3
+      '11': # apparently the stretch package works for bullseye
+        x86_64: debian_stretch
+        armv7l: debian_stretch_rpi3
+      '20': # and it also works for Ubuntu 20.04
+        x86_64: debian_stretch
+    RedHat:
+      '7':
+        x86_64: el7
+      '8':
+        x86_64: el8
+        aarch64: el8_rpi4
+      '9':
+        x86_64: el8
+  install_command:
+    Debian: "dpkg -i"
+    RedHat: "rpm -i"

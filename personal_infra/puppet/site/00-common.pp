@@ -22,3 +22,8 @@ nagios_service {"${nagios_host}-ssh":
   service_description => "ssh",
   check_command => "check_ssh",
 }
+
+# https://github.com/alexpdp7/ragent/issues/352
+if $facts['os']['family'] == 'RedHat' and $facts['os']['release']['major'] == '9' {
+  package {'compat-openssl11':}
+}

@@ -18,6 +18,12 @@
   roles:
     - join_ipa
 
+- name: deploy ragent
+  hosts: all
+  tags: deploy_ragent
+  roles:
+    - deploy_ragent
+
 - name: verify root mail
   hosts: all
   tags: verify_root_mail

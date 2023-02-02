@@ -1,0 +1,39 @@
+---
+- name: get url
+  local_action:
+    module: command
+    cmd: "{{ inventory_dir }}/playbooks/roles/deploy_ragent/files/get.py {{ run_id|default('last') }}"
+  run_once: True
+  register: url
+- name: download package
+  uri:
+    url: "{{ url.stdout|from_json|json_query(ragent['package_key'][ansible_os_family][ansible_distribution_major_version][ansible_architecture]) }}"
+    dest: /tmp/ragent_downloaded_package.zip
+    user: " {{ ragent_download['user'] }}"
+    password: "{{ ragent_download['token'] }}"
+    force_basic_auth: yes
+    follow_redirects: all
+- name: unzip
+  unarchive:
+    src: /tmp/ragent_downloaded_package.zip
+    dest: /tmp
+    list_files: yes
+    remote_src: yes
+  register: unzipped
+- name: remove previous
+  package:
+    name: ragent
+    state: absent
+- name: install package
+  command: "{{ ragent['install_command'][ansible_os_family] }} /tmp/{{ unzipped.files[0] }}"
+- name: configure service
+  service:
+    name: ragent
+    enabled: yes
+    state: restarted
+- name: open firewall
+  command: firewall-cmd --permanent --add-port=21488/tcp
+  when: ansible_os_family == "RedHat" and ansible_distribution_major_version in ("7", "8", "9") and ansible_virtualization_type != "lxc"
+- name: reload firewall
+  command: firewall-cmd --reload
+  when: ansible_os_family == "RedHat" and ansible_distribution_major_version in ("7", "8", "9") and ansible_virtualization_type != "lxc"
