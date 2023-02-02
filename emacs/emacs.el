@@ -74,6 +74,7 @@
 (load-theme 'modus-operandi :no-confirm)
 
 (setq column-number-mode t)
+(setq-default show-trailing-whitespace t)
 
 (straight-use-package 'undo-tree)
 (global-undo-tree-mode)
