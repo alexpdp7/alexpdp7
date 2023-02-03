@@ -41,6 +41,50 @@ class nagios {
     owner => 'nagios',
   }
 
+  nagios_command {'check_ragent':
+    command_name => 'check_ragent',
+    command_line => '/usr/bin/check_ragent http://$HOSTADDRESS$:21488/ --warning-units dnf-makecache.service --warning-units dnf-automatic-install.service',
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+  }
+
+  nagios_hostgroup {'linux':
+    hostgroup_name => 'linux',
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+    ensure => present,
+  }
+
+  nagios_servicegroup {'ragent':
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+    ensure => present,
+  }
+
+  nagios_service {'check_ragent':
+    use => 'generic-service',
+    hostgroup_name => 'linux',
+    service_description => 'check_ragent',
+    servicegroups => 'ragent',
+    check_command => 'check_ragent',
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+  }
+
+  nagios_service {'check_ssh':
+    use => 'generic-service',
+    hostgroup_name => 'linux',
+    service_description => 'ssh',
+    check_command => 'check_ssh',
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+  }
+
   package {'httpd':}
   ->
   service {'httpd':

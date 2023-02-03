@@ -33,6 +33,9 @@ cfg_file=/etc/nagios/objects/templates.cfg
 # puppet generated
 cfg_file=/etc/nagios/nagios_contactgroup.cfg
 cfg_file=/etc/nagios/nagios_contact.cfg
+cfg_file=/etc/nagios/nagios_command.cfg
+cfg_file=/etc/nagios/nagios_hostgroup.cfg
+cfg_file=/etc/nagios/nagios_servicegroup.cfg
 cfg_file=/etc/nagios/nagios_host.cfg
 cfg_file=/etc/nagios/nagios_service.cfg
 

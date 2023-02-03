@@ -12,15 +12,9 @@ nagios_host {$nagios_host:
   use => 'generic-host',
   address => lookup({name => 'nagios.address', default_value => $facts['networking']['fqdn']}),
   max_check_attempts => 5,
-  contact_groups => "admins",
-  check_command => "check-host-alive",
-}
-
-nagios_service {"${nagios_host}-ssh":
-  use => 'generic-service',
-  host_name => $facts['networking']['fqdn'],
-  service_description => "ssh",
-  check_command => "check_ssh",
+  contact_groups => 'admins',
+  hostgroups => 'linux',
+  check_command => 'check-host-alive',
 }
 
 # https://github.com/alexpdp7/ragent/issues/352
