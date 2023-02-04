@@ -36,6 +36,15 @@
     dest: "{{ inventory_dir }}/build/puppet/host_vars/{{ inventory_hostname }}/this.json"
     content: "{{ hostvars[inventory_hostname] }}"
   tags: puppet_fast
+- name: install epel
+  package:
+    name: epel-release
+  when: ansible_distribution_file_variety == 'RedHat'
+- name: install packages
+  package:
+    name:
+      - puppet
+      - unzip
 - name: get facts
   command: facter -y
   register: facter_output
@@ -116,4 +125,3 @@
   delegate_to: 127.0.0.1
   tags: puppet_fast
   run_once: True
-
