@@ -21,6 +21,12 @@ class proxmox {
     enable => mask,
   }
 
+  file {'/etc/logrotate.d/pve':
+    ensure => absent,
+  }
+  ~>
+  service {'logrotate':}
+
   file {'/etc/apt/sources.list.d/pve-enterprise.list':
     ensure => absent,
   }

@@ -1,0 +1,21 @@
+---
+- hosts: patch_rpc_svcgssd_service
+  collections: freeipa.ansible_freeipa
+  vars:
+    ansible_user: alex
+    ansible_become: True
+  tasks:
+  - name: del nfs service
+    command: ipa service-del nfs/h1.pdp7.net
+    ignore_errors: True
+  - name: create nfs service
+    command: ipa service-add nfs/{{ inventory_hostname }}
+  - name: clean keytab
+    command: ipa-rmkeytab -p nfs/{{ inventory_hostname }} -k /etc/krb5.keytab
+    ignore_errors: True
+  - name: get keytab
+    command: ipa-getkeytab -p nfs/{{ inventory_hostname }} -k /etc/krb5.keytab
+  - name: restart
+    service:
+      name: rpc-svcgssd.service
+      state: restarted
