@@ -12,3 +12,14 @@ if $facts['os']['family'] == 'Debian' and $facts['os']['release']['major'] == "1
 
 package {$ipa_client_package:}
 package {'sudo':}
+
+if 'lxc' in lookup("group_names") {
+  service {['var-lib-nfs-rpc_pipefs.mount', 'chronyd.service', 'sys-kernel-config.mount', 'sys-kernel-debug.mount', 'auth-rpcgss-module.service']:
+    ensure => stopped,
+    enable => mask,
+  }
+  ~>
+  exec {'/usr/bin/systemctl reset-failed':
+    refreshonly => true,
+  }
+}
