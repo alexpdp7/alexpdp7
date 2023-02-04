@@ -6,7 +6,7 @@
     ansible_become: True
   tasks:
   - name: del nfs service
-    command: ipa service-del nfs/h1.pdp7.net
+    command: ipa service-del nfs/{{ inventory_hostname }}
     ignore_errors: True
   - name: create nfs service
     command: ipa service-add nfs/{{ inventory_hostname }}
