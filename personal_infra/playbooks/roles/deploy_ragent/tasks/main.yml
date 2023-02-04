@@ -37,3 +37,9 @@
 - name: reload firewall
   command: firewall-cmd --reload
   when: ansible_os_family == "RedHat" and ansible_distribution_major_version in ("7", "8", "9") and ansible_virtualization_type != "lxc"
+- name: force check
+  community.general.nagios:
+    action: forced_check
+    host: "{{ inventory_hostname }}"
+    service: check_ragent
+  delegate_to: nagios.h1.int.pdp7.net
