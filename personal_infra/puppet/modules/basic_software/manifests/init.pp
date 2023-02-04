@@ -1,5 +1,5 @@
 class basic_software {
-  package {'less':}
+  package {['less', 'mlocate']:}
 
   if($facts['os']['family'] == 'RedHat') {
     package {'which':}
