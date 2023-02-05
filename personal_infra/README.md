@@ -37,3 +37,16 @@ Except for exported resources, which work differently, this setup has most of th
 
 Being able to simulate exported resources without a master lets you use the `nagios_core` module without infrastructure.
 With the `nagios_core` module, Puppet code, such as a module which sets up a web server, can define "inline" Puppet monitoring for the managed resources.
+
+## Puppet
+
+For the moment, I'm managing the following distros using this setup.
+
+| Distro          | Puppet version     |
+| --------------- | ------------------ |
+| Debian 11 (PVE) | Puppet 5.5         |
+| EL8             | Puppet 6.26 (EPEL) |
+| EL9             | Puppet 7.20 (EPEL) |
+
+I perform catalog compilation on my laptop running EL9.
+Although [support across Puppet 5.5-7 is not documented](https://www.puppet.com/docs/puppet/7/platform_lifecycle.html#primary-agent-compatibility), catalogs still seem to be compatible.
