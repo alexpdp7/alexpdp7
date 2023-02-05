@@ -1,3 +1,4 @@
-* mu4e
-* elfeed
 * https://www.reddit.com/r/emacs/comments/10nmcus/dont_fear_the_emacs/
+* Magit
+* mu4e
+* Elfeed + elfeed-protocol/fever
