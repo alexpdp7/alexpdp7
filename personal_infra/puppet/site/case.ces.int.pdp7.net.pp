@@ -7,6 +7,4 @@ host-record=tplink,tplink.ces.int.pdp7.net,10.17.19.2
 host-record=case.ces.int.pdp7.net,case,10.17.19.3
 ',
   }
-
-  class {'freeipa::dnsmasq':}
 }
