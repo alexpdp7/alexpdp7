@@ -1,3 +1,3 @@
 class freeipa::server {
-  package {['ipa-server', 'ipa-server-dns']:}
+  package {['ipa-server', 'ipa-server-dns', 'ipa-healthcheck']:}
 }
