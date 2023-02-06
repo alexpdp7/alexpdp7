@@ -1,4 +1,4 @@
-[I---
+---
 - name: download template
   command: "pveam download local {{ flavors[proxmox.flavor].template }}_amd64.tar.xz"
   args:
@@ -24,7 +24,7 @@
     content: "{{ inventory_hostname }}"
     dest: /rpool/data/subvol-{{ proxmox.id }}-disk-0/etc/hostname
   delegate_to: "{{ proxmox.host }}"
-https://bugzilla.proxmox.com/show_bug.cgi?id=4515
+# https://bugzilla.proxmox.com/show_bug.cgi?id=4515
 - name: set hosts
   copy:
     content: |
