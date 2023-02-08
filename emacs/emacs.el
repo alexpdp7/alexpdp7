@@ -97,3 +97,5 @@
 (set-default 'abbrev-mode t)
 
 (setq save-abbrevs nil)
+
+(setq compilation-scroll-output t)
