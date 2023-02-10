@@ -44,6 +44,12 @@
 (add-hook 'find-file-hook 'flymake-vale-maybe-load)
 (add-hook 'adoc-mode-hook 'flymake-mode)
 
+(straight-use-package 'flymake-aspell)
+(add-hook 'adoc-mode-hook #'flymake-aspell-setup)
+(setq ispell-dictionary "en_US-RH")
+
+(add-hook 'adoc-mode-hook (lambda () (setq flymake-aspell-aspell-mode "asciidoc")))
+
 (straight-use-package 'lsp-mode)
 (straight-use-package 'company-mode)
 (straight-use-package 'lsp-ui)
