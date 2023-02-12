@@ -9,6 +9,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/christianvoigt/argdown - Argumentation
    - https://github.com/jgm/djot - JGM designs a simpler Markdown, with an AST
    - https://github.com/typst/ / https://www.user.tu-berlin.de/laurmaedje/programmable-markup-language-for-typesetting.pdf - technically sound modern LaTeX replacement, but not open source (yet?)
+   - https://github.com/nvim-neorg - org-mode alternative, TreeSitter-grammar-first
 *** Markdown
     - https://github.com/lezer-parser/markdown
     - https://github.com/kivikakk/comrak
