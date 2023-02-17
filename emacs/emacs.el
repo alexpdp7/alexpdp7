@@ -105,3 +105,7 @@
 (setq save-abbrevs nil)
 
 (setq compilation-scroll-output t)
+
+;; and install xclip so cutting/copying in Emacs on a terminal affects the graphical clipboard
+(straight-use-package 'xclip)
+(xclip-mode 1)
