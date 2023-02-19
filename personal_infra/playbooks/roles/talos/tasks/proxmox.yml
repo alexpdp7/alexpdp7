@@ -1,0 +1,19 @@
+---
+- name: download iso
+  get_url:
+    url: https://github.com/siderolabs/talos/releases/download/v1.3.2/talos-amd64.iso
+    dest: /var/lib/vz/template/iso/
+  delegate_to: "{{ proxmox.host }}"
+  run_once: True
+- name: create vm
+  command: qm create {{ proxmox.id }} --cdrom local:iso/talos-amd64.iso --cores 12 --memory 8192 --name {{ inventory_hostname }} --onboot 1 --start 1 --virtio0 local-zfs:32 --cpu host --net0 virtio,bridge=vmbr0
+  delegate_to: "{{ proxmox.host }}"
+  args:
+    creates: /etc/pve/qemu-server/{{ proxmox.id }}.conf
+- name: get ip
+  script: get-ip {{ proxmox.id }}
+  delegate_to: "{{ proxmox.host }}"
+  register: ip
+  until: ip.rc == 0
+  retries: 10
+  delay: 1

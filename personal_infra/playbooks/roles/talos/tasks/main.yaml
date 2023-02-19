@@ -1,0 +1,91 @@
+---
+- name: check node ready
+  k8s_info:
+    context: admin@{{ talos_host.talos_cluster }}
+    kind: Node
+    wait: true
+    wait_condition:
+      status: True
+      type: Ready
+  delegate_to: 127.0.0.1
+  register: nodes
+  ignore_errors: true
+
+- name: setup proxmox hosts
+  import_tasks: proxmox.yml
+  when: "'k8s_proxmox' in group_names and not 'resources' in nodes or nodes.resources|length == 0"
+
+- name: generate controlplane patch
+  copy:
+    content: |
+      machine:
+        install:
+          disk: {{ talos_host.install_disk }}
+        network:
+          hostname: {{ inventory_hostname }}
+          nameservers:
+            - {{ hostvars[proxmox.host].network.self_internal_ip }}
+          interfaces:
+            - interface: eth0
+              addresses:
+                - {{ network.ip }}/24
+              routes:
+                - network: 0.0.0.0/0
+                  gateway: {{ hostvars[proxmox.host].network.self_internal_ip }}
+    dest: "{{ inventory_dir }}/talos/host-{{ inventory_hostname }}.patch"
+  delegate_to: 127.0.0.1
+  when: "not 'resources' in nodes or nodes.resources|length == 0"
+
+- name: generate controlplane config
+  shell:
+    cmd: talosctl gen config -t controlplane -o talos/host-{{ inventory_hostname }}.yaml --with-secrets <(ansible-vault view talos/secrets.yaml) --config-patch-control-plane @talos/host-{{ inventory_hostname }}.patch {{ talos_host.talos_cluster }} {{ talos_clusters[talos_host.talos_cluster].endpoint }}
+    chdir: "{{ inventory_dir }}"
+  delegate_to: 127.0.0.1
+  when: "not 'resources' in nodes or nodes.resources|length == 0"
+
+- name: apply config
+  command:
+    cmd: talosctl apply-config --insecure --nodes {{ ip.stdout  }} --file talos/host-{{ inventory_hostname }}.yaml
+    chdir: "{{ inventory_dir }}"
+  delegate_to: 127.0.0.1
+  when: "not 'resources' in nodes or nodes.resources|length == 0"
+
+- name: generate talosconfig
+  shell:
+    cmd: talosctl gen config -t talosconfig -o talos/talosconfig-{{ talos_host.talos_cluster }} --with-secrets <(ansible-vault view talos/secrets.yaml) {{ talos_host.talos_cluster }} {{ talos_clusters[talos_host.talos_cluster].endpoint }}
+    chdir: "{{ inventory_dir }}"
+  delegate_to: 127.0.0.1
+  when: "not 'resources' in nodes or nodes.resources|length == 0"
+
+- name: bootstrap cluster
+  command:
+    cmd: talosctl bootstrap --nodes {{ inventory_hostname }} --talosconfig talos/talosconfig-{{ talos_host.talos_cluster }} -e {{ inventory_hostname }}
+    chdir: "{{ inventory_dir }}"
+  delegate_to: 127.0.0.1
+  register: bootstrap
+  until: bootstrap.rc == 0
+  retries: 8
+  delay: 1
+  when: "not 'resources' in nodes or nodes.resources|length == 0"
+
+- name: get kubeconfig
+  command:
+    cmd: talosctl kubeconfig --talosconfig talos/talosconfig-{{ talos_host.talos_cluster }} --nodes {{ inventory_hostname }} -e {{ inventory_hostname }} --force-context-name {{ talos_host.talos_cluster }}@admin
+    chdir: "{{ inventory_dir }}"
+  delegate_to: 127.0.0.1
+  when: "not 'resources' in nodes or nodes.resources|length == 0"
+
+- name: wait node ready
+  k8s_info:
+    context: admin@{{ talos_host.talos_cluster }}
+    kind: Node
+    wait: true
+    wait_condition:
+      status: True
+      type: Ready
+  delegate_to: 127.0.0.1
+  register: nodes
+  until: nodes.resources|length > 0
+  retries: 20
+  delay: 1
+  when: "not 'resources' in nodes or nodes.resources|length == 0"

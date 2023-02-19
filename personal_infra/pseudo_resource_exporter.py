@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import pathlib
+import subprocess
 
 
 """
@@ -41,12 +42,17 @@ if nagios_catalog_file.exists():
     assert len(nagios_contacts) == 1, f"found multiple nagios contacts {nagios_contacts}"
     nagios_contact = nagios_contacts[0]
 
-total_hosts_in_inventory = len(list(pathlib.Path("host_vars").glob("*")))
+
+ail = subprocess.run(["ansible-inventory", "--list"], check=True, stdout=subprocess.PIPE)
+inventory = json.loads(ail.stdout)
+total_hosts_in_inventory = len(inventory["_meta"]["hostvars"].keys())
+k8s_hosts_in_inventory = len(inventory["k8s"]["hosts"])
+puppet_hosts_in_inventory = total_hosts_in_inventory - k8s_hosts_in_inventory
 
 catalog_files = list(pathlib.Path("build/puppet/build/output/").glob("*/catalog.json"))
 
 if nagios_catalog_file.exists():
-    assert len(catalog_files) == total_hosts_in_inventory, f"catalogs {catalog_files} quantity different from total hosts in inventory {total_hosts_in_inventory}"
+    assert len(catalog_files) == puppet_hosts_in_inventory, f"catalogs {catalog_files} quantity different from total hosts in inventory {puppet_hosts_in_inventory}"
 
 
 nagios_resources = []

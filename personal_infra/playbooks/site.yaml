@@ -7,7 +7,7 @@
     - proxmox_create_lxc
 
 - name: complete provision
-  hosts: all
+  hosts: all,!k8s
   tags: puppet
   roles:
     - apply_puppet
@@ -19,13 +19,20 @@
     - join_ipa
 
 - name: deploy ragent
-  hosts: all
+  hosts: all,!k8s
   tags: deploy_ragent
   roles:
     - deploy_ragent
 
 - name: verify root mail
-  hosts: all
+  hosts: all,!k8s
   tags: verify_root_mail
   roles:
     - verify_root_mail
+
+- name: create k8s
+  hosts: k8s
+  tags: k8s
+  gather_facts: false
+  roles:
+    - talos

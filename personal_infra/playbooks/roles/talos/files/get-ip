@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -ueo pipefail
+
+grep $(cat /etc/pve/qemu-server/$1.conf | grep net0: | sed 's/^.*virtio=\([0-9A-F:]*\),.*$/\1/' | tr [:upper:] [:lower:]) /var/lib/misc/dnsmasq.leases  | cut -d " " -f 3
