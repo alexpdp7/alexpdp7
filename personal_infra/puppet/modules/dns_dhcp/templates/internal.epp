@@ -21,6 +21,10 @@ server=/<%= $server_def['network_name'] %>/<%= $server_def['dns_ip'] %>
 rev-server=<%= $server_def['reverse_ip_range'] %>,<%= $server_def['dns_ip'] %>
 <% } %>
 
-<% $fixed_hosts.each |$host, $ip| { %>
+<% $fixed_dhcp_hosts.each |$host, $ip| { %>
 dhcp-host=<%= $host %>,<%= $ip %>,<%= $host %>
+<% } %>
+
+<% $fixed_hosts.each |$host, $ip| { %>
+host-record=<%= $host %>,<%= $host %>.<%= $dns_dhcp['domain'] %>,<%= $ip %>
 <% } %>
