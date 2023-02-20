@@ -15,5 +15,5 @@
   delegate_to: "{{ proxmox.host }}"
   register: ip
   until: ip.rc == 0
-  retries: 10
+  retries: 20
   delay: 1
