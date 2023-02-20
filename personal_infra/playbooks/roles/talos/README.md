@@ -1,4 +1,4 @@
 ```
-$ talosctl gen secrets -o talos/secrets.yaml
-$ ansible-vault encrypt talos/secrets.yaml
+$ talosctl gen secrets -o talos/$cluster-secrets.yaml
+$ ansible-vault encrypt talos/$cluster-secrets.yaml
 ```

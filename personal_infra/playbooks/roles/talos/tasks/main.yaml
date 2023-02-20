@@ -38,7 +38,7 @@
 
 - name: generate controlplane config
   shell:
-    cmd: talosctl gen config -t controlplane -o talos/host-{{ inventory_hostname }}.yaml --with-secrets <(ansible-vault view talos/secrets.yaml) --config-patch-control-plane @talos/host-{{ inventory_hostname }}.patch {{ talos_host.talos_cluster }} {{ talos_clusters[talos_host.talos_cluster].endpoint }}
+    cmd: talosctl gen config -t controlplane -o talos/host-{{ inventory_hostname }}.yaml --with-secrets <(ansible-vault view talos/{{ talos_host.talos_cluster }}-secrets.yaml) --config-patch-control-plane @talos/host-{{ inventory_hostname }}.patch {{ talos_host.talos_cluster }} {{ talos_clusters[talos_host.talos_cluster].endpoint }}
     chdir: "{{ inventory_dir }}"
   delegate_to: 127.0.0.1
   when: "not 'resources' in nodes or nodes.resources|length == 0"
@@ -52,7 +52,7 @@
 
 - name: generate talosconfig
   shell:
-    cmd: talosctl gen config -t talosconfig -o talos/talosconfig-{{ talos_host.talos_cluster }} --with-secrets <(ansible-vault view talos/secrets.yaml) {{ talos_host.talos_cluster }} {{ talos_clusters[talos_host.talos_cluster].endpoint }}
+    cmd: talosctl gen config -t talosconfig -o talos/talosconfig-{{ talos_host.talos_cluster }} --with-secrets <(ansible-vault view talos/{{ talos_host.talos_cluster }}-secrets.yaml) {{ talos_host.talos_cluster }} {{ talos_clusters[talos_host.talos_cluster].endpoint }}
     chdir: "{{ inventory_dir }}"
   delegate_to: 127.0.0.1
   when: "not 'resources' in nodes or nodes.resources|length == 0"
