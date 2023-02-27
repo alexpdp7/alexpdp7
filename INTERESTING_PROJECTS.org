@@ -136,6 +136,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Email
    - https://github.com/moggers87/salmon - Mail applications
 ** Misc
+   - https://github.com/DavHau/nix-portable - portable Nix, no root required, works in an LXC container
    - https://github.com/rulex-rs/pomsky - regex alternative
    - https://github.com/sourcegraph/doctree - code browser
    - https://github.com/singer-io/getting-started
