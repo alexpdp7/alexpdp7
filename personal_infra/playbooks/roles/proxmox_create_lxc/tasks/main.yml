@@ -36,7 +36,7 @@
       {% endif %}
     dest: /rpool/data/subvol-{{ proxmox.id }}-disk-0/etc/hosts
   delegate_to: "{{ proxmox.host }}"
-- name: set hosts
+- name: prevent proxmox from manipulating hosts
   file:
     path: /etc/.pve-ignore.hosts
     state: touch
