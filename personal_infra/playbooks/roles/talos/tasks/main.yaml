@@ -1,7 +1,7 @@
 ---
 - name: check node ready
   k8s_info:
-    context: admin@{{ talos_host.talos_cluster }}
+    context: "{{ talos_host.talos_cluster }}@admin"
     kind: Node
     wait: true
     wait_condition:
@@ -77,7 +77,7 @@
 
 - name: wait node ready
   k8s_info:
-    context: admin@{{ talos_host.talos_cluster }}
+    context: "{{ talos_host.talos_cluster }}@admin"
     kind: Node
     wait: true
     wait_condition:
