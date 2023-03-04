@@ -87,7 +87,6 @@
       type: Ready
   delegate_to: 127.0.0.1
   register: nodes
-  until: nodes.resources|length > 0
-  retries: 20
+  until: nodes.resources is defined and nodes.resources|length > 0
+  retries: 35
   delay: 1
-  when: "not 'resources' in nodes or nodes.resources|length == 0"
