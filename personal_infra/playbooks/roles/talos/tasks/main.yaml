@@ -18,6 +18,8 @@
 - name: generate controlplane patch
   copy:
     content: |
+      cluster:
+        allowSchedulingOnControlPlanes: true
       machine:
         install:
           disk: {{ talos_host.install_disk }}
