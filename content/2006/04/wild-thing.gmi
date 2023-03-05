@@ -5,4 +5,4 @@ Una extraña combinación de la caja de mensajes y el post sobre Grupo Salvaje [
 
 Au contraire, si soy muy manso...
 
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=376 [1] post  sobre Grupo Salvaje
+=> gemini://alex.corcoles.net/2006/04/envuelto-en-asuntos-quijotescos/ [1] post  sobre Grupo Salvaje

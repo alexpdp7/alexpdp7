@@ -11,6 +11,6 @@ En fin, un libro recomendable (aunque lo mío no es la crítica literaria) y ent
 => http://en.wikipedia.org/wiki/Anne_Rice#Amazon.com_incident [2] la pillá
 => http://www.maxbarry.com/jennifergovernment/ [3] Jennifer Government
 => http://www.nationstates.net/ [4] NationStates
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=417 [5] web ya mencionada aquí
+=> gemini://alex.corcoles.net/2006/06/construye-tu-propia-republica-bananera/ [5] web ya mencionada aquí
 => http://www.maxbarry.com/2006/05/19/news.html#superman [6] hasta Superman lo lee
 => http://www.maxbarry.com/2005/02/01/news.html#mellisscinto [7] hasta puede que hagan una peli

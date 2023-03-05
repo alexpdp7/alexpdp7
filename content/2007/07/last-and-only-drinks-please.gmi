@@ -4,4 +4,4 @@
 :([1] (véase [2])
 
 => http://nymag.com/daily/intel/2007/07/now_its_roses_turn_to_cry_for.html [1] :(
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=681 [2] véase
+=> gemini://alex.corcoles.net/2007/06/na-na-narana/ [2] véase

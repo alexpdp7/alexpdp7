@@ -4,4 +4,4 @@
 [‡ El Aleph] >> [1]. Los otros [2].
 
 => http://vids.myspace.com/index.cfm?fuseaction=vids.individual&videoid=52958136 [1] >>
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=684 [2] Los otros
+=> gemini://alex.corcoles.net/2007/06/ritmos-cercanos/ [2] Los otros

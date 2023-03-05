@@ -3,5 +3,5 @@
 
 Hemos descubierto el ansiado [1] secreto del fuego video flash hágaselo-usted-mismo-gratuitamente [2]; les mantendremos informados cuando tengamos un vídeo que podamos publicar sin ser asediados por las asociaciones de autores.
 
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=291 [1] ansiado
+=> gemini://alex.corcoles.net/2006/01/videos-videos-videos/ [1] ansiado
 => http://www.entropyfarm.org/software/tricks/ [2] video flash hágaselo-usted-mismo-gratuitamente

@@ -5,7 +5,7 @@ Por supuesto, el día después de que posteo sobre la disponibilidad de un servi
 
 En fin, sólo vengo para poner dos fragmentos. Uno:
 
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=657 [1] posteo sobre la disponibilidad de un servicio online
+=> gemini://alex.corcoles.net/2007/05/alta-disponibilidad/ [1] posteo sobre la disponibilidad de un servicio online
 
 >
 >

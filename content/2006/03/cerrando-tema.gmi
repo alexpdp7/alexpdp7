@@ -3,7 +3,7 @@
 
 Zanjo menciones de uno de los últimos memes locos sueltos ya mencionados por aquí [1], esos hechos hilarantes sobre Chuck Norris [2]. El tema es que el mismo Chuck Norris se lo toma con humor [3] (y aprovecha para hacerse propaganda). Como no, lo acompañamos con un vídeo donde Chuck lee algunas coñas de estas [4].
 
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=318 [1] ya mencionados por aquí
+=> gemini://alex.corcoles.net/2006/02/chunorris/ [1] ya mencionados por aquí
 => http://www.chucknorris.com/ [2] Chuck Norris
 => http://www.chucknorris.com/html/events.aspx?type=2 [3] se lo toma con humor
 => http://hacheyblog.blogspot.com/2006/03/chuck-norris-leyendo-sus-frases.html [4] un vídeo donde Chuck lee algunas coñas de estas

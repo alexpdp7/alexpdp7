@@ -3,5 +3,5 @@
 
 Después de hablar de hipótesis y de paradojas [1], le toca el turno a las falacias, en este caso a la falacia de la porción de trabajo [2] (o cacho de faena, diría yo).
 
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=601 [1] hablar de hipótesis y de paradojas
+=> gemini://alex.corcoles.net/2007/01/un-nombre-para-todo-y-todo-por-su-nombre/ [1] hablar de hipótesis y de paradojas
 => http://en.wikipedia.org/wiki/Lump_of_labour_fallacy [2] la falacia de la porción de trabajo

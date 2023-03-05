@@ -4,5 +4,5 @@
 Servidor también se apunta al carro del Google Analytics [1], que me confirma lo que ya sabía; a mi web se viene a buscar como fabricar steadycams [2] e incienso. Pero yo ya lo sabía [3].
 
 => http://www.google.com/analytics/ [1] Google Analytics
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=77 [2] como fabricar steadycams
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=124 [3] ya lo sabía
+=> gemini://alex.corcoles.net/2004/04/como-fabricar-una-steadycam/ [2] como fabricar steadycams
+=> gemini://alex.corcoles.net/2004/10/como-me-encuentran/ [3] ya lo sabía

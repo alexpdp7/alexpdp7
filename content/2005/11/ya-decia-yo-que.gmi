@@ -3,5 +3,5 @@
 
 el baile de Yoda [1] era muy sofisticado. Según esto [2] uno de los huevos de pascua del DVD del episodio 3.
 
-=> ?query=byId&postId=243 [1] el baile de Yoda
+=> gemini://alex.corcoles.net/2005/10/los-videos-del-dia/ [1] el baile de Yoda
 => http://www.usatoday.com/life/movies/news/2005-10-31-star-wars_x.htm [2] esto

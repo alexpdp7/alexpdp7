@@ -11,7 +11,7 @@ Desde lueguísimo, un cuco a la par que fino y seguro Nano [2] sería una opció
 * Por supuesto, que el dispositivo y los mp3 se manejen como ficheros normales de los de toda la vida. Los Sony (y algunos Apple- creo que el Shuffle se salva) necesitan su programita específico para subir los ficheros. Esto es un coñazo porque hay que trastear si uno es un raro que no usa un sistema operativo popular -y aunque lo use, sigue siendo inconveniente.
 * FM incorporada. Uno no escucha demasiado la radio, pero es bastante práctico para escuchar carrusel [3].
 
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=210 [1] reproductor mp3
+=> gemini://alex.corcoles.net/2005/09/cacharrito-podcasts/ [1] reproductor mp3
 => http://www.apple.com/es/ipodnano/ [2] cuco a la par que fino y seguro Nano
 => http://www.cadenaser.com/programas.html?anchor=serprocar [3] carrusel
 

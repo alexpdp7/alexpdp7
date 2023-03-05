@@ -4,5 +4,5 @@
 Me entero gracias a Pierre [1] de que el Sensi [2] sí está basado en hechos reales. Al parecer, viene a ser la biografía de Le God, Le Tissier [3]. Atentos al vídeo.
 
 => http://pierrenodoyuna.blogspot.com [1] Pierre
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=586 [2] Sensi
+=> gemini://alex.corcoles.net/2007/01/futbol-sensato/ [2] Sensi
 => http://www.diariosdefutbol.com/2007/01/23/sabias-que-le-tissier-solo-fallo-un-penalty-en-toda-su-carrera [3] Le God, Le Tissier

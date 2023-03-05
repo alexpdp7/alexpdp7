@@ -3,5 +3,5 @@
 
 ... aunque quizás debamos replantearnos las mencionadas ventajas del vinilo [1]. Veamos pues grandes muestras del arte de las portadas de discos [2] (aviso para prevenir pérdidas inesperadas de cordura; algunas son ofensivas, políticamente incorrectas y cosas mucho peores).
 
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=506 [1] las mencionadas ventajas del vinilo
+=> gemini://alex.corcoles.net/2006/09/dandole-al-vinillo/ [1] las mencionadas ventajas del vinilo
 => http://www.flickr.com/photos/73922019@N00/ [2] grandes muestras del arte de las portadas de discos

@@ -5,6 +5,6 @@ Felicidades a mi querida [1] Debbie Harry y el resto de Blondie [2], pues han si
 
 Enhorabuena a los premiados.
 
-=> https://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=252 [1] querida
+=> gemini://alex.corcoles.net/2005/11/alfabeto-musical/ [1] querida
 => http://www.blondie.net/ [2] Blondie
 => http://today.reuters.com/News/newsArticle.aspx?type=entertainmentNews&storyID=2005-11-28T192202Z_01_ROB869606_RTRUKOC_0_US-LEISURE-ROCK.xml [3] admitidos en el Hall of Fame del rock

@@ -5,7 +5,7 @@ Ya deberían ustedes sospechar [1] de mi afición a la pornochartografía, ese d
 
 Con esto supongo que podremos de gozar de cucas a la par que informativas gráficas en cosas como el Analytics [7], que de momento está bastante falto de factor wow (y de muchos otros); aunque en nuestro caso simplemente servirá para ver tres bolitas solitarias de los escasos visitantes que recibimos.
 
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=623 [1] sospechar
+=> gemini://alex.corcoles.net/2007/03/high-in-the-charts/ [1] sospechar
 => http://www.edwardtufte.com/ [2] Tufte
 => http://tools.google.com/gapminder/ [3] esta fantástica gráfica de ejemplo
 => http://www.gapminder.org/ [4] Gapminder

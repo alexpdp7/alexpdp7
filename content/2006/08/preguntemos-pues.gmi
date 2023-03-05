@@ -7,4 +7,4 @@ Parece ser que ahora soy referencia en Google [1] para preguntas retorcidas [2] 
 
 => http://www.google.com/ [1] Google
 => http://www.google.com/search?q=preguntas%20retorcidas [2] preguntas retorcidas
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=465 [3] el post sobre Quite Interesting
+=> gemini://alex.corcoles.net/2006/08/very-naish/ [3] el post sobre Quite Interesting

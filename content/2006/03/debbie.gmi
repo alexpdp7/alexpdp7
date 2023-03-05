@@ -7,5 +7,5 @@ No sé qué es peor. El concepto de la película en sí o el titular [4].
 
 => http://www.foxnews.com/story/0,2933,187781,00.html [1] los piques
 => http://www.blondie.net/ [2] uno de mis grupos preferidos
-=> http://eucaliptus.ath.cx/~alex/blog/?query=byId&postId=261 [3] ya mencionamos con anterioridad
+=> gemini://alex.corcoles.net/2005/11/blondie-blondie-blondie/ [3] ya mencionamos con anterioridad
 => http://www.eonline.com/News/Items/0,1,18563,00.html?rssmovie [4] El concepto de la película en sí o el titular
