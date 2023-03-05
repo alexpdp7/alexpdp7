@@ -16,3 +16,19 @@ network:
     netmask: 255.255.255.0
     network: 10.3.3.0/24
 ```
+
+## Proxy
+
+Class `proxmox::proxy` can handle proxying internal web servers.
+
+```
+class {'proxmox::proxy':
+  mail => lookup('mail.root_mail'),
+  base_hostname => lookup('network.public_hostname'),
+}
+```
+
+This uses the Apache HTTP Server and mod_md to obtain certificates.
+Your hostname must be publicly accessible, because http challenges are used.
+
+You receive mails to restart your server when required.
