@@ -32,3 +32,5 @@ This uses the Apache HTTP Server and mod_md to obtain certificates.
 Your hostname must be publicly accessible, because http challenges are used.
 
 You receive mails to restart your server when required.
+
+The `base_hostname` certificate is injected daily to pveproxy.
