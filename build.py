@@ -23,7 +23,7 @@ class Post:
     def uri(self):
         yyyy = self.posted.strftime("%Y")
         mm = self.posted.strftime("%m")
-        return f"{yyyy}/{mm}/{self.slug}"
+        return f"{yyyy}/{mm}/{self.slug}/"
 
 
     def __repr__(self):
