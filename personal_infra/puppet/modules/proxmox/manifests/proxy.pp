@@ -45,8 +45,10 @@ class proxmox::proxy ($mail, $base_hostname) {
     mode => '0755',
   }
 
+  package {'cronic':}
+
   cron {'pve-certs':
-    command => "/usr/bin/pvenode cert set /etc/apache2/md/domains/$base_hostname/pubcert.pem /etc/apache2/md/domains/$base_hostname/privkey.pem  --force 1 --restart 1",
+    command => "/usr/bin/cronic /usr/bin/pvenode cert set /etc/apache2/md/domains/$base_hostname/pubcert.pem /etc/apache2/md/domains/$base_hostname/privkey.pem  --force 1 --restart 1",
     user => 'root',
     special => 'daily',
   }
