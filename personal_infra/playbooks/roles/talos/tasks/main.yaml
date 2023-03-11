@@ -93,3 +93,9 @@
   until: nodes.resources is defined and nodes.resources|length > 0
   retries: 35
   delay: 1
+
+- name: deploy kustomizations
+  k8s:
+    context: "admin@{{ talos_host.talos_cluster }}"
+    definition: "{{ lookup('kubernetes.core.kustomize', dir='k8s/base') }}"
+  delegate_to: 127.0.0.1
