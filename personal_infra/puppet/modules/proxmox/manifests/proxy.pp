@@ -12,7 +12,7 @@ class proxmox::proxy ($mail, $base_hostname) {
     notify => Service['apache2'],
   }
 
-  ['md', 'ssl'].each |$mod| {
+  ['md', 'ssl', 'proxy_http', 'proxy'].each |$mod| {
     exec {"/usr/sbin/a2enmod $mod":
       creates => "/etc/apache2/mods-enabled/$mod.load",
       * => $apache_dep,

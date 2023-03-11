@@ -6,6 +6,12 @@ define proxmox::proxy_host (String[1] $target) {
       <VirtualHost *:443>
         ServerName $title
         SSLEngine on
+
+        ProxyPass "/" "$target"
+        ProxyPassReverse "/" "$target"
+        ProxyPreservehost On
+        SSLProxyEngine on
+
       </VirtualHost>
     | EOT
     ,
