@@ -1,7 +1,7 @@
 ---
 - name: check node ready
   k8s_info:
-    context: "{{ talos_host.talos_cluster }}@admin"
+    context: "admin@{{ talos_host.talos_cluster }}"
     kind: Node
     wait: true
     wait_condition:
@@ -74,14 +74,15 @@
 
 - name: get kubeconfig
   command:
-    cmd: talosctl kubeconfig --talosconfig talos/talosconfig-{{ talos_host.talos_cluster }} --nodes {{ inventory_hostname }} -e {{ inventory_hostname }} --force-context-name {{ talos_host.talos_cluster }}@admin
+    cmd: talosctl kubeconfig --talosconfig talos/talosconfig-{{ talos_host.talos_cluster }} --nodes {{ inventory_hostname }} -e {{ inventory_hostname }} -f
     chdir: "{{ inventory_dir }}"
   delegate_to: 127.0.0.1
   when: "not 'resources' in nodes or nodes.resources|length == 0"
+  throttle: 1
 
 - name: wait node ready
   k8s_info:
-    context: "{{ talos_host.talos_cluster }}@admin"
+    context: "admin@{{ talos_host.talos_cluster }}"
     kind: Node
     wait: true
     wait_condition:
