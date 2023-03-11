@@ -36,3 +36,9 @@
   gather_facts: false
   roles:
     - talos
+
+- name: deploy ipsilon
+  hosts: ipsilon
+  tags: ipsilon
+  roles:
+    - deploy_ipsilon

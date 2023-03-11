@@ -1,0 +1,5 @@
+---
+- name: install ipsilon (if this task fails, run kinit as root)
+  command: ipsilon-server-install --hostname {{ ipsilon.hostname }} --ipa yes --openidc yes --admin-user {{ ipsilon.admin_user }}
+  args:
+    creates: /etc/ipsilon/idp
