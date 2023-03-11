@@ -34,6 +34,8 @@
               routes:
                 - network: 0.0.0.0/0
                   gateway: {{ hostvars[proxmox.host].network.self_internal_ip }}
+        nodeLabels:
+          role: ingress-controller
     dest: "{{ inventory_dir }}/talos/host-{{ inventory_hostname }}.patch"
   delegate_to: 127.0.0.1
   when: "not 'resources' in nodes or nodes.resources|length == 0"
