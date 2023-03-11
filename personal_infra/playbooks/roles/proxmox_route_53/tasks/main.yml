@@ -1,0 +1,11 @@
+---
+- name: create A entries
+  local_action:
+    module: amazon.aws.route53
+    zone: "{{ network.dns_zone }}"
+    record: "{{ item }}"
+    type: A
+    value: "{{ network.ip }}"
+    wait: true
+    state: present
+  loop: "{{ network.proxmox.proxy_hosts }}"

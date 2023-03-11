@@ -21,7 +21,7 @@ class proxmox::proxy ($mail, $base_hostname) {
 
   file {'/etc/apache2/sites-enabled/test.conf':
     content => @("EOT")
-    MDomain $base_hostname
+    MDomain $base_hostname auto
     MDCertificateAgreement accepted
     MDContactEmail $mail
     MDNotifyCmd /usr/local/bin/notify_md_renewal

@@ -42,3 +42,10 @@
   tags: ipsilon
   roles:
     - deploy_ipsilon
+
+- name: proxmox route 53
+  hosts: proxmox
+  tags: proxmox_route_53
+  gather_facts: false
+  roles:
+    - proxmox_route_53
