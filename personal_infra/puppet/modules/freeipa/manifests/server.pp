@@ -1,7 +1,7 @@
 class freeipa::server {
   package {['ipa-server', 'ipa-server-dns', 'ipa-healthcheck']:}
   ~>
-  service {'ipa-healthcheck':
+  service {'ipa-healthcheck.timer':
     ensure => running,
     enable => true,
   }
