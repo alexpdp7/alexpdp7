@@ -38,6 +38,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://en.wikipedia.org/wiki/Definite_clause_grammar
    - https://github.com/mthom/scryer-prolog/
    - https://github.com/rla/prolog-markdown
+   - https://github.com/aarroyoc/djota/tree/main - A Djot parser in Prolog
 * CI/CD
   - https://github.com/earthly/earthly - Standalone build tool with containers
 * Systems
