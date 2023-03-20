@@ -128,6 +128,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/flutter-rs/flutter-rs
    - https://github.com/xTibor/rust-on-c64
    - https://crates.io/crates/crossterm
+   - https://github.com/matklad/xshell - Rust as a shell replacement, with nice interpolation
 ** Java
    - https://github.com/jbangdev/jbang
    - https://github.com/mabe02/lanterna - TUI
