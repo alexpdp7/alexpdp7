@@ -61,9 +61,16 @@
   delegate_to: 127.0.0.1
   when: "not 'resources' in nodes or nodes.resources|length == 0"
 
+- name: set talosconfig endpoint
+  shell:
+    cmd: talosctl --talosconfig=talos/talosconfig-{{ talos_host.talos_cluster }} config endpoint {{ inventory_hostname }}
+    chdir: "{{ inventory_dir }}"
+  delegate_to: 127.0.0.1
+  when: "not 'resources' in nodes or nodes.resources|length == 0"
+
 - name: bootstrap cluster
   command:
-    cmd: talosctl bootstrap --nodes {{ inventory_hostname }} --talosconfig talos/talosconfig-{{ talos_host.talos_cluster }} -e {{ inventory_hostname }}
+    cmd: talosctl bootstrap --nodes {{ inventory_hostname }} --talosconfig talos/talosconfig-{{ talos_host.talos_cluster }}
     chdir: "{{ inventory_dir }}"
   delegate_to: 127.0.0.1
   register: bootstrap
@@ -74,7 +81,7 @@
 
 - name: get kubeconfig
   command:
-    cmd: talosctl kubeconfig --talosconfig talos/talosconfig-{{ talos_host.talos_cluster }} --nodes {{ inventory_hostname }} -e {{ inventory_hostname }} -f
+    cmd: talosctl kubeconfig --talosconfig talos/talosconfig-{{ talos_host.talos_cluster }} --nodes {{ inventory_hostname }} -f
     chdir: "{{ inventory_dir }}"
   delegate_to: 127.0.0.1
   when: "not 'resources' in nodes or nodes.resources|length == 0"
