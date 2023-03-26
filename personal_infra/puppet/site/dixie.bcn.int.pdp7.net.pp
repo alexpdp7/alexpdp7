@@ -8,4 +8,9 @@ dhcp-option=121,10.0.0.0/8,192.168.76.2
 ",
     notify => Service["dnsmasq"],
   }
+
+  service {['sssd-pac.service', 'sssd-pac.socket']:
+    ensure => stopped,
+    enable => mask,
+  }
 }
