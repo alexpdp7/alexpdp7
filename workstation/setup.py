@@ -9,10 +9,6 @@ def _(t):
     return textwrap.dedent(t).lstrip()
 
 
-if not pathlib.Path("/etc/subuid").exists():
-    assert False, "podman is not 
-
-
 print("Installing some packages...")
 subprocess.run(["sudo", "dnf", "install", "-y", "rclone", "fuse"], check=True)
 
