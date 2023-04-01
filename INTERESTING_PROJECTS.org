@@ -34,6 +34,7 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://github.com/tree-sitter/tree-sitter
   - https://github.com/stephan-tolksdorf/fparsec
   - https://github.com/Engelberg/instaparse
+  - https://janet-lang.org/docs/peg.html - Janet is a programming language with first-class support for PEGs
 ** DCGs/Prolog
    - https://en.wikipedia.org/wiki/Definite_clause_grammar
    - https://github.com/mthom/scryer-prolog/
@@ -75,6 +76,8 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/marcan/takeover.sh
    - https://github.com/dflemstr/rq - Record tool
    - https://github.com/asapach/peerflix-server - Torrent streaming server
+** Emacs
+   - https://github.com/manateelazycat/lsp-bridge
 * Coding
 ** Observability
    - https://github.com/equinix-labs/otel-cli
