@@ -18,12 +18,6 @@
   args:
     creates: "/etc/pve/lxc/{{ proxmox.id }}.conf"
   delegate_to: "{{ proxmox.host }}"
-# https://bugzilla.proxmox.com/show_bug.cgi?id=4460
-- name: set hostname
-  copy:
-    content: "{{ inventory_hostname }}"
-    dest: /rpool/data/subvol-{{ proxmox.id }}-disk-0/etc/hostname
-  delegate_to: "{{ proxmox.host }}"
 # https://bugzilla.proxmox.com/show_bug.cgi?id=4515
 - name: set hosts
   copy:
