@@ -9,8 +9,12 @@ def _(t):
     return textwrap.dedent(t).lstrip()
 
 
-if not shutil.which("rclone"):
-    subprocess.run(["sudo", "dnf", "install", "-y", "rclone"], check=True)
+if not pathlib.Path("/etc/subuid").exists():
+    assert False, "podman is not 
+
+
+print("Installing some packages...")
+subprocess.run(["sudo", "dnf", "install", "-y", "rclone", "fuse"], check=True)
 
 if not pathlib.Path(".config/rclone/rclone.conf").exists():
     print(_("""
