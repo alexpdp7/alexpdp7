@@ -10,7 +10,7 @@ def _(t):
 
 
 print("Installing some packages...")
-subprocess.run(["sudo", "dnf", "install", "-y", "rclone", "fuse"], check=True)
+subprocess.run(["sudo", "dnf", "install", "-y", "rclone", "fuse", "git"], check=True)
 
 if not pathlib.Path(".config/rclone/rclone.conf").exists():
     print(_("""
