@@ -50,3 +50,7 @@ For the moment, I'm managing the following distros using this setup.
 
 I perform catalog compilation on my laptop running EL9.
 Although [support across Puppet 5.5-7 is not documented](https://www.puppet.com/docs/puppet/7/platform_lifecycle.html#primary-agent-compatibility), catalogs still seem to be compatible.
+
+## Misc
+
+* [Podman](podman.md)
