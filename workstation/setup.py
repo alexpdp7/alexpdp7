@@ -39,3 +39,6 @@ with open(nextcloud_service_path, "w", encoding="utf8") as f:
     """))
 
 subprocess.run(["systemctl", "--user", "enable", "--now", "nextcloud"], check=True)
+
+if not pathlib.Path(".ssh").exists():
+    subprocess.run(["ln", "-s", "Nextcloud/_ssh", ".ssh"], check=True)
