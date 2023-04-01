@@ -11,13 +11,37 @@
       --storage local-zfs
       -net0 name=eth0,bridge=vmbr0,ip=dhcp
       -onboot 1
-      --unprivileged
+      {% if not proxmox.privileged|default(false) %} -unprivileged {% endif %}
+      {% if proxmox.features|default(None) %} -features {{ proxmox.features }} {% endif %}
       --password {{ ansible_password|trim }}
       --nameserver {{ hostvars[proxmox.host].network.self_internal_ip }}
       --ostype {{ flavors[proxmox.flavor].pct_ostype }}
   args:
     creates: "/etc/pve/lxc/{{ proxmox.id }}.conf"
   delegate_to: "{{ proxmox.host }}"
+- name: proxmox extra
+  when: proxmox.extra|default(None)
+  block:
+    - name: set proxmox extra copy out
+      copy:
+        remote_src: yes
+        src: /etc/pve/lxc/{{ proxmox.id }}.conf
+        dest: /tmp/{{ proxmox.id }}.conf
+      delegate_to: "{{ proxmox.host }}"
+    - name: read conf
+      slurp:
+        src: /tmp/{{ proxmox.id }}.conf
+      register: proxmox_conf
+      delegate_to: "{{ proxmox.host }}"
+    - name: set proxmox extra
+      lineinfile:
+        path: /tmp/{{ proxmox.id }}.conf
+        line: "{{ item }}"
+      loop: "{{ proxmox.extra }}"
+      delegate_to: "{{ proxmox.host }}"
+    - name: set proxmox extra copy in
+      command: cp /tmp/{{ proxmox.id }}.conf /etc/pve/lxc/{{ proxmox.id }}.conf
+      delegate_to: "{{ proxmox.host }}"
 # https://bugzilla.proxmox.com/show_bug.cgi?id=4515
 - name: set hosts
   copy:

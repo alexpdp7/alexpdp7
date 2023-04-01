@@ -24,7 +24,7 @@
           lxc.idmap = g 0 100000 65536
           lxc.idmap = u {{ freeipa.idrange_start }} {{ freeipa.idrange_start }} {{ freeipa.idrange_size }}
           lxc.idmap = g {{ freeipa.idrange_start }} {{ freeipa.idrange_start }} {{ freeipa.idrange_size }}
-      when: not proxmox_conf['content']|b64decode is search('lxc.idmap')
+      when: not proxmox_conf['content']|b64decode is search('lxc.idmap') and not proxmox.privileged|default(False)
       notify: restart_container
       delegate_to: "{{ proxmox.host }}"
     - name: set id mappings copy in
