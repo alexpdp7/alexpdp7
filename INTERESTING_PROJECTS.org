@@ -115,6 +115,7 @@ Also keeping things in a Org mode means I can classify and add notes.
     - https://github.com/EvgSkv/logica
     - https://github.com/edgedb/edgedb - Graphs
     - https://github.com/lorint/AdventureWorks-for-Postgres
+    - https://duckdb.org/ - SQLite alternative
 **** Tools
      - https://github.com/dbcli/pgcli
      - https://github.com/okbob/pspg
@@ -166,6 +167,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 * Tabular data
   - https://github.com/gristlabs/grist-core
   - https://github.com/aardappel/treesheets
+  - https://www.visidata.org/
 * Hardware
 ** Phones
    - https://github.com/Dakkaron/Fairberry - add Blackberry keyboard to other phones
