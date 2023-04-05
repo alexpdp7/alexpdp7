@@ -1,0 +1,8 @@
+# Build with:
+#
+# $ podman build --cap-add sys_chroot -f Containerfile -t quay.io/alexpdp7/toolbox:latest
+#
+# --cap-add sys_chroot is needed by Pacman, see https://wiki.archlinux.org/title/Podman#Add_SYS_CHROOT_capabilities_(Optional)
+
+FROM docker.io/library/archlinux:latest
+RUN pacman -Syq --noconfirm ansible kubectl emacs-nox tanka puppet sshpass
