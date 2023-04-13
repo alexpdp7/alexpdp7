@@ -76,6 +76,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/marcan/takeover.sh
    - https://github.com/dflemstr/rq - Record tool
    - https://github.com/asapach/peerflix-server - Torrent streaming server
+   - https://github.com/ltratt/pizauth - OAuth tool
 ** Emacs
    - https://github.com/manateelazycat/lsp-bridge
 * Coding
