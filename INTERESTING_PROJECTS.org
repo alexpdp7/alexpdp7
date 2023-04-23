@@ -130,6 +130,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/microsoft/Power-Fx
 ** Python
    - https://github.com/inducer/pudb Full-screen console debugger for Python
+   - https://pyoxidizer.readthedocs.io/en/latest/index.html Self-contained Python distributions, packaging, etc.
 ** Rust
    - https://github.com/flutter-rs/flutter-rs
    - https://github.com/xTibor/rust-on-c64
