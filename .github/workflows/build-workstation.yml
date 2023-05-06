@@ -1,0 +1,17 @@
+on:
+  - push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+      - run: |
+          cd workstation
+          ./build_workstation
+          podman login -u="alexpdp7+github_workstation_builder" -p="$ROBOT_TOKEN" quay.io
+          podman push localhost/workstation:latest quay.io/alexpdp7/workstation:latest
+        env:
+          ROBOT_TOKEN: ${{ secrets.ROBOT_TOKEN }}

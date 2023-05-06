@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -ue
+
+(
+	cd arch-container-builder/
+	./builder.py \
+		     --package ansible \
+		     --package kubectl \
+		     --package emacs-nox \
+		     --package tanka \
+		     --package puppet \
+		     --package sshpass \
+		     --package git \
+		     --aur-package jsonnet-bundler-bin \
+		     workstation
+)
