@@ -4,3 +4,6 @@
 [submodule "personal_infra/puppet/modules/nagios_core"]
 	path = personal_infra/puppet/modules/nagios_core
 	url = https://github.com/puppetlabs/puppetlabs-nagios_core.git
+[submodule "workstation/arch-container-builder"]
+	path = workstation/arch-container-builder
+	url = https://github.com/alexpdp7/arch-container-builder.git
