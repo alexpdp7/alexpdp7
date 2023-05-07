@@ -10,7 +10,7 @@ def _(t):
 
 
 print("Installing some packages...")
-subprocess.run(["sudo", "dnf", "install", "-y", "rclone", "fuse", "git"], check=True)
+subprocess.run(["sudo", "dnf", "install", "-y", "rclone", "fuse", "git", "podman-docker", "wget"], check=True)
 
 if not (pathlib.Path.home() / ".config" / "rclone" / "rclone.conf").exists():
     print(_("""
@@ -51,4 +51,13 @@ for dotfile in dotfiles_dir.glob("*"):
     replaced_dotfile = pathlib.Path.home() / ("." + relative_dotfile.parts[0][1:])
     if not replaced_dotfile.exists():
         subprocess.run(["ln", "-s", dotfile, replaced_dotfile], check=True)
+
+
+(pathlib.Path.home() / ".local" / "bin").mkdir(exist_ok=True, parents=True)
+
+subprocess.run(["wget", "https://github.com/alexpdp7/cmdainer/releases/latest/download/cmdainer-linux", "-O", "/home/alex/.local/bin/cmdainer"], check=True)
+subprocess.run(["chmod", "+x", "/home/alex/.local/bin/cmdainer"], check=True)
+
+if not shutil.which("cmdainer"):
+    subprocess.run(["cmdainer", "add-wrapper", "workstation", "/bin/bash", "quay.io/alexpdp7/workstation:latest"], check=True)
 
