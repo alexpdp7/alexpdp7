@@ -12,6 +12,12 @@ set -ue
 		     --package puppet \
 		     --package sshpass \
 		     --package git \
+		     --package rust \
+		     --package ipython \
+		     --package python-pip \
+		     --package python-pipx \
+		     --package python-poetry \
+		     --package certbot \
 		     --aur-package jsonnet-bundler-bin \
 		     workstation
 )
