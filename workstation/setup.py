@@ -42,3 +42,13 @@ subprocess.run(["systemctl", "--user", "enable", "--now", "nextcloud"], check=Tr
 
 if not (pathlib.Path.home() / ".ssh").exists():
     subprocess.run(["ln", "-s", "Nextcloud/_ssh", ".ssh"], check=True)
+
+
+dotfiles_dir = pathlib.Path.home() / "Nextcloud" / "dotfiles"
+
+for dotfile in dotfiles_dir.glob("*"):
+    relative_dotfile = dotfile.relative_to(dotfiles_dir)
+    replaced_dotfile = pathlib.Path.home() / ("." + relative_dotfile.parts[0][1:])
+    if not replaced_dotfile.exists():
+        subprocess.run(["ln", "-s", dotfile, replaced_dotfile], check=True)
+
