@@ -13,6 +13,8 @@
       -onboot 1
       {% if not proxmox.privileged|default(false) %} -unprivileged {% endif %}
       {% if proxmox.features|default(None) %} -features {{ proxmox.features }} {% endif %}
+      {% if proxmox.memory|default(None) %} -memory {{ proxmox.memory }} {% endif %}
+      -rootfs local-zfs:{{ proxmox.disk|default(4) }}
       --password {{ ansible_password|trim }}
       --nameserver {{ hostvars[proxmox.host].network.self_internal_ip }}
       --ostype {{ flavors[proxmox.flavor].pct_ostype }}
