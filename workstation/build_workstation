@@ -18,6 +18,7 @@ set -ue
 		     --package python-pipx \
 		     --package python-poetry \
 		     --package certbot \
+		     --package bitwarden-cli \
 		     --aur-package jsonnet-bundler-bin \
 		     workstation
 )
