@@ -12,7 +12,7 @@ def _(t):
 print("Installing some packages...")
 subprocess.run(["sudo", "dnf", "install", "-y", "rclone", "fuse", "git"], check=True)
 
-if not pathlib.Path(".config/rclone/rclone.conf").exists():
+if not (pathlib.Path.home() / ".config" / "rclone" / "rclone.conf").exists():
     print(_("""
         Visit https://nextcloud.pdp7.net/nextcloud/index.php/settings/user/security , create an app password
     """))
@@ -23,7 +23,7 @@ if not pathlib.Path(".config/rclone/rclone.conf").exists():
 pathlib.Path("Nextcloud").mkdir(exist_ok=True)
 
 
-nextcloud_service_path = pathlib.Path(".config/systemd/user/nextcloud.service")
+nextcloud_service_path = pathlib.Path.home() / ".config" / "systemd" / "user" / "nextcloud.service"
 nextcloud_service_path.parent.mkdir(parents=True, exist_ok=True)
 
 
@@ -40,5 +40,5 @@ with open(nextcloud_service_path, "w", encoding="utf8") as f:
 
 subprocess.run(["systemctl", "--user", "enable", "--now", "nextcloud"], check=True)
 
-if not pathlib.Path(".ssh").exists():
+if not (pathlib.Path.home() / ".ssh").exists():
     subprocess.run(["ln", "-s", "Nextcloud/_ssh", ".ssh"], check=True)
