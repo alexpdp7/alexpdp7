@@ -8,7 +8,6 @@ set -ue
 		     --package ansible \
 		     --package kubectl \
 		     --package emacs-nox \
-		     --package tanka \
 		     --package puppet \
 		     --package sshpass \
 		     --package git \
@@ -19,6 +18,5 @@ set -ue
 		     --package python-poetry \
 		     --package certbot \
 		     --package bitwarden-cli \
-		     --aur-package jsonnet-bundler-bin \
 		     workstation
 )
