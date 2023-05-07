@@ -20,7 +20,7 @@ if not (pathlib.Path.home() / ".config" / "rclone" / "rclone.conf").exists():
     subprocess.run(["rclone", "config", "create", "nextcloud", "webdav", "url=https://nextcloud.pdp7.net/nextcloud/remote.php/dav/files/alex/", "vendor=nextcloud", "user=alex", "--all"], check=True)
 
 
-pathlib.Path("Nextcloud").mkdir(exist_ok=True)
+(pathlib.Path.home() / "Nextcloud").mkdir(exist_ok=True)
 
 
 nextcloud_service_path = pathlib.Path.home() / ".config" / "systemd" / "user" / "nextcloud.service"
