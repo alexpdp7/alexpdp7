@@ -70,6 +70,9 @@
 (straight-use-package 'lsp-mode)
 (straight-use-package 'company-mode)
 (straight-use-package 'lsp-ui)
+(straight-use-package 'yasnippet)
+
+(yas-global-mode 1)
 
 ;; Rust support
 
