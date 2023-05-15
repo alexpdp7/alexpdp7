@@ -178,6 +178,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/wolpi/prim-ftpd
 * Other
   - https://ublue.it/
+  - https://github.com/fsquillace/junest - Arch chroots
   - https://github.com/jhuangtw/xg2xg
   - https://github.com/mzucker/noteshrink - handwriting to PDF
   - https://github.com/kmonad/kmonad - advanced cross-platform keyboard remapping
