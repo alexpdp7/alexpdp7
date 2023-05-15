@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
   - https://raw.githubusercontent.com/jcmoraisjr/haproxy-ingress/master/docs/haproxy-ingress.yaml
+  - https://github.com/alexpdp7/talos-check/raw/main/manifest.yaml
 
 patches:
   - patch: |-
