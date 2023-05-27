@@ -7,3 +7,6 @@
 [submodule "workstation/arch-container-builder"]
 	path = workstation/arch-container-builder
 	url = https://github.com/alexpdp7/arch-container-builder.git
+[submodule "personal_infra/talos-check"]
+	path = personal_infra/talos-check
+	url = https://github.com/alexpdp7/talos-check.git

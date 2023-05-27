@@ -1,7 +1,13 @@
 class nagios::k8s {
+  file {'/usr/local/bin/check_talos_version':
+    content => file('nagios/check_talos_version'),
+    mode => '0755',
+    links => follow,
+  }
+
   nagios_command {'check_talos':
     command_name => 'check_talos',
-    command_line => '/usr/lib64/nagios/plugins/check_http -H monitor -I $HOSTADDRESS$ -s OK -u /available',
+    command_line => '/usr/local/bin/check_talos_version http://$HOSTADDRESS$ monitor',
     require => Package['nagios'],
     notify => Service['nagios'],
     owner => 'nagios',
