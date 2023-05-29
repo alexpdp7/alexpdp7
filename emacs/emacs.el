@@ -26,6 +26,11 @@
 (setq column-number-mode t)
 (setq-default show-trailing-whitespace t)
 
+;; From https://www.emacswiki.org/emacs/SmoothScrolling#h5o-8
+(setq scroll-step 1)
+(setq scroll-conservatively 10000)
+(setq auto-window-vscroll nil)
+
 ;; Colorblind friendly theme.
 ;; Emacs 28 has modus themes, but EL9 only has emacs 27
 
