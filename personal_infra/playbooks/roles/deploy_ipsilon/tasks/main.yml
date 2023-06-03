@@ -1,5 +1,11 @@
 ---
 - name: install ipsilon (if this task fails, run kinit as root)
-  command: ipsilon-server-install --hostname {{ ipsilon.hostname }} --ipa yes --openidc yes --admin-user {{ ipsilon.admin_user }}
+  command: ipsilon-server-install --hostname {{ ipsilon.hostname }} --ipa yes --openidc yes --admin-user {{ ipsilon.admin_user }} --info-sssd=yes --form=yes --root-instance
   args:
     creates: /etc/ipsilon/idp
+- name: fix permissions
+  command: chown -R ipsilon:ipsilon /var/lib/ipsilon/ /etc/ipsilon/
+- name: restart httpd
+  service:
+    name: httpd
+    state: restarted
