@@ -39,17 +39,14 @@ class proxmox::proxy ($mail, $base_hostname) {
     content => @("EOT"/$)
     #!/bin/sh
 
-    mail $mail -s "Restart apache2 on $base_hostname for certificate \$1" </dev/null
+    systemctl restart apache2
+    pvenode cert set /etc/apache2/md/domains/$base_hostname/pubcert.pem /etc/apache2/md/domains/$base_hostname/privkey.pem  --force 1 --restart 1
+
+    for hook in /usr/local/bin/notify_md_renewal_hook_* ; do
+      \$hook
+    done
     | EOT
     ,
     mode => '0755',
-  }
-
-  package {'cronic':}
-
-  cron {'pve-certs':
-    command => "/usr/bin/cronic /usr/bin/pvenode cert set /etc/apache2/md/domains/$base_hostname/pubcert.pem /etc/apache2/md/domains/$base_hostname/privkey.pem  --force 1 --restart 1",
-    user => 'root',
-    special => 'daily',
   }
 }

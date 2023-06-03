@@ -12,5 +12,6 @@ node 'h1.pdp7.net' {
 
   proxmox::proxy_host {'ipsilon-test.pdp7.net':
     target => 'https://ipsilon-test.h1.int.pdp7.net/',
+    overwrite_rh_certs => 'ipsilon-test.h1.int.pdp7.net',
   }
 }
