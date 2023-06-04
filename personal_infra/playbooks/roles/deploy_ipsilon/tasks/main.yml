@@ -5,6 +5,12 @@
     creates: /etc/ipsilon/idp
 - name: fix permissions
   command: chown -R ipsilon:ipsilon /var/lib/ipsilon/ /etc/ipsilon/
+- name: create public host
+  shell: ipa host-find {{ ipsilon.hostname }} || ipa host-add {{ ipsilon.hostname }}
+- name: create public service
+  shell: ipa service-find HTTP/{{ ipsilon.hostname }} || ipa service-add HTTP/{{ ipsilon.hostname }}
+- name: add public service to keytab
+  shell: klist -k /etc/httpd/conf/http.keytab | grep HTTP/{{ ipsilon.hostname }} || ipa-getkeytab -p HTTP/{{ ipsilon.hostname }} -k /etc/httpd/conf/http.keytab
 - name: restart httpd
   service:
     name: httpd
