@@ -26,5 +26,5 @@ dhcp-host=<%= $host %>,<%= $ip %>,<%= $host %>
 <% } %>
 
 <% $fixed_hosts.each |$host, $ip| { %>
-host-record=<%= $host %>,<%= $host %>.<%= $dns_dhcp['domain'] %>,<%= $ip %>
+host-record=<%= $host %>.<%= $dns_dhcp['domain'] %>,<%= $host %>,<%= $ip %>
 <% } %>
