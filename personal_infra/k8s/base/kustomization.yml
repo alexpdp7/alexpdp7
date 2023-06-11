@@ -2,22 +2,31 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - https://raw.githubusercontent.com/jcmoraisjr/haproxy-ingress/master/docs/haproxy-ingress.yaml
+  - https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.8.0/deploy/static/provider/cloud/deploy.yaml
   - https://github.com/alexpdp7/talos-check/raw/main/manifest.yaml
 
 patches:
   - patch: |-
       - op: add
-        path: /spec/template/spec/containers/0/args/-
-        value: --watch-ingress-without-class
+        path: "/metadata/annotations/ingressclass.kubernetes.io~1is-default-class"
+        value: true
     target:
-      kind: DaemonSet
-      name: haproxy-ingress
-      namespace: ingress-controller
+      kind: IngressClass
+      name: nginx
   - patch: |
       apiVersion: v1
       kind: Namespace
       metadata:
-        name: ingress-controller
+        name: ingress-nginx
         labels:
           pod-security.kubernetes.io/enforce: privileged
+  - patch: |
+      apiVersion: apps/v1
+      kind: Deployment
+      metadata:
+        name: ingress-nginx-controller
+        namespace: ingress-nginx
+      spec:
+        template:
+          spec:
+            hostNetwork: true
