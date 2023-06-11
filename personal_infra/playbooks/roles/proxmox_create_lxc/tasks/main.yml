@@ -14,6 +14,9 @@
       {% if not proxmox.privileged|default(false) %} -unprivileged {% endif %}
       {% if proxmox.features|default(None) %} -features {{ proxmox.features }} {% endif %}
       {% if proxmox.memory|default(None) %} -memory {{ proxmox.memory }} {% endif %}
+      {% for disk in proxmox.disks|default([]) %}
+        --mp{{ disk.index }} volume={{ disk.storage }}:{{ disk.size_gb }},mp={{ disk.path }}
+      {% endfor %}
       -rootfs local-zfs:{{ proxmox.disk|default(4) }}
       --password {{ ansible_password|trim }}
       --nameserver {{ hostvars[proxmox.host].network.self_internal_ip }}
