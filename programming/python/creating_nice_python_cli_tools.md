@@ -26,10 +26,10 @@ Following this advice can make your tools easy to install by others, pleasant to
   * Consider using the standard [logging](https://docs.python.org/3/library/logging.html) module with a format that uses a timestamp, so users can inspect how much time is spent in different parts of the program.
     You can also use logging module to implement flags such as `--debug` and `--verbose`.
 * Although fancier tools exist, the standard [argparse](https://docs.python.org/3/library/argparse.html) module is good enough for most argument parsing.
-  The main functionality missing is easy tab completion.
   It has decent support for [sub-commands](https://docs.python.org/3/library/argparse.html#sub-commands), and the linked document describes a very nice pattern to define functions for sub-commands, under "One particularly effective way of handling sub-commands..."
   Provide help text for non-obvious parameters.
   argparse supports a lot of different argument types with a lot of functionality out of the box, such as enumerated options, integers, and file names.
+  The main reason for using a fancier argument parsing is that argparse does not have autocomplete support, but you can add [argcomplete](https://github.com/kislyuk/argcomplete) to an argparse program with minimal modifications to retrofit autocomplete.
 * Remember that the standard [json](https://docs.python.org/3/library/json.html) module is built-in.
   You can use it to add a mode to your tool that generates JSON output instead of human-readable output, for easy automation of your tool, maybe using [jq](https://stedolan.github.io/jq/) or [fx](https://github.com/antonmedv/fx).
 * Use the standard [subprocess](https://docs.python.org/3/library/subprocess.html) module to execute other commands.
