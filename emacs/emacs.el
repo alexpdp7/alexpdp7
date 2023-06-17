@@ -77,6 +77,10 @@
 (straight-use-package 'lsp-ui)
 (straight-use-package 'yasnippet)
 
+(add-hook 'java-mode-hook (lambda ()
+                            (setq c-basic-offset 2
+                                  indent-tabs-mode f)))
+
 (yas-global-mode 1)
 
 ;; Rust support
