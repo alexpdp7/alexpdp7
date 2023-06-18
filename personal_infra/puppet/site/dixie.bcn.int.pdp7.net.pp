@@ -9,6 +9,10 @@ dhcp-option=121,10.0.0.0/8,192.168.76.2
     notify => Service["dnsmasq"],
   }
 
+  class {'backups':
+    sanoid_config => "",
+  }
+
   service {['sssd-pac.service', 'sssd-pac.socket']:
     ensure => stopped,
     enable => mask,

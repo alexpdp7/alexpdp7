@@ -2,6 +2,23 @@ node 'h1.pdp7.net' {
   class {'proxmox::freeipa':}
   class {'dns_dhcp':}
 
+  class {'backups':
+    sanoid_config =>  @("EOT")
+      # pg data
+      [rpool/data/subvol-204-disk-1]
+        use_template = backup
+
+      [template_backup]
+        frequently=0
+        hourly=0
+        daily=100000
+        monthly=0
+        yearly=0
+        autosnap=yes
+      | EOT
+    ,
+  }
+
   # TODO: ugly; tinc scripts require this :(
   package {'net-tools':}
 
