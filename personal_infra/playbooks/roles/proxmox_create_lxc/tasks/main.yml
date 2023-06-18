@@ -24,6 +24,10 @@
   args:
     creates: "/etc/pve/lxc/{{ proxmox.id }}.conf"
   delegate_to: "{{ proxmox.host }}"
+- name: allow backups
+  shell: "zfs allow -u backups mount,send,hold,snapshot,destroy rpool/data/$(pct config {{ proxmox.id }} | grep mp{{ item.index }} | cut -d , -f 1 | cut -d : -f 3)"
+  delegate_to: "{{ proxmox.host }}"
+  loop: "{{ proxmox.disks|default([]) }}"
 - name: proxmox extra
   when: proxmox.extra|default(None)
   block:
