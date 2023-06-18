@@ -1,4 +1,4 @@
-define proxmox::proxy_host (String[1] $target, Optional[String[1]] $overwrite_rh_certs) {
+define proxmox::proxy_host (String[1] $target, Optional[String[1]] $overwrite_rh_certs = undef) {
   file {"/etc/apache2/sites-enabled/$title.conf":
     content => @("EOT")
       MDomain $title
@@ -11,8 +11,9 @@ define proxmox::proxy_host (String[1] $target, Optional[String[1]] $overwrite_rh
         ProxyPassReverse "/" "$target"
         ProxyPreservehost On
         SSLProxyEngine on
+        SSLProxyCheckPeerName off
       </VirtualHost>
-    | EOT
+      | EOT
     ,
   }
   ~>
