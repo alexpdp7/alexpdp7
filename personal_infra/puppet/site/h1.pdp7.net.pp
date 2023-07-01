@@ -35,9 +35,9 @@ node 'h1.pdp7.net' {
     base_hostname => lookup('network.public_hostname'),
   }
 
-  proxmox::proxy_host {'ipsilon-test.pdp7.net':
-    target => 'https://ipsilon-test.h1.int.pdp7.net/',
-    overwrite_rh_certs => 'ipsilon-test.h1.int.pdp7.net',
+  proxmox::proxy_host {'idp.pdp7.net':
+    target => 'https://ipsilon.h1.int.pdp7.net/',
+    overwrite_rh_certs => 'ipsilon.h1.int.pdp7.net',
   }
 
   proxmox::proxy_host {'weight-test.pdp7.net':
