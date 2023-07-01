@@ -49,3 +49,17 @@ Until Talos includes https://github.com/siderolabs/talos/pull/5897 , [the playbo
 * Fetches the kubeconfig.
 * Deploys kustomizations in `k8s/base`. 
 See [my kustomizations](../../../k8s/base/).
+
+## Updates
+
+To update Talos, update `talosctl`, then:
+
+```
+$ talosctl upgrade --preserve --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com --wait
+```
+
+To update K8S:
+
+```
+$ talosctl upgrade-k8s --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com
+```
