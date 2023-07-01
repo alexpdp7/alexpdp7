@@ -47,7 +47,7 @@ With the above configuration, the role will:
 Until Talos includes https://github.com/siderolabs/talos/pull/5897 , [the playbook fishes the IP from the dnsmasq Proxmox instance](tasks/proxmox.yml#L13) by using [this script](files/get-ip).
 * Sets up Talos.
 * Fetches the kubeconfig.
-* Deploys kustomizations in `k8s/base`. 
+* Deploys kustomizations in `k8s/base`.
 See [my kustomizations](../../../k8s/base/).
 
 ## Updates
