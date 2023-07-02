@@ -40,7 +40,7 @@ node 'h1.pdp7.net' {
     overwrite_rh_certs => 'ipsilon.h1.int.pdp7.net',
   }
 
-  proxmox::proxy_host {'weight-test.pdp7.net':
+  proxmox::proxy_host {'weight.pdp7.net':
     target => 'https://k8s-prod.h1.int.pdp7.net/',
   }
 }
