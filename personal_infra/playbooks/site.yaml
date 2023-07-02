@@ -49,3 +49,15 @@
   gather_facts: false
   roles:
     - proxmox_route_53
+
+- name: deploy weight
+  hosts: k8s-prod.h1.int.pdp7.net
+  tags:
+    - k8s
+    - weight
+  gather_facts: false
+  roles:
+    - role: zqxjkcrud
+      vars:
+        context: "admin@{{ talos_host.talos_cluster }}"
+        definition: "{{ weight }}"

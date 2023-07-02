@@ -1,0 +1,13 @@
+---
+- name: render manifests
+  command: kubectl run --context {{ context }} -q -n default -i --rm builder --image quay.io/alexpdp7/zqxjkcrud:update --restart=Never --command -- zqxjkcrud-manifest-builder
+  args:
+    stdin: "{{ definition|to_yaml }}"
+  register: manifestbuild
+  delegate_to: 127.0.0.1
+- k8s:
+    context: "{{ context }}"
+    state: present
+    apply: true
+    definition: "{{ manifestbuild.stdout | from_yaml_all }}"
+  delegate_to: 127.0.0.1

@@ -4,7 +4,7 @@ node 'pg.h1.int.pdp7.net' {
       # TYPE  DATABASE        USER            ADDRESS                   METHOD
       # "local" is for Unix domain socket connections only
       local   all             all                                       peer
-      host    k8s_test        k8s_test        k8s-test.h1.int.pdp7.net  trust
+      host    k8s_test        k8s_test        k8s-prod.h1.int.pdp7.net  trust
       | EOT
     ,
   }
