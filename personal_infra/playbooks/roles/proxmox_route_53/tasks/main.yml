@@ -1,11 +1,11 @@
 ---
-- name: create A entries
+- name: create DNS entries
   local_action:
     module: amazon.aws.route53
     zone: "{{ network.dns_zone }}"
     record: "{{ item }}"
-    type: A
-    value: "{{ network.ip }}"
+    type: CNAME
+    value: "{{ network.public_hostname }}"
     wait: true
     state: present
   loop: "{{ network.proxmox.proxy_hosts }}"
