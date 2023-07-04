@@ -1,6 +1,6 @@
 ---
 - name: render manifests
-  command: kubectl run --context {{ context }} -q -n default -i --rm builder --image quay.io/alexpdp7/zqxjkcrud:update --restart=Never --command -- zqxjkcrud-manifest-builder
+  command: kubectl run --context {{ context }} -q -n default -i --rm builder --image quay.io/alexpdp7/zqxjkcrud:master --restart=Never --image-pull-policy=Always --command -- zqxjkcrud-manifest-builder
   args:
     stdin: "{{ definition|to_yaml }}"
   register: manifestbuild
