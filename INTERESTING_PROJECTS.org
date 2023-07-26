@@ -129,6 +129,7 @@ Also keeping things in a Org mode means I can classify and add notes.
      - https://github.com/confluentinc/ksql
 ** Low code
    - https://github.com/microsoft/Power-Fx
+   - https://github.com/carltongibson/neapolitan - one of Django's authors does a variation on the Django admin?
 ** Python
    - https://github.com/inducer/pudb Full-screen console debugger for Python
    - https://pyoxidizer.readthedocs.io/en/latest/index.html Self-contained Python distributions, packaging, etc.
