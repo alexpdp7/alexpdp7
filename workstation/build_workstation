@@ -18,5 +18,6 @@ set -ue
 		     --package python-poetry \
 		     --package certbot \
 		     --package bitwarden-cli \
+		     --package xclip \
 		     workstation
 )
