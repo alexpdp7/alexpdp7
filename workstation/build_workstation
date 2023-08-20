@@ -19,5 +19,6 @@ set -ue
 		     --package certbot \
 		     --package bitwarden-cli \
 		     --package xclip \
+		     --package screen \
 		     workstation
 )
