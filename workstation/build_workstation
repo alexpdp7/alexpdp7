@@ -20,5 +20,6 @@ set -ue
 		     --package bitwarden-cli \
 		     --package xclip \
 		     --package screen \
+		     --package man-db \
 		     workstation
 )
