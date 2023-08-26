@@ -21,5 +21,6 @@ set -ue
 		     --package xclip \
 		     --package screen \
 		     --package man-db \
+		     --aur-package mu \
 		     workstation
 )
