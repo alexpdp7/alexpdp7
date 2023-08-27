@@ -18,6 +18,8 @@ set -ue
 		     --package python-poetry \
 		     --package python-jmespath \
 		     --package python-kubernetes \
+		     --package python-botocore \
+		     --package python-boto3 \
 		     --package certbot \
 		     --package bitwarden-cli \
 		     --package xclip \
