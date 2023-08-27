@@ -16,6 +16,7 @@ set -ue
 		     --package python-pip \
 		     --package python-pipx \
 		     --package python-poetry \
+		     --package python-jmespath \
 		     --package certbot \
 		     --package bitwarden-cli \
 		     --package xclip \
