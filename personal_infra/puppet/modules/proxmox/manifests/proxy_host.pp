@@ -1,7 +1,6 @@
 define proxmox::proxy_host (String[1] $target, Optional[String[1]] $overwrite_rh_certs = undef) {
   if $target =~ /^https:/ {
     $ssl_fragment = @("EOT")
-      SSLEngine on
       SSLProxyEngine on
       SSLProxyCheckPeerName off
     | EOT
@@ -16,6 +15,7 @@ define proxmox::proxy_host (String[1] $target, Optional[String[1]] $overwrite_rh
 
       <VirtualHost *:443>
         ServerName $title
+        SSLEngine on
 
         ProxyPass "/" "$target"
         ProxyPassReverse "/" "$target"
