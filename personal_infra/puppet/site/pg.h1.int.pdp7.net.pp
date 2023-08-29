@@ -6,7 +6,10 @@ node 'pg.h1.int.pdp7.net' {
       local   all             all                                       peer
       host    weight          k8s_prod        k8s-prod.h1.int.pdp7.net  trust
       host    weight          grafana         grafana.h2.int.pdp7.net   trust
+      host    miniflux        miniflux        miniflux.h1.int.pdp7.net  trust
       | EOT
     ,
   }
+
+  package {'postgresql15-contrib':} # hstore for miniflux
 }
