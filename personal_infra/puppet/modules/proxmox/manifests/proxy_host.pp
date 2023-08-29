@@ -1,17 +1,26 @@
 define proxmox::proxy_host (String[1] $target, Optional[String[1]] $overwrite_rh_certs = undef) {
+  if $target =~ /^https:/ {
+    $ssl_fragment = @("EOT")
+      SSLEngine on
+      SSLProxyEngine on
+      SSLProxyCheckPeerName off
+    | EOT
+  }
+  else {
+    $ssl_fragment = ""
+  }
+
   file {"/etc/apache2/sites-enabled/$title.conf":
     content => @("EOT")
       MDomain $title
 
       <VirtualHost *:443>
         ServerName $title
-        SSLEngine on
 
         ProxyPass "/" "$target"
         ProxyPassReverse "/" "$target"
         ProxyPreservehost On
-        SSLProxyEngine on
-        SSLProxyCheckPeerName off
+        $ssl_fragment
       </VirtualHost>
       | EOT
     ,
