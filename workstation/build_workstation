@@ -25,6 +25,7 @@ set -ue
 		     --package xclip \
 		     --package screen \
 		     --package man-db \
+		     --package isync \
 		     --aur-package mu \
 		     --aur-package talosctl \
 		     --trusted-key-id FE042E3D4085A811 \
