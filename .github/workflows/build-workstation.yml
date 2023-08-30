@@ -4,6 +4,7 @@ on:
       - 'workstation/**'
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build:
