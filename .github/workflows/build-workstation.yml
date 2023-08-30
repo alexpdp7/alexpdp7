@@ -1,5 +1,9 @@
 on:
-  - push
+  push:
+    paths:
+      - 'workstation/**'
+    branches:
+      - main
 
 jobs:
   build:
