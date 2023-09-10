@@ -1,0 +1,40 @@
+# Reentrada
+2023-09-10
+
+=> https://cassidyjames.com/blog/fediverse-blog-comments-mastodon/ Sobre monotemas, usar el Fediverso como sistema de comentarios me parece altamente interesante.
+
+> Desde octubre de 2012, el departamento solamente presta este servicio de atención a consultas lingüísticas a través de la cuenta @RAEinforma en la red social Twitter.
+
+=> https://www.rae.es/espanol-al-dia Por contra, otros nos obligan a usar *esa* red social. Acabo de enviar una protesta, por supuesto. Y luego otra queja porque el email de acuse de recibo a la protesta probablemente tenía un error ortográfico ¬ ¬U
+
+A las entregas anteriores:
+
+=> gemini://alex.corcoles.net/2007/06/ritmos-cercanos/
+=> gemini://alex.corcoles.net/2009/02/otro-otro/
+
+Ahora hay que añadirle otro más (y quizá, aún más inexplicable):
+
+=> https://farside.link/invidious/watch?v=6gUiQ8CqLcY Travis Scott - Sirens
+
+=> gemini://alex.corcoles.net/2022/11/el-doble-factor-y-su-progenitora/ Debo admitir que cuando os cité el XKCD sobre precisión y exactitud, creo que no lo entendí completamente. Pero porque fui tan vago de no mirar los artículos de la Wikipedia sobre el tema:
+
+=> https://en.wikipedia.org/wiki/Accuracy_and_precision
+=> https://es.wikipedia.org/wiki/Precisi%C3%B3n_y_exactitud
+
+, porque deambular por la Wikipedia siempre tiene recompensa, como por ejemplo:
+
+> Garfunkel named himself Tom Graph, a reference to his interest in mathematics
+
+=> https://en.m.wikipedia.org/wiki/Simon_%26_Garfunkel#1957%E2%80%931964:_from_Tom_&_Jerry_and_early_recordings
+
+El resto, en batiburrillo:
+
+=> https://www.vox.com/science-and-health/2017/12/18/16777724/human-feet-beach-pacific-northwest-seattle-vancouver Pies a la deriva
+=> https://www.polygon.com/23780171/mortal-kombat-1-roomba-johnny-cage Siguiendo con las desmembraciones, un inesperado (y ajetreado) protagonista del nuevo Mortal Kombat (no, no es Van Damme)
+=> https://vandal.elespanol.com/noticia/1350763941/manolo-lama-y-paco-gonzalez-ya-no-sera-los-comentaristas-de-ea-sports/ Y en cambio, se van los protagonistas más importantes del "FIFA". Tanto, que... ¿parece que deja de ser FIFA?
+=> https://readonlymemory.vg/the-making-of-sensible-soccer/ Pero carece de importancia, porque sólo hay un juego de fútbol. (Extracto de un libro que me he perdido.)
+=> https://www.themarshallproject.org/2023/08/31/dungeons-and-dragons-texas-death-row-tdcj El artículo completo sobre los presos del corredor de la muerte y el "Dungeons".
+=> https://www.polygon.com/23850698/dnd-dungeons-dragons-autistic-character-asteria ... y un poco de inclusividad, quizá obvia pero en mi opinión más entrañable que otras... también en el D y D.
+=> https://www.theverge.com/23852814/jeopardy-signaling-device-delcom-practice-buzzer-button-of-the-month Que hay que prepararse para los concursos de la tele es obvio, pero no me hubiera imaginado esto.
+=> https://www.quantamagazine.org/alan-turing-and-the-power-of-negative-thinking-20230905/ Un artículo que nos presenta razonablemente bien algunas de las cosas de Turing que casi hacen que me explote la cabeza hace unas décadas.
+=> https://www.polygon.com/23817181/mtg-one-ring-card-post-malone Una excentricidad de rapero que todavía no había visto
