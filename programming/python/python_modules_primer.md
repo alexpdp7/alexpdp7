@@ -157,3 +157,33 @@ This works, because `sys.path` contains `''`, which means "the current directory
 When `import a` is executed, then Python searches the directories in `sys.path` for an `a.py` file; it is found when checking the `''` path.
 When `import datetime` is executed, Python searches in the current directory (because `''` comes first in the path), doesn't find it, but then finds it in the following `/usr/lib64/python3.9` directory.
 Python iterates over the `sys.path` directories, and loads the *first* matching file.
+
+## Installing libraries
+
+When writing Python software, sometimes it is enough with the modules included in the standard library.
+However, frequently you want to use other libraries.
+To use Python libraries, you must install them using the `pip` command.
+
+The `pip` command is not part of the `python3` package in some Linux distributions, and comes from the `python3-pip` package.
+
+The `pip` command can download libraries from https://pypi.org/ , the Python package index, and install them.
+`pip` installs libraries to a "Python environment".
+
+Old versions of `pip` defaulted to installing libraries to the "system" Python environment.
+In a Linux system, the system Python environment is located in a directory such as `/usr/lib64/python3.9`.
+By default, normal Linux users cannot write to `/usr`, so installing a package would fail.
+
+Modern versions of `pip` detect that they cannot write to the "system" Python environment, and then redirect the install to the "user" Python environment.
+The "user" Python environment is in a directory such as `~/.local/lib/python3.9`.
+
+You could use a command such as `sudo pip install` to grant `pip` the privileges required to write to `/usr`.
+However, this can make a Linux system unusable.
+Most Linux systems use software that uses the "system" Python environment.
+Altering the "system" Python environment can break such software.
+Do not run `sudo pip install` with root privileges unless you know why you need this.
+
+If you use a modern `pip` (or use the `pip install --user` command), you can install libraries to the "user" Python environment.
+However, this is problematic because a Python environment can only contain a single version of a Python library.
+If you have two different Python programs that different versions of the same library, then these two programs cannot coexist in the "user" Python environment.
+
+In general, Python virtual environments are used to address this problem.
