@@ -76,3 +76,51 @@ $ chmod +x foo.sh
 $ ./foo.sh
 hello
 ```
+
+## The `import` statement in Python
+
+### Importing from the Python standard library
+
+Run the following commands by using the Python REPL:
+
+```
+$ python3
+Python 3.9.17 (main, Aug  9 2023, 00:00:00)
+[GCC 11.4.1 20230605 (Red Hat 11.4.1-2)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import datetime
+>>> datetime.datetime.now()
+datetime.datetime(2023, 9, 11, 21, 53, 16, 331236)
+```
+
+`import` works in a similar way to running a command in the shell.
+Python searches a number of directories looking for the `datetime` module.
+
+To see which directories are searched, run:
+
+```
+$ python3
+>>> import sys
+>>> sys.path
+['', '/usr/lib64/python39.zip', '/usr/lib64/python3.9', '/usr/lib64/python3.9/lib-dynload', '/home/alex/.local/lib/python3.9/site-packages', '/usr/lib64/python3.9/site-packages', '/usr/lib/python3.9/site-packages']
+```
+
+`sys.path` is a list of the directories that the `import` command searches.
+The contents of `sys.path` depend on your operating system and Python installation method.
+
+In my system, the `/usr/lib64/python3.9` directory contains the `datetime.py` module.
+
+```
+$ head /usr/lib64/python3.9/datetime.py
+"""Concrete date/time and related types.
+
+See http://www.iana.org/time-zones/repository/tz-link.html for
+time zone and DST data sources.
+"""
+
+__all__ = ("date", "datetime", "time", "timedelta", "timezone", "tzinfo",
+           "MINYEAR", "MAXYEAR")
+...
+```
+
+`/usr/lib64/python3.9` contains the modules in [the Python standard library](https://docs.python.org/3/library/).
