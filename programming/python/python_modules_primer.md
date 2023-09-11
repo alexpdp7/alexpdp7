@@ -124,3 +124,36 @@ __all__ = ("date", "datetime", "time", "timedelta", "timezone", "tzinfo",
 ```
 
 `/usr/lib64/python3.9` contains the modules in [the Python standard library](https://docs.python.org/3/library/).
+
+### Importing your Python files
+
+If you create a file with the `a.py` name:
+
+```
+def f():
+    return 2
+```
+
+, and another with the `b.py` name:
+
+```
+import a
+
+print(a.f())
+```
+
+, then:
+
+```
+$ python b.py
+2
+```
+
+
+This works, because `sys.path` contains `''`, which means "the current directory".
+
+(`sys.path` is very similar to the `PATH` variable. However, `sys.path` contains the current directory by default, whereas `PATH` does not.)
+
+When `import a` is executed, then Python searches the directories in `sys.path` for an `a.py` file; it is found when checking the `''` path.
+When `import datetime` is executed, Python searches in the current directory (because `''` comes first in the path), doesn't find it, but then finds it in the following `/usr/lib64/python3.9` directory.
+Python iterates over the `sys.path` directories, and loads the *first* matching file.
