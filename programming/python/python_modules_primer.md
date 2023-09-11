@@ -187,3 +187,77 @@ However, this is problematic because a Python environment can only contain a sin
 If you have two different Python programs that different versions of the same library, then these two programs cannot coexist in the "user" Python environment.
 
 In general, Python virtual environments are used to address this problem.
+
+## Creating Python virtual environments
+
+If you run:
+
+```
+$ python3 -m venv <some path>
+```
+
+This will create a directory with the path you specify, with the following contents:
+
+```
+<some path>
+├── bin
+│   ├── activate
+│   ├── pip
+│   ├── python
+├── include
+├── lib
+│   └── python3.9
+```
+
+The `python` and `pip` commands are copies of the same commands from the "system" Python environment.
+
+But these commands work differently from the "system" Python environment commands:
+
+```
+$ <some path>/bin/python
+>>> import sys
+>>> sys.path
+['', '/usr/lib64/python39.zip', '/usr/lib64/python3.9', '/usr/lib64/python3.9/lib-dynload', '<some path>/lib64/python3.9/site-packages', '<some path>/lib/python3.9/site-packages']
+```
+
+`sys.path` uses the `lib` directories in the virtual environment.
+
+When you use the `pip` command from the virtual environment, it installs the libraries to the virtual environment.
+
+You can create as many virtual environments as you need, and you can install different versions of libraries to each virtual environment.
+
+## Activating Python environments
+
+You can run the `python` and `pip` commands by specifying the full path, like we did when executing the `foo.sh` command earlier.
+
+By default, if you run `python`, the shell will invoke the `python` command from the "system" Python environment because it is in a directory included in the `PATH` variable.
+If you specify the full path, you override this.
+
+To save typing, the `bin` directory of a virtual environment contains an `activate` file.
+The `activate` file is a "special" shell script that must be invoked in one of the following two ways:
+
+```
+$ source <some path>/bin/activate
+```
+
+```
+$ . <some path>/bin/activate
+```
+
+`source` and `.` are synonyms.
+They are special shell commands that are needed for the `activate` command to work correctly.
+
+`activate` alters your path, so that the `bin` directory in your virtual environment comes first in your path.
+
+```
+$ echo $PATH
+/home/user/.local/bin:/home/user/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+$ . <some path>/bin/activate
+(some path) $ echo $PATH
+<some path>/bin:/home/user/.local/bin:/home/user/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+```
+
+, and thus if you run `python`, `<some path>/bin/python` will be executed instead of `/usr/bin/python`.
+
+Besides changing your prompt to indicate the virtual environment is activated, `activate` only alters your `PATH`.
+You can never use `activate` if you always specify the path to the virtual environment commands.
