@@ -53,9 +53,14 @@
 
 ;; Do not spill temporary files everywhere
 
+;; https://stackoverflow.com/a/18330742
 (defvar --backup-directory (concat user-emacs-directory "backups"))
 (if (not (file-exists-p --backup-directory))
         (make-directory --backup-directory t))
+(setq backup-directory-alist `(("." . ,--backup-directory)))
+
+;; https://www.reddit.com/r/emacs/comments/tejte0/undotree_bug_undotree_files_scattering_everywhere/?rdt=39892
+(setq undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo")))
 
 ;; nicer completion UI
 
