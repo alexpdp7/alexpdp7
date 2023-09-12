@@ -282,3 +282,6 @@ The statement `cat a b` has two arguments: `a` and `b`.
 For each argument, `cat` prints the file of that name.
 So the `cat a b` statement prints the contents of the `a` and `b` files, not of a file named `a b`.
 
+== TODO
+
+* SSH particularities: https://news.ycombinator.com/item?id=36722570[]
