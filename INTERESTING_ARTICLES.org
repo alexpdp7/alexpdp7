@@ -6,3 +6,7 @@
 ** Python
 
 - [[https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/][Python’s "Disappointing" Superpowers]] A convincing defense of dynamic typing
+
+* Organizations
+
+- [[https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/][The Engineer/Manager Pendulum]] Why people should multiclass engineering and management
