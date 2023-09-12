@@ -162,11 +162,11 @@ Python iterates over the `sys.path` directories, and loads the *first* matching 
 
 When writing Python software, sometimes it is enough with the modules included in the standard library.
 However, frequently you want to use other libraries.
-To use Python libraries, you must install them using the `pip` command.
+To use Python libraries, you must install them using the `pip` program.
 
-The `pip` command is not part of the `python3` package in some Linux distributions, and comes from the `python3-pip` package.
+The `pip` program is not part of the `python3` package in some Linux distributions, and comes from the `python3-pip` package.
 
-The `pip` command can download libraries from https://pypi.org/ , the Python package index, and install them.
+The `pip` program can download libraries from https://pypi.org/ , the Python package index, and install them.
 `pip` installs libraries to a "Python environment".
 
 Old versions of `pip` defaulted to installing libraries to the "system" Python environment.
@@ -182,7 +182,7 @@ Most Linux systems use software that uses the "system" Python environment.
 Altering the "system" Python environment can break such software.
 Do not run `sudo pip install` with root privileges unless you know why you need this.
 
-If you use a modern `pip` (or use the `pip install --user` command), you can install libraries to the "user" Python environment.
+If you use a modern `pip` (or use the `--user` option), you can install libraries to the "user" Python environment.
 However, this is problematic because a Python environment can only contain a single version of a Python library.
 If you have two different Python programs that different versions of the same library, then these two programs cannot coexist in the "user" Python environment.
 
@@ -222,7 +222,7 @@ $ <some path>/bin/python
 
 `sys.path` uses the `lib` directories in the virtual environment.
 
-When you use the `pip` command from the virtual environment, it installs the libraries to the virtual environment.
+When you use the `pip` program from the virtual environment, it installs the libraries to the virtual environment.
 
 You can create as many virtual environments as you need, and you can install different versions of libraries to each virtual environment.
 
@@ -261,3 +261,9 @@ $ . <some path>/bin/activate
 
 Besides changing your prompt to indicate the virtual environment is activated, `activate` only alters your `PATH`.
 You can never use `activate` if you always specify the path to the virtual environment commands.
+
+## Further reading
+
+* [Some brief notes about Python dependency management](dependency_handling.md) continues this explanation, introducing the need for packaging tools.
+* [Installing Python Modules](https://docs.python.org/3/installing/index.html), from the official Python documentation, describes the `pip` program in more depth.
+* [`venv` - Creation of virtual environments](https://docs.python.org/3/library/venv.html), from the official Python documentation, describes virtual environments in more depth.
