@@ -51,6 +51,12 @@
 (setq undo-tree-visualizer-timestamp t)
 (setq undo-tree-auto-save-history t)
 
+;; Do not spill temporary files everywhere
+
+(defvar --backup-directory (concat user-emacs-directory "backups"))
+(if (not (file-exists-p --backup-directory))
+        (make-directory --backup-directory t))
+
 ;; nicer completion UI
 
 (straight-use-package 'helm)
