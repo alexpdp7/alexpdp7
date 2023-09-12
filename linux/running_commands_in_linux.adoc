@@ -1,0 +1,284 @@
+= Notes on Running Commands in Linux
+
+== Motivating Examples
+
+=== CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+
+The https://cwe.mitre.org/data/definitions/1337.html[2021 CWE Top 25 Most Dangerous Software Weaknesses] helps focus on the biggest security issues that developers face.
+Number 5 on that list is https://cwe.mitre.org/data/definitions/78.html[Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')].
+
+Software developers often write code that invokes other programs.
+For example, shell scripts tend to be mostly composed of invocations of programs such as `find`, `grep`, etc.
+Even software developed in languages such as Python, C, or Java often invokes other programs.
+
+Python software developers use the `subprocess` module to perform this task.
+Other languages provide similar facilities, with 
+
+Consider the two following Python sessions to execute an equivalent to the `bash` statement `cat /etc/passwd`:
+
+----
+$ python3
+>>> import subprocess
+>>> subprocess.run(["cat", "/etc/passwd"])
+----
+
+----
+$ python3
+>>> import subprocess
+>>> subprocess.run("cat /etc/passwd", shell=True)
+----
+
+Both scripts use the same `run` function, with different values of the `shell` parameter (the `shell` parameter defaults to `True`).
+When executing a command with many arguments, `shell=True` seems to be terser.
+`a b c d e` is shorter and easier to read than `["a", "b", "c", "d", "e"]`.
+Readable code is easier to maintain, so a software developer could prefer the `shell=True` version.
+
+However, using `shell=True` can introduce the "OS Command Injection" weakness easily.
+
+Create a file named "injection.py" with the following contents:
+
+----
+import sys
+import subprocess
+
+subprocess.run(f"cat {sys.argv[1]}", shell=True)
+----
+
+This program uses the `cat` command to display the contents of a file.
+For example, if you run (using Python 3.6 or higher):
+
+----
+$ python3 injection.py /etc/passwd
+----
+
+The terminal shows the contents of the `/etc/passwd` file.
+
+However, if you run:
+
+----
+$ python3 injection.py '/etc/passwd ; touch injected'
+----
+
+The terminal shows the same file, but a file named `injected` also appears in the current directory.
+
+Create a file named "safe.py" with the following contents:
+
+----
+import sys
+import subprocess
+
+subprocess.run(["cat", sys.argv[1]])
+----
+
+Running `python3 safe.py /etc/passwd` has the same behavior as using `injection.py`.
+However, repeating the command that creates a file using `safe.py` results in:
+
+----
+$ python3 safe.py '/etc/passwd ; touch injected'
+cat: '/etc/passwd ; touch injected': No such file or directory
+----
+
+`injection.py` is vulnerable to "OS Command Injection" because it uses `shell=True`, whereas `safe.py` is not.
+
+If a malicious user can get strings such as `/etc/passwd ; touch injected` to code that uses `shell=True`, then the user can execute arbitrary code in the system.
+Code that does not handle user input might not be exposed to such issues, but user input might creep in and introduce unexpected vulnerabilities.
+Avoiding the use of `shell=True` and similar features can be safer than making sure that user input is correctly handled in all cases.
+
+=== Writing Shell Scripts that Handle Files with Spaces in Their Names
+
+Create a file called `backup.sh` with the following contents:
+
+----
+#!/bin/bash
+
+for a in $1/* ; do
+    cp $a $a.bak
+done
+----
+
+Run the following statements in the terminal to create a sample directory with files.
+
+----
+$ mkdir backup_example_1
+$ for a in $(seq 1 9) ; do echo $a >backup_example_1/$a ; done
+----
+
+These statements create the `backup_example_1` directory, and files named `1`, ..., `9`.
+
+The `backup.sh` script creates a copy of each file in a directory.
+If you run:
+
+----
+$ bash backup.sh backup_example_1/
+----
+
+Then the script will copy `1` to `1.bak`, and so on.
+
+However, if you create a new directory with files whose names have spaces:
+
+----
+$ mkdir backup_example_2
+$ for a in $(seq 1 9) ; do echo $a >backup_example_1/"file $a" ; done
+----
+
+Then the `backup.sh` script does not work correctly:
+
+----
+$ bash backup.sh backup_example_2/
+cp: cannot stat 'backup_example_2//*': No such file or directory
+----
+
+In order to fix the script, change the contents of `backup.sh` to:
+
+----
+#!/bin/bash
+
+for a in "$1/*" ; do
+    cp "$a" "$a.bak"
+done
+----
+
+
+== Background
+
+=== `int main(int argc, char *argv[])`
+
+Programs written in C for Linux define a function called `main` that is the entry point of the program.
+Documents such as http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2310.pdf[the _N2310_ draft of the C language standard] describe the `main` function.
+Page 11, section 5.1.2.2.1, _Program startup_, provides a common definition of `main`:
+
+----
+int main(int argc, char *argv[]) { /* ... */ }
+----
+
+The `argc` parameter contains the **c**ount of the arguments provided to the program.
+The `argv` parameter contains their **v**alues.
+
+Create a file named `argv.c` with the following contents:
+
+----
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+    for(int i=0; i<argc; i++) {
+        printf("Argument %d -%s-\n", i, argv[i]);
+    }
+}
+----
+
+Compile the file running the following command:
+
+----
+$ cc argv.c
+----
+
+This produces an executable file named `a.out`.
+This executable will print the arguments you provide via the command line:
+
+----
+$ ./a.out
+Argument 0 -./a.out-
+----
+
+----
+$ ./a.out arg1 arg2 arg3
+Argument 0 -./a.out-
+Argument 1 -arg1-
+Argument 2 -arg2-
+Argument 3 -arg3-
+----
+
+Note that the first argument is the name of the executable file itself.
+
+Note that when using quoting, the program produces prints things like:
+
+----
+$ ./a.out "a b" c
+Argument 0 -./a.out-
+Argument 1 -a b-
+Argument 2 -c-
+----
+
+So the first argument is `a b` (without quotes).
+
+=== `exec(3)`
+
+UNIX-like operating systems provide the `exec` family of functions to invoke commands.
+`man 3 exec` describes the `exec` family of functions in Linux.
+Linux provides the `execl`, `execlp`, `execle`, `execv`, `execvp`, and `execvpe` functions.
+These functions allow us to execute a command from within a C program.
+
+Create a file named `execlp.c` with the following contents:
+
+----
+#include <stdlib.h>
+#include <unistd.h>
+
+int main() {
+    exit(execlp("cat", "cat", "/etc/passwd", NULL));
+}
+----
+
+Compile the file running the following command:
+
+----
+$ cc execlp.c
+----
+
+This produces an executable file named `a.out`.
+Execute it:
+
+----
+$ ./a.out
+----
+
+This is equivalent to running in a shell the statement `cat /etc/passwd`.
+
+This article does not describe the intricacies of the `exec` family of functions.
+However, let's analyze the call to `execlp`.
+
+The `exec` functions whose name contains a `p` look up the command to execute by searching for executables named like the first argument in the directories listed in the `PATH` environment variable.
+In the example, `execlp` looks up the `cat` executable in directories such as `/usr/bin`.
+
+The second argument is also the name of the program.
+
+[NOTE]
+====
+Note that in the preceding `argv.c` example, the zeroth argument is the name of the program being executed.
+
+Some executables in Linux systems are present under different names (using symbolic links).
+For example, `xzcat` is a symbolic link to `xz`.
+Running `xzcat` or `xz` runs the same executable file, but the executable uses the zeroth argument to change its behavior.
+
+This technique is a simple way to "share" code between similar programs.
+The https://www.busybox.net/about.html[BusyBox] project provides many common utilities, such as `ls` and `cat`, in a single executable.
+By sharing code among all utilities, the BusyBox executable is smaller.
+====
+
+The rest of the parameters to `execlp` are the arguments for the executable file.
+
+In a way, `exec` functions "call" the `main` function of other programs.
+The parameters to `exec` are "passed" to the `main` function.
+
+=== Shells
+
+Programs such as `bash` provide a way to execute other programs.
+When you type a statement such as `cat /etc/passwd`, `bash` parses the statement into a command to execute and arguments.
+Then, `bash` uses an `exec` function to run the program with arguments.
+
+The simplest `bash` statements are words separated by spaces, of the form `arg0 arg1 arg2 _..._ argn`.
+
+On such a statement, `bash` executes something like:
+
+----
+execlp(arg0, arg0, arg1, _..._, argn, NULL)
+----
+
+And the program will receive the string `arg0` as the zeroth argument, `arg1` as the first argument, and so forth.
+
+However, using `cat` to view the contents of files, the user might want to view a file whose name contains spaces.
+
+The statement `cat a b` has two arguments: `a` and `b`.
+For each argument, `cat` prints the file of that name.
+So the `cat a b` statement prints the contents of the `a` and `b` files, not of a file named `a b`.
+
