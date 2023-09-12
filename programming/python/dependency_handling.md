@@ -5,7 +5,7 @@ Specifically, if you have seen files named `requirements.txt` and have wondered 
 
 If you are starting to write Python software and you are looking at an introductory text about distributing your software and using dependencies, I would recommend you to skip directly to using the "new generation" Python packaging tools.
 This way, you can avoid most of the complexities in this post.
-You can also check out the [Python Packaging User Guide](https://packaging.python.org/en/latest/).
+You can also check out the [Python Packaging User Guide](https://packaging.python.org/en/latest/) and [my own prescriptive project setup recommendations](project_setup.md).
 
 Most programs can use third-party libraries to implement parts of their functionality without implementing everything from scratch.
 
