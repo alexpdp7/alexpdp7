@@ -10,3 +10,4 @@
 * Organizations
 
 - [[https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/][The Engineer/Manager Pendulum]] Why people should multiclass engineering and management
+xxxx
