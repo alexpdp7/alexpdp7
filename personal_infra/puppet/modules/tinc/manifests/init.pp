@@ -43,7 +43,7 @@ cat /etc/ansible/tinc/public_${location['address']}.pem >>/etc/tinc/${tinc_name}
       ",
       mode => '755',
     }
-    ~> 
+    ~>
     exec {"/etc/tinc/${tinc_name}/generate_host_${name}.sh":
       require => File["/etc/tinc/${tinc_name}/hosts"],
       notify => Service["tinc@${tinc_name}"],
