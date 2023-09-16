@@ -1,4 +1,4 @@
-class tinc($tinc_name, $tinc_location, $tinc_connect_to, $tinc_locations, $tinc_ip, $tinc_netmask, $tinc_other_networks) {
+class tinc($tinc_name, $tinc_location, $tinc_connect_to, $tinc_locations, $tinc_ip, $tinc_netmask, $tinc_other_networks, $firewall = true) {
   # https://bugzilla.redhat.com/show_bug.cgi?id=2153663
   if($facts['os']['family'] == 'RedHat' and $facts['os']['release']['major'] == '9') {
     copr {'tinc':
@@ -71,7 +71,7 @@ cat /etc/ansible/tinc/public_${location['address']}.pem >>/etc/tinc/${tinc_name}
     notify => Service["tinc@${tinc_name}"],
   }
 
-  if ($facts['os']['family'] == 'RedHat') {
+  if ($facts['os']['family'] == 'RedHat' and $firewall) {
     exec {'open firewall for tinc':
       command => '/usr/bin/firewall-cmd --permanent --add-port=655/{tcp,udp}',
       unless => '/usr/bin/firewall-cmd --query-port=655/udp',
