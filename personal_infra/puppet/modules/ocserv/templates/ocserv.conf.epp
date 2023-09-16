@@ -1,0 +1,57 @@
+<%- | $tcp_port,
+      $udp_port,
+      $run_as_user,
+      $run_as_group,
+      $socket_file,
+      $chroot_dir,
+      $server_cert,
+      $server_key,
+      $default_domain,
+      $ipv4_network,
+      $dns,
+      $split_dns,
+      $routes,
+| -%>
+auth = "pam"
+listen-host-is-dyndns = true
+# note, those are not used on Debian
+tcp-port = <%= $tcp_port %>
+udp-port = <%= $udp_port %>
+run-as-user = <%= $run_as_user %>
+run-as-group = <%= $run_as_group %>
+socket-file = <%= $socket_file %>
+<% if $chroot_dir { -%>
+chroot-dir = <%= $chroot_dir %>
+<% } -%>
+server-cert = <%= $server_cert %>
+server-key = <%= $server_key %>
+isolate-workers = true
+keepalive = 32400
+dpd = 90
+mobile-dpd = 1800
+switch-to-tcp-timeout = 25
+try-mtu-discovery = false
+compression = true
+tls-priorities = "NORMAL:%SERVER_PRECEDENCE:%COMPAT:-RSA:-VERS-SSL3.0:-ARCFOUR-128"
+auth-timeout = 240
+min-reauth-time = 3
+cookie-timeout = 300
+deny-roaming = false
+rekey-time = 172800
+rekey-method = ssl
+use-utmp = true
+pid-file = /var/run/ocserv.pid
+device = vpns
+predictable-ips = true
+default-domain = <%= $default_domain %>
+ipv4-network = <%= $ipv4_network %>
+#tunnel-all-dns = true
+dns = <%= $dns %>
+split-dns = <%= $split_dns %>
+ping-leases = true
+cisco-client-compat = true
+dtls-psk = false
+dtls-legacy = true
+<% $routes.each | $route | { -%>
+route = <%= $route %>
+<% } %>

@@ -1,0 +1,8 @@
+<%- | $tcp_port,
+      $udp_port,
+| -%>
+[Socket]
+ListenStream=
+ListenDatagram=
+ListenStream=<%= $tcp_port %>
+ListenDatagram=<%= $udp_port %>

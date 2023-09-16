@@ -12,6 +12,7 @@ $tinc_locations = Hash($tinc_hosts.map |$host_name| { [
 $tinc_connect_to = $tinc_other_hosts.map |$host_name| { lookup("hostvars.'$host_name'.network.tinc.location") }
 
 $tinc_other_networks = $tinc_other_hosts.map |$host_name| { lookup("hostvars.'$host_name'.network.self_internal_network") }
+$ocserv_networks = $tinc_hosts.map |$host_name| { lookup("hostvars.'$host_name'.network.self_internal_network") }
 
 if 'tinc' in lookup("group_names") {
   class {'tinc':
@@ -23,5 +24,16 @@ if 'tinc' in lookup("group_names") {
     tinc_netmask        => lookup("network.self_internal_netmask"),
     tinc_other_networks => $tinc_other_networks,
     firewall            => !lookup({"name" => "network.disable_firewall", "default_value" => false}),
+  }
+
+  class {'ocserv':
+    ocserv_tcp_port       => 444,
+    ocserv_udp_port       => 444,
+    ocserv_default_domain => "int.pdp7.net",
+    ocserv_ipv4_network   => lookup("network.ocserv.network"),
+    ocserv_dns            => lookup("network.self_internal_ip"),
+    ocserv_split_dns      => lookup("tinc_global.ocserv_domain"),
+    ocserv_routes         => $ocserv_networks,
+    firewall              => !lookup({"name" => "network.disable_firewall", "default_value" => false}),
   }
 }
