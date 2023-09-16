@@ -22,6 +22,6 @@ if 'tinc' in lookup("group_names") {
     tinc_ip             => lookup("network.self_internal_ip"),
     tinc_netmask        => lookup("network.self_internal_netmask"),
     tinc_other_networks => $tinc_other_networks,
-    firewall            => !lookup("network.disable_firewall"),
+    firewall            => !lookup({"name" => "network.disable_firewall", "default_value" => false}),
   }
 }
