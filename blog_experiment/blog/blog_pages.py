@@ -7,7 +7,7 @@ import bicephalus
 
 import htmlgenerator as h
 
-from blog import html, page
+from blog import html, page, gemtext
 
 
 class Entry:
@@ -27,6 +27,64 @@ class Entry:
     @property
     def uri(self):
         return f"/{self.path.parts[1]}/{self.path.parts[2]}/{self.path.stem}/"
+
+    def html(self):
+        parsed = gemtext.parse(self.content)
+
+        assert isinstance(parsed[0], gemtext.Header)
+        assert parsed[0].level == 1
+        assert isinstance(parsed[1], gemtext.Line)
+        assert parsed[2] == gemtext.Line("")
+
+        parsed = parsed[3:]
+        i = 0
+
+        result = []
+        while i < len(parsed):
+            gem_element = parsed[i]
+
+            if isinstance(gem_element, gemtext.Header):
+                header = [h.H1, h.H2, h.H3, h.H4, h.H5, h.H6][gem_element.level - 1]
+                result.append(header(gem_element.text))
+                i = i + 1
+                continue
+
+            if isinstance(gem_element, gemtext.List):
+                result.append(h.UL([h.LI(i.text) for i in gem_element.items]))
+                i = i + 1
+                continue
+
+            if isinstance(gem_element, gemtext.Link):
+                result.append(h.P(h.A(gem_element.text or gem_element.url, href=gem_element.url)))
+                i = i + 1
+                continue
+
+            if gem_element == gemtext.Line(""):
+                i = i + 1
+                continue
+
+            if isinstance(gem_element, gemtext.BlockQuote):
+                assert len(gem_element.lines) == 1
+                result.append(h.BLOCKQUOTE(gem_element.lines[0].text))
+                i = i + 1
+                continue
+
+            if isinstance(gem_element, gemtext.Line):
+                paragraph = [gem_element.text]
+                i = i + 1
+                while i < len(parsed):
+                    gem_element = parsed[i]
+                    if isinstance(gem_element, gemtext.Line) and gem_element.text != "":
+                        paragraph.append(h.BR())
+                        paragraph.append(gem_element.text)
+                        i = i + 1
+                    else:
+                        break
+                result.append(h.P(*paragraph))
+                continue
+            assert False, f"unknown element {gem_element}"
+
+        return result
 
 
 class Root(page.BasePage):
@@ -75,6 +133,6 @@ class EntryPage(page.BasePage):
             bicephalus.Status.OK,
             "text/html",
             html.html_template(
-                h.PRE(self.entry.content),
+                *self.entry.html(),
             ),
         )
