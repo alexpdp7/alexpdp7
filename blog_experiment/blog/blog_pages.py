@@ -68,7 +68,7 @@ class Entry:
                 for line in gem_element.lines:
                     if line.text:
                         content.append(line.text)
-                    content.append(h.BR)
+                    content.append(h.BR())
                 result.append(h.BLOCKQUOTE(*content))
                 i = i + 1
                 continue
