@@ -64,8 +64,12 @@ class Entry:
                 continue
 
             if isinstance(gem_element, gemtext.BlockQuote):
-                assert len(gem_element.lines) == 1
-                result.append(h.BLOCKQUOTE(gem_element.lines[0].text))
+                content = []
+                for line in gem_element.lines:
+                    if line.text:
+                        content.append(line.text)
+                    content.append(h.BR)
+                result.append(h.BLOCKQUOTE(*content))
                 i = i + 1
                 continue
 
@@ -82,6 +86,12 @@ class Entry:
                         break
                 result.append(h.P(*paragraph))
                 continue
+
+            if isinstance(gem_element, gemtext.Pre):
+                result.append(h.PRE(gem_element.content))
+                i = i + 1
+                continue
+
             assert False, f"unknown element {gem_element}"
 
         return result
