@@ -50,7 +50,7 @@ class Entry:
                 continue
 
             if isinstance(gem_element, gemtext.List):
-                result.append(h.UL([h.LI(i.text) for i in gem_element.items]))
+                result.append(h.UL(*[h.LI(i.text) for i in gem_element.items]))
                 i = i + 1
                 continue
 
