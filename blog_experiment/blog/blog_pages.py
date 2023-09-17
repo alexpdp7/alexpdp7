@@ -55,7 +55,14 @@ class Entry:
                 continue
 
             if isinstance(gem_element, gemtext.Link):
-                result.append(h.P(h.A(gem_element.text or gem_element.url, href=gem_element.url)))
+                url = gem_element.url
+                if url.startswith("gemini://"):
+                    if url.startswith("gemini://alex.corcoles.net/"):
+                        url = url.replace("gemini://alex.corcoles.net/", "https://alex.corcoles.net/")
+                    else:
+                        url = url.replace("gemini://", "https://portal.mozz.us/gemini/")
+
+                result.append(h.P(h.A(gem_element.text or gem_element.url, href=url)))
                 i = i + 1
                 continue
 
