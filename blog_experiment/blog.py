@@ -2,6 +2,7 @@ import datetime
 import itertools
 import logging
 import pathlib
+import re
 import subprocess
 import textwrap
 
@@ -21,6 +22,22 @@ def tidy(s):
         encoding="UTF8",
     )
     return p.stdout
+
+
+def html_template(*content):
+    return tidy(
+        h.render(
+            h.HTML(
+                h.HEAD(h.TITLE("El blog es mío")),
+                h.BODY(
+                    h.H1("El blog es mío"),
+                    h.H2("Hay otros como él, pero este es el mío"),
+                    *content,
+                ),
+            ),
+            {},
+        )
+    )
 
 
 class BasePage:
@@ -70,7 +87,7 @@ class Root(BasePage):
         posts = "\n".join([f"=> {e.uri} {e.posted} {e.title}" for e in self.entries()])
         content = (
             textwrap.dedent(
-                f"""\
+                """\
                 # El blog es mío
 
                 ## Hay otros como él, pero este es el mío
@@ -89,18 +106,25 @@ class Root(BasePage):
         return (
             bicephalus.Status.OK,
             "text/html",
-            tidy(
-                h.render(
-                    h.HTML(
-                        h.HEAD(h.TITLE("El blog es mío")),
-                        h.BODY(
-                            h.H1("El blog es mío"),
-                            h.H2("Hay otros como él, pero este es el mío"),
-                            *itertools.chain(posts),
-                        ),
-                    ),
-                    {},
-                )
+            html_template(*itertools.chain(posts)),
+        )
+
+
+class EntryPage(BasePage):
+    def __init__(self, request, path):
+        super().__init__(request)
+        self.path = path
+        self.entry = Entry(path)
+
+    def get_gemini_content(self):
+        return bicephalus.Status.OK, "text/gemini", self.entry.content
+
+    def get_http_content(self):
+        return (
+            bicephalus.Status.OK,
+            "text/html",
+            html_template(
+                h.PRE(self.entry.content),
             ),
         )
 
@@ -125,6 +149,10 @@ class NotFound(BasePage):
 def handler(request: bicephalus.Request) -> bicephalus.Response:
     if request.path == "/":
         return Root(request).response()
+    if re.match(r"/\d{4}/\d{2}/.*/", request.path):
+        blog_file = pathlib.Path("content") / (request.path[1:-1] + ".gmi")
+        if blog_file.exists():
+            return EntryPage(request, blog_file).response()
     return NotFound(request).response()
 
 
