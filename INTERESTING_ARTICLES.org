@@ -3,6 +3,9 @@
 - [[https://lukeplant.me.uk/blog/posts/no-one-actually-wants-simplicity/][No one actually wants simplicity]] Simplicity is sacrifice
 
 * Programming
+
+- [[https://mikehadlow.blogspot.com/2012/05/configuration-complexity-clock.html][The Configuration Complexity Clock]] Programming languages, configuration files, DSLs for configuration
+
 ** Python
 
 - [[https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/][Python’s "Disappointing" Superpowers]] A convincing defense of dynamic typing
