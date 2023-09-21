@@ -1,4 +1,4 @@
-class nextcloud(
+[Iclass nextcloud(
   $database_name,
   $database_user,
   $database_host,
@@ -72,12 +72,6 @@ class nextcloud(
       apc.enable_cli=1
       | EOT
       ,
-    }
-
-    exec {'install nextcloud':
-      user => 'apache',
-      command => "/usr/share/nextcloud/occ maintenance:install -n --database pgsql --database-name $database_name --database-user $database_user --database-host $database_host --admin-user admin --admin-pass $admin_pass --data-dir $data_dir",
-      unless => "/usr/share/nextcloud/occ config:system:get installed | grep true"
     }
 
     cron {"nextcloud-previews":
