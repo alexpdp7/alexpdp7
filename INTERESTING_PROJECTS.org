@@ -70,6 +70,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/metabase/metabase
 ** Networking
    - https://github.com/gekmihesg/ansible-openwrt
+   - https://github.com/glennbrown/home-infra/tree/main/ansible/roles/openwrt-dhcp-dns ansible-openwrt samples by glenn on Ars IRC.
 *** VPN
     - https://github.com/StreisandEffect/streisand
 ** Misc
