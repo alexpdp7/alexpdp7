@@ -69,6 +69,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/getredash/redash
    - https://github.com/metabase/metabase
 ** Networking
+   - https://github.com/gekmihesg/ansible-openwrt
 *** VPN
     - https://github.com/StreisandEffect/streisand
 ** Misc
