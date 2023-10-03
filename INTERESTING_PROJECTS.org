@@ -127,6 +127,7 @@ Also keeping things in a Org mode means I can classify and add notes.
      - https://github.com/djrobstep/migra
      - https://github.com/julianhyde/sqlline
      - https://github.com/monkeysintown/jdbc-ssh
+     - https://github.com/xataio/pgroll PostgreSQL migrations based on switching schemas
 **** Streaming
      - https://github.com/MaterializeInc/materialize
      - https://github.com/confluentinc/ksql
