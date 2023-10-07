@@ -23,6 +23,7 @@ def html_template(*content):
                     h.H2("Hay otros como él, pero este es el mío"),
                     *content,
                 ),
+                doctype="html",
             ),
             {},
         )
