@@ -7,7 +7,7 @@ packages = [{include = "blog"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-bicephalus = {path = "/home/alex/git/bicephalus", develop = true}
+bicephalus = { git = "https://github.com/alexpdp7/bicephalus.git" }
 htmlgenerator = "^1.2.28"
 
 [tool.poetry.group.dev.dependencies]
