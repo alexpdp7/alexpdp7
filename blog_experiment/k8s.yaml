@@ -1,0 +1,77 @@
+apiVersion: v1
+kind: List
+items:
+- apiVersion: v1
+  kind: Namespace
+  metadata:
+    name: blog
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    labels:
+      app: blog
+    name: blog
+    namespace: blog
+  spec:
+    selector:
+      matchLabels:
+        app: blog
+    template:
+      metadata:
+        labels:
+          app: blog
+      spec:
+        containers:
+        - command:
+          - /cnb/lifecycle/launcher
+          - python
+          - -m
+          - blog
+          image: quay.io/alexpdp7/blog:latest
+          imagePullPolicy: Always
+          name: blog
+- apiVersion: v1
+  kind: Service
+  metadata:
+    labels:
+      app: blog
+    name: http
+    namespace: blog
+  spec:
+    ports:
+    - port: 8000
+      protocol: TCP
+      targetPort: 8000
+    selector:
+      app: blog
+- apiVersion: v1
+  kind: Service
+  metadata:
+    labels:
+      app: blog
+    name: gemini
+    namespace: blog
+  spec:
+    ports:
+    - port: 1965
+      protocol: TCP
+      targetPort: 1965
+    selector:
+      app: blog
+- apiVersion: networking.k8s.io/v1
+  kind: Ingress
+  metadata:
+    name: http
+    namespace: blog
+  spec:
+    rules:
+    - host: blog.pdp7.net
+      http:
+        paths:
+        - backend:
+            service:
+              name: http
+              port:
+                number: 8000
+          path: /
+          pathType: Prefix
