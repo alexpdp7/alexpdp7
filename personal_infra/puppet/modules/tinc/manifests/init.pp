@@ -56,6 +56,12 @@ cat /etc/ansible/tinc/public_${location['address']}.pem >>/etc/tinc/${tinc_name}
     enable => true,
   }
 
+  if($facts['os']['family'] == 'RedHat' and $facts['os']['release']['major'] == '9') {
+    service {"tinc":
+      ensure => running,
+      enable => true,
+    }
+  }
   exec {"/bin/cp /etc/ansible/tinc/private.pem /etc/tinc/${tinc_name}/rsa_key.priv":
     creates => "/etc/tinc/${tinc_name}/rsa_key.priv",
     require => File["/etc/tinc/${tinc_name}"],
