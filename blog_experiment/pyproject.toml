@@ -7,8 +7,10 @@ packages = [{include = "blog"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+# bicephalus = { path = "../../bicephalus", develop = true }
 bicephalus = { git = "https://github.com/alexpdp7/bicephalus.git" }
 htmlgenerator = "^1.2.28"
+beautifulsoup4 = "^4.12.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"
