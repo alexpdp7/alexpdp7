@@ -62,7 +62,7 @@ class Entry:
                 url = gem_element.url
                 if url.startswith("gemini://"):
                     if url.startswith("gemini://alex.corcoles.net/"):
-                        url = url.replace("gemini://alex.corcoles.net/", "https://alex.corcoles.net/")
+                        url = url.replace("gemini://alex.corcoles.net/", meta.BASE_URL + "/")
                     else:
                         url = url.replace("gemini://", "https://portal.mozz.us/gemini/")
 
