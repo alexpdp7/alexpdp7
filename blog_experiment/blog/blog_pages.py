@@ -3,15 +3,13 @@ import itertools
 import pathlib
 import textwrap
 
-import bs4
-
 import bicephalus
 
 import htmlgenerator as h
 
 from feedgen import feed
 
-from blog import html, page, gemtext, meta
+from blog import html, page, gemtext, meta, pretty
 
 
 class Entry:
@@ -152,7 +150,7 @@ class Root(page.BasePage):
             fe.published(datetime.datetime.combine(entry.posted, datetime.datetime.min.time(), tzinfo=datetime.timezone.utc))
             fe.title(entry.title)
             html = h.render(h.BaseElement(*entry.html()), {})
-            html = bs4.BeautifulSoup(html, features="html.parser").prettify()
+            html = pretty.pretty_html(html)
             fe.content(html, type="html")
 
         return bicephalus.Response(

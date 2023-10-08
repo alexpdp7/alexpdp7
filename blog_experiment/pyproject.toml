@@ -12,6 +12,7 @@ bicephalus = { git = "https://github.com/alexpdp7/bicephalus.git" }
 htmlgenerator = "^1.2.28"
 beautifulsoup4 = "^4.12.2"
 feedgen = "^0.9.0"
+lxml = "^4.9.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"
