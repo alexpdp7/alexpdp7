@@ -53,11 +53,13 @@ items:
     namespace: blog
   spec:
     ports:
-    - port: 1965
+    - nodePort: 31965
+      port: 1965
       protocol: TCP
       targetPort: 1965
     selector:
       app: blog
+    type: NodePort
 - apiVersion: networking.k8s.io/v1
   kind: Ingress
   metadata:
