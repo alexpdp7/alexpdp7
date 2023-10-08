@@ -149,7 +149,7 @@ class Root(page.BasePage):
             fe = fg.add_entry()
             url = f"{meta.BASE_URL}{entry.uri}"
             fe.link(href=url)
-            fe.updated(datetime.datetime.combine(entry.posted, datetime.datetime.min.time(), tzinfo=datetime.timezone.utc))
+            fe.published(datetime.datetime.combine(entry.posted, datetime.datetime.min.time(), tzinfo=datetime.timezone.utc))
             fe.title(entry.title)
             html = h.render(h.BaseElement(*entry.html()), {})
             html = bs4.BeautifulSoup(html, features="html.parser").prettify()
