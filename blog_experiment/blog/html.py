@@ -6,7 +6,7 @@ from blog import meta, pretty
 
 
 def html_template(*content, page_title=None):
-    title = [h.A(meta.TITLE, href=meta.BASE_URL)]
+    title = [h.A(meta.TITLE, href=f"{meta.SCHEMA}://{meta.HOST}")]
     if page_title:
         title += f" - {page_title}"
 
@@ -20,7 +20,7 @@ def html_template(*content, page_title=None):
         h.HTML(
             h.HEAD(
                 h.TITLE(meta.TITLE + (f" - {page_title}" if page_title else "")),
-                h.LINK(rel="alternate", type="application/rss+xml", title=meta.TITLE, href=f"{meta.BASE_URL}/feed/"),
+                h.LINK(rel="alternate", type="application/rss+xml", title=meta.TITLE, href=f"{meta.SCHEMA}://{meta.HOST}/feed/"),
             ),
             h.BODY(
                 h.H1(title),

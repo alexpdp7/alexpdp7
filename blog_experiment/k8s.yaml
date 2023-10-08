@@ -27,6 +27,8 @@ items:
           - python
           - -m
           - blog
+          - https
+          - blog.pdp7.net
           image: quay.io/alexpdp7/blog:latest
           imagePullPolicy: Always
           name: blog

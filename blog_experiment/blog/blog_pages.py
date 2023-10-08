@@ -64,7 +64,7 @@ class Entry:
                 url = gem_element.url
                 if url.startswith("gemini://"):
                     if url.startswith("gemini://alex.corcoles.net/"):
-                        url = url.replace("gemini://alex.corcoles.net/", meta.BASE_URL + "/")
+                        url = url.replace("gemini://alex.corcoles.net/", f"{meta.SCHEMA}://{meta.HOST}/")
                     else:
                         url = url.replace("gemini://", "https://portal.mozz.us/gemini/")
 
@@ -146,11 +146,11 @@ class Root(page.BasePage):
         fg = feed.FeedGenerator()
         fg.title(meta.TITLE)
         fg.subtitle(meta.SUBTITLE)
-        fg.link(href=meta.BASE_URL, rel="self")
+        fg.link(href=f"{meta.SCHEMA}://{meta.HOST}", rel="self")
 
         for entry in self.entries()[0:10]:
             fe = fg.add_entry()
-            url = f"{meta.BASE_URL}{entry.uri}"
+            url = f"{meta.SCHEMA}://{meta.HOST}/{entry.uri}"
             fe.link(href=url)
             fe.published(datetime.datetime.combine(entry.posted, datetime.datetime.min.time(), tzinfo=datetime.timezone.utc))
             fe.title(entry.title)

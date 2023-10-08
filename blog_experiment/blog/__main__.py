@@ -8,13 +8,19 @@ from bicephalus import ssl
 
 import blog
 
+from blog import meta
+
 
 def main():
     otel.configure_logging(logging.INFO)
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--key-cert", nargs=2, metavar=("KEY", "CERT",), help="Path to a key and a file")
+    parser.add_argument("schema")
+    parser.add_argument("host")
     args = parser.parse_args()
+    meta.SCHEMA = args.schema
+    meta.HOST = args.host
 
     if args.key_cert:
         key, cert = args.key_cert
