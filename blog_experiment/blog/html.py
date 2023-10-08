@@ -2,7 +2,7 @@ import itertools
 
 import htmlgenerator as h
 
-from blog import meta, pretty
+from blog import meta, pretty, gemtext
 
 
 def html_template(*content, page_title=None):
@@ -33,3 +33,69 @@ def html_template(*content, page_title=None):
         {},
     ))
 
+
+def gemini_to_html(parsed):
+    i = 0
+    result = []
+    while i < len(parsed):
+        gem_element = parsed[i]
+
+        if isinstance(gem_element, gemtext.Header):
+            header = [h.H1, h.H2, h.H3, h.H4, h.H5, h.H6][gem_element.level - 1]
+            result.append(header(gem_element.text))
+            i = i + 1
+            continue
+
+        if isinstance(gem_element, gemtext.List):
+            result.append(h.UL(*[h.LI(i.text) for i in gem_element.items]))
+            i = i + 1
+            continue
+
+        if isinstance(gem_element, gemtext.Link):
+            url = gem_element.url
+            if url.startswith("gemini://"):
+                if url.startswith("gemini://alex.corcoles.net/"):
+                    url = url.replace("gemini://alex.corcoles.net/", f"{meta.SCHEMA}://{meta.HOST}/")
+                else:
+                    url = url.replace("gemini://", "https://portal.mozz.us/gemini/")
+
+            result.append(h.P(h.A(gem_element.text or gem_element.url, href=url)))
+            i = i + 1
+            continue
+
+        if gem_element == gemtext.Line(""):
+            i = i + 1
+            continue
+
+        if isinstance(gem_element, gemtext.BlockQuote):
+            content = []
+            for line in gem_element.lines:
+                if line.text:
+                    content.append(line.text)
+                content.append(h.BR())
+            result.append(h.BLOCKQUOTE(*content))
+            i = i + 1
+            continue
+
+        if isinstance(gem_element, gemtext.Line):
+            paragraph = [gem_element.text]
+            i = i + 1
+            while i < len(parsed):
+                gem_element = parsed[i]
+                if isinstance(gem_element, gemtext.Line) and gem_element.text != "":
+                    paragraph.append(h.BR())
+                    paragraph.append(gem_element.text)
+                    i = i + 1
+                else:
+                    break
+            result.append(h.P(*paragraph))
+            continue
+
+        if isinstance(gem_element, gemtext.Pre):
+            result.append(h.PRE(gem_element.content))
+            i = i + 1
+            continue
+
+        assert False, f"unknown element {gem_element}"
+
+    return result
