@@ -8,6 +8,11 @@ if $facts['os']['family'] == 'Debian' and $facts['os']['release']['major'] == "1
   class {'debian::backports':}
   ->
   Package[$ipa_client_package]
+
+  service {['sssd-pac.service', 'sssd-pac.socket']:
+    ensure => stopped,
+    enable => mask,
+  }
 }
 
 package {$ipa_client_package:}

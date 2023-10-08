@@ -12,9 +12,4 @@ dhcp-option=121,10.0.0.0/8,192.168.76.2
   class {'backups':
     sanoid_config => "",
   }
-
-  service {['sssd-pac.service', 'sssd-pac.socket']:
-    ensure => stopped,
-    enable => mask,
-  }
 }
