@@ -8,12 +8,17 @@ import htmlgenerator as h
 from blog import blog_pages, page, html, pretty, gemtext
 
 
-class AboutPage(page.BasePage):
+class SimplePage(page.BasePage):
+    def __init__(self, request, url, title):
+        super().__init__(request)
+        self.url = url
+        self.title = title
+
     def get_gemini_content(self):
         return (
             bicephalus.Status.OK,
             "text/gemini",
-            pathlib.Path("static/about/index.gmi").read_text(),
+            pathlib.Path(f"static{self.url}index.gmi").read_text(),
         )
 
     def get_http_content(self):
@@ -23,7 +28,7 @@ class AboutPage(page.BasePage):
             pretty.pretty_html(h.render(
             h.HTML(
                 h.HEAD(
-                    h.TITLE("About Álex Córcoles"),
+                    h.TITLE(self.title),
                 ),
                 h.BODY(*html.gemini_to_html(gemtext.parse(self.get_gemini_content()[2])))
             ), {})),
@@ -40,6 +45,10 @@ def handler(request: bicephalus.Request) -> bicephalus.Response:
     if request.path == "/feed/" and request.proto == bicephalus.Proto.HTTP:
         return blog_pages.Root(request).feed()
     if request.path == "/about/":
-        return AboutPage(request).response()
+        return SimplePage(request, request.path, "About Álex Córcoles").response()
+    if request.path == "/laspelis/":
+        return SimplePage(request, request.path, "laspelis").response()
+    if re.match(r"/laspelis/\d+/?", request.path):
+        return SimplePage(request, request.path.removesuffix("/") + "/", request.path).response()
 
     return page.NotFound(request).response()
