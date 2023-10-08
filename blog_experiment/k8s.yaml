@@ -27,6 +27,9 @@ items:
           - python
           - -m
           - blog
+          - --key-cert
+          - /tls-gemini/tls.key
+          - /tls-gemini/tls.crt
           - https
           - blog.pdp7.net
           image: quay.io/alexpdp7/blog:latest
