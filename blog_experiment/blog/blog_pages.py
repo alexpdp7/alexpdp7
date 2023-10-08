@@ -30,6 +30,10 @@ class Entry:
     def uri(self):
         return f"/{self.path.parts[1]}/{self.path.parts[2]}/{self.path.stem}/"
 
+    @property
+    def edit_url(self):
+        return f"https://github.com/alexpdp7/gemini_blog/edit/master/content{self.uri[:-1]}.gmi"
+
     def html(self):
         parsed = gemtext.parse(self.content)
 
@@ -103,6 +107,7 @@ class Entry:
 
             assert False, f"unknown element {gem_element}"
 
+        result.append(h.P(h.A("Editar", href=self.edit_url)))
         return result
 
 
