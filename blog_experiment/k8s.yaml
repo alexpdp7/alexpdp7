@@ -32,6 +32,13 @@ items:
           image: quay.io/alexpdp7/blog:latest
           imagePullPolicy: Always
           name: blog
+          volumeMounts:
+            - mountPath: /tls-gemini
+              name: tls-gemini
+        volumes:
+          - name: tls-gemini
+            secret:
+              secretName: tls-gemini
 - apiVersion: v1
   kind: Service
   metadata:
