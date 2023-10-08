@@ -3,11 +3,15 @@ import itertools
 import pathlib
 import textwrap
 
+import bs4
+
 import bicephalus
 
 import htmlgenerator as h
 
-from blog import html, page, gemtext
+from feedgen import feed
+
+from blog import html, page, gemtext, meta
 
 
 class Entry:
@@ -113,10 +117,10 @@ class Root(page.BasePage):
         posts = "\n".join([f"=> {e.uri} {e.posted} {e.title}" for e in self.entries()])
         content = (
             textwrap.dedent(
-                """\
-                # El blog es mío
+                f"""\
+                # {meta.TITLE}
 
-                ## Hay otros como él, pero este es el mío
+                ## {meta.SUBTITLE}
 
                 ____
                 """
@@ -133,6 +137,28 @@ class Root(page.BasePage):
             bicephalus.Status.OK,
             "text/html",
             html.html_template(*itertools.chain(posts)),
+        )
+
+    def feed(self):
+        fg = feed.FeedGenerator()
+        fg.title(meta.TITLE)
+        fg.subtitle(meta.SUBTITLE)
+        fg.link(href=meta.BASE_URL, rel="self")
+
+        for entry in self.entries()[0:10]:
+            fe = fg.add_entry()
+            url = f"{meta.BASE_URL}{entry.uri}"
+            fe.link(href=url)
+            fe.updated(datetime.datetime.combine(entry.posted, datetime.datetime.min.time(), tzinfo=datetime.timezone.utc))
+            fe.title(entry.title)
+            html = h.render(h.BaseElement(*entry.html()), {})
+            html = bs4.BeautifulSoup(html, features="html.parser").prettify()
+            fe.content(html, type="html")
+
+        return bicephalus.Response(
+            status=bicephalus.Status.OK,
+            content_type="application/rss+xml",
+            content=fg.rss_str(pretty=True),
         )
 
 

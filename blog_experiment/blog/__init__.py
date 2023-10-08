@@ -13,4 +13,6 @@ def handler(request: bicephalus.Request) -> bicephalus.Response:
         blog_file = pathlib.Path("content") / (request.path[1:-1] + ".gmi")
         if blog_file.exists():
             return blog_pages.EntryPage(request, blog_file).response()
+    if request.path == "/feed/" and request.proto == bicephalus.Proto.HTTP:
+        return blog_pages.Root(request).feed()
     return page.NotFound(request).response()
