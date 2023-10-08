@@ -40,7 +40,7 @@ class Entry:
         assert isinstance(parsed[1], gemtext.Line)
         assert parsed[2] == gemtext.Line("")
 
-        result = [h.H3(f"{parsed[0].text} - {parsed[1].text}")]
+        result = []
 
         parsed = parsed[3:]
         i = 0

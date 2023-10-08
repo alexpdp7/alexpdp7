@@ -5,7 +5,7 @@ from blog import meta
 
 
 def html_template(*content, page_title=None):
-    title = "El blog es mío"
+    title = meta.TITLE
     if page_title:
         title += f" - {page_title}"
     return bs4.BeautifulSoup(h.render(
@@ -15,7 +15,7 @@ def html_template(*content, page_title=None):
                 h.LINK(rel="alternate", type="application/rss+xml", title=meta.TITLE, href=f"{meta.BASE_URL}/feed/"),
             ),
             h.BODY(
-                h.H1(meta.TITLE),
+                h.H1(title),
                 h.H2(meta.SUBTITLE),
                 *content,
             ),
