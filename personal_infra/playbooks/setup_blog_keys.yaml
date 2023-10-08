@@ -1,0 +1,23 @@
+---
+- hosts: h1.pdp7.net
+  tasks:
+  - name: get public cert
+    ansible.builtin.slurp:
+      src: "/etc/apache2/md/domains/blog.pdp7.net/pubcert.pem"
+    register: public_cert
+  - name: get private key
+    ansible.builtin.slurp:
+      src: "/etc/apache2/md/domains/blog.pdp7.net/privkey.pem"
+    register: private_key
+  - k8s:
+      context: "admin@k8s-test.h1"
+      state: present
+      definition:
+        kind: Secret
+        metadata:
+          namespace: blog
+          name: tls-gemini
+        data:
+          tls.crt: "{{ public_cert.content }}"
+          tls.key: "{{ private_key.content }}"
+    delegate_to: 127.0.0.1
