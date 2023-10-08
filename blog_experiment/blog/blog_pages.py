@@ -12,6 +12,10 @@ from feedgen import feed
 from blog import html, page, gemtext, meta, pretty
 
 
+def gemini_links():
+    return "\n".join([f"=> {url} {text}" for text, url in meta.LINKS])
+
+
 class Entry:
     def __init__(self, path: pathlib.Path):
         assert path.is_relative_to(pathlib.Path("content")), f"bad path {path}"
@@ -125,9 +129,11 @@ class Root(page.BasePage):
 
                 ## {meta.SUBTITLE}
 
-                ____
                 """
             )
+            + gemini_links()
+            + f"\n{meta.EMAIL_TEXT}\n"
+            + "\n"
             + posts
         )
         return bicephalus.Status.OK, "text/gemini", content
@@ -172,7 +178,19 @@ class EntryPage(page.BasePage):
         self.entry = Entry(path)
 
     def get_gemini_content(self):
-        return bicephalus.Status.OK, "text/gemini", self.entry.content
+        content = (
+            textwrap.dedent(f"""\
+                => gemini://{meta.HOST} alex.corcoles.net
+                {meta.EMAIL_TEXT}
+
+            """) +
+            self.entry.content +
+            textwrap.dedent(f"""\
+                => {self.entry.edit_url} Editar
+            """)
+        )
+
+        return bicephalus.Status.OK, "text/gemini", content
 
     def get_http_content(self):
         return (
