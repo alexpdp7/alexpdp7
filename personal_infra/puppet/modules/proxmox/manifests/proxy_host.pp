@@ -13,6 +13,11 @@ define proxmox::proxy_host (String[1] $target, Optional[String[1]] $overwrite_rh
     content => @("EOT")
       MDomain $title
 
+      <VirtualHost *:80>
+        ServerName $title
+        Redirect permanent / https://$title/
+      </VirtualHost>
+
       <VirtualHost *:443>
         ServerName $title
         SSLEngine on
