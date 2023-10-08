@@ -36,10 +36,10 @@ class Entry:
         assert isinstance(parsed[1], gemtext.Line)
         assert parsed[2] == gemtext.Line("")
 
+        result = [h.H3(f"{parsed[0].text} - {parsed[1].text}")]
+
         parsed = parsed[3:]
         i = 0
-
-        result = []
         while i < len(parsed):
             gem_element = parsed[i]
 
@@ -151,5 +151,6 @@ class EntryPage(page.BasePage):
             "text/html",
             html.html_template(
                 *self.entry.html(),
+                page_title=f"{self.entry.title} - {self.entry.posted}",
             ),
         )
