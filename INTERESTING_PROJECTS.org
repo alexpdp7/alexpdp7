@@ -57,6 +57,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/tkellogg/dura
    - https://github.com/perkeep/perkeep
    - https://github.com/upspin/upspin
+   - https://github.com/mickael-kerjean/filestash Web file manager with org-mode support
 ** Home automation
    - https://github.com/Yakifo/amqtt	
 ** PaaS
