@@ -13,6 +13,7 @@ set -ue
 		     --package git \
 		     --package rust \
 		     --package ipython \
+		     --package maven \
 		     --package python-pip \
 		     --package python-pipx \
 		     --package python-poetry \
