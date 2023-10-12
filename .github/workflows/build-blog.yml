@@ -1,0 +1,24 @@
+on:
+  push:
+    paths:
+      - 'blog_experiment/**'
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+      - run: |
+          cd blog_experiment
+          rustup toolchain install nightly --profile minimal
+          podman login quay.io -u $USER -p $TOKEN --authfile ~/docker-config
+          chmod ugo+r ~/docker-config
+          ./build.rs --docker-config ~/docker-config . quay.io/alexpdp7/blog:latest
+        env:
+          USER: ${{ vars.BLOG_ROBOT_USERNAME }}
+          TOKEN: ${{ secrets.BLOG_ROBOT_TOKEN }}
