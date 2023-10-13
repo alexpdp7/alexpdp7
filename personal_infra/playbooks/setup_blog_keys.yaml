@@ -3,14 +3,14 @@
   tasks:
   - name: get public cert
     ansible.builtin.slurp:
-      src: "/etc/apache2/md/domains/blog.pdp7.net/pubcert.pem"
+      src: "/etc/apache2/md/domains/alex.corcoles.net/pubcert.pem"
     register: public_cert
   - name: get private key
     ansible.builtin.slurp:
-      src: "/etc/apache2/md/domains/blog.pdp7.net/privkey.pem"
+      src: "/etc/apache2/md/domains/alex.corcoles.net/privkey.pem"
     register: private_key
   - k8s:
-      context: "admin@k8s-test.h1"
+      context: "admin@k8s-prod.h1"
       state: present
       definition:
         kind: Secret

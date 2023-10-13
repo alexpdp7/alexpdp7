@@ -48,8 +48,8 @@ node 'h1.pdp7.net' {
     target => 'https://k8s-prod.h1.int.pdp7.net/',
   }
 
-  proxmox::proxy_host {'blog.pdp7.net':
-    target => 'https://k8s-test.h1.int.pdp7.net/',
+  proxmox::proxy_host {'alex.corcoles.net':
+    target => 'https://k8s-prod.h1.int.pdp7.net/',
   }
 
   proxmox::proxy_host {'miniflux.pdp7.net':
