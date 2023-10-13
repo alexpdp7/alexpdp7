@@ -10,6 +10,3 @@
 [submodule "personal_infra/talos-check"]
 	path = personal_infra/talos-check
 	url = https://github.com/alexpdp7/talos-check.git
-[submodule "blog_experiment/gemini_blog"]
-	path = blog_experiment/gemini_blog
-	url = https://github.com/alexpdp7/gemini_blog.git

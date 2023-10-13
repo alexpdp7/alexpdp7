@@ -31,7 +31,7 @@ items:
           - /tls-gemini/tls.key
           - /tls-gemini/tls.crt
           - https
-          - blog.pdp7.net
+          - alex.corcoles.net
           image: quay.io/alexpdp7/blog:latest
           imagePullPolicy: Always
           name: blog
@@ -79,7 +79,7 @@ items:
     namespace: blog
   spec:
     rules:
-    - host: blog.pdp7.net
+    - host: alex.corcoles.net
       http:
         paths:
         - backend:
