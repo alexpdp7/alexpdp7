@@ -1,7 +1,0 @@
-build
-md
-agate
-cert.pem
-key.rsa
-.certificates
-__pycache__

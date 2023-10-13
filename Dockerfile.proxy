@@ -1,6 +1,0 @@
-FROM docker.io/library/golang:latest
-WORKDIR /app
-RUN git clone https://git.sr.ht/~sircmpwn/kineto /app
-RUN go build
-EXPOSE 5000
-CMD ["/app/kineto", "-b", "0.0.0.0:5000", "gemini://alex.corcoles.net"]
