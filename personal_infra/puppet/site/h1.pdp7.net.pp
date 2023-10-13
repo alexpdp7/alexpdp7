@@ -52,6 +52,10 @@ node 'h1.pdp7.net' {
     target => 'http://miniflux.h1.int.pdp7.net:8080/',
   }
 
+  proxmox::proxy_host {'nextcloud.pdp7.net':
+    target => 'http://nextcloud.h1.int.pdp7.net/',
+  }
+
   package {'haproxy':}
   ->
   file {'/etc/haproxy/haproxy.cfg':

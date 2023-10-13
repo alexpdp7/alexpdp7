@@ -2,8 +2,6 @@ class nextcloud(
   $database_name,
   $database_user,
   $database_host,
-  $admin_pass,
-  $data_dir,
 ) {
 
     file {'/etc/yum.repos.d/koalillo-nextcloud-epel-9.repo':
