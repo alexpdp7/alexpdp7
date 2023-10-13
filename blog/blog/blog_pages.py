@@ -36,7 +36,7 @@ class Entry:
 
     @property
     def edit_url(self):
-        return f"https://github.com/alexpdp7/gemini_blog/edit/master/content{self.uri[:-1]}.gmi"
+        return f"https://github.com/alexpdp7/alexpdp7/edit/master/blog/content{self.uri[:-1]}.gmi"
 
     def html(self):
         parsed = gemtext.parse(self.content)
