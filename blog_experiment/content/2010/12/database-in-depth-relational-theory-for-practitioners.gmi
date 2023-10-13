@@ -1,0 +1,24 @@
+# Database in Depth - Relational Theory for Practitioners
+2010-12-12
+
+Database in Depth es un libro del mítico C. J. Date[1], que ha publicado una barbaridad de libros sobre bases de datos relacionales.
+
+Yo me hallaba buscando un libro para avanzar mis conocimientos de bases de datos; principalmente para mejorar los diseños de esquemas y la manera de trabajar con ellos- seguramente desde un punto de vista teórico pero aplicable a nivel práctico.
+
+En casi todos los mentideros de Internet le dirigen a uno hacia los libros de Date. La complicación es escoger uno, ya que aparentemente todos tienen temáticas y contenidos muy similares. Finalmente, me decidí por Database in Depth porque todo parecía indicar que era el que mejor ajustaba a mis intenciones.
+
+En realidad, ahora creo que no lo es.
+
+Database in Depth parte de la definición estricta del modelo relacional, enunciando y rebatiendo errores populares en la interpretación de las sagradas escrituras de Codd[2], y apuntando todos los pecados del SQL y sus implementaciones. Esto es interesante, ya que lo hace señalando las inconsistencias del SQL (por ejemplo, defiende la tesis de que NULL no debería existir,  a partir de contradicciones derivadas de su uso) y sus carencias.
+
+Esto tiene un interés práctico, ya que posiblemente se puedan conseguir mejores (y sobre todo, más puros) modelos de datos intentándonos ajustar al modelo relacional verdadero, pero tiene el peligro de que, realmente, no existen implementaciones de éste. En efecto, Date defiende la intercambiabilidad de tablas y vistas, pero pocos gestores de bases de datos implementan actualizaciones sobre vistas, con lo que no se puede explotar este concepto como se debiera (e intentarlo puede llevarnos por el mal camino).
+
+Date también trata temas de normalización, y su explicación es clara e interesante, y llena de argumentos nuevos para mi contra la popular denormalización (por ejemplo, apunta a las dificultades de escribir consultas correctas sobre esquemas denormalizados que estoy seguro que se le han escapado a más de uno), y que son bastante más aplicables a las implementaciones existentes.
+
+En cuanto a la redacción del libro, Date es conciso y claro. No tiene miedo de expresar sus opiniones, pero creo que especifica muy bien cuando está siendo subjetivo. El tratamiento matemático de la teoría puede asustar a alguno, pero es completo y comprensible.
+
+A parte de esto, el libro se me ha quedado corto. El libro no trata (o al menos yo no he sabido extraerlo) temas que me interesaban como el uso de claves artificiales, las consultas y la programación en general sobre bases de datos. A pesar de ello, los 19 eurillos que cuesta son relativamente económicos para un libro técnico, y al menos el contenido teórico ya los vale.
+
+
+=> http://en.wikipedia.org/wiki/Christopher_J._Date 1: http://en.wikipedia.org/wiki/Christopher_J._Date
+=> http://en.wikipedia.org/wiki/Edgar_F._Codd 2: http://en.wikipedia.org/wiki/Edgar_F._Codd

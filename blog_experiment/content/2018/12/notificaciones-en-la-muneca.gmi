@@ -1,0 +1,23 @@
+# Notificaciones en la muñeca
+2018-12-14
+
+La vida es dura cuando a uno le gusta ser discreto, pero a menudo no se entera que hay algo vibrando en su bolsillo. Para subsanar esto, hace un año comencé a usar una Mi Band 2; otro cacharrito de Xiaomi que resuelve problemas a una fracción del coste de su competencia.
+
+La Mi Band 2 me ofrecía una funcionalidad primordial: vibración en la muñeca cuando recibo una notificación del móvil. Tiene funcionalidades de eso de la vida sana; pulsímetro, pedómetro y contabilidad del sueño, que uso casualmente (me hace gracia mirar los datos de tanto en cuando, pero poco más), así que realmente para mi tienen poca importancia. Sin embargo, a pesar de que resuelve el tema un poco... la solución se queda un poco corta.
+
+Sólo las llamadas de teléfono ofrecen alguna información contextual (el contacto que te llama). Todo lo demás, casi nada; para ciertas aplicaciones se muestran iconos específicos, pero no hay manera de saber quién te envía un Whatsapp o qué alarma está sonando. Aparentemente existen soluciones para mejorar esto, pero yo sólo probé las gratuitas sin éxito.
+
+La Mi Band 3, en cambio, promete texto de las notificaciones, así que entró en mi wishlist rápidamente, pues sigue teniendo un precio muy inferior a cualquier otro producto "fiable" comparable (e.g. tampoco me voy a liar a pedir cosas a Aliexpress de marcas desconocidas).
+
+Y cumple. Pero como la 2, con limitaciones. Principalmente:
+
+* El interfaz es muy poco ágil. Sólo tiene "swipes" en cuatro direcciones, pulsación corta y pulsación larga, lo que hace que cualquier interacción sean bastantes pasos. Por ejemplo, descartar notificaciones anteriores es: pulsación corta, un swipe arriba, swipes a la derecha hasta leerlas enteras, pulsación larga.
+
+No es terrible, pero...
+
+
+* Además, no hay más posibilidad que descartar. Todas estas modernidades de los productos que cuestan dinero, pues no
+
+
+
+Por lo demás, es un producto que cumple su función, tiene algún bonus, te puedes despreocupar del consumo de batería (al menos ahora que está nuevo) y... de nuevo, cuesta muy poco dinero- poniéndola en la categoría de "si sale mal no pasa nada", que es una categoría la mar de interesante.

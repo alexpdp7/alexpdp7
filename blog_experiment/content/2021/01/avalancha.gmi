@@ -1,0 +1,27 @@
+# Avalancha
+2021-01-17
+
+Los que tengáis unos cuantos servicios de streaming de películas y vídeo, quizá encontréis útil JustWatch[1], que en España conglomera el catálogo de Netflix, Prime Video, Disney+, HBO, Filmin, Movistar+, Atres Player, FlixOlé, CrunchyRoll, Mitele y más de una decena de otros servicios más.
+
+Parece ser que KLF era uno de los últimos irreductibles galos que se resistían al streaming, pero finalmente podéis doctorizar la Tardis en vuestro servicio de música favorito.[2]
+
+Otra tecnología de futuro alternativo que se perdió para siempre y que sólo recuerda Mr. Morning Sheep Time[3].
+
+No sé qué extraña madriguera me llevó a la cadena DuMont[4], a aprender sobre las grabaciones en kinescopio[5] y que hasta 1949 no era siquiera posible emitir un programa en directo para Nueva York y Chicago.
+
+Con el soporte de addons generalizado de Firefox en Android, llevo cierto tiempo usando NoScript en mi móvil. Hay demasiadas (y cada vez más) páginas de "contenido" que no renderizan sin el JavaScript activado, el interfaz para activarlo es pelín subóptimo y que la cuenta de Firefox Sync no sincronice las opciones de NoScript es un tostón, pero lo recomiendo.
+
+También finalmente tuve la oportunidad de pasarme por una oficina de DNIE, y debo decir que tras establecer una contraseña, creo que he podido incorporar el certificado correctamente a Firefox en Linux (Debian 10 "Buster") sin mayor fricción.
+
+De bonus: Tom Gauld y una variante del "para liarla parda hace falta un ordenador"[6], un fascinante hilo sobre el aparentemente extenso vocabulario en japonés para describir errores protocolarios con los palillos[7], un fascinante texto sobre la credulidad[8] y un curioso y preocupante bug de Windows 10[9].
+
+
+=> https://www.justwatch.com/ 1: https://www.justwatch.com/
+=> https://www.bbc.co.uk/news/entertainment-arts-55507226 2: https://www.bbc.co.uk/news/entertainment-arts-55507226
+=> https://arstechnica.com/gaming/2015/06/before-the-ps2-nuon-famously-tried-and-failed-to-combine-dvd-and-game-consoles/ 3: https://arstechnica.com/gaming/2015/06/before-the-ps2-nuon-famously-tried-and-failed-to-combine-dvd-and-game-consoles/
+=> https://en.wikipedia.org/wiki/DuMont_Television_Network 4: https://en.wikipedia.org/wiki/DuMont_Television_Network
+=> https://the-take.com/read/filmmakers-handbook-what-was-kinescope-recording 5: https://the-take.com/read/filmmakers-handbook-what-was-kinescope-recording
+=> https://www.newscientist.com/article/0-tom-gauld-on-the-shrinking-size-of-powerful-computers/ 6: https://www.newscientist.com/article/0-tom-gauld-on-the-shrinking-size-of-powerful-computers/
+=> https://farside.link/nitter/nick_kapur/status/1346270719773171712 7: https://farside.link/nitter/nick_kapur/status/1346270719773171712
+=> https://fantasticanachronism.com/2021/01/12/unjustified-true-disbelief/ 8: https://fantasticanachronism.com/2021/01/12/unjustified-true-disbelief/
+=> https://www.theverge.com/2021/1/15/22232589/microsoft-ntfs-windows-10-bug-icon-file-flaw-vulnerability-comment 9: https://www.theverge.com/2021/1/15/22232589/microsoft-ntfs-windows-10-bug-icon-file-flaw-vulnerability-comment

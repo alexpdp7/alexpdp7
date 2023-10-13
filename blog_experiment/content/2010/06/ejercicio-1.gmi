@@ -1,0 +1,27 @@
+# Ejercicio (1)
+2010-06-26
+
+Ida (kml[1]) (gpx[2]) (pdf[3]) (Google Maps[4]):
+
+```html
+<table><tbody><tr><td>User</td><td>Alex</td></tr><tr><td>Activity</td><td>Running</td></tr><tr><td>Route</td><td></td></tr><tr><td>Start time</td><td>26/06/2010 16:19:18</td></tr><tr><td>Duration</td><td>00:23:51.53</td></tr><tr><td>Distance</td><td>3.31 km</td></tr><tr><td>Speed avg</td><td>8.3 km/h</td></tr><tr><td>Speed max</td><td>17.1 km/h</td></tr><tr><td>Pace avg</td><td>7:11 min/km</td></tr><tr><td>Pace max</td><td>3:30 min/km</td></tr></tbody></table>
+```
+
+Vuelta (la mitad no se ha grabado por cuelgue) (kml[5]) (gpx[6]) (pdf[7]) (Google Maps[8]):
+
+```html
+<table><tbody><tr><td>User</td><td>Alex</td></tr><tr><td>Activity</td><td>Running</td></tr><tr><td>Route</td><td></td></tr><tr><td>Start time</td><td>26/06/2010 21:28:02</td></tr><tr><td>Duration</td><td>00:10:00.86</td></tr><tr><td>Distance</td><td>1.53 km</td></tr><tr><td>Speed avg</td><td>9.2 km/h</td></tr><tr><td>Speed max</td><td>23.9 km/h</td></tr><tr><td>Pace avg</td><td>6:33 min/km</td></tr><tr><td>Pace max</td><td>2:30 min/km</td></tr></tbody></table>
+```
+
+[PDF generado con uTrack[9]]
+
+
+=> http://alex.corcoles.net/ejercicio/W20100626161918.kml 1: http://alex.corcoles.net/ejercicio/W20100626161918.kml
+=> http://alex.corcoles.net/ejercicio/W20100626161918.gpx 2: http://alex.corcoles.net/ejercicio/W20100626161918.gpx
+=> http://alex.corcoles.net/ejercicio/W20100626161918.pdf 3: http://alex.corcoles.net/ejercicio/W20100626161918.pdf
+=> http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;t=h&amp;msa=0&amp;msid=103974499629351874569.000489f7142486d6dcbed&amp;ll=41.454371,2.181258&amp;spn=0.022226,0.045447&amp;z=15 4: http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;t=h&amp;msa=0&amp;msid=103974499629351874569.000489f7142486d6dcbed&amp;ll=41.454371,2.181258&amp;spn=0.022226,0.045447&amp;z=15
+=> http://alex.corcoles.net/ejercicio/W20100626212802.kml 5: http://alex.corcoles.net/ejercicio/W20100626212802.kml
+=> http://alex.corcoles.net/ejercicio/W20100626212802.gpx 6: http://alex.corcoles.net/ejercicio/W20100626212802.gpx
+=> http://alex.corcoles.net/ejercicio/W20100626212802.pdf 7: http://alex.corcoles.net/ejercicio/W20100626212802.pdf
+=> http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;t=h&amp;msa=0&amp;ll=41.453438,2.183833&amp;spn=0.022226,0.045447&amp;z=15&amp;msid=103974499629351874569.000489f72668126d86d28 8: http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;t=h&amp;msa=0&amp;ll=41.453438,2.183833&amp;spn=0.022226,0.045447&amp;z=15&amp;msid=103974499629351874569.000489f72668126d86d28
+=> http://utrack.crempa.net/ 9: http://utrack.crempa.net/

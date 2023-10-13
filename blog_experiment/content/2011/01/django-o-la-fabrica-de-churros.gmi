@@ -1,0 +1,26 @@
+# Django o la fábrica de churros
+2011-01-08
+
+Programar aburre, porque tendemos a programar lo mismo una y otra vez. Así, muchos caen en la tentación de buscar en exceso maneras de reducir el código. Dijo Wirth que algoritmos más estructuras de datos igual a programas; y cabe añadir que en la mayoría de programación web, poco algoritmo hay- así que con definir el esquema de datos, poco más deberíamos hacer, ¿no?
+
+Estos días me he encontrado frente a una web sencilla, pero que a mi juicio no era adecuada realizarla con un CMS (puede que en gran parte porque no he encontrado un CMS que me guste) y me he decidido a probar Django. Django es un framework Python cuyo lema es "batteries included"; alusión al hecho de que resuelve una gran parte de los problemas típicos de desarrollo web- cosa que certifico y a la que añado que los resuelve a mi gusto. El otro gran qué de Django es la interfaz administrativa que trae; mediante unas líneas declarativas, obtienes una web de gestión que permite añadir, editar, eliminar, etc. entidades del modelo de datos, reduciendo en una gran parte el trabajo que le queda a uno.
+
+¿A parte de esto, qué otras virtudes tiene Django?
+
+* Vistas genéricas. En particular, lista/detalle sobre los modelos de datos, resolviendo correctamente paginación, ordenación, filtrado, etc. Tiene también vistas y maquinaria para hacer CRUD, que supongo funcionan bien pero que no he usado
+* Usa HTML/HTTP "correcto" sin hacer cosas raras, añadir Javascripts innecesarios, serializaciones raras, etc. Todo muy limpio
+* Está documentado. No llega al nivel de Java o Spring, pero desde luego, comparado con Rails y otras estrellas de código libre...
+* No usa generación de código. Odiamos la generación de código.
+
+Pero también le encuentro algún que otro defecto:
+
+* Definimos los modelos en lenguaje "Django". Está bien, pero no es "SQL-completo". Hay modelos, restricciones, etc. que no podremos expresar en este modelo, como por ejemplo, claves primarias compuestas o "listas ordenadas" (relaciones 1-n con campo de ordenación). El lenguaje para consultas tiene las limitaciones típicas de todos los ORM.
+* No me gusta Python. Me gusta la sintaxis estilo C, y exijo grandes ventajas a los que la descartan. Me gusta el tipado estático, y no estoy seguro que haya mucha magia en Django que necesite realmente tipado dinámico. Me gusta que mi editor trabaje por mi.
+* El sistema de plantillas está muy bien, pero es "regular" y no "gramatical", con lo que no admite expresiones donde debería ni otras estructuras muy convenientes. JSP con fragmentos de tag es *muy* superior
+* Tengo la sospecha que el funcionamiento sobre JVM no será para tirar cohetes. Además, si nos interesa funcionar sobre JVM, nos tenemos que limitar a Django 1.1 y evitar 1.2 de momento.
+* En general el sistema de internacionalización está muy bien, pero no soporta internacionalización en el modelo de datos (i.e. campos multilingües en las entidades)
+* No viene con nada para hacer Javascript/AJAX, aunque seguramente no sería de mi agrado, claro
+
+A pesar de esto, creo que es el mejor "framework completo" que he visto. Como plataforma "básica", sigo prefiriendo Java + Spring + Servlets + JSP + JSTL, pero creo que Django puede tener un lugar bastante importante en el arsenal de un desarrollador web. La pregunta es, ¿cuál es ese lugar?
+
+En mi opinión, Django ofrece una velocidad de desarrollo elevadísima para proyectos pequeños y medianos (siempre que no nos topemos con alguno de sus problemas). Para cosas gordas y/o que no encajen bien en Django, es lo de siempre; ¿hacerlo de cero o partir de un framework? Hacerlo de cero lógicamente es más tiempo, pero uno acaba conociendo intimamente la plataforma que hace y está toda a su gusto; usar un framework nos puede ahorrar tiempo, pero al hurgar dentro, a saber qué nos encontramos. Sospecho que las entrañas de Django están muy bien, pero... la decisión sigue siendo difícil. Mi poco amor por Python hace que probablemente yo no vaya a a apostar por Django más que para proyectos rápidos, pero intuyo que para muchos será una decisión más que acertada.

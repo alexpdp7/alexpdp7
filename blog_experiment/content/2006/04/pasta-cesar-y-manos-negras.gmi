@@ -1,0 +1,7 @@
+# Pasta, César y manos negras
+2006-04-18
+
+Se ve que el capo este famosillo que han trincado recientemente en Italia utilizaba criptografía para enviar mensajes [1]. Afortunadamente a este hombre no le han llegado los últimos milenios de avances de seguridad y aún usaba un cifrado César [2], que no debía ser seguro ni en su época.
+
+=> http://dsc.discovery.com/news/briefs/20060417/mafiaboss_tec.html?source=rss [1] utilizaba criptografía para enviar mensajes
+=> http://en.wikipedia.org/wiki/Caesar_cipher [2] cifrado César

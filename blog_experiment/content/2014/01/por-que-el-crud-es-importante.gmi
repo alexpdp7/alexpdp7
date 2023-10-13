@@ -1,0 +1,24 @@
+# ¿Por qué el CRUD es importante?
+2014-01-10
+
+No sé si se vislumbra completamente por aquí, pero llevo mucho, mucho tiempo prácticamente obsesionado con encontrar **la** solución para el CRUD. Ya desde mi primer curro, allá por el 2001-2002, donde usaba el jurásico ATG Dynamo- que pese a primitivo ya se enfrentaba al CRUD bastante frontalmente pude apreciar que en un significativo número de trabajos por los que te pueden pagar, el CRUD es vital.
+
+No sólo porque sí, los programas informáticos suelen servir para eso, para manejar información. **C**reate, **R**ead, **U**pdate, **D**elete es lo que uno puede hacer con los datos, y lo hace muy a menudo, y si lo implementas rápido, ahorras dinero.
+
+La verdadera importancia de esto reside en que si implementarlo es farragoso, eso te lleva por mal camino. Si **necesitas** un esquema de datos complicado e implementar el CRUD necesario para mantenerlo es costoso y tedioso, existe la poderosa tentación de simplificar el esquema. Denormalizamos, quitamos funcionalidad y en definitiva, guarreamos, porque hacerlo bien nos cuesta. Si hacer CRUD es costoso, tendemos a evitar la base de datos para guardar cosas y las metemos en el código- lo que podrían ser tablas de soporte editables por el usuario se convierten en configuración incrustada en el código que sólo puede cambiar el programador.
+
+Por último, pero no menos importante, cuanto más cuesta implementar el CRUD, peor lo implementamos. Interfaces inflexibles, que no permiten ordenación y paginación, que distribuyen la información que nos interesa entre varias páginas que hacen que editarlo sea un suplicio, con desplegables inacabables y sin función de búsqueda... son males que se pueden evitar si nos vienen gratis.
+
+Es por eso que es importante disponer de frameworks que simplifiquen el CRUD. Es frustrante que sólo Django tenga un CRUD potente y bien implementado, y que todos los demás estén uno o varios pasos por detrás. Es por este motivo que detrás de muchas aplicaciones de negocio lo que hay detrás en realidad es un framework CRUD, y que la calidad de éste es uno de los mayores factores que determinan la calidad del producto.
+
+¿Qué necesita un buen CRUD? En mi opinión:
+
+* Poder crear fácilmente pantallas de listado de entidades, con filtrado, ordenación, paginado y búsqueda; que dé la opción de edición directa sobre el listado y que permita mostrar/editar información de entidades relacionadas
+* Poder crear fácilmente pantallas de edición de entidades, que tengan widgets adecuados para los tipos de datos que necesitamos, y que permita editar directamente entidades relacionadas, dando un interfaz adecuado a las claves foráneas y relaciones de todo tipo de cardinalidad y complejidad
+* Poder navegar ágilmente entre entidades relacionadas
+* Un sistema de permisos completo que permita restringir con granularidad por grupos de usuario hasta los niveles de columna y fila (i.e. qué registros puede editar cada usuario, y de cada uno, qué atributos)
+* Un sistema de workflows que permita manejar diversos estados para cada entidad, aplicar permisos sobre las transiciones y disparar eventos sobre los cambios de estado
+* Un sistema de auditoría de cambios que permita ver los históricos de modificaciones y si es factible, restaurar versiones anteriores
+* ... y sobre todo, que todo lo anterior sea extensible, ya que siempre, siempre, necesitaremos más de lo que está previsto
+
+Con esto, tenemos gran parte del camino recorrido en muchos proyectos. Sin embargo, el hecho de que aún Django, el primero de la clase, esté bastante cojo en algunos aspectos, me hace pensar que o bien esto no puede existir, o que los que lo han implementado no lo van a publicar o que me pierdo algo...

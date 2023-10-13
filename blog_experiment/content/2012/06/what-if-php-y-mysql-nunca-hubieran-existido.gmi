@@ -1,0 +1,44 @@
+# What if... PHP y MySQL nunca hubieran existido?
+2012-06-09
+
+Marvel tenía (o tiene, estoy tremendamente desactualizado) un cómic titulado "What if...?" que trataba de qué pasaría en los universos Marvel si algún acontecimiento clave hubiese seguido otro curso. Así pues, podíamos leer cosas como qué hubiese pasado si Spider-Man hubiese sucumbido al simbionte o Gwen Stacy no hubiera muerto.
+
+Yo, la verdad, prefería "What the...?", que trataba de situaciones absurdas, pero bueno.
+
+El ejercicio que me propongo hoy es "What if... PHP y MySQL nunca hubieran existido?"
+
+PHP y MySQL fueron en su momento las estrellas del desarrollo web. PHP[1] surgió de un proyecto personal de Rasmus Lerdorf[2] inicialmente publicado en 1995, que según el TIOBE[3], comenzó a dispararse en popularidad allá por 2002 y gozó de su mejor momento entre 2005 y 2010, donde inició un aparente declive (seguramente por el ascenso de otros lenguajes/frameworks para la web menos demenciales). MySQL[4] empezó como proyecto en 1994 y su primera publicación fue (la Wikipedia no es muy específica en este asunto) entre 1995 y 1998—no encuentro buenas fuentes sobre su ascenso a la fama, pero yo lo situaría aproximadamente por la misma época que el de PHP, y sin que se atisbe una caída en su popularidad (si no contamos su adquisición por parte de Oracle en 2010 y la relativa proliferación de forks).
+
+No es casual, claro, que la web explotara justo en ese momento, entre 1996 y 1998, y que los dos estuvieran en el sitio exacto, en el momento exacto para formar la MP de LAMP[5]. En un momento en el que no había una abundancia de herramientas de desarrollo web decentes (Perl[6] era probablemente la alternativa abierta más popular; los servlets de Java son del 97, pero por ejemplo hasta 1999 no existió Tomcat; ASP[7] de Microsoft data de 1998... no había muchas más cosas y por supuesto, gran parte de lo que hoy está de moda en aquella época ni existía), PHP/MySQL era una tupla muy accesible para desarrollo web —fácil de instalar, fácil de comenzar y fácil de obtener resultados rápidos— y sin mucha competencia que hiciese destacar sus defectos. Esto llevó a que prácticamente todo el segmento "no profesional" y una parte importante del profesional se volcasen en esta plataforma (las "MS Shops", por supuesto, apostaron por ASP y mucha gran empresa se fue a Java) y posteriormente, como suele suceder, el sector no profesional arrastrase al profesional.
+
+Sin embargo, hoy en día PHP está bastante denostado. Se le sigue reconociendo como vía "rápida y sucia" y goza de una inercia considerable (sobre todo, por la abundancia de mano de obra y código existente a mantener), pero puede decirse que ha pasado de moda y que sus abundantes defectos le están pasando factura; prácticamente podría decirse que Facebook es su único usuario de gran perfil (y con importantes peros). MySQL, en cambio, sigue relativamente saludable, sigue siendo extremadamente popular y, pese a que el sector crítico parece crecer día a día, no parece que vaya a ser eclipsado en breve.
+
+¿Qué hubiera pasado si Rasmus Lerdorf se hubiera avergonzado de su pequeño monstruo y hubiese decidido mantenerlo en el sótano oscuro y lúgubre que nunca debió abandonar? ¿Y si MySQL no hubiese tenido su vertiginosa aceptación, quizás por una mala fama alimentada por alguna deflagración especialmente notable?
+
+Probablemente, el mundo web hubiese sufrido algún retraso. Perl, Java o ASP no eran suficientemente accesibles en ese momento como para tomar el relevo (por diversos motivos: de coste en el caso de ASP, de accesibilidad para Java y Perl). Lo más probable es que Perl hubiese ganado bastante terreno y  hoy en día gozase de más popularidad, incluso entre los imberbes. ¿Se hubiese adelantado algún framework como el popular Ruby on Rails[8]? Yo creo que no; Rails surge ya en 2005 y no creo que se hubiese acelerado mucho su aparición en caso de haber existido un vacío. Simplemente, hubiésemos visto otros frameworks nuevos sobre algún lenguaje existente, o quizás algún framework que el tiempo olvidó habría sido adoptado masivamente. Apostaría por que Python[9], que explotó en popularidad en 2004, hubiera cubierto el vacío de PHP con algún framework.
+
+¿Consecuencias? Sí, la web retrasada 2-3 años. Probablemente los titubeos propios de PHP se hubiesen trasladado a su sustituto (algún framework sucio y bizantino de Python se habría impuesto), o quizás (Dios no lo quiera) Perl hubiese arrasado y hoy en día estaríamos condenados a prefijar todo con sigilos (pero seguramente con un framework elegante). La versión optimista (para mí) es que la web como plataforma de aplicaciones no hubiese tenido su auge y nos hubiéramos quedado mayormente en la web de contenidos y el modelo de aplicaciones de escritorio... y con toda probabilidad esto habría supuesto un buen bofetón para Linux y en menor medida para Apple (las aplicaciones web son prácticamente automáticamente multiplataforma). ¿Sería esto positivo? Por una parte, uno es de los que suscribe que nunca debimos apostar por la web para aplicaciones (sí, desde luego, para contenidos) y que quizás buen número de informáticos no tendrían que haber lidiado con los problemas de la web para este propósito y destinado su tiempo a cosas más útiles: siendo optimistas, quizá hoy tendríamos aplicaciones de escritorio multiplataforma de despliegue indoloro (e.g. Java y Web Start, pero bien) y todo sería más de color de rosa. El reverso de la moneda sería un monocultivo Microsoft y todos estaríamos desarrollando en Visual Basic (y no, no el .NET), claro está.
+
+A un nivel más elevado y más del mundo real, igual las burbujas web y sociales no hubieran nacido ni estallado nunca. Habría más desarrollo informático empresarial tradicional con el aburrimiento y la solidez consiguientes.
+
+Por otra parte, creo que la historia no habría cambiado sustancialmente sin MySQL. PostgreSQL[10] seguramente ocuparía su lugar, llevándonos a un mundo con más integridad referencial y donde nuestros datos serían un pelín menos volátiles. Defiendo que el movimiento NoSQL hubiera dado un pequeño paso atrás. Sí: con o sin web de aplicaciones y todo eso, Google hubiera existido y hubiese necesitado BigTable[11]/MapReduce[12] (es el contenido lo que es difícil de indexar). Pero parte de la necesidad de NoSQL viene de las deficiencias de MySQL y no del modelo relacional (adicionalmente, este no estaría tan desprestigiado y probablemente serían más de cuatro gatos los que sabrían sacarle partido). Y es que resulta difícil encontrar una implementación peor de SQL que MySQL (si no contamos SQLite[13], claro, pero ese juega en otra liga).
+
+Cuesta imaginar un efecto real de la no existencia de MySQL: quizás eso quiera decir que pese a que PHP haya caído antes, quizás éste haya sido más instrumental y relevante en el mundo real. MySQL simplemente ofrecía "funciona en Windows y no hay otro popular" (lo de la velocidad son historias); PHP era "tu web, ahora y sin complicaciones". Uno pensaría también que los deméritos de PHP son menores que los de MySQL: pese a que ambos son sucios y volátiles, opino que PHP es más sucio que volátil, mientras que MySQL es más volátil que sucio... y en informática, lo sucio es doloroso pero inevitable, mientras que lo volátil puede causar daños corporales permanentes.
+
+(correcciones, ediciones y sugerencias del de siempre[14])
+
+
+=> http://www.php.net/ 1: http://www.php.net/
+=> http://es.wikipedia.org/wiki/Rasmus_Lerdorf 2: http://es.wikipedia.org/wiki/Rasmus_Lerdorf
+=> http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html 3: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+=> http://www.mysql.com/ 4: http://www.mysql.com/
+=> http://es.wikipedia.org/wiki/LAMP 5: http://es.wikipedia.org/wiki/LAMP
+=> http://www.perl.org/ 6: http://www.perl.org/
+=> http://es.wikipedia.org/wiki/Active_Server_Pages 7: http://es.wikipedia.org/wiki/Active_Server_Pages
+=> http://rubyonrails.org/ 8: http://rubyonrails.org/
+=> http://www.python.org/ 9: http://www.python.org/
+=> http://www.postgresql.org/ 10: http://www.postgresql.org/
+=> http://es.wikipedia.org/wiki/BigTable 11: http://es.wikipedia.org/wiki/BigTable
+=> http://es.wikipedia.org/wiki/MapReduce 12: http://es.wikipedia.org/wiki/MapReduce
+=> http://www.sqlite.org/ 13: http://www.sqlite.org/
+=> http://obm.corcoles.net/ 14: http://obm.corcoles.net/

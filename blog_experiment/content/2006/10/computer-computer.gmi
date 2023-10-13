@@ -1,0 +1,27 @@
+# Computer? Computer?
+2006-10-07
+
+Bueno, a pesar de que no tendré tarjetita de memoria hasta el viernes o así, la coolness del control por voz me ha obligado a escribir una reseñilla provisional para el nuevo y flamante Nokia 6234 [1] edición especial nuevecico que estoy usando.
+
+Esta no es una reseña con especificaciones (para eso, mirad el enlace anterior), ni sobre las cosas que no me interesan (videollamada, internés, etc.), sino de lo que me apetece- estáis avisados.
+
+El 6234 este tiene el formato habitual de teléfono móvil, ni se abre ni se desliza nada. Eso quiere decir menos parte mecánica que puede estropearse, pero también que la pantalla, cámara y teclado están desprotegidos y vulnerables a uso accidental, rayadas, etc.; también supongo que se gana una pequeña reducción de volumen. Me compré el móvil sobretodo interesado por sus posibilidades como reproductor de mp3, vídeo y radio. De las dos primeras poco puedo decir hasta que no me haga con una tarjeta de más capacidad; parecen funcionar bien.
+
+=> http://www.gsmarena.com/nokia_6234-1388.php [1] Nokia 6234
+
+El reproductor de mp3 es sencillo, se puede controlar con el manos libres y desde la pantalla principal del móvil, de una forma bastante práctica. El reproductor de vídeo acepta vídeos en formato MPEG-4 y los reproduce a pantalla completa a 320x240. Como pega, parece que no se puede avanzar y retroceder por el vídeo. Algunos aplican la solución de codificar los videos en trocitos que se reproducen uno detrás del otro, lo que permite saltar adelante y atrás sin mucho problema. La codificación de vídeo se puede hacer con un sencillo comando de ffmpeg [2] :
+
+```
+alex@case:~$ ffmpeg -t 60 -i [fichero-original] -b 300 -r 15 -s 320x240 [fichero-codificado]
+```
+
+La radio es FM, funciona y también se puede controlar con el manos libres.
+
+El interfaz es feíllo, pero es más o menos funcional. El control de voz es impresionante, no necesita entrenamiento (tiene un sintetizador de voz), es fiable y da el pego, sobretodo con el manos libres.
+
+Aún no he conseguido sincronizar la agenda por Bluetooth, y la conexión USB da problemillas con Linux (hay que desactivar los módulos cdc_ether, cdc-acm para evitar cuelgues, véase [3]). Tampoco opino de momento sobre la batería.
+
+=> http://ffmpeg.mplayerhq.hu/ [2] ffmpeg
+=> http://article.gmane.org/gmane.linux.usb.devel/46605/match=nokia+6280 [3] véase
+
+En fin, en un tiempecillo, intentaré completar mi opinión sobre el bicho.

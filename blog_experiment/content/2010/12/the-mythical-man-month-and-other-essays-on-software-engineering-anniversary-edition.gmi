@@ -1,0 +1,14 @@
+# The Mythical Man Month and Other Essays on Software Engineering - Anniversary Edition
+2010-12-12
+
+Pocos libros tienen la fama y popularidad de The Mythical Man Month. Hace tiempo ya que quería leer este libro sobre la ingeniería del software y aprovechando la destrucción de fronteras de Amazon Reino Unido, me hice con mi copia.
+
+The Mythical Man Month es una colección de ensayos sobre la construcción de programas inspirada en gran medida por el trabajo el autor, Frederick Brooks en el desarrollo de OS/360, el sistema operativo del System/360 de IBM (del paleolítico de los 60). Brooks analiza sus experiencias, las contrasta con las de otros colegas y ofrece su opinión. Por mucho que nos separan casi 40 años de la fecha de publicación de la primera edición del libro, pocas ideas del libro han quedado obsoletas (en esta edición especial de aniversario, el autor añade al libro contenido comentando estos aspectos). Las predicciones de Brooks, que parten de un análisis de qué factores de la ingeniería del software eran limitaciones de los sistemas de la época y cuáles eran problemas intrínsecos, son precisas, y son reconfirmadas en "No Silver Bullet", un ensayo suyo del 86 añadido al libro en el que postula que no existen las soluciones "milagro".
+
+Lógicamente, sí que hay muchas partes del libro que resultan ridículas hoy en día (discusiones sobre microfilms, como encajar programas en la limitada capacidad de las máquinas de los 60, etc.), y ciertas partes de sus argumentos han quedado obsoletas por las prácticas modernas- si bien es cierto que podemos rastrear los orígenes de estas novedades en propuestas de Brooks en el libro- es interesante re-analizar todas estas nuevas tendencias en el campo tras haber leído The Mythical Man Month.
+
+Otra crítica que se podría dirigir al libro (y que de hecho Brooks recibió, tal como explica en el libro), es que gran parte de él es "sentido común". Ciertamente, sí (y más en este siglo), pero sigue siendo necesario escribir el sentido común en algún sitio, y además, hay muchísimo en el libro que refuerza este sentido común- pruebas, estudios, razonamientos, etc.- que le dan más fuerza y vitalidad. Brooks también aporta mucho más que sentido común; sus ideas sobre composición de equipos son claras y razonadas, e imbuirnos de su filosofía es útil y valioso.
+
+Además, Brooks tiene estilo escribiendo. Los ensayos se enlazan naturalmente, sabe darles vida mediante sus vivencias y consigue que el libro no sea aburrido y que las ideas nos lleguen frescas a la cabeza.
+
+En definitiva, me uno al corrillo de gente que ha leído el libro y, quién sabe, puede que al de los que aplican sus ideas.

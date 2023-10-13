@@ -1,0 +1,31 @@
+# Otra taxonomía, con algo de predominancia de serpientes
+2021-02-13
+
+Scott Hanselman no es sólo el autor del imprescindible Dark Matter Developers[1], sino que además comparte conmigo dificultades en finalizar conversaciones. Lo que no comparto con él es su genio para encontrar una deliciosa solución:
+
+https://farside.link/nitter/shanselman/status/1357036562077241344[2]
+
+Hace décadas era superfán del crítico de cine en televisión de El País, Luis Martínez (hasta el punto de recortar y coleccionar sus críticas, algo de lo que sólo se acuerda ahora el Internet Archive[3]). Qué sorpresa cuando la aplicación de noticias de Microsoft me llevó a una entrevista de este señor con el inigualable John Carpenter[4] (link tipo AMP de Microsoft, pues el original en El Mundo está enmurallapagado[5]). Lamentablemente, para retomar el contacto y seguirle, tendré que usar Twitter.
+
+No estaba al tanto del ¿culebrón? sobre los términos de uso de Anaconda[6]. Según entiendo, Anaconda es la solución para ahorrarse los dolores de cabeza derivados del uso de código que no es puro Python en Windows. Pero parece ser que el acceso a los repositorios está ahora explícitamente gobernado por unos términos de uso que al menos a mí me huelen a inseguridad.
+
+Siguiendo con Python, el otro día descubrí con sorpresa que en este sí claro culebrón del LBYL contra el EAFP, que la postura de Guido coincide con la mía (LBYL)[7] mientras que la documentación de Python siempre me ha parecido que defiende lo contrario[8], y creo que eso ha llevado a la concepción de que EAFP es más "pitónico".
+
+Como traca final: NNCP, otro protocolo de internet para descentralizar comunicaciones[9]. Se habla mucho de la transpilación estos días, pero poco de bish[10] y batsh[11], y quizá otros lenguajes que compilan a bash. Otro fascinante ejemplo del videojuego imitando la sociedad: mafias explotadoras del trabajador en Elite Dangerous[12]. El grafo de qué le suena a chino a los chinos[13]. Unos cuántos enlaces lingüísticos intrigantes[14]. La espectacular especialización del fútbol americano, que no vendría mal en el europeo[15].
+
+
+=> https://www.hanselman.com/blog/dark-matter-developers-the-unseen-99 1: https://www.hanselman.com/blog/dark-matter-developers-the-unseen-99
+=> https://farside.link/nitter/shanselman/status/1357036562077241344 2: https://farside.link/nitter/shanselman/status/1357036562077241344
+=> http://web.archive.org/web/20050225041521/http://campus.uab.es/~2075931/otras/quid.html 3: http://web.archive.org/web/20050225041521/http://campus.uab.es/~2075931/otras/quid.html
+=> https://www.msn.com/es-es/noticias/movies/john-carpenter-el-asalto-al-capitolio-demuestra-que-los-monstruos-viven-entre-nosotros/ar-BB1dgsIH 4: https://www.msn.com/es-es/noticias/movies/john-carpenter-el-asalto-al-capitolio-demuestra-que-los-monstruos-viven-entre-nosotros/ar-BB1dgsIH
+=> https://www.elmundo.es/cultura/cine/2021/02/01/60166e3efdddff15bd8b456f.html 5: https://www.elmundo.es/cultura/cine/2021/02/01/60166e3efdddff15bd8b456f.html
+=> https://www.anaconda.com/ 6: https://www.anaconda.com/
+=> https://mail.python.org/pipermail/python-dev/2014-March/133118.html 7: https://mail.python.org/pipermail/python-dev/2014-March/133118.html
+=> https://docs.python.org/3/glossary.html#term-eafp 8: https://docs.python.org/3/glossary.html#term-eafp
+=> http://www.nncpgo.org/ 9: http://www.nncpgo.org/
+=> https://github.com/tdenniston/bish 10: https://github.com/tdenniston/bish
+=> https://github.com/batsh-dev-team/Batsh 11: https://github.com/batsh-dev-team/Batsh
+=> https://www.polygon.com/features/2021/2/4/22264605/elite-dangerous-newbies-trapped-forced-labor 12: https://www.polygon.com/features/2021/2/4/22264605/elite-dangerous-newbies-trapped-forced-labor
+=> https://www.jwz.org/blog/2021/02/the-directed-graph-of-stereotypical-incomprehensibility/ 13: https://www.jwz.org/blog/2021/02/the-directed-graph-of-stereotypical-incomprehensibility/
+=> https://www.enricozini.org/blog/2021/links/language-links/ 14: https://www.enricozini.org/blog/2021/links/language-links/
+=> https://www.sbnation.com/nfl/2019/2/2/18191956/sean-mcvay-get-back-coach-rams-clemson 15: https://www.sbnation.com/nfl/2019/2/2/18191956/sean-mcvay-get-back-coach-rams-clemson

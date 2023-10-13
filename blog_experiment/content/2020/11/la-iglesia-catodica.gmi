@@ -1,0 +1,32 @@
+# La iglesia catódica
+2020-11-19
+
+¿Acertaron de pleno los creadores de YouTube con su nombre? ¿Los "smart" phones nos han enganchado a la nueva caja tonta?
+
+Vivo un poco ajeno al mundo de las imágenes en acción para responder adecuadamente a esa preguntas (aunque todo apunta a que sí), pero me es conveniente documentar dos proyectos relacionados con YouTube que, sorprendentemente en estos días, no son youtube-dl[1].
+
+Uno es NewPipe[2]. NewPipe es una aplicación Android open source (es decir, sus entrañas están al alcance de todos) que permite ver vídeos de YouTube, como la propia aplicación de YouTube. Para ello, imita a un navegador web visitando YouTube sin hacer login. Curiosamente, se salta los pasos de mostrar anuncios y dificulta bastante que YouTube nos identifique fácilmente. Adicionalmente, implementa funcionalidades en la propia aplicación, como la suscripción a canales, con un mecanismo propio que, aunque cuenta con desventajas (no nos "sigue" de dispositivo a dispositivo), nos permite hacer cosas que no se pueden hacer usando YouTube sin hacer login. También cuenta con funcionalidades como poder reproducir el sonido de los vídeos sin tener la aplicación en primer plano, o descargar vídeos.
+
+¿Tiene pegas? Para empezar, una aplicación así va en contra de los términos de uso de la Play Store de Google, así que no la podremos encontrar ahí. Recomiendo el uso de F-Droid[3] para instalarla. F-Droid es una tienda de aplicaciones Android alternativa que ofrece sólo aplicaciones open source como NewPipe. Esto está contemplado dentro de Android- podemos configurar Android fácilmente para que nos permita instalar aplicaciones de fuera de la Play Store, instalar F-Droid y con F-Droid instalar nuevas aplicaciones.
+
+¿Es esto legal? Pues dependerá de la legislación que rija sobre cada uno. ¿Es peligroso? Un riesgo podría venir por instalar una aplicación que no está aprobada por Google, que supuestamente evita que se publiquen aplicaciones con funcionalidades maliciosas ocultas. Sin embargo, dado que NewPipe es una aplicación open source, en teoría cualquiera podría auditar sus entrañas, verificar que no hay tales funcionalidades ocultas y verificar que la descarga que ofrece F-Droid se corresponde con el código fuente.
+
+Así mismo, podría existir el riesgo de que Google "castigue" a los usuarios de NewPipe, por ejemplo, cerrando sus cuentas Google, algo que no es poca broma[4]. Sin embargo, aparte de que no constan casos, a falta de alguna puerta trasera en Android, dado que NewPipe interactúa con YouTube sin hacer login, no debería haber manera fiable de identificar quién usa NewPipe. Así mismo, no ha habido manifestación alguna de Google en contra de NewPipe- más allá de que los términos de la Play Store evitan que, como muchas otras aplicaciones, la podamos encontrar allí.
+
+Un proyecto similar a NewPipe es Invidious, una web alternativa que nos ofrece el contenido de YouTube que forma parte de la ilustre familia compuesta por Nitter (Twitter) y Bibliogram (Instagram). Estas webs reimplementan la funcionalidad de webs con contenido público como YouTube, permitiéndonos acceder a él como un intermediario que protege nuestra identidad. Al igual que NewPipe, Invidious curiosamente se olvida de mostrarnos anuncios y dificulta el seguimiento por parte de Google de nuestras acciones.
+
+Al ser una aplicación web, Invidious debe ser hospedada por alguien. Al ser open source, cualquiera puede crear su propia instancia. A diferencia de NewPipe, que siendo una aplicación nos la bajamos y la ejecutamos en nuestro móvil, Invidious se ejecuta en un servidor al que accedemos. Hay un listado de instancias en la propia web de Invidious[5].
+
+Sin embargo, dado que es una aplicación web, si bien el código fuente de Invidious es open source al igual que NewPipe, en este caso al ser una aplicación web, no podemos validar que la instancia a la que nos conectamos de Invidious se corresponda con el código fuente que alguien podría haber auditado y verificado que no contiene funcionalidades maliciosas. Sólo creando nuestra propia instancia de Invidious podremos tener esta certeza. Además, la instancia que usemos puede dejar de funcionar, aunque en este caso podriamos cambiar y seguir usando otra instancia.
+
+Por lo demás, el análisis es bastante similar al de NewPipe- con las diferencias lógicas derivadas de que una es una aplicación para móvil y la otra una aplicación web.
+
+Bola extra: aquí un artículo sobre un soporte histórico, desconocido para mí, de películas que al parecer tuvo su momento en los ochenta[6].
+
+
+=> https://youtube-dl.org/ 1: https://youtube-dl.org/
+=> https://newpipe.schabi.org/ 2: https://newpipe.schabi.org/
+=> https://f-droid.org/ 3: https://f-droid.org/
+=> gemini://alex.corcoles.net/2020/11/sagrada-correspondencia/ 4: gemini://alex.corcoles.net/2020/11/sagrada-correspondencia/
+=> https://github.com/iv-org/invidious/wiki/Invidious-Instances 5: https://github.com/iv-org/invidious/wiki/Invidious-Instances
+=> https://gizmodo.com/i-miss-videodiscs-the-fragile-garbage-that-shaped-my-c-1845700764 6: https://gizmodo.com/i-miss-videodiscs-the-fragile-garbage-that-shaped-my-c-1845700764

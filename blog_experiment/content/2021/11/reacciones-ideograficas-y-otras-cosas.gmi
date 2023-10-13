@@ -1,0 +1,44 @@
+# Reacciones ideográficas y otras cosas
+2021-11-20
+
+Atesorad este momento. Este RFC[1] para añadir "reacciones emoji" al correo electrónico me parece una idea cojonuda (y a vosotros también si estuvieseis suscritos a una lista de correo con un elevado volumen de mensajes "+1"). De hecho, creo que las reacciones emoji (de Slack, Google Meet, etc.) son una innovación mayúscula en la comunicación electrónica. Poder confirmar un mensaje como recibido *sin* generar una notificación es una opción útil. Obviamente, sigo pensando que los emojis son el mal (sigo esperando saber si [2] sigue siendo cierto), y me parecería infinitamente más apropiado poder usar smileys ASCII tradicionales. ¿Pero no sería irónico que algún cliente de correo adelantase a Telegram y Whatsapp con esto?
+
+=> https://www.rfc-editor.org/rfc/rfc9078.html [1] RFC 9078 Reaction: Indicating Summary Reaction to a Message
+=> https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name [2] El link que os pongo siempre que menciono la palabra emoji: "I Can Text You A Pile of Poo, But I Can’t Write My Name"
+
+Yo no iba a hablar mucho del metaverso, porque es caca de la vaca[1]. Lo explica mucho mejor este tuit:
+
+> discord destroyed irc, reddit and twitter destroyed phpbb forums, facebook destroyed blogs.  all are investing in cryprocurrency flimflam.  you think it's because they want to build a decentralized web controlled by the people?  they're the fuckers who DISMANTLED the one we HAD
+
+=> https://nitter.it/eevee/status/1457905146730590213
+=> https://www.pcgamer.com/the-metaverse-is-bullshit/ [1] The Metaverse is Bullshit (además, mencionado por William Gibson en Twitter)
+
+Hace tiempo que busco una "referencia" que proporcionar para aquellos que están preocupados por su seguridad en Internet. Ars[1] ha publicado una guía que recomienda el mismísimo Bruce Schneier[2]. Ahora sólo faltaría que la traduzcan, ¿no?
+
+=> https://arstechnica.com/features/2021/10/securing-your-digital-life-part-1/ [1] Guía de Ars Technica sobre ciberseguridad para personas de a pie
+=> https://www.schneier.com/blog/archives/2021/11/advice-for-personal-digital-security.html [2] Bruce Schneier: "it's pretty good"
+
+Aparte de su catálogo sorprendente y distinto, otra idea fantástica es que Prime Video introduzca una funcionalidad para compartir 30 segundos de sus películas y series. Sí, hasta ahora se podía hacer, pero todo era un mar de dudas... y un mecanismo oficial para "citar" piezas audiovisuales es enorme. Claro que el X-Ray de Prime Video también es una maravilla y a nadie le importa.
+
+=> https://www.theverge.com/2021/11/11/22776572/amazon-prime-video-share-clip-social-media-iphone-ipad
+
+Ya sabéis que yo soy anti-Apple[1]. Pero su anuncio sobre reparabilidad[2] les hizo subir bastantes puntos a mis ojos (intentaré seguirme alejado de sus productos, pero algo es algo). Pero aquí explican un poco que igual les estaban poniendo una pistola en la sien[3]. Aun así, bien por Apple.
+
+=> gemini://alex.corcoles.net/2015/12/por-que-no-uso-productos-apple/ [1] Por qué no uso productos Apple
+=> https://www.apple.com/newsroom/2021/11/apple-announces-self-service-repair/ [2] Apple announces Self Service Repair
+=> https://www.theverge.com/2021/11/17/22787336/apple-right-to-repair-self-service-diy-reason-microsoft [3] The shareholder fight that forced Apple’s hand on repair rights
+
+Y en otra cosa que hace que me suba por las paredes, leed esta interesante reflexión sobre criptobarbaridades:
+
+=> https://apenwarr.ca/log/20211117 El siempre recomendable Apenwarr (Avery Pennarun) sobre descarrilamientos de trenes y criptobasura
+
+Y como ya me estoy extendiendo demasiado, un poco de batiburrillo para el resto...
+
+=> https://www.vice.com/en/article/3ab835/is-this-timothee-chalamets-xbox-modding-youtube-channel-an-investigation A conversation with a security expert who investigates war crimes has helped Motherboard uncover the truth of Chalamet’s past as a YouTuber who did custom paint jobs of Xbox 360 controllers
+=> https://en.wikipedia.org/wiki/The_Search_for_General_Tso Buscando al general Tso. Una historia sobre comida china, en su variante EEUU
+=> https://en.wikipedia.org/wiki/The_Beatles%27_Decca_audition Un vecino torturador me ha hecho adentrarme en la famosa audición fallida de los Beatles y  descubrir que "Bésame mucho" fue uno de los temas que tocaron (ahora disculpo al señor que se hizo famoso por rechazarles)
+=> http://thefilmexperience.net/blog/2021/11/11/whats-the-average-length-of-a-best-picture.html Mi querido Nat se apunta al periodismo de datos y nos obsequia un interesante estudio sobre la duración de las mejores películas según el tío Óscar
+=> https://en.wikipedia.org/wiki/Dutch_angle No recuerdo la película, pero una crítica que siempre me ha impactado es "el director de esta película vio que muchos otros directos inclinaban el ángulo de la cámara, pero nunca entendió el por qué". Si sois ese director, lo podéis averiguar aquí.
+=> https://sketchplanations.com/flotsam-jetsam Me uno al autor de esto. Yo sólo sabía que Flotsam y Jetsam era un capítulo de Las Dos Torres.
+=> https://www.rockpapershotgun.com/the-magic-of-morse-is-in-its-custom-telegraph-controller Hay muchos controladores de videojuegos extraños, pero este...
+=> https://www.snopes.com/news/2021/11/15/victorian-cups-mens-mustaches/ Según Snopes, las tazas victorianas protegebigotes, existen

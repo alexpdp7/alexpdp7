@@ -1,0 +1,54 @@
+# La primera parte de mi antídoto
+2021-07-03
+
+=> https://farside.link/invidious/watch?v=gQNFCRom7c0 Está aquí, claro.
+
+Por lo demás...
+
+Detesto haber sido presciente[1], ojo a la actualización del artículo[2]. Al menos me ha llevado a descubrir un ejemplar anterior[3].
+
+=> https://nitter.mha.fi/koalillo/status/1245471812449902594 [1] Maldita cita
+=> https://arstechnica.com/gaming/2021/06/how-snes-emulators-got-a-few-pixels-from-complete-perfection/ [2] El artículo en cuestión
+=> https://arstechnica.com/gaming/2011/08/accuracy-takes-power-one-mans-3ghz-quest-to-build-a-perfect-snes-emulator/ [3] Un artículo anterior del mismo autor también sobre la complicada fidelidad de los emuladores.
+
+Hace tiempo os puse mi tuneo de YouTube Music para corregir un problemilla[1]. Ahora descubro que hay un tuneo mucho más ambicioso[2]. La verdad que está gracioso, aunque estoy un poco ambivalente. También tiene algún pequeño bache, pero llevo usándolo un par de semanas y de momento ahí me quedo. También apunto que aún en el vetusto EL8 (CentOS 8, RHEL 8, Rocky Linux 8, etc.), si pasamos del Firefox ESR que viene con la distro y cogemos el upstream, tendremos unos bonitos controles de reproducción en Gnome Shell (y podremos asignar atajos de teclado).
+
+=> /2020/12/elide-artist-names-less-in-youtube-music [1] mi tuneo CSS
+=> https://uso.kkx.one/style/184155 [2] Better YouTube Music
+
+Parece que el ataque a discos duros externos del martes[1] ha sido rápidamente eclipsado por un ataque a Kaseya[2].
+
+=> https://www.theverge.com/2021/6/29/22555959/wd-my-book-live-second-exploit-authentication-factory-reset-without-password-root-control [1] Ojo con los WD My Book Live fuera de soporte.
+=> https://www.reddit.com/r/msp/comments/ocggbv/crticial_ransomware_incident_in_progress/ [2] El ataque a Kaseya.
+
+El resto basta en batiburrillo...
+
+=> https://www.theverge.com/2021/7/2/22550853/electric-vehicles-disabled-wheelchair-conversion-battery Las curiosas inaccesibilidades de los coches eléctricos.
+
+=> https://nitter.mha.fi/JoelBurgess/status/1409013849584504833 La historia del aparentemente perro más buenísimo del mundo en el mundo de los videojuegos.
+
+=> https://blog.plover.com/lang/etym/badugi.html Dogs that look like board games.
+
+=> https://www.vox.com/recode/2021/6/24/22549157/google-unreliable-search-results-changing-quickly-misinformation-conspiracy-theories Dicen que a menudo es más importante saber que no se sabe, que saber.
+
+=> https://kottke.org/21/06/dark-fish El pescado oscuro (y también hongos).
+
+=> https://www.polygon.com/lord-of-the-rings/22547637/boromir-death-scene-lord-of-the-rings-masculinity Otro en la serie de Polygon sobre El Señor de los Anillos. Sobre la masculinidad.
+
+=> https://sketchplanations.com/sampling-bias Sobre el sampling bias, y una suscripción nueva en mi Miniflux.
+
+=> https://obm.corcoles.net/20210624/lo-que-la-web-podria-haber-sido-o-no/ Una curiosa pieza de la historia de la web.
+
+=> https://www.ft.com/content/18db20d8-7726-43e2-87f1-c5861ad3dff5 Otra sobre el Excel.
+
+=> https://www.snopes.com/news/2021/06/25/mispronunciation-why-you-should-stop-correcting-peoples-mistakes/ Sobre la deliciosa pronunciación de ese idioma.
+
+=> https://en.wikipedia.org/wiki/Se%C3%B1or_Wences El verdadero (y no criminal, aparentemente) ventrílocuo moreno; de Peñaranda de Bracamonte (Salamanca) a tener parte de una calle en Manhattan.
+
+=> https://www.snopes.com/news/2021/07/01/loki-actor-costume-nursing-mom/ Trajes de superheroína de maternidad.
+
+=> https://www.snopes.com/fact-check/woman-eggs-simon-cowell-loki/ Y cómo la señora que le tiró un huevo de gallina a Simon Cowell ahora compone música para el/la mismo/a superhéroe/superheroína.
+
+=> https://en.wikipedia.org/wiki/Drag%C3%A9e Sobre las grageas.
+
+=> https://en.wikipedia.org/wiki/Forth_Bridge ... a demonstration in 1887 had the Japanese engineer Kaichi Watanabe supported between Fowler and Baker sitting in chairs. Fowler and Baker represent the cantilevers, with their arms in tension and the sticks under compression, and the bricks the cantilever end piers which are weighted with cast iron.

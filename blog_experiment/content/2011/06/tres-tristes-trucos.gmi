@@ -1,0 +1,27 @@
+# Tres tristes trucos
+2011-06-07
+
+1. 
+
+screen es una de esas herramientas definitivas del mundo Unix. Parece ser que tmux es la alternativa moderna[1], pero uno es conservador. En todo caso, cualquiera que use un sistema Unix, debe conocer el uso de screen (principalmente, para lanzar procesos largos remotamente). El truco es meter lo siguiente en .screenrc:
+
+# http://gentoo-wiki.com/TIP%5C_Using%5C_screen#Tab-bar[2][3] hardstatus alwayslastline hardstatus string '%H %-w %{= bW}%n %t%{-} %+w'
+
+2. 
+
+De aquí[4], un alias para meter en la máquina que usamos:
+
+asc() {     autossh -x -a -t "$@" 'screen -RdU' }
+
+; usando entonces asc en vez de ssh, se usará screen combiando con autossh para conectarse al sistema remoto. Con esto, si se corta la conexión ssh, el sistema reconectará automáticamente y volverá justo donde lo dejamos... haciendo que por ejemplo, trabajar con ssh en una conexión 3G de cobertura irregular sea un pelín menos demencial.
+
+3. 
+
+Y para nota, instalar zssh (e incorporarlo al asc anterior). Con esto, dentro de una sesión de ssh podemos transferir ficheros del sistema local al remoto sin tener que abrir otro terminal y usar scp. Esto es harto conveniente y además gana puntos por usar ZMODEM[5] para hacer la transferencia. Desgraciadamente, los usuarios de Gnome debemos envidiar a los de KDE (o incluso los de Windows), ya que al parecer Konsole y Putty tienen un interfaz fantabuloso para hacer esto, y gnome-terminal, no.
+
+
+=> http://tmux.sourceforge.net/ 1: http://tmux.sourceforge.net/
+=> http://gentoo-wiki.com/TIP%5C_Using%5C_screen#Tab-bar 2: http://gentoo-wiki.com/TIP%5C_Using%5C_screen#Tab-bar
+=> http://gentoo-wiki.com/TIP_Using_screen#Tab-bar 3: http://gentoo-wiki.com/TIP_Using_screen#Tab-bar
+=> http://noone.org/blog/English/Computer/Shell/Perfect%20Team:%20autossh%20and%20GNU%20Screen.html 4: http://noone.org/blog/English/Computer/Shell/Perfect%20Team:%20autossh%20and%20GNU%20Screen.html
+=> http://en.wikipedia.org/wiki/ZMODEM 5: http://en.wikipedia.org/wiki/ZMODEM

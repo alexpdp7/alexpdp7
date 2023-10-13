@@ -1,0 +1,63 @@
+# Los gemelos golpean dos veces
+2021-03-13
+
+Esta es la primera entrada que creo en mi blog en el Geminiespacio (¿Gemeloespacio? ¿Geminispacio? Dudo que la RAE o la Fundéu me ayuden con esto). El Geminiespacio es un fascinante proyecto del que ya os hablé[1] anteriormente que define un protocolo parecido a la web, pero simplificado al máximo- los que recuerden el protocolo Gopher les sonará- pero el Geminiespacio está modernizado (requiere TLS, por ejemplo) y aprende unas cuantas lecciones de la web.
+
+Es un protocolo muy inflexible (si quisiesemos implementar un buscador, por ejemplo, no permite formularios aunque sí permite pedir al usuario una cadena de texto) que impide todo lo que odiamos de la web moderna. Una cápsula Gemini sólo es hipertexto y nada más, ni lo bueno ni lo maligno.
+
+He publicado el código fuente del terrible invento rubegoldberesco que me ha permitido migrar este blog de WordPress a un extraño injerto estático y el proxy a través del cuál muy probablemente estéis leyendo esta entrada mediante un navegador convencional. Lo podéis encontrar aquí:
+
+=> https://github.com/alexpdp7/gemini_blog/ El repositorio con el código de sostiene este blog
+
+Espero no provocar demasiados problemas con esta migración. Me temo que los que uséis RSS seguramente veréis republicadas las últimas diez entradas del blog, eso sí.
+
+=> gemini://gemini.circumlunar.space/ Más información sobre el Geminiespacio (enlace al espacio Gemini que usa el proxy de este blog que utilizo para hacerlo accesible a navegadores convencionales)
+=> /2021/01/el-batiburrillo-periodico/ [1] La entrada del blog en la que mencioné por primera vez el Geminiespacio
+
+Para inaugurar el blog, el típico post periódico donde recopilo lo que voy encontrando por Internet.
+
+La verdad que en vez de citaros [2] y [3], en realidad debería de dejar de republicar contenido de Quanta Magazine[4] y recomendaros que os suscribáis, creo que me encanta uno de cada cuatro de sus artículos como mínimo.
+
+=> https://www.quantamagazine.org/new-algorithm-breaks-speed-limit-for-solving-linear-equations-20210308/ [2] Cómo acelerar la resolución de sistemas de ecuaciones lineales jugando a dados con el universo- o todo mejora si añadimos un poco de azar
+=> https://www.quantamagazine.org/what-is-life-its-vast-diversity-defies-easy-definition-20210309/ [3] Sobre lo difícil que es saber qué es la vida
+=> https://www.quantamagazine.org/ [4] Quanta Magazine.
+
+Ken cumple 60 años [5], y para celebrarlo os recomiendo ver el episodio sobre la Barbie del documental de Netflix "The Toys That Made Us" [6], ya que es de los puntos álgidos de lo que ya es una buena serie documental en general.
+
+=> https://www.snopes.com/ap/2021/03/11/barbies-friend-ken-celebrates-a-milestone-birthday-60/ [5] El sexagenario Ken
+=> https://www.netflix.com/title/80161497 [6] The Toys That Made Us, en Netflix
+
+=> https://www.snopes.com/ap/2021/03/11/at-air-force-one-base-intruder-given-up-by-mouse-ears/ También en Snopes, sobre como unas orejas de Micky Mouse parece que son el accesorio de sigilo definitivo.
+
+Hace tiempo me quedé decepcionado con las herramientas básicas UNIX porque me parecía que no había un mecanismo elegante para filtrar los resultados del comando find. Quería ejecutar una función sobre los archivos x.ext1 para los que no existiese un archivo x.ext2 más moderno, y acabé haciendo esta barbaridad.
+
+```
+function filter {
+	while read line ; do
+		test "$line" -nt "${line%.ext1}.ext2" && echo "$line"
+	done
+}
+
+function transform {
+	while read line ; do
+		transform <"$line" >"${line%.ext1}.ext2"
+	done
+}
+
+find x/ -name "*.ext1" | filter | transform
+```
+
+, cuando resulta ser que el -execdir de find (que por motivos de seguridad debería usarse en vez del tradicional -exec) ya permite hacer esto de una manera mucho más elegante:
+
+```
+find x/ \
+    -name "*.ext1" \
+    -execdir sh -c 'test "$0" -nt "${0%.ext1}.ext2" ]' {} \; \
+    -execdir sh -c 'transform <"${0}" >"${0%.ext1}.ext2"' {} \;
+```
+
+, ya que la acción -execdir actúa como el resto de filtros de find, y si la ejecución del comando fracasa, no se ejecutan las acciones siguientes.
+
+Esto me lo tuvo que decir un amable ser, aunque la verdad que estaba claramente documentado [6].
+
+=> https://www.gnu.org/software/findutils/manual/html_mono/find.html#Adding-Tests [6] La documentación de find que por supuesto no se me ocurrió consultar para saber cómo hacer algo con find

@@ -1,0 +1,16 @@
+# Cuando...
+2006-01-27
+
+... uno no sabe que decir, emplea las palabras de otros. Sí, no puedo resistirme a las buenas citas ni tampoco a las buenas frases. Me he puesto a leer un O'Reilly [1] (que alguna llamaría oh-really) sobre Asterisk [2] que está disponible en copyleft aquí [3] y, para explicar porqué la telefonía ha tardado tanto en tener estándares abiertos en internet, me he topado con esto:
+
+=> http://www.oreilly.com/ [1] O'Reilly
+=> http://www.asterisk.org/ [2] Asterisk
+=> http://www.asteriskdocs.org/modules/tinycontent/index.php?id=11 [3] aquí
+
+> Or, perhaps it’s because a telephone just isn’t as effective at supplying adult entertainment.
+
+> O quizás es porque un teléfono no es tan efectivo proporcionando entretenimiento para adultos.
+
+El libro pinta bien, pero basta ya por hoy. La semana ha sido ajetreada, el copyfighting [4] se me ha quedado en nada (aunque debo admitir que creo que he llegado justo... cuando se acababa lo más interesante) y uno está cansaete...
+
+=> http://mutantur.blogspot.com/2006/01/crnicas-de-luchacopia.html [4] copyfighting

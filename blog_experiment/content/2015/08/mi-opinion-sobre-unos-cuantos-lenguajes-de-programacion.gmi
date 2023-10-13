@@ -1,0 +1,32 @@
+# Mi opinión sobre unos cuantos lenguajes de programación
+2015-08-14
+
+(sobre el TIOBE de Agosto 2015, básicamente).
+
+Java: junto con PHP, uno de los lenguajes más denostados del mundo. A diferencia de PHP, probablemente una de las mejores opciones disponibles para hacer software grande y complejo y no morir en el intento. Hay una escasez de lenguajes de tipado estático populares en el mundo y si no nos queremos ir a Microsoft, Java cuenta con un ecosistema brutal, da un rendimiento sobresaliente y se aprende fácilmente. Pero no es chachi.
+
+C: el lenguaje que todos adoramos hasta que lo tenemos que usar en serio. Afortunadamente es el siglo XXI y la mayoría de nosotros no tenemos que recurrir a él. Eso sí, le debemos todo y aunque ya no domina el mundo, sus descendientes han heredado el trono.
+
+C++: uno de esos lenguajes que siempre quiero aprender pero con el que nunca me pongo. El C++ auténtico se desliza entre la elegancia y potencia y el jeroglífico más ofuscado. Lamentablemente, no hay tiempo en esta vida para aprender todo lo que se necesita para programar bien en C++.
+
+C#: el Java mejorado de Microsoft. Pero aunque lo estén abriendo, para disfrutarlo plenamente aún cuesta dinero. Sí, sé que cuesta poco para lo que vale, pero habiendo opciones gratuitas, ¿por qué molestarse?
+
+Python: de los débilmente tipados, mi favorito. Un diseño bastante sencillo y ortogonal, alguna rareza por ahí pero en principio la mejor herramienta en muchas situaciones. Y si uno desarrolla web, el admin de Django es lo más disruptivo que existe en el terreno.
+
+Objective-C: hasta Apple ya se ha dado cuenta que debe morir.
+
+PHP: el horror. Cada característica de PHP cuenta con un problema fundamental, pero la gente insiste. Pero existe Wordpress, Magento y tantos CMSs que es inevitable caer en sus redes de cuando en cuando.
+
+VB.NET: C# con sintaxis de BASIC. No, gracias.
+
+JavaScript: el lenguaje más accidentalmente popular del mundo. En realidad no es tan malo (salvo los callbacks en callbacks de callbacks) pero tampoco es bueno, y mucho menos como para que se intente que conquiste el mundo.
+
+Perl: aguanta ahí, así como sus fieles. Excelente para ofuscar, confundir y compactar- aún no le he encontrado otra virtud.
+
+Ruby: el sucesor de Ruby. Tiene su propio estilo de ofuscación- la maleabilidad es como la etimología indica, mala.
+
+Haskell: posiblemente, el lenguaje más académico que es medianamente conocido y que goza de un buen ecosistema. Sus virtudes son incontestables, pero las profundidades teóricas en las que hay que sumergirse para entender sus conceptos más básicos es aterradora. La evaluación "perezosa" permite a su vez expresar algoritmos de maneras inimaginablemente elegantes pero hace que razonar sobre el tiempo y espacio de ejecución de un algoritmo sea doloroso.
+
+Bash: posiblemente el mejor lenguaje de propósito específico que existe. Lo que se puede conseguir con unos comandos y unos pipes en un par de líneas y el mejor REPL del mundo hace que sea la herramienta más rápida para un número no despreciable de problemas. Eso sí, el lenguaje que peor escala del mundo.
+
+SQL: el único lenguaje con un movimiento anti oficial. El modelo relacional es de momento el mejor sistema modelado que existe, las bases de datos relacionales de las plataformas más evolucionadas y eficientes del mundo y sin embargo... nadie quiere escribir SQL, todo el mundo prefiere escribir 10 veces más código en lenguajes menos apropiados para lo que necesitan.

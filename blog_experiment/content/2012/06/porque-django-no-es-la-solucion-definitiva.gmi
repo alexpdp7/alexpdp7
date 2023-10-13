@@ -1,0 +1,40 @@
+# Porqué Django no es La Solución Definitiva
+2012-06-02
+
+Hace tiempo ya explicaba por aquí las virtudes de Django[1]. En  resumen, se trata de un framework de desarrollo en web Python que implementa un interfaz de administración prácticamente automático a un esquema relacional. Vaya, que defines tus tablas y genera un interfaz dinámico para editar registros que te ahorra una barbaridad de tiempo (como podrá atestiguar cualquiera que haya tenido que hacerse uno).
+
+Tras llevar más tiempo trabajando con Django, sigo convencido que en estos momentos es la mejor solución que existe para desarrollo web basado en CRUD sobre bases de datos; el admin no tiene equivalente alguno que yo conozca, y desarrollarse un sistema similar es extremadamente costoso.
+
+Sin embargo, creo que he aislado unos cuantos defectos clave que hay que tener en cuenta antes de comenzar a usarlo.
+
+1. 
+
+Si usamos un esquema donde queramos que la edición de un registro tenga más de un nivel de indirección, el admin no soluciona esto. Pongamos por caso que tenemos una entidad "Empleado" , otra entidad "Proyecto" y una entidad intermedia que nos representa las asignaciones de Empleados a Proyectos (por ejemplo, en esta relación intermedia podríamos querer almacenar el tiempo durante el cual el Empleado está asignado al Proyecto, su porcentaje de dedicación a él, etc.). Podremos añadir un fantástico TabularInline que nos muestre las asignaciones de Empleados dentro de la vista de detalle de Proyecto, pero no hay manera de que se pueda editar el Empleado desde la vista detalle de Proyecto; podremos editar la relación intermedia (primer nivel de indirección), pero la segunda ya no.
+
+Esto nos limita bastante el interfaz sobre esquemas de datos moderadamente complejos que nos podemos encontrar fácilmente en el mundo real; cuando tengamos estos esquemas tendremos que...
+
+1. Hackear el admin como podamos para que nos permita hacer las ediciones
+2. Buscar a alguien que haya implementado algún plugin que nos añada en esto
+3. Ignorar el admin e implementarlo nosotros mismos
+4. Simplificar nuestro esquema
+
+Ninguna de las tres soluciones es mínimamente satisfactoria
+
+2. 
+
+El admin necesita más hipervínculos. En particular, la fantástica funcionalidad de los raw_id_fields, nos permite hacer que los campos clave foránea de nuestras entidades se puedan editar con un popup selector excelente, pero no nos permite saltar a la entidad enlazada. Una de las grandes virtudes de usabilidad de la web son los enlaces, y nos serían extremadamente útiles en más lugares del admin
+
+3. 
+
+Django no proporciona suficiente potencia en el SQL subyacente a su ORM. En particular, sería harto conveniente poder disponer de, o bien un inspectdb más potente que nos permita trabajar continuamente con él (añadir campo en nuestra base de datos y que inspectdb añada dinámicamente el campo al modelo), o un mecanismo para poder personalizar automatizadamente el esquema generado; esto principalmente nos debería permitir implementar una "estrategia" de nombrado de tablas y columnas que nos permita, por ejemplo, que los nombres de tablas sean plurales o cambiar el nombre de las claves primarias surrogadas que Django añade automáticamente.
+
+Si no nos gustan los esquemas que genera Django automáticamente (y no deberían gustarnos), las alternativas son o aguantarnos, o especificarle repetidamente los nombres de tablas y columnas que debe usar o hackear Django para que haga lo que queramos. Una vez más, esto no es del todo satisfactorio.
+
+4. 
+
+A un nivel más profundo, el código de Django no es muy amigable a la extensión. Es bastante complicado añadir funcionalidad derivando de las clases de Django; el código no siempre es fácil de seguir (ya que usa bastantes metaclases y otras pythonicidades de las que no soy muy fan) ni tiene un diseño orientado a objetos muy elaborado- se echa en falta que ciertas funcionalidades estén, como mínimo, aisladas en un propio método que podamos sobreescribir para cambiarlas (o utilizar el patrón estrategia, idealmente). Siempre nos queda la opción de forkear, pero esto no es muy mantenible, o hacer monkey-patching, lo que tampoco es muy recomendable ni mantenible.
+
+Pese a todos estos puntos, sigo pensando que el admin de Django es realmente algo único que nos puede ahorrar muchísimo trabajo y proporcionar un resultado de gran calidad para muchos, muchísimos proyectos. Pero aún es mejorable- y con unas pocas mejoras localizadas podría mejorar muchísimo.
+
+
+=> gemini://alex.corcoles.net/2011/01/django-o-la-fabrica-de-churros/ 1: gemini://alex.corcoles.net/2011/01/django-o-la-fabrica-de-churros/

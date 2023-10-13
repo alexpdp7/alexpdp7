@@ -1,0 +1,63 @@
+# El mito de la escalabilidad
+2011-10-22
+
+Hace mucho mucho tiempo, en una galaxia muy muy lejana, existía una web de noticias informáticas llamada Slashdot[1]. Por motivos oscuros, Slashdot creció brutalmente en popularidad y por tanto, cada vez que aparecía una noticia en portada de Slashdot enlazando a una web, una cantidad elevada de personas hacía click en la noticia, dirigiendo a ésta ingentes cantidades de tráfico. En los inicios de Internet, no muchas webs estaban suficientemente bien preparadas para soportar carga como Slashdot, y por tanto este tráfico tendía a colapsar los sistemas que recibían enlaces de Slashdot- este efecto fue denominado "Slashdot Effect[2]".
+
+Avanzando un poco hacia el presente, el tráfico de internet se ha multiplicado. De los 70 millones de usuarios de Internet en el 97 (nacimiento de Slashdot), hemos pasado a los 2110 millones de usuarios actuales (fuente[3]); es decir, se ha multiplicado por 30 el número de usuarios, y muy probablemente, el uso de cada usuario de Internet también se ha intensificado- cada vez dedicamos más tiempo y hacemos más cosas en Internet.
+
+Hoy en día, sitios como Facebook presumen[4] de tener 400 millones de usuarios entrando cada día en sus servicios (¡5 veces el número de usuarios de toda Internet en el 97!) y se suben unos 250 millones de fotos diarias. En Twitter, coincidiendo con hechos como la muerte de Osama Bin Laden, llegan a escribirse más de 12 millones de tuits en una hora[5].
+
+Así pues, si en el 97 el volumen de uso podía ya suponer un problema para los servicios de Internet, con el enorme crecimiento de la red, ¿se acrecentan estos problemas?
+
+Sin duda alguna. A pesar de que la potencia de los ordenadores se ha acrecentado, esta no ha parecido contrarrestar el hecho de que cada vez queremos más datos, más rápidos y más inmediatos de la red. El mencionado Twitter ha sufrido a lo largo de su carrera para poder soportar el uso que se le da; su Fail Whale[6] ha sido enormemente popular y aún hoy se deja ver de cuando en cuando.
+
+¿Por qué es "difícil" tratar este problema?
+
+Comencemos por lo más básico. Un servidor normalito que podemos adquirir, si sabemos buscar, por 50€/mes, puede servir sin muchos problemas y sin grandes esfuerzos, unas 50 peticiones por segundo de una página dinámica sencilla que muestra información almacenada en una base de datos. Esto equivale a servir 4.320.000 peticiones en un día. Supongamos que cada usuario se pasa unos 10 minutos diarios en la página, y hace una petición nueva cada 10 segundos; eso son unas 60 peticiones. El servidor anterior podría atender a unos 72.000 usuarios/diarios, pudiendo llegar a atender a 3000 usuarios/hora.
+
+Estas cifras parecen respetables, y la buena noticia es que adquiriendo servidores más caros, obtenemos una mejor relación precio/peticiones/s, con lo que podemos fácilmente soportar más carga de este tipo simplemente echando un poco de dinero al problema.
+
+Lógicamente, nunca podríamos llegar a soportar una carga brutal- del orden de magnitud de Facebook, o incluso mucho menos buscando servidores más caros- no existen servidores de tal potencia. Pero seguimos teniendo opciones sencillas. Si en vez de coger un servidor, cogemos más de uno y copiamos toda la base de datos y todo el sistema en estos servidores, las carga se puede repartir en ellos prácticamente a la perfección; si compramos 7 servidores, multiplicaremos las peticiones que podemos atender casi por 7.
+
+Jugando con servidores más o menos costosos y en mayor o menor cantidad de ellos, podemos atender "tantas peticiones como queramos", a un coste usualmente bastante razonable.
+
+Adicionalmente, la mayor parte de "mostrar información almacenada" en la red hoy en día tiene una característica- es enormemente repetitiva; la página principal de un diario puede necesitar mostrarse a millones de usuarios, pero es esencialmente la misma para todos- así que por muy costoso que sea recuperar y formatear la información, es un trabajo que sólo tenemos que hacer la primera vez- luego podemos guardarnos el trabajo realizado y simplemente copiarlo para el resto de peticiones subsiguientes.
+
+Pero el problema es que no todo es mostrar información almacenada. El problema realmente duro es almacenar información.
+
+El primer problema es que nos surge es la persistencia. Normalmente querremos que la información que se guarde en nuestra web sea persistente; es decir, que no desaparezca. Eso nos obliga para cada escritura a realizar el trabajo duro, registrar esta información en un disco duro o un SSD. Esto es algo que no nos podemos ahorrar de ninguna manera y que de hecho, como veremos ahora, constituye un verdadero límite doloroso al rendimiento que podemos ofrecer.
+
+Un sistema básico puede perfectamente realizar 1500 transacciones de escritura por segundo. Como en el caso de las lecturas, simplemente gastándonos dinero podemos ampliar este número muy fácilmente.
+
+El problema, es que una vez alcanzado el límite del sistema, aplicar el mismo truco que antes (poner dos servidores en vez de uno)... no funciona excesivamente bien.
+
+En el caso de las lecturas, asumíamos que podíamos replicarlo todo a todos los servidores para que cualquiera de ellos pueda atender cualquier petición. Esto nos lleva a que cada escritura que realicemos se tendrá que replicar a todos los servidores, con lo que... ¡no ganamos nada! Como cada escritura tiene que "pagarse" en todos los servidores, nuestra velocidad de escritura haciendo esto nunca aumentará.
+
+Así pues, un replicado simple y obvio nos permite escalar la velocidad de lectura, pero no la de escritura. Si nos topamos con nuestro límite de velocidad de escritura... ¿cómo lo superaremos?
+
+Hay varias alternativas.
+
+Una bastante obvia es no replicar las escrituras a todos los servidores. Eso hará que cada servidor pueda escribir independientemente, con lo que combinaremos la velocidad de escritura de todos los servidores y aumentaremos nuestro rendimiento. Pero obviamente, no todos los datos estarán escritos en todos los servidores, y por tanto no podremos usar la estrategia para acelerar lecturas que comentábamos antes.
+
+Lo que podemos hacer entonces es, en vez de repartir todas las peticiones entre todos los servidores, las repartiremos de otra manera, "particionando" la información. Por ejemplo, pondremos a los usuarios de cada país en un servidor diferente. Esto obviamente nos incrementará el rendimiento, siempre y cuando podamos hallar una partición adecuada.
+
+El problema es que muchas veces, esto no es posible. Todos los usuarios de Twitter quieren acceder a los tuits de cualquier usuario, los usuarios están conectados entre sí de maneras arbitrarias, de manera que es imposible particionarlos de ninguna manera.
+
+Cuando nos hallamos en esta situación, tenemos un problema, obviamente. La solución menos costosa es sacrificar la calidad de nuestros datos. Escribamos los datos a no todos los servidores, y repliquémoslo al resto "cuando podamos". Aceptemos que algún servidor tendrá información desactualizada (pero que al menos podremos dar un servicio más o menos potable, pero rápido)... hagamos aproximaciones y aceptemos no dar datos 100% correctos e incluso aceptemos que algún dato puede perderse.
+
+Lógicamente, esto no es factible de aplicar para cosas que requieran exactitud, como compras y pagos y cosas de este tipo... ¿pero para tuits y mensajes en Facebook? Pues probablemente sí.
+
+En esto se fundamentan los sistemas NoSQL que prometen escalabilidad barata- una de las cosas en las que se fundamentan es en no proteger los datos con la paranoia habitual- hecho que debemos aceptar como sacrificio cuando los usamos como atajo a la escalabilidad.
+
+En conclusión- escalar un sistema tiene un coste razonable para las cargas de consultas y visualización de información... los sistemas cuyo punto crítico sea este se pueden escalar mucho de una manera relativamente económica. En cambio, los sistemas cuyo cuello de botella sea la escritura son mucho más complicados de escalar adecuadamente- y uno de los costes que podemos pagar es el de la integridad de esos datos.
+
+actualizado con los comentarios de mi editor habitual[7]
+
+
+=> http://en.wikipedia.org/wiki/Slashdot 1: http://en.wikipedia.org/wiki/Slashdot
+=> http://en.wikipedia.org/wiki/Slashdot_effect 2: http://en.wikipedia.org/wiki/Slashdot_effect
+=> http://www.internetworldstats.com/emarketing.htm 3: http://www.internetworldstats.com/emarketing.htm
+=> https://www.facebook.com/press/info.php?statistics 4: https://www.facebook.com/press/info.php?statistics
+=> http://mashable.com/2011/05/02/bin-laden-death-twitter/ 5: http://mashable.com/2011/05/02/bin-laden-death-twitter/
+=> http://en.wikipedia.org/wiki/Twitter#Outages 6: http://en.wikipedia.org/wiki/Twitter#Outages
+=> http://obm.corcoles.net/ 7: http://obm.corcoles.net/

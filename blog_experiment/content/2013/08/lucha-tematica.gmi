@@ -1,0 +1,25 @@
+# Lucha temática
+2013-08-07
+
+Esto de tener una base de datos con la programación televisiva (desde diciembre de 2011), lleva a uno preguntarse cosas como "¿repiten mucho las pelis en los canales temáticos de cine?". Pues...
+
+De 3232 emisiones de películas de Paramount, las 10 más emitidas son:
+
+```html
+<table border="0" cellspacing="0"><colgroup width="356"></colgroup><colgroup width="73"></colgroup><tbody><tr><td align="LEFT" height="18">Película</td><td align="LEFT">Emisiones</td></tr><tr><td align="LEFT" height="16">1. Shiner</td><td align="RIGHT">22</td></tr><tr><td align="LEFT" height="16">El cuarto ángel</td><td align="RIGHT">22</td></tr><tr><td align="LEFT" height="16">El gran azul</td><td align="RIGHT">22</td></tr><tr><td align="LEFT" height="16">4. Funeral en Berlín</td><td align="RIGHT">19</td></tr><tr><td align="LEFT" height="16">Desmembrados</td><td align="RIGHT">19</td></tr><tr><td align="LEFT" height="16">El principito</td><td align="RIGHT">19</td></tr><tr><td align="LEFT" height="16">7. Alfie</td><td align="RIGHT">18</td></tr><tr><td align="LEFT" height="16">Hasta que llegó su hora</td><td align="RIGHT">18</td></tr><tr><td align="LEFT" height="16">La versión Browning</td><td align="RIGHT">18</td></tr><tr><td align="LEFT" height="16">10. Contacto sangriento</td><td align="RIGHT">16</td></tr></tbody></table>
+```
+
+En total se han emitido 699 películas diferentes. El 10% de las emisiones son de sólo 20 películas diferentes, y sólo hay 128 películas que no hayan repetido.
+
+En cambio en laSexta3 se han hecho 3989 emisiones, el top 10 es:
+
+```html
+<table border="0" cellspacing="0"><colgroup width="481"></colgroup><colgroup width="82"></colgroup><tbody><tr><td align="LEFT" height="18">Película</td><td align="LEFT">Emisiones</td></tr><tr><td align="LEFT" height="18">1. Ace Ventura: Operación África</td><td align="RIGHT">24</td></tr><tr><td align="LEFT" height="18">Ace Ventura, un detective diferente</td><td align="RIGHT">24</td></tr><tr><td align="LEFT" height="16">3. Ring Ring</td><td align="RIGHT">15</td></tr><tr><td align="LEFT" height="18">Atrapada en el hielo</td><td align="RIGHT">15</td></tr><tr><td align="LEFT" height="18">5. Nacida para triunfar</td><td align="RIGHT">14</td></tr><tr><td align="LEFT" height="16">6. Big box</td><td align="RIGHT">13</td></tr><tr><td align="LEFT" height="18">Famoso y seductor</td><td align="RIGHT">13</td></tr><tr><td align="LEFT" height="18">8. Corazones robados</td><td align="RIGHT">12</td></tr><tr><td align="LEFT" height="18">9. Una mujer en la liga</td><td align="RIGHT">11</td></tr><tr><td align="LEFT" height="18">El último golpe</td><td align="RIGHT">11</td></tr></tbody></table>
+```
+
+, con 1458 películas diferentes; el 10% de emisiones lo copan 46 películas y hay 461 pelis no repetidas.
+
+Excel completo, aquí[1].
+
+
+=> https://docs.google.com/spreadsheet/ccc?key=0Atd_0Z9UHnqJdGh6WXBXbnVNTVJnTm9OTVBzRjVfaWc&amp;usp=sharing 1: https://docs.google.com/spreadsheet/ccc?key=0Atd_0Z9UHnqJdGh6WXBXbnVNTVJnTm9OTVBzRjVfaWc&amp;usp=sharing

@@ -1,0 +1,26 @@
+# Unos apuntes rápidos sobre Vagrant
+2013-02-20
+
+En las últimas semanas he estado jugando bastante con Vagrant[1]. Se trata de una herramienta para automatizar el uso de VirtualBox (de momento).
+
+Básicamente, uno define en un Vagrantfile un conjunto de máquinas virtuales, basándose en unas máquinas virtuales plantilla (boxes, en su terminología), especificando los parámetros de virtualización (configuración de red, principalmente) y un mecanismo de provisionado (soporta Puppet y Chef, pero también podemos usar scripts de shell de toda la vida, por ejemplo).
+
+Hacer boxes nuevos es bastante sencillo (básicamente, hay que usar unos usuarios y contraseñas establecidos, instalar las Guest Additions de VirtualBox y poco más), si bien un poco laborioso, aunque existen repositorios como www.vagrantbox.es[2] que tienen bastantes boxes listos para descargar.
+
+Con los boxes y el Vagrantfile, podemos arrancar rápidamente templates de, pongamos, Centos 6.3 con la red configurada y una carpeta compartida con el host (por defecto, la carpeta donde está el Vagrantfile se ve como /vagrant en la máquina virtual), algo que realmente no ahorra muchísimo tiempo respecto a hacerlo con VirtualBox desde cero, pero que es más conveniente.
+
+Mediante el provisionado o el uso de boxes "tuneados", podemos resolver bastante bien el típico problema de montar entornos de desarrollo en proyectos complejos. Podemos empaquetar un entorno ya configurado como box o box + script de provisionado, junto con un Vagrantfile que se puede editar fácilmente para adaptarlo a la máquina de cada desarrollador en concreto, con el que levantar la máquina ya configurada será cuestión de minutos, cuando anteriormente podían ser horas o llevarnos a la tentación de tener entornos de desarrollo más sencillos y menos parecidos que el de producción.
+
+Pero yo el uso que le veo más interesante es para la administración de sistemas, pues nos permite adoptar un modelo bastante parecido al de desarrollo de software con test unitario. Podemos "desarrollar" nuestros sistemas como Vagrantfiles + scripts de provisionado; idóneamente con esto deberíamos conseguir levantar el sistema desarrollado completamente automatizadamente. Si conseguimos esto, el Vagrantfile y el script de provisionado es una documentación "perfecta" de lo que es el servidor; recoge al detalle cómo se configura todo e incluso podemos ejecutar el provisionado en el sistema "de producción" y asegurarnos entonces que disponemos de una máquina virtual y un sistema de producción idénticos. Tras tener esto, podemos hacer todas las pruebas que queramos en el entorno virtual, como instalar actualizaciones, probar cambios de configuración, sustituir programas... y las podemos probar simplemente destruyendo el entorno y recreándolo a partir del Vagrantfile y el provisionado. Podemos hacer pruebas una y otra vez de scripts para actualizar la configuración en el entorno virtual y luego lanzarlas en producción con un gran nivel de seguridad.
+
+Lo único que le faltaría sería soportar algún mecanismo de verificación automático, pero es un detalle pequeño.
+
+Aún así, Vagrant no es perfecto. Al parecer, ahora mismo sólo soporta VirtualBox (en teoría están trabajando en abstraer el código que trata con el sistema de virtualización, pero no queda claro su status); sería fantástico que se integrase con sistemas de virtualización más "de servidor" como VSphere o KVM, para poder pasar los sistemas montados con Vagrant a producción más automatizadamente (y poderlos probar sobre el hipervisor "final"). También echaría de menos un mecanismo para automatizar la actualización de boxes (e.g. hacer un yum update periódicamente a los box y que se reempaquetase, de manera que estuviesen siempre al día).
+
+También cabe argumentar que realmente Vagrant es una capa muy fina sobre VirtualBox, y que se podría conseguir algo similar mediante las herramientas de línea de comandos de VirtualBox, pero aún así considero que más allá del detalle técnico, los desarrolladores de Vagrant han conseguido una herramienta muy *usable* y que resulta atractiva... algo que muchas veces es un gran factor a la hora de adoptar una herramienta nueva que te permite hacer cosas de una manera nueva.
+
+En definitiva, ánimo a que probéis Vagrant, tanto para desarrollo como para administración de sistemas. Seguramente para lo segundo no aporte demasiado en entornos "serios", pero para el "aficionado" puede ser muy interesante.
+
+
+=> http://www.vagrantup.com/ 1: http://www.vagrantup.com/
+=> http://www.vagrantbox.es/ 2: http://www.vagrantbox.es/

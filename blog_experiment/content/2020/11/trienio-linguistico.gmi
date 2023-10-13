@@ -1,0 +1,18 @@
+# Trienio lingüístico
+2020-11-01
+
+Veo que hace tiempo de la última vez que hablé sobre lenguajes de programación[1]. Unas notas desde entonces:
+
+Aunque el TIOBE (hablo del TIOBE porque es popular. Ningún índice es perfecto. Puede que el TIOBE sea el peor de todos, pero da un poco igual) no ha variado mucho en este tiempo, hay unas cuantas cosillas de las que podemos hablar.
+
+Objective C ha caído desde el #5 hasta el #18, y su sucesor Swift está en el #16. Curioso. Swift parece un lenguaje harto interesante, pero como C#, me genera algo de desconfianza por estar ligado a un entorno muy concreto.
+
+Go va subiendo. Es curioso que de los dos lenguajes impulsados por Google, el que me disgusta (Go y su terquedad en ignorar las últimas décadas de historia de la informática) se ha disparado y el que me gusta (Dart) no arranca ni a la de tres. Entiendo la popularidad de Go como lenguaje de tipado estático que permite generar binarios enlazados estáticamente con compilación cruzada amigable y además con recolector de basura; mientras Graal no coja impulso o Microsoft saque algo para .NET (que la última vez que miré no tenía nada usable) no tiene competencia en ese ámbito... Pero debería ser un nicho menos popular. Apuesto porque en muchos casos es el lenguaje para los que necesitan Java (tipado estático, recolector de basura y rendimiento) pero que están dispuestos a autoinfligirse dolor para no tener que usar Java.
+
+Lamentablemente creo que la popularidad de Go va en detrimento de un lenguaje que me pirra como es Rust. Rust nos trae innovaciones académicas a un lenguaje **sin** recolector de basura que también hace binarios fácilmente desplegables. Una maravilla que debería ir comiéndole el terreno a C/C++, los dos lenguajes sin recolector de basura más populares- es mucho más fácil y agradable escribir Rust fiable donde uno antes escribiría C o C++. Lamentablemente ese no es mi ámbito habitual, con lo que tengo que buscarme excusas cada vez más raras para deleitarme con él. Porque no veo claro que Rust pueda comerle terreno a lenguajes con recolección de basura; sí, tiene cosas que muchos de ellos no tienen, pero también tiene el quebradero de cabeza de preocuparse de satisfacer al borrow checker. Yo no apostaría por Rust donde podría usar Java, por ejemplo.
+
+Por último, Kotlin aún anda por el #33- algo pobre para el lenguaje de moda que Google también ha decidido impulsar como primer lenguaje para hacer aplicaciones sobre Android (offtopic: Fuchsia Programming Language Policy[2]). Quizá que Swift se quede por el #16 quiere decir algo sobre Android e iOS. A mí me sigue pareciendo un bonito lenguaje alternativo a Java (aunque a parte de la JVM, también compila a JS/WASM y nativo mediante LLVM) que además quizá está motivando muchas de las mejoras que Oracle está metiendo (con gran acierto, en mi opinión) a marchas forzadas a Java últimamente. Pero yo sigo sin verlo reemplazando a Java fuera de Android (como Scala, Ceylon, etc.).
+
+
+=> gemini://alex.corcoles.net/2015/08/mi-opinion-sobre-unos-cuantos-lenguajes-de-programacion/ 1: gemini://alex.corcoles.net/2015/08/mi-opinion-sobre-unos-cuantos-lenguajes-de-programacion/
+=> https://fuchsia.dev/fuchsia-src/contribute/governance/policy/programming_languages 2: https://fuchsia.dev/fuchsia-src/contribute/governance/policy/programming_languages

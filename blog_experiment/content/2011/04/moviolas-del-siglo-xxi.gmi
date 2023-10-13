@@ -1,0 +1,8 @@
+# Moviolas del siglo XXI
+2011-04-18
+
+Me pasan este acojonante reproductor de grandes premios[1]. No sólo es un gran ejemplo de visualización de datos (curioso, me pedí el Tufte[2] ayer), ni tampoco un gran ejemplo de lo que se puede hacer con eso de los estándares web, sino además un excelente recurso para enterarse a posteriori de lo que ha pasado en un GP.
+
+
+=> http://especiales.lainformacion.com/deportes/simulador-f1/?c=china 1: http://especiales.lainformacion.com/deportes/simulador-f1/?c=china
+=> http://www.amazon.co.uk/gp/product/0961392142 2: http://www.amazon.co.uk/gp/product/0961392142

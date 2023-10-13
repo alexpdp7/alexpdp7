@@ -1,0 +1,32 @@
+# Sistemas oxidados
+2020-08-11
+
+Dentro de mi complicado impulso por aprender Rust, estas navidades pensé que disponer de un sistema físico de potencia limitada me ayudaría a tener una excusa para no programar en mis lenguajes habituales.
+
+O esa fue mi excusa para pedirme por navidades una Retro Game 300[1], un simpático cacharrito en la categoría "emuladores pirata". Se trata de una consola portátil con un formato similar a la clásica Game Boy de dudosa procedencia (lleva un procesador JZ4760B de arquitectura MIPS que salió hace una década y, aparentemente, una pantalla destinada a cámaras fotográficas baratas. A saber quién encontró alijos de esos componentes y decidió fabricar una consola portátil).
+
+Existe un ecosistema razonablemente boyante de este tipo de dispositivos a los que se portan una buena variedad de emuladores de sistemas de videojuegos antiguos que, si uno disfruta de una cierta ambigüedad moral o una buena excusa, nos permite gozar de un amplio catálogo de juegos de otras eras de una manera relativamente sencilla (o al menos, más sencilla que hacerlo por las buenas).
+
+La RG300 cuenta con una pantalla 4:3 de 320x480 (en general mostrando 320x240 doblados), un D-Pad, cuatro botones redondos estilo Nintendo (A, B, X e Y), dos gatillos, botones de Select y Start, dos botones adicionales, conmutador de encendido y ruedecilla de volumen. Monta una batería BP-5L (es decir, la que llevaban los móviles Nokia clásicos) y cuenta con dos ranuras de MicroSD; una debajo de la batería y una en un lateral, fácilmente accesible.
+
+La mencionada CPU MIPS cuenta con unos 128Mb de RAM que pese a ser varias órdenes de magnitud menos de lo que cuenta cualquier móvil de gama baja de hoy en día, es a la vez suficiente para los sistemas antiguos que emula e insuficiente como para ejecutar software "normal" (con lo que cumple el propósito de separarnos de lenguajes como Python o Java y atraernos hacia C/C++ o Rust).
+
+Al menos la que recibí venía con una MicroSD con la típica colección de emuladores y videojuegos inacabable, pero tampoco infinita. Traía también una versión antigua de RetroFW[2], una distribución de Linux enfocada a esta familia de dispositivos.
+
+Es razonablemente simple (y poco arriesgado- siempre podemos formatear la MicroSD interna y empezar de nuevo) actualizar a una versión más moderna de RetroFW con alguna mejora importante de calidad de vida (como por ejemplo poder transferir ficheros por FTP mediante una conexión de red USB), meter más emuladores y ROMs y demás. También existen bastantes ports de todos esos juegos con código fuente que andan por ahí (el catálogo antiguo de Id Software, por ejemplo). La web de RetroFW incluye un completo listado del software disponible[3].
+
+La experiencia jugando suele ser buena. La pantalla es de buena calidad y los controles (más allá de que el que escribe prefiere los joystick de bola tipo arcade a los D-Pad) son más que decentes- para los juegos que se adaptan al esquema de control- que deberían ser todos los sistemas anteriores al DualShock. Quizá el formato Game Boy no es el más ergonómico, pero personalmente me parece más entrañable que el formato PS Vita de otros modelos de la familia.
+
+Si queremos usar la consola para desarrollar, la historia cambia un poco. Al no usar un procesador de la familia x86, la dificultad sube un poco al tener que hacer compilación cruzada. RetroFW es una distribución de Linux basada en Buildroot[4], que resuelve bastante bien el tema de la compilación cruzada, pero que requiere de cierto tiempo para hacerlo funcionar (es sencillo, pero hay que compilar bastante con el tiempo que ello conlleva) y que no es tan simple como otras plataformas de desarrollo. Además, RetroFW en la RG300 sólo soporta el framebuffer Linux... así que básicamente la única librería gráfica de alto nivel que podemos usar es SDL **1**, pasada de moda hace una eternidad.
+
+Específicamente para Rust es aún más problemático; la versión de Rust que incluye Buildroot es algo antigua y conseguir una más moderna no es trivial. Además, Rust retiró el soporte para la versión específica de MIPS que lleva la RG300, con lo que hay que parchear. Súmese a esto tener que usar librerías no muy populares, como los bindings a Rust de SDL 1 o de libao. Sin embargo, se puede (he colgado unas instrucciones que deberían ser completas en https://github.com/alexpdp7/retrofw2-rust[5][6]), aunque quizá sea posible encontrar alternativas mejores, como algo basado en ARM (que suele estar mejor soportado)... aunque quizá no en estos precios.
+
+Pero el mayor factor a la hora de evaluar la RG300 es su precio. A 50 euros (precio probablemente debido en gran medida a la exótica combinación de hardware de pocas prestaciones) es difícil arrepentirse de su compra, a pesar de los numerosos defectos y limitaciones que hemos apuntado, y muy probablemente resultará una inversión la mar de rentable en entretenimiento proporcionado.
+
+
+=> https://retrogame300.com/products/retro-game-300 1: https://retrogame300.com/products/retro-game-300
+=> https://retrofw.github.io/ 2: https://retrofw.github.io/
+=> https://github.com/retrofw/retrofw.github.io/wiki/Emulators-and-Apps 3: https://github.com/retrofw/retrofw.github.io/wiki/Emulators-and-Apps
+=> https://buildroot.org/ 4: https://buildroot.org/
+=> https://github.com/alexpdp7/retrofw2-rust 5: https://github.com/alexpdp7/retrofw2-rust
+=> https://github.com/alexpdp7/retrofw2-rust 6: https://github.com/alexpdp7/retrofw2-rust

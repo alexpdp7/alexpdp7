@@ -1,0 +1,33 @@
+# HDMI-CEC, algunas cosas que se enchufan a la tele y complementos
+2017-06-25
+
+He estado remozando mi montaje de cosas conectadas a la tele y quería aprovechar para recoger unos cuantos pensamientos sobre el tema.
+
+Uno, destacar ese gran desconocido que es el HDMI-CEC (que cada fabricante renombra, no sea que la gente se pueda entender lo práctico que es). Es un protocolo de señalización sobre el cable HDMI que permite cosas como que el mando a distancia conectado al televisor pueda controlar otros dispositivos conectados al televisor (como una Playstation o una Raspberry Pi) o que dispositivos conectados al televisor puedan encender el televisor cuando se activan (como un Chromecast que al recibir un vídeo de un móvil puede conectar el televisor y saltar a su canal). Sin demasiados problemas, permite reducir el uso de mandos a distancia y aumentar la comodidad de ciertos dispositivos.
+
+Mi televisor ahora mismo tiene conectados:
+
+* Una PS3 (mentira, porque no tengo entradas suficientes, pero bueno), que desgraciadamente es el único dispositivo que tengo para reproducir Movistar+ en la TV (a ver si algún día se ponen y le añaden Chromecast, por dios). El mando de la PS3 permite encender la tele y, curiosamente, se puede controlar la PS3 con el mando de la tele sin muchos problemas (obviamente no para jugar pero sí para usar aplicaciones de streaming).
+
+
+* Un Steam Link[1] con Steam Controller[2]; el Steam Link es un curioso aparato, que por 30€ (muy rebajado, ojo a los costes de envío) permite jugar a los juegos del PC en la TV en streaming. Lo complemento con el Steam Controller (40€ muy rebajado), que es un curioso mando que dispone de 1 stick analógico (no 2) y los típicos botones "Playstation", pero también dos touchpads y dos paletillas en la parte trasera del mando que permiten esquemas de control bastante curiosos, que permiten una personalización brutal que hace que hasta se pueda jugar a juegos de ratón/teclado con el mando bastante decentemente- aunque no tan bien como se controlan en el PC y cabe decir que para juegos pensados para mando es peor que un mando de consola tipo el de la PS3.
+
+Cabe decir que este hardware de Steam me ha dejado bastante boquiabierto, por su audacia y por lo bien pensado que está; son muy muy fáciles de hacer funcionar, de momento no les he encontrado ningún problema de usabilidad y hasta tienen un par de sorpresas ocultas (se puede añadir un mando de PS3 al Steam Link en un periquete y funciona casi perfectamente, y por supuesto, soporta HDMI-CEC).
+
+
+* Una Raspberry Pi 3 con LibreElec[3]. Si bien es un desperdicio, ya que el propósito de la Raspberry Pi es trastear, hay que admitir que es un dispositivo de streaming para el televisor ideal; no sólo es muy barata sino que soporta HDMI-CEC, a diferencia de la mayoría de PCs (hay accesorios para añadir soporte a los PC, pero es un poco oscuro), con lo que no hace falta un mando adicional. Yo además le he enchufado un sintonizador de DVB-T, que con TVHeadEnd permite ver y grabar la tele (aunque de momento, no permite hacer timeshifting). LibreElec lo hace todo trivial de montar y aunque tengo algún problemilla (se me queda colgado/apagado con frecuencia y a menudo al intentar usarlo tengo que desconectarlo y volverlo a conectar), es perfecto para reproducir vídeos de un PC y además, su funcionalidad de TV es mucho mejor que la de mi televisor
+
+
+* Y un Chromecast, otro dispositivo baratillo que además fue el que me descubrió el mundo del HDMI-CEC. Para los que no lo conozcan, es un aparato la mar de ingenioso que sólo funciona controlado por un móvil o PC; nos permite traspasar un vídeo que estemos viendo en el móvil (como una peli de Netflix) al televisor de una manera casi transparente (la tele se enciende y cambia a la entrada del Chromecast y vemos el vídeo en un santiamén. Además, podemos pausar y demás desde cualquier móvil/PC conectado al Chromecast).
+
+
+
+Todo esto aderezado con una regleta que encontré en Amazon con 8 tomas de corriente y 5 USB[4], que me permite alimentar el Chromecast y la Raspberry por USB sin un cargador adicional, a parte de cargar los mandos de la Play y demás de una manera muy práctica.
+
+El único problema es que tengo cuatro dispositivos HDMI y mi televisor sólo tiene 3 entradas, con lo que ahora mismo el montaje me cojea un poco (tengo sin conectar la PS3 que es lo único que reproduce Movistar+), pero todo se andará.
+
+
+=> http://store.steampowered.com/app/353380/Steam_Link/ 1: http://store.steampowered.com/app/353380/Steam_Link/
+=> http://store.steampowered.com/app/353370/Steam_Controller/ 2: http://store.steampowered.com/app/353370/Steam_Controller/
+=> https://libreelec.tv/ 3: https://libreelec.tv/
+=> https://www.amazon.es/gp/product/B01E4X7CKY/ 4: https://www.amazon.es/gp/product/B01E4X7CKY/

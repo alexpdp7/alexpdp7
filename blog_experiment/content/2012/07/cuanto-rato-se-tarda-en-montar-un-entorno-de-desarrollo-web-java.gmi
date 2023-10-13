@@ -1,0 +1,31 @@
+# ¿Cuánto rato se tarda en montar un entorno de desarrollo web Java?
+2012-07-07
+
+Una de las quejas más comunes sobre desarrollar en Java es lo complejo que resulta montarse el entorno de desarrollo. Ciertamente, la situación hace años era un poco rollo; grandes descargas del JDK perdido entre las tinieblas, Eclipse por piezas difícil de instalar...
+
+¿Cuál es la situación actual? ¿Sigue siendo tan complejo? ¿Los anchos de banda más anchos de hoy en día ayudan?
+
+Para el propósito de este ejercicio, cogeré un Windows sin nada instalado e instalaré todo lo necesario para poder desarrollar un servlet "Hola, Mundo", con Eclipse (el entorno de desarrollo gráfico gratuito para Java más común).
+
+Los pasos que deberemos realizar son los siguientes
+
+1. Ir a la página de Oracle, Downloads, Popular Downloads, Java for Developers, JDK, Aceptar la licencia y escoger la versión adecuada (en mi caso Windows x64)... 1 minuto
+2. Descargar los 92mb... 7 minutos
+3. Ejecutar el instalador... 3 minutos (+2 minutos de JavaFX que instala por defecto)
+4. Ir a la página de Eclipse, Download Eclipse, Eclipse IDE for Java EE Developers, escoger la versión adecuada (Windows 64 bits)... 1 minuto
+5. Descargar los 221mb... 16 minutos
+6. Abrir el .zip y extraerlo (en mi caso, a mi carpeta de usuario c:\users\alex, creándose una carpeta dentro c:\users\alex\eclipse)... 4 minutos
+7. Arrancar Eclipse (en mi caso c:\users\alex\eclipse\eclipse.exe), escoger la ubicación por defecto del workspace (y marcar que no vuelva a preguntar), crear un "dynamic web project", escoger crear un nuevo runtime de Tomcat 7.0 (y darle una ruta, se lo baja y lo instala [unos 8mb]), decirle que nos genere un web.xml, hacer un click con el botón derecho y sobre la sección de servlets y decirle que nos cree uno, todo por defecto, implementar el método doGet haciendo un response.getOutputStream().print("Hello world");, hacer click derecho en el proyecto,  run as, run on server, hacer que corra en el Tomcat 7 que hemos creado anteriormente, editar la URL del navegador que se nos abra para que se corresponda a la ruta donde hemos mapeado el servlet y cargarlo ... todo unos 7 minutos
+
+En total, unos 40 minutos de los que unos 25 son unos 320mb de descargas. Lógicamente con una conexión más rápida (tengo una de 3 megabits) y sin la virtualización, que obviamente penaliza el rendimiento, podría reducirse un poco.
+
+A destacar que el proceso tradicionalmente más complejo, instalar el Tomcat y configurarlo para que se pueda usar desde el Eclipse, ha sido simplificado por la gente de Eclipse haciendo que instalarlo y autoconfigurarlo directamente al crear un proyecto sea bastante sencillo (el interfaz no es 100% intuitivo y me ha costado un pelín entenderlo, pero bueno).
+
+Por supuesto, este es un proceso mínimo usable; yo preferiría añadirle:
+
+* Instalación de egit, que sorprendentemente en la versión Java EE de Eclipse no viene cuando otras variantes de Eclipse lo traen por defecto (4 minutos de instalación desde Eclipse Marketplace, incluyendo un reinicio)
+* Instalación de m2eclipse y su plugin para WTP, que nos permite configurar proyectos usando Maven, un sistema bastante estándar de gestión de dependencias (6 minutos de instalación desde Eclipse Marketplace, con otro reinicio)
+
+, y por supuesto, que esto nos instala un sistema de desarrollo "pelado" sin framework, cuando lo recomendable es no desarrollar servlets "a pelo" si no usar algún framework como Spring. Pero esto lo trataremos en otra entrega...
+
+O sea, que podemos montar un entorno de desarrollo, con servidor de aplicaciones y entorno gráfico integrado en menos de una hora. ¿Es mucho, poco? ¿Cuánto se tarda con otras plataformas de desarrollo? ¿Es realmente un factor que eche para atrás de desarrollar con Java? ¿O son otros factores?

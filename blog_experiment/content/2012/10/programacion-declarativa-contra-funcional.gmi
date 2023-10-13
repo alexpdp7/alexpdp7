@@ -1,0 +1,29 @@
+# Programación declarativa contra funcional
+2012-10-06
+
+Creo que la gran parte de programadores han dado sus primeros pasos con la programación imperativa tradicional. En esta, se utilizan lenguajes de programación que reflejan más o menos directamente el funcionamiento de los ordenadores típicos; instrucciones ejecutadas secuencialmente con variables que vamos modificando y control de flujo. Por ejemplo, un problema básico de "sumar los números entre n y m" se podría implementar primitivamente de la siguiente manera:
+
+sumar ( valor inferior, valor superior) es     acumulado = 0     i = valor inferior     mientras i <= valor superior         acumulado = acumulado + i         i = i + 1     el resultado es acumulado
+
+Declaramos un acumulador en el que iremos recogiendo el valor intermedio de la suma (esto es, si sumamos los números entre 1 y 10, primero contendrá 1, luego 1+2=3, luego 6, etc.) y realizamos un bucle en el que i va cogiendo los valores entre n y m, ambos inclusive, que vamos sumando en el acumulador.
+
+Lógicamente, la mayoría de los entornos de programación cuentan con funciones estándar y estructuras de control de flujo más elaboradas que nos permiten expresar este algoritmo de una forma más concisa y clara, pero al final son equivalentes a las que usamos en esta implementación u a otras más complicadas.
+
+Aparentemente, el programa no alberga mayor dificultad, especialmente a ojos de un programador medianamente experimentado. Sin embargo, comprender la ejecución del programa pasa por saber visualizar la ejecución del algoritmo; su flujo y su estado. Para un algoritmo de 5 líneas y 2 variables esto no es excesivamente complejo, pero tampoco trivial para quien no esté acostumbrado. Creo que gran parte de la dificultad que encuentran los que aprenden a programar es en esta visualización; antes de inventar uno sus propios algoritmos creo que debe ser capaz de entender uno ya hecho- y para inventar uno posteriormente también necesitará esta habilidad de "visualización".
+
+Esta primera "valla" con la que uno se topa al aprender a programar es especialmente problemática; no la podemos rodear ni trepar progresivamente, la debemos saltar de golpe y considero que para muchos es una primera valla demasiado fuerte y que, en ocasiones, se rodea inicialmente dañando todo el proceso posterior de aprendizaje.
+
+¿Podemos mejorar esto? Consideremos la siguiente implementación del algoritmo:
+
+sumar ( valor inferior, valor superior):     el resultado es:         si valor inferior es igual a valor superior, valor inferior         si no, valor inferior + sumar (valor inferior + 1, valor superior)
+
+Observemos que aquí no hay estado. Comprender la ejecución de este algoritmo (obviando la implementación de las llamadas a funciones, que si bien es necesaria para comprender cómo el ordenador **ejecuta** el algoritmo, **no** es necesaria para comprender cómo **funciona**) es fácil pensando en una expansión algebraica:
+
+> suma de 7 a 23 = 7 + suma de 8 a 23 = 7 + 8 + suma de 9 a 23 = ... = 7 + 8 + 9 + ... + 22 + suma de 23 a 23 = 7 + 8 + 9 + ... + 22 + 23
+, con la que estará más familiarizado cualquiera que haya tenido una formación matemática media.
+
+Esta implementación, de una aproximación más funcional/declarativa, a mi entender es más sencilla de comprender y puede permitir al programador novel comenzar a implementar sus primeros algoritmos sin tener que visualizar flujo/estado sino mediante expansiones algebraicas.
+
+Pero la cuestión que se nos plantea en este punto es: ¿ayuda esto a la posterior comprensión de la programación imperativa? Es una pregunta importante, ya que si bien la programación funcional es potente, la programación imperativa es más adecuada para muchos programas que uno tendría que desarrollar (particularmente en un entorno comercial) y modela mucho mejor puntos tan importantes como son la entrada/salida.
+
+Ésta es una cuestión abierta, pero creo que como mínimo, una enseñanza inicial funcional puede ayudar al alumno a elaborar algoritmos medianamente complejos por sí solo y darle una confianza para afrontar el, más complicado a mi entender, mundo imperativo- al menos podrá haber realizado tareas complejas y no sentir la frustración que puede uno sentir al intentar implementar algoritmos iterativos simples y tener muchas dificultades a la hora de visualizar su ejecución.

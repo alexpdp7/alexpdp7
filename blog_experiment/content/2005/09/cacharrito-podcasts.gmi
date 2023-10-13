@@ -1,0 +1,37 @@
+# Cacharrito, podcasts...
+2005-09-23
+
+Tras más de 24 horas con el reproductor, creo que puedo juzgarlo un poquito mejor.
+
+Cosas buenas:
+
+* El precio
+* El USB retráctil quiere decir que lo puedo usar sin cables, lo cual lo hace muy práctico para transferir datos. Muchos reproductores necesitan cables, así que si quieres usarlos para mover ficheros, has de cargar con el cacharro *y* el cable.
+* Es un dispositivo USB estándar -casi todos lo son, salvo los Sony y tal- quiere decir que lo puedo usar desde cualquier ordenador sin complicarme la existencia.
+* La radio. Hacía tiempo que no escuchaba la radio y ahora la vuelvo a oír.
+* El micrófono y la función grabadora es mejor de lo que esperaba. No es que lo vaya a usar mucho, pero quién sabe.
+* Pequeñín. No es mucho más grande que la típica memoria USB.
+
+No creáis que los inconvenientes me suponen un grave problema, pese a que son numerosos. Ahí van:
+
+* No tiene "Hold", es decir funcioncita para bloquear el teclado. Los botones son duros así que no es mucho problema, pero se echa en falta.
+* El interfaz es algo cutre y en según que cosas, poco intuitivo.
+* Entre pista y pista hace un fade-out/fade-in que hace que cambiar de canciones sea lento.
+* No lee canciones metidas en sub-subdirectorios.
+* La pantalla, pese a que es grande, está mal repartida y poco aprovechada. Mucho espacio está destinado a cosas que no me interesan y no se utiliza para cosas útiles como algo para poder buscar canciones rápido, etc.
+* Parece un poquito frágil. Haciendo un poco de presión sobre la pantalla, se mueve la pieza levemente... y me da un poco de mal rollo
+* No está bien resuelto el tema de llevarlo. Los auriculares que trae tienen los cables montados para que lo puedas llevar colgado del cuello, pero en esa configuración es, digamos, poco estable. Una pinza/clip le iría bien. Supongo que tenderé a llevarlo en un bolsillo.
+
+Pese a todo, si me reeduco para pillar un cacharro más para llevar a todas partes (que con el móvil ya me costó), anticipo mucho uso del producto.
+
+Una de las cosas que estoy investigando es el tema podcasts. Son feeds RSS como los de los blogs, pero en vez de mensajes en texto son grabaciones de audio. Es como una radio en diferido.
+
+Hay bastante variedad de podcasts; yo estoy mirando algunos francófonos para intentar conservar en criogenia mis (limitadas) aptitudes con esta lengua, a ver si practico un poquito. De momento, el que más me ha convencido es el de Kaos [1], de informática y temas similares. Entretenidillo.
+
+=> http://kaosproject.blogspot.com/ [1] Kaos
+
+Y con esto de los podcasts, como no, me ha entrado el gusanillo de hacer uno. Las posibilidades son interesantes. Creo que poner clips cortitos de película al estilo Lo Que Yo Te Diga [2] (un brillante programa de cine de la Ser) cae dentro de lo que se considera "uso justo" y no creo que me empapelasen por ello... también se pueden montar coloquios y entrevistas con los colegas via Skype o similares. En fin, habrá que meditarlo...
+
+Editada: la otra cosa que tiene es que, dado el uso que le doy (no tengo sonido en el ordenador del trabajo, así que lo utilizo para escuchar música muuuchas horas al día), la batería se le funde enseguida- tengo que cargarlo diariamente. Supongo que cuando se me pase la novedad y no esté enganchado al aparato, la cosa mejorará.
+
+=> http://www.loqueyotediga.net/ [2] Lo Que Yo Te Diga

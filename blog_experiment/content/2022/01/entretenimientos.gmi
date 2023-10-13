@@ -1,0 +1,29 @@
+# Entretenimientos
+2022-01-06
+
+Un artículo de The Guardian sobre el déficit de atención causado por las redes sociales modernas y demás[1] me ha llevado a mis pensamientos recurrentes. Últimamente, navegar por el geminiespacio me reconforta. Los cuatro mataos que blogueamos ahí tenemos afinidades, claro. Aunque sea un pobre sucedáneo de algo mitificado como la blogosfera clásica, o Internet antes del septiembre eterno[2] (que conste que yo no tuve acceso regular a Internet hasta 1997), el ritmo lento y la refrescante ausencia de ciertos vicios del Internet actual nos ofrece un remanso de paz. Ni siquiera uso un lector de RSS para vagar por el geminiespacio.
+
+Es una batalla perdida, pero hay que intentar cambiar la dinámica. Yo la he cambiado un poco y sólo me ha costado unos euros :) [3]
+
+=> https://www.theguardian.com/science/2022/jan/02/attention-span-focus-screens-apps-smartphones-social-media [1] Your attention didn’t collapse. It was stolen.
+=> https://en.wikipedia.org/wiki/Eternal_September [2] El Septiembre Eterno (de 1993).
+=> https://obm.corcoles.net/category/cacharritos/ [3] No soy del todo culpable de la última actualización a día de hoy, pero espero que sí de la siguiente.
+
+Antes de mi actual manía (analizar la estrategia del Wordle), ante la pobre situación de los juegos de preguntas y respuestas actual, estuve pensando en mecanismos para generar automáticamente este tipo de juegos. Por supuesto, pronto llegué a la DBpedia[1]... y una búsqueda en Google me reveló un paper[2] de un profesor de la Universidad de Valladolid que parece que ha tenido suficiente éxito con esta estrategia como para publicarlo en su propia compañía de juegos de tablero y cartas para móviles[3]. Lamentablemente, por cambios en los servicios de Google, el juego lleva casi un año sin funcionar[4].
+
+=> https://www.dbpedia.org/ [1] La DBpedia
+=> https://www.gsic.uva.es/uploaded_files/39346_2017-SWJ-trebial-camera.pdf [2] Paper sobre generar preguntas y respuestas con la DBpedia
+=> http://donnaipe.com/blog/2017/03/11/trebial-tu-juego-de-preguntas-y-respuestas/ [3] El juego en Don Naipe
+=> http://donnaipe.com/blog/2020/04/01/juego-en-red-no-disponible/ [4] Sobre su indisposición
+
+El resto, en batiburrillo:
+
+=> https://www.newyorker.com/magazine/2022/01/03/the-case-against-the-trauma-plot Excesivo artículo sobre la excesiva dependencia en el trauma como recurso argumental.
+=> https://www.jwz.org/blog/2022/01/shuffling/ Sorprendentemente, yo he sido un poco víctima del trauma por algoritmos de aleatorización. Aquí JWZ sobre eso.
+=> https://the-crypto-syllabus.com/brian-eno-on-nfts-and-automatism/ Brian Eno no apoya la criptobasura.
+=> https://fabiensanglard.net/sf2_sheets/index.html Fabien ha sacado una interesante serie de artículos sobre el Street Fighter II. El primero es el más interesante.
+=> https://www.nature.com/articles/d41586-021-00075-2 En Nature, "Ten computer codes that transformed science".
+=> https://arstechnica.com/science/2022/01/to-learn-klingon-or-esperanto-what-invented-languages-can-teach-us/ Sobre la construcción de lenguajes.
+=> https://arstechnica.com/gadgets/2022/01/concept-nyx-is-alienwares-take-on-a-household-gaming-server/ Streaming de juegos autogestionado.
+=> https://www.washingtonpost.com/world/2022/01/02/cats-house-fires-south-korea/ Gatos incendiarios.
+=> https://www.inputmag.com/culture/dr-peter-scott-morgan-als-ai-cyborg No sabía si meteros esta historia de un cíborg o no. Espero que no moleste.

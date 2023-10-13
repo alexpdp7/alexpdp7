@@ -1,0 +1,6 @@
+# pa que luego digan...
+2005-06-29
+
+Microsoft saca el código fuente de un juego suyo comercial con pinta de interesante, Allegiance [1]
+
+=> http://research.microsoft.com/research/allegiance/ [1] Allegiance

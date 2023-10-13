@@ -1,0 +1,8 @@
+# Omniawesome
+2011-03-26
+
+Los que uséis Google Chrome y echéis en falta la *asombrosidad* de la Awesome Bar de Firefox[1], about:flags[2] y "Enable better omnibox history matching".
+
+
+=> http://blog.mozilla.com/blog/2008/04/21/a-little-something-awesome-about-firefox-3/ 1: http://blog.mozilla.com/blog/2008/04/21/a-little-something-awesome-about-firefox-3/
+=> about:flags 2: about:flags

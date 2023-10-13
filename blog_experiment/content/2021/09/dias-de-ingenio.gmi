@@ -1,0 +1,33 @@
+# Días de ingenio
+2021-09-29
+
+Es sombrío que la muerte de Gasset me haya impulsado a por fin descargar mi lista de pendientes. Mal yo por descubrir ahora que no le detecté cuando vi Arrebato hace unos meses.
+
+Aunque estoy dando pequeños pasos para alejarme del sarcasmo, hay que admitir que en manos de un maestro es una suerte maravillosa
+
+=> https://www.rtve.es/noticias/20210929/muere-antonio-gasset/2176300.shtml
+
+En Quanta se preguntan qué es un reloj[1] y yo sólo puedo pensar que tú eres el regalo del reloj[2].
+
+=> https://www.quantamagazine.org/the-new-science-of-clocks-prompts-questions-about-the-nature-of-time-20210831/ [1] Sobre relojes
+=> https://farside.link/invidious/watch?v=CO-Fa1de7sM [2] Cortázar, sobre el mismo tema.
+
+Dos funcionalidades que están en el limbo:
+
+=> https://www.theverge.com/2021/5/18/22440226/google-workspace-smart-canvas-features-docs-updates Eliminar la esqueuomórfica paginación de Google Docs
+=> https://addons.mozilla.org/en-US/firefox/addon/link-to-text-fragment/ Una manera de hacer funcionar el "enlace a fragmento de texto" que propone Google
+
+¿Ha estudiado alguien ya los efectos de la nueva ley China sobre concentrar el uso de videojuegos entre los jóvenes a unas exiguas franjas horarias? No sólo parece una interesante publicidad sobre la elasticidad de la nube, sino que ¿podría ayudar a los "network effects" de los juegos? En los juegos minoritarios, ¿ayuda que todos tus posibles jugadores estén conectados a la vez? ¿o la competencia de juegos más populares los destruye?
+
+Con excusa del nuevo disco de ABBA, he descubierto que Lasse Hallström era su cineasta oficial. Además, siempre pienso que es Super Trooper, pero no; el Super Trouper es el foco para espectáculos más famoso del mundo, al parecer.
+
+=> https://en.wikipedia.org/wiki/Lasse_Hallstr%C3%B6m Lasse Hallström, hijo de ministros y el cineasta de ABBA.
+
+El resto, en panoplia:
+
+=> https://magnet.xataka.com/preguntas-no-tan-frecuentes/motivo-que-ingleses-no-pueden-entender-al-shakespeare-original-nosotros-a-cervantes Shakespeare y la impronunciabilidad del inglés
+=> https://www.theatlantic.com/technology/archive/2021/08/dead-internet-theory-wrong-but-feels-true/619937/ Internet es mentira.
+=> https://www.theguardian.com/science/2015/jul/23/john-horton-conway-the-most-charismatic-mathematician-in-the-world John Conway, un poco fantasma, y entre otras cosas, el libre albedrío
+=> https://www.polygon.com/lord-of-the-rings/22650972/lord-of-the-rings-meat-back-on-the-menu-orc Otra de la serie de Polygon sobre El Señor de los Anillos, sobre construcción de mundos y anacosmismos
+=> https://gergo.erdi.hu/blog/2021-09-18-rust_on_the_mos_6502__beyond_fibonacci/ ¿LLVM sobre MOS 6502 quiere decir que podemos reescribir los juegos de C64 en Rust?
+=> https://www.schneier.com/blog/archives/2021/09/rot8000.html ROT8000, la versión Unicode del ROT13

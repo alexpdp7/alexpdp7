@@ -1,0 +1,7 @@
+# Diagnósticos de hard...
+2004-12-08
+
+Guía [1] de una fuente fiable [2]
+
+=> http://arstechnica.com/guides/tweaks/troubleshooting.ars [1] Guía
+=> http://arstechnica.com/ [2] fuente fiable

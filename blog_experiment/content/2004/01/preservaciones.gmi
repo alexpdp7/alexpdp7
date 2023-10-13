@@ -1,0 +1,12 @@
+# Preservaciones
+2004-01-24
+
+En Slashdot [1] enlazan a una guía para mantener en buen estado de conservación CDs y DVDs [2] del programa del NIST para la preservación digital [3]. Hay un resumen para los impacientes [4].
+
+El NIST mola. Esto me recuerda su fantástico Diccionario de Algoritmos y Estructuras de Datos [5], esencial para programadores.
+
+=> http://slashdot.org [1] Slashdot
+=> http://www.itl.nist.gov/div895/carefordisc/CDandDVDCareandHandlingGuide.pdf [2] una guía para mantener en buen estado de conservación CDs y DVDs
+=> http://www.itl.nist.gov/div895/carefordisc/index.html [3] programa del NIST para la preservación digital
+=> http://www.itl.nist.gov/div895/carefordisc/onepage.pdf [4] resumen para los impacientes
+=> http://www.nist.gov/dads/ [5] Diccionario de Algoritmos y Estructuras de Datos

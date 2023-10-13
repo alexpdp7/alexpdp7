@@ -1,0 +1,4 @@
+# Ant
+2006-07-06
+
+Podemos clasificar ant de false friend entre el inglés y el catalán. Puede dar lugar a confusión que ant en inglés sea hormiga y en catalán, alce... Claro que alce en inglés es moose, como el postre o el juego de cartas...

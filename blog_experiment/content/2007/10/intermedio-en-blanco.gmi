@@ -1,0 +1,8 @@
+# Intermedio en blanco
+2007-10-16
+
+... y con retraso, tercer [1], cuarto [2] y quinto [3] rounds.
+
+=> /laspelis/1057 [1] tercer
+=> /laspelis/1058 [2] cuarto
+=> /laspelis/1059 [3] quinto

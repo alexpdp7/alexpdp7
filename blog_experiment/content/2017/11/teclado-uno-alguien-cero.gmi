@@ -1,0 +1,31 @@
+# Teclado uno, ¿alguien cero?
+2017-11-27
+
+Mañana se cumplirán dos semanas desde que llegó a mis manos la BlackBerry KEYone Black, que sustituye a mi querida BlackBerry Classic (pero condenada por WhatsApp a muerte el 31 de diciembre de 2017) y que es mi tercer cacharrito de esos entrañables canadienses (no cuento el PlayBook que casi no usé, pero sí la acojonante Bold 9780).
+
+Intentaré ser breve.
+
+El primer y más importante punto: los dos mayores problemas que tienen las KEYone ahora mismo son dos:
+
+* Son MUY caras. La Black cuesta 649€ + portes en la tienda oficial[1], la no Black 600€ (también está en Amazon). Si comparamos en función del Snapdragon 625 que llevan dentro, un Xiaomi Mi A1[2] cuesta 229€ (y lleva 4Gb de RAM como la versión Black de la KEYone) —salvo el glorioso teclado QWERTY— una comparativa es deprimente[3].
+* La versión Silver que cuesta 50€ menos tenía numerosos defectos de fabricación que a mí me acongojaron y me hicieron esperar a la Black. Se supone que los han resuelto, pero me quedo más tranquilo pagando un poco más (y con 1gb de RAM extra, además).
+
+Lamentablemente, creo que estos dos puntos ahora mismo condenan a este teléfono —a no ser que sea uno un fanático creyente en los teclados físicos en móviles, son dos escollos muy difíciles de digerir— y muy difíciles de ignorar aunque te pueda atraer mucho más que móviles que son aún más caros.
+
+Pero yo me lanzo en un intento desesperado de que esto venda lo suficiente para que venga un KEYtwo o un KEYthree, igual a un precio que no me duela pagar. Igual soy el único que cree que es importante poder teclear en un móvil sobre algo que no sea un cristal liso —y probablemente esto sea un suicidio económico— pero igual no y puedo prorrogar un poco más el sufrimiento de los autocorrectores y otros dolores.
+
+Si me permitís seguir esta reseña imaginándome que sólo me he gastado 300€, diré que es un móvil cojonudo. Las otras críticas que se le podrían hacer es que una pantalla 3:2 de 4,5″ y 438ppi no es ideal para ver vídeos, pero yo digo que una tele o un tablet me cumple esa función en la mayoría de casos, y en el resto, dos barritas negras y ver las cosas un pelín más pequeñas es algo que dista bastante de caminar sobre brasas; y que los teclados virtuales son pasables, pero para mí no lo son (especialmente si hay varios idiomas de por medio, sesiones SSH y otros usos probablemente marginales). Lo otro es que aunque probablemente se actualice a Oreo, seguramente el ciclo de vida no será tan largo como en otros móviles (y ojo, no creo que se vaya a poder rootear ni que vaya a haber ROMs alternativas).
+
+El resto para mí son todo virtudes. Los dos días de batería para mí no son tan importantes (y que creo que sólo se consiguen en condiciones no extremas: he pasado un día 5h en llamadas y otro 3h en un tren y no creo que hubiese aguantado dos días enteros), pero sí me dan cierta confianza en que, durante mucho tiempo, aunque la batería pierda capacidad, no me tendré que preocupar de quedarme sin pilas. La cámara es buena, pero no sobresaliente (lamentablemente, aunque comparte sensor con el Google Pixel, no tiene el mismo software). El rendimiento es más que aceptable (recordad que en este párrafo aún vivo en la fantasía de que esto cuesta 300€).
+
+Por completitud diré que echo de menos cosas de BlackBerry 10 (aunque vosotros seguramente no, claro). La navegación por gestos era mucho más ágil. El truquito del teclado táctil que tiene la KEYone es chulo (aunque le falta algo para transcender), pero el touchpad de BlackBerry era algo sublime: daba un uso a una mano brutal y para ciertas operaciones era tremendamente ergonómico (no tener que hacer zoom en el navegador para darle a enlaces/botones pequeños es algo que recuerdo con nostalgia a menudo). Ojalá que se dé una extraña carambola y BlackBerry pueda recuperar algunas de las cosas en las que se adelantó a su tiempo o pueda ofrecernos alguna innovación nueva y única, pero me queda ese regustillo amargo de las oportunidades perdidas (y por supuesto, esto tiene sus ventajas—un móvil que no tiene ni WhatsApp no es viable ni para los ascetas—y joder, es una gozada volver a un ecosistema que no está en avanzado estado de descomposición).
+
+En cualquier caso, si sufrís con los interfaces totalmente táctiles, añoráis épocas mejores y estáis dispuestos a pagarlo, sí, este es vuestro móvil. También lo es si queréis experimentar con algo diferente. Y si algún día BlackBerry resucita como marca de móviles y hay gran regocijo, dadme un par de palmaditas en la espalda.
+
+Correcciones: @chechar[4]
+
+
+=> https://eustore.blackberrymobile.com/eu/keyone-blackberry.html 1: https://eustore.blackberrymobile.com/eu/keyone-blackberry.html
+=> http://www.mi.com/es/mi-a1/ 2: http://www.mi.com/es/mi-a1/
+=> https://www.gsmarena.com/compare.php3?idPhone1=8508&amp;idPhone2=8776 3: https://www.gsmarena.com/compare.php3?idPhone1=8508&amp;idPhone2=8776
+=> https://farside.link/nitter/chechar 4: https://farside.link/nitter/chechar

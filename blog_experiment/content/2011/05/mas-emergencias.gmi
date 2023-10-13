@@ -1,0 +1,21 @@
+# Más emergencias
+2011-05-04
+
+=> images/IMG_4463.jpg Libros nuevos que he comprado [IMG]
+[1]
+
+Las nuevas incorporaciones son The Data Model Resource Book: v.1: A Library of Universal Data Models for All Enterprises: Vol 1[2], 2[3] y 3[4]; Death March[5] y The Visual Display of Quantitative Information[6].
+
+Primeras impresiones:
+
+* Los Data Model están muy bien. El segundo un poco decepcionante, porque el modelo que me interesaba (E-Commerce), es un poco flojito- este segundo volumen se centra en áreas específicas (agencias de viajes, aseguradoras, etc.)... si a uno no le interesa particularmenten ninguna de estas áreas, sólo el coleccionismo justifica su compra.
+* Death March es brillante.
+* Visual Display está bien... pero yo me esperaba más
+
+
+=> http://alex.corcoles.net/wp-content/uploads/2011/05/IMG_4463.jpg 1: http://alex.corcoles.net/wp-content/uploads/2011/05/IMG_4463.jpg
+=> http://www.amazon.co.uk/Data-Model-Resource-Book-Enterprises/dp/0471380237/ref=sr_1_1?ie=UTF8&amp;qid=1304532338&amp;sr=8-1 2: http://www.amazon.co.uk/Data-Model-Resource-Book-Enterprises/dp/0471380237/ref=sr_1_1?ie=UTF8&amp;qid=1304532338&amp;sr=8-1
+=> http://www.amazon.co.uk/Data-Model-Resource-Book-Universal/dp/0471353485/ref=sr_1_3?ie=UTF8&amp;qid=1304532338&amp;sr=8-3 3: http://www.amazon.co.uk/Data-Model-Resource-Book-Universal/dp/0471353485/ref=sr_1_3?ie=UTF8&amp;qid=1304532338&amp;sr=8-3
+=> http://www.amazon.co.uk/Data-Model-Resource-Book-Universal/dp/0470178450/ref=sr_1_2?ie=UTF8&amp;qid=1304532338&amp;sr=8-2 4: http://www.amazon.co.uk/Data-Model-Resource-Book-Universal/dp/0470178450/ref=sr_1_2?ie=UTF8&amp;qid=1304532338&amp;sr=8-2
+=> http://www.amazon.co.uk/Death-March-Yourdon-Press-Edward/dp/013143635X/ref=sr_1_1?ie=UTF8&amp;qid=1304532434&amp;sr=8-1 5: http://www.amazon.co.uk/Death-March-Yourdon-Press-Edward/dp/013143635X/ref=sr_1_1?ie=UTF8&amp;qid=1304532434&amp;sr=8-1
+=> http://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/0961392142/ref=sr_1_1?ie=UTF8&amp;qid=1304532465&amp;sr=8-1 6: http://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/0961392142/ref=sr_1_1?ie=UTF8&amp;qid=1304532465&amp;sr=8-1

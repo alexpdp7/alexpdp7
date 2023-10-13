@@ -1,0 +1,10 @@
+# Superreproductores Cody Banks
+2006-09-02
+
+Pasear por sitios tan intelectualmente peligrosos como Planet Haskell [1] tiene sus recompensas; no en el descubrimiento del fascinante mundo de la programación funcional, sino en encontrar la web de M-Cody [2], fabricantes de reproductores mp3 tan cucos como este clon del Nano [3].
+
+Tentados estamos, sí
+
+=> http://planet.haskell.org/ [1] Planet Haskell
+=> http://www.mcody.com/global/product.asp [2] M-Cody
+=> http://www.mcody.com/global/product_m20.asp [3] este clon del Nano

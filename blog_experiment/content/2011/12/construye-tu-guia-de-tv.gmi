@@ -1,0 +1,10 @@
+# Construye tu guía de TV
+2011-12-18
+
+He publicado en Github tvguide[1], un miniproyectillo que incluye un scraper de guía televisiva (la de El Mundo) y un mini-interfaz web que muestra los 5 próximos programas de los canales que recibo en mi casa que están recogidos por El Mundo (i.e. falta RAC105 y algunos locales).
+
+El proyecto utiliza Maven y debería ser fácilmente compilable y trabajable desde Eclipse. Para compilarlo antes tendréis que compilar mi librería de utilidades commons.pdp7[2].
+
+
+=> https://github.com/alexpdp7/tvguide 1: https://github.com/alexpdp7/tvguide
+=> https://github.com/alexpdp7/commons.pdp7 2: https://github.com/alexpdp7/commons.pdp7

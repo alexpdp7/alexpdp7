@@ -1,0 +1,44 @@
+# Contra el vikingo del diente azul
+2021-04-16
+
+Aunque sigo muy contento con mis Jabra [1], la verdad que los problemas de Bluetooth (los propios de Linux, y los generales de este protocolo) me impedían amortizarlos tanto como me gustaría. El emparejamiento Bluetooth nos limita un poco cuando podríamos querer usar unos auriculares en una cantidad significativa de cacharros (móvil, tablet, tres portátiles, Chromecast con Google TV). Además, al usar un micrófono, los cacharros Bluetooth cambian a un modo de operación que reduce la calidad del sonido de una manera importante.
+
+=> /2018/12/el-futuro-ya-esta-aqui/ [1] Mi reseña de los Jabra
+
+Por experimentar un poco, caí que muchos auriculares sin cable "para gamers" utilizan protocolos distintos a los auriculares Bluetooth, con un receptor USB. Esto debería poder evitar esos dos problemas, ya que pueden usar un protocolo de auricular y micrófono con mejor calidad de audio, y no requieren emparejamientos, ya que están "pre-emparejados" con el receptor USB.
+
+Los auriculares sin cables con receptor USB parece que se sitúan a partir de los 120-150€ para los modelos de marcas reconocibles de los que es posible leer reseñas en Internet. Curiosamente, existen auriculares de este tipo no destinados al público "gamer", pero parecen más caros (por ejemplo, Jabra tiene modelos profesionales que parecen maravillosos, pero que son aún más caros).
+
+Sin embargo, descubrí los "Mpow Air 2.4G" reseñados por lo que parecen youtubers respetables [2]. Pese a no ser una marca "de prestigio", las reseñas apuntan que, a pesar de costar unos razonables 77€, funcionan bastante bien.
+
+=> https://farside.link/invidious/watch?v=YRNALNbhaDQ [2] Wireless Gaming Headset Roundup - The Best in 2021? 
+
+Así que los encargué. Llevo usándolos un par de semanas, principalmente para conferencias en el trabajo y escuchar música. En particular, esta semana los he usado para impartir un curso de cuatro días, seis horas por día.
+
+Los he usado sólo en Linux. Curiosamente, no existen controladores para este modelo, ya que se basa en el protocolo de sonido estándar de USB (al igual que los teclados y ratones USB normales usan el protocolo "HID" de USB y no requieren controlador específico). Así, su funcionamiento en Linux (y en cualquier otro sistema operativo que tenga soporte de audio por USB estándar) es inmediato e indoloro.
+
+Los auriculares comienzan a funcionar en cuanto conectamos el receptor y encendemos los auriculares- quizá tendremos que cambiar la entrada en nuestro sistema operativo, pero aparte de eso, no hay que hacer emparejamientos ni sacrificios de cabras, ni siquiera al conectar el receptor a un nuevo dispositivo.
+
+En comparación con Bluetooth, la desventaja es que sólo los podremos usar conectándolos a un USB-A (algo complicado en un móvil, por ejemplo), y tendremos que tener el receptor controlado (se puede guardar perfectamente entre los dos auriculares cuando no los llevamos puestos).
+
+La calidad del sonido que producen es impecable para mis anodinos oídos. Seguramente un sibarita podría hacer comentarios sobre los bajos, agudos y el sabor ligeramente afrutado que producen unos auriculares que cuesten el triple, pero yo no tengo queja. El micrófono capta la voz adecuadamente, con mejor calidad que cualquier cosa Bluetooth.
+
+Tras mínimo 25 horas de uso, no he tenido ni un solo corte ni problema. Sólo he probado a alejarme unos quince pasos del receptor, pero en ese rango y con algo de paredes en medio, no he podido percibir cortes, interferencias o pérdidas de calidad.
+
+El mayor problema que tienen es la comodidad. En mis sesiones de seis horas, a pesar de quitármelos durante cortos descansos, se hacen un poco molestos. Además, al menos yo no me los puedo colocar en el cuello con comodidad (me los coloco en la frente para quitármelos temporalmente).
+
+Aparte de esto, yo los encuentro idóneos dentro del formato que tienen y el uso que les doy. Por 77€ considero que son una compra estupenda para aquellos que quieran auriculares con micrófono inalámbricos para usar con un ordenador o similares (creo que funcionan también en Playstation, aunque el soporte de audio sin cables de los mandos de Playstation- similar al del receptor USB de los mandos de XBox- me parece más conveniente), suficiente barata para que no nos tiremos de los pelos si resultan un experimento fallido. En mi caso, creo que se trata de un experimento razonablemente exitoso.
+
+Bolas extra:
+
+=> https://www.eldiario.es/cultura/videojuegos/biblioteca-nacional-salvaguardar-historia-videojuego-espanol_130_7227869.html La BNE y su proyecto de conservación del videojuego español.
+=> https://www.polygon.com/lord-of-the-rings/22353128/denethor-lotr-movies-story-doomscrolling Denethor, ¿el primer doomscroller?
+=> https://farside.link/invidious/channel/UC_6hQy4elsyHhCOskZo0U5g Música ambiental libre de royalties.
+=> https://www.macworld.com/article/342923/apple-confirms-what-we-knew-all-along-imessage-is-never-coming-to-android.html Curiosamente, Apple es consciente que cerrar sus servicios es beneficioso para Apple, perjudicial para sus clientes.
+=> https://www.polygon.com/tv/22376446/muppets-show-vs-disney-muppets Los Muppets no se adaptan a los nuevos tiempos ni a Disney.
+=> https://suricrasia.online/iceberg/ El iceberg de las desdichas informáticas.
+=> https://www.theguardian.com/society/2021/feb/16/how-to-have-better-arguments-social-media-politics-conflict Cómo deberíamos discutir en Internet. Por supuesto, ¡no estoy de acuerdo!
+=> https://blog.plover.com/2021/04/12/#pie-muncher Los traidores no quieren que los personajes coman tartas.
+=> https://en.wikipedia.org/wiki/Athletics_at_the_1904_Summer_Olympics_%E2%80%93_Men%27s_marathon Un serio aspirante a arrebatarle el título de mejor artículo de la Wikipedia a Tycho Brahe.
+=> https://github.com/mozilla/standards-positions/issues/194#issuecomment-783796667 Parece ser que Mozilla no quiere implementar el nuevo estándar de "enlaces a texto" de la por otra parte sospechosa Google. Pero hay extensiones por ahí para compensar.
+=> https://www.wired.com/2021/04/geeks-guide-spock-logic/ Sr. Spock, no es usted tan listo.

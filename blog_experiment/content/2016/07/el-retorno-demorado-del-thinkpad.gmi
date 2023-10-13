@@ -1,0 +1,41 @@
+# El retorno (demorado) del Thinkpad
+2016-07-31
+
+Allí por 2005, enamorado por los portátiles negros que pululaban por la oficina fuera de mi alcance, me compré un hermoso Thinkpad T42 por unos significantes 1400€. Un hermoso aparato, de los últimos en ser fabricados por IBM, con una espectacular pantalla 4:3 de 1400x1050 y que le daba mil vueltas al portátil Dell que sustituyó (carísimo por tener una tarjeta gráfica, pero en todos los demás aspectos, bastante mediocre). En aquella época, las prestaciones de los ordenadores aún progresaban rápidamente, así que unos 5 años después decidí pasarme a una combinación de sobremesa y un netbook, que me ofrecía un sistema más potente para el trabajo serio y para usar de servidor 24x7 y un sistema ultraligero (1,1kg, la mitad de los 2,2kg del Thinkpad- y con 5 horas de batería que superaban la muy deteriorada batería de 5 años del T42) para el uso fuera de casa o en el sofá- por un precio muy económico.
+
+Pero, unos 6 años después de eso, la progresiva obsolescencia del EEE y las prometedoras reseñas del Thinkpad 13 me llevaron a volver a dar una vuelta a mi parque informático.
+
+Es glorioso volver a tener un portátil de verdad. Es glorioso volver a usar tener un Thinkpad.
+
+El Thinkpad 13 es un portátil de gama media, sí- el mío cuesta 680€, por encima de los 200-400€ que cuestan los ultraportátiles que heredan la tradición de los netbooks (pero al parecer menos infrahumanos) y de los 300-500€ de los tochos de 15", pero por debajo por ejemplo de los 1100€ del Macbook Air de 13", espacio por donde deambulan la mayoría de portátiles que comienzan a valer la pena.
+
+Sin embargo, el 13 es un Thinkpad con puntos de gama alta. Tiene opción de pantalla 1920x1080 en vez de los mediocres 1366x768 de los portátiles de gama baja. Pesa 1,4kg y tiene una batería generosa (11 horas según Lenovo, 9 horas según reseñas) que lo hacen realmente portátil y no portable. Y por supuesto, tiene el glorioso diseño Thinkpad, que incluye un delicioso teclado y el sobresaliente Trackpoint entre las teclas G, H y B.
+
+Así pues, espoleado por el hype, puse mi pedido en lenovo.es. La primera en la frente fue el tiempo de entrega, que de las 1-2 semanas prometidas paso a casi dos meses, al parecer por escasez de paneles Full HD. En mi caso sólo fue maltrato psicológico y me supuso un descuento de 35€ (¡reclamadlo!), pero en el caso de que hubiese necesitado el portátil con cierta urgencia, me hubiese abocado a una cancelación.
+
+Pero finalmente llego. Sobre el modelo base, con la pantalla Full HD, 8gb de RAM (en un módulo- se puede abrir y meter otro para subirlo a 16gb), SSD de 128gb (tengo almacenamiento en otros sistemas, pero para muchos pueden ser escasos) y un i3 (el base es un Celeron).
+
+La primera impresión es... de contundencia. Es mucho más grueso que el típico ultrabook de 13", pesa más y "abulta" más; parece mucho más tocho de lo que es si lo pones al lado de otro portátil, por tener un diseño muy cuadrado. Sin embargo, es cómodamente portátil y realmente no pesa tanto como para que moleste.
+
+Además, su grosor le permite tener un teclado con un recorrido generoso que aunque quizá no sea el segundo advenimiento que prometen las reseñas, es ciertamente de lo más ergonómico que uno podría desear en un portátil. Teclear es rápido, preciso y sobre todo, placentero. La disposición del teclado es bastante digna, salvo algunos detalles:
+
+* La tecla Fn está en la esquina inferior izquierda del teclado y Ctrl a su derecha, al revés que en la mayoría de portátiles. Dado que tengo que usar a diario otro portátil con la disposición normal, tuve que intercambiarlas en la BIOS para no volverme loco, aunque quizás la disposición que trae sea más cómoda
+* Las teclas de avance/retroceso de página están encima de los cursores laterales y son muy fáciles de pulsar accidentalmente
+* La disposición de los Thinkpads clásicos con 7 filas de teclas en vez de 6[1] es claramente superior
+
+Pero aún con eso, es mucho más agradable teclear en el Thinkpad que en el más que decente teclado de mi Toshiba Z30 laboral, los Air de 13" o el terrorífico teclado de los nuevos Macbook.
+
+Completando el teclado, tenemos el trackpoint, que para muchas funciones es más práctico que el touchpad, por el hecho de no tener que apartar las manos del teclado para usarlo y un touchpad bastante potable. Yo soy un fan de los trackpoint (aunque a menudo uso el touchpad para hacer scroll) y para mi es un punto muy a favor del portátil- creo que todo el mundo debería usar uno durante un tiempo prolongado para apreciarlos.
+
+La nota negativa es el botón de encendido, que todas las reseñas apuntaban como terrible y que confirmo. No es fácil de pulsar y hay que acostumbrarse a un movimiento bastante específico para pulsarlo. Obviamente no es algo crítico, pero sí una pequeña mancha que desentona el elevado nivel general del aparato.
+
+Luego viene la pantalla, culpable de la terrible demora en poder tener el juguete en mis manos por sus 1920x1080. Debo decir que desde que disfrutaba del 1400x1050 en 14" de mi añorado T42 debo haber perdido agudeza visual, porque he tenido que ampliar tamaños de letra para trabajar con comodidad, perdiendo un poco la mayor densidad de información que permiten los 1920x1080 en 13". Pero bueno, la ampliación no era muy costosa, así que aunque no la aproveche al máximo, la nitidez extra de la imagen ya vale bastante la pena.
+
+En cuanto a puertos tiene 3 USB normales (uno a la izquierda, dos a la derecha) que al parecer son always-on (puedes cargar el móvil aunque el portátil esté apagado), un HDMI tamaño completo, auriculares (con micrófono), un USB-C y un conector propio de Lenovo para dock. Tengo curiosidad por las prestaciones del USB-C; no queda claro si puede usarse para sacar displays y carga simultánea, lo que daría pie a interesantes soluciones de docking de bajo coste y, en un futuro cercano, usar un único cargador para portátil y móvil, pero aún no lo he podido estudiar (e internet no es clara respecto a este punto). El dock propietario es una opción interesante, pero que de momento tampoco voy a explorar.
+
+En uso el sistema es lo que uno esperaría- no tiene ningún problema destacable y cumple su función. Linux funciona sin demasiados problemas, aunque la pureza ideológica de Debian hace que instalar el firmware propietario de la tarjeta de red inalámbrica no sea inmediato (la operación es sencilla, pero hay que hacerla. Al parecer la mayoría de otras distribuciones incluyen el firmware de serie e incluso hay un instalador de Debian no completamente oficial que lo trae). La construcción del sistema no es tan lujosa como los Air o los Thinkpad de gama alta, pero da bastante sensación de solidez y robustez, aunque obviamente no lo he puesto a prueba- dice el fabricante que ha pasado certificación militar y pruebas de estrés, pero otra cosa es lo que pasa si se te cae al suelo...
+
+En resumen, si queréis un portátil que esté un paso por encima de los portátiles baratos, pero no os queréis gastar la pasta que cuesta un Macbook Air o equivalente, el Thinkpad 13 es una opción espléndidamente equilibrada. Es muy portátil, potente y de calidad. Si además sois fans de los Thinkpad, por el trackpoint o el distintivo diseño, más puntos a favor.
+
+
+=> http://www.studentbuyingguide.com/wp-content/uploads/2011/04/img-04971.jpg 1: http://www.studentbuyingguide.com/wp-content/uploads/2011/04/img-04971.jpg

@@ -1,0 +1,10 @@
+# Preguntemos pues
+2006-08-28
+
+Parece ser que ahora soy referencia en Google [1] para preguntas retorcidas [2] (por el post sobre Quite Interesting [3]).
+
+¿Debería preguntar pues porqué x n + y n = z n no tiene soluciones enteras para n> 2 y x, y y z diferentes de 0? (El primero en quejarse que no le cabe la respuesta en la caja de comentarios, se lleva una colleja)
+
+=> http://www.google.com/ [1] Google
+=> http://www.google.com/search?q=preguntas%20retorcidas [2] preguntas retorcidas
+=> gemini://alex.corcoles.net/2006/08/very-naish/ [3] el post sobre Quite Interesting

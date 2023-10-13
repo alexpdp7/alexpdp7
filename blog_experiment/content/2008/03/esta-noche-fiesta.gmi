@@ -1,0 +1,8 @@
+# Esta noche fiesta
+2008-03-12
+
+Para los usuarios de Google Calendar [1], he publicado (ante mi incapacidad para encontrar uno ya existente) el calendario de fiestas de Barcelona [2]. También podéis usarlo en formato iCal [3].
+
+=> http://www.google.com/calendar [1] Google Calendar
+=> http://www.google.com/calendar/embed?src=dksm23k4frv3vbdn571748tdfs%40group.calendar.google.com&ctz=Europe/Madrid [2] el calendario de fiestas de Barcelona
+=> http://www.google.com/calendar/ical/dksm23k4frv3vbdn571748tdfs%40group.calendar.google.com/public/basic.ics [3] formato iCal

@@ -1,0 +1,39 @@
+# Réquiem por el qwerty
+2022-02-11
+
+La noticia de que BlackBerry vendía sus patentes de telefonía móvil de hace una semana y pico[1] hacía intuir lo que ahora mismo es rumor, pero bastante creíble: la nueva BlackBerry ha muerto[2] (por supuesto, contradiciendo a que las noticias de su muerte eran una exageración[3]).
+
+=> https://www.blackberry.com/us/en/company/newsroom/press-releases/2022/blackberry-agrees-to-sell-legacy-patents-for-600m [1] BlackBerry Agrees to Sell Legacy Patents for $600M
+=> https://www.theverge.com/2022/2/11/22928875/blackberry-5g-android-phone-onwardmobility-cancelled [2] Startup’s 5G Blackberry revival is reportedly no more
+=> https://www.onwardmobility.com/blog/contrary-to-popular-belief/ Contrary to popular belief, we are not dead.
+
+Cuando la batería de mi fabulosa KeyONE ya no aguantaba ni un suspiro, ya decidí comprarme un móvil barato[1] intentando "cubrir mis apuestas". Si salía la BlackBerry de Onward Mobility, no me sabría tan mal desechar un móvil de menos de un año. Y no nos engañemos, si pasaba lo que parecía más probable y parece que está cerca de ser un hecho... pues siempre podría optar a comprarme un móvil "decente" y usar el móvil barato de recambio (compré uno con actualizaciones hasta 2025 y batería exagerada también en cierta manera para alargar el tiempo durante el cual podría servir de recambio).
+
+=> gemini://alex.corcoles.net/2021/09/vuelve-rim [1] Previsor que es uno (aunque el título del artículo, "Vuelve Rim" era una invitación al gafe)
+
+Ciertamente, esperaré a que se confirme la noticia, pero aunque el luto ha comenzado, comienzo a mirar opciones. El PinePhone y su funda-teclado es de las mejores opciones, pero también es una opción extrema con doble cabriola por no ser Android y el peso de Whatsapp en mi entorno (no se puede usar Whatsapp sin un móvil Android o iOS activo. Podría tener dos móviles, pero también Mark Zuckerberg podría dejar de fastidiarme y dar una API de cliente como la de Telegram, ¿no?). Pero por $150 el teléfono y $50 el teclado, es una opción tentadora.
+
+=> https://pine64.com/product/pinephone-pinephone-pro-keyboard-case/ La funda-teclado del PinePhone
+
+Otra opción sería el Titan Pocket. Es más caro- $300... pero es Android y además tiene el formato correcto de teclado. Sin embargo, las reseñas dicen que teclado y móvil son ambos bastante mediocres.
+
+=> https://www.unihertz.com/collections/smartphones/products/titan-pocket El Titan Pocket
+
+Ya el resto de opciones para poder teclear cómodamente son bizarradas como usar un PocketCHIP[1] (que es gigantesco- hasta para lo que son los móviles actuales... y ni siquiera es un móvil) o ya irnos a cosas aún más "hágalo usted mismo" o esotéricas- en mi desesperación hasta he considerado opciones dignas de Victor Frankenstein[2].
+
+=> https://shop.pocketchip.co/collections/frontpage/products/pocket-c-h-i-p-new [1] El PocketCHIP
+=> https://github.com/Dakkaron/Fairberry [2] Hay señores bizarros que le acoplan un teclado de BlackBerry a un móvil Android.
+
+En fin. Quizá durante un tiempo sea duotema en vez de monotema. Por aportar un poco de variedad, os dejo un poco de batiburrillo:
+
+=> https://changelog.complete.org/archives/10231-recovering-our-lost-free-will-online-tools-and-techniques-that-are-available-now Hablando de mi otro monotema, creo que no os había puesto este completo análisis que os ahorra el mío propio.
+=> https://www.schneier.com/essays/archives/2022/01/letter-to-the-us-senate-judiciary-committee-on-app-stores.html Lo de Apple enfada hasta al bueno de Bruce Scheneier y le hace escribir una carta al senado. Doblemente de los míos.
+=> https://www.nationalreview.com/2006/02/movie-all-time-jonah-goldberg-2/ Una crítica profunda sobre Atrapado en el Tiempo.
+=> https://www.nature.com/articles/d41586-022-00217-0 Los bugs en la programación científica
+=> https://guardianproject.info/ Indagar en los ajustes de F-Droid me llevo a descubrir que por defecto soporta otros repositorios de apps...
+=> https://letsconvene.im/ ... y que uno de ellos es de un grupo sobre privacidad que propone un sistema de mensajería muy parecido a una de mis brillantes ideas...
+=> https://blog.plover.com/2022/02/03/#mosaic M.J. Dominus se pone prosaico hablando de mosaicos.
+=> https://semantle.novalis.org/ (que por cierto, un amigo suyo propone una variante bastante esotérica de ese juego al que todos jugáis)
+=> https://en.wikiquote.org/wiki/Giordano_Bruno#bentrovato Atribuyendo citas, lo de "se non è vero, è molto ben trovato" parece que viene de una... ópera filosófica.
+=> https://farside.link/nitter/funselektor/status/1486826197522653186 Parece que la industria del videojuego igual no es toda igual de terrible...
+=> https://github.com/benbusby/farside ... y con ese link he aprovechado para estrenar este interesante servicio.

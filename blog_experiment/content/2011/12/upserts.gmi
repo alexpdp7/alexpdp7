@@ -1,0 +1,11 @@
+# Upserts...
+2011-12-17
+
+Trabajando en un pequeño experimento[1], se me ha ocurrido un insert idempotente:
+
+insert into foo (bar) (select 'bar_value' as bar where not exists (select 1 from foo where bar = 'bar_value'));
+
+(la sintaxis es de PostgreSQL, pero supongo que es adaptable a otras bases de datos). Igual intento adaptarlo a hacer upserts.
+
+
+=> https://github.com/alexpdp7/tvguide 1: https://github.com/alexpdp7/tvguide

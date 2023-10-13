@@ -1,0 +1,8 @@
+# Casualidades víricas
+2004-05-02
+
+He recibido un email de una de mis cuentas de correo a otra de mis cuentas de correo.
+
+Si no fuese porque no uso Outlook ni similares para leer mi correo, y que los virus normalmente falsifican el from: del email (así que mejor no fiarse de ello, gente), pensaría que he pillado un virus. Pero no.
+
+Useasé que o bien alguien que me tiene en su libreta de direcciones (con mis dos direcciones) está infectado o bien que mis direcciones de email están demasiado "sueltas" por el internet...

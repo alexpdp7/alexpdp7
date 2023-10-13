@@ -1,0 +1,30 @@
+# Prolegómenos
+2022-09-09
+
+Sobre otra sección de mis paranoias, Nota[1] y Djot[2] son dos nuevas promesas bastante interesantes. Que por cierto, he dejado de usar las estrellas de GitHub, así que todo este tipo de cosas las encontraréis ahora en otro sitio[3].
+
+=> https://nota-lang.org/ [1] Nota
+=> https://github.com/jgm/djot [2] Djot
+=> https://github.com/alexpdp7/alexpdp7/blob/master/INTERESTING_PROJECTS.org[3] El sustituto de mis estrellas de GitHub
+
+=> https://www.theverge.com/2022/8/24/23319608/blackberry-film-production-wrapped-glenn-howerton Otra paranoia distinta parece que la veremos recogida en una película épica... sobre BlackBerry.
+
+Creo que no había comentado aún por aquí que esa versión acústica del Classical Gas de Mason Williams *no* es de Eric Clapton- sólo forma parte de una banda sonora producida por Eric Clapton[1]. Otra de esas confusiones de la era Napster. Pero la otra curiosidad es el vínculo que une a Mason Williams con... Steve Martin. Al parecer Mason Williams fue de los primeros en pagar a Steve Martin por escribir gracietas[2], en su faceta de guionista (llegó a trabajar en SNL). Pero además de eso, parece ser que en la novela semiautobiográfica de Steve Martin, Shopgirl...
+
+=> https://en.wikipedia.org/wiki/Shopgirl#:~:text=Early%20in%20his,as%20a%20roadie.
+>  Early in his career, he lost a girlfriend to an older, suave gentleman resembling Ray Porter, real-life Mason Williams. Williams had a house that matches the description of Ray Porter's, it overlooked Los Angeles from roughly the same vantage point and the descriptions of the two houses are the same. Williams was an actuary at one point, whereas Porter was a logician. Martin and Williams both vied for the attention of a girlfriend, Nina.
+
+(lo de "actuary" es un analista de riesgos- Williams al parecer comenzó la carrera de matemáticas para dedicarse a eso.)
+
+=> https://farside.link/invidious/watch?v=go9y4ta2b6A [1] El Classical Gas acústico del propio Mason Williams
+=> https://en.wikipedia.org/wiki/Steve_Martin#:~:text=williams%20initially%20paid%20martin%20out%20of%20his%20own%20pocket. [2] Mason Williams contratando a Steve Martin
+
+El resto, en batiburrillo:
+
+=> https://en.wikipedia.org/wiki/Bud_Spencer#Swimming_and_water_polo_career Otra nota biográfica curiosa: Bud Spencer, medallista natatorio
+=> https://ncase.me/trust/ Yo creo que nada refleja la vida como la teoría de juegos, así que eso es altamente educativo.
+=> https://xkcd.com/2657/ No sé si Randall Munroe comprende los problemas vocales de los angloparlantes no nativos, pero quizá sí.
+=> https://www.vox.com/culture/23301527/mr-burns-post-electric-play-anne-washburn-interview-hudson-valley-shakespeare-simpsons Para los que dicen que los Simpson es *el* referente cultural moderno, esto podría ayudarles a argumentar su idea.
+=> https://www.theverge.com/2022/8/31/23318937/open-elevator-door-button-kindness Sobre los botones de los ascensores
+=> https://goomics.net/ Viñetas sobre la vida en Google
+=> https://iai.tv/articles/dark-matter-doesnt-exist-auid-2180 Un sr. (al parecer bastante controvertido) que afirma que eso que no sabemos qué es, pero que compone la mayoría del universo, no existe

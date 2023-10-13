@@ -1,0 +1,6 @@
+# Jamón jamón
+2006-05-09
+
+Como amante de las soluciones basadas en patterns, arquitecturas de capas, abstracciones y demás cosas enterprisey, he decidido diseñar, implementar y deployar un sofisticado sistema antispam en la caja de comentarios.
+
+Espero que no sea molesto, o que por lo menos, sea menos molesto que los consejos publicitarios indeseados...

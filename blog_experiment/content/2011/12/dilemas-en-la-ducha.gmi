@@ -1,0 +1,23 @@
+# Dilemas en la ducha
+2011-12-15
+
+Unos emails con un ex-compañero de trabajo me ha traído a la cabeza el dilema del prisionero. El artículo de la Wikipedia[1] es más completo y extenso, pero refresquemos.
+
+Dos hombres están arrestados sospechosos de un crimen. La policia les ofrece por separado testificar en contra del otro (sin que puedan comunicarse entre ellos). Depende de si ninguno delata, uno o ambos, cada uno tendrá un destino diferente.
+
+En la versión clásica del problema, si ninguno delata al otro, ambos  cumplirán un mes de cárcel; si uno delata al otro, el delator queda libre y el otro cumple un año de condena. Si ambos se delatan, van a la cárcel tres meses.
+
+Lo que perjudica a ambos menos en global es, por supuesto, no delatar; cumplen 2 meses en total de condena, mientras que las otras opciones son 6 o 12 meses de condena. Pero claro, una persona que delata se asegura que no estará un año en prisión, y en el caso que el otro no delate, sale libre.
+
+Por tanto, el bien individual y el bien común llevan a comportamientos diferentes.
+
+El estudio del dilema del prisionero es harto interesante, ya que modeliza muchas situaciones "reales" y nos permite estudiarlas, comprenderlas y analizarlas. La llamada teoría de juegos estudia este problema y llega a la conclusión que en la versión clásica y con los parámetros descritos, la mejor estrategia es delatar **siempre** (dependiendo de la duración de las condenas según las delaciones, la mejor estrategia es callar siempre, claro). Incluso en la extensión común "iterativa", en la que la situación se presenta un número determinado de veces seguidas y los prisioneros "recuerdan" la historia, la mejor estrategia es delatar siempre; es lo que da el mejor resultado "egoísta"- si alguna vez callas, un oponente que delate siempre hará que pases más tiempo en prisión.
+
+Sin embargo, el resultado más sorprendente es que si jugamos iterativamente pero los prisioneros no saben exactamente cuántas partidas se van a jugar, el resultado cambia y se pueden obtener mejores resultados callando a veces (el artículo de la Wikipedia lo explica bastante bien)- las estrategías más efectivas son cosas como el "ojo por ojo" (hacer lo que ha hecho tu oponente en la partida anterior) o estrategias "cooperativas". Curiosamente, bajo ciertas condiciones, el bien común coincide con el bien propio.
+
+Este análisis se puede extrapolar a situaciones similares. Por ejemplo tomemos el caso de los atascos. En general, la gente se puede desplazar más rápido usando su coche que el transporte público, salvo si mucha gente coge su coche, lo cuál crea un atasco y el coche resulta más lento que, por ejemplo, el metro. ¿Hace la gente este tipo de análisis (implicita o intuitivamente)?
+
+Desde luego, el análisis teórico es fascinante, pero lo realmente interesante es llevarlo al mundo real y ver como interactúa el argumento lógico con el psicológico- ¿qué tiene más peso para el individuo? ¿Actuamos racionalmente? ¿Reacciona todo el mundo igual?
+
+
+=> http://en.wikipedia.org/wiki/Prisoner%27s_dilemma 1: http://en.wikipedia.org/wiki/Prisoner%27s_dilemma

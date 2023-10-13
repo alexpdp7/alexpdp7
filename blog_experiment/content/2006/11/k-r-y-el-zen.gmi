@@ -1,0 +1,17 @@
+# K, R y el zen
+2006-11-22
+
+Suministrado por el infalible Lagarto, era predecible pero me hace sonreír y eso es lo que realmente cuenta...
+
+>
+>
+>
+> Empty your mind, be formless, shapeless — like a void pointer. If you cast
+> a void pointer into an integer, it becomes the integer. You cast a void
+> pointer into a struct it becomes the struct. You cast it into a char it
+> becomes the char. Now, void pointers can be dereferenced or they can be
+> null. Be a void pointer, my friend.
+>
+>
+
+(retocado para acercarlo al original, pero posiblemente empeorándolo)

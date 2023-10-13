@@ -1,0 +1,6 @@
+# Proposición
+2007-05-21
+
+No volver a hacer nunca más mofa de la alta disponibilidad.
+
+La tarjeta gráfica del sistema que alberga este host al parecer ha muerto y se ha tenido que reemplazar. No sólo eso, sino que una conjunción de habilísimas maniobras de sistemas han hecho sudar la gota a un servidor para volverlo a hacer arrancar.

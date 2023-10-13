@@ -1,0 +1,96 @@
+# El brazo rápido de la manzana
+2020-11-16
+
+Aviso: no me considero un experto mucho menos en temas de arquitectura, historia de la computación, la supercomputación o incluso el mercado informático. Tampoco he hecho un esfuerzo brutal en verificar todo lo que digo debajo. Comentarios, correcciones y sugerencias más que bienvenidas.
+
+Me agrada contemplar como de un tiempo a esta parte, la dictadura de la arquitectura x86 pierde poco a poco su hegemonía.
+
+Tras haber trasteado levemente con los procesadores MOS Technology 6502 y miembros de la familia m68k, casi todos los detalles a bajo nivel de la arquitectura de los PC compatibles siempre me han parecido un tanto... carentes de estética. Mi único encontronazo programando directamente un procesador x86 fue hace más de dos décadas y también me dejo un mal sabor de boca.
+
+Por tanto, siempre me ha quedado pendiente que algún día alguien derroque el status quo de los PC compatibles. La adopción de EFI siempre me pareció un paso adelante, aunque el impacto real en el usuario final es muy pequeño.
+
+Ya antes del iPhone (pero antes de que nadie predijese la revolución que se cocía), muchos móviles ya llevaban pequeños procesadores ARM, ya que Intel tardó mucho en mostrar interés en poner sus procesadores en dispositivos más pequeños que los portátiles PC compatibles, con lo que ni siquiera era viable intentar ponerle un x86 a un móvil por temas de consumo. Los pequeños y eficientes procesadores ARM eran la decisión natural para estos dispositivos. No sé en qué momento preciso los dispositivos ARM en manos de usuarios superaron al número de dispositivos x86, pero seguramente inconscientemente servidor esbozó una pequeña sonrisa en su rostro. Paradójicamente, seguramente más o menos en el mismo momento, también vencieron las plataformas de hardware cerradas a las (relativamente) abiertas
+
+Los x86, sin embargo, aún cuentan (¿o contaban? Ahora nos ocupamos de eso) con la ventaja del "rendimiento de hilo único". La masiva inversión en exprimir al máximo el rendimiento de los procesadores x86 tradicionalmente ha querido decir que son los procesadores que pueden dar más rendimiento ejecutando tareas generales no paralelizables (creo que aplicando la restricción "a un coste razonable").
+
+Muchas tareas son paralelizables; es decir, podemos poner más procesadores a ejecutarlas. Cuando tenemos esta posibilidad, el beneficio de multiplicar el número de procesadores adquiere mucha más importancia que hacer que un procesador individual sea más rápido. Esto lo podemos ver reflejado en sitios como los listados de los supercomputadores más potentes del mundo, donde x86 no siempre ha dominado tan claramente.
+
+Más recientemente, también hemos visto trabajo interesante en el área de "las tareas generales". Hay ahí un estudio interesante sobre los procesadores muy especializados; allí donde por ejemplo el Commodore Amiga hacía cosas mágicas gracias a sus procesadores gráficos, pero allí donde también murió un poco en el boom de los juegos con gráficos tridimensionales... y allí donde poco más tarde comenzaron a coger carrerilla los procesadores pensados para acelerar el rendimiento de los gráficos tridimensionales que han dado pie a otra revolución informática. Estos procesadores altamente especializados no son nada adecuados para realizar "tareas generales", pero han encontrado usos más allá de los gráficos tridimensionales en áreas como el aprendizaje computacional. Precisamente la "simplicidad" de estos procesadores facilita su aceleración y paralelización hasta límites insospechados (la tarjeta gráfica de mi ordenador para videojuegos tiene casi 2000 unidades de ejecución comparadas con las decenas que a lo sumo tienen los procesadores x86 convencionales) y hacen que, por un precio razonable, puedan dar un rendimiento a años luz de lo que puede dar un x86 (o cualquier otro procesador de propósito general).
+
+Pero aun así, hasta estos días, era complicado comprarse un portátil que no llevase un procesador x86, y los sistemas de escritorio como las populares Raspberry Pi (basadas en ARM, como los móviles) ofrecían un rendimiento bastante pobre. Apple mismo era el último reducto de los ordenadores personales de uso general no basados en los procesadores x86, pero hasta ellos tuvieron que abandonar ese barco en 2006, pues sus ordenadores basados en PowerPC eran simplemente lentos comparados con sus competidores.
+
+Se ha invertido mucho dinero desde entonces gracias a los móviles en los procesadores ARM. Apple diseña sus propios procesadores ARM, que arrojan unas cifras que suenan muy bien de rendimiento cuando se miden. Personalmente siempre me tomo los números que saca Apple con bastante escepticismo- precisamente en su época PowerPC todas sus presentaciones sacaban unos números magníficos, que se desvanecieron justamente en ese fatídico 2006. Además, la cerrazón de los entornos iOS e iPadOS siempre me han hecho desconfiar mucho de estas mediciones (por no hablar ahora, que lo haremos más adelante, de lo endiabladamente complicado que es medir el rendimiento de un procesador objetivamente).
+
+Tan buenas son estas cifras, que Apple ha decidido volver a apostar por procesadores no x86 en sus portátiles y sistemas de escritorio, y los acompaña de otras cifras y declaraciones que creo que interesa analizar detenidamente.
+
+Voy a discutir explícitamente lo que captura el Internet Archive a día de hoy en la página de Apple sobre sus procesadores M1[1].
+
+## System-on-a-Chip (SOC)
+
+Lo primero que dice es que el M1 es un SOC, como todos los ARM. Los ordenadores x86 que conocemos todos en general vienen con un procesador separado, acoplado o soldado a una placa base en la que hay más componentes, como por ejemplo, la memoria. Creo que no hay procesadores ARM en ese formato- todos vienen en un chip único con memoria y otros componentes integrados. Esto suele tener interesantes beneficios de eficiencia, rendimiento, portabilidad y coste, pero por otra parte descarta completamente cosas que aún podemos hacer en muchos PCs como aumentar la memoria o cambiar una tarjeta gráfica.
+
+Ciertamente esto ya no es posible en muchos portátiles x86, e incluso en algunos sistemas que no son de escritorio, pero es algo que perdemos casi completamente adoptando un SOC, aunque inventos como Thunderbolt podrían permitirnos usar tarjetas gráficas Thunderbolt para complementar un SOC. También podría ser posible adoptar una arquitectura que permita acoplar más procesadores (los sistemas Blade hacen algo similar). Además, como hemos comentado, para muchas tareas podemos tirar directamente por apilar más ordenadores en vez de ampliar un sólo sistema- véase lo que se divierte la gente fabricando minisuperordenadores aglutinando varias Raspberry Pi.
+
+## Memoria unificada
+
+Después de esto Apple recaba en que integrar la memoria en un SOC tiene ventajas de rendimiento y nos proporciona las primeras cifras de rendimiento (me da igual cuántos transistores tiene un procesador- de hecho Apple lo vende como que más transistores mejor y no creo que eso sea inequívocamente cierto) y las primeras notas al pie.
+
+Up to 3.9X faster video processing
+Testing conducted by Apple in October 2020 using preproduction MacBook Air systems with Apple M1 chip and 8-core GPU, as well as production 1.2GHz quad-core Intel Core i7-based MacBook Air systems, all configured with 16GB RAM and 2TB SSD. Tested with prerelease Final Cut Pro 10.5 using a 55-second clip with 4K Apple ProRes RAW media, at 4096x2160 resolution and 59.94 frames per second, transcoded to Apple ProRes 422. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Air.
+
+Apple cuidadosamente especifica la GPU del M1 y sus 8 cores que da como casi 4 veces más rápida que la CPU de su Air anterior de 4 cores. La mitad de ese 4x ya puede ser que básicamente estamos doblando el número de unidades de ejecución en un proceso que seguramente es paralelizable. Además, como hemos comentado, una GPU especializada puede tener ventajas en tareas específicas sobre una CPU de propósito general. Quizá sería interesante saber cómo se podría optimizar este proceso en, pongamos, una GPU Nvidia. Seguramente la arquitectura de memoria en el SOC da ventajas en esta prueba, pero me sorprende que Apple use esta prueba para hablar de ello. Por último, cabe señalar que el sistema en cuestión es un Air, un portátil ultradelgado. Es conocido que la debilidad de los x86 son estos sistemas donde no pueden alcanzar su máximo rendimiento. Por supuesto es harto interesante que en un portátil ARM nos dé mejores prestaciones, pero habría que ver la comparativa con un sistema de escritorio para tener una perspectiva completa.
+
+Up to7.1X faster image processing
+Testing conducted by Apple in October 2020 using preproduction Mac mini systems with Apple M1 chip, and production 3.6GHz quad-core Intel Core i3-based Mac mini systems, all configured with 16GB of RAM and 2TB SSD. Prerelease Adobe Lightroom 4.1 tested using a 28MB image. Performance tests are conducted using specific computer systems and reflect the approximate performance of Mac mini
+
+Similar al punto anterior, pero aquí sí comparan con un sistema de escritorio, pero un Mac mini y no precisamente con el x86 más potente del mundo (el i3 es el modelo bajo de gama).
+
+## Rendimiento de CPU
+
+Up to 3.5X faster CPU performance
+Testing conducted by Apple in October 2020 using preproduction MacBook Air systems with Apple M1 chip and 8-core GPU, as well as production 1.2GHz quad-core Intel Core i7-based MacBook Air systems, all configured with 16GB RAM and 2TB SSD. Tested with prerelease Final Cut Pro 10.5 using a 55-second clip with 4K Apple ProRes RAW media, at 4096x2160 resolution and 59.94 frames per second, transcoded to Apple ProRes 422. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Air
+
+Se refieren aquí a la misma nota al pie que en su reclamo de "Up to 3.9X faster video processing" de más arriba, con lo que aplican las mismas observaciones, además de que es un poco raro que usen la comparativa de GPU contra CPU para hablar de 3.5x el rendimiento de CPU (contra la mejora de 3.9x anterior).
+
+Our high‑performance core is the world’s fastest CPU core when it comes to low‑power silicon. And because M1 has four of them, multithreaded workloads take a huge leap in performance as well.
+Testing conducted by Apple in October 2020 using preproduction 13‑inch MacBook Pro systems with Apple M1 chip and 16GB of RAM measuring peak single-thread performance of workloads taken from select industry-standard benchmarks, commercial applications, and open source applications. Comparison made against the highest-performing CPUs for notebooks commercially available at the time of testing. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro
+
+Creo que se refieren aquí a que tienen el mejor rendimiento en tareas generales no paralelizables en procesadores de bajo consumo. Puede ser cierto sin demasiados matices (ya hemos comentado que los procesadores x86 no alcanzan su mejor rendimiento en portátiles), aunque vuelve a ser cierto aquí que medir rendimiento de procesadores objetivamente es complicado y que están excluyendo sistemas de escritorio.
+
+En este punto también hablan de sus unidades de ejecución "eficientes". Esta es una idea harto interesante en la que se ha trabajado en móviles recientemente, que consiste en tener unidades de ejecución de diferente potencia para mejorar el uso de batería. Esto sí es un hito en portátiles y que seguramente contribuye a mejorar la vida de batería significativamente.
+
+## Eficiencia
+
+Up to 2X faster CPU performance
+Matches peak PC performance using 25% of the power
+At just 10 watts (the thermal envelope of a MacBook Air), M1 delivers up to 2x the CPU performance of the PC chip. And M1 can match the peak performance of the PC chip while using just a quarter of the power.
+Testing conducted by Apple in October 2020 using preproduction 13‑inch MacBook Pro systems with Apple M1 chip and 16GB of RAM. Multithreaded performance measured using select industry‑standard benchmarks. Comparison made against latest‑generation high‑performance notebooks commercially available at the time of testing. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro.
+
+Aquí se refiere a rendimiento paralelizable y hábilmente no especifica absolutamente nada de contra qué compara. Muy difícil de evaluar, pero podrían estar comparando contra sistemas con menos cores o con mala gestión térmica. A saber. Que los procesadores ARM rinden mejor a bajo voltaje no está bajo mucha discusión (los procesadores x86 de bajo voltaje son notablemente lentos).
+
+## Rendimiento gráfico
+
+Pequeño apunte que a esto sigue una gráfica que habla que han triplicado el rendimiento por vatio, pero es una gráfica muy extraña. Pero me parece algo bastante creíble a pesar de la gráfica.
+
+Siguen hablando del rendimiento gráfico. Esto también es bastante creíble; los procesadores x86 a veces integran GPUs que están bien, pero que no son para tirar cohetes precisamente, sobre todo comparando con las GPUs dedicadas de NVIDIA, de las que hay versiones para portátiles con rendimiento limitado y probablemente mucho peor consumo que la GPU integrada del M1. Así pues es una mejora interesante si queremos hacer algo de gráficos con buen consumo de batería, y desde luego seguramente veamos una mejora muy significativa contra un x86 sin procesadores gráficos dedicados.
+
+## Rendimiento especializado
+
+Luego nos apuntan mejoras en cosas como aprendizaje computacional. Lo mismo que con el rendimiento gráfico; seguramente machaca a las gráficas integradas de los procesadores x86, pero no creo que se acerque a GPUs NVIDIA (salvo si lo miramos en consumo, claro). Hablan de una mejora de 16x respecto a x86, cuando según tengo entendido NVIDIA está muchísimo más lejos.
+
+## Consumo de batería
+
+Aquí, a diferencia de en otras secciones, es Apple quien tiene el histórico de dar las cifras más creíbles de batería (y los fabricantes de PCs no Apple tienen el histórico de mentir como bellacos). Parece ser que hay portátiles x86 que presumen de cifras similares a las que apunta Apple, pero apostaría a que Apple vuelve a tomar la delantera que había perdido en cuanto a duración de batería gracias a la eficiencia ARM.
+
+## Conclusiones
+
+Estoy bastante convencido que en portátiles, los nuevos sistemas de Apple basados en ARM seguramente sean equivalentes o superiores a los portátiles más delgados basados en x86. Aquí me repatea un poco la obsesión con la delgadez de los portátiles (que no sólo afecta a Apple), que redunda no sólo en peor rendimiento, sino también en peores teclados, menor facilidad para reparar e incluso ampliar, peores baterías y un sinfín de cosas que sacrificamos en aras de una delgadez que no aporta demasiado. Seguramente los portátiles con GPUs NVIDIA mantengan grandes ventajas en determinadas áreas, sacrificando batería (también habría que intentar valorar la paradoja de que a veces los procesadores más rápidos pueden ser más eficientes por el hecho de que necesitan menos tiempo a pleno rendimiento para completar las tareas que queremos).
+
+Es decir, que es posible que de nuevo Apple haya sacado un portátil que me gusta en algunos sentidos como los primeros Air baratos que durante bastante tiempo no tuvieron rival. Como aquel, seguro que no será el mejor portátil para todo el mundo, pero sí para muchos (al menos los que toleren vivir en macOS... y viendo como se adapta el mundo a un portátil no x86- parece que de momento hay bastantes baches, aunque espero que se resuelvan bastante rápido). En escritorio y de potencia máxima sin calificativos, lo veo poco probable.
+
+Es digno de admirar, por otra parte, las continuas apuestas en las que Apple arriesga. Aunque algunas de ellas (pantallas táctiles, delgadez, sistemas cerrados) han resultado nefastas, al menos para mí, muchas de ellas han arrastrado al resto de la industria a mejoras de las que nos beneficiamos todos.
+
+Y quién sabe, quizá algún día acabemos de enterrar a los feos x86.
+
+
+=> https://web.archive.org/web/20201116121822/https://www.apple.com/mac/m1/ 1: https://web.archive.org/web/20201116121822/https://www.apple.com/mac/m1/

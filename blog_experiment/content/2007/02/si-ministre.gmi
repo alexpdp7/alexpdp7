@@ -1,0 +1,13 @@
+# Sí, ministre
+2007-02-15
+
+Hace unos días, en uno de esos arranques de aburrimiento que nos entran a todos, me puse a jugar con los Sitemaps de Google [1]. Entre otras cosas, permiten ver más eso tan gracioso que es qué búsquedas acaban en visitas a tus páginas.
+
+Si bien los tiempos de la petanca full-contact parecen olvidados, hemos descubierto que la gente viene aquí buscando "reproducción marsupial" (pervertidos), "inolvidable wikipedia" y "wikipedia entrañable". Buscando qué lleva a que yo conste como resultado de la memorabilidad de la Wikipedia, me he topado con un artículillo [2] que desgrana con habilidad una postura bastante similar a la de un servidor sobre poner eñes en los dominios y medidas similares.
+
+Como bonus, además se cita al gran Sir Humphrey Appleby [3], personaje de la deliciosamente británica Yes, Minister [4], que no por ser el único, sino por ser más inglés que el té a las cinco a todas horas e intravenoso, es nuestro burócrata manipulador de perfecta dicción preferido.
+
+=> http://www.google.com/webmasters/sitemaps/ [1] Sitemaps de Google
+=> http://blogs.20minutos.es/retiario/post/2006/10/23/las-hojas-del-rabano [2]  artículillo
+=> http://en.wikipedia.org/wiki/Humphrey_Appleby [3] Sir Humphrey Appleby
+=> http://en.wikipedia.org/wiki/Yes_Minister [4] Yes, Minister

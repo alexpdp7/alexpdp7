@@ -1,0 +1,10 @@
+# Hombros de gigantes
+2011-10-13
+
+Me he levantado con la triste noticia del fallecimiento de Dennis Ritchie. Es impactante como en un mundo tan cambiante y de evolución vertiginosa como el de la informática, dos de las creaciones de este hombre han cumplido ya más de 40 años y son fundamentales en la informática moderna.
+
+Me refiero al sistema operativo UNIX (padre directo de los actuales Linux [y Android], Mac OS X [y si hemos de creer a Apple, iOS] y Solaris), de Thompson, Ritchie, Kernighan, McIlroy y Ossanna y la verdadera criatura de Ritchie, el lenguaje de programación C, con el que se han implementado gran parte de los sistemas informáticos actuales y que está en los cimientos y raices de la mayor parte del resto.
+
+Pero para mi, Ritchie siempre será la R del K&R, *el* libro sobre C, cuya significancia va más allá de la monumental importancia del C, sino que además es uno de los textos sobre informática de referencia- es sin duda alguna un perfecto ejemplo de cómo debe ser la comunicación en ámbitos ingenieriles, cuyo estilo simple, directo y comprensible y su explicación de conceptos completa y precisa transciende su propósito y llega a inspirar pasión y vocación- al menos a un servidor así le sucedió.
+
+Gracias por todo, Dennis. Te echaremos de menos, pues tus creaciones e influencia nos sobrevivirán a todos.

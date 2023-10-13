@@ -1,0 +1,6 @@
+# Fabríquese un KVM IP por 100€
+2020-07-23
+
+=> https://mtlynch.io/tinypilot/
+
+A base de una Raspberry Pi, una capturadora de vídeo y el soporte de Linux de OTG.

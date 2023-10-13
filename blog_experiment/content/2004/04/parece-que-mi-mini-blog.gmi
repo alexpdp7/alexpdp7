@@ -1,0 +1,4 @@
+# Parece que mi mini-blog...
+2004-04-27
+
+ya está funcional; al menos para postear y tal. Faltan cosas como poder editar los posts, pero ya se andará.

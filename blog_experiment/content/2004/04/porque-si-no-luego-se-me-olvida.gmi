@@ -1,0 +1,8 @@
+# Porque si no, luego se me olvida
+2004-04-10
+
+Los de Eclipse [1] parece ser que tienen una versión preliminar [2] del soporte para el JDK 1.5. Bug de seguimiento [3].
+
+=> http://www.eclipse.org [1] Eclipse
+=> http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/jdt-core-home/r3.0/main.html#updates [2] versión preliminar
+=> https://bugs.eclipse.org/bugs/show_bug.cgi?id=36938 [3] Bug de seguimiento

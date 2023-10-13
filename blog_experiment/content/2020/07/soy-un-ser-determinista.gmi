@@ -1,0 +1,22 @@
+# Soy un ser determinista
+2020-07-12
+
+Me recuerda un compañero que me repito más que el ajo:
+
+https://farside.link/nitter/javier%5C_tejero/status/1282208442686603265[1]
+
+Javi supongo que se refiere al periodo en que trabajábamos en una pequeña consultora que hacía desarrollos centrados en redes sociales que había desaparecido de mi mente. Ahora se me aparecen vagos recuerdos del que probablemente fue el inicio de mi descontento con las redes, en especial, Facebook.
+
+He revisado un poco mis publicaciones recientes y extrañamente no he pontificado sobre estos temas últimamente por aquí, así que os fastidiáis.
+
+No me las voy a dar ahora de haber acertado de pleno ni de ser un adelantado, después de todo sospecho que la cosa iba más por las APIs de Facebook (aunque recuerdo que me parecían de un REST ejemplar) y de sus oscuras reglas (bueno, ahí sí que DHH se ha dado cuenta tarde[2] :). Pero sí me fascina mi determinismo en que al retomar la batalla una década después, me haya ido a exactamente la misma estrategia.
+
+Francamente creo que en la comunicación unipersonal, es tan fácil enviar un e-mail (o incluso más fácil si queremos tener una conversación mínimamente elaborada) como usar la red social de turno para comunicarnos. Quizá perdemos la facilidad de que la conversación sea semi-pública, pero sinceramente, creo que salvo el bueno de Javi y yo, más gente (probablemente, sólo una, ciertamente :) verá este post que el tuit de Javi. Y qué más da.
+
+Para comunicación pública yo tengo mi blog, y creo que hoy en día siguen existiendo servicios gratuitos para ello más que potables. Perdemos la dopamina de los likes y los retuits y la madre que los parió, sí. Hoy en día el tema RSS ha perdido tanta inercia que parece que virtualmente nadie usa lectores de RSS, con lo que lo más probable que el tuit en el que enlazaré esta publicación tenga mucho más alcance que el post en sí.
+
+Volviendo al mensaje de Javi, tiene más razón que un santo: "Hoy en día otras RRSS han ganado mucho terreno al e-mail, muy a nuestro pesar. Obviamente, no pinta bien.". No pinta bien, pero resistid. No creo que nadie haya comenzado a usar un lector de RSS después de que dijera que mis tuits no iban a ser más que enlaces a este blog. No creo que vaya a causar un efecto de red perceptible, así que igual sólo estoy haciendo activismo de sofá. Yo voy a seguir mirándome el Fediverse, Lemmy, Mastodon, etc. y al menos me entretendré a ratos.
+
+
+=> https://farside.link/nitter/javier%5C_tejero/status/1282208442686603265 1: https://farside.link/nitter/javier%5C_tejero/status/1282208442686603265
+=> https://farside.link/nitter/dhh/status/1273748071298392065 2: https://farside.link/nitter/dhh/status/1273748071298392065

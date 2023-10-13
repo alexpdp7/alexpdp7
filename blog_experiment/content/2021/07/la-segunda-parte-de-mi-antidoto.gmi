@@ -1,0 +1,28 @@
+# La segunda parte de mi antídoto
+2021-07-23
+
+=> https://farside.link/invidious/watch?v=b0BTs66JAgM Está aquí, claro.
+
+Si escribís scripts de shell, haríais bien en leer cosas como [1] o [2].
+
+=> https://www.davidpashley.com/articles/writing-robust-shell-scripts/ [1] Un artículo que menciona técnicas de gestión de errores en shell scripts.
+=> https://google.github.io/styleguide/shellguide.html [2] O la guía de estilo de Google, que me descubre que tienen una opinión opuesta a la mía (no es de extrañar, viendo Go).
+
+Creo que la falacia de los /verdaderos/ escoceses[1], como la de los costos hundidos[2], a menudo se malinterpreta. Es ciertamente complicado definir qué es un coche (es complicado definir *cualquier* cosa), pero si decimos que los coches no pueden ir por la autopista y alguien intenta decir que su bicicleta es un coche... tenéis mi permiso para enviarle a freír espárragos.
+
+=> https://en.wikipedia.org/wiki/No_true_Scotsman [1] No true Scotsman en la Wikipedia.
+=> https://en.wikipedia.org/wiki/Sunk_cost#Fallacy_effect [2] La falacia de los costos hundidos en la Wikipedia.
+
+Por lo demás...
+
+=> https://en.wikipedia.org/wiki/Auto-antonym La entantiosemia, esa gran desconocida.
+
+=> http://jimhillmedia.com/editor_in_chief1/b/jim_hill/archive/2004/08/11/do-you-think-that-tv-legends-can-t-master-computer-animation-well-then-you-clearly-don-t-know-dick.aspx Notable que Dick van Dyke fuera un gran aficionado a la animación y usase un Amiga.
+
+=> https://nitter.mha.fi/GreatDismal/status/1416260958243069954 Mola que William Gibson diga que Escape from New York de John Carpenter fue una influencia directa en Neuromante.
+
+=> https://www.polygon.com/22574251/movie-trailer-cover-songs-artists Durante un tiempo estuve enganchado a los tráilers, y sigo siendo fan. Triste que no haya identificado el trailercore.
+
+=> https://legendsoflocalization.com/whats-up-with-the-i-am-error-guy-in-zelda-ii/ Misterios de la traducción.
+
+=> https://www.engadget.com/malaysia-crush-1069-crypto-mining-rigs-steamroller-131251559.html Aunque esté *mal*, produce satisfacción ver una apisonadora destruyendo hardware incautado por minar criptomonedas.

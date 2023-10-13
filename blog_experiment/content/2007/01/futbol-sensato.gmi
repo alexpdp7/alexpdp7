@@ -1,0 +1,25 @@
+# Fútbol sensato
+2007-01-08
+
+Ya habíamos probado anteriormente revivir momentos clave de nuestra vida [1], pero en aquella ocasión el resultado fue desigual. Sin embargo, tras una intensísima sesión, podemos afirmar algo:
+
+El Sensible Soccer [2] es el mejor videojuego de todos los tiempos.
+
+Quizás es un poco atrevido, pero da gusto leerlo. Y oye, el hecho de que un videojuego con 15 años de edad (¡15!) siga siendo la bomba, como mínimo es destacable.
+
+=> gemini://alex.corcoles.net/2006/05/jubilo-clasico-teaser/ [1] revivir momentos clave de nuestra vida
+=> http://en.wikipedia.org/wiki/Sensible_Soccer [2] Sensible Soccer
+
+El Sensi, que por sus características parece más un entrenamiento de monje shaolín que un entretenimiento es uno de los más claros ejemplos de ideas sencillas ejecutadas a la perfección. 22 seres de menos de 100 píxels cuadrados cada uno (más un arbitro ocasionalmente), una pelota microscópica y un campo bastante extenso son unos ingredientes básicos con los que se logra un entretenimiento prácticamente perfecto.
+
+El juego se controla con un solo botón que sirve para pasar, chutar, hacer entradas y rematar de cabeza. Mediante precisos movimientos del mando despues de chutar, el balón coge unos efectos endiablados mediante los cuales podemos colocarlo en la escuadra desde el centro del campo. Y todo a una velocidad sobrehumana. Todo ello con unos jugadores de menos de 10 píxels de alto que en una especie de efecto Kuleshov [3], parece que cambian de expresión facial cuando les sacan una tarjeta.
+
+Aquí podéis ver un vídeo con buenos jugadores [4], de uno de los torneos que aún se disputan hoy en día.
+
+Hay que decir que el aparatito para jugarlo emula una Mega Drive [5], y no un Amiga [6], y se controla con un par de mandos de Mega Drive, no el Competition Pro [7], la combinación perfecta para las justas de caballería. Pero aún así, despues de unas intensísimas cinco partidas, hay que admitir que el cacharro nos permite gozar de la grandeza de uno de los grandes hitos de la historia del videojuego.
+
+=> http://en.wikipedia.org/wiki/Kuleshov_Experiment [3] efecto Kuleshov
+=> http://video.google.com/videoplay?docid=2145611207875095886 [4] Aquí podéis ver un vídeo con buenos jugadores
+=> http://en.wikipedia.org/wiki/Sega_Mega_Drive [5] Mega Drive
+=> http://en.wikipedia.org/wiki/Amiga [6] Amiga
+=> http://images.google.com/images?q=competition%20pro [7] Competition Pro

@@ -1,0 +1,47 @@
+# IE sin Windows
+2011-07-20
+
+Algunas personas tienen en ocasiones el impulso de usar ese navegador vintage que es IE6, por oscuros motivos. Aquí explicamos cómo hacerlo gratis.
+
+Lo primero, descargar las imágenes de compatibilidad de Internet Explorer que Microsoft graciosamente proporciona[1] (incluyen versiones de Windows de XP hasta 7, y Internet Explorer 6 a 8). Si disponemos de una instalación de Windows cualquiera, ya estamos, podemos descargar gratuitamente Virtual PC[2] y utilizar las imágenes sin ningún problema.
+
+Desafortunadamente, Virtual PC sólo funciona sobre Windows, que cuesta dinero. Si no disponemos de Windows podemos usar VirtualBox[3], disponible para Linux, OS X y Solaris. Lamentablemente, no es tan sencillo, pero se puede hacer fácilmente.
+
+Lo primero, sacar la imagen .vhd del .exe que nos habremos descargado de la web de Microsoft. Esto lo podemos hacer con unrar, por ejemplo.
+
+Siguiente, debemos crear una máquina virtual con VirtualBox, utilizando el .vhd como imagen de disco. Como es harto probable que querramos que la máquina virtual se conecte a nuestra red, deberemos habilitar una tarjeta de red en la configuración de la máquina virtual.
+
+Veremos en la configuración que se pueden escoger diversas tarjetas de red. La versión de XP que lleva la imagen de Explorer 6 lamentablemente no incluye drivers para ninguna de las tarjetas de red que podemos escoger, por lo que tendremos que introducirlos en la instalación. Esto se puede hacer de diversas maneras, la más sencilla de las cuales consiste en escoger en este paso la tarjeta de red paravirtualizada.
+
+En este momento, y antes de arrancar la máquina, puede sernos conveniente crear un snapshot del disco.
+
+Arrancando la imagen, nos pedirá activar Windows. De momento saltémonos este paso. Cancelemos todas las peticiones de instalar hardware.
+
+Es un buen momento para instalar las "guest additions" de VirtualBox, que entre otras cosas mejoran la integración de teclado y ratón con la máquina virtual y nos permiten activar el "seamless mode", que hace que el fondo de escritorio de Windows desaparezca y las ventanas de aplicación queden integradas en nuestro escritorio nativo.
+
+Tras hacer esto, es el momento de instalar los drivers de la tarjeta de red. La tarjeta de red paravirtualizada (que no emula "tontamente" una tarjeta de red física real, simplemente utiliza un poco de magia en la máquina virtual para comunicarse con la red nativa) que usa Virtualbox está soportada por estos drivers convenientemente proporcionados en forma de .iso[4]. Simplemente podemos bajarnos la .iso y usarla para simular un CD virtual dentro de la máquina. Podemos entonces realizar la instalación de los drivers de la tarjeta de red utilizando el CD.
+
+En este momento, es conveniente reiniciar. Al reiniciar, se nos volverá a pedir activar Windows. Dado que ya tenemos la red funcionando, podremos realizar la activación por Internet sin ningún problema.
+
+El último paso es ir al administrador de dispositivos y deshabilitar todos los dispositivos que no funcionan, con lo que nos evitaremos las peticiones de instalar drivers.
+
+Bonus 1: si consultáis la EULA de Windows 7 Professional OEM, veréis que es legal utilizarlo para la máquina que se compró pero virtualizado
+
+Bonus 2: en la web de VirtualBox se puede 1) encontrar una fuente apt para Debian/Ubuntu que contiene las versiones más actualizadas para instalar automáticamente y 2), "descargar el VirtualBox 4.1 Oracle VM VirtualBox Extension Pack" que habilita funcionalidades como poder utilizar en la máquina virtual dispositivos USB conectados al ordenador que corre VirtualBox (lo que por ejemplo, permite utilizar iTunes para gestionar un iPhone/iPad desde dentro de una máquina virtual). Esto último sólo es legal si la persona que instala las extensiones es la misma persona que las va a usar (i.e. no se instalan automatizadamente) o se está en un entorno académico.
+
+actualización: la última imagen proporcionada por Microsoft el 16/8 no funciona. Puede seguirse la incidencia en los foros de VirtualBox[5].
+
+actualización II: en el foro de VirtualBox hay una solución. Simplemente hay que clonar la imagen .vhd a formato VDI y todo funciona. Nota, la imagen actualizada debe activarse antes de que la máquina arranque tres veces, si no no funciona, con lo que los pasos que recomiendo son:
+
+1. VBoxManage createhd --filename wxpie6.vdi --size 65536 # para crear la imagen de disco
+2. VBoxManage clonehd --existing ~/Downloads/Windows\ XP.vhd wxpie6.vdi # para convertir el .vhd al .vdi
+3. Configurar la máquina virtual en VirtualBox, muy importante poner la tarjeta de red paravirtualizada
+4. Arrancar la máquina, instalar la tarjeta de red paravirtualizada desde el CD y activar
+5. ... instalar Guest Additions, deshabilitar dispositivos hardware problemáticos, etc.
+
+
+=> http://www.microsoft.com/download/en/details.aspx?id=11575 1: http://www.microsoft.com/download/en/details.aspx?id=11575
+=> http://www.microsoft.com/windows/virtual-pc/default.aspx 2: http://www.microsoft.com/windows/virtual-pc/default.aspx
+=> http://www.virtualbox.org/ 3: http://www.virtualbox.org/
+=> http://alt.fedoraproject.org/pub/alt/virtio-win/latest/images/bin/virtio-win-0.1-mm34.iso 4: http://alt.fedoraproject.org/pub/alt/virtio-win/latest/images/bin/virtio-win-0.1-mm34.iso
+=> http://forums.virtualbox.org/viewtopic.php?f=2&amp;t=43940 5: http://forums.virtualbox.org/viewtopic.php?f=2&amp;t=43940

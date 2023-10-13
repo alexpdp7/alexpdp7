@@ -1,0 +1,77 @@
+# Amigo lector
+2013-03-20
+
+Se han escrito ríos de tinta sobre la muerte de Google Reader. Una de las mayores víctimas silenciosas, son los usuarios de Blackberry. Hasta el momento, yo usaba la web de iPhone; un vestigio raro ya que hay "app", pero que era la mar de usable en mi móvil.
+
+De entre todos los reemplazos de Google Reader que se barajan, aún no he encontrado ninguno que me solucione el uso móvil en la Blackberry- no parece haber nadie que tenga una web móvil usable [la de Netvibes ya os digo yo que no se puede usar] y de momento no se huele ninguna aplicación (y por mucho que esto me estigmatice, preferiría no pagar si es necesario [aunque en el caso del lector de feeds, podría hacer una excepción]).
+
+Explorando alternativas, me he puesto un poco en plan hágaselo usted mismo. Feedly dice que implementará Normandy, un clon del backend de Google Reader[1] y de momento apostaré por esta reimplementación. De hecho, Google Reader no tiene API "oficial", pero mucha gente la ha destripado y documentado, y de hecho goza de cierta popularidad. Así pues, me he puesto a buscar librerías que implementen la API.
+
+Dado que uno trabaja mayoritariamente Python/Django y Java, esto me ha limitado un poco la búsqueda. Para Java, el mejor candidato parece greader-unofficial[2], pero parece estar un poco muerto con tan solo 47 commits en su repositorio, el último de octubre de 2011. En cambio, naturalmente parece que para Python existe libgreader[3], con commits de anteayer y con mucha mejor pinta.
+
+Así pues me he puesto manos a la obra y he iniciado un proyecto Django publicado en Github, GROLM[4] (Google Reader on Lightweight Mobile). Es un proyecto Django 1.5[5] estándar sobre una base de datos PostgreSQL.
+
+libgreader proporciona cuatro alternativas a la hora de manejar la autenticación contra Google Reader:
+
+* proporcionarle el usuario/contraseña de la cuenta Google y que él mismo autentique
+* OAuth
+* OAuth2
+* una variante de OAuth para Google App Engine
+
+; obviamente la menos usable y/o poco segura es la de la contraseña, y tampoco quiero desarrollar sobre App Engine, así que me he decantado por OAuth2 (al ser más moderna obviamente que OAuth). El mecanismo de autenticación de OAuth2 de libgreader parece completo, pero deseaba integrarlo con el sistema de autenticación de Django para ahorrarme faena.
+
+Para ello, he localizado django-social-auth[6], que integra en el sistema de autenticación de Django diversos mecanismos de login social entre los que se incluye OAuth2. La configuración de django-social-auth con OAuth2 es relativamente sencilla, simplemente tenemos que añadir el siguiente fragmento a nuestro settings.py[7]:
+
+```
+INSTALLED_APPS = (
+    # ...
+    'social_auth',
+)
+
+AUTHENTICATION_BACKENDS = (
+    'social_auth.backends.google.GoogleOAuth2Backend',
+)
+
+GOOGLE_OAUTH_EXTRA_SCOPE = [
+    'https://www.googleapis.com/auth/userinfo.email[8]',
+    'https://www.googleapis.com/auth/userinfo.profile[9]',
+    'https://www.google.com/reader/api/[10]',
+]
+
+LOGIN_URL = '/login/google-oauth2'
+LOGIN_REDIRECT_URL = '/logged-in/'
+LOGIN_ERROR_URL = '/login-error/'
+
+GOOGLE_OAUTH2_CLIENT_ID = 'xxxx'
+GOOGLE_OAUTH2_CLIENT_SECRET = 'xxxx'
+```
+
+, donde los dos últimos parámetros los podemos obtener de la Google API Console[11] (donde también deberemos añadir las URLs de nuestra aplicación para validar el proceso de login)
+
+Con esto, con anotar una vista como @login_required, al visitarla se nos redirigirá a la página de autenticación de las cuentas Google donde haremos login y se nos redirigirá de nuevo a la vista ya autenticados (se creará un usuario de Django correspondiente al usuario de Google y se vinculará a la sesión del usuario).
+
+Finalmente, para "propagar" esta autenticación a libgreader, el mecanismo que he encontrado es extraer el token de acceso que recoge django-social-auth y almacena en una base de datos y pasárselo a libgreader, algo que he encapsulado en un módulo[12], pero que en realidad es bastante sencillo:
+
+```
+usa = UserSocialAuth.objects.get(user=user)
+auth = OAuth2Method(settings.GOOGLE_OAUTH2_CLIENT_ID, settings.GOOGLE_OAUTH2_CLIENT_SECRET)
+auth.authFromAccessToken(usa.extra_data['access_token'])
+reader = GoogleReader(auth)
+```
+
+, donde user es el usuario (que desde una vista podemos obtener por ejemplo haciendo request.user). Una vez tenemos esto, ya obtenemos el objeto GoogleReader que constituye el punto de acceso a la API.
+
+El resto de código implementado por el momento tan sólo obtiene la reading-list (los elementos sin leer) y muestra sus 20 primeras entradas.
+
+=> http://blog.feedly.com/2013/03/14/google-reader/ 1: http://blog.feedly.com/2013/03/14/google-reader/
+=> https://code.google.com/p/greader-unofficial/ 2: https://code.google.com/p/greader-unofficial/
+=> https://github.com/askedrelic/libgreader 3: https://github.com/askedrelic/libgreader
+=> https://github.com/alexpdp7/grolm.pdp7 4: https://github.com/alexpdp7/grolm.pdp7
+=> http://www.djangoproject.com/ 5: http://www.djangoproject.com/
+=> https://github.com/omab/django-social-auth 6: https://github.com/omab/django-social-auth
+=> https://github.com/alexpdp7/grolm.pdp7/blob/master/grolm.pdp7/src/grolm/settings.py 7: https://github.com/alexpdp7/grolm.pdp7/blob/master/grolm.pdp7/src/grolm/settings.py
+=> https://www.googleapis.com/auth/userinfo.email 8: https://www.googleapis.com/auth/userinfo.email
+=> https://www.googleapis.com/auth/userinfo.profile 9: https://www.googleapis.com/auth/userinfo.profile
+=> https://www.google.com/reader/api/ 10: https://www.google.com/reader/api/
+=> https://code.google.com/apis/console 11: https://code.google.com/apis/console
+=> https://github.com/alexpdp7/grolm.pdp7/blob/master/grolm.pdp7/src/grolm/main/reader_service.py 12: https://github.com/alexpdp7/grolm.pdp7/blob/master/grolm.pdp7/src/grolm/main/reader_service.py

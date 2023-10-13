@@ -1,0 +1,42 @@
+# Jugando en 2013
+2013-12-28
+
+Mis hábitos videojueguiles se han incrementado sustancialmente recientemente. Sin más, a qué he estado jugando últimamente:
+
+## Humble Bundles
+
+Me enganché ahí por septiembre de 2012 con el Humble Indie Bundle 6 por Bit.Trip Runner[1], el Gratituous Space Battles[2], Shatter[3] y SPAZ[4] (aunque este último no me tiraba inicialmente en Linux). Sobre todo al que más le di fue al Bit.Trip, hasta que llegué al límite de mis reflejos.
+
+En junio de 2013 le di al Humble Bundle with Android 6, atraído por el prometedor Frozen Synapse, que cumplió sus promesas como ya explique en una entrada anterior[5]. Luego estas navidades han caído casi consecutivamente:
+
+* Humble Bundle: PC and Android 8, por el genial AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome[6]
+* Humble Jumbo Bundle, por el Serious Sam 3: BFE, al que aún no he jugado mucho
+* y la Humble Weekly Sale: Puppy Games, un pack de jueguecillos retro de Puppy Games[7] la mar de gracioso, que incluye un Galaga, un Robotron y algo parecido al Paradroid, entre otros
+
+## Steam
+
+En un arranque de nostalgia, y en parte por premiar el compromiso de Valve con Linux, me he pillado dos FPS clásicos.
+
+El primero, por supuesto, mi querido Quake II, al que le dediqué muchas horas gloriosas en su momento y del que quiero recuperar el disfrute descerebrado de batallas al límite con legiones de bots. La verdad está siendo una odisea por ahora inacabada, ya que primero sólo está disponible en Windows, con lo que hay que instalarlo en Steam para Windows (en máquina virtual en mi caso) y traspasar los archivos de juego para usarlo con un cliente Linux (Yamagi[8], en mi caso). Con esto ya he podido jugar (por enésima vez) a los primeros niveles del modo de un solo jugador (aunque a 1920x1080 y unos gráficos que no disfruté en su época). Pero la clave está en hacer funcionar LMCTF[9], el mítico capturar la bandera con el "off-hand hook", un gancho que puedes disparar al más puro estilo Spider-Man para columpiarte por el mapa mientras disparas, una mecánica de juego absolutamente gloriosa... y luego sumarle un bot (el Ultra, creo).
+
+El otro es el Counter-Strike clásico. Ha sido genial comprobar como los servidores de un juego que salió en el 99 (¡el 99! ¡hace 14 años!) siguen llenos de jugadores matándose en el Dust. Yo no era muy de Counter en aquella época, pero estaba de oferta y es disfrutar de una pieza de museo.
+
+## PS3
+
+Tenía la Playstation un poco olvidada- el GTA4 no era muy de mi agrado, el GT5 lo tenía ya muy visto y sólo le daba con cierta frecuencia al último Pro. Pero en esta última parte del año salió el GTA5, que me acabé y describí por aquí[10], y hace unos días le he echado mano al GT6. Cuando tenga un poco más de rodaje ya escribiré unas líneas, pero de momento sí, decir que es el 5 con sus mayores defectos corregidos- es decir, excelencia sobre ruedas.
+
+## En definitiva...
+
+Sí, le doy más a los videojuegos que antes. Con los Humble Bundles y Steam, la barrera de preferir Linux se reduce bastante y puedo jugar cómodamente en el PC, con el complemento de la PS3. Vienen otras sorpresas, claro... y quizá tendría que hacer otras intentonas de MESS, UAE, Frodo y demás, pero el tiempo es limitado y uno no puede dedicar tanto tiempo como quisiera a los aspectos lúdicos. Pero da gusto gozar de las maravillas modernas y recuperar los clásicos que se demuestran imperecederos.
+
+
+=> http://www.bittripgame.com/ 1: http://www.bittripgame.com/
+=> http://positech.co.uk/gratuitousspacebattles/ 2: http://positech.co.uk/gratuitousspacebattles/
+=> http://www.shattergame.com/ 3: http://www.shattergame.com/
+=> http://spacepiratesandzombies.com/ 4: http://spacepiratesandzombies.com/
+=> gemini://alex.corcoles.net/2013/06/ensaladilla-de-tiros-frozen-synapse/ 5: gemini://alex.corcoles.net/2013/06/ensaladilla-de-tiros-frozen-synapse/
+=> http://www.dejobaan.com/awesome/ 6: http://www.dejobaan.com/awesome/
+=> http://www.puppygames.net/ 7: http://www.puppygames.net/
+=> http://www.yamagi.org/quake2/ 8: http://www.yamagi.org/quake2/
+=> http://www.lmctf.com/ 9: http://www.lmctf.com/
+=> gemini://alex.corcoles.net/2013/11/el-cinco/ 10: gemini://alex.corcoles.net/2013/11/el-cinco/

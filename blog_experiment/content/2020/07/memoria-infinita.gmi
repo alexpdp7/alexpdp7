@@ -1,0 +1,15 @@
+# Memoria infinita
+2020-07-30
+
+https://es.aliexpress.com/item/4001217873190.html[1][2]
+
+Parece ser que en Aliexpress ya hay PCs de refrigeración pasiva (véase The Scooter Computer de Jeff Atwood[3]) con 64gb de RAM.
+
+Son unos 750€; 32gb salen sobre los 500€. Súmese el canguelo (y potenciales problemas) de gastarse una cantidad significativa de dinero en importar algo desde tan lejos.
+
+Pero sería un laboratorio bastante potente para experimentar. El servidor más o menos equivalente en Hetzner va a 40€/mes (y si uno va por subasta, no hay inversión inicial). Falta investigar la opción tienda local, eso sí.
+
+
+=> https://es.aliexpress.com/item/4001217873190.html 1: https://es.aliexpress.com/item/4001217873190.html
+=> https://es.aliexpress.com/item/4001217873190.html 2: https://es.aliexpress.com/item/4001217873190.html
+=> https://blog.codinghorror.com/the-scooter-computer/ 3: https://blog.codinghorror.com/the-scooter-computer/

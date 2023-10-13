@@ -1,0 +1,26 @@
+# Recargado descargando
+2021-10-24
+
+Yo soy mucho de montarme castillos de arena para derrocar a las redes sociales. Pero resulta que hay mecanismos simples que quizá sean efectivos. La lástima es que claro, si lo intentas, igual te ahorcan.
+
+=> https://www.jwz.org/blog/2021/10/unfollow-everything/
+
+Lo otro es que sigo echando de menos tener un teclado físico en mi móvil y parece que la nueva BlackBerry quizá no salga. Igual debería considerar alternativas...
+
+=> https://www.help2type.ch/en/
+
+Insisto en que no coincido mucho con el detalle de Kids can't use computers[1], pero me inquieta su idea original. File Not Found sería una interesante continuación enfocada a... los sistemas de ficheros jerárquicos.
+
+=> http://www.coding2learn.org/blog/2013/07/29/kids-cant-use-computers/ [1] Kids can't use computers... and this is why it should worry you
+=> https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z [2] File Not Found
+
+Para los fans de los planos secuencia imposibles, me descubren (sí, en Twitter) "Soy Cuba", de un cineasta ruso que en el 64 hacía auténticas virguerías. De muestra:
+
+=> https://farside.link/invidious/watch?v=rjuLkJ4m-mc
+
+El resto, en batiburrillo:
+
+=> https://www.polygon.com/22709126/ethereum-creator-world-of-warcraft-nerf-nft-vitalik-buterin Las terribles consecuencias medioambientales (y de estulticia humana) de lo difícil que es equilibrar los juegos.
+=> https://web.archive.org/web/20150112075949/https://www.saildart.org/TEXDR.AFT%5B1%2CDEK%5D1#91;1,DEK%5D1 El diseño original de TeX. Donald Knuth es un ser casi sobrenatural.
+=> https://www.thirtythreeforty.net/posts/2021/10/ti-calculator-innovation/ Un alto porcentaje de los que leerán esto son más de HP que de TI, pero aun así...
+=> https://www.rtve.es/noticias/20211001/amazon-alexa-tapa-palabra-negros-cancion-duo-dinamico/2177801.shtml La dificultad de la censura, en su variante multilingüe.

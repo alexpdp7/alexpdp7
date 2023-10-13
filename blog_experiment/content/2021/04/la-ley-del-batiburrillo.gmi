@@ -1,0 +1,21 @@
+# La ley del batiburrillo
+2021-04-05
+
+Saben que me gusta mucho la falacia de McNamara [1] y por tanto What Data Can't Do de The New Yorker [2] que me descubre la ley de Goodhart [3] es de cita obligada para mí.
+
+=> https://en.wikipedia.org/wiki/McNamara_fallacy [1] La falacia de McNamara
+=> https://www.newyorker.com/magazine/2021/03/29/what-data-cant-do [2] What Data Can't Do, en The New Yorker
+=> https://en.wikipedia.org/wiki/Goodhart%27s_law [3] La ley de Goodhart
+
+El resto se queda en batiburrillo:
+
+=> https://www.quantamagazine.org/mathematicians-inch-closer-to-matrix-multiplication-goal-20210323/ Emoción en Quanta Magazine por la multiplicación de matrices.
+=> https://www.reddit.com/r/Doom/comments/4nt3fo/i_got_bored_and_did_some_math_on_the_original/ La física del Doomguy.
+=> https://www.polygon.com/lord-of-the-rings/22349162/lotr-elijah-wood-dominic-monaghan-wig-prank La transformación del fandom durante la internetificación de las masas.
+=> https://www.penny-arcade.com/comic/2021/03/29 Penny Arcade predice la economía futura en tres viñetas.
+=> https://www.wired.com/story/sexy-new-theory-consciousness-will-give-you-feels/ Sobre la consciencia.
+=> https://www.snopes.com/fact-check/spongebob-squarepants-episodes-removed/ Snopes sobre episodios retirados de Bob Esponja.
+=> https://www.osi.es/es/guia-ciberataques La guía de ciberataques del Instituto Nacional de Ciberseguridad.
+=> https://farside.link/nitter/genesimmons/status/1151670866075430912 El sueño del de Kiss de ser La Cosa.
+=> https://www.polygon.com/videos/2021/4/1/22352583/simcity-hidden-politics-ideology-urban-dynamics La política del algoritmo (del Sim City).
+=> https://www.snopes.com/news/2021/04/02/sleeping-octopuses-might-experience-fleeting-dreams/ ¿Sueñan los pulpos con la dominación mundial?

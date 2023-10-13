@@ -1,0 +1,10 @@
+# Reliquias
+2022-03-12
+
+En otro de mis arranques de locura, he recuperado un backup que tenía por ahí de mi antiguo blog (2003-2010) y lo he añadido aquí.
+
+Son casi mil entradas y probablemente una cantidad sustancial de enlaces rotos, aunque haciendo clics al azar me he encontrado un sorprendente número de enlaces que sí funcionan casi tras dos décadas.
+
+(El desafío sería tirar de Wayback Machine para ver qué se puede recuperar, pero quién tiene tiempo para eso. Hace unos pocos días me puse con las entradas con más visitas; muy laborioso y no obtuve demasiados resultados.)
+
+=> https://github.com/alexpdp7/gemini_blog/commit/5dcd99898f2bda45b7fc97ccf9cc7dfb4145431c Mi infructuoso intento de arreglar enlaces rotos relativamente modernos

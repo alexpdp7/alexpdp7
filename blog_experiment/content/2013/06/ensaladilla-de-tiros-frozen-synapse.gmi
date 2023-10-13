@@ -1,0 +1,24 @@
+# Ensaladilla de tiros: Frozen Synapse
+2013-06-22
+
+Hace unas días me llegó el anuncio de un nuevo Humble Bundle[1], el célebre pack de juegos "paga lo que quieras" que sale ocasionalmente. Le eché un vistazo al listado y me llamó la atención uno, Frozen Synapse[2], una especie de simulador de tiroteos estratégico. Es de los que necesitas pagar más que la media para obtener, pero siendo la media ahora mismo menos de 4€, me lancé (puse $10, de hecho).
+
+La premisa es sencilla, controlas una pequeña escuadra de agentes en escaramuzas contra otros grupos. El juego consta de turnos de 5 segundos, en los que puedes dar órdenes a tus hombres: moverse, apuntar, cubrirse, etc.; le das al play y se desarrolla el turno según las instrucciones.
+
+Las órdenes son relativamente simples y dispones de un modo de previsualización que facilita bastante el diseño de las órdenes... no hay munición, energía, habilidades ni nada; incluso prometen que la simulación es determinista y exenta de azar. Se puede jugar en modo "luz" o "oscuro", lo que determina si eres omnisciente y ver a tus oponentes siempre o sólo cuando tus agentes tengan contacto visual. Yo sólo he jugado con luz, entiendo que el oscuro lo complicará todo bastante y le añadirá emoción, pero de momento quiero cogerle el truco fácilmente.
+
+Para el aspecto visual, podéis echarle un vistazo al trailer:
+
+=> https://farside.link/invidious/watch?v=BOlV_9DYnOw
+
+, los gráficos son sencillos y atractivos (y como bonus, ¡funciona aceptablemente hasta en mi netbook!).
+
+Debo decir que sólo he echado unas cuantas escaramuzas, las primeras misiones del modo campaña y una partida rápida online, pero de momento me parece un juego fantástico.
+
+Ni cuando tenía mucho tiempo para jugar me atraían los juegos complejos, y ahora que dispongo de pocos ratos para los videojuegos, más aún. Los juegos con mil tipos de unidades, opciones, recursos a gestionar, etc. me cansan y me hacen sentir como si estuviese trabajando de contable más que jugando. Frozen Synapse, en cambio, con muy pocas variables y mecanismos de juego en los que pensar, consigue mucha profundidad táctica. El sistema de turnos le da bastante emoción a la cosa, y de momento parece todo bastante equilibrado. Me recuerda mi parte favorita del UFO: Enemy Unknown[3], los tensos tiroteos, sin los (para mi) tediosos interludios de gestión de recursos.
+
+Si buscáis un juego táctico sin complicaciones pero con dosis de emoción, creo que Frozen Synapse es una excelente opción... y es tan barato que casi no entraña riesgo.
+
+=> http://www.humblebundle.com/ 1: http://www.humblebundle.com/
+=> http://www.frozensynapse.com/ 2: http://www.frozensynapse.com/
+=> http://en.wikipedia.org/wiki/UFO:_Enemy_Unknown 3: http://en.wikipedia.org/wiki/UFO:_Enemy_Unknown

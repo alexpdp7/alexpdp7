@@ -1,0 +1,26 @@
+# Algunos cacharros
+2023-04-22
+
+Aparte de la tanda habitual, un par de notas:
+
+=> https://www.lenovo.com/es/es/laptops/lenovo/student-chromebooks/Lenovo-CT-X636/p/ZZICZCTCT1X Me he comprado un Lenovo IdeaPad Duet
+
+Básicamente porque quería jugar con ChromeOS y estaba la mar de rebajado. Por el precio es una bicoca, pero obviamente tiene una CPU floja floja. En lo que más se nota es que no puede pasar de 720p en una pantalla externa (aunque su pantalla es 1920x1200). Sirve para uso ligero en el sofá y espero que para ver series (tiempo libre, vuelve)- aunque para esto, ojo que no tiene puerto de auriculares (viene con un adaptador USB-C).
+
+=> https://emeet.com/products/speakerphone-luna y un EMEET Luna
+
+Si os hace ilu tener un altavoz de esos para conferencias, este no está mal. Coge Bluetooth, USB Audio, su propio dongle USB inalámbrico... y tiene entradas y salidas de jack. O sea, que lo hace todo. Se puede escuchar música decentemente (friquis abstenerse) y mientras uno hable cerca del micrófono, al parecer se suena aceptablemente bien. Defectillos: el control de volumen es poco granular, especialmente en la parte baja; además tiene un sonido de encendido bastante innecesario.
+
+Y por supuesto, la tanda...
+
+=> https://www.theguardian.com/news/2023/mar/14/the-disabled-villain-why-sensitivity-reading-cant-kill-off-this-ugly-trope Sobre que la inclusividad de los discapacitados... parece que sólo es para villanos
+=> https://www.polygon.com/reviews/23641383/cyberpunk-red-black-chrome-american-gun-culture-review Los libros de juegos de rol son un género literario, no juegos
+=> https://www.quantamagazine.org/how-randomness-improves-algorithms-20230403/ El azar lo mejora todo
+=> https://theluddite.org/#!post/technological-antisolutions-revisited Nuevo término: antisolución tecnológica (vía JWZ)
+=> https://www.polygon.com/23632518/mugen-strongest-fighting-game-characters Las aburridas escaladas de poder de Bola de Dragón me parecen pelín más interesantes en el Mugen
+=> https://liliputing.com/this-30-accessory-lets-you-use-a-blackberry-keyboard-with-your-pc-or-any-other-device/ Mucho teclado mecánico, pero este teclado USB es muy interesante
+=> https://www.theverge.com/2023/3/9/23632415/microsoft-word-control-shift-v-paste-shortcut-plaintext ¿Me dices que Microsoft Word no tenía ctrl+shift+v?
+=> https://lifehacker.com/a-new-beginning-for-lifehacker-1850278940 ¿"Volverá" Lifehacker? De momento no he notado mucho
+=> https://www.dangermouse.net/wordpresshome/2023/03/05/fruit-classification/ DMM y el recurrente lío botánico de lo que es fruta
+=> https://www.theverge.com/2023/4/10/23677232/new-york-times-digits-math-puzzle-game-nyt No lo petará como el Wordle, pero llevo unos días haciendo a diario el "Cifras" (sin "Letras") del New York Times
+=> https://www.theverge.com/2023/4/18/23686792/amazon-prime-video-dialogue-boost-speech-ai Prime Video es el servicio de streaming más infravalorado. Con esta funcionalidad, podría ser el mejor

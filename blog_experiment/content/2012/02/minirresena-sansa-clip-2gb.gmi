@@ -1,0 +1,31 @@
+# Minirreseña : Sansa Clip + 2GB
+2012-02-10
+
+Tras un breve interludio, he podido recuperar la costumbre de escuchar música mientras trabajo. Raro que es uno, en vez de usar el ordenador donde trabajo o el móvil, me he decidido a comprarme un reproductor de MP3. Principalmente por:
+
+* No tengo ninguna radio portátil y me gusta escuchar Carrusel DeportivoTiempo de Juego. Puedo escucharlo en streaming con el móvil, pero sólo es viable cuando tengo wifi a mano y además, funde batería
+* La batería de la Blackberry me aguanta bastante (con un uso intenso he llegado a casa con un 50%), pero no me gusta despilfarrarla inútilmente
+* No me gusta tener mi colección de música en ordenadores ajenos
+
+Con ello, me puse a buscar reproductores. Criterios:
+
+* Radio FM
+* 20GB+ de capacidad; paso de tener que seleccionar música
+* Debe poderse usar para almacenar ficheros arbitrarios (Zune 120 que me cedían, eliminado [nota: los iPod requieren el uso de iTunes para gestionar música, pero puedes usarlos como mass storage para guardar ficheros. El Zune, hasta donde yo he podido ver, no)
+* Conector estándar. Bonus si se enchufa sin cable (como una memoria Flash USB) [nota: podría considerarse que el conector de los iPod es estándar de facto]
+* Carga por USB
+* Sencillez de gestión. Tengo una máquina virtual con Windows, pero en general uso Linux. Usar cosas que se basan en protocolos cerrados no me gusta (puede funcionar *ahora*, pero igual mañana no). MTP me parece aceptable (aunque no le veo la utilidad y toca un poco las narices- pero al menos es un protocolo publicado). Zune fuera otra vez (usa un MTP especial sin documentar [y ni existen implementaciones alternativas]) y iPod (iTunes, simplemente di no).
+
+Inicialmente pensaba que encontraría dispositivos que cumpliesen todo esto a porrillo, pero la verdad que al final tuve que irme al famoso Sansa Clip+[1] de 2GB con tarjeta MicroSD de 32GB. El aparato está por 36€ en amazon.es, junto con la tarjeta de memoria y gastos de envío se queda todo en unos 60€ (una auténtica ganga, en mi opinión).
+
+El único requisito que no cumple es que tiene conector para cable MiniUSB cuando hubiera preferido que fuese "macho" y se pudiese conectar directamente a un puerto USB: posibilidad de gestionar música, ficheros y cargar sin tener que tener un cable a mano. Los cables MiniUSB son suficientemente comunes como para que no me parezca algo insuperable.
+
+El funcionamiento del aparato es correcto- cumple las 15h de batería anunciadas con bastante precisión (me da para dos días sin cargarlo, pero mi intención es cargarlo mientras me voy a comer- al parecer las baterías de ion litio son amigas de las cargas frecuentes). El interfaz es de botoncitos con d-pad, todos muy correctos y se puede usar perfectamente dentro de un bolsillo (pausa, volumen, siguiente canción...), aunque lógicamente no es muy bueno para navegar (buscar un artista por nombre, por ejemplo, es un rollo en un d-pad; sería mejor algo "analógico" como la rueda de un iPod o una pantalla táctil). La funcionalidad de radio es un poco limitada (pocos presets, la navegación por presets es unidireccional).
+
+En cualquier caso, el aparato cumple con su función más que aceptablemente y con fallos perfectamente tolerables.
+
+El bonus es que es uno de los reproductores mejor soportados por Rockbox[2], un popular firmware para reproductores MP3. Este podría en principio corregir algún defectillo (supongo que la funcionalidad de radio será mejor) y mejorar el interface, a la par que ofrecer alguna funcionalidad extra (viene con bastantes juegos). Sin embargo, a pesar de que el proceso de instalación para sencillo y seguro, de momento no lo he intentado- igual cuando el aburrimiento se apodere de uno...
+
+
+=> http://www.sandisk.com/products/sansa-music-and-video-players/sandisk-sansa-clipplus-mp3-player 1: http://www.sandisk.com/products/sansa-music-and-video-players/sandisk-sansa-clipplus-mp3-player
+=> http://www.rockbox.org/ 2: http://www.rockbox.org/

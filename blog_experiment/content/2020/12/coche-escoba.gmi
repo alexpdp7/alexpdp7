@@ -1,0 +1,26 @@
+# Coche escoba
+2020-12-25
+
+Sobre los orígenes del lenguaje de programación C (con detalles sobre su antepasado BCPL, famoso por su influencia en el Commodore Amiga).[1]
+
+Un descubrimiento fijarse en que Wired sorbe muchos artículos de Quanta Magazine[2]. Esto me ha llevado a este fascinante artículo sobre los "castores atareados", una maravillosa teoría entroncada en el "problema de la parada" que ofrece una elegante, pero efectivamente inviable de resolver problemas matemáticos[3].
+
+La Sophie también me ha llevado a descubrir True Faith (la canción de New Order, no ninguna creencia). Y de ahí a descubrir que el videoclip[4] (el videoclip en Youtube[5], por si esa instancia de Invidious deja de ir) tiene... lenguaje de signos francés[6].
+
+Un tipo que ha encontrado la manera de correr Doom en... patatas[7] (en Youtube, donde podéis el curioso rap que describe el vídeo[8]).
+
+Finalmente, el confuso panorama actual de las figuritas de La Guerra de las Galaxias[9].
+
+De bonus, algo que ha sacado mi querido Internet Archive en su función de biblioteca, aunque no acabo de entenderlo[10].
+
+
+=> https://arstechnica.com/features/2020/12/a-damn-stupid-thing-to-do-the-origins-of-c/ 1: https://arstechnica.com/features/2020/12/a-damn-stupid-thing-to-do-the-origins-of-c/
+=> https://www.quantamagazine.org/ 2: https://www.quantamagazine.org/
+=> https://www.quantamagazine.org/the-busy-beaver-game-illuminates-the-fundamental-limits-of-math-20201210/ 3: https://www.quantamagazine.org/the-busy-beaver-game-illuminates-the-fundamental-limits-of-math-20201210/
+=> https://farside.link/invidious/watch?v=mfI1S0PKJR8 4: https://farside.link/invidious/watch?v=mfI1S0PKJR8
+=> https://farside.link/invidious/watch?v=mfI1S0PKJR8 5: https://farside.link/invidious/watch?v=mfI1S0PKJR8
+=> https://en.wikipedia.org/wiki/True_Faith_(song)#Music_video 6: https://en.wikipedia.org/wiki/True_Faith_(song)#Music_video
+=> https://farside.link/invidious/watch?v=KFDlVgBMomQ 7: https://farside.link/invidious/watch?v=KFDlVgBMomQ
+=> https://farside.link/invidious/watch?v=KFDlVgBMomQ 8: https://farside.link/invidious/watch?v=KFDlVgBMomQ
+=> https://www.polygon.com/star-wars/2020/12/21/22063580/star-wars-toys-action-figures-collectors-mandalorian-replicas 9: https://www.polygon.com/star-wars/2020/12/21/22063580/star-wars-toys-action-figures-collectors-mandalorian-replicas
+=> https://openlibrary.org/explore 10: https://openlibrary.org/explore

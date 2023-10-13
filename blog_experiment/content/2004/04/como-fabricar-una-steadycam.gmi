@@ -1,0 +1,6 @@
+# Como fabricar una steadycam...
+2004-04-09
+
+Si alguna vez necesito una steadycam, aquí [1] hay instrucciones para fabricar una por cuatro chavos.
+
+=> http://www-2.cs.cmu.edu/~johnny/steadycam/ [1] aquí

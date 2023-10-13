@@ -1,0 +1,10 @@
+# Asuntos gregorianos
+2019-12-16
+
+Llevo cierto tiempo manteniendo un par de calendarios de Google Calendar que eran un poco tostón, así que para 2020 he creado:
+
+https://github.com/festivus-es/festivus[1][2]
+
+
+=> https://github.com/festivus-es/festivus 1: https://github.com/festivus-es/festivus
+=> https://github.com/festivus-es/festivus 2: https://github.com/festivus-es/festivus

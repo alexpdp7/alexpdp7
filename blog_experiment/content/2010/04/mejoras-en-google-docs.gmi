@@ -1,0 +1,11 @@
+# Mejoras en Google Docs
+2010-04-14
+
+Es bien conocida mi afición por las hojas de cálculo- esa herramienta de programación funcional[1] frecuentemente mal empleada como base de datos[2] que es fácilmente comprensible.
+
+Así pues, celebro profundamente las mejoras introducidas por Google recientemente en la hoja de cálculo de Google Docs[3]. Si aún no le habéis dado al botón de nueva versión (arriba, al lado de vuestro usuario)- la gran ventaja para mí es que ya no tenemos que editar y visualizar las fórmulas de las celdas en la misma celda (lo cual era harto incómodo, ya que el espacio era extremadamente reducido), sino que disponemos de un cuadro dedicado en la barra de herramientas como en el Excel.
+
+
+=> http://en.wikipedia.org/wiki/Functional_programming 1: http://en.wikipedia.org/wiki/Functional_programming
+=> http://en.wikipedia.org/wiki/Relational_database_management_system 2: http://en.wikipedia.org/wiki/Relational_database_management_system
+=> http://googledocs.blogspot.com/2010/04/preview-faster-more-feature-rich-google.html 3: http://googledocs.blogspot.com/2010/04/preview-faster-more-feature-rich-google.html

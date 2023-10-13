@@ -1,0 +1,6 @@
+# A los que no gusten del rojo
+2007-05-12
+
+Supongo que la mejor alternativa es que haya circuito hamiltoniano [1].
+
+=> http://en.wikipedia.org/wiki/Hamiltonian_path [1] circuito hamiltoniano

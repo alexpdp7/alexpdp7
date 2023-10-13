@@ -1,0 +1,14 @@
+# El bene-volo
+2006-10-21
+
+El dilema del prisionero [1] es una de esas cosas muy fáciles de explicar pero que dan para escribir libros. En breve, es un cabroncete juego para dos jugadores que consiste en lo siguiente:
+
+Dos sospechosos son arrestados por la policía acusados de un delito. Les visitan por separado y les ofrecen un trato por testificar contra el otro. Si un sospechoso delata al otro y el otro calla, el delator queda libre y el silencioso se lleva una condena (pongamos que diez años). Si los dos callan, sólo se les puede acusar de un delito menor y cumplen una condena corta (pongamos que seis meses). Si los dos delatan, sendas condenas de dos años.
+
+Desde el punto de vista individual, está claro que lo mejor es chivarse; seguro que evitas la condena de diez años, como mucho te llevas dos años y puedes quedar libre. En lo colectivo, lo mejor es que los dos callen- condenas cortas (evaluando todas las posibilidades, es la que se cumple menos tiempo de condena en total).
+
+=> http://en.wikipedia.org/wiki/Prisoner%27s_dilemma [1] dilema del prisionero
+
+Este sencillo juego ilustra la decisión de ir a por el bien común o el individual. Sorprendentemente, en un análisis de estrategias sobre el mismo problema extendido (esto es, no jugando a un solo turno, si no ofreciendo el dilema varias veces seguidas), se demostró que las tácticas benévolas son las mejores para el individuo (si es que esto está lleno de paradojas), aunque sin pasarse de tonto- es decir, pese a que la mejor jugada en apariencia es delatar, cooperando se puede conseguir un beneficio individual no estrictamente colectivo.
+
+En fin, el artículo de la Wikipedia lo explica con más detalle; curiosamente se me ha ocurrido escribir sobre esto mientras observaba el comportamiento del tráfico... que es uno de los ejemplos del artículo de la Wikipedia.

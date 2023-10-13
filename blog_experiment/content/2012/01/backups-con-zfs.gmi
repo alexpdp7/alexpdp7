@@ -1,0 +1,30 @@
+# Backups con ZFS
+2012-01-19
+
+Hasta ahora había estado usando el excelente rdiff-backup para hacer backups de mis datos (unos 700gb) a una unidad externa USB. Realmente funciona muy bien; el último backup está directamente disponible en el disco- sin necesitar usar rdiff-backup para leerlo y se guardan incrementos, con lo que es relativamente sencillo recuperar ficheros borrados (usando sus herramientas). Podemos eliminar incrementales fácilmente y en definitiva, es una solución sencilla y harto recomendable.
+
+Sin embargo, tiene en mi opinión un par de defectos. No es sencillo comprimir los backups convenientemente (se puede hacer usando un sistema de archivos que soporte compresión, pero no hay muchos) y si renombras o mueves archivos grandes, pagas su espacio doble (una vez en su estado anterior, otra vez en el nuevo). A parte, la gestión de incrementales es lenta y los backups también tienden a alargarse.
+
+Por ello se me ocurrió usar ZFS. ZFS es el sistema de archivos "futurista" de Sun Microsystems (ahora Oracle). Incluye snapshots baratos, deduplicación y compresión transparente. Así pense que si sincronizaba los datos que quería preservar a un volumen ZFS y tomaba un snapshots, tendría backups (podría usar los snapshots para recuperar archivos antiguos). Gracias a la deduplicación, un mismo archivo que en varios snapshots tuviese nombres diferentes sólo sería almacenado una vez. Y de bonus, compresión.
+
+El problema es que el futuro de ZFS es incierto. Lógicamente Oracle seguirá soportándolo sobre Solaris, pero lógicamente no estoy dispuesto a pagar por ello habiendo sistemas operativos gratuitos perfectamente usables. Actualmente ZFS (y Solaris) son open source, y por ello ZFS funciona en otros sistemas operativos, pero no está claro lo que pueda suceder a partir de ahora.
+
+En todo caso, me lancé a la piscina. En Linux existen dos implementaciones, ZFS on Linux[1], de reciente aparición- pero no es del todo agua clara (probablemente no se pueda distribuir dentro de Debian y se debe compilar contra el kernel- nada irresoluble pero desde luego inconveniente), así que me decidí por ZFS-Fuse[2], que está en Debian y parece más "estable".
+
+Una vez instalado mediante apt-get o similares, simplemente tenemos que hacer algo así como:
+
+zpool create zfs /dev/sdx zfs create zfs/backup zfs set dedup=verify zfs/backup zfs set compression=on zfs/backup
+
+, donde /dev/sdx es un dispositivo externo. Dedup y compression tienen varias opciones que vale la pena investigar. Una vez esto, uso un script como este para el backup:
+
+#!/bin/sh
+
+/etc/init.d/zfs-fuse start zpool import -a rsync -ax --delete --exclude ... --exclude ... / /zfs/backup/julius/root/ zfs snapshot zfs/backup@$(date +%Y%m%d%H%M) zfs list -t snapshot zpool export zfs /etc/init.d/zfs-fuse stop
+
+; la mayor parte del follón es que exporto e importo el sistema ZFS para poder desconectar el dispositivo USB.
+
+El rendimiento de ZFS bajo Fuse y mi disco USB es horripilante (3Mb/s), probablemente una confabulación de FUSE, lentitud de USB, mal disco duro externo, compresión y deduplicación, pero una vez pasa el interminable primer backup, el incremental me parece hasta más rápido que el de rdiff-backup. La deduplicación y compresión no dan muchos réditos de momento, pero es un sistema interesante.
+
+
+=> http://zfsonlinux.org/ 1: http://zfsonlinux.org/
+=> http://zfs-fuse.net/ 2: http://zfs-fuse.net/

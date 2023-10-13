@@ -1,0 +1,13 @@
+# Riachuelos concienzudos
+2008-05-05
+
+Antes de la wikipedización del universo (citation needed [1]), uno era aficionado a Everything2 [2], una especie de protowikipedia de tintes literarios.
+
+E2 tenía bastante parecido a la Wikipedia, y una cosa que me fascinaba eran los llamados soft links [3], enlaces creados por los usuarios al navegar de un nodo de E2 a otro.
+
+Propondría una renovación dospuntocérica de esta idea. ¿Qué opinan de un, digamos, plugin de Grease Monkey [4] que registre el stream of consciousness ese que se generaría mientras se navega por la Wikipedia [nota para los t... ¿'stream of consciousness'? [nota 2 para los t.: una vez vi escrito 'molino de rumores' en un libro]]?
+
+=> http://en.wikipedia.org/wiki/Wikipedia:Citing_sources [1] citation needed
+=> http://www.everything2.com/ [2] Everything2
+=> http://www.everything2.com/e2node/soft%2520link [3] soft links
+=> https://addons.mozilla.org/en-US/firefox/addon/748 [4] Grease Monkey

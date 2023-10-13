@@ -1,0 +1,20 @@
+# La saltarina monarquía persa
+2020-08-16
+
+En lo que quizá podría ser un récord, este fin de semana me he pasado un juego que salió hace 31 años.
+
+El ultrafamoso Prince of Persia salió para el Apple II en 1989, pero aunque hubo versión para Amiga y MS-DOS, nunca había jugado, hasta que vi anunciado una versión para RetroFW y decidí jugar en la RG 300 de las que os hablé recientemente[1]. Jordan Mechner, el autor, publicó el código fuente en Github hace ya tiempo[2], y existen infinidad de maneras de jugar (en Google se encuentran rápido maneras de jugar en un navegador).
+
+Aunque yo no soy mucho de plataformas, la verdad que el juego engancha desde el primer momento. Lo primero que llama la atención es la fantástica animación, a base de rotoscopia del hermano del autor y de una peli de Robin Hood del 38. Yo diría que pocos sprites de la época se debían mover con la fluidez del príncipe dando brincos por ahí.
+
+El juego combina plataformeo con niveles donde hay que encadenar endiabladas secuencias de saltos que pueden acabar con la paciencia de cualquiera, con duelos a espada sorprendentemente entretenidos (cada villano tiene una "personalidad" distinta que yo he tenido que descifrar a base de muchas muertes) y algún puzzle que me ha costado bastante sacar.
+
+Es realmente notable como a partir de un conjunto muy limitado de elementos (carrera, pasos, saltos y dos movimientos de espada) se construye un juego tan variado, entretenido y adictivo. Debo confesar que he tenido que consultar Youtube dos o tres veces para salir de algún atolladero, pero el juego es bastante "descubrible" y progresivo, complicando las mecánicas poco a poco con mucho acierto.
+
+Jordan Mechner pretendía un juego cinematográfico y creo que, con las limitaciones del Apple II, entre la animación, un buen guion de secuencias de acción (a parte de poder estocar a nuestros enemigos, les podemos hacer caer hasta su muerte) y alguna sorpresa que, a pesar de tener 30 años, prefiero no desvelar... aunque obviamente no puede obrar milagros, consigue un juego que supera a muchos, muchísimos juegos hechos por pequeños ejércitos y que corren plataformas con las que ni se soñaba en 1989.
+
+Para los pacientes (la verdad que el juego me ha parecido la mar de difícil y me ha costado mucho acabármelo) que no hayan gozado de esta pequeña maravilla, vale la pena escarbar para encontrar la manera de jugar al Prince of Persia.
+
+
+=> gemini://alex.corcoles.net/2020/08/sistemas-oxidados/ 1: gemini://alex.corcoles.net/2020/08/sistemas-oxidados/
+=> https://github.com/jmechner/Prince-of-Persia-Apple-II/ 2: https://github.com/jmechner/Prince-of-Persia-Apple-II/

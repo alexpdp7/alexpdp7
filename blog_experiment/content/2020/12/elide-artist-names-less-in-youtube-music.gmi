@@ -1,0 +1,11 @@
+# Elide artist names less in YouTube Music
+2020-12-11
+
+ytmusic-two-row-item-renderer[has-badges_] .subtitle.ytmusic-two-row-item-renderer {
+     white-space: normal;
+ }
+
+Use Stylus[1] or some other mechanism to add custom CSS to websites to prevent YouTube Music from hiding artist names as often as it irritatingly does.
+
+
+=> https://addons.mozilla.org/en-US/firefox/addon/styl-us/ 1: https://addons.mozilla.org/en-US/firefox/addon/styl-us/

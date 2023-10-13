@@ -1,0 +1,21 @@
+# Sin ser yo uno de esos
+2021-11-09
+
+Creo que ya es un poco cliché el tema de los auriculares. Puede que Wirecutter tenga más artículos sobre insertarse aparatos en las orejas que sobre cualquier otro tema. Pero lo cierto es que se usan mucho estos aparatitos y yo ya he caído en el vicio de explicaros mis derroches en el tema:
+
+=> gemini://alex.corcoles.net/2021/04/contra-el-vikingo-del-diente-azul/
+=> gemini://alex.corcoles.net/2018/12/el-futuro-ya-esta-aqui/
+
+La tercera entrega de esta trilogía viene de los inquietantes Aftershokz. Uno pensaba que no debían quedar muchas más opciones tras "meterse algo en la oreja" y "ponerse algo sobre la oreja", pero resulta ser que los sres. de Aftershokz se han centrado en una tercera vía: "poner algo en el craneo, fuera pero cerca de la oreja". La idea es que así ganamos en comodidad y, aunque no lo parezca, seguimos conectados al mundo- algo que en principio sorprende dada la abundancia de auriculares que pretenden desconectarnos del mundo.
+
+Los AfterShokz (OpenComm, en mi caso- habrá que ver si el micrófono en un palo que incorporan merece el significativo diferencial de precio respecto al resto de la gama) se basan en hacernos vibrar el cráneo para hacernos oír su sonido. Y esto cumple con los propósitos que tenemos arriba- al no tener nada metido en el oído ni tapándonos el oído, se notan apenas un poco más que llevar unas gafas (y son compatibles con ellas). Además, si no están sonando, oímos todo como si no los llevásemos puestos. Estos dos factores en combinación hacen que los pueda llevar todo el santo día sin tener ganas de quitármelos cuando no los necesito, algo para mi nuevo en el este mercado. Esto, además, hace que sean mucho más convenientes- si siempre los llevas puestos, sólo necesitas apretar un botón unos segundos para ponerte a utilizarlos. En mi caso, con auriculares convencionales, hacía que muchas veces no escuchase algo por no tener que ponerme unos auriculares... con lo que los Aftershoz incluso han cambiado un poco mis hábitos.
+
+Por contra, por supuesto perdemos que en un ambiente suficientemente ruidoso puedan resultar hasta inútiles. Pero bueno, al menos nos justifica un poco en derrochar dinero en tener más auriculares que orejas.
+
+Para completar el panorama, decidí adquirir al mismo tiempo unos intrigantes "emisores de audio USB-Bluetooth". Estos aparatitos son curiosos dispositivos USB (USB-A, los que he usado) que parecen un adaptador Bluetooth convencional, pero no lo son. Se presentan al portátil (o lo que sea) al que se conectan como un dispositivo de audio USB, y todo el tema de emparejado es gestionado por el propio adaptador. Esto tiene toda una serie de ventajas. La primera, es que el emparejado sigue al adaptador, con lo que nos ahorra toda una serie de pequeñas fricciones si queremos usar unos auriculares con varios portátiles, por ejemplo. La otra es que estos cacharritos tienen una implementación mejor de Bluetooth que la mayoría de portátiles- tanto su hardware como el sistema operativo. Tienen todos los codecs buenos, hacen bien el salto de modo dependiendo de si estamos usando el micro o no, y de momento no me he topado con los típicos problemas que se encuentra uno cuando intenta usar un dispositivo Bluetooth con un portátil. Como bonus, también soportan bien el multipunto- esto es, conectar unos auriculares a, por ejemplo, un portátil y un móvil a la vez.
+
+El primer adaptador que compré funcionaba perfectamente hasta que decidió morir a las pocas semanas de uso, pero fue devuelto y reemplazado por:
+
+=> https://avantree.com/eu/usb-bluetooth-audio-transmitter-for-pc-avantree-dg80
+
+que pinta que durará más (los primeros tenían un conector USB que costaba insertar en uno de mis portátiles y que creo que aceleró su muerte). Si nunca habéis acabado renunciando a usar vuestros flamantes auriculares Bluetooth en vuestro ordenador y sólo los usáis con el móvil... merece la pena que evaluéis esta posibilidad (cuestan unos 30 euros).

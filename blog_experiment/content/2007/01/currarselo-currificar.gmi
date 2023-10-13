@@ -1,0 +1,8 @@
+# Currárselo, currificar
+2007-01-30
+
+En honor a un importante británico que no lee esto, les presento a la paradoja del de Curry [1].
+
+nota: el que escribe no acepta responsabilidades por las destrucciones derivadas de razonamientos paradójicos
+
+=> http://en.wikipedia.org/wiki/Curry%27s_paradox [1]

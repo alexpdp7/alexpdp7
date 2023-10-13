@@ -1,0 +1,11 @@
+# ... ¿tejer?
+2006-11-10
+
+Es peligroso animarse con un tráiler [1], pero parece que la serie de Spider-Man sigue in su crescendo.
+
+De bonus, y ya que mencionamos anteriormente el dilema del prisionero [2], veamos lo que hace el sublime xkcd [3] con la teoría de juegos [4].
+
+=> http://www.ifilm.com/presents/spiderman3 [1] tráiler
+=> gemini://alex.corcoles.net/2006/10/el-bene-volo/ [2] mencionamos anteriormente el dilema del prisionero
+=> http://xkcd.com/ [3] xkcd
+=> http://xkcd.com/c182.html [4] la teoría de juegos

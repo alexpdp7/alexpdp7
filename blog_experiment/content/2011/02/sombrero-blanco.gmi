@@ -1,0 +1,10 @@
+# Sombrero blanco
+2011-02-07
+
+Los que tengáis ADSL con Movistar o Jazztel que no hayáis cambiado la clave original de encriptación del router, quizás querráis comprobar aquí[1] si vuestra clave es fácil de adivinar. La fuente, ./[2]
+
+Nota, puedo constatar que se trata de un problema real y grave. ¿Quiere saber más?
+
+
+=> http://kz.ath.cx/wlan/ 1: http://kz.ath.cx/wlan/
+=> http://espana.barrapunto.com/article.pl?sid=11/02/07/0412230 2: http://espana.barrapunto.com/article.pl?sid=11/02/07/0412230

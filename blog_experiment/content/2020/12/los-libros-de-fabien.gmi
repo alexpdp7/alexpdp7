@@ -1,0 +1,15 @@
+# Los libros de Fabien
+2020-12-05
+
+Ha llegado a mis manos una edición física del libro de Fabien sobre Doom[1] para acompañar a la del Wolfenstein 3D[2]. Como el anterior, es un descenso a las profundidades del Doom, que incluye una variedad de temas que incluyen:
+
+* Descripción del hardware de los PC de la época
+* Contexto del videojuego y su proceso de creación y diseño
+* Detallada información técnica sobre la implementación (con comentarios sobre el código fuente)
+* Descripción de las implementaciones para otras plataformas
+
+Se nota la experiencia del primer libro- está mucho más pulido, se lee mejor y contiene menos gazapos (sobre todo los diagramas de la primera edición del libro del Wolfenstein 3D, que espero que hayan corregido en la segunda). Completamente recomendable para los que quieran profundizar en la magia negra que practica John Carmack y sumergirse en el mundo de dos juegos que cambiaron el mundo de los videojuegos (por ejemplo, apuntalando el ataúd del Amiga).
+
+
+=> https://fabiensanglard.net/gebbdoom/ 1: https://fabiensanglard.net/gebbdoom/
+=> https://fabiensanglard.net/gebbwolf3d/ 2: https://fabiensanglard.net/gebbwolf3d/

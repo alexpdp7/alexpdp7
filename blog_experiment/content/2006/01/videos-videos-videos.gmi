@@ -1,0 +1,11 @@
+# Vídeos, vídeos, vídeos...
+2006-01-08
+
+Con video.google [1] (y pronto su faceta de pago) y YouTube [2] es fácil compartir vídeos por el interné. Pero, ¿y los maniáticos que lo queremos hacer nosotros mismos?
+
+Pues al final, creo que he encontrado el segundo paso [3] (el primero es que FFmpeg [4] sabe codificar los videos en el formato adecuado).
+
+=> http://video.google.com/ [1] video.google
+=> http://www.youtube.com/ [2] YouTube
+=> http://flowplayer.sourceforge.net [3] el segundo paso
+=> http://ffmpeg.sourceforge.net/ [4] FFmpeg

@@ -1,0 +1,24 @@
+# Sí, sigo usando una Blackberry
+2012-07-04
+
+Hace eones apunte por aquí[1] que me pasaba a Blackberry, esa compañía que en aquel momento estaba apunto de extinguirse y ahora lo está mucho más. Allí indicaba las razones por las que escogía y por qué en aquel momento estaba muy contento.
+
+Sorprendentemente, y supongo que en gran parte porque me encanta llevar la contraria, un año después sigo muy contento.
+
+Sí, es básicamente el teclado. Sigo detestando cada palabra que tengo que aporrear sobre un cristal; he usado iPads, iPhones y todo tipo de Androids esporádicamente y sigue siendo una experiencia frustrante. Es harto probable que haya un prejuicio ahí y que si me sumergiese en el mundo táctil, me acabaría acostumbrando; pero, ¿por qué debería someterme a tal tortura?
+
+Indudablemente, la Blackberry tiene una larguísima lista de defectos, pero al fin y al cabo cubre mis necesidades a la perfección:
+
+* Puedo usar mensajería/redes sociales de todo tipo sin problemas; tengo los clientes que importan (Whatsapp, Twitter, Facebook, Google Talk y email) que funcionan perfectamente y que se benefician inmensamente del teclado
+* El navegador soporta el Google Reader de iPhone perfectamente, lo que cubre el 80% de mis necesidades de navegación (y en general me permite leer lo que quiero leer perfectamente adaptado a móvil desde el mismo Google Reader. La gente con feeds incompletos a veces me fuerza a ir a páginas que se le atragantan al navegador... no es frecuente pero sucede, pero se resuelve rápido con una estrellita). El resto, la mayoría del tiempo son sitios que tienen versión móvil (webs de noticias, Wikipedia, etc.).
+* GPS entre la app de Blackberry y la de Google es aceptable. El Google Maps de Blackberry tiene una búsqueda lenta y lamentable, pero se sobrevive
+* La cámara no es como para hacer fotografía profesional, ni mucho menos, pero lo suficiente como para sacarle fotos al gato y a las chorradas que uno ve por ahí
+* Es cierto, casi no hay apps, pero hay las que me importan (Tumblr, Wordpress, cartelera, Endomondo, lista de la compra, ...)
+* El frikismo ocasional (y gratuito) se ve complacido por poder tener un ssh como Dios manda y un teclado que permite meter símbolos, no-palabras y combinaciones de teclas que causarían frustración infinita en un teclado táctil
+
+Además, la ergonomía no se limita al teclado. El trackpad es superior a la pantalla táctil para muchas cosas; copiar y pegar, darle a enlaces pequeños en páginas web, moverse por listas, etc. Los atajos de teclado y búsquedas incrementales son la guinda.
+
+Por supuesto, si existiese un Android (e incluso un iOS, pero lo veo menos probable que suceda) con teclado y touchpad, que los aprovechase bien (i.e. que las aplicaciones y el sistema operativo tengan atajos de teclado y sean navegables por touchpad), cuya batería aguantase y que no tuviera serias incompatibilidades... Pues probablemente no dudaría en cambiar, pero de momento, sólo hay un fabricante que se dedica a este segmento; segmento que cada vez parece más pequeño y que me temo que acabe desapareciendo...
+
+
+=> gemini://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/ 1: gemini://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/

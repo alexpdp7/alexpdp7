@@ -1,0 +1,43 @@
+# A meternos con Java
+2012-08-30
+
+Es deporte olímpico desde hace tiempo meterse con Java. Como plataforma es lenta, insegura e inútil. Como lenguaje, causa daños cerebrales irreparables a los programadores que lo utilizan. Para colmo, ahora ya no es propiedad de Sun (que era bastante molona), sino que ha sido absorbida por la malvada Oracle.
+
+Pues para mi sigue siendo una de las herramientas más útiles que tenemos a nuestra disposición; potente, gratuita y open source.
+
+Comencemos por la última moda. Java es inseguro.
+
+Vaya por delante que servidor navega con *todos* los plugins desconectados por defecto. Ni Flash, ni Java, ni incluso el lector de PDFs de Chrome cargan si no hago click explícito en ellos. Los navegadores son probablemente el programa de mayor riesgo de seguridad, siendo los banners de publicidad y las webs invadidas los mayores riesgos; innumerables webs sufren ataques que inyectan código malicioso en ellas y los banners de publicidad son una manera relativamente viable de colar código malicioso en webs "de confianza". Poco software más procesa más datos potencialmente hostiles de Internet.
+
+Todo el código expuesto a Internet ha sufrido vulnerabilidades; los clientes de correo, todos los navegadores y, especialmente, todos los plugins, han sufrido vulnerabilidades graves.
+
+Java no es la excepción, ni mucho menos.
+
+Dos incidentes recientes han sido especialmente notables. En abril, una vulnerabilidad de Java que *sólo* afectaba a ordenadores con OS X ejecutando la máquina virtual Java *distribuida por Apple* fue harto comentada al ser uno de los primeros malware afectando en masa a Macs. Gran parte de los medios cargaron contra Oracle por hacer de los ultraseguros Macs un coladero (por ejemplo, tras una rápida búsqueda en Google, podemos leer esto[1]).
+
+En general, estos artículos convenientemente omiten el hecho de que la vulnerabilidad había sido solventada meses antes por Oracle y había distribuido el parche. ¿Por qué no a los Macs? Pues sencillamente porque Oracle y Apple tenían un acuerdo mediante el cual es Apple la responsable de distribuir Java a los Macs (esto probablemente está vinculado a que Apple había escogido Java como una de las plataformas "oficiales" de desarrollo de aplicaciones oficiales para OS X tiempos atrás). Apple por supuesto era consciente de la vulnerabilidad y había escogido no distribuirla.
+
+En mi opinión, es completamente irracional culpar a Oracle/Java de este problema- la culpa reside plenamente en Apple; los agujeros de seguridad son inevitables y lo importante es cómo se gestionan. En este caso, mal gestionado por Apple. Podemos argumentar que Oracle hizo mal en ceder la responsabilidad de seguridad a Apple (porque en efecto, hemos visto que no ha sido buena ídea), pero al menos Oracle a partir de esto ha asumido esta responsabilidad de nuevo.
+
+El segundo incidente que tiene lugar estos días no es así, es una vulnerabilidad de Java. Según se dice, unos investigadores polacos habían alertado a Oracle de ella meses atrás y paralelamente, programadores maliciosos la habrían descubierto también y comenzado a explotar. Si esto es así, podemos cuestionar la diligencia de Oracle en tapar el agujero. Podríamos darles el benefici0 de la duda, pues otros agujeros reportados por el grupo polaco fueron parcheados diligentemente, y uno podría pensar que existe un motivo razonable por el que ese agujero en concreto se haya demorado más- pero creo que no es un argumento sólido. Yo valoro negativamente la actuación de Oracle en este incidente.
+
+Pero en definitiva, dos incidentes de notoriedad; el mayor incompetente en esta fiesta es claramente Apple, seguido de Oracle (a bastante distancia en mi opinión). Creo que es deshonesto intelectualmente machacar a Oracle sin criticar a Apple por encima- y más aún si ignoramos que los agujeros son inevitables, que el histórico del manejo de los agujeros de Java ha sido siempre bastante correcto.
+
+Pero vaya, si sólo hemos de aprender una única cosa de todo esto, es a navegar con los plugins desconectados.
+
+Por otra parte, como siempre que se oye la palabra Java, sale un coro de programadores maltratados alegando que Java les ha jodido la vida. Complejo, pesado, incómodo, etc.
+
+El problema es que para lo que se usa Java, pocas alternativas hay. Sí, para escribir programas pequeños existen bastantes soluciones mejores, como Python o Ruby; Haskell, C++, Matlab, Erlang, R, bash son claramente mejores en otras áreas más específicas.
+
+Pero para escribir aplicaciones "administrativas" grandes, no existe nada mejor. Python y Ruby son dinámicos, lo cual impide de entrada que existan herramientas suficientemente potentes como para poder refactorizar y analizar código con un mínimo de fiabilidad- en un proyecto suficientemente grande esto supone un coste en tiempo suficiente como para compensar cualquier otra ventaja que se pudiera tener. Herramientas como Eclipse son extremadamente valiosas para el desarrollo a gran escala y simplemente no pueden existir tal cual para un lenguaje dinámico (nótese que por ejemplo Google hace análisis sobre lenguajes dinámicos, pero lo hace añadiendo información de tipos al código- con lo cual se gana en herramientas, pero se pierde la supuesta ventaja de los lenguajes dinámicos).
+
+La única alternativa de calado viable es .NET. Sin embargo, es una herramienta con costes que impone unas restricciones bastante duras (e.g. nos obliga a pagar caras licencias en el servidor, lo cuál supone un impedimento importante a los escalados horizontales). Para algunos serán aceptables, para otros lo hace inviable.
+
+Sí, Java como lenguaje sufre muchas carencias; falta de lambdas y una API muy potente pero poco amigable (básicamente, para hacer cosas sencillas, es muy muy fastidioso- y uno quiere hacer cosas sencillas casi siempre); las lambdas suponen un serio inconveniente bastante insalvable (hay cosas que se expresan con mayor concisión y claridad con ellas), pero lo de la API es salvable; uno siempre puede escribir sus fachadas para las APIs complejas y olvidarse del problema (o usar las de otros; Spring en gran parte es eso).
+
+Lo otro es el ecosistema. Sí, existen librerías y frameworks con graves excesos de ingeniería. Sí, Java EE no es la plataforma más sencilla del mundo. Pero eso no es un problema de Java- especialmente porque existen frameworks y librerías bien diseñados y con una complejidad adecuada. Java + Spring MVC no será la plataforma de desarrollo web más sencilla que existe, pero su complejidad está bien alineada con su potencia.
+
+En resumen; sí, Java tiene sus defectos. Pero tiene muchos más "defectos ajenos" que propios. Y es preocupante la cantidad de detractores que no ven la viga en su propio ojo, o que critican con desconocimiento de causa. Yo ciertamente estoy contento de disponer de Java para ciertas tareas, tal como le veo muchos defectos y nunca lo usaría para todo.
+
+
+=> http://allthingsd.com/20120406/whats-this-a-mac-virus-no-actually-its-a-weakness-in-java/ 1: http://allthingsd.com/20120406/whats-this-a-mac-virus-no-actually-its-a-weakness-in-java/

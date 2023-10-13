@@ -1,0 +1,4 @@
+# Galletosquizofrenia
+2011-06-17
+
+Me complace anunciar que tras mi última actualización de la versión inestable de Google Chrome, la funcionalidad de utilizar varios perfiles simultáneamente está disponible en Linux.

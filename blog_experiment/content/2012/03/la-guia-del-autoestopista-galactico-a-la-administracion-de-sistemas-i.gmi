@@ -1,0 +1,70 @@
+# La guía del autoestopista galáctico a la administración de sistemas (I)
+2012-03-18
+
+Tradicionalmente se divide el campo de la informática en dos grandes áreas: programación y administración. El programador idea software nuevo o modifica el existente para cumplir con requisitos que no cubre ningún sistema disponible, mientras que el administrador utiliza software existente para cubrir estos requisitos. El entusiasta informático (o pringado de turno) a veces adquire alguna de estas (o ambas) funciones, aunque con mayor frecuencia suele desempeñar la segunda.
+
+Mantener nuestro equipo funcionando e instalar el software que queremos es, por supuesto, administración de sistemas, así como otros temas de hardware doméstico, como mantener una red local. Esta serie de artículos, sin embargo, se centrará en la administración de sistemas no doméstica.
+
+Mucha gente desea tener un blog, una web, un sistema de correos propio, etc. por los más diversos motivos. Por supuesto, para la mayoría de cosas se pueden encontrar proveedores que por un módico precio (o en ocasiones, incluso gratis) podrá proporcionarnos estos servicios fácilmente, pero en ocasiones no encontraremos a alguien que cumpla nuestros requisitos, no querremos depender de un tercero o simplemente querremos experimentar.
+
+Cabe decir, que salvo la última situación o variantes, probablemente estemos cometiendo un error. Pero si estás leyendo esto, probablemente sea tarde para disuadirte. Así que, sigamos adelante (nota: iré recordándote esto periódicamente).
+
+Lo primero es determinar tus requisitos. ¿Queremos tener un blog? ¿Quizás unos foros? ¿Queremos almacenamiento online? ¿Un servidor de correo?
+
+Especifiquemos. ¿Cuánto espacio necesitamos? ¿Qué software cumple con nuestros deseos? Todo esto debería ser fácil de articular- estamos emprendiendo este viaje porque ninguna de las soluciones que hemos investigado cumple nuestros requisitos: ¿cuáles son?
+
+Los requisitos no están aislados, forman una cadena de dependencias. Si quiero usar Wordpress, necesitaré un servidor web capaz de ejecutar PHP de una determinada versión, una base de datos MySQL de otra versión, etc. Tomemos un momento para intentar enumerar en la medida de lo posible todos nuestros requisitos.
+
+Típicamente, necesitaremos un sistema con el que podamos satisfacer los requisitos. Hay básicamente dos alternativas, escoger un sistema gestionado o no gestionado.
+
+Un sistema gestionado es lo que comunmente se conoce por estos lares como "hosting compartido". El proveedor nos da un sistema con PHP, MySQL en unas determinadas versiones al cual no tenemos acceso completo. En cambio, un sistema no gestionado en general nos da un sistema operativo al que tenemos acceso prácticamente completo- esto es lo que en general se denomina VPS o servidor dedicado (dependiendo de si el sistema es una máquina virtual o física).
+
+En general, cuanto más gestionado el sistema, menos trabajo para nosotros pero también menos control. Si el hosting compartido cumple nuestros requisitos, seguramente será más barato y nos requerirá menos tiempo hacer funcionar lo que queremos. Muchas veces estos hostings compartidos ofrecen software conocido (i.e. Wordpress, etc.) con sencillos instaladores que lo ponen en marcha sin esfuerzo. Es poco probable, sin embargo, que quien lea estas líneas se vea satisfecho por estas opciones, pero cabe valorarlas y (una vez más), poder señalar qué requisito no cumplen.
+
+Los sistemas no gestionados son un poco más complicados. Nuestro primer paso probablemente sea escoger uno. El precio y fama son factores importantes, pero también debemos considerar otros.
+
+El sistema operativo es probablemente la decisión clave. Muchas veces nuestros propios requisitos nos forzarán a escoger uno- un software puede funcionar sólo sobre Windows o sobre alguna versión específica de Linux. Si no, la cosa es un poco más complicada.
+
+Por temas de coste, los sistemas Linux suelen ser una elección natural- Windows en general es más caro y representa una parte sustancial del coste de un alojamiento, y además muchas aplicaciones populares no están tan probadas y rodadas sobre Windows. Existen otros sistemas operativos fuera de estos dos, por supuesto, pero para las situaciones en las que nos encontramos no suelen ser muy populares ni adecuados.
+
+Dentro de las distribuciones Linux hay un vasto elenco de opciones, y resulta poco viable evaluarlas todas. Mi sugerencia se reduce a escoger sólo entre dos: CentOS/RHEL y Debian.
+
+RHEL (Redhat Enterprise Linux) es la distribución comercial de Linux más popular. Su interés se centra en dos puntos principales:
+
+* Algunos programas comerciales están pensados para RHEL
+* Su largo ciclo de vida
+
+Si deseamos ejecutar algo que requiere RHEL, raramente hay otra opción viable, así que nuestra elección está realizada. Sin embargo, esto cada día es menos habitual, así que el motivo principal para usar RHEL es su prolongado ciclo de vida. Redhat se compromete a dar actualizaciones exclusivamente de corrección de bugs y de seguridad durante mucho tiempo- concretamente de hasta 10 años.
+
+¿Por qué es importante esto? Pues porque los servicios que expongamos a Internet deben ser seguros. Nuestro servicio no funcionará si un ente hostil lo ataca con éxito y lo deja inoperativo. Existe una poderosa motivación económica que hace que sea rentable atacar sistemas, lo que se traduce en un riesgo más que significativo. Así pues, deberemos ser proactivos en la corrección de defectos de seguridad, y eso prácticamente siempre implica la instalación de nuevas versiones del software que usamos.
+
+La ventaja de RHEL es que nos proporcionan estas actualizaciones sin ningún otro tipo de cambio. Es decir, sin mejoras de funcionalidad. Esto que parece contraproducente es en cambio a menudo una gran ventaja. Una nueva funcionalidad puede introducir bugs o cambios en el funcionamiento del software que nos fuercen a trabajar; actualizar configuraciones, instalar otro software, etc. Si nuestro sistema cumple nuestros requisitos, es probable que esto no nos dé ningún beneficio y sí nos haga perder el tiempo.
+
+Una instalación con RHEL puede ser mantenida al día con correcciones de seguridad casi sin esfuerzo, lo cual es un gran beneficio.
+
+Eso sí, hay tres inconvenientes.
+
+El primero es que RHEL es un producto comercial (y bastante costoso, de hecho). Pero existe una solución sencilla- RHEL es prácticamente completamente open source, con lo que Redhat distribuye libremente el código fuente de RHEL (excepto unas partes específicas que no son open source, pero que en general no nos interesarán), con lo que existen ciertas entidades que cogen este código fuente y construyen clones de RHEL libremente distribuibles. El más popular actualmente es CentOS. La gran diferencia, más allá de las partes no open source, es que estos proyectos no suelen tener las actualizaciones listas a la misma velocidad que la propia Redhat.
+
+El segundo es que esta garantía sólo es aplicable al software incluido dentro de RHEL- cada software que necesitemos que entre dentro de nuestos requisitos que no esté en RHEL nos irá restando de la facilidad de mantenimiento. Con un poco de suerte, el software que querremos estará en repositorios de calidad como EPEL, repositorio mantenido por gente de Fedora que funciona bien y está bien actualizado- existen algunos repositorios de este tipo. Alternativamente, hay software que dispone de repositorios propios de RHEL que funcionan bastante bien. Pero añadir estos repositorios de terceros siempre añade algo de entropía al sistema e incluso podemos encontrarnos que el software que queramos no esté empaquetado para RHEL y lo tengamos que instalar desde el código fuente... haciendo de los procesos de actualización un proceso manual.
+
+El tercero es que el proceso de actualización de una versión de RHEL a otra no está soportado. Un sistema instalado con RHEL 6 (la versión más reciente), no podrá ser actualizado fácilmente a RHEL 7 cuando este salga a la luz (salen cada dos-tres años). Podremos usarlo sin problemas hasta que acabe su (largo) ciclo de vida de 10 años, pero cuando acabe o necesitemos actualizar a RHEL 7, lo mejor será construir un nuevo sistema con RHEL 7.
+
+Si el motivo para escoger RHEL es la facilidad de mantenimiento y actualización, todo requisito que se salga de los paquetes de RHEL es un motivo más para no usar RHEL.
+
+Y si el software que queremos no está en RHEL, ¿qué hacemos? Pues la otra alternativa es Debian. Debian es la distribución completamente open source más relevante del mercado. Sus objetivos incluyen el de ser "el sistema operativo open source universal", algo que incluye la voluntad de empaquetar todo software libre existente (y de hecho, también parte del no libre), algo que se refleja en el descomunal número de paquetes; si es open source, lo más probable es que esté en Debian.
+
+Sin embargo, esta gran cantidad de paquetes hace más complicado ofrecer un ciclo de vida largo como el de RHEL. Debian tiene una versión estable que sale cada más o menos un par de años (las últimas versiones estables son de 2011, 2009, 2007, 2005, 2002) y tiene actualizaciones de seguridad hasta la siguiente versión estable, así que si con RHEL podíamos estar hasta 10 años actualizando con mínimo esfuerzo, en Debian sólo podremos estarnos 2. Eso sí, Debian sí soporta actualizar entre versiones y al cabo de dos años podremos (con un poco de esfuerzo) pasarnos a la siguiente versión estable.
+
+Debian también nos ofrece testing, una versión constantemente actualizada donde van entrando paquetes nuevos a medida que van saliendo. Testing puede tener más esfuerzo de actualización (pueden entrar paquetes que introducen cambios significativos que nos obliguen a trabajar), pero dispone de software relativamente actualizado y moderno.
+
+En general, la vida con Debian es algo menos cómoda que un RHEL donde nos mantengamos dentro de los paquetes estándares, pero no mucho peor. Y si nuestros requisitos no están cubiertos por los paquetes estándar de RHEL, seguramente viviremos mucho mejor con un servidor Debian. Para ayudaros a tomar esta decisión, podéis usar los índices de paquetes de ambas distribuciones. Podéis consultar en el FTP de Redhat la lista de paquetes disponibles para RHEL 6[1] y Debian ofrece packages.debian.org donde podéis ver qué software hay en stable y testing[2].
+
+Más allá de esto, hay otras diferencias entre ambas; documentación, herramientas administrativas, etc. son diferentes y cada cuál preferirá una u otra (a mi en general me gusta más Debian, pero la documentación de RHEL es muy interesante, por ejemplo). Antes de tomar una decisión también es conveniente que las probemos- con la facilidad hoy en día de usar virtualización es muy muy sencillo instalar ambas distribuciones en máquinas virtuales y hacer pruebas.
+
+actualizado: correcciones del sospechoso habitual[3]
+
+
+=> http://ftp.redhat.com/redhat/linux/enterprise/6Server/en/os/SRPMS/ 1: http://ftp.redhat.com/redhat/linux/enterprise/6Server/en/os/SRPMS/
+=> http://www.debian.org/distrib/packages#view 2: http://www.debian.org/distrib/packages#view
+=> http://obm.corcoles.net 3: http://obm.corcoles.net

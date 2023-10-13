@@ -1,0 +1,10 @@
+# Cajas bobas
+2006-03-15
+
+Desgraciadamente, los requirements [1] hacen que servidor no pueda disfrutar del nuevo AOL IN2TV [2] que ya han mencionado otros [3].
+
+La verdad es que el listado de series es harto interesante.
+
+=> http://television.aol.com/in2tv/requirements [1] requirements
+=> http://television.aol.com/in2tv [2] AOL IN2TV
+=> http://obm.corcoles.net/20060315/lanzamiento-de-aol-television/ [3] han mencionado otros

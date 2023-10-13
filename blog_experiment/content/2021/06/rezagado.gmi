@@ -1,0 +1,24 @@
+# Rezagado
+2021-06-23
+
+=> https://www.currentaffairs.org/2020/08/the-truth-is-paywalled-but-the-lies-are-free/ The Truth is Paywalled but the Lies are Free. Algo así como Bertrand Russell y su "The fundamental cause of the trouble is that in the modern world the stupid are cocksure while the intelligent are full of doubt."
+
+=> https://www.scientificamerican.com/article/a-random-walk-through-the-english-language/ El sorprendente origen teológico de las cadenas de Markov.
+
+=> https://www.bbc.co.uk/news/business-57554102 Y por fin, la libra más computable ya está disponible.
+
+=> https://www.engadget.com/facebook-wants-an-ai-that-can-pwn-the-hardest-game-in-the-world-100041653.html Por fin Facebook muerde más de lo que puede masticar; su AI intentará ganar al NetHack.
+
+=> https://www.reddit.com/r/xmpp/comments/nv2x6p/fbi_ran_encrypted_xmpp_app_anom/ Pelín deprimente que probablemente la más exitosa implantación de XMPP reciente haya sido un golpe del FBI.
+
+=> https://www.polygon.com/lord-of-the-rings/22523297/lord-of-the-rings-release-nerd-culture Creo que Polygon lleva una serie de artículos (que igual ya os he citado con motivo del aniversario de las películas del Sr. de los Anillos. Este sobre el fin del frikismo es bastante revelador.
+
+=> https://www.polygon.com/movies/22528048/lord-of-the-rings-war-of-the-rohirrim-animated-movie ... y este sobre una posible peli animada sobre el Abismo de Helm me hace gritar ¡adelante, eorlingas!
+
+=> https://www.snopes.com/news/2021/06/09/worlds-fifth-ocean-recognized/ El National Geographic dice que hay un quinto océano, cuando yo ni siquiera sabía cuáles hay.
+
+=> https://arstechnica.com/gadgets/2021/06/hackers-can-mess-with-https-connections-by-sending-data-to-your-email-server/ No he acabado de comprender esta técnica de ataques TLS intraprotocolo, pero pinta interesante.
+
+=> https://www.jwz.org/blog/2021/06/unintentional-forensic-edit-logs-via-font-changes/ Por contra, esta exfiltración tipográfica por todos conocida es aún más interesante.
+
+=> https://www.jeffgeerling.com/blog/2021/wiretrustee-sata-pi-board-true-sata-nas El amigo Geerling juega con un montaje para hacer NAS con Raspberries la mar de interesante, aunque aun no disponible.

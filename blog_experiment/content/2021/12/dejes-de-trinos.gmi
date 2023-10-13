@@ -1,0 +1,55 @@
+# Dejes de trinos
+2021-12-18
+
+Parece que la RAE da una sosa definición[1] de un concepto espectacular no, lo siguiente (o al menos según la Wikipedia[2]).
+
+=> https://dle.rae.es/epanortosis [1] Epanortosis en la RAE
+=> https://en.wikipedia.org/wiki/Epanorthosis [2] Epanorthosis en la Wikipedia anglosajona
+
+Por algún motivo me han saltado en mi lector de RSS dos artículos antiguos de Quanta Magazine:
+
+=> https://www.quantamagazine.org/a-theory-of-reality-as-more-than-the-sum-of-its-parts-20170601/ Una de metafísica
+=> https://www.quantamagazine.org/puzzle-solution-darwinian-evolution-explains-lamarckism-20170602/ Y una irónica explicación darwiniana del lamarquismo
+
+Antes de dejaros unos apuntes audiovisuales y el batiburrillo final, quería compartir con vosotros algo que me reconforta. No estoy solo en el horror de los diálogos de cine (y series) inescrutables:
+
+=> https://www.slashfilm.com/673162/heres-why-movie-dialogue-has-gotten-more-difficult-to-understand-and-three-ways-to-fix-it/
+
+Lo perturbador es que parece confirmar que resolver esto no está en nuestras manos (pues sus tres soluciones apuntan a los cineastas).
+
+### Years and Years
+
+Para los que crean que la historia reciente es excesivamente alegre, Years and Years proporcionará un británico contrapunto con ciertas reminiscencias de Black Mirror. Aunque algún elemento ya ha quedado desfasado (en menos de tres años) y el final es otro de esos finales causados por la desesperación y la falta de ideas, sigue siendo una serie entretenida con algún que otro hallazgo, pero cuyo mayor lastre es que seguramente ahora mismo pocos quieran ver algo así.
+
+### What We Do in the Shadows
+
+La peli de Taika Waititi de 2014 (a su vez basada en un corto del mismo) da pie a una serie, también en falso documental, sobre vampiros modernos. Aunque algunos recursos humorísticos son un poco cutres, los 19/30 episodios que llevo hacen mucha gracia. En gran parte, por Natasia Demetriou- cuya desbocada interpretación (incluso para una serie de Taika Waititi, al lado de Matt Berry- el jefe de The IT Crowd) de Nadja, la vampiresa de pueblo, destaca entre la solvencia del resto del reparto. Los que quieran una risa o sonrisa fáciles derivadas de anacronismos y estereotipos de la literatura fantástica, no se verán defraudados.
+
+### Gargoyles
+
+Tras Aeon Flux[1] y Sigue Soñando[2], mi afán revisionista me ha llevado a Gargoyles, que no recuerdo ver asiduamente en su momento (mediados de los noventa). Gargoyles es una serie que ganó un seguimiento de culto, y que incluso pudo haber dado pie a una peli de acción "para adultos"[3]. La verdad es que sorprende el atrevimiento de una serie de Disney de esa época con sus villanos con ambigüedades morales, conflictos multilaterales y el ciberespacio; aunque también episodios muy especiales y... sigue siendo una serie de dibujos animados para jóvenes adultos, con lo que por momentos se echa en falta "un poco más". A destacar que yo creo que los guionistas, aparte de ser fans de Star Trek (la mitad del reparto viene de TNG), también parece que sean tan fans como servidor de Los Inmortales (la peli una década anterior a la serie).
+
+=> gemini://alex.corcoles.net/2021/11/desde-la-medina-por-la-medina/ [1] Reseñas en batiburrillo, Aeon Flux es la última
+=> gemini://alex.corcoles.net/2021/05/en-pijama/ [2] Mi reseña de Sigue Soñando
+=> https://www.polygon.com/movies/22436088/gargoyles-movie-live-action-90s-script [3] Sobre la posible peli de Gargoyles que os mencioné hace poco
+
+### Shang-Chi
+
+El paralelo asiático a la africana Black Panther es Shang-Chi, un personaje de los cómics de Marvel que confieso no trabajar. Aunque creo que es inferior a los de Wakanda en su idoneidad cultural, la sorprendente Awkwafina (con ese nombre, sorprende, aunque ya había deslumbrado en la excelente Crazy Rich Asians), la siempre grandiosa Michelle Yeoh, Tonie Leung, un sorprendente intérprete y el resto del excelente reparto, sostienen a una película que intenta quizá demasiados triples áxel con patada voladora, pero que sale mucho más airosa de lo que cabría esperar. La verdad que la cacareada secuencia del autobús no me dijo tanto como el desarrollo de algunos personajes y el lirismo que a ratos nos desborda (Ta Lo no es Wakanda, pero también sería un embriagador destino turístico). A expensas de ver qué tal el último trepamuros, una notable mejora respecto a la anterior Viuda Negra.
+
+### Lady Bird
+
+La inédita para mi Greta Gerwig escribe una de esas pelis para adolescentes que transcienden el género. Salvo un confundido Chalamet, espléndido trabajo actoral- a destacar por supuesto la prota Saoirse Ronan, la roseannera Laurie Metcalf y la últimamente omnipresente Beanie Feldstein (no solamente en las sombras arriba mencionadas, sino también en Súper Empollonas, esa destacable cinta de la 13 de House). Aunque uno esté desconectado de las nuevas generaciones, Lady Bird es un drama generacional que encajará perfectamente con otras cintas recientes como la magnífica "Las ventajas de ser un marginado" o "Con amor, Simon", muy disfrutable por todos.
+
+### Minari
+
+Me vi en el AVE Minari. Debí confundirme porque pensé que formaba parte de un extraño ciclo de cine de Renfe[1] sobre cine de migrantes (que me voy a perder), pero parece ser que no. Minari trata sobre inmigrantes coreanos en EEUU y (expertos) sexadores de pollos. Aparentemente autobiográfica, sería una de esas muestras en las que la realidad supera a la ficción; al menos en lo colorido de los personajes, especialmente "la suegra", interpretación que le valió a una (desconocida para mí) septuagenaria veterana del cine coreano una auténtica lluvia de (merecidos) galardones, incluido un Óscar. La película goza de un guion milimétrico y ese sentido del humor que colma un buen drama, haciendo de ella una de esas películas de autor que todo el mundo puede disfrutar.
+
+=> https://www.renfe.com/es/es/grupo-renfe/comunicacion/te-contamos-mas/mes-del-migrante [1] Cine sin fronteras en Renfe para el mes del migrante 
+
+Y para acabar, claro, un pequeño batiburrillo...
+
+=> https://en.wikipedia.org/wiki/Jimmy_Carter#Naval_career Otra página notable en la Wikipedia: las aventuras de un ex-presidente de EEUU ingeniero como líder del equipo que apagó un reactor nuclear que había sufrido una fusión de su núcleo
+=> https://xkcd.com/2547/ El inevitablemente ocasional XKCD: el GPS de Ulises
+=> https://www.elperiodico.com/es/barcelona/20211121/tunel-paseo-gracia-video-barcelona-12880910 Sobre *el* túnel de metro de Barcelona
+=> https://arstechnica.com/gaming/2021/11/star-trek-discovery-is-tearing-the-streaming-world-apart/ El drama que tengo yo y cada vez más gente para seguir Star Trek: Discovery

@@ -1,0 +1,6 @@
+# Guess...
+2005-05-03
+
+Guess the Google [1]
+
+=> http://grant.robinson.name/projects/guess-the-google/ [1] Guess the Google

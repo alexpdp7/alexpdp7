@@ -1,0 +1,12 @@
+# Lo que yo te diga...
+2006-02-18
+
+He mencionado tangencialmente [1] El Cine De Lo Que Yo Te Diga [2], un programa de radio [3] de la Ser [4] que escucho ocasionalmente, pues se trata de un delicioso semanario de cine hecho con mucho arte y cariño. Entre otras cosas, hacen biografías de actores de Hollywood usando cortes de audio de sus películas y cuentan entre su reparto con el inimitable Teófilo el Necrófilo (un crítico de cine coleguita de Hannibal Lecter) o Raimundo Hollywood (un colaborador del programa que es miembro de la Academia [sí, la de los Oscars de la Academia]).
+
+Pues ahora veo que se les puede escuchar en podcast [5]. Habrá que probarlo.
+
+=> gemini://alex.corcoles.net/2005/09/cacharrito-podcasts/ [1] mencionado tangencialmente
+=> http://www.loqueyotediga.net [2] El Cine De Lo Que Yo Te Diga
+=> http://www.cadenaser.com/programas.html?anchor=serprocin [3] programa de radio
+=> http://www.cadenaser.com/ [4] Ser
+=> http://www.loqueyotediga.net/mp3/podcast.html [5] podcast

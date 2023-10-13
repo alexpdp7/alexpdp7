@@ -1,0 +1,7 @@
+# Todo está en los libros si están
+2008-07-28
+
+Iberlibro [1] es una versión hispana de AbeBooks [2], que parece un interesante recurso para encontrar árboles muertos.
+
+=> http://www.iberlibro.com/ [1] Iberlibro
+=> http://www.abebooks.com/ [2] AbeBooks

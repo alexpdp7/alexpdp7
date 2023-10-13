@@ -1,0 +1,25 @@
+# Noticiarios y Documentales
+2020-07-12
+
+Muchos lloran la muerte de Google Reader, pero yo lloro más la estúpida muerte de Google News en España[1].
+
+Google News, que sigue operando fuera de España[2], agrega noticias de diversos medios, las categoriza y aglutina (es decir, presenta una misma noticia de varios medios como una, enlazando a las "variantes"). Además, proporciona bastantes feeds RSS.
+
+Pero aunque a uno le guste considerarse ciudadano del mundo, ciertamente es práctico incluir la geografía en la ponderación de la importancia de una noticia, y además los feeds de RSS de Google News no acaban de funcionar bien en mi lector de RSS actual[3].
+
+Mi gran esperanza es algo como Scroll[4], con los que Mozilla estaba maquinando[5]. Mi ideal es poder construirme RSS de las temáticas de noticias que me interesen y poder leerlas cómodamente (quizá porque el cuerpo de la noticia entero está en el RSS, aunque me atraía la idea de la agregación de Google News y poder escoger qué medios leer para cada noticia). Creo que tampoco me importaría pagar para poder leer según qué contenidos y no tener que soportar tormentas de anuncios que doblegan al navegador (vale, AMP puede ser maligno, pero...).
+
+Lo podéis llamar el Spotify de las noticias o como queráis, pero creo que de momento no existe esto con la relevancia geográfica que necesito.
+
+El panorama de los medios individuales tampoco es genial. Muchos medios tienen unos RSS francamente nefastos. Además que cada vez más, al que prefiere usar varios medios, los pagos por medio no le salen nada rentables (al igual que nadie querría pagar una suscripción musical de cada major).
+
+Como experimento, temporalmente estoy haciendo pruebas piloto con... ¡Microsoft News[6]! El contenido promocionado es francamente indignante y la selección es bastante pobre, pero parece saciar temporalmente mis necesidades. Si miráis bien la URL, veréis que "internamente" es Bing, lo cual me ha llevado rápidamente a descubrir que Bing News parece estar cascado ahora mismo[7]... Al menos tiene una consideración geográfica adecuada, es relativamente personalizable y no funciona mal.
+
+
+=> https://support.google.com/news/publisher-center/answer/9609687?hl=es 1: https://support.google.com/news/publisher-center/answer/9609687?hl=es
+=> https://news.google.com/topstories?hl=en-US&amp;gl=US&amp;ceid=US:en 2: https://news.google.com/topstories?hl=en-US&amp;gl=US&amp;ceid=US:en
+=> https://miniflux.app/ 3: https://miniflux.app/
+=> https://scroll.com/ 4: https://scroll.com/
+=> https://support.mozilla.org/en-US/kb/firefox-better-web 5: https://support.mozilla.org/en-US/kb/firefox-better-web
+=> https://play.google.com/store/apps/details?id=com.microsoft.amp.apps.bingnews 6: https://play.google.com/store/apps/details?id=com.microsoft.amp.apps.bingnews
+=> https://www.bing.com/news/ 7: https://www.bing.com/news/

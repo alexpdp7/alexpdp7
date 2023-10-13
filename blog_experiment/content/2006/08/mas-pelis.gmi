@@ -1,0 +1,7 @@
+# Más pelis
+2006-08-25
+
+Vimos Hollywood Ending [1] y vimos United 93 [2].
+
+=> /laspelis/1029 [1] Vimos Hollywood Ending
+=> /laspelis/1030 [2] vimos United 93

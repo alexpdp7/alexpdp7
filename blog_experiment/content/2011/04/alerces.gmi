@@ -1,0 +1,10 @@
+# Alerces
+2011-04-03
+
+Nota mental:
+
+* Si queremos copiar grandes cantidades de correo de un servidor IMAP a otro, Larch[1] es la respuesta
+* Si disponemos de aún el más cutre servidor compartido donde lo podamos instalar, este tendrá más ancho de banda que nuestra ADSL doméstica y Larch irá más rápido
+
+
+=> https://github.com/rgrove/larch 1: https://github.com/rgrove/larch

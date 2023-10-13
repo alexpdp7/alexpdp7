@@ -1,0 +1,9 @@
+# Un Domingo Cualquiera...
+2003-11-16
+
+Queda mal poner de título el nombre de un programa de Ramón García, pero hasta no hace mucho, eso era una peli [1] de Cameron Diaz (que por cierto, dieron en la tele, pero me daba mucho palo verla).
+
+En fin, elecciones aqui en Catalunya. Rollo y eso. Yo a ver si me pongo a remodelar un antiguo ordenador que tengo por aquí, ponerle un Apache [2] y alguna cosilla más para que (entre otras cosas) albergue una versión modernizada de este blog. Lo se, demasiado tiempo libre y aficiones raras para un domingo...
+
+=> https://www.imdb.com/title/tt0146838/ [1] peli
+=> http://www.apache.org [2] Apache

@@ -1,0 +1,15 @@
+# Pequeño cambio de look
+2005-12-26
+
+Para mi (pequeñísima audiencia), he hecho un par de cambios en la estructura de la página. Lo más importante es que ahora podéis ver mis subscripciones de Bloglines [1] en la derecha en vez de la pobre lista de enlaces que había antes.
+
+También he movido los enlaces para desplazarse por el historial de mensajes a arriba a la derecha, donde creo que se ven más y mejor.
+
+Para los quejicas a los que no gusta el diseño, les recuerdo que acepto contribuciones de CSS's y otras sugerencias pa que todo quede más potito.
+
+=> http://bloglines.com [1] Bloglines
+
+Actualización: he probado a añadir una coña de Last.fm [2] que pone a quién escucho... y un botoncito para que veáis que me curro un XHTML estricto [3].
+
+=> http://www.last.fm/ [2] Last.fm
+=> http://validator.w3.org/check?uri=referer [3] XHTML estricto

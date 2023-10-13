@@ -1,0 +1,30 @@
+# Hazañas informáticas I: Internet
+2011-04-21
+
+En los inicios, había muy poquitos ordenadores- grandes como habitaciones e increíblemente caros. Muchos de estos ordenadores tenían múltiples pantallas y teclados para que los pudiesen utilizar simultáneamente muchas personas y que se rentabilizasen mejor. Cada ordenador era un mundo en sí mismo. Algunos de estos ordenadores permitían la comunicación entre personas sentadas en diferentes terminales.
+
+Pronto, comenzaron a aparecer más y más ordenadores en el mundo. Algunos entes privilegiados podían disponer de varios ordenadores, y pronto surgió la necesidad de comunicarlos ente ellos; la capacidad de una máquina siempre nos es insuficiente y queremos realizar operaciones que aprovechen la capacidad de varios ordenadores.
+
+Éste es un problema de fácil solución; los ordenadores trabajan con impulsos eléctricos y con compartir un medio conductor (léase, un hilo de cobre conectado a dos ordenadores), estos pueden enviarse datos codificándolos como descargas eléctricas de una manera muy similar a como funciona un solo ordenador internamente.
+
+Este sistema ha funcionado perfectamente hasta el día de hoy- con no tantas evoluciones, existen hoy infinidad de redes con cientos de ordenadores comunicados a grandes velocidades entre sí mediante lo que es en esencia un hilo de cobre que pasa por todos ellos.
+
+El análogo humano es una habitación llena de personas hablando a viva voz. Todo el mundo puede oír a todo el mundo y se pueden realizar todo tipo de conversaciones- un profesor puede dar clase a cientos de alumnos que le escuchan; un montón de parejas pueden estar en una sala de baile hablando entre ellas y grupos de conversación pueden formarse y deshacerse fácilmente.
+
+Este esquema sencillo, lamentablemente, no funciona bien a gran escala. Intuitivamente vemos que compartir un solo cable de cobre entre una gran cantidad de ordenadores puede ser problemático. Nuestra sala con gente hablando deja de funcionar cuando las distancias son suficientes como para no oir- y si hay demasiada gente hablando, nace la confusión.
+
+Los genios de ARPANET no se aturullaron delante de estos problemas y encontraron una solución simple y efectiva para este problema. Las redes locales de unos cuantos ordenadores funcionan maravillosamente bien, dijeron; no hace falta abandonar ni complicar este modelo. Sencillamente, interconectemos las redes entre sí.
+
+Las comunicaciones locales pueden funcionar como hasta ahora. Lo único que tenemos que hacer es introducir unos dispositivos que tengan un pie en una red, y otro pie en otra. Cuando un ordenador en una red quiera comunicarse con otro ordenador en otra red, se dirigirá al dispositivo de su red que se comunica con otras redes y le entregará la información que quiere transmitir. Si el destinatario está en la otra red, el dispositivo no tiene más que entregárselo. Si no, lo único que tiene que buscar es otro dispositivo de este tipo que esté conectado con otra red que esté más cerca del destinatario y entregarle la información- así la información irá saltando de red en red hasta llegar a su destino.
+
+Esto, en esencia, es internet. El "inter" es de interconexión de redes. El modelo se completa con un sistema de direcciones universales, las famosas IP con las que se identifica a cada dispositivo que vive en Internet- y el sistema de puertos, que identifica en cada dispositivo varios puntos de envío y recepción de datos (un puerto para el correo electrónico, un puerto para el tráfico web, etc.). Encima de esto, el sistema DNS que hace que los humanos podamos usar nombres en vez de IPs numéricas para referirnos a los dispositivos que viven en Internet y los diferentes protocolos que rigen los diferentes servicios que funcionan sobre internet.
+
+Pese a que internet y su ecosistema asociado es infinitamente complejo, la gran virtud es que se basa en un modelo sencillo y elegante- simples redes locales interconectadas.
+
+Próximas entregas:
+
+* Hazañas informáticas II: el modelo de datos relacional
+* Hazañas informáticas III: La criptografía asimétrica
+* Hazañas informáticas IV: Las funciones hash
+* Hazañas informáticas V: Las máquinas de Turing y Von Neumann
+* Hazañas informáticas VI: el sistema UNIX

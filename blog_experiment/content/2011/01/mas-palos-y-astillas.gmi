@@ -1,0 +1,8 @@
+# Más palos y astillas
+2011-01-29
+
+Actualizando este post anterior[1], una versión evolucionada del evolucionador de vehículos[2].
+
+
+=> gemini://alex.corcoles.net/2011/01/de-tal-palo-tal-astilla/ 1: gemini://alex.corcoles.net/2011/01/de-tal-palo-tal-astilla/
+=> http://www.boxcar2d.com/ 2: http://www.boxcar2d.com/
