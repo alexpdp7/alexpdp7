@@ -1,4 +1,4 @@
-[Iclass nextcloud(
+class nextcloud(
   $database_name,
   $database_user,
   $database_host,
