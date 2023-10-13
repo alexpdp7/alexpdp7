@@ -73,7 +73,7 @@ class nextcloud(
     }
 
     cron {"nextcloud-previews":
-      command => "sudo -u apache php -d memory_limit=512M /usr/share/nextcloud/occ preview:generate-all",
+      command => "cd /tmp/ ; sudo -u apache php -d memory_limit=512M /usr/share/nextcloud/occ preview:generate-all -q",
       minute => "41",
     }
 }
