@@ -12,6 +12,10 @@ node 'h1.pdp7.net' {
       [rpool/data/subvol-208-disk-1]
         use_template = backup
 
+      # bitwarden
+      [rpool/data/subvol-210-disk-1]
+        use_template = backup
+
       [template_backup]
         frequently=0
         hourly=0
@@ -58,6 +62,10 @@ node 'h1.pdp7.net' {
 
   proxmox::proxy_host {'nextcloud.pdp7.net':
     target => 'http://nextcloud.h1.int.pdp7.net/',
+  }
+
+  proxmox::proxy_host {'bitwarden.pdp7.net':
+    target => 'http://bitwarden.h1.int.pdp7.net/',
   }
 
   package {'haproxy':}
