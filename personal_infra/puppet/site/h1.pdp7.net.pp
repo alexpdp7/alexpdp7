@@ -111,7 +111,7 @@ node 'h1.pdp7.net' {
 
       backend blog
               mode tcp
-              server blog k8s-test.h1.int.pdp7.net:31965
+              server blog k8s-prod.h1.int.pdp7.net:31965
       | EOT
     ,
   }
