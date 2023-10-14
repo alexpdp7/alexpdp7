@@ -51,6 +51,11 @@ For the moment, I'm managing the following distros using this setup.
 I perform catalog compilation on my laptop running EL9.
 Although [support across Puppet 5.5-7 is not documented](https://www.puppet.com/docs/puppet/7/platform_lifecycle.html#primary-agent-compatibility), catalogs still seem to be compatible.
 
-## Misc
+## Other stuff
 
 * [Podman](podman.md)
+* I run two Kubernetes clusters (production and testing) using [Talos](https://www.talos.dev/)
+  * [Base Kustomizations](k8s/base/kustomization.yml), including [a small app to check for Talos and K8S updates](https://github.com/alexpdp7/talos-check)
+  * [Ansible Role to provision Talos on Proxmox](playbooks/roles/talos)
+  * [A CRUD application](https://github.com/alexpdp7/zqxjkcrud/) to record my weight that [I deploy to K8S](playbooks/roles/zqxjkcrud/tasks/main.yaml)
+  * [My blog](../blog)
