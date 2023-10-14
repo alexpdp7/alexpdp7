@@ -65,7 +65,7 @@ node 'h1.pdp7.net' {
   }
 
   proxmox::proxy_host {'bitwarden.pdp7.net':
-    target => 'http://bitwarden.h1.int.pdp7.net/',
+    target => 'http://bitwarden.h1.int.pdp7.net:8000/',
   }
 
   package {'haproxy':}
