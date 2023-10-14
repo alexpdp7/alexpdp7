@@ -1,19 +1,17 @@
 # My personal infrastructure
 
+I'm migrating to a new Hetzner auction server with 128Gb RAM, 2x1Tb SSD. [New documentation here](personal_infra/README.md).
+
+Many stuff below is slowly being deprecated, and I'm updating the doc above.
+
 * Hetzner auction server: 48Gb RAM, 2x2Tb HDD. Runs Proxmox, tinc/ocserv, Apache as reverse proxy
-  * LXC container running NextCloud
-  * LXC container running Miniflux
-  * LXC container running bitwarden_rs
-  * LXC container running an acquaintance's Twitter bot
   * LXC container running Dokku, hosting a few personal apps
-  * LXC container running FreeIPA replica
   * LXC container running Nagios
   * LXC container running Grafana
   * LXC container running Ipsilon
   * LXC container running PostgreSQL
   * LXC container running a workstation
   * LXC container running Gitolite
-  * LXC container running FreeSWITCH
 * Flat 1
   * HP Proliant Microserver: 4Gb RAM, 2x4Tb HDD
     * DHCP/DNS
@@ -23,7 +21,7 @@
   * Raspberry Pi (1Gb RAM) running LibreElec + TVHeadend, records to NFS share on HP server
 * Flat 2
   * Raspberry Pi (1Gb RAM) running Rocky Linux, runs DHCP/DNS, tinc/ocserv
-* OVH 2Gb RAM VPS running FreeIPA (also tinc/ocserv)
+* Netcup 2Gb RAM VPS running FreeIPA (also tinc/ocserv)
 
 ## Networking
 
