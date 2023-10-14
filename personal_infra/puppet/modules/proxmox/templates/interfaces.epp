@@ -16,3 +16,4 @@ iface vmbr0 inet static
 	bridge_fd 0
 	post-up echo 1 > /proc/sys/net/ipv4/ip_forward
 	post-up iptables -t nat -A POSTROUTING -s '<%= $network['proxmox']['network'] %>' -o eno1 -j MASQUERADE
+<%= $network['proxmox']['extra_interfaces_content'] %>
