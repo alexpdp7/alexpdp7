@@ -6,6 +6,8 @@ authors = ["alex <alex@pdp7.net>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+appdirs = "^1.4.4"
+httpx = "^0.25.0"
 
 
 [build-system]
