@@ -47,6 +47,9 @@ class Bitwarden():
         finally:
             del os.environ["BW_SESSION"]
 
+    def sync(self):
+        subprocess.run([self.bw_command, "sync"], check=True)
+
     def status(self):
         return json.loads(subprocess.run([self.bw_command, "status"], check=True, stdout=subprocess.PIPE).stdout)
 
@@ -58,4 +61,5 @@ def get_item(server, email, uuid):
     b = Bitwarden()
     b.download()
     with b.login(server, email):
+        b.sync()
         return b.get_item(uuid)
