@@ -1,3 +1,0 @@
-#!/bin/sh
-
-exec autossh -M 0 -t "$@" "screen -RdU"
