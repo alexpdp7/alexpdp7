@@ -42,6 +42,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/aarroyoc/djota/tree/main - A Djot parser in Prolog
 * CI/CD
   - https://github.com/earthly/earthly - Standalone build tool with containers
+  - https://github.com/reviewdog/reviewdog - Error parser than can annotate GitHub pull requests
 * Systems
 ** Identity
 *** Keycloak
