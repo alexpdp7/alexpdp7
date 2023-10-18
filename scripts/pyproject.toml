@@ -18,3 +18,5 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.scripts]
 ruscreen = 'p7s.ruscreen:main'
 mbsync_config = 'p7s.mbsync:generate_config'
+db-create = 'p7s.distrobox:create'
+db-enter = 'p7s.distrobox:enter'
