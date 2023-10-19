@@ -15,7 +15,7 @@ def mbsync_gmail(login, password, store_path):
         MaildirStore {login}-local
         SubFolders Verbatim
         Path {store_path}/{login}/
-        Inbox {store_path}/{login}/Inbox
+        Inbox {store_path}/{login}/INBOX
 
         Channel {login}
         Far :{login}-remote:
