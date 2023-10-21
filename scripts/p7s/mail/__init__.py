@@ -43,3 +43,5 @@ def generate_config():
         """).lstrip())
 
     subprocess.run(["systemctl", "--user", "enable", "--now", "mbsync.timer"], check=True)
+    subprocess.run(["sudo", "loginctl", "enable-linger", "alex"], check=True)
+
