@@ -1,4 +1,6 @@
 import pathlib
+import subprocess
+import textwrap
 
 from p7s import bitwarden
 from p7s.mail import mbsync
@@ -12,3 +14,32 @@ def generate_config():
         "\n" +
         mbsync.mbsync_yahoo(yahoo["username"], yahoo["password"], "~/Mail")
     )
+
+    for username in [gmail["username"], yahoo["username"]]:
+        (pathlib.Path.home() / "Mail" / username).mkdir(exist_ok=True, parents=True)
+
+    user_units = pathlib.Path.home() / ".config" / "systemd" / "user"
+    user_units.mkdir(exist_ok=True, parents=True)
+    (user_units / "mbsync.service").write_text(textwrap.dedent("""
+        [Unit]
+        Description=Mail synchronization
+
+        [Service]
+        ExecStart=/usr/bin/mbsync -qa
+        """).lstrip())
+
+    (user_units / "mbsync.timer").write_text(textwrap.dedent("""
+        [Unit]
+        Description=Mail synchronization
+
+        [Install]
+        WantedBy=timers.target
+
+        [Timer]
+        OnBootSec=1m
+        OnActiveSec=0s
+        OnUnitInactiveSec=30s
+        Unit=mbsync.service
+        """).lstrip())
+
+    subprocess.run(["systemctl", "--user", "enable", "--now", "mbsync.timer"], check=True)
