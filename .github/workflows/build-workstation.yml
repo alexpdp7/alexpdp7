@@ -3,7 +3,7 @@ on:
     paths:
       - 'workstation/**'
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 jobs:
