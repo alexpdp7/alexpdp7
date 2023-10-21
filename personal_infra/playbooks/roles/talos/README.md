@@ -61,5 +61,5 @@ $ talosctl upgrade --preserve --talosconfig talos/talosconfig-k8s-test.example -
 To update K8S:
 
 ```
-$ talosctl upgrade-k8s --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com
+$ talosctl upgrade-k8s --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com --to kubernetes.version
 ```
