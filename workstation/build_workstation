@@ -27,7 +27,6 @@ set -ue
 		     --package screen \
 		     --package man-db \
 		     --package isync \
-		     --package soju \
 		     --aur-package mu \
 		     --aur-package talosctl \
 		     --aur-package senpai \
