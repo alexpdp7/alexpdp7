@@ -27,6 +27,7 @@ set -ue
 		     --package screen \
 		     --package man-db \
 		     --package isync \
+		     --package soju \
 		     --aur-package mu \
 		     --aur-package talosctl \
 		     --trusted-key-id FE042E3D4085A811 \
