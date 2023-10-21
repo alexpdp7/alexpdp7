@@ -47,6 +47,6 @@ class proxmox::proxy ($mail, $base_hostname) {
     done
     | EOT
     ,
-    mode => '0755',
+    mode => '4755',
   }
 }
