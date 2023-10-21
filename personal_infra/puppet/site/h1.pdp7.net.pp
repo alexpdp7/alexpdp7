@@ -68,6 +68,10 @@ node 'h1.pdp7.net' {
     target => 'http://bitwarden.h1.int.pdp7.net:8000/',
   }
 
+  proxmox::proxy_host {'grafana.pdp7.net':
+    target => 'http://grafana.h1.int.pdp7.net:3000/',
+  }
+
   package {'haproxy':}
   ->
   file {'/etc/haproxy/haproxy.cfg':
