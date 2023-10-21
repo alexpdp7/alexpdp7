@@ -30,6 +30,7 @@ set -ue
 		     --package soju \
 		     --aur-package mu \
 		     --aur-package talosctl \
+		     --aur-package senpai \
 		     --trusted-key-id FE042E3D4085A811 \
 		     workstation
 	# for talos, public key "Andrey Smirnov <andrey.smirnov@siderolabs.com>" FE042E3D4085A811
