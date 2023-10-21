@@ -16,7 +16,7 @@
   * LXC container running Bitwarden
   * Two VMs running Talos, providing two Kubernetes clusters (production/test)
     * My blog
-    * A CRUD system I ran two track my weight
+    * A CRUD system I run to track my weight
 * Flat 1
   * HP Proliant Microserver: 4Gb RAM, 2x4Tb HDD
     * DHCP/DNS
