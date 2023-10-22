@@ -56,3 +56,36 @@ insert into zqxjk._tables(name, default_sort) values ('weight', '{"_id", "desc"}
 insert into zqxjk._tables(name, default_sort) values ('admin_weight', '{"_id", "desc"}');
 insert into zqxjk._tables(name, default_sort) values ('bp_standard_measure', '{"_id", "desc"}');
 insert into zqxjk._tables(name, default_sort) values ('pressure_medication', '{"_id", "desc"}');
+
+create schema reporting;
+
+create view reporting.weekly_blood_pressure as (
+       with limits as (
+       	    select date_trunc('week', min(taken_at)) as min_week,
+	           date_trunc('week', max(taken_at)) as max_week
+	    from   weight.pressure_medication
+       )
+select    week.week,
+          min(systolic) as min_systolic,
+          max(systolic) as max_systolic,
+          avg(systolic) as avg_systolic,
+          min(diastolic) as min_diastolic,
+          max(diastolic) as max_diastolic,
+          avg(diastolic) as avg_diastolic
+from      generate_series((select min_week from limits), (select max_week from limits), '7 days') as week
+left join weight.bp on date_trunc('week', week.week) = date_trunc('week', bp.measured_at) and bp.kind = 'standard'
+group by  week.week order by week.week);
+
+create view reporting.weekly_medication as (
+       with limits as (
+       	    select date_trunc('week', min(taken_at)) as min_week,
+	           date_trunc('week', max(taken_at)) as max_week
+	    from   weight.pressure_medication
+       )
+select    week.week,
+          avg(dose_mg) as average_daily_dose
+from      generate_series((select min_week from limits), (select max_week from limits), '7 days') as week
+left join weight.pressure_medication on date_trunc('week', week.week) = date_trunc('week', pressure_medication.taken_at)
+group by  week.week order by week.week);
+
+create view reporting.weekly_summary as select * from reporting.weekly_blood_pressure full join reporting.weekly_medication using(week);
