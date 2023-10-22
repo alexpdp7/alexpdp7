@@ -13,4 +13,6 @@ node 'nagios.h1.int.pdp7.net' {
       check_command => 'check-host-alive',
     }
   }
+
+  package {'nagios-plugins-pgsql':}
 }
