@@ -36,6 +36,8 @@ class SimplePage(page.BasePage):
 
 
 def handler(request: bicephalus.Request) -> bicephalus.Response:
+    if not request.path.endswith("/"):
+        return bicephalus.Response(request.path + "/", None, bicephalus.Status.PERMANENT_REDIRECTION)
     if request.path == "/":
         return blog_pages.Root(request).response()
     if re.match(r"/\d{4}/\d{2}/.*/", request.path):
@@ -48,7 +50,7 @@ def handler(request: bicephalus.Request) -> bicephalus.Response:
         return SimplePage(request, request.path, "About Álex Córcoles").response()
     if request.path == "/laspelis/":
         return SimplePage(request, request.path, "laspelis").response()
-    if re.match(r"/laspelis/\d+/?", request.path):
+    if re.match(r"/laspelis/\d+/", request.path):
         return SimplePage(request, request.path.removesuffix("/") + "/", request.path).response()
 
     return page.NotFound(request).response()

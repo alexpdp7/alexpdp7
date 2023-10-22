@@ -235,7 +235,7 @@ opentelemetry-sdk = "^1.20.0"
 type = "git"
 url = "https://github.com/alexpdp7/bicephalus.git"
 reference = "HEAD"
-resolved_reference = "ca0c7e85d9f6926a08040fc492a31e5b129defa0"
+resolved_reference = "3558c6e0c86e646a8f0fb214e5dce9126497a73b"
 
 [[package]]
 name = "charset-normalizer"
