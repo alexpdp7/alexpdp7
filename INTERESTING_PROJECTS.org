@@ -142,6 +142,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Python
    - https://github.com/inducer/pudb Full-screen console debugger for Python
    - https://pyoxidizer.readthedocs.io/en/latest/index.html Self-contained Python distributions, packaging, etc.
+   - https://github.com/bugen/pypipe Python-based AWK
 ** Rust
    - https://github.com/flutter-rs/flutter-rs
    - https://github.com/xTibor/rust-on-c64
