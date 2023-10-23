@@ -5,7 +5,7 @@ import htmlgenerator as h
 from blog import meta, pretty, gemtext
 
 
-def html_template(*content, page_title=None):
+def html_template(*content, page_title=None, full):
     title = [h.A(meta.TITLE, href=f"{meta.SCHEMA}://{meta.HOST}")]
     if page_title:
         title += f" - {page_title}"
@@ -16,6 +16,13 @@ def html_template(*content, page_title=None):
 
     links += h.BaseElement(f" {meta.EMAIL_TEXT}")
 
+    full_part = []
+    if full:
+        full_part = [
+            h.H2(meta.SUBTITLE),
+            h.P(*links),
+        ]
+
     return pretty.pretty_html(h.render(
         h.HTML(
             h.HEAD(
@@ -24,8 +31,7 @@ def html_template(*content, page_title=None):
             ),
             h.BODY(
                 h.H1(title),
-                h.H2(meta.SUBTITLE),
-                h.P(*links),
+                *full_part,
                 *content,
             ),
             doctype="html",

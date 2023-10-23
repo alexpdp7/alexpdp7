@@ -81,7 +81,7 @@ class Root(page.BasePage):
         return (
             bicephalus.Status.OK,
             "text/html",
-            html.html_template(*itertools.chain(posts)),
+            html.html_template(*itertools.chain(posts), full=True),
         )
 
     def feed(self):
@@ -135,5 +135,6 @@ class EntryPage(page.BasePage):
             html.html_template(
                 *self.entry.html(),
                 page_title=f"{self.entry.title} - {self.entry.posted}",
+                full=False,
             ),
         )
