@@ -13,7 +13,7 @@ Symlink everything in this directory into your root infrastructure directory.
 
 Create an `inventory` file.
 
-Run `./setup_venv` to create a virtual environment.
+Use the [quay.io/alexpdp7/workstation:latest](https://quay.io/repository/alexpdp7/workstation) image to run Ansible, using a tool such as [Toolbox](https://containertoolbx.org/) or [Distrobox](https://distrobox.it/).
 
 Create `vault_password` with a vault password.
 
