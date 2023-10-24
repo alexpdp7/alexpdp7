@@ -14,7 +14,8 @@ def setup_soju():
         Image=quay.io/alexpdp7/workstation:latest
         Volume=/home/alex/.config/containers/systemd/soju_config:/etc/soju/config
         Volume=/home/alex/.local/lib/soju:/var/lib/soju/
-        SecurityLabelDisable=true
+        # running this on an LXC container, which borks SecurityLabelDisable
+        #SecurityLabelDisable=true
         Network=host
 
         Exec=soju
