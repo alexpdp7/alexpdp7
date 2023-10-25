@@ -31,6 +31,8 @@ set -ue
 		     --aur-package mu \
 		     --aur-package talosctl \
 		     --aur-package senpai \
+		     --aur-package telegram-tdlib-purple-minimal-git \
+		     --aur-package bitlbee-libpurple \
 		     --trusted-key-id FE042E3D4085A811 \
 		     workstation
 	# for talos, public key "Andrey Smirnov <andrey.smirnov@siderolabs.com>" FE042E3D4085A811
