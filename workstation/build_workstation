@@ -28,6 +28,7 @@ set -ue
 		     --package man-db \
 		     --package isync \
 		     --package soju \
+                     --package libotr \
 		     --aur-package mu \
 		     --aur-package talosctl \
 		     --aur-package senpai \
