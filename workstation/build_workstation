@@ -31,7 +31,7 @@ set -ue
                      --package libotr \
 		     --aur-package mu \
 		     --aur-package talosctl \
-		     --aur-package senpai \
+		     --aur-package senpai-irc-git \
 		     --aur-package telegram-tdlib-purple-minimal-git \
 		     --aur-package bitlbee-libpurple \
 		     --trusted-key-id FE042E3D4085A811 \
