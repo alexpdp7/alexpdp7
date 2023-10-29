@@ -51,23 +51,6 @@
     - name: set proxmox extra copy in
       command: cp /tmp/{{ proxmox.id }}.conf /etc/pve/lxc/{{ proxmox.id }}.conf
       delegate_to: "{{ proxmox.host }}"
-# https://bugzilla.proxmox.com/show_bug.cgi?id=4515
-- name: set hosts
-  copy:
-    content: |
-      127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
-      ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
-
-      {% if network is defined and network.ip is defined %}
-      {{ network.ip }}  {{ inventory_hostname }} {{ inventory_hostname|regex_search('^[^.]*') }}
-      {% endif %}
-    dest: /rpool/data/subvol-{{ proxmox.id }}-disk-0/etc/hosts
-  delegate_to: "{{ proxmox.host }}"
-- name: prevent proxmox from manipulating hosts
-  file:
-    path: /etc/.pve-ignore.hosts
-    state: touch
-  delegate_to: "{{ proxmox.host }}"
 - name: start host
   shell: "{ pct status {{ proxmox.id }} | grep running ; } || pct start {{ proxmox.id }}"
   delegate_to: "{{ proxmox.host }}"
