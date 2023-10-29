@@ -40,6 +40,7 @@ I install Goguma on my phone using [F-Droid](https://f-droid.org/).
 
 After connecting Senpai to Soju, you talk to a bot called `BouncerServ` to connect to your IRC networks, including the "virtual" IRC network that Bitlbee uses.
 When you join/part channels in any client, Soju takes care of making those actions permanent.
+Take care of following [the Telegram Bitlbee documentation on configuring it for proper nicknames](https://github.com/BenWiederhake/tdlib-purple/#proper-user-names-in-bitlbee).
 
 You message a special channel in Bitlbee to create "accounts" that connect to IM networks such as Telegram.
 
