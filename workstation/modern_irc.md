@@ -1,5 +1,8 @@
 With the [IRCv3](https://ircv3.net/) advances and modern software, IRC is a surprisingly nice chat/IM medium, although a bit complex to set up nicely.
 
+I am not writing a step-by-step guide in setting this up, mostly providing links to my setup scripts.
+If you have issues reproducing this kind of setup, you can try contacting me (e.g. open a GitHub issue) and I can try to expand.
+
 I use:
 
 * [Soju](https://soju.im/) as a bouncer.
