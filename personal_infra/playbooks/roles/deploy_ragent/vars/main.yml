@@ -8,6 +8,9 @@ ragent:
       '11': # apparently the buster package works for bullseye
         x86_64: debian_buster
         armv7l: debian_buster_rpi3
+      '12': # apparently the buster package works for bookworm
+        x86_64: debian_buster
+        armv7l: debian_buster_rpi3
       '20': # and it also works for Ubuntu 20.04
         x86_64: debian_buster
     RedHat:
