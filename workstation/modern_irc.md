@@ -29,7 +29,7 @@ With this setup, I can:
 # Set up
 
 My [workstation container image](workstation/setup.py) includes Soju, Bitlbee, and the Telegram/Bitlbee adapter.
-I have Python scripts that configure [soju](scripts/p7s/soju.py) and [Bitlbee](scripts/p7s/bitlbee.py) as persistent systemd services running as containers.
+I have Python scripts that configure [soju](../scripts/p7s/soju.py) and [Bitlbee](../scripts/p7s/bitlbee.py) as persistent systemd services running as containers.
 
 The container image also includes Senpai, which I run using [distrobox](https://distrobox.it/).
 
