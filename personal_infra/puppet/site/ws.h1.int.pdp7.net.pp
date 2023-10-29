@@ -5,4 +5,6 @@ node 'ws.h1.int.pdp7.net' {
   }
 
   package {['pipx', 'isync', 'weechat', 'rclone', 'fuse', 'rsync', 'sshpass']:}
+
+  class {'remote_desktop':}
 }
