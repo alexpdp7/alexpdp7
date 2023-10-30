@@ -28,7 +28,7 @@
 - But with a well-defined AST
 - Complex nested lists
 - Styling of code blocks (highlighting, user input, replaceable...)
-- See https://github.com/alexpdp7/lmparser
+- See https://github.com/jgm/djot / https://github.com/opendevise/asciidoc-parsing-lab/
 
 * Streaming DB
 
@@ -70,12 +70,6 @@ See https://github.com/EvgSkv/logica
 - Makes queries composable (e.g. declare a query object, then add paging/sorting, for framework usage)
 - Declarative join via foreign key constraint names
 - Better ordering for code completion (e.g. FROMs first)
-
-* User-friendly GMail synchronization tool
-
-- Speaks XOAUTH2
-- Syncs to something Mutt/Notmuch/etc. can use easily
-- See https://github.com/alexpdp7/notsomuchcomplex
 
 * Parallel execution framework
 
