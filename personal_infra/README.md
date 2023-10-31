@@ -44,7 +44,7 @@ For the moment, I'm managing the following distros using this setup.
 
 | Distro          | Puppet version     |
 | --------------- | ------------------ |
-| Debian 11 (PVE) | Puppet 5.5         |
+| Debian 12 (PVE) | Puppet 7.23        |
 | EL8             | Puppet 6.26 (EPEL) |
 | EL9             | Puppet 7.20 (EPEL) |
 
