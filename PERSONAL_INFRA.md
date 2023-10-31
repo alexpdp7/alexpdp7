@@ -121,11 +121,9 @@ The Raspberry has a DVB-T tuner and TVHeadend, recordings are stored on the Prol
 
 ### Backup
 
-Valuable data is on dedicated datasets. Each Proxmox host (the Proliant and the Hetzner server) run scripts daily that create snapshots.
-
-The Hetzner server sends/receives datasets to the Proliant daily.
-
-I send/receive datasets from the Proliant to USB drives using ZFS.
+Valuable data is on dedicated datasets.
+I run [sanoid](https://github.com/jimsalterjrs/sanoid) in the Hetzner and Proliant servers to create and prune snapshots.
+I use [syncoid](https://github.com/jimsalterjrs/sanoid#syncoid) in the Proliant and a laptop to synchronize snapshots as a backup.
 
 ## Kubernetes
 
