@@ -10,6 +10,10 @@
 
 - [[https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/][Python’s "Disappointing" Superpowers]] A convincing defense of dynamic typing
 
+** Optimization
+
+- [[https://docs.oracle.com/cd/E11882_01/server.112/e41573/technique.htm][The Oracle Performance Improvement Method]] My favorite text about performance tuning- the good advice is not Oracle-specific. Includes a bit more real-world advice than [[https://users.ece.utexas.edu/~adnan/pike.html][Rob Pike's 5 Rules of Programming]].
+
 * Organizations
 
 - [[https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/][The Engineer/Manager Pendulum]] Why people should multiclass engineering and management
