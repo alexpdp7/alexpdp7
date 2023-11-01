@@ -1,0 +1,37 @@
+* Libros
+
+Todos se pueden comprar en Kindle, tapa blanda o el formato que salga más barato
+
+** Ficción
+
+- [[https://www.amazon.es/dp/8448034139/][Desmemorias de una revista satírica: Una historia editorial nunca contada (Biografías y memorias)]]
+- [[https://www.amazon.es/dp/1940878764/][BLONDIE AGAINST THE ODDS]]
+- [[https://es.wikipedia.org/wiki/Viaje_al_Oeste][Viaje al Oeste]] (me vale edición en español o inglés)
+- [[https://www.amazon.es/dp/1592240585/][He Do the Time Police in Different Voices de David Langford (Tapa blanda)]]
+- [[https://www.amazon.es/dp/B0046A9MRC/][The Once and Future King]]
+- [[https://www.amazon.es/dp/0099477467/][Brave New World (Aldous Huxley)]]
+
+** No ficción
+
+- [[https://www.amazon.es/dp/B07QYCHJ7V/][An Elegant Puzzle: Systems of Engineering Management (English Edition)]]
+
+* Cacharros
+
+- [[https://www.cnet.com/health/best-self-cleaning-water-bottle/][Botella de agua autolimpiable]]
+- [[https://solidslime.net/product/solidslime_ett_adapter/?v=7516fd43adaa][Adaptador de ping pong para mano derecha/mango "straight"]]
+
+* Comida
+
+- Vino sin alcohol
+- Ferrero Pocket Coffee descafeinado. También existe [[https://www.ferrero.es/productos/helados/pocket-coffee-helados][en helado]].
+- Cosas raras para comer
+
+* Ropa
+
+- Calzoncillos negros ajustados. [[https://www.amazon.es/DANISH-ENDURANCE-Bamboo-Trunk-6-Pack/dp/B09J4WQ18Q/][Ejemplo]].
+- Camisetas colores claros
+- Calcetines compresión
+
+* Varios
+
+- [[https://devswag.com/products/rust-ferris][La mascota de Rust]]
