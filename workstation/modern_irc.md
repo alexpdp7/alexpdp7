@@ -42,7 +42,11 @@ After connecting Senpai to Soju, you talk to a bot called `BouncerServ` to conne
 When you join/part channels in any client, Soju takes care of making those actions permanent.
 
 You message a special channel in Bitlbee to create "accounts" that connect to IM networks such as Telegram.
-Take care of following [the Telegram Bitlbee documentation on configuring it for proper nicknames](https://github.com/BenWiederhake/tdlib-purple/#proper-user-names-in-bitlbee).
+
+* Take care of following [the Telegram Bitlbee documentation on configuring it for proper nicknames](https://github.com/BenWiederhake/tdlib-purple/#proper-user-names-in-bitlbee).
+* Set the `read-receipts` account property to `false`?
+* Set the `auto_join` channel property to `true`?
+* `chat list telegram-tdlib` lists channels, but only shows topic, not title. Maybe <https://github.com/ars3niy/tdlib-purple/issues/138>?
 
 # Possible improvements
 
