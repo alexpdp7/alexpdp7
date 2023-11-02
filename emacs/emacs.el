@@ -133,7 +133,7 @@
 (clear-abbrev-table global-abbrev-table)
 
 (progn
-  (when (boundp 'daoc-mode-abbrev-table)
+  (when (boundp 'adoc-mode-abbrev-table)
     (clear-abbrev-table adoc-mode-abbrev-table))
   (define-abbrev-table 'adoc-mode-abbrev-table
     '(
