@@ -68,6 +68,8 @@
   :ensure t)
 (use-package company
   :ensure t)
+(add-hook 'after-init-hook 'global-company-mode)
+
 (use-package lsp-ui
   :ensure t)
 (use-package yasnippet
