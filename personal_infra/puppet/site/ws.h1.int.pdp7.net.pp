@@ -4,7 +4,7 @@ node 'ws.h1.int.pdp7.net' {
     storage_driver => 'zfs',
   }
 
-  package {['pipx', 'isync', 'weechat', 'rclone', 'fuse', 'rsync', 'sshpass', 'bash-completion']:}
+  package {['pipx', 'isync', 'weechat', 'rclone', 'fuse', 'rsync', 'sshpass', 'bash-completion', 'gnutls-utils']:}
 
   class {'remote_desktop':}
 }
