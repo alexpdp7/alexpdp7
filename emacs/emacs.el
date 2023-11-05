@@ -92,6 +92,8 @@
 
 ;; Python support
 
+; https://github.com/jorgenschaefer/elpy/issues/1890#issuecomment-792361668
+; Need to downgrade jedi to get it to work :(
 (use-package elpy
   :ensure t
   :init
