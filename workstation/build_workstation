@@ -7,7 +7,6 @@ set -ue
 	./builder.py \
 		     --package ansible \
 		     --package kubectl \
-		     --package emacs-nox \
 		     --package puppet \
 		     --package sshpass \
 		     --package git \
@@ -23,13 +22,10 @@ set -ue
 		     --package python-boto3 \
 		     --package certbot \
 		     --package bitwarden-cli \
-		     --package xclip \
-		     --package screen \
 		     --package man-db \
 		     --package isync \
 		     --package soju \
                      --package libotr \
-		     --aur-package mu \
 		     --aur-package talosctl \
 		     --aur-package senpai-irc-git \
 		     --aur-package telegram-tdlib-purple-minimal-git \
