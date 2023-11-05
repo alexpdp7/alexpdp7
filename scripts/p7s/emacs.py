@@ -4,7 +4,7 @@ import textwrap
 import urllib.request
 
 
-COSMO_BUILD_URL = "https://github.com/alexpdp7/superconfigure/releases/download/cleanup/editor.zip"
+COSMO_BUILD_URL = "https://github.com/alexpdp7/superconfigure/releases/download/emacs_29.1/editor.zip"
 
 
 def setup_emacs():
