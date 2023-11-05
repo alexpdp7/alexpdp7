@@ -25,12 +25,16 @@
 
 ;; Install xclip so cutting/copying in Emacs on a terminal affects the graphical clipboard
 
-(use-package xclip)
-(xclip-mode 1)
+(use-package xclip
+  :ensure t
+  :init
+  (xclip-mode 1))
 
 ;; Fancy undo
 
-(use-package undo-tree)
+(use-package undo-tree
+  :ensure t)
+
 (global-undo-tree-mode)
 (setq undo-tree-visualizer-diff t)
 (setq undo-tree-visualizer-timestamp t)
@@ -49,7 +53,8 @@
 
 ;; nicer completion UI
 
-(use-package helm)
+(use-package helm
+  :ensure t)
 
 (global-set-key (kbd "M-x") #'helm-M-x)
 (global-set-key (kbd "C-x C-f") #'helm-find-files)
@@ -59,10 +64,14 @@
 
 ;; LSP base for Rust and Java
 
-(use-package lsp-mode)
-(use-package company)
-(use-package lsp-ui)
-(use-package yasnippet)
+(use-package lsp-mode
+  :ensure t)
+(use-package company
+  :ensure t)
+(use-package lsp-ui
+  :ensure t)
+(use-package yasnippet
+  :ensure t)
 
 (add-hook 'java-mode-hook (lambda ()
                             (setq c-basic-offset 2
@@ -72,7 +81,8 @@
 
 ;; Rust support
 
-(use-package rust-mode)
+(use-package rust-mode
+  :ensure t)
 (add-hook 'rust-mode-hook #'lsp)
 (add-hook 'rust-mode-hook
           (lambda () (setq indent-tabs-mode nil)))
@@ -80,27 +90,33 @@
 
 ;; Python support
 
-(use-package elpy)
-(elpy-enable)
+(use-package elpy
+  :ensure t
+  :init
+  (elpy-enable))
 
 ;;; Java Support
 
-(use-package lsp-java)
+(use-package lsp-java
+  :ensure t)
 (add-hook 'java-mode-hook 'lsp)
 
 ;; YAML support
 
-(use-package yaml-mode)
+(use-package yaml-mode
+  :ensure t)
 
 ;; lsp-mode seems unusably slow, so don't install the Ansible language server
 ;; if you want to get it working, try https://www.reddit.com/r/emacs/comments/ybbkks/how_to_properly_set_up_lsp_ansible_language/itfxoaa/
 
-(use-package ansible)
+(use-package ansible
+  :ensure t)
 (add-hook 'yaml-mode-hook 'ansible)
 
 ;; Puppet support; mostly for syntax highlighting
 
-(use-package puppet-mode)
+(use-package puppet-mode
+  :ensure t)
 
 ;; ==== WORK ====
 
@@ -120,7 +136,8 @@
 
 ;; AsciiDoc + Vale + Aspell support for work
 
-(use-package adoc-mode)
+(use-package adoc-mode
+  :ensure t)
 (add-hook 'adoc-mode-hook #'abbrev-mode)
 
 (cl-defun slot/vc-install (&key (fetcher "github") repo name rev backend)
@@ -131,13 +148,15 @@
       (package-vc-install url iname rev backend))))
 
 (use-package flymake-vale
-  :init (slot/vc-install :fetcher "github" :repo "tpeacock19/flymake-vale"))
+  :init (slot/vc-install :fetcher "github" :repo "tpeacock19/flymake-vale")
+  :ensure t)
 
 (add-hook 'adoc-mode-hook #'flymake-vale-load)
 (add-hook 'find-file-hook 'flymake-vale-maybe-load)
 (add-hook 'adoc-mode-hook 'flymake-mode)
 
-(use-package flymake-aspell)
+(use-package flymake-aspell
+  :ensure t)
 (add-hook 'adoc-mode-hook #'flymake-aspell-setup)
 (setq ispell-dictionary "en_US-RH")
 
