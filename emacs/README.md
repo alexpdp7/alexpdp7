@@ -26,9 +26,10 @@ Maybe it has some drawbacks, but with straight.el, I've been able to create a co
 Some of the stuff in my `emacs.el` is maybe not critical, like Helm and Projectile.
 I really like Projectile, but often I just run `emacs $file` in a new terminal tab.
 It's easy, and you don't need to learn a ton of window/buffer/etc. management.
-(Be sure to check [emacs.bash](https://github.com/alexpdp7/alexpdp7/blob/master/emacs/emacs.bash) for something you can source in your bash to prevent frequent Emacs startups.)
 
 Many other stuff is support for things I do: AsciiDoc, Vale, Rust, Python, Java, YAML, Ansible, Puppet.
 You probably need other plugins, and maybe you don't need them right now.
 
 Maybe try out some of the large configurations, to learn what fancy stuff is available and add it as you become comfortable with the previous thing you configured.
+
+See also [my setup for using a Cosmopolitan Emacs](../scripts/p7s/emacs.py).
