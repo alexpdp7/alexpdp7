@@ -6,13 +6,13 @@ class nextcloud(
 
     file {'/etc/yum.repos.d/koalillo-nextcloud-epel-9.repo':
       content => @("EOT"/$)
-      [copr:copr.fedorainfracloud.org:koalillo:nextcloud-test]
+      [copr:copr.fedorainfracloud.org:koalillo:nextcloud]
       name=Copr repo for nextcloud owned by koalillo
-      baseurl=https://download.copr.fedorainfracloud.org/results/koalillo/nextcloud-test/epel-9-\$basearch/
+      baseurl=https://download.copr.fedorainfracloud.org/results/koalillo/nextcloud/epel-9-\$basearch/
       type=rpm-md
       skip_if_unavailable=True
       gpgcheck=1
-      gpgkey=https://download.copr.fedorainfracloud.org/results/koalillo/nextcloud-test/pubkey.gpg
+      gpgkey=https://download.copr.fedorainfracloud.org/results/koalillo/nextcloud/pubkey.gpg
       repo_gpgcheck=0
       enabled=1
       enabled_metadata=1
