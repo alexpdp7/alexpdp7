@@ -22,8 +22,19 @@ class clickhouse {
   ->
   package {['clickhouse-server', 'clickhouse-client', 'clickhouse-keeper']:}
   ->
+  [File['/etc/clickhouse-server/config.d/network.xml']]
+  ~>
   service {['clickhouse-server', 'clickhouse-keeper']:
     ensure => running,
     enable => true,
-  } 
+  }
+
+  file {'/etc/clickhouse-server/config.d/network.xml':
+    content => @(EOT)
+      <clickhouse>
+        <listen_host>::</listen_host>
+      </clickhouse>
+      | EOT
+    ,
+  }
 }
