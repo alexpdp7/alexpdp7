@@ -804,7 +804,7 @@ enable_event_handlers=1
 # performance data.
 # Values: 1 = process performance data, 0 = do not process performance data
 
-process_performance_data=1
+process_performance_data=0
 
 
 
@@ -826,8 +826,8 @@ process_performance_data=1
 # Performance data is only written to these files if the
 # enable_performance_data option (above) is set to 1.
 
-host_perfdata_file=/var/log/nagios/host-perfdata
-service_perfdata_file=/var/log/nagios/service-perfdata
+#host_perfdata_file=/var/log/nagios/host-perfdata
+#service_perfdata_file=/var/log/nagios/service-perfdata
 
 
 
@@ -839,8 +839,8 @@ service_perfdata_file=/var/log/nagios/service-perfdata
 # to the performance data file.  Some examples of what you can do are
 # shown below.
 
-host_perfdata_file_template=[HOSTPERFDATA]\t$TIMET$\t$HOSTNAME$\t$HOSTEXECUTIONTIME$\t$HOSTOUTPUT$\t$HOSTPERFDATA$
-service_perfdata_file_template=[SERVICEPERFDATA]\t$TIMET$\t$HOSTNAME$\t$SERVICEDESC$\t$SERVICEEXECUTIONTIME$\t$SERVICELATENCY$\t$SERVICEOUTPUT$\t$SERVICEPERFDATA$
+#host_perfdata_file_template=[HOSTPERFDATA]\t$TIMET$\t$HOSTNAME$\t$HOSTEXECUTIONTIME$\t$HOSTOUTPUT$\t$HOSTPERFDATA$
+#service_perfdata_file_template=[SERVICEPERFDATA]\t$TIMET$\t$HOSTNAME$\t$SERVICEDESC$\t$SERVICEEXECUTIONTIME$\t$SERVICELATENCY$\t$SERVICEOUTPUT$\t$SERVICEPERFDATA$
 
 
 
