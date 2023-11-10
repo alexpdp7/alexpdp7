@@ -57,6 +57,14 @@ class nagios($otel_host) {
     owner => 'nagios',
   }
 
+  nagios_command {'process-service-perfdata-file':
+    command_name => 'process-service-perfdata-file',
+    command_line => "/opt/nagios-otel/venv/bin/python3 /opt/nagios-otel/examples/service_example.py ${otel_host} /var/log/nagios/service-perfdata",
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+  }
+
   nagios_hostgroup {'linux':
     hostgroup_name => 'linux',
     require => Package['nagios'],

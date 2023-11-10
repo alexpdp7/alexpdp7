@@ -827,7 +827,7 @@ process_performance_data=1
 # enable_performance_data option (above) is set to 1.
 
 host_perfdata_file=/var/log/nagios/host-perfdata
-#service_perfdata_file=/var/log/nagios/service-perfdata
+service_perfdata_file=/var/log/nagios/service-perfdata
 
 
 
@@ -863,7 +863,7 @@ service_perfdata_file_mode=a
 # processed.
 
 host_perfdata_file_processing_interval=60
-service_perfdata_file_processing_interval=0
+service_perfdata_file_processing_interval=60
 
 # HOST AND SERVICE PERFORMANCE DATA FILE PROCESSING COMMANDS
 # These commands are used to periodically process the host and
@@ -871,7 +871,7 @@ service_perfdata_file_processing_interval=0
 # processing occurs is determined by the options above.
 
 host_perfdata_file_processing_command=process-host-perfdata-file
-#service_perfdata_file_processing_command=process-service-perfdata-file
+service_perfdata_file_processing_command=process-service-perfdata-file
 
 
 
