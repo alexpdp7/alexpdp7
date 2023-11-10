@@ -50,7 +50,7 @@ node 'clickhouse.h1.int.pdp7.net' {
             exporters: [ clickhouse ]
       | EOT
     ,
-    require => Package['otel-contrib'],
+    require => Package['otelcol-contrib'],
     notify => Service['otelcol-contrib'],
   }
 }
