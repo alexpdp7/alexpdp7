@@ -804,7 +804,7 @@ enable_event_handlers=1
 # performance data.
 # Values: 1 = process performance data, 0 = do not process performance data
 
-process_performance_data=0
+process_performance_data=1
 
 
 
@@ -826,7 +826,7 @@ process_performance_data=0
 # Performance data is only written to these files if the
 # enable_performance_data option (above) is set to 1.
 
-#host_perfdata_file=/var/log/nagios/host-perfdata
+host_perfdata_file=/var/log/nagios/host-perfdata
 #service_perfdata_file=/var/log/nagios/service-perfdata
 
 
@@ -839,8 +839,8 @@ process_performance_data=0
 # to the performance data file.  Some examples of what you can do are
 # shown below.
 
-#host_perfdata_file_template=[HOSTPERFDATA]\t$TIMET$\t$HOSTNAME$\t$HOSTEXECUTIONTIME$\t$HOSTOUTPUT$\t$HOSTPERFDATA$
-#service_perfdata_file_template=[SERVICEPERFDATA]\t$TIMET$\t$HOSTNAME$\t$SERVICEDESC$\t$SERVICEEXECUTIONTIME$\t$SERVICELATENCY$\t$SERVICEOUTPUT$\t$SERVICEPERFDATA$
+host_perfdata_file_template=[HOSTPERFDATA]\t$TIMET$\t$HOSTNAME$\t$HOSTEXECUTIONTIME$\t$HOSTOUTPUT$\t$HOSTPERFDATA$
+service_perfdata_file_template=[SERVICEPERFDATA]\t$TIMET$\t$HOSTNAME$\t$SERVICEDESC$\t$SERVICEEXECUTIONTIME$\t$SERVICELATENCY$\t$SERVICEOUTPUT$\t$SERVICEPERFDATA$
 
 
 
@@ -851,8 +851,8 @@ process_performance_data=0
 # pipe ("p") mode which avoid blocking at startup, otherwise you will
 # likely want the default append ("a") mode.
 
-#host_perfdata_file_mode=a
-#service_perfdata_file_mode=a
+host_perfdata_file_mode=a
+service_perfdata_file_mode=a
 
 
 
@@ -862,17 +862,15 @@ process_performance_data=0
 # below.  A value of 0 indicates the files should not be periodically
 # processed.
 
-#host_perfdata_file_processing_interval=0
-#service_perfdata_file_processing_interval=0
-
-
+host_perfdata_file_processing_interval=60
+service_perfdata_file_processing_interval=0
 
 # HOST AND SERVICE PERFORMANCE DATA FILE PROCESSING COMMANDS
 # These commands are used to periodically process the host and
 # service performance data files.  The interval at which the
 # processing occurs is determined by the options above.
 
-#host_perfdata_file_processing_command=process-host-perfdata-file
+host_perfdata_file_processing_command=process-host-perfdata-file
 #service_perfdata_file_processing_command=process-service-perfdata-file
 
 

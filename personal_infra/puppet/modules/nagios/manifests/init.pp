@@ -1,4 +1,4 @@
-class nagios {
+class nagios($otel_host) {
   package {'nagios':}
   ->
   service {'nagios':
@@ -44,6 +44,14 @@ class nagios {
   nagios_command {'check_ragent':
     command_name => 'check_ragent',
     command_line => '/usr/bin/check_ragent http://$HOSTADDRESS$:21488/ --warning-units dnf-makecache.service --warning-units dnf-automatic-install.service',
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+  }
+
+  nagios_command {'process-host-perfdata-file':
+    command_name => 'process-host-perfdata-file',
+    command_line => "/opt/nagios-otel/venv/bin/python3 /opt/nagios-otel/examples/host_example.py ${otel_host} /var/log/nagios/host-perfdata",
     require => Package['nagios'],
     notify => Service['nagios'],
     owner => 'nagios',

@@ -1,5 +1,7 @@
 node 'nagios.h1.int.pdp7.net' {
-  class {'nagios':}
+  class {'nagios':
+    otel_host => 'clickhouse.h1.int.pdp7.net',
+  }
   class {'nagios::k8s':}
 
   $k8s_hosts = lookup("groups.k8s")
