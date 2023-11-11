@@ -5,7 +5,6 @@ node 'pg.h1.int.pdp7.net' {
       # "local" is for Unix domain socket connections only
       local   all             all                                       peer
       host    weight          k8s_prod        k8s-prod.h1.int.pdp7.net  trust
-      host    weight          grafana         grafana.h2.int.pdp7.net   trust
       host    weight          grafana         grafana.h1.int.pdp7.net   trust
       host    weight          nagios          nagios.h1.int.pdp7.net    trust
       host    miniflux        miniflux        miniflux.h1.int.pdp7.net  trust
