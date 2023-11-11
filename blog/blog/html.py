@@ -36,6 +36,9 @@ def html_template(*content, page_title=None, full):
                         margin-right: auto;
                         padding-left: 2em;
                         padding-right: 2em;
+                        /* from Mozilla reader mode */
+                        line-height: 1.6em;
+                        font-size: 20px;
                     }
                 """).lstrip())
             ),
