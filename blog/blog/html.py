@@ -1,4 +1,5 @@
 import itertools
+import textwrap
 
 import htmlgenerator as h
 
@@ -28,6 +29,15 @@ def html_template(*content, page_title=None, full):
             h.HEAD(
                 h.TITLE(meta.TITLE + (f" - {page_title}" if page_title else "")),
                 h.LINK(rel="alternate", type="application/rss+xml", title=meta.TITLE, href=f"{meta.SCHEMA}://{meta.HOST}/feed/"),
+                h.STYLE(textwrap.dedent("""
+                    body {
+                        max-width: 60em;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding-left: 2em;
+                        padding-right: 2em;
+                    }
+                """).lstrip())
             ),
             h.BODY(
                 h.H1(title),
