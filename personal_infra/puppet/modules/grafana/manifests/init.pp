@@ -33,6 +33,7 @@ class grafana($root_url, $oidc_client_id, $oidc_client_secret, $oidc_auth_url, $
       api_url = $oidc_api_url
       token_url = $oidc_token_url
       scopes = openid email profile
+      oauth_allow_insecure_email_lookup = true
       | EOT
     ,
   }
