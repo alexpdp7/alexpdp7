@@ -34,6 +34,10 @@ Todos se pueden comprar en Kindle, tapa blanda o el formato que salga más barat
 - Camisetas colores claros
 - Calcetines compresión
 
+* Videojuegos
+
+- [[https://store.steampowered.com/wishlist/id/koalillo/][Lista de deseos en Steam]]
+
 * Varios
 
 - [[https://devswag.com/products/rust-ferris][La mascota de Rust]]
