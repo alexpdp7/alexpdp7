@@ -1,29 +1,35 @@
-# Personal infra
+# My personal infrastructure
 
-This is a collection of files I use setting up my personal infrastructure.
-This is a work in progress, as I am redoing a bit how I do configuration management.
-The main source is in a private repo, but I put here as much material as I can make public.
-Inventory, vaults, etc. remain in the private repo.
+This is a general overview.
+See [HACKING](personal_infra/HACKING.md) for more "usage" instructions.
 
-## Ansible
+* Hetzner auction server: 128Gb RAM, 2x1Tb SSD. Runs Proxmox, tinc/ocserv, Apache as reverse proxy
+  * LXC container running Nagios
+  * LXC container running Grafana
+  * LXC container running Ipsilon
+  * LXC container running PostgreSQL
+  * LXC container running a workstation
+  * LXC container running Gitolite
+  * LXC container running a FreeIPA replica
+  * LXC container running Miniflux
+  * LXC container running Nextcloud
+  * LXC container running FreeSWITCH
+  * LXC container running Bitwarden
+  * Two VMs running Talos, providing two Kubernetes clusters (production/test)
+    * My blog
+    * A CRUD system I run to track my weight
+* Flat 1
+  * HP Proliant Microserver: 4Gb RAM, 2x4Tb HDD
+    * DHCP/DNS
+    * Runs SMB/NFS
+    * ZFS backups on external USB drives
+    * tinc/ocserv
+  * Raspberry Pi (1Gb RAM) running LibreElec + TVHeadend, records to NFS share on HP server
+* Flat 2
+  * Raspberry Pi (1Gb RAM) running Rocky Linux, runs DHCP/DNS, tinc/ocserv
+* Netcup 2Gb RAM VPS running FreeIPA (also tinc/ocserv)
 
-### Initial setup
-
-Symlink everything in this directory into your root infrastructure directory.
-
-Create an `inventory` file.
-
-Use the [quay.io/alexpdp7/workstation:latest](https://quay.io/repository/alexpdp7/workstation) image to run Ansible, using a tool such as [Toolbox](https://containertoolbx.org/) or [Distrobox](https://distrobox.it/).
-
-Create `vault_password` with a vault password.
-
-### Usage
-
-Run `. .venv/bin/activate` to activate the virtual environment.
-
-Run Ansible commands normally.
-
-## Ansible/Puppet integration
+## Configuration management
 
 I prefer using Ansible for orchestration, and Puppet for configuration management.
 
@@ -38,24 +44,149 @@ Except for exported resources, which work differently, this setup has most of th
 Being able to simulate exported resources without a master lets you use the `nagios_core` module without infrastructure.
 With the `nagios_core` module, Puppet code, such as a module which sets up a web server, can define "inline" Puppet monitoring for the managed resources.
 
-## Puppet
+## Networking
 
-For the moment, I'm managing the following distros using this setup.
+I like having working DNS, so I run dnsmasq on both flats and for the Proxmox network on the Hetzner server.
+It also does integrated DHCP (mostly everything gets a DHCP IP and thus, a hostname).
+Every environment has a /24 network with DNS/DHCP and their own domain (hetzner.int.mydomain, flat1.int.mydomain, etc.).
+I use Route 53 for DNS records (except those of my own networks). DNS records are created with Ansible playbooks.
 
-| Distro          | Puppet version     |
-| --------------- | ------------------ |
-| Debian 12 (PVE) | Puppet 7.23        |
-| EL8             | Puppet 6.26 (EPEL) |
-| EL9             | Puppet 7.20 (EPEL) |
+I have the following snippets on dnsmasq's configuration:
 
-I perform catalog compilation on my laptop running EL9.
-Although [support across Puppet 5.5-7 is not documented](https://www.puppet.com/docs/puppet/7/platform_lifecycle.html#primary-agent-compatibility), catalogs still seem to be compatible.
+```
+server=/flat1.mydomain/ip.of.flat1.dns
+rev-server=net.mask.of/flat1,ip.of.flat1.dns
+```
 
-## Other stuff
+So one dnsmasq instance can lookup records (even reverse DNS) on the other dnsmasq instances, so I can address systems on other networks by their name.
+This could also be achieved by NS records, if I'm not mistaken, but this way everything is private on my own dnsmasq servers and not on public DNS.
 
-* [Podman](podman.md)
-* I run two Kubernetes clusters (production and testing) using [Talos](https://www.talos.dev/)
-  * [Base Kustomizations](k8s/base/kustomization.yml), including [a small app to check for Talos and K8S updates](https://github.com/alexpdp7/talos-check)
-  * [Ansible Role to provision Talos on Proxmox](playbooks/roles/talos)
-  * [A CRUD application](https://github.com/alexpdp7/zqxjkcrud/) to record my weight that [I deploy to K8S](playbooks/roles/zqxjkcrud/tasks/main.yaml)
-  * [My blog](../blog)
+I join all networks using tinc in a mesh. Tinc keys are generated and distributed using an Ansible playbook.
+
+On every network I've also set up ocserv to provide remote access if I'm outside these networks; I can pick the closest access point and reach my entire network.
+
+## Authentication
+
+I run a two-node FreeIPA cluster.
+It provides a user directory and centralized auth, with passwordless single-sign on.
+It also has sudo integration, so I can sudo on all systems with a single password.
+
+Many systems and services are integrated in FreeIPA.
+My laptop is joined to the domain so I can even log in to some web applications without typing a password.
+
+Ipsilon adds OpenID for web application authentication.
+
+Ipsilon is backed by Red Hat, although they seem to have shifted their focus to KeyCloak. KeyCloak is much more featureful, but I prefer Ipsilon because:
+
+* It's deployed via RPM
+* Integration with FreeIPA is a one-liner
+* It's still used by the Fedora Project infrastructure
+
+FreeIPA and Ipsilon are running on Rocky Linux 9.
+
+## Mail
+
+All systems are running Postfix configured to send emails.
+This way I get notifications on failed cronjobs or automated updates.
+
+## TLS
+
+I set up certificates using [mod_md](https://httpd.apache.org/docs/2.4/mod/mod_md.html).
+
+## Observability
+
+I run Nagios monitoring all hosts and services.
+I get alerts for hosts and services being down.
+I use https://github.com/alexpdp7/ragent as the monitor, which also means I get notifications when a host is updated and requires a reboot.
+
+I use [nagios-otel](https://github.com/alexpdp7/nagios-otel) to deliver metrics via OpenTelemetry into a ClickHouse database.
+See [my configuration](puppet/site/nagios.h1.int.pdp7.net.pp) for opentelemetry-collector that scrapes the Nagios log to create logs in ClickHouse.
+I use Grafana to explore monitoring information in ClickHouse.
+
+### Operating systems
+
+I use:
+
+* Proxmox, as it provides LXC containers (and VMs if needed) and ZFS storage. I like ZFS for its protection about bitrot, and because send/recv and snapshots are great for backups
+* EL8/EL9, using Rocky Linux. FreeSWITCH is on EL8 (Rocky Linux too), because the OKay repo RPMs for EL9 don't seem to work
+* Rocky Linux for my server Raspberry.
+* LibreElec for my mediacenter Raspberry. Common distros are not an option, as they don't support hardware video acceleration. LibreElec sets up everything I need with minimal fuss, so while it's the system that doesn't use configuration management, it works fine.
+
+### Software updates
+
+I use `dnf-automatic` on EL8 and EL9, and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
+
+`ragent` monitors when systems need a reboot and warns me through Nagios.
+
+### Packaging
+
+* https://github.com/alexpdp7/vaultwarden-rpm / https://copr.fedorainfracloud.org/coprs/koalillo/vaultwarden/
+* https://src.fedoraproject.org/fork/koalillo/rpms/nextcloud / https://copr.fedorainfracloud.org/coprs/koalillo/nextcloud/
+* https://copr.fedorainfracloud.org/coprs/koalillo/tinc/
+
+## Storage
+
+I run Nextcloud on an LXC container, files are stored in a ZFS filesystem.
+
+Media and other non-critical files are stored in the Proliant and shared via Samba and NFS.
+
+### Media
+
+I run a Jellyfin server on the Proliant to serve media to phones, a MiBox and a Raspberry running LibreElec.
+
+The Raspberry has a DVB-T tuner and TVHeadend, recordings are stored on the Proliant in an NFS share.
+
+### Backup
+
+Valuable data is on dedicated datasets.
+I run [sanoid](https://github.com/jimsalterjrs/sanoid) in the Hetzner and Proliant servers to create and prune snapshots.
+I use [syncoid](https://github.com/jimsalterjrs/sanoid#syncoid) in the Proliant and a laptop to synchronize snapshots as a backup.
+
+## Kubernetes
+
+I use Talos Linux to run Kubernetes.
+
+## My blog
+
+See [blog](blog).
+
+## Phones
+
+I wanted to eliminate my landlines, because I get a ton of spam there.
+However, I need to provide calls between my home and another home using physical phones (people like wireless headsets- smartphones are not really well designed for extended phone calls).
+
+The key to this is the SIP protocol.
+You can get classical phones that work using the SIP protocol, or ATA devices that turn a regular phone into a SIP phone.
+
+I installed FreeSWITCH from the [OKay repo](https://okay.network/blog-news/rpm-repositories-for-centos-6-and-7.html).
+FreeSWITCH comes with a fairly complete default configuration.
+By default it will set up extensions in the 1000...1020 range, with a configurable single password for all extensions, plus some extensions for test calls, etc.
+
+The major difficulty in setting a SIP server is networking.
+I run FreeSWITCH in an LXC container on Proxmox.
+I expose the SIP server's SSL TCP port to the Internet, plus a range of UDP ports, using iptables.
+(I consulted some SIP forums, and apparently there are no major hardening requirements in exposing a SIP server to the Internet, although I think maybe it's better to use a SIP proxy.)
+You can also use STUN/TURN servers, but I had lots of trouble getting that set up.
+Also by default, FreeSWITCH figures out a public IP- if you want to get FreeSWITCH working behind a VPN, you need to disable that.
+
+For the phones, I bought and set up two Grandstream HT801 ATA devices.
+Those are quite cheap (around 40€), but they are quite fancy professional network devices, with a rough but featureful UI (they can do OpenVPN, SNMP, etc.).
+They connect directly to FreeSWITCH over the Internet, autoconfiguring via DHCP, so in theory they could work anywhere in the world with a network connection.
+After configuration and assigning an extension, you only need to connect cheap wireless phones to them, and start making calls with the 1000...1020 extensions.
+
+For testing and occasional calls I use [Baresip](https://github.com/baresip/baresip) from F-Droid in my smartphone, and from Debian in my laptop.
+For smartphones, SIP has the drawback that it requires a persistent connection to the SIP server to receive calls- thus draining the battery a bit.
+Some SIP setups use push notifications to get around that, but that seemed to be complex.
+So the only devices that are connected 24/7 are the ATAs, I use my smartphone and my laptop occasionally.
+
+SIP allows many other interesting stuff such as:
+
+* Instant messaging
+* Videoconferencing
+* Advanced phone features (conferences, barging in, voicemail, automation)
+
+So you can do real fancy stuff with it, but I haven't looked at it, because really I just need calls over two households on physical classical wireless handsets.
+
+## Possible improvements
+
+* Add a lab so I can experiment with things in isolated environments.
