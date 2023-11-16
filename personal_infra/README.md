@@ -148,7 +148,7 @@ I use Talos Linux to run Kubernetes.
 
 ## My blog
 
-See [blog](blog).
+See [blog](../blog).
 
 ## Phones
 
