@@ -103,7 +103,7 @@ I use [nagios-otel](https://github.com/alexpdp7/nagios-otel) to deliver metrics 
 See [my configuration](puppet/site/nagios.h1.int.pdp7.net.pp) for opentelemetry-collector that scrapes the Nagios log to create logs in ClickHouse.
 I use Grafana to explore monitoring information in ClickHouse.
 
-### Operating systems
+## Operating systems
 
 I use:
 
@@ -112,13 +112,13 @@ I use:
 * Rocky Linux for my server Raspberry.
 * LibreElec for my mediacenter Raspberry. Common distros are not an option, as they don't support hardware video acceleration. LibreElec sets up everything I need with minimal fuss, so while it's the system that doesn't use configuration management, it works fine.
 
-### Software updates
+## Software updates
 
 I use `dnf-automatic` on EL8 and EL9, and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
 
 `ragent` monitors when systems need a reboot and warns me through Nagios.
 
-### Packaging
+## Packaging
 
 * https://github.com/alexpdp7/vaultwarden-rpm / https://copr.fedorainfracloud.org/coprs/koalillo/vaultwarden/
 * https://src.fedoraproject.org/fork/koalillo/rpms/nextcloud / https://copr.fedorainfracloud.org/coprs/koalillo/nextcloud/
