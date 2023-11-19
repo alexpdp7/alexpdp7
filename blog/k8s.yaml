@@ -32,6 +32,11 @@ items:
           - /tls-gemini/tls.crt
           - https
           - alex.corcoles.net
+          env:
+            - name: OTEL_EXPORTER_OTLP_ENDPOINT
+              value: http://clickhouse.h1.int.pdp7.net:4317
+            - name: OTEL_EXPORTER_OTLP_INSECURE
+              value: "true"
           image: quay.io/alexpdp7/blog:latest
           imagePullPolicy: Always
           name: blog
