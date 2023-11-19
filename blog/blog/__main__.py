@@ -12,7 +12,7 @@ from blog import meta
 
 
 def main():
-    otel.configure_logging(logging.INFO)
+    otel.configure(log_level=logging.INFO)
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--key-cert", nargs=2, metavar=("KEY", "CERT",), help="Path to a key and a file")
