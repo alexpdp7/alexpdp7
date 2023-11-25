@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -ue
+
+DB="postgresql://alex%40IPA.PDP7.NET@db.h2.int.pdp7.net"
+
+psql $DB -c "drop schema if exists weight cascade"
+psql $DB -c "create schema weight"
+psql $DB <schema.sql
+psql $DB -c "create table weight.migrated(ts timestamp with time zone, value float)"
+
+psql "postgresql://pdp7_pt:pdp7_pt@devel.h2.int.pdp7.net/pdp7" -c '\copy (select "when", value from measures_floatmeasure join measures_measure on measures_measure.id = measures_floatmeasure.measure_ptr_id) to stdout' | psql $DB -c "\copy weight.migrated from stdin"
+
+psql $DB -c "insert into weight.weight(measured_at, value) select * from weight.migrated";
+psql $DB -c "drop table weight.migrated";
