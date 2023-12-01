@@ -84,6 +84,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/asapach/peerflix-server - Torrent streaming server
    - https://github.com/hauxir/rapidbay - Torrent streaming server
    - https://github.com/ltratt/pizauth - OAuth tool
+   - https://docs.nitrokey.com/nethsm/ - Open-source HSM (physical and virtual)
 ** Emacs
    - https://github.com/manateelazycat/lsp-bridge
 * Coding
