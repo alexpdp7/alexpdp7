@@ -1,8 +1,8 @@
 # Everybody trusts the big G
 2007-04-01
 
-1 [1], 2 [2], 3 [3], picadora de malguare mulinés
+=> https://support.google.com/chrome/answer/2765944?visit_id=638373286031232666-2607066086&rd=2 1,
+=> http://www.google.com/support/bin/answer.py?answer=10366 2,
+=> https://web.archive.org/web/20071228222621/http://www.google.com/support/bin/answer.py?answer=5514 3, picadora de malguare mulinés
 
-=> http://www.google.com/support/bin/answer.py?answer=8091 [1] 1
-=> http://www.google.com/support/bin/answer.py?answer=10366 [2] 2
-=> http://www.google.com/support/bin/answer.py?answer=5514 [3] 3
+Actualización (2023): el segundo artículo se ha perdido en las nieblas del tiempo, aunque el primero seguía funcionando en su forma original (con http) de 2007, y el tercero lo he podido encontrar en la Wayback Machine.
