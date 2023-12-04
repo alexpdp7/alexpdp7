@@ -1,0 +1,12 @@
+# Emplatando
+2023-12-04
+
+=> https://elpais.com/opinion/2023-12-04/chatgpt-nos-esta-haciendo-estupidos.html Una habitual me ha descubierto que Platón ya puso en boca de otros (Sócrates) un "la tecnología nos hace idiotas" allá por el 370 a. C.
+
+=> https://www.filosofia.org/cla/pla/azc02261.htm Podéis buscar [340] aquí para encontrar la cita, pero la reformateo y pego para vuestro deleite:
+
+> Me contaron que cerca de Naucratis, en Egipto, hubo un Dios, uno de los más antiguos del país, el mismo a que está consagrado el pájaro que los egipcios llaman Ibis. Este Dios se llamaba Teut. Se dice que inventó los números, el cálculo, la geometría, la astronomía, así como los juegos del ajedrez y de los dados, y, en fin, la escritura.
+>
+> El rey Tamus reinaba entonces en todo aquel país, y habitaba la gran ciudad del alto Egipto, que los griegos llaman Tebas egipcia, y que está, bajo la protección del Dios que ellos llaman Ammon. Teut se presentó al rey y le manifestó las artes que había inventado, y le dijo lo conveniente que era extenderlas entre los egipcios. El rey le preguntó de qué utilidad sería cada una de ellas, y Teut le fue explicando en detalle los usos de cada una; y según que las explicaciones le parecían más o menos satisfactorias, Tamus aprobaba o desaprobaba. Dícese que el rey alegó al inventor, en cada uno de los inventos, muchas razones en pro y en contra, que sería largo enumerar. Cuando llegaron a la escritura:
+>
+> «¡Oh rey!, le dijo Teut, esta invención hará a los egipcios más sabios y servirá a su memoria; he descubierto un remedio contra la dificultad de aprender y retener. —Ingenioso Teut, respondió el rey, el genio que inventa las artes no está en el caso que la sabiduría que aprecia las ventajas y las desventajas que deben resultar de su aplicación. Padre de la escritura y entusiasmado con tu invención, le atribuyes todo lo contrario de sus efectos verdaderos. Ella no producirá sino el olvido en las almas de los que la conozcan, haciéndoles despreciar la memoria; fiados en este auxilio extraño abandonarán a caracteres materiales el cuidado de conservar los recuerdos, cuyo rastro habrá perdido su espíritu. Tú no has encontrado un medio de cultivar la memoria, sino de despertar reminiscencias; y das a tus discípulos la sombra de la ciencia y no la ciencia misma. Porque, cuando vean que pueden aprender muchas cosas sin maestros, se tendrán ya por sabios, y no serán más que ignorantes, en su mayor parte, y falsos sabios insoportables en el comercio de la vida.»
