@@ -38,7 +38,7 @@ def html_template(*content, page_title=None, full):
                         padding-right: 2em;
                         background-color: #fffffa;
                     }
-                    p {
+                    p, blockquote, li {
                         /* from Mozilla reader mode */
                         line-height: 1.6em;
                         font-size: 20px;
