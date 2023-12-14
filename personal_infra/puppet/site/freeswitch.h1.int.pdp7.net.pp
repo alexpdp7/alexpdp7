@@ -14,7 +14,7 @@ node 'freeswitch.h1.int.pdp7.net' {
       clean_requirements_on_remove=True
       best=True
       skip_if_unavailable=False
-      excludepkgs=libks,sofia-sip,okay-release
+      excludepkgs=libks,sofia-sip,okay-release,libstirshaken
       | EOT
     ,
   }
