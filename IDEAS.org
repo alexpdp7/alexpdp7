@@ -80,6 +80,14 @@ See https://github.com/EvgSkv/logica
 - Timestamp stdout/stderr for crude profiling
 - Implement a CI system on top?
 
+* Random review experiment
+
+I want to review all my blog posts (~1000) for formatting, broken links, etc.
+I do not want to keep a list of the blog posts I have reviewed.
+If I review n posts at random every t time period, what is the probability over time of reviewing p% of posts?
+
+Create a website to run this experiment.
+
 * ActivityPub reverse proxy
 
 Run the reverse proxy on your domain so you can "duplicate" your identity on your own domain
