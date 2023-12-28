@@ -83,7 +83,7 @@ create view reporting.weekly_medication as (
 	    from   weight.pressure_medication
        )
 select    week.week,
-          avg(dose_mg) as average_daily_dose
+          sum(dose_mg)/7 as average_daily_dose
 from      generate_series((select min_week from limits), (select max_week from limits), '7 days') as week
 left join weight.pressure_medication on date_trunc('week', week.week) = date_trunc('week', pressure_medication.taken_at)
 group by  week.week order by week.week);
