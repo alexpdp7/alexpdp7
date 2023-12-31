@@ -1,0 +1,161 @@
+There is not a perfect set of headphones.
+
+# Headphones I use
+
+These are a few notes about the headphones I use, with pros/cons.
+
+## Shokz OpenComm
+
+These are my favorite headphones for remote work, meaning calls.
+Shokz are bone conduction, meaning they do not go over your ear, or inside your ear, but rather sit on your temples.
+They vibrate on near the bones in your ear.
+This produces a strange sensation, but has many advantages (and disadvantages).
+
+* These are the most comfortable headphones I have ever tested.
+  I can literally wear them for several hours and I do not notice I have them on.
+  They do not warm your ears, or exert pressure, or anything.
+  It's more similar to wearing glasses (and they do not interfere with wearing glasses).
+  The only issue with comfort is using them in bed, or when your head is resting on something.
+
+* The sound quality is good for calls, but probably the quality for music can be criticized.
+
+* They provide **NO** sound isolation whatsoever.
+  This is good, because you do not have to take them off to interact with people physically.
+  But this is bad, because you will hear any noise around you.
+
+* However, they have a boom mic, meaning they avoid most background noise.
+
+* The controls are minimal, a volume rocker and a call/hang up button.
+  Muting requires pressing volume up and down at the same time, which is not convenient, so normally I use software mute.
+
+* They look very strange, and I don't feel comfortable wearing them on the street, etc.
+
+* When I'm not using them, I charge them.
+  I have never run out of battery.
+
+I use them with the Avantree DG80 adapter (see below) with my laptops, which avoids most Bluetooth issues, but still some issues remain.
+
+## Mpow Air 2.4G
+
+This is a cheap clone of the HyperX Cloud Alpha gaming headset.
+Those are over ear wireless headphones with a wireless USB adapter.
+
+* Using USB does avoid **ALL** problems with USB.
+  They **always** work flawlessly with a computer, and sound quality is great.
+  However, they are impractical to use with a smartphone.
+
+* They have great sound isolation, so they filter most noise.
+  However, you need to take them off to hear your surroundings, which is sometimes inconvenient.
+
+* The microphone is very good.
+  However, some other gaming headsets mute the mic automatically when you move it "pointing up".
+  This has a dedicated microphone mute button, and a volume wheel.
+
+* I find them uncomfortable, and I don't like wearing them for more than 30 minutes or so.
+  They are also bad for use in bed, etc.
+
+* When I'm not using them, I charge them.
+  I have never run out of battery.
+
+These headphones are great when I need to focus or when my environment is very noisy.
+I use them mostly for work, esp. when I need to record my voice.
+
+## Jabra Elite 85t
+
+Those are true wireless earbuds.
+
+* Music quality is very good.
+* Microphone is bad.
+  It picks up a lot of wind and noise.
+* They are quite comfortable.
+  Less than the Aftershokz, but I can wear them for long stretches, and I can use them in bed.
+* The controls are a bit difficult to use, although they are physical buttons.
+* They have some sound isolation and passthrough mode.
+* They can play background noise.
+* The battery is decent, but you will have to be more careful with running out of battery.
+  However, they have wireless charging, which is nice.
+  I'm somewhat concerned about battery degradation too.
+
+I like using these to listen to music, or to watch TV.
+
+## Cheap wired earbuds with microphone
+
+I have two pairs I bought in a supermarket.
+They have decent quality, they never run out of battery, and they have no connection issues or require no dongle.
+They are nice backup, and they are good for calls.
+
+I use them on the go, although one of my phones and my ChromeOS tablet require a USB adapter :(
+I also use them plugged into my computer monitor, with an extension cable so I can plug/unplug them easily.
+
+# Notes
+
+## On form factors
+
+I don't think it's possible for one headset to be good at everything:
+
+* Calls
+* Music
+* Noise isolation vs environment awareness.
+  Headphones isolate or not.
+  Some isolating headphones have passthrough modes, but very few headphones can activate this immediately.
+* Comfort
+* Battery life
+* Connection
+* Easy and varied controls (mute, volume, etc.)
+
+Some of those areas are at odds with others.
+
+I use different headphones for different purposes.
+
+## On microphones
+
+The closest a microphone is to your mouth, the less noise it will pick up.
+I do not have any indication that there are headphones whose microphone sits near your ears that do not pick up a lot of noise.
+(My Jabra Elite 85t and the previous 65t pick up a lot of noise and wind.)
+
+Headsets with a boom mic are much better if you need to speak in noisy environments.
+
+## On Bluetooth and computers
+
+I have heard many issues with Bluetooth and computers, including Windows, Linux, and macOS.
+
+I use an Avantree DG80 Bluetooth *sound* adapter.
+This is not a regular generic adapter to add Bluetooth to computers that do not have Bluetooth.
+This is a Bluetooth audio device that connects to headphones or other Bluetooth devices and appears in your computer as a USB audio device.
+Therefore, the Bluetooth implementation in your computer is ignored.
+The device provides its own codecs.
+
+With this, you avoid most of the issues of Bluetooth on computers, which generally works worse than on smartphones.
+
+Also, if you pair a Bluetooth headset with the adapter, you can plug the adapter to multiple devices and the headsets will "follow" the adapter, without requiring pairing.
+
+This headset does not avoid all problems.
+Notably, using the microphone requires the adapter to detect that your computer requests microphone use, and switching the Bluetooth mode.
+This requires a few seconds.
+
+However, the adapter has all the "good codecs", so most sound quality issues are avoided, even on Linux.
+
+## On mute
+
+Unfortunately, few combinations of headphones and software have integrated mute capabilities.
+
+I don't like having separate mute controls:
+
+* On the headset
+* On the operating system
+* On the "software" (like Google Meet, Teams, etc.)
+
+It is inconvenient, because with so many controls it's easier to make mistakes and you are slower.
+
+Software mute is good, because other people will see you are muted.
+This means, for example, that when you unmute, people might notice that you want to speak, etc.
+
+However, software mute requires interacting with the application, so it's not good for multitasking.
+
+Some headset mutes have a LED light that indicates you are muted, but it's not great.
+
+## On gaming controllers
+
+The XBox controllers **with their USB adapter** and the Playstation controllers **when plugged into a Playstation console** allow you to plug a wired headset.
+This is very nice, because they work very reliably and you avoid much of the wireless problems (connection, battery, etc.).
+If you play a lot, it's nice to have controllers with this feature.
