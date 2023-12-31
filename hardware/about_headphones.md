@@ -81,6 +81,21 @@ Those are true wireless earbuds.
 
 I like using these to listen to music, or to watch TV.
 
+## Sennheiser HD 458BT
+
+These are over ear Bluetooth headphones.
+
+* Music quality is very good
+* I have not really tested the microphone much.
+  I have done some calls with them, but obviously they pick up noise, because they do not have a boom mic.
+* They have good noise isolation, both physical and software.
+* They have lots of controls, and they are quite nice.
+* I have worn them for two hours and a half straight, they become a bit uncomfortable, but usually removing them for a minute is enough.
+* Battery seems to last more than enough.
+* They are a bit bulky, so if you remove them and put them around your neck they are not comfortable.
+
+I like using these for music and TV too, and I normally use them on plane/train trips.
+
 ## Cheap wired earbuds with microphone
 
 I have two pairs I bought in a supermarket.
