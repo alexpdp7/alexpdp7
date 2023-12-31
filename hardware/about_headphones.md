@@ -36,6 +36,8 @@ This produces a strange sensation, but has many advantages (and disadvantages).
 
 I use them with the Avantree DG80 adapter (see below) with my laptops, which avoids most Bluetooth issues, but still some issues remain.
 
+They cost around 150€.
+
 ## Mpow Air 2.4G
 
 This is a cheap clone of the HyperX Cloud Alpha gaming headset.
@@ -61,6 +63,8 @@ Those are over ear wireless headphones with a wireless USB adapter.
 These headphones are great when I need to focus or when my environment is very noisy.
 I use them mostly for work, esp. when I need to record my voice.
 
+They cost around 75€.
+
 ## Jabra Elite 85t
 
 Those are true wireless earbuds.
@@ -81,6 +85,8 @@ Those are true wireless earbuds.
 
 I like using these to listen to music, or to watch TV.
 
+They cost around 150€.
+
 ## Sennheiser HD 458BT
 
 These are over ear Bluetooth headphones.
@@ -96,6 +102,8 @@ These are over ear Bluetooth headphones.
 
 I like using these for music and TV too, and I normally use them on plane/train trips.
 
+They cost around 150€.
+
 ## Cheap wired earbuds with microphone
 
 I have two pairs I bought in a supermarket.
@@ -104,6 +112,8 @@ They are nice backup, and they are good for calls.
 
 I use them on the go, although one of my phones and my ChromeOS tablet require a USB adapter :(
 I also use them plugged into my computer monitor, with an extension cable so I can plug/unplug them easily.
+
+Each pair costs 5-10€.
 
 # Notes
 
