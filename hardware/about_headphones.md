@@ -15,6 +15,7 @@ This produces a strange sensation, but has many advantages (and disadvantages).
   I can literally wear them for several hours and I do not notice I have them on.
   They do not warm your ears, or exert pressure, or anything.
   It's more similar to wearing glasses (and they do not interfere with wearing glasses).
+  They also have a very secure fit, they cannot fall, etc.
   The only issue with comfort is using them in bed, or when your head is resting on something.
 
 * The sound quality is good for calls, but probably the quality for music can be criticized.
@@ -75,6 +76,8 @@ Those are true wireless earbuds.
 * The battery is decent, but you will have to be more careful with running out of battery.
   However, they have wireless charging, which is nice.
   I'm somewhat concerned about battery degradation too.
+* True wireless earbuds can be inconvenient, if you are on the street and you want to remove them, you either need to locate their case and store them in (takes time), put them in a pocket...
+  They don't have a very secure fit, and if they fall of your ear, there is no cable that will prevent them from falling into the floor and breaking (I think this happened to my 65t), or into a toilet, etc.
 
 I like using these to listen to music, or to watch TV.
 
@@ -106,6 +109,10 @@ I don't think it's possible for one headset to be good at everything:
 Some of those areas are at odds with others.
 
 I use different headphones for different purposes.
+
+I know people who like very much wireless earbuds with a neck band, because they fix many of the convenience issues of true wireless earbuds.
+(They add more battery, they help if the earbuds fall from your ear, they put the microphone closer to your mouth, etc.)
+However, I have never used this format.
 
 ## On microphones
 
