@@ -5,6 +5,7 @@ set -ue
 (
 	cd arch-container-builder/
 	./builder.py \
+	             --package pkgfile \
 		     --package ansible \
 		     --package kubectl \
 		     --package puppet \
@@ -27,6 +28,10 @@ set -ue
 		     --package soju \
                      --package libotr \
 		     --package talosctl \
+		     --package qemu-system-aarch64 \
+		     --package qemu-system-arm-firmware \
+		     --package qemu-img \
+		     --package cdrtools \
 		     --aur-package senpai-irc-git \
 		     --aur-package telegram-tdlib-purple-minimal-git \
 		     --aur-package bitlbee-libpurple \
