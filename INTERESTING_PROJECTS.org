@@ -55,6 +55,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Configuration management
    - https://github.com/habitat-sh/habitat
 ** File sync
+   - https://thelig.ht/code/userspacefs/ - Usermode filesystem Python library that works on Windows, Linux and macOS
    - https://github.com/mutagen-io/mutagen
    - https://github.com/tkellogg/dura
    - https://github.com/perkeep/perkeep
