@@ -151,6 +151,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/xTibor/rust-on-c64
    - https://crates.io/crates/crossterm
    - https://github.com/matklad/xshell - Rust as a shell replacement, with nice interpolation
+   - https://github.com/bytecodealliance/cap-std - Safer, opt-in file access
 ** Java
    - https://github.com/jbangdev/jbang
    - https://github.com/mabe02/lanterna - TUI
