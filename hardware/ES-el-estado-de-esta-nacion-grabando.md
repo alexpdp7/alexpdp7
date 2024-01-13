@@ -18,7 +18,7 @@ Por tanto, el vídeo que usa mi familiar dejará de ser útil en breve.
 
 El familiar comienza a usar Amazon Prime y alguna otra plataforma, pero no acaba de acostumbrarse y sigue grabando.
 
-Una posible alternativa sería algún servicio como [Tivify](https://www.tivify.tv/)https://www.tivify.tv/, que permite ver canales tradicionales de TDT como una plataforma de streaming normal y permite reproducir programas de los días anteriores.
+Una posible alternativa sería algún servicio como [Tivify](https://www.tivify.tv/), que permite ver canales tradicionales de TDT como una plataforma de streaming normal y permite reproducir programas de los días anteriores.
 Esto sería incluso más práctico, ya que no haría falta programar grabaciones.
 Existen servicios parecidos (Movistar+ incluye un servicio similar).
 La única desventaja es que tiene un coste mensual, y investigando sobre este tema, me he encontrado a gente en situaciones familiares que lo han probado y no se han "apañado".
