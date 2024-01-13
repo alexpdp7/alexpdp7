@@ -118,6 +118,8 @@ Run the reverse proxy on your domain so you can "duplicate" your identity on you
 - A tool to edit reveal.js-style slides
 - But also record and do basic audio editing
 - So it can help with timing/pacing, and even generate a nice video
+- Optional mode to limit slides to "hero images" and a reduced number of words per page. See [[https://www.nytimes.com/2010/04/27/world/27powerpoint.html][We Have Met the Enemy and He Is PowerPoint]]
+- Teleprompter/good speaker notes mode
 
 * Touch controller/meeting controller/desktop shortcuts
 
