@@ -19,3 +19,7 @@
 
 - [[https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/][The Engineer/Manager Pendulum]] Why people should multiclass engineering and management
 - [[https://varoa.net/2024/01/09/how-organisations-cripple-engineering-teams-with-good-intentions.html][How organisations cripple engineering teams with good intentions]] Arguments for having coders code
+
+* News
+
+- [[https://www.currentaffairs.org/2020/08/the-truth-is-paywalled-but-the-lies-are-free/][The Truth Is Paywalled But The Lies Are Free]]
