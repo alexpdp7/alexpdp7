@@ -31,7 +31,7 @@ def html_template(*content, page_title=None, full):
                 h.LINK(rel="alternate", type="application/rss+xml", title=meta.TITLE, href=f"{meta.SCHEMA}://{meta.HOST}/feed/"),
                 h.STYLE(textwrap.dedent("""
                     body {
-                        max-width: 50em;
+                        max-width: 40em;
                         margin-left: auto;
                         margin-right: auto;
                         padding-left: 2em;
