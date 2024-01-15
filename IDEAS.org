@@ -140,6 +140,12 @@ Run the reverse proxy on your domain so you can "duplicate" your identity on you
   - VPN interfaces
   -  Reverse proxies
 
+* Ecosystem for mountable e-ink displays with wireless charging and magnets
+
+- For example, a small e-ink tablet that you can attach to a wireless charger with magnets in your fridge, with an always-on display of a shopping list, and a microphone to add new items.
+- The tablet is completely optional, can be replaced by a different device, etc.
+- How to have flexibility, such as different form factors and still provide a pleasant and pretty experience? (e.g. can you attach displays of different sizes to the same fridge and have it usable and look good?)
+
 * C64 Roguelike
 
 * Software development book ( https://github.com/alexpdp7/wakat )
