@@ -11,6 +11,7 @@
 - Easy set up of common mail accounts (perhaps using mbsync, notmuch, mu, etc.)
 - Sane defaults
 - Markdown email (write email as Markdown, send as plain text + HTML)
+- Probably https://jmap.io/ can make implementing this easier
 
 * Userland WASM Linux distro
 
