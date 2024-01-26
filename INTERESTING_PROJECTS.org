@@ -17,6 +17,8 @@ Also keeping things in a Org mode means I can classify and add notes.
 *** Org
     - https://github.com/karlicoss/orgparse
     - https://github.com/200ok-ch/org-parser
+*** Publishing format
+    - https://github.com/nota-lang/bene/
 ** Spelling, etc.
    - https://github.com/bminixhofer/nlprule - LanguageTool in Rust
    - https://github.com/valentjn/ltex-ls - LanguageTool LSP with LaTeX support
