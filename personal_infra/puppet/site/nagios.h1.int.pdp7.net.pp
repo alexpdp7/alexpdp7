@@ -16,6 +16,24 @@ node 'nagios.h1.int.pdp7.net' {
     }
   }
 
+  nagios_service {'alex.corcoles.net-gemini-cert':
+    use => 'generic-service',
+    service_description => 'alex.corcoles.net-gemini-cert',
+    host_name => 'k8s-prod.h1.int.pdp7.net',
+    check_command => 'check_alex.corcoles.net-gemini-cert',
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+  }
+
+  nagios_command {'check_alex.corcoles.net-gemini-cert':
+    command_name => 'check_alex.corcoles.net-gemini-cert',
+    command_line => '/usr/lib64/nagios/plugins/check_http -H alex.corcoles.net -C 10,5 -p 1965',
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+  }
+
   package {'nagios-plugins-pgsql':}
 
   class {'otel':
