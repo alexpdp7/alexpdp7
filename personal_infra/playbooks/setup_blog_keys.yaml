@@ -9,7 +9,8 @@
     ansible.builtin.slurp:
       src: "/etc/apache2/md/domains/alex.corcoles.net/privkey.pem"
     register: private_key
-  - k8s:
+  - name: push secret
+    k8s:
       context: "admin@k8s-prod.h1"
       state: present
       definition:
@@ -20,4 +21,7 @@
         data:
           tls.crt: "{{ public_cert.content }}"
           tls.key: "{{ private_key.content }}"
+    delegate_to: 127.0.0.1
+  - name: restart pods
+    command: kubectl --context admin@k8s-prod.h1 rollout restart -n blog deployment/blog
     delegate_to: 127.0.0.1
