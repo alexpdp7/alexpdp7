@@ -129,6 +129,8 @@ Also keeping things in a Org mode means I can classify and add notes.
     - https://github.com/EvgSkv/logica
     - https://github.com/edgedb/edgedb - Graphs
     - https://github.com/lorint/AdventureWorks-for-Postgres
+**** Embedded databases
+    - https://github.com/zonkyio/embedded-postgres-binaries - Embedded PostgreSQL
     - https://duckdb.org/ - SQLite alternative
     - https://github.com/chdb-io/chdb - embedded ClickHouse
     - https://github.com/cozodb/cozo - Datalog in Rust, different backends
