@@ -12,8 +12,10 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/nvim-neorg - org-mode alternative, TreeSitter-grammar-first
 *** Markdown
     - https://github.com/lezer-parser/markdown
+**** Rust Parsers
     - https://github.com/kivikakk/comrak
     - https://github.com/raphlinus/pulldown-cmark
+    - https://github.com/wooorm/markdown-rs
 *** Org
     - https://github.com/karlicoss/orgparse
     - https://github.com/200ok-ch/org-parser
