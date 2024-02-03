@@ -1,7 +1,7 @@
 # My personal infrastructure
 
 This is a general overview.
-See [HACKING](personal_infra/HACKING.md) for more "usage" instructions.
+See [HACKING](HACKING.md) for more "usage" instructions.
 
 * Hetzner auction server: 128Gb RAM, 2x1Tb SSD. Runs Proxmox, tinc/ocserv, Apache as reverse proxy
   * LXC container running Nagios
@@ -15,6 +15,7 @@ See [HACKING](personal_infra/HACKING.md) for more "usage" instructions.
   * LXC container running Nextcloud
   * LXC container running FreeSWITCH
   * LXC container running Bitwarden
+  * LXC container running ClickHouse
   * Two VMs running Talos, providing two Kubernetes clusters (production/test)
     * My blog
     * A CRUD system I run to track my weight
@@ -24,9 +25,9 @@ See [HACKING](personal_infra/HACKING.md) for more "usage" instructions.
     * Runs SMB/NFS
     * ZFS backups on external USB drives
     * tinc/ocserv
-  * Raspberry Pi (1Gb RAM) running LibreElec + TVHeadend, records to NFS share on HP server
+  * Raspberry Pi 3B (1Gb RAM) running LibreElec + TVHeadend, records to NFS share on HP server
 * Flat 2
-  * Raspberry Pi (1Gb RAM) running Rocky Linux, runs DHCP/DNS, tinc/ocserv
+  * Raspberry Pi 4B (8Gb RAM) running Rocky Linux, runs DHCP/DNS, tinc/ocserv
 * Netcup 2Gb RAM VPS running FreeIPA (also tinc/ocserv)
 
 ## Configuration management
