@@ -15,6 +15,7 @@ def enter():
 
 
 def update():
+    print("If this fails on ws, systemctl --user stop soju bitlbee // systemctl --user start soju bitlbee")
     subprocess.run(["distrobox", "rm", "-f", NAME], check=True)
     subprocess.run(["podman", "rmi", IMAGE], check=True)
     subprocess.run(["podman", "pull", IMAGE], check=True)
