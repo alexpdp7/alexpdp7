@@ -7,9 +7,9 @@ Just do it!
 It's a bit alien at first, but I didn't need much time to do all my editing in Emacs.
 I haven't learnt Emacs Lisp and I haven't adopted any large configuration package.
 
-[My `emacs.el` right now is 80 lines](https://github.com/alexpdp7/alexpdp7/blob/811f60a331da44c9621d771ccc34ee0c0555080e/emacs/emacs.el).
+[My `emacs.el` right now is 160 lines, a good chunk of that is obscure stuff for work](https://github.com/alexpdp7/alexpdp7/blob/4cbc783bbe406051bbcf88995316c9994518cbd9/emacs/emacs.el).
 Perhaps when you read this, my current config will be much bigger..
-But I'm definitely happy today with my 80-line config.
+But I'm definitely happy today with my 160-line config.
 
 You can start without a configuration.
 Whenever you can't do something, search Internet.
@@ -18,14 +18,6 @@ Once you can search, undo, cut, copy, and paste, you can take your time with the
 Don't avoid the menus.
 Sometimes it's just easier to hit F10 and find something in the menus.
 You can also M-x to execute commands, like `indent-region`.
-
-When you get to the point where you really need to add packages, I do recommend you use [straight.el](https://github.com/radian-software/straight.el), it makes installing packages easy.
-Maybe it has some drawbacks, but with straight.el, I've been able to create a configuration that I feel is productive.
-(Although it seems to have some issues with corporate firewalls. But I added comments about solving that.)
-
-Some of the stuff in my `emacs.el` is maybe not critical, like Helm and Projectile.
-I really like Projectile, but often I just run `emacs $file` in a new terminal tab.
-It's easy, and you don't need to learn a ton of window/buffer/etc. management.
 
 Many other stuff is support for things I do: AsciiDoc, Vale, Rust, Python, Java, YAML, Ansible, Puppet.
 You probably need other plugins, and maybe you don't need them right now.
