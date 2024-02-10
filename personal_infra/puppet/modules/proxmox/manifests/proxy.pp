@@ -49,4 +49,27 @@ class proxmox::proxy ($mail, $base_hostname) {
     ,
     mode => '4755',
   }
+
+  service {'nagios':}
+  package {'nagios':
+    ensure => absent,
+  }
+
+  nagios_service {"$base_hostname-proxmox-cert":
+    use => 'generic-service',
+    service_description => "$base_hostname-proxmox-cert",
+    host_name => $base_hostname,
+    check_command => "check_$base_hostname-proxmox-cert",
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+  }
+
+  nagios_command {"check_$base_hostname-proxmox-cert":
+    command_name => "check_$base_hostname-proxmox-cert",
+    command_line => "/usr/lib64/nagios/plugins/check_http -H $base_hostname -C 10,5 -p 8006",
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+  }
 }
