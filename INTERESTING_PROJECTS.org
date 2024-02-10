@@ -177,6 +177,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/open-meteo/open-meteo/
    - https://github.com/copier-org/copier/ - project templater
    - https://github.com/Skyscanner/turbolift - operating on multiple repos
+   - https://github.com/FiloSottile/age - encryption tool that can use SSH keys
 * Anti social
 ** Platforms
    - https://github.com/taviso/nntpit - Reddit over NNTP
