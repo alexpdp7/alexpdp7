@@ -34,7 +34,7 @@ set -ue
 		     --package cdrtools \
 		     --package emacs-nox \
 		     --package mailutils \
-		     --aur-package senpai-irc-git \
+		     --package senpai \
 		     --aur-package telegram-tdlib-purple-minimal-git \
 		     --aur-package bitlbee-libpurple \
 		     workstation
