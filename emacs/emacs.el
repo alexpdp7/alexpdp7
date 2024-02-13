@@ -5,6 +5,7 @@
 (setq compilation-scroll-output t)
 (setq column-number-mode t)
 (setq-default show-trailing-whitespace t)
+(setq org-startup-folded t)
 
 ;; From https://www.emacswiki.org/emacs/SmoothScrolling#h5o-8
 (setq scroll-step 1)
