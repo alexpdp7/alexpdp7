@@ -132,4 +132,25 @@ node 'h1.pdp7.net' {
     enable => true,
     ensure => running,
   }
+
+  file {"/etc/apache2/sites-enabled/morera79.pdp7.net.conf":
+    content => @("EOT")
+      MDomain morera79.pdp7.net
+
+      <VirtualHost *:80>
+        ServerName morera79.pdp7.net
+        Redirect permanent / https://morera79.pdp7.net/
+      </VirtualHost>
+
+      <VirtualHost *:443>
+        ServerName morera79.pdp7.net
+        SSLEngine on
+        Alias / /bogus
+        ErrorDocument 403 "<html><body>Conservo lo que hab&iacute;a aqu&iacute;, escr&iacute;beme a alex arroba corcoles punto net.</body></html>"
+      </VirtualHost>
+      | EOT
+    ,
+  }
+  ~>
+  Service['apache2']
 }
