@@ -15,7 +15,7 @@ feedgen = "^1.0.0"
 lxml = "^5.1.0"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^8.0.0"
+pytest = "^8.0.1"
 ipython = "^8.15.0"
 
 [build-system]
