@@ -200,6 +200,7 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://github.com/aardappel/treesheets
   - https://www.visidata.org/
 * Hardware
+  - https://junkerhq.net/xrgb/index.php/OSSC - The Open Source Scan Converter is a low-latency video digitizer and scan converter designed primarily for connecting retro video game consoles and home computers to modern displays.
 ** Phones
    - https://github.com/Dakkaron/Fairberry - add Blackberry keyboard to other phones
    - https://github.com/Genymobile/scrcpy - remote control Android
