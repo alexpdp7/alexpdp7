@@ -22,6 +22,12 @@
 - Could replace Docker/containers for developers
 - Similar to https://github.com/WAVM/Wavix
 
+* Binary "upstream" package manager
+
+- Package manager that downloads published binaries on the Internet
+- Manifests describe how to fetch binaries (e.g. from GitHub releases)
+- Manifests are just files that can be referenced by URLs, or be contained in repositories of manifests
+
 * Extensible lightweight markup language
 
 - A language similar to AsciiDoc...
