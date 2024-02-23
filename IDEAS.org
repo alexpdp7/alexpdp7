@@ -79,6 +79,8 @@ See https://github.com/EvgSkv/logica
 
 * Parallel execution framework
 
+See https://github.com/alexpdp7/scripts-py-libs
+
 - A tool to run stuff such as CI builds which need sophisticated parallelization
 - Create differently sized resource pools (for CPU-bound tasks, "API"-bound, etc.)
 - Local execution of workflows on a workstation, remote execution on a CI server
