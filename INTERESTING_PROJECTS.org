@@ -127,6 +127,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 *** RPC
 **** gRPC
      - https://github.com/grpc/grpc-web
+     - https://github.com/twitchtv/twirp - Simple protobuf+HTTP RPC
 ** Databases
 *** Relational
     - https://github.com/EvgSkv/logica
