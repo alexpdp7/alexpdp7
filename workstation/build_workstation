@@ -27,7 +27,6 @@ set -ue
 		     --package isync \
 		     --package soju \
                      --package libotr \
-		     --package talosctl \
 		     --package qemu-system-aarch64 \
 		     --package qemu-system-arm-firmware \
 		     --package qemu-img \
