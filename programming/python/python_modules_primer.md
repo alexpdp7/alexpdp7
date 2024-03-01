@@ -260,7 +260,10 @@ $ . <some path>/bin/activate
 , and thus if you run `python`, `<some path>/bin/python` will be executed instead of `/usr/bin/python`.
 
 Besides changing your prompt to indicate the virtual environment is activated, `activate` only alters your `PATH`.
-You can never use `activate` if you always specify the path to the virtual environment commands.
+`activate` is not mandatory to use a virtual environment.
+For example, when running the Python command, if you specify the path of the Python executable in a virtual environment, the command will execute as if the virtual environment had been activated.
+Tools such as `poetry` have commands such as `poetry run` that can run commands inside a virtual environment without activating it.
+Activation can save time, but it is also more error-prone than more explicit means of using virtual environments.
 
 ## Further reading
 
