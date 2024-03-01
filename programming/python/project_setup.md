@@ -106,7 +106,7 @@ If the `README` becomes unwieldly, separate usage instructions to `USAGE` and/or
 
 Provide docstrings detailing the external interface of Python modules. Provide internal comments in modules detailing implementation.
 
-Consider the use of Sphinx to render documentation and publish it to the web if developing a library/framework.
+If you are developing a library/framework, consider using Sphinx. Sphinx can create a documentation website for a Python project, taking advantage of docstrings.
 
 # Distribution
 
