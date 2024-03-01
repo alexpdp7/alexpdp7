@@ -50,7 +50,7 @@ Set up your version control so changes cannot be made to your main codeline with
 
 # Perform automated code formatting and static checking
 
-TODO: check out ruff?
+TODO: consider using [Ruff](https://github.com/astral-sh/ruff) as an alternative to Black *and* flake8.
 
 ## Use Black
 
