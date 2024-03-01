@@ -60,10 +60,6 @@ Use Black to format your code.
 
 Use `flake8` to gate changes. Use `flake8-black` to prevent committed code which does not follow Black style.
 
-## Evaluate the use of mypy
-
-If you think it will benefit your codebase, consider integrating mypy as soon as possible.
-
 # Version control
 
 ## Use a minimal gitignore file
