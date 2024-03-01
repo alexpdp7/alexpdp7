@@ -112,4 +112,4 @@ Consider the use of Sphinx to render documentation and publish it to the web if 
 
 If your code can be executed from a command line, consider documenting installation via `pipx`.
 
-If your code has significant binary dependencies, consider publishing a Docker image. Design your Docker images so rebuilding the image on most changes is fast.
+If your code has dependencies that are not trivial to install (such as Pandas), consider publishing a Docker image or using dependencies that are simpler to install. Design your Docker images so rebuilding the image on most changes is fast.
