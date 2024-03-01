@@ -23,7 +23,7 @@ There are many similar tools such as pipenv and there are many multiple ways to 
 
 You can install poetry using pipx.
 
-Commit `poetry.lock` to version control. For runtime dependencies, specify bounded dependency ranges. For development dependencies, use unbounded dependencies.
+Consider reading [some brief notes about Python dependency management](dependency_handling.md).
 
 # Test your code
 
