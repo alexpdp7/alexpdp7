@@ -1,9 +1,12 @@
 class root_mail {
-  package {'postfix':}
-  ->
-  service {'postfix':
-    ensure => running,
-    enable => true,
+  package {['postfix', 'sendmail']:
+    ensure => absent,
+  }
+
+  package {'msmtp':}
+
+  if $facts['os']['family'] == "Debian" {
+    package {'msmtp-mta':}
   }
 
   $cron_service = case $facts['os']['family'] {
@@ -13,7 +16,7 @@ class root_mail {
   }
 
   # if crond doesn't see /usr/bin/sendmail on startup, it won't send mails
-  Package['postfix']
+  Package['msmtp']
   ~>
   service{$cron_service:
     ensure => running,
@@ -28,14 +31,41 @@ class root_mail {
     }
   }
 
-  mailalias {'root':
-    recipient => lookup('mail.root_mail'),
-    require => Package['postfix'],
+  $host = lookup('mail.ses_endpoint')
+  $user = lookup('mail.ses_username')
+  $password = lookup('mail.ses_password')
+  $from = join([$facts['networking']['fqdn'], "@", lookup('mail.ses_domain')])
+
+  file {'/etc/msmtprc':
+    content => @("EOT")
+    defaults
+    tls on
+    tls_starttls on
+    tls_trust_file system
+    syslog on
+
+    account default
+    host $host
+    port 587
+    auth on
+    user $user
+    password $password
+    from $from
+    allow_from_override off
+    undisclosed_recipients on
+    set_from_header on
+
+    aliases /etc/aliases
+    | EOT
+    ,
   }
-  ~>
-  exec {'/usr/sbin/postalias /etc/aliases':
-    creates => '/etc/aliases.db',
+
+  $root_mail = lookup('mail.root_mail')
+
+  file {'/etc/aliases':
+    content => @("EOT")
+    default: $root_mail
+    | EOT
+    ,
   }
-  ~>
-  Service['postfix']
 }
