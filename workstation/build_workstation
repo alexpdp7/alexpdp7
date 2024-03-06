@@ -7,7 +7,6 @@ set -ue
 	./builder.py \
 	             --package pkgfile \
 		     --package ansible \
-		     --package kubectl \
 		     --package puppet \
 		     --package sshpass \
 		     --package git \
@@ -22,7 +21,6 @@ set -ue
 		     --package python-botocore \
 		     --package python-boto3 \
 		     --package certbot \
-		     --package bitwarden-cli \
 		     --package man-db \
 		     --package isync \
 		     --package soju \
