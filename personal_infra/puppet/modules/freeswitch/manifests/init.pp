@@ -1,6 +1,6 @@
 class freeswitch($freeswitch_password, $freeswitch_address, $freeswitch_rtp_start_port, $freeswitch_rtp_end_port) {
   package {'okay-release':
-    source => 'http://repo.okay.com.mx/centos/8/x86_64/release/okay-release-1-10.el8.noarch.rpm',
+    source => 'http://repo.okay.com.mx/centos/9/x86_64/release/okay-release-1-10.el9.noarch.rpm',
   }
   ->
   package {['freeswitch-config-vanilla', 'freeswitch-systemd', 'freeswitch-sounds-en-us-callie-all']:}
