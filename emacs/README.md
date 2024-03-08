@@ -24,4 +24,4 @@ You probably need other plugins, and maybe you don't need them right now.
 
 Maybe try out some of the large configurations, to learn what fancy stuff is available and add it as you become comfortable with the previous thing you configured.
 
-See also [my setup for using a Cosmopolitan Emacs](../scripts/p7s/emacs.py).
+(Be sure to check [emacs.bash](https://github.com/alexpdp7/alexpdp7/blob/master/emacs/emacs.bash) for something you can source in your bash to keep Emacs running and prevent slow startup.)
