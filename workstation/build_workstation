@@ -29,9 +29,7 @@ set -ue
 		     --package qemu-system-arm-firmware \
 		     --package qemu-img \
 		     --package cdrtools \
-		     --package emacs-nox \
 		     --package mailutils \
-		     --package xclip \
 		     --package senpai \
 		     --aur-package telegram-tdlib-purple-minimal-git \
 		     --aur-package bitlbee-libpurple \
