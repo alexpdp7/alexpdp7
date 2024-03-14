@@ -24,7 +24,7 @@
 
 # Potenciales Mastodon
 
-* [David Woodbridge](https://mastodon.au/@Woody) @dwoodbridge es una personalidad del mundo de la accesibilidad.
+* [David Woodbridge](https://dragonscave.space/@Woody) @dwoodbridge es una personalidad del mundo de la accesibilidad.
 * [Jeff Minter](https://toot.wales/@llamasoft_ox) @llamasoft_ox es un programador de videojuegos clásico que retransmite la vida de su granja de ovejas en Gales.
 * [William Gibson](https://mastodon.social/@GreatDismal) @GreatDismal es el escritor cyberpunk más icónico.
 * [Neil Gaiman](https://mastodon.social/@neilhimself) @neilhimself escritor de fantasía bastante referente.
