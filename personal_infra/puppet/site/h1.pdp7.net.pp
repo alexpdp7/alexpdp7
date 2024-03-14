@@ -76,6 +76,10 @@ node 'h1.pdp7.net' {
     target => 'http://k8s-test.h1.int.pdp7.net/',
   }
 
+  proxmox::proxy_host {'takahe-media.pdp7.net':
+    target => 'http://weed.h1.int.pdp7.net:8333/',
+  }
+
   package {'haproxy':}
   ->
   file {'/etc/haproxy/haproxy.cfg':
