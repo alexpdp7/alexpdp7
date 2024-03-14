@@ -1,0 +1,186 @@
+---
+- k8s:
+    context: "{{ context }}"
+    state: present
+    name: "{{ takahe.namespace }}"
+    kind: Namespace
+  delegate_to: 127.0.0.1
+- k8s:
+    context: "{{ context }}"
+    state: present
+    name: takahe-secrets
+    kind: Secret
+    definition:
+      metadata:
+        namespace: "{{ takahe.namespace }}"
+      data:
+        TAKAHE_SECRET_KEY: "{{ takahe.secret_key | b64encode }}"
+        TAKAHE_EMAIL_SERVER: "{{ ('smtp://' + mail.ses_username + ':' + mail.ses_password + '@' + mail.ses_endpoint + ':25?tls=true') | b64encode }}"
+  delegate_to: 127.0.0.1
+- k8s:
+    context: "{{ context }}"
+    state: present
+    name: takahe-config
+    kind: ConfigMap
+    definition:
+      metadata:
+        namespace: "{{ takahe.namespace }}"
+      data:
+        PGHOST: "{{ takahe.database_host }}"
+        PGUSER: "{{ takahe.database_user }}"
+        PGDATABASE: "{{ takahe.database }}"
+        TAKAHE_MEDIA_BACKEND: "{{ takahe.s3 }}"
+        TAKAHE_MAIN_DOMAIN: "{{ takahe.main_domain }}"
+        TAKAHE_EMAIL_FROM: "{{ takahe.email_from }}"
+        TAKAHE_USE_PROXY_HEADERS: "true"
+        TAKAHE_AUTO_ADMIN_EMAIL: "{{ takahe.admin_email }}"
+        TAKAHE_CSRF_HOSTS: "{{ ['https://' + takahe.main_domain] | to_json }}"
+  delegate_to: 127.0.0.1
+- k8s:
+    context: "{{ context }}"
+    state: present
+    name: webserver
+    kind: Deployment
+    definition:
+      metadata:
+        namespace: "{{ takahe.namespace }}"
+      spec:
+        selector:
+          matchLabels:
+            run: webserver
+        template:
+          metadata:
+            labels:
+              run: webserver
+          spec:
+            containers:
+              - name: webserver
+                image: "jointakahe/takahe:{{ takahe.version }}"
+                args:
+                  - "gunicorn"
+                  - "takahe.wsgi:application"
+                  - "-w"
+                  - "6"
+                  - "-b"
+                  - "0.0.0.0:8000"
+                ports:
+                  - containerPort: 8000
+                envFrom:
+                  - configMapRef:
+                      name: takahe-config
+                  - secretRef:
+                      name: takahe-secrets
+                livenessProbe:
+                  httpGet:
+                    path: /
+                    port: 8000
+                readinessProbe:
+                  httpGet:
+                    path: /
+                    port: 8000
+                startupProbe:
+                  httpGet:
+                    path: /
+                    port: 8000
+  delegate_to: 127.0.0.1
+- k8s:
+    context: "{{ context }}"
+    state: present
+    name: webserver
+    kind: Service
+    definition:
+      metadata:
+        namespace: "{{ takahe.namespace }}"
+        labels:
+          run: webserver
+      spec:
+        ports:
+          - port: 80
+            targetPort: 8000
+            name: web
+        selector:
+          run: webserver
+  delegate_to: 127.0.0.1
+- k8s:
+    context: "{{ context }}"
+    state: present
+    name: webserver
+    kind: Ingress
+    definition:
+      metadata:
+        namespace: "{{ takahe.namespace }}"
+      spec:
+        rules:
+          - host: "{{ takahe.main_domain }}"
+            http:
+              paths:
+                - path: /
+                  pathType: Prefix
+                  backend:
+                    service:
+                      name: webserver
+                      port:
+                        name: web
+          - host: "*.example.com"
+            http:
+              paths:
+                - path: /
+                  pathType: Prefix
+                  backend:
+                    service:
+                      name: webserver
+                      port:
+                        name: web
+  delegate_to: 127.0.0.1
+- k8s:
+    context: "{{ context }}"
+    state: present
+    name: stator
+    kind: Deployment
+    definition:
+      metadata:
+        namespace: "{{ takahe.namespace }}"
+      spec:
+        selector:
+          matchLabels:
+            run: stator
+        template:
+          metadata:
+            labels:
+              run: stator
+          spec:
+            containers:
+              - name: stator
+                image: "jointakahe/takahe:{{ takahe.version }}"
+                args:
+                  - python3
+                  - manage.py
+                  - runstator
+                envFrom:
+                  - configMapRef:
+                      name: takahe-config
+                  - secretRef:
+                      name: takahe-secrets
+  delegate_to: 127.0.0.1
+- k8s:
+    context: "{{ context }}"
+    state: present
+    name: migrate
+    kind: Job
+    definition:
+      metadata:
+        namespace: "{{ takahe.namespace }}"
+      spec:
+        template:
+          spec:
+            restartPolicy: Never
+            containers:
+              - name: webserver
+                image: "jointakahe/takahe:{{ takahe.version }}"
+                args: ["python3", "manage.py", "migrate"]
+                envFrom:
+                  - configMapRef:
+                      name: takahe-config
+                  - secretRef:
+                      name: takahe-secrets
+  delegate_to: 127.0.0.1

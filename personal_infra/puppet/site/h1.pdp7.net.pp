@@ -72,6 +72,10 @@ node 'h1.pdp7.net' {
     target => 'http://grafana.h1.int.pdp7.net:3000/',
   }
 
+  proxmox::proxy_host {'takahe.pdp7.net':
+    target => 'http://k8s-test.h1.int.pdp7.net/',
+  }
+
   package {'haproxy':}
   ->
   file {'/etc/haproxy/haproxy.cfg':

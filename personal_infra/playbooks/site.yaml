@@ -61,3 +61,14 @@
       vars:
         context: "admin@{{ talos_host.talos_cluster }}"
         definition: "{{ weight }}"
+
+- name: deploy takahe
+  hosts: k8s-test.h1.int.pdp7.net
+  tags:
+    - k8s
+    - takahe
+  gather_facts: false
+  roles:
+    - role: takahe
+      vars:
+        context: "admin@{{ talos_host.talos_cluster }}"
