@@ -71,7 +71,7 @@ A completely declarative SQL CRUD framework
 
 * SQL2
 
-See https://github.com/EvgSkv/logica
+See https://github.com/EvgSkv/logica, [[https://prql-lang.org/]]
 
 - A new language that compiles to SQL
 - Handles RDBMS differences

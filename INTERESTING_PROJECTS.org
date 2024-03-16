@@ -131,6 +131,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Databases
 *** Relational
     - https://github.com/EvgSkv/logica
+    - [[https://prql-lang.org/]]
     - https://github.com/edgedb/edgedb - Graphs
     - https://github.com/lorint/AdventureWorks-for-Postgres
 **** Embedded databases
