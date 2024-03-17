@@ -14,6 +14,7 @@
 ** Optimization
 
 - [[https://docs.oracle.com/cd/E11882_01/server.112/e41573/technique.htm][The Oracle Performance Improvement Method]] My favorite text about performance tuning- the good advice is not Oracle-specific. Includes a bit more real-world advice than [[https://users.ece.utexas.edu/~adnan/pike.html][Rob Pike's 5 Rules of Programming]].
+- [[https://infrequently.org/2024/01/performance-inequality-gap-2024/][The Performance Inequality Gap, 2024]], [[https://danluu.com/slow-device/][How web bloat impacts users with slow devices]], about janky browser applications and websites.
 
 ** Git
 - [[https://blog.gitbutler.com/git-tips-3-really-large-repositories/][Git Tips 3: Really Large Repositories]]
