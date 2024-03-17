@@ -7,6 +7,10 @@
 - [[https://mikehadlow.blogspot.com/2012/05/configuration-complexity-clock.html][The Configuration Complexity Clock]] Programming languages, configuration files, DSLs for configuration
 - [[https://olano.dev/2023-11-30-code-is-run-more-than-read/][Code is run more than read]] A unified theory of broken software
 
+** Testing
+
+- [[https://testing.googleblog.com/2014/05/testing-on-toilet-risk-driven-testing.html][Testing on the Toilet: Risk-Driven Testing]]
+
 ** Python
 
 - [[https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/][Python’s "Disappointing" Superpowers]] A convincing defense of dynamic typing
