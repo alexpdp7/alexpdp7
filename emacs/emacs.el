@@ -115,3 +115,6 @@
 
 (use-package puppet-mode
   :ensure t)
+
+(use-package zmq :ensure t)
+;; (use-package jupyter :ensure t)
