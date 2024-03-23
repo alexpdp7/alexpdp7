@@ -1,35 +1,43 @@
+import argparse
 import pathlib
 import subprocess
 import textwrap
 
 
 def setup_nextcloud():
-    home = pathlib.Path.home()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("style", choices=["noinstall", "flatpak", "rclone"])
+    args = parser.parse_args()
 
-    if not (home / ".config" / "rclone" / "rclone.conf").exists():
-        print("Visit https://nextcloud.pdp7.net/nextcloud/index.php/settings/user/security , create an app password")
+    home = pathlib.Path.home().absolute()
 
-        subprocess.run(["rclone", "config", "create", "nextcloud", "webdav", "url=https://nextcloud.pdp7.net/nextcloud/remote.php/dav/files/alex/", "vendor=nextcloud", "user=alex", "--all"], check=True)
+    assert args.style != "flatpak", "flatpak not implemented yet"
 
-    (home / "Nextcloud").mkdir(exist_ok=True)
+    if args.style == "rclone":
+        if not (home / ".config" / "rclone" / "rclone.conf").exists():
+            print("Visit https://nextcloud.pdp7.net/nextcloud/index.php/settings/user/security , create an app password")
 
-    nextcloud_service_path = home / ".config" / "systemd" / "user" / "nextcloud.service"
-    nextcloud_service_path.parent.mkdir(parents=True, exist_ok=True)
+            subprocess.run(["rclone", "config", "create", "nextcloud", "webdav", "url=https://nextcloud.pdp7.net/nextcloud/remote.php/dav/files/alex/", "vendor=nextcloud", "user=alex", "--all"], check=True)
 
-    nextcloud_service_path.write_text(textwrap.dedent("""
-        [Unit]
+        (home / "Nextcloud").mkdir(exist_ok=True)
 
-        [Service]
-        ExecStart=/usr/bin/rclone mount --vfs-cache-mode=full --dir-perms 700 --file-perms 600 nextcloud: /home/alex/Nextcloud/
+        nextcloud_service_path = home / ".config" / "systemd" / "user" / "nextcloud.service"
+        nextcloud_service_path.parent.mkdir(parents=True, exist_ok=True)
 
-        [Install]
-        WantedBy=default.target
-    """).lstrip())
+        nextcloud_service_path.write_text(textwrap.dedent("""
+            [Unit]
 
-    subprocess.run(["systemctl", "--user", "enable", "--now", "nextcloud"], check=True)
+            [Service]
+            ExecStart=/usr/bin/rclone mount --vfs-cache-mode=full --dir-perms 700 --file-perms 600 nextcloud: /home/alex/Nextcloud/
+
+            [Install]
+            WantedBy=default.target
+        """).lstrip())
+
+        subprocess.run(["systemctl", "--user", "enable", "--now", "nextcloud"], check=True)
 
     if not (home / ".ssh").exists():
-        subprocess.run(["ln", "-s", "Nextcloud/_ssh", ".ssh"], check=True)
+        subprocess.run(["ln", "-s", home / "Nextcloud" / "_ssh", home / ".ssh"], check=True)
 
     dotfiles_dir = home / "Nextcloud" / "dotfiles"
 
