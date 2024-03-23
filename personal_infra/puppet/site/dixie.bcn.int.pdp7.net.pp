@@ -55,6 +55,7 @@ dhcp-option=121,10.0.0.0/8,192.168.76.2
       sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-208-disk-1 rpool/user/backed/nextcloud_new --quiet
       sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-210-disk-1 rpool/user/backed/bitwarden --quiet
       sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-211-disk-1 rpool/user/backed/gitolite --quiet
+      sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-214-disk-1 rpool/user/backed/weed --quiet
       | EOT
     ,
     owner => root,
