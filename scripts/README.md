@@ -2,10 +2,17 @@ I'm experimenting with doing "user-level" configuration using Python scripts.
 
 This directory contains a Python module with entrypoints that I use for many tasks.
 
-The scripts can be installed on EL8/EL9 with pipx:
+Bootstrapping on a Fedora toolbox:
 
 ```
-$ pipx install -e . --force --python /usr/bin/python3.9
+dnf install pipx emacs-nox xclip
+mkdir git
+cd git
+git clone https://github.com/alexpdp7/alexpdp7.git
+cd alexpdp7
+pipx install -e scripts/
+...
+git remote set-url origin git@github.com:alexpdp7/alexpdp7.git
 ```
 
 See [workstation](../workstation) for further details.
