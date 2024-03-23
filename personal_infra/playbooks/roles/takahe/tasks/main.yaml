@@ -1,4 +1,29 @@
 ---
+# extra setup:
+#
+# - create the postgres database
+# - s3 bucket?
+- name: create CNAMEs
+  local_action:
+    module: amazon.aws.route53
+    zone: "{{ takahe.dns_zone }}"
+    record: "{{ item }}"
+    type: CNAME
+    value: "{{ takahe.cnames.target }}"
+    wait: true
+    state: present
+  tags: dns
+  loop: "{{ takahe.cnames.domains }}"
+- name: create main domain
+  local_action:
+    module: amazon.aws.route53
+    zone: "{{ takahe.dns_zone }}"
+    record: "{{ takahe.main_domain.name }}"
+    type: "{{ takahe.main_domain.dns_record_type }}"
+    value: "{{ takahe.main_domain.target }}"
+    wait: true
+    state: present
+  tags: dns
 - k8s:
     context: "{{ context }}"
     state: present
@@ -30,11 +55,11 @@
         PGHOST: "{{ takahe.database_host }}"
         PGUSER: "{{ takahe.database_user }}"
         PGDATABASE: "{{ takahe.database }}"
-        TAKAHE_MAIN_DOMAIN: "{{ takahe.main_domain }}"
+        TAKAHE_MAIN_DOMAIN: "{{ takahe.main_domain.name }}"
         TAKAHE_EMAIL_FROM: "{{ takahe.email_from }}"
         TAKAHE_USE_PROXY_HEADERS: "true"
         TAKAHE_AUTO_ADMIN_EMAIL: "{{ takahe.admin_email }}"
-        TAKAHE_CSRF_HOSTS: "{{ ['https://' + takahe.main_domain] | to_json }}"
+        TAKAHE_CSRF_HOSTS: "{{ ['https://femto.pub', 'https://alex.femto.pub'] | to_json }}"
         TAKAHE_ERROR_EMAILS: "{{ [takahe.admin_email] | to_json }}"
   delegate_to: 127.0.0.1
 - k8s:
@@ -112,7 +137,7 @@
         namespace: "{{ takahe.namespace }}"
       spec:
         rules:
-          - host: "{{ takahe.main_domain }}"
+          - host: "{{ takahe.main_domain.name }}"
             http:
               paths:
                 - path: /
@@ -122,7 +147,7 @@
                       name: webserver
                       port:
                         name: web
-          - host: "*.example.com"
+          - host: "*.femto.pub"
             http:
               paths:
                 - path: /

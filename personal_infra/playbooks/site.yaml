@@ -63,7 +63,7 @@
         definition: "{{ weight }}"
 
 - name: deploy takahe
-  hosts: k8s-test.h1.int.pdp7.net
+  hosts: k8s-prod.h1.int.pdp7.net
   tags:
     - k8s
     - takahe

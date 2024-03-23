@@ -72,11 +72,15 @@ node 'h1.pdp7.net' {
     target => 'http://grafana.h1.int.pdp7.net:3000/',
   }
 
-  proxmox::proxy_host {'takahe.pdp7.net':
-    target => 'http://k8s-test.h1.int.pdp7.net/',
+  proxmox::proxy_host {'femto.pub':
+    target => 'http://k8s-prod.h1.int.pdp7.net/',
   }
 
-  proxmox::proxy_host {'takahe-media.pdp7.net':
+  proxmox::proxy_host {'alex.femto.pub':
+    target => 'http://k8s-prod.h1.int.pdp7.net/',
+  }
+
+  proxmox::proxy_host {'media.femto.pub':
     target => 'http://weed.h1.int.pdp7.net:8333/',
   }
 

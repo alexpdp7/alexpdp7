@@ -9,7 +9,7 @@ node 'pg.h1.int.pdp7.net' {
       host    weight          nagios          nagios.h1.int.pdp7.net    trust
       host    miniflux        miniflux        miniflux.h1.int.pdp7.net  trust
       host    nextcloud       nextcloud       nextcloud.h1.int.pdp7.net trust
-      host    takahe          k8s_test        k8s-test.h1.int.pdp7.net  trust
+      host    takahe          k8s_prod        k8s-prod.h1.int.pdp7.net  trust
       | EOT
     ,
   }
