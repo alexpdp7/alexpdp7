@@ -2,7 +2,11 @@
 # extra setup:
 #
 # - create the postgres database
-# - s3 bucket?
+#
+#  weed shell
+# - s3.configure -access_key=... -secret_key=... -buckets=takahe -user=... -actions=Read,Write,List,Tagging,Admin -apply
+# - s3.configure -buckets=takahe -user=anonymous -actions=Read -apply
+#
 - name: create CNAMEs
   local_action:
     module: amazon.aws.route53
