@@ -46,5 +46,3 @@ def setup_nextcloud():
         replaced_dotfile = pathlib.Path.home() / ("." + relative_dotfile.parts[0][1:])
         if not replaced_dotfile.exists():
             subprocess.run(["ln", "-s", dotfile, replaced_dotfile], check=True)
-
-    subprocess.run(["ln", "-s", "~/.weechat", "~/.config/weechat"], check=True)
