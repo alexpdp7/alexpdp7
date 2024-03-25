@@ -11,8 +11,6 @@ def setup_nextcloud():
 
     home = pathlib.Path.home().absolute()
 
-    assert args.style != "flatpak", "flatpak not implemented yet"
-
     if args.style == "rclone":
         if not (home / ".config" / "rclone" / "rclone.conf").exists():
             print("Visit https://nextcloud.pdp7.net/nextcloud/index.php/settings/user/security , create an app password")
@@ -35,6 +33,9 @@ def setup_nextcloud():
         """).lstrip())
 
         subprocess.run(["systemctl", "--user", "enable", "--now", "nextcloud"], check=True)
+    elif args.style == "flatpak":
+        subprocess.run(["flatpak", "install", "com.nextcloud.desktopclient.nextcloud"], check=True)
+        input("complete the setup")
 
     if not (home / ".ssh").exists():
         subprocess.run(["ln", "-s", home / "Nextcloud" / "_ssh", home / ".ssh"], check=True)
