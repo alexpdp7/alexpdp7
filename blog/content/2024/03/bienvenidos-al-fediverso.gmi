@@ -1,0 +1,31 @@
+# Bienvenidos al Fediverso
+2024-03-30
+
+=> https://alex.femto.pub/@yo@alex.femto.pub/ @yo@alex.femto.pub
+
+Pues ya estoy en el Fediverso. Más que nada para seguir más fácilmente a la gente que se pasa de Twitter a algo más abierto (irónicamente, Mastodon tiene RSS, pero no mola tanto).
+
+Pensaba que el cacareado "Mastodon is hard" era una exageración de apoltronados, pero he comenzado a verle algo de sentido. Pero bueno, en nada te acostumbras, pero ciertamente interactuar con gente fuera de tu "servidor" tiene algo más de fricción de lo ideal.
+
+En los detalles técnicos, estoy usando Takahe[1] sobre mi Kubernetes. Como intento publicar todo el montaje de mi infraestructura, podéis curiosear por aquí[2]. Aparte de lo primitivo del despliegue, lo otro destacable es que como Takahe quiere "object storage", estoy de pruebas con SeaweedFS[3] y he comenzado a mantener un RPM para desplegarlo[4].
+
+=> https://jointakahe.org/ [1] Takahe
+=> https://github.com/alexpdp7/alexpdp7/blob/master/personal_infra/playbooks/roles/takahe/tasks/main.yaml [2] El playbook que despliega Takahe
+=> https://github.com/seaweedfs/seaweedfs [3] SeaweedFS
+=> https://github.com/alexpdp7/seaweedfs-rpm/tree/main [4] Un RPM de SeaweedFS
+
+Las ventajas de Takahe son:
+
+* Mastodon es Ruby, aunque sobre PostgreSQL, con el despliegue oficial algo manual. Takahe es Python/Django y aunque desplegar aplicaciones sobre Kubernetes no es santo de mi devoción, me parece algo más mantenible que el despliegue de Mastodon.
+
+* Takahe es multidominio. Podemos ir añadiendo dominios a nuestra instalación, así que yo uso @alex.femto.pub, pero puedo dar cuentas @x@femto.pub, @x@y.femto.pub o incluso con cualquier dominio. Creo que la portabilidad de cuentas y poder tener tu cuenta en un dominio que posees y poder migrar de un proveedor a otro conservando tu identidad será clave.
+
+Takahe es más o menos compatible con la API de Mastodon, con lo que se pueden usar clientes de Mastodon. De hecho, Takahe no proporciona ni siquiera una interfaz web para poner mensajes nuevos, así que *tenemos* que recurrir a uno. Ahora mismo uso:
+
+=> https://tusky.app/ Tusky para Android
+=> https://github.com/elk-zone/elk Elk como interfaz web
+=> https://github.com/cheeaun/phanpy phanpy como otra interfaz web más sofisticado
+
+Los interfaces web no hace falta hospedarlos vosotros mismos; tienen instancias públicas con las que podéis entrar a vuestras cuentas en otros servidores.
+
+Recordatorio: si preferís RSS, tanto Mastodon como Takahe proporcionan feeds RSS de cada cuenta, con lo que podéis seguir con ello, especialmente si sólo queréis leer y no interactuar.
