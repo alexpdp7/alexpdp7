@@ -95,6 +95,9 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Emacs
    - https://github.com/manateelazycat/lsp-bridge
 * Coding
+** Version control
+   - https://github.com/josh-project/josh Alternative to moe/copybara that looks simpler?
+   - https://martinvonz.github.io/jj/ Alternative Git frontend
 ** Observability
    - https://github.com/equinix-labs/otel-cli
    - https://github.com/timescale/promscale
