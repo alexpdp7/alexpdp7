@@ -55,8 +55,7 @@
   (global-set-key (kbd "M-x") #'helm-M-x)
   (global-set-key (kbd "C-x C-f") #'helm-find-files)
   (global-set-key (kbd "C-x C-b") #'helm-mini)
-  (setq helm-ff-skip-boring-files t)
-  (setq helm-ff-use-notify nil))  ; not working in Cosmopolitan
+  (setq helm-ff-skip-boring-files t))
 
 ;; LSP base for Rust and Java
 (use-package lsp-mode
