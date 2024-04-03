@@ -151,6 +151,7 @@ Run the reverse proxy on your domain so you can "duplicate" your identity on you
 
 - ZFS storage (use https://github.com/marcan/takeover.sh for easy set up of a ZFS mirror root system)
 - Automation ready (Ansible, Salt, Foreman, etc.)
+- Tools to create VMs from cloud images automatedly. See [[https://gitlab.com/libosinfo/osinfo-db/]], [[https://github.com/alexpdp7/cloud-run]]
 - Monitoring friendly
 - Apt for single public IP
   - Integrated DNS/DHCP
