@@ -73,6 +73,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/piku/piku
 ** Virtualization
    - https://github.com/karmab/kcli
+   - https://github.com/virt-lightning/virt-lightning libvirt + cloud images
 *** WASM
     - https://github.com/WAVM/Wavix
 ** BI
