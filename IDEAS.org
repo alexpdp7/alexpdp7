@@ -6,6 +6,12 @@
 - The mailing list UI can be completely customized to look like microblogging, blogs, comment systems, etc.
 - max n messages over m days feature. n=0, don't send me emails. n=1, send me a digest every m days. n>=2, stop at n-1, then wait until the m period is over to send me a digest.
 
+* Process nanny
+
+- A program to manage long running processes
+- Acts as a bot in IRC, email, Slack, etc. posting when the job is done, providing updates, etc.
+- Starts an xterm to watch the output
+
 * Terminal mail client
 
 - Easy set up of common mail accounts (perhaps using mbsync, notmuch, mu, etc.)
