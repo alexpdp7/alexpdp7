@@ -84,13 +84,15 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/glennbrown/home-infra/tree/main/ansible/roles/openwrt-dhcp-dns ansible-openwrt samples by glenn on Ars IRC.
 *** VPN
     - https://github.com/StreisandEffect/streisand
+** Multimedia
+   - https://github.com/zoriya/Kyoo - Jellyfin alternative
+   - https://github.com/asapach/peerflix-server - Torrent streaming server that can stream files as they download (not perfectly)
+   - https://github.com/hauxir/rapidbay - Video Torrent web interface, can be set up as Magnet link handler, but downloads full file before playing
 ** Misc
    - https://github.com/igor-petruk/scriptisto - Generic shebang for compiling software, with RPM/DEB
    - https://github.com/ventoy/Ventoy
    - https://github.com/marcan/takeover.sh
    - https://github.com/dflemstr/rq - Record tool
-   - https://github.com/asapach/peerflix-server - Torrent streaming server that can stream files as they download (not perfectly)
-   - https://github.com/hauxir/rapidbay - Video Torrent web interface, can be set up as Magnet link handler, but downloads full file before playing
    - https://github.com/ltratt/pizauth - OAuth tool
    - https://docs.nitrokey.com/nethsm/ - Open-source HSM (physical and virtual)
 ** Emacs
