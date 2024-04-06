@@ -21,7 +21,7 @@
 
 ;; Colorblind friendly theme.
 (require-theme 'modus-themes)
-(load-theme 'modus-operandi :no-confirm)
+(load-theme 'modus-vivendi :no-confirm)
 
 (require 'use-package-ensure)
 (setq use-package-always-ensure t)
