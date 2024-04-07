@@ -50,6 +50,7 @@ Also keeping things in a Org mode means I can classify and add notes.
   - http://jk.ozlabs.org/projects/patchwork/ - Mailing list patch parser
 * Systems
 ** Identity
+  - https://github.com/kanidm/kanidm - An alternative to FreeIPA
 *** Keycloak
     - https://github.com/adorsys/keycloak-config-cli - Config as code for KeyCloak
 ** Email
