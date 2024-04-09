@@ -7,6 +7,16 @@ El magnífico Ventoy[1] es un programilla disponible para Windows *y* Linux que 
 
 El sistema de archivos donde se guardan los datos de Ventoy es por defecto exFAT, un formato un tanto limitado y no tan universal como parece. Pero Ventoy soporta reformatear la partición a UDF, el sistema de archivos que se utiliza en los DVD y Blu-ray. Con lo que Windows, Linux y macOS lo soportan sin descargar ningún programa adicional (nota al pie: por algún motivo manzanero, macOS sólo monta automáticamente los discos UDF, *no las particiones*; con lo que si seguís lo que aquí digo, tendréis que ejecutar un par de comandos como root para que el invento se monte en macOS), y nos eliminamos los problemillas de la familia de sistemas de archivos FAT.
 
+EDIT 2024-04-09:
+
+=> https://www.sami-lehtinen.net/blog/exfat-extended-file-allocation-table-vs-udf-universal-disk-format-file-system-for-flash-drives
+
+> Reasons why I bothered even to check out UDF, were the fact that exFAT free space bitmap gets often corrupted (lost disk space) and you can't get it fixed on Linux without reformat. Yet I also managed to corrupt UDF on unclean dismout tests quite quickly, ending up with file which couldn't be read or deleted. Just as with exFAT there's no way to fix this, except to format the device again.
+
+Coincide con que dos años después, he corrompido mi Ventoy sobre UDF. Como siempre, todo lo importante con backup y en un soporte fiable (e.g. no una unidad que pasees por ahí, con un sistema de archivos de los buenos, etc.). No sé si mi siguiente Ventoy será UDF o exFAT.
+
+...
+
 Por último, todo esto funciona en los flamantes USB SSD externos que hay por ahí. Yo para todo esto me he pillado un WD de 480gb por 68€ en Amazon. Aunque 68€ no es una cantidad despreciable, esto incrementa significativamente la capacidad disponible respecto a los típicos USB "flash" baratos y, sobre todo, da unas tasas de transferencia que no hacen que nos entren ganas de tirar cosas por la ventana.
 
 O sea, que por un módico precio, podemos tener 480gb de almacenamiento USB rápido, accesible desde Linux, Windows y macOS, y con la capacidad de arrancar cualquier ISO que le metamos dentro.
