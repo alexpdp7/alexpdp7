@@ -97,6 +97,9 @@ See https://github.com/alexpdp7/scripts-py-libs
 - Timestamp stdout/stderr for crude profiling
 - Implement a CI system on top?
 
+Some parts could be implemented with OpenTelemetry.
+For example, piping command output as OpenTelemetry logs.
+
 * Random review experiment
 
 I want to review all my blog posts (~1000) for formatting, broken links, etc.
