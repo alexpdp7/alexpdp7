@@ -2,104 +2,6 @@ I have decided to not use GitHub stars any more.
 Mainly because it excludes projects not on GitHub.
 Also keeping things in a Org mode means I can classify and add notes.
 
-* Technical writing
-** Document formats
-   - https://github.com/nota-lang/nota - Proper parser, Markdown, LaTeX...
-   - https://github.com/markdoc/markdoc
-   - https://github.com/christianvoigt/argdown - Argumentation
-   - https://github.com/jgm/djot - JGM designs a simpler Markdown, with an AST
-   - https://github.com/typst/typst - technically sound modern LaTeX replacement
-   - https://github.com/nvim-neorg - org-mode alternative, TreeSitter-grammar-first
-*** Markdown
-    - https://github.com/lezer-parser/markdown
-**** Rust Parsers
-    - https://github.com/kivikakk/comrak
-    - https://github.com/raphlinus/pulldown-cmark
-    - https://github.com/wooorm/markdown-rs
-*** Org
-    - https://github.com/karlicoss/orgparse
-    - https://github.com/200ok-ch/org-parser
-*** Publishing format
-    - https://github.com/nota-lang/bene/
-** Spelling, etc.
-   - https://github.com/bminixhofer/nlprule - LanguageTool in Rust
-   - https://github.com/valentjn/ltex-ls - LanguageTool LSP with LaTeX support
-   - https://github.com/jmartorell/LTlab - Spanish tools for LanguageTool
-   - https://github.com/languagetool-org/languagetool
-** ProseMirror
-   - https://github.com/ProseMirror/prosemirror-markdown
-* Parsers
-  - https://github.com/langium/langium - DSLs and LSP
-  - https://github.com/hydro-project/rust-sitter - TreeSitter in Rust
-  - https://github.com/jzimmerman/langcc
-  - https://github.com/petitparser/dart-petitparser
-  - https://github.com/metaborg/sdf
-  - https://github.com/antlr/grammars-v4
-  - https://github.com/tree-sitter/tree-sitter
-  - https://github.com/stephan-tolksdorf/fparsec
-  - https://github.com/Engelberg/instaparse
-  - https://janet-lang.org/docs/peg.html - Janet is a programming language with first-class support for PEGs
-  - https://craftinginterpreters.com/contents.html - Book
-** DCGs/Prolog
-   - https://en.wikipedia.org/wiki/Definite_clause_grammar
-   - https://github.com/mthom/scryer-prolog/
-   - https://github.com/rla/prolog-markdown
-   - https://github.com/aarroyoc/djota/tree/main - A Djot parser in Prolog
-* CI/CD
-  - https://github.com/earthly/earthly - Standalone build tool with containers
-  - https://github.com/reviewdog/reviewdog - Error parser than can annotate GitHub pull requests
-  - http://jk.ozlabs.org/projects/patchwork/ - Mailing list patch parser
-* Systems
-** Identity
-  - https://github.com/kanidm/kanidm - An alternative to FreeIPA
-*** Keycloak
-    - https://github.com/adorsys/keycloak-config-cli - Config as code for KeyCloak
-** Email
-   - https://github.com/simonrob/email-oauth2-proxy
-*** Notmuch
-    - https://github.com/gauteh/lieer - GMail
-** Configuration management
-   - https://github.com/habitat-sh/habitat
-** File sync
-   - https://thelig.ht/code/userspacefs/ - Usermode filesystem Python library that works on Windows, Linux and macOS
-   - https://github.com/mutagen-io/mutagen
-   - https://github.com/tkellogg/dura
-   - https://github.com/perkeep/perkeep
-   - https://github.com/upspin/upspin
-   - https://github.com/mickael-kerjean/filestash Web file manager with org-mode support
-   - https://github.com/kd2org/karadav NextCloud-compatible WebDav server
-   - https://willowprotocol.org/
-** Home automation
-   - https://github.com/Yakifo/amqtt	
-** PaaS
-   - https://github.com/piku/piku
-** Virtualization
-   - https://github.com/karmab/kcli
-   - https://github.com/virt-lightning/virt-lightning libvirt + cloud images
-*** WASM
-    - https://github.com/WAVM/Wavix
-** BI
-   - https://github.com/getredash/redash
-   - https://github.com/metabase/metabase
-** Networking
-   - https://github.com/gekmihesg/ansible-openwrt
-   - https://github.com/glennbrown/home-infra/tree/main/ansible/roles/openwrt-dhcp-dns ansible-openwrt samples by glenn on Ars IRC.
-   - https://github.com/lanefu/clammy-ng - Raspbian on NanoPi Ansible-managed router
-*** VPN
-    - https://github.com/StreisandEffect/streisand
-** Multimedia
-   - https://github.com/zoriya/Kyoo - Jellyfin alternative
-   - https://github.com/asapach/peerflix-server - Torrent streaming server that can stream files as they download (not perfectly)
-   - https://github.com/hauxir/rapidbay - Video Torrent web interface, can be set up as Magnet link handler, but downloads full file before playing
-** Misc
-   - https://github.com/igor-petruk/scriptisto - Generic shebang for compiling software, with RPM/DEB
-   - https://github.com/ventoy/Ventoy
-   - https://github.com/marcan/takeover.sh
-   - https://github.com/dflemstr/rq - Record tool
-   - https://github.com/ltratt/pizauth - OAuth tool
-   - https://docs.nitrokey.com/nethsm/ - Open-source HSM (physical and virtual)
-** Emacs
-   - https://github.com/manateelazycat/lsp-bridge
 * Coding
 ** Version control
    - https://github.com/josh-project/josh Alternative to moe/copybara that looks simpler?
@@ -182,6 +84,23 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/google/auto
 ** Email
    - https://github.com/moggers87/salmon - Mail applications
+** Parsers
+  - https://github.com/langium/langium - DSLs and LSP
+  - https://github.com/hydro-project/rust-sitter - TreeSitter in Rust
+  - https://github.com/jzimmerman/langcc
+  - https://github.com/petitparser/dart-petitparser
+  - https://github.com/metaborg/sdf
+  - https://github.com/antlr/grammars-v4
+  - https://github.com/tree-sitter/tree-sitter
+  - https://github.com/stephan-tolksdorf/fparsec
+  - https://github.com/Engelberg/instaparse
+  - https://janet-lang.org/docs/peg.html - Janet is a programming language with first-class support for PEGs
+  - https://craftinginterpreters.com/contents.html - Book
+*** DCGs/Prolog
+   - https://en.wikipedia.org/wiki/Definite_clause_grammar
+   - https://github.com/mthom/scryer-prolog/
+   - https://github.com/rla/prolog-markdown
+   - https://github.com/aarroyoc/djota/tree/main - A Djot parser in Prolog
 ** Misc
    - https://github.com/DavHau/nix-portable - portable Nix, no root required, works in an LXC container
    - https://github.com/rulex-rs/pomsky - regex alternative
@@ -192,6 +111,72 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/copier-org/copier/ - project templater
    - https://github.com/Skyscanner/turbolift - operating on multiple repos
    - https://github.com/FiloSottile/age - encryption tool that can use SSH keys
+  - https://github.com/KDE/kitinerary/tree/master/src/lib/scripts - a lot of travel email scrapers (plane and train tickets, etc.)
+** CI/CD
+  - https://github.com/earthly/earthly - Standalone build tool with containers
+  - https://github.com/reviewdog/reviewdog - Error parser than can annotate GitHub pull requests
+  - http://jk.ozlabs.org/projects/patchwork/ - Mailing list patch parser
+** Tabular data
+  - https://github.com/gristlabs/grist-core
+  - https://github.com/aardappel/treesheets
+  - https://www.visidata.org/
+* Systems
+** Identity
+  - https://github.com/kanidm/kanidm - An alternative to FreeIPA
+*** Keycloak
+    - https://github.com/adorsys/keycloak-config-cli - Config as code for KeyCloak
+** Email
+   - https://github.com/simonrob/email-oauth2-proxy
+*** Notmuch
+    - https://github.com/gauteh/lieer - GMail
+** Configuration management
+   - https://github.com/habitat-sh/habitat
+** File sync
+   - https://thelig.ht/code/userspacefs/ - Usermode filesystem Python library that works on Windows, Linux and macOS
+   - https://github.com/mutagen-io/mutagen
+   - https://github.com/tkellogg/dura
+   - https://github.com/perkeep/perkeep
+   - https://github.com/upspin/upspin
+   - https://github.com/mickael-kerjean/filestash Web file manager with org-mode support
+   - https://github.com/kd2org/karadav NextCloud-compatible WebDav server
+   - https://willowprotocol.org/
+** Home automation
+   - https://github.com/Yakifo/amqtt	
+** PaaS
+   - https://github.com/piku/piku
+** Virtualization
+   - https://github.com/karmab/kcli
+   - https://github.com/virt-lightning/virt-lightning libvirt + cloud images
+*** WASM
+    - https://github.com/WAVM/Wavix
+** BI
+   - https://github.com/getredash/redash
+   - https://github.com/metabase/metabase
+** Networking
+   - https://github.com/gekmihesg/ansible-openwrt
+   - https://github.com/glennbrown/home-infra/tree/main/ansible/roles/openwrt-dhcp-dns ansible-openwrt samples by glenn on Ars IRC.
+   - https://github.com/lanefu/clammy-ng - Raspbian on NanoPi Ansible-managed router
+*** VPN
+    - https://github.com/StreisandEffect/streisand
+** Multimedia
+   - https://github.com/zoriya/Kyoo - Jellyfin alternative
+   - https://github.com/asapach/peerflix-server - Torrent streaming server that can stream files as they download (not perfectly)
+   - https://github.com/hauxir/rapidbay - Video Torrent web interface, can be set up as Magnet link handler, but downloads full file before playing
+** Misc
+   - https://github.com/igor-petruk/scriptisto - Generic shebang for compiling software, with RPM/DEB
+   - https://github.com/ventoy/Ventoy
+   - https://github.com/marcan/takeover.sh
+   - https://github.com/dflemstr/rq - Record tool
+   - https://github.com/ltratt/pizauth - OAuth tool
+   - https://docs.nitrokey.com/nethsm/ - Open-source HSM (physical and virtual)
+** Emacs
+   - https://github.com/manateelazycat/lsp-bridge
+** Desktop
+  - https://github.com/YaLTeR/niri/
+  - https://ublue.it/
+  - https://github.com/kmonad/kmonad - advanced cross-platform keyboard remapping
+** Other
+  - https://github.com/fsquillace/junest - Arch chroots
 * Anti social
 ** Platforms
    - https://github.com/taviso/nntpit - Reddit over NNTP
@@ -207,23 +192,38 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/SimonBrazell/privacy-redirect
    - https://github.com/benbusby/farside
    - https://github.com/timhutton/twitter-archive-parser
-* Tabular data
-  - https://github.com/gristlabs/grist-core
-  - https://github.com/aardappel/treesheets
-  - https://www.visidata.org/
 * Hardware
   - https://junkerhq.net/xrgb/index.php/OSSC - The Open Source Scan Converter is a low-latency video digitizer and scan converter designed primarily for connecting retro video game consoles and home computers to modern displays.
 ** Phones
    - https://github.com/Dakkaron/Fairberry - add Blackberry keyboard to other phones
    - https://github.com/Genymobile/scrcpy - remote control Android
    - https://github.com/wolpi/prim-ftpd
-* Linux
-** Desktop
-  - https://github.com/YaLTeR/niri/
-  - https://ublue.it/
-  - https://github.com/kmonad/kmonad - advanced cross-platform keyboard remapping
+* Technical writing
+** Document formats
+   - https://github.com/nota-lang/nota - Proper parser, Markdown, LaTeX...
+   - https://github.com/markdoc/markdoc
+   - https://github.com/christianvoigt/argdown - Argumentation
+   - https://github.com/jgm/djot - JGM designs a simpler Markdown, with an AST
+   - https://github.com/typst/typst - technically sound modern LaTeX replacement
+   - https://github.com/nvim-neorg - org-mode alternative, TreeSitter-grammar-first
+*** Markdown
+    - https://github.com/lezer-parser/markdown
+**** Rust Parsers
+    - https://github.com/kivikakk/comrak
+    - https://github.com/raphlinus/pulldown-cmark
+    - https://github.com/wooorm/markdown-rs
+*** Org
+    - https://github.com/karlicoss/orgparse
+    - https://github.com/200ok-ch/org-parser
+*** Publishing format
+    - https://github.com/nota-lang/bene/
+** Spelling, etc.
+   - https://github.com/bminixhofer/nlprule - LanguageTool in Rust
+   - https://github.com/valentjn/ltex-ls - LanguageTool LSP with LaTeX support
+   - https://github.com/jmartorell/LTlab - Spanish tools for LanguageTool
+   - https://github.com/languagetool-org/languagetool
+** ProseMirror
+   - https://github.com/ProseMirror/prosemirror-markdown
 * Other
-  - https://github.com/fsquillace/junest - Arch chroots
   - https://github.com/jhuangtw/xg2xg
   - https://github.com/mzucker/noteshrink - handwriting to PDF
-  - https://github.com/KDE/kitinerary/tree/master/src/lib/scripts - a lot of travel email scrapers (plane and train tickets, etc.)
