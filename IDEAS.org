@@ -8,9 +8,26 @@
 
 * Process nanny
 
+See [[https://github.com/open-telemetry/opentelemetry-specification/blob/main/experimental/trace/zpages.md]].
+
 - A program to manage long running processes
 - Acts as a bot in IRC, email, Slack, etc. posting when the job is done, providing updates, etc.
-- Starts an xterm to watch the output
+- Starts an xterm.js to watch the output
+
+** Parallel execution framework
+
+See https://github.com/alexpdp7/scripts-py-libs
+
+- A tool to run stuff such as CI builds which need sophisticated parallelization
+- Create differently sized resource pools (for CPU-bound tasks, "API"-bound, etc.)
+- Local execution of workflows on a workstation, remote execution on a CI server
+- Handle task dependencies and artifact passing from parent to child tasks
+- Capture stdout/stderr of tasks, allow viewing in realtime
+- Timestamp stdout/stderr for crude profiling
+- Implement a CI system on top?
+
+Some parts could be implemented with OpenTelemetry.
+For example, piping command output as OpenTelemetry logs.
 
 * Terminal mail client
 
@@ -84,21 +101,6 @@ See https://github.com/EvgSkv/logica, [[https://prql-lang.org/]]
 - Makes queries composable (e.g. declare a query object, then add paging/sorting, for framework usage)
 - Declarative join via foreign key constraint names
 - Better ordering for code completion (e.g. FROMs first)
-
-* Parallel execution framework
-
-See https://github.com/alexpdp7/scripts-py-libs
-
-- A tool to run stuff such as CI builds which need sophisticated parallelization
-- Create differently sized resource pools (for CPU-bound tasks, "API"-bound, etc.)
-- Local execution of workflows on a workstation, remote execution on a CI server
-- Handle task dependencies and artifact passing from parent to child tasks
-- Capture stdout/stderr of tasks, allow viewing in realtime
-- Timestamp stdout/stderr for crude profiling
-- Implement a CI system on top?
-
-Some parts could be implemented with OpenTelemetry.
-For example, piping command output as OpenTelemetry logs.
 
 * Random review experiment
 
