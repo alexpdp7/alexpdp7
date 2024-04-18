@@ -59,7 +59,8 @@
 
 ;; LSP base for Rust and Java
 (use-package lsp-mode
-  :ensure t)
+  :ensure t
+  :custom (lsp-rust-features "all"))
 
 (use-package company
   :ensure t
