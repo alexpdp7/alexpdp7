@@ -1,5 +1,5 @@
 # source this file from your bash startup script
 
-alias emacs="emacsclient --create-frame -t"
+alias emacs="emacs --emacs-appimage-run-as emacsclient --create-frame -t"
 export ALTERNATE_EDITOR=""
-export EDITOR="emacsclient -t"
+export EDITOR="emacs --emacs-appimage-run-as emacsclient -t"
