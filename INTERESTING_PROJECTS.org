@@ -180,6 +180,8 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://github.com/kmonad/kmonad - advanced cross-platform keyboard remapping
 ** Other
   - https://github.com/fsquillace/junest - Arch chroots
+  - https://github.com/linuxserver/docker-baseimage-kasmvnc - Web adapter for graphical applications
+  - https://github.com/linuxserver/proot-apps - Portable container apps with just proot
 * Anti social
 ** Platforms
    - https://github.com/taviso/nntpit - Reddit over NNTP
