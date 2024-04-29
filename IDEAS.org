@@ -29,6 +29,11 @@ See https://github.com/alexpdp7/scripts-py-libs
 Some parts could be implemented with OpenTelemetry.
 For example, piping command output as OpenTelemetry logs.
 
+* Browser cursor control
+
+- Adapt web pages so you can browse them using cursor keys.
+- Use a "powerful" computer as a Smart TV with a simple remote
+
 * Terminal mail client
 
 - Easy set up of common mail accounts (perhaps using mbsync, notmuch, mu, etc.)
