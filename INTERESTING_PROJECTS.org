@@ -69,6 +69,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/bugen/pypipe Python-based AWK
    - https://github.com/fsspec/filesystem_spec/ VFS-like Python API
    - https://github.com/errbotio/errbot Multiplatform bot framework
+   - https://github.com/pydantic/logfire otel wrapper?
 ** Rust
    - https://github.com/flutter-rs/flutter-rs
    - https://github.com/xTibor/rust-on-c64
