@@ -8,7 +8,7 @@ If you create a file `~/.ssh/config`, with contents like:
 Host xxx
 	HostName yyy
 	Port 1234
-  User zzz
+	User zzz
 ```
 
 , then if you type `ssh xxx`, the result will be like executing `ssh -p 1234 zzz@yyy`.
