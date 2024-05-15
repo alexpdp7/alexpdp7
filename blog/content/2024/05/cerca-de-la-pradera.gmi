@@ -1,0 +1,24 @@
+# Cerca de la pradera
+2024-05-15
+
+=> https://liliputing.com/anberdeck-mod-turns-anbernic-rg353v-game-system-into-a-handheld-linux-terminal/
+
+Esto me ha recordado que tenía pendiente evaluar mi experimento con multi SIM con un Pixel 7a y un Titan Pocket.
+
+Por favor, que venga la DMA *ya* y pueda usar cualquier sistema bizarro para acceder a temas de mensajería. Ya puedo usar Telegram en cualquier dispositivo (por ejemplo, en cualquier cosa que tenga un cliente de IRC), pero WhatsApp sigue siendo bloqueante.
+
+Porque sí, el Pixel 7a sigue siendo la frustración a la hora de teclear, y el teclado del Titan Pocket no está a la altura de los teclados de BlackBerry- tanto por hardware (tengo un par de teclas que no responden bien), como por software (el autocorrector es insuficiente). Al final uso muy poquito el Titan Pocket, y me sigue amargando la existencia teclear cualquier cosa en ambos dispositivos.
+
+... y el resto de mi actividad en el Fediverso:
+
+=> https://nethackwiki.com/wiki/The_DevTeam_Thinks_of_Everything The DevTeam Thinks of Everything.
+=> https://en.wikipedia.org/wiki/Patty_Hearst La curiosa vida de una nieta de William Randolph Hearst
+=> https://github.com/onnokort/semu-c64 La completitud de Turing, o como un C64 con un porrón de RAM puede arrancar Linux (pero tarda tanto que sólo ha funcionado en un emulador).
+=> https://psychedeliasyndro.me/ Libro gratis sobre el primer "sintetizador de luz" de Jeff Minter
+=> https://www.penny-arcade.com/comic/2024/04/08/whackmen I did it thirty-five minutes ago (y yo no capté la referencia).
+=> https://www.cia.gov/stories/story/the-art-of-simple-sabotage/ The Art of Simple Sabotage
+=> https://www.fastmail.com/blog/new-family-plans-and-pricing/ Los nuevos precios de Fastmail son tentadores.
+=> https://store.steampowered.com/app/1097130/Circuit_Superstars/ Me pillé un Humble por este Circuit Superstars, y no está mal...
+=> https://store.steampowered.com/app/2433790/Tiny_Tires/ ... pero este también me tienta.
+=> https://farside.link/invidious/watch?v=s06YE02e844&t=1361 Megatrón
+=> https://www.hanselman.com/blog/open-sourcing-dos-4 Por fin, MS-DOS 4 se une a MS-DOS 1.25 y 2.0 como innovadores del software libre.
