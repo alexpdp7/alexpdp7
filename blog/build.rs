@@ -1,11 +1,12 @@
-#!/usr/bin/env -S cargo +nightly -Zscript
-```cargo
+#!/usr/bin/env -S cargo +nightly -Z script
+---
 [dependencies]
 clap = { version = "4.4.6", features = ["derive", "env"] }
 paars = { git = "https://github.com/alexpdp7/paars.git" }
-```
-use std::path::PathBuf;
+---
+
 use clap::Parser;
+use std::path::PathBuf;
 
 #[derive(Parser, Debug)]
 #[command()]
