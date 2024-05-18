@@ -25,7 +25,6 @@
 
 (require 'use-package-ensure)
 (setq use-package-always-ensure t)
-(setq package-check-signature nil) ;; TODO: superconfigure lacks keyring?
 
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
