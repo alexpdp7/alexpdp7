@@ -19,7 +19,7 @@ package {$ipa_client_package:}
 package {'sudo':}
 
 if 'lxc' in lookup("group_names") {
-  service {['var-lib-nfs-rpc_pipefs.mount', 'chronyd.service', 'sys-kernel-config.mount', 'sys-kernel-debug.mount', 'auth-rpcgss-module.service']:
+  service {['var-lib-nfs-rpc_pipefs.mount', 'chronyd.service', 'sys-kernel-config.mount', 'sys-kernel-debug.mount', 'auth-rpcgss-module.service', 'rtkit-daemon.service', 'low-memory-monitor.service']:
     ensure => stopped,
     enable => mask,
   }
