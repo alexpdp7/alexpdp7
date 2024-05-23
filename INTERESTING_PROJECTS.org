@@ -66,6 +66,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Python
    - https://github.com/inducer/pudb Full-screen console debugger for Python
    - https://pyoxidizer.readthedocs.io/en/latest/index.html Self-contained Python distributions, packaging, etc.
+   - https://tushar.lol/post/packaged/ Uses [[https://github.com/indygreg/python-build-standalone]] to package Python applications.
    - https://github.com/bugen/pypipe Python-based AWK
    - https://github.com/fsspec/filesystem_spec/ VFS-like Python API
    - https://github.com/errbotio/errbot Multiplatform bot framework
