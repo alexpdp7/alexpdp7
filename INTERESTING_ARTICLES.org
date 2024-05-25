@@ -35,3 +35,7 @@
 * News
 
 - [[https://www.currentaffairs.org/2020/08/the-truth-is-paywalled-but-the-lies-are-free/][The Truth Is Paywalled But The Lies Are Free]]
+
+* Meta
+
+- [[https://www.benkuhn.net/progessays/][Essays on programming I think about a lot]]
