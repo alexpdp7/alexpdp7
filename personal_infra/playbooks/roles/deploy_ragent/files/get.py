@@ -7,7 +7,7 @@ import urllib.request
 run_id = sys.argv[1]
 
 if run_id == "last":
-    runs = json.loads(urllib.request.urlopen("https://api.github.com/repos/alexpdp7/ragent/actions/runs?branch=master").read().decode('utf8'))
+    runs = json.loads(urllib.request.urlopen("https://api.github.com/repos/alexpdp7/ragent/actions/runs?branch=master&event=push").read().decode('utf8'))
     run_id = runs["workflow_runs"][0]["id"]
 
 run = json.loads(urllib.request.urlopen("https://api.github.com/repos/alexpdp7/ragent/actions/runs/%s" % run_id).read().decode('utf8'))
