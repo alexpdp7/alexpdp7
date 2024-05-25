@@ -22,7 +22,7 @@ class clickhouse {
   ->
   package {['clickhouse-server', 'clickhouse-client', 'clickhouse-keeper']:}
   ->
-  [File['/etc/clickhouse-server/config.d/network.xml']]
+  [File['/etc/clickhouse-server/config.d/network.xml'], File['/etc/clickhouse-server/config.d/logs.xml']]
   ~>
   service {['clickhouse-server', 'clickhouse-keeper']:
     ensure => running,
@@ -35,6 +35,23 @@ class clickhouse {
         <listen_host>::</listen_host>
       </clickhouse>
       | EOT
+    ,
+  }
+
+  file {'/etc/clickhouse-server/config.d/logs.xml':
+    content => @(EOT)
+      <clickhouse>
+        <asynchronous_metric_log>
+          <ttl>event_date + INTERVAL 3 DAY DELETE</ttl>
+        </asynchronous_metric_log>
+        <trace_log>
+          <ttl>event_date + INTERVAL 3 DAY DELETE</ttl>
+        </trace_log>
+        <metric_log>
+          <ttl>event_date + INTERVAL 3 DAY DELETE</ttl>
+        </metric_log>
+      </clickhouse>
+    | EOT
     ,
   }
 }
