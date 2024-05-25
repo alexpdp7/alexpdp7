@@ -25,7 +25,8 @@ def generate_config():
         Description=Mail synchronization
 
         [Service]
-        ExecStart=/usr/bin/mbsync -qa
+        Type=oneshot
+        ExecStart=/usr/bin/mbsync -qa ; /usr/bin/notmuch new
         """).lstrip())
 
     (user_units / "mbsync.timer").write_text(textwrap.dedent("""
@@ -42,6 +43,7 @@ def generate_config():
         Unit=mbsync.service
         """).lstrip())
 
+    subprocess.run(["systemctl", "--user", "daemon-reload"], check=True)
     subprocess.run(["systemctl", "--user", "enable", "--now", "mbsync.timer"], check=True)
     subprocess.run(["sudo", "loginctl", "enable-linger", "alex"], check=True)
 
