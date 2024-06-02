@@ -1,0 +1,19 @@
+# Aparcando
+2024-06-02
+
+Tengo un Tilt Five. Estoy esperando a liberar mi PC con gráficos potentes y que me llegue el reemplazo de un cable defectuoso para una evaluación completa, pero... funciona, aunque es menos mágico de lo que esperaba y parece haber poco software, lamentablemente.
+
+También tengo un Lenovo ThinkPad X12 "detachable" por curro. Aunque la empresa de leasing da un Windows bastante fastidiado, parece que en Linux va bastante bien... salvo que no se puede poner ctrl/fn "en su sitio" mediante una opción de la BIOS. Estoy investigando en:
+
+=> https://github.com/alexpdp7/lenovo-thinkpad-x12-detachable-gen1-swap-ctrl-fn-linux
+
+X-Men '97 me parece encomiable. Recuerdo ver la serie original, aunque no recuerdo muchísimo. Pero aparte de la dosis de nostalgia, regurgita un poco un par de arcos atrevidos de los cómics con bastante desparpajo. Y Magneto tenía razón, claro.
+
+También he estado experimentando un poco con "spatial navigation", pero ha sido en balde. Con el auge de las apps de streaming, es un poco frustrante que sólo se puedan usar en la tele en los sistemas terriblemente lentos que tienen las Smart TV o incluso cacharros como el Chromecast con Google TV (quiero pensar que el Apple TV irá bien, pero me da palo. Y he oído alguna nota discordante sobre el Nvidia Shield). El spatial navigation permite controlar navegadores con "cursores" y pensé por un momento que con eso, se podría enchufar un PC potente a una tele, poner un navegador a pantalla completa y controlarlo con un mando tipo tele (sin ratón, etc.). Pero alguna plataforma de streaming más o menos funciona de esta manera, no es suficientemente usable :( Quedaría ponerse a hacer chapuzas para arreglarlo, pero me temo que tampoco vale la pena.
+
+El resto de mi actividad en el Fediverso:
+
+=> https://www.videogameschronicle.com/news/masahiro-sakurai-refused-to-add-dolby-surround-to-a-kirby-game-because-players-had-to-sit-through-the-logo/ Sólo el creador de Kirby y de Smash Bros tiene la integridad suficiente para decir NO a los logos no saltables al cargar un juego...
+=> https://www.polygon.com/24157223/how-gravity-physics-work-for-jumping-falling-in-games ... y es necesario romper el realismo por la diversión.
+=> https://www.merriam-webster.com/dictionary/sashay Fans should enjoy Mexico goalie Jorge Campos, with his pink-and-lime-green outfits and the way he sashays upfield, far from his goal, when the spirit moves him. — The New York Times
+=> https://blondihacks.com/furiosas-cat-f@eeder/ Furiosa's cat feeder
