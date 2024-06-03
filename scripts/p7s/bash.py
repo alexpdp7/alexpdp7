@@ -7,8 +7,12 @@ def is_ubuntu_2204():
     return platform.freedesktop_os_release().get("VERSION_CODENAME") == "jammy"
 
 
+def is_ubuntu_2404():
+    return platform.freedesktop_os_release().get("VERSION_CODENAME") == "noble"
+
+
 def setup_bash():
-    if is_ubuntu_2204():
+    if is_ubuntu_2204() or is_ubuntu_2404():
         # clone the handy ~/.bashrc.d from Fedora
         bash_aliases = pathlib.Path.home() / ".bash_aliases"
         bash_aliases.write_text(textwrap.dedent("""
