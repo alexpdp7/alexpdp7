@@ -12,7 +12,7 @@ For example, shell scripts tend to be mostly composed of invocations of programs
 Even software developed in languages such as Python, C, or Java often invokes other programs.
 
 Python software developers use the `subprocess` module to perform this task.
-Other languages provide similar facilities, with 
+Other languages provide similar facilities.
 
 Consider the two following Python sessions to execute an equivalent to the `bash` statement `cat /etc/passwd`:
 
