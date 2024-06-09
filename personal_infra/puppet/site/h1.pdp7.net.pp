@@ -16,6 +16,10 @@ node 'h1.pdp7.net' {
       [rpool/data/subvol-210-disk-1]
         use_template = backup
 
+      # gitolite
+      [rpool/data/subvol-211-disk-1]
+        use_template = backup
+
       # weed
       [rpool/data/subvol-214-disk-1]
         use_template = backup
