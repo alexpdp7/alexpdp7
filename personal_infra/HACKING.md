@@ -13,15 +13,13 @@ Symlink everything in this directory into your root infrastructure directory.
 
 Create an `inventory` file.
 
-Use the [quay.io/alexpdp7/workstation:latest](https://quay.io/repository/alexpdp7/workstation) image to run Ansible, using a tool such as [Toolbox](https://containertoolbx.org/) or [Distrobox](https://distrobox.it/).
-
 Create `vault_password` with a vault password.
+
+Use `rye sync` to set up Python.
 
 ### Usage
 
-Run `. .venv/bin/activate` to activate the virtual environment.
-
-Run Ansible commands normally.
+Run Ansible commands with `rye run`.
 
 ## Ansible/Puppet integration
 
