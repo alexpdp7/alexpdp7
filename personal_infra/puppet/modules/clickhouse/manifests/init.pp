@@ -50,6 +50,9 @@ class clickhouse {
         <metric_log>
           <ttl>event_date + INTERVAL 3 DAY DELETE</ttl>
         </metric_log>
+        <query_log>
+          <ttl>event_date + INTERVAL 3 DAY DELETE</ttl>
+        </query_log>
       </clickhouse>
     | EOT
     ,
