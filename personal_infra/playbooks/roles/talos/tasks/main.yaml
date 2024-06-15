@@ -27,12 +27,16 @@
   shell:
     cmd: talosctl gen config -t controlplane -o talos/host-{{ inventory_hostname }}.yaml --with-secrets <(ansible-vault view talos/{{ talos_host.talos_cluster }}-secrets.yaml) --config-patch-control-plane @talos/host-{{ inventory_hostname }}.patch {{ talos_host.talos_cluster }} {{ talos_clusters[talos_host.talos_cluster].endpoint }} --force
     chdir: "{{ inventory_dir }}"
+  args:
+    executable: /bin/bash
   delegate_to: 127.0.0.1
 
 - name: generate talosconfig
   shell:
     cmd: talosctl gen config -t talosconfig -o talos/talosconfig-{{ talos_host.talos_cluster }} --with-secrets <(ansible-vault view talos/{{ talos_host.talos_cluster }}-secrets.yaml) {{ talos_host.talos_cluster }} {{ talos_clusters[talos_host.talos_cluster].endpoint }} --force
     chdir: "{{ inventory_dir }}"
+  args:
+    executable: /bin/bash
   delegate_to: 127.0.0.1
 
 - name: set talosconfig endpoint
