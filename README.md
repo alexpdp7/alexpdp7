@@ -10,7 +10,7 @@ Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar es
 * Artículos varios un poco tipo wiki sobre diversos temas, como [hardware](hardware/), [Linux](linux/) y [programación](programming/).
 * [Mi configuración de Emacs](emacs/).
 * [Unos cuantos scripts que uso en mis "estaciones de trabajo"](scripts/) y [un par de barbaridades para montar un contenedor para Distrobox/Toolbox con algunas de las herramientas que uso](workstation/).
-* [La definición del modelo de datos del sistema que uso para registrar métricas de salud](weight/), que se convierte en una web gracias a [zqxjkcrud](https://github.com/alexpdp7/zqxjkcrud/) mi framework para desarrollo rápido de CRUD.
+* [La definición del modelo de datos del sistema que uso para registrar métricas de salud](weight/), que se convierte en una web gracias a [zqxjkcrud](https://github.com/alexpdp7/zqxjkcrud/), mi framework para desarrollo rápido de CRUD.
 * [Algunas cosas que sigo en RSS](FUENTES.md)
 * [Resúmenes de libros](cliffs_notes/), aunque la verdad no hay mucho.
 * [Alguna cosilla de ficción que he escrito](fiction_writing/)
@@ -29,5 +29,5 @@ Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar es
 * Wiki-like articles on topics such as [hardware](hardware/), [Linux](linux/), and [programming](programming/).
 * [My emacs config](emacs/).
 * [Scripts I use on my workstations](scripts/) and [some bizarre stuff to build Distrobox/Toolbox containers with some tools I use](workstation/).
-* [The database schema for my health metrics tracking system](weight/), which has a web UI via [zqxjkcrud](https://github.com/alexpdp7/zqxjkcrud/) my CRUD rapid development framework.
+* [The database schema for my health metrics tracking system](weight/), which has a web UI via [zqxjkcrud](https://github.com/alexpdp7/zqxjkcrud/), my CRUD rapid development framework.
 * [Cliffs' notes of books](cliffs_notes/), fairly barren.
