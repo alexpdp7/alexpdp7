@@ -15,30 +15,64 @@ boto3==1.34.122
 botocore==1.34.122
     # via boto3
     # via s3transfer
+cachetools==5.3.3
+    # via google-auth
+certifi==2024.6.2
+    # via kubernetes
+    # via requests
 cffi==1.16.0
     # via cryptography
+charset-normalizer==3.3.2
+    # via requests
 cryptography==42.0.8
     # via ansible-core
+google-auth==2.30.0
+    # via kubernetes
+idna==3.7
+    # via requests
 jinja2==3.1.4
     # via ansible-core
 jmespath==1.0.1
     # via boto3
     # via botocore
+kubernetes==30.1.0
 markupsafe==2.1.5
     # via jinja2
+oauthlib==3.2.2
+    # via kubernetes
+    # via requests-oauthlib
 packaging==24.0
     # via ansible-core
+pyasn1==0.6.0
+    # via pyasn1-modules
+    # via rsa
+pyasn1-modules==0.4.0
+    # via google-auth
 pycparser==2.22
     # via cffi
 python-dateutil==2.9.0.post0
     # via botocore
+    # via kubernetes
 pyyaml==6.0.1
     # via ansible-core
+    # via kubernetes
+requests==2.32.3
+    # via kubernetes
+    # via requests-oauthlib
+requests-oauthlib==2.0.0
+    # via kubernetes
 resolvelib==1.0.1
     # via ansible-core
+rsa==4.9
+    # via google-auth
 s3transfer==0.10.1
     # via boto3
 six==1.16.0
+    # via kubernetes
     # via python-dateutil
 urllib3==2.2.1
     # via botocore
+    # via kubernetes
+    # via requests
+websocket-client==1.8.0
+    # via kubernetes
