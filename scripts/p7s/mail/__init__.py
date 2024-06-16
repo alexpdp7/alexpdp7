@@ -26,7 +26,7 @@ def generate_config():
 
         [Service]
         Type=oneshot
-        ExecStart=/usr/bin/mbsync -qa ; /usr/bin/notmuch new
+        ExecStart=/usr/bin/touch /home/alex/Mail/.lock ; /usr/bin/mbsync -qa ; /usr/bin/rm -f /home/alex/Mail/.lock
         """).lstrip())
 
     (user_units / "mbsync.timer").write_text(textwrap.dedent("""
