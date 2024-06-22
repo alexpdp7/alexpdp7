@@ -32,6 +32,7 @@
 - [[https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/][The Engineer/Manager Pendulum]] Why people should multiclass engineering and management
 - [[https://varoa.net/2024/01/09/how-organisations-cripple-engineering-teams-with-good-intentions.html][How organisations cripple engineering teams with good intentions]] Arguments for having coders code
 - [[https://stackoverflow.blog/2024/06/10/generative-ai-is-not-going-to-build-your-engineering-team-for-you/][Generative AI Is Not Going To Build Your Engineering Team For You]] Bad title; it's about the need for junior coders
+- [[https://luminousmen.com/post/senior-engineer-fatigue][Senior Engineer Fatigue]]
 
 * News
 
