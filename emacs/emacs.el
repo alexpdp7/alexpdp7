@@ -117,9 +117,3 @@
 
 (use-package zmq :ensure t)
 (use-package jupyter :ensure t)
-
-(use-package mastodon
-  :ensure t
-  :config
-  (setq mastodon-instance-url "https://alex.femto.pub")
-  (setq mastodon-active-user "yo"))
