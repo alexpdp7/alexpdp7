@@ -13,6 +13,12 @@ Pipx is useful for two purposes:
 
 # Use Poetry
 
+> [!NOTE]
+> I have been using [rye](https://rye.astral.sh/) recently.
+> Not enough to recommend it unconditionally over Poetry, but I am liking it so far.
+> Consider testing it.
+> It uses [Python redistributable builds](https://github.com/indygreg/python-build-standalone) to manage Python versions, so you can choose to use more modern Python versions.
+
 When using third-party dependencies in your Python code, it is highly interesting to avoid installing any project-specific dependency outside the project.
 
 To achieve that, traditionally virtualenvs are used; those are miniature Python installations where you can install any library you want. Virtualenvs need to be explicitly activated to be used, so it is easy to have a virtualenv for each Python project you are working on.
@@ -50,7 +56,11 @@ Set up your version control so changes cannot be made to your main codeline with
 
 # Perform automated code formatting and static checking
 
-TODO: consider using [Ruff](https://github.com/astral-sh/ruff) as an alternative to Black *and* flake8.
+> [!NOTE]
+> I have been using [ruff](https://github.com/astral-sh/ruff) recently.
+> Not enough to recommend it unconditionally over flake8/black, but I am liking it so far.
+> Consider testing it.
+> It requires slightly less configuration and it comes with more lints.
 
 ## Use Black
 
