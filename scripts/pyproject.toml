@@ -17,6 +17,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 ruscreen = 'p7s.ruscreen:main'
+newsboat = 'p7s.newsboat:main'
 mbsync_config = 'p7s.mail:generate_config'
 db-create = 'p7s.distrobox:create'
 db-enter = 'p7s.distrobox:enter'
