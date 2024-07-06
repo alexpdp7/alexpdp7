@@ -5,4 +5,4 @@ set -ue
 run_id=$1
 shift
 
-ansible-playbook playbooks/site.yaml --tag deploy_ragent -e run_id=$run_id "$@"
+rye run ansible-playbook playbooks/site.yaml --tag deploy_ragent -e run_id=$run_id "$@"
