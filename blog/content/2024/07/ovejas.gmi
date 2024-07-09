@@ -1,0 +1,42 @@
+# Ovejas
+2024-07-09
+
+Unos pequeños apuntes sobre el Lenovo ThinkPad X12 Detachable que uso para el trabajo:
+
+* Temporalmente está en Windows, en parte por probar cosas nuevas, en parte por vagancia (he registrado los paquetes que hay que enviar por USB para intercambiar ctrl y fn, pero NPI de cómo enviarlos :(
+
+* El modo tablet está guay, pero sufro las consecuencias de que no sea un "laptop" de verdad. Es decir, no puedo usarlo en mi regazo. Pero está bien quitarle el teclado y usarlo en posición "retrato" para leer documentación.
+
+* Sin embargo, cosa graciosa de usar Windows: ¡el ecosistema de apps falla! Están retirando el soporte de apps Android, con lo que... no podemos descargar vídeos de servicios de streaming para verlos en un avión. Tampoco libros de O'Reilly.
+
+* El teclado tiene maneras de Lenovo, pero Lenovo no puede hacer milagros. También noto bastante la transición entre mi X1 de 14" y este de 12". Peculiarmente, falta la tecla insert. Por una parte, uso shift+ins para pegar a veces. Por otra, también le doy accidentalmente muchas veces, así que estoy ambivalente.
+
+Voy soltando reflexiones chorras en el Fediverso que me da un poco de vergüenza repetir aquí, pero sí os recojo el resto del microblogging desde la última entrega:
+
+=> https://symposium.uoc.edu/117504/detail/rumsxplora-2024-experiencies-retro-en-lera-de-les-tecnologies-emergents.html Todavía no han subido los vídeos, pero el sábado pasado tuve la oportunidad de darle la mano a Jeff Minter (y ser cegado por su celebridad y volverme aún más incoherente), y de jugar al Arkanoid en un Commodore 64 con un "paddle", como Dios manda.
+
+=> https://www.theverge.com/24181763/game-of-thrones-journalism-media-recaps De como Juego de Tronos alteró cómo funciona el periodismo
+
+=> https://getindie.wiki/listings/ Parece ser que no soy el único que se irrita con los mierdificados wikis de fandom.
+
+=> https://en.wikipedia.org/wiki/Pundit La palabra pundit (inglés) siempre me ha sonado al apellido hindú Pandit. Pues resulta que no es casualidad.
+
+=> https://dictionary.cambridge.org/dictionary/english/lurgy Otras vienen de antiguos programas de humor, y son diversión con enfermedades (leves).
+
+=> https://www.polygon.com/2024/6/25/24184822/mattel-accessibility-games-uno-donation-colorblind-summer-camp El trivial debería apuntarse a esto: Mattel adapta sus juegos para los daltónicos.
+
+=> https://sports.yahoo.com/the-celtics-are-the-first-3-and-d-team-to-win-it-all--and-a-new-blueprint-for-nba-title-hopefuls-152719517.html Sobre los triplistas
+
+=> https://www.wired.com/story/some-cheap-wired-headphones-are-actually-using-bluetooth/ Some Cheap Wired Headphones Are Actually Using Bluetooth. No me lo acabo de creer, pero llamativo lo que las triquiñuelas de Apple pueden provocar.
+
+=> https://sansec.io/research/polyfill-supply-chain-attack Y cómo las optimizaciones innecesarias... (y otras manías mías)... nos exponen a peligrosos agujeros de seguridad.
+
+=> https://github.com/alexpdp7/alexpdp7/blob/master/misc/comprar-bajo-en-sodio.org Consejos para comprar sin sal, de alguien que NO es una autoridad (yo).
+
+=> https://en.m.wikipedia.org/wiki/The_Vanilla_Ice_Project The Vanilla Ice Project is an American reality television series on the DIY Network. It is hosted by construction contractor and rapper Rob Van Winkle, a.k.a. Vanilla Ice, who has significant experience with home improvement and real estate flipping.
+
+=> https://signal.org/blog/signal-is-expensive/ La mitad del presupuesto de Signal se va a donde menos os lo imagináis (pero no tiene que ver con el clickbait).
+
+=> https://maldita.es/malditaciencia/20240705/portales-edificios-mas-frescos-viviendas/ Por qué los rellanos son fresquitos
+
+=> https://elpais.com/opinion/2024-07-08/las-maquinas-no-saben-leer.html Lo del LLM sigue trayéndonos artículos iluminadores de la de siempre.
