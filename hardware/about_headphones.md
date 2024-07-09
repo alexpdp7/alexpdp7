@@ -34,7 +34,8 @@ This produces a strange sensation, but has many advantages (and disadvantages).
 * When I'm not using them, I charge them.
   I have never run out of battery.
 
-I use them with the Avantree DG80 adapter (see below) with my laptops, which avoids most Bluetooth issues, but still some issues remain.
+I used them with the Avantree DG80 adapter (see below) with my laptops, which avoids most Bluetooth issues, but still some issues remain.
+Recently I use them directly on Windows and Linux without much issue.
 
 They cost around 150€.
 
