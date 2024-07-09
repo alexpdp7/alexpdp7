@@ -150,14 +150,15 @@ Headsets with a boom mic are much better if you need to speak in noisy environme
 ## On Bluetooth and computers
 
 I have heard many issues with Bluetooth and computers, including Windows, Linux, and macOS.
+Lately, I have had good succes under Windows and Linux (I have not used macOS lately).
 
-I use an Avantree DG80 Bluetooth *sound* adapter.
+When I had issues with Bluetooth on Linux, I used an Avantree DG80 Bluetooth *sound* adapter.
 This is not a regular generic adapter to add Bluetooth to computers that do not have Bluetooth.
 This is a Bluetooth audio device that connects to headphones or other Bluetooth devices and appears in your computer as a USB audio device.
 Therefore, the Bluetooth implementation in your computer is ignored.
 The device provides its own codecs.
 
-With this, you avoid most of the issues of Bluetooth on computers, which generally works worse than on smartphones.
+With this, you avoid most of the issues of Bluetooth on computers, which sometimes works worse than on smartphones.
 
 Also, if you pair a Bluetooth headset with the adapter, you can plug the adapter to multiple devices and the headsets will "follow" the adapter, without requiring pairing.
 
