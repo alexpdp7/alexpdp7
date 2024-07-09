@@ -24,7 +24,7 @@ This produces a strange sensation, but has many advantages (and disadvantages).
   This is good, because you do not have to take them off to interact with people physically.
   But this is bad, because you will hear any noise around you.
 
-* However, they have a boom mic, meaning they avoid most background noise.
+* However, they have a boom mic, meaning they supposedly avoid most background noise.
 
 * The controls are minimal, a volume rocker and a call/hang up button.
   Muting requires pressing volume up and down at the same time, which is not convenient, so normally I use software mute.
@@ -38,6 +38,9 @@ I used them with the Avantree DG80 adapter (see below) with my laptops, which av
 Recently I use them directly on Windows and Linux without much issue.
 
 They cost around 150€.
+
+My major doubt is if other Shokz headphones without a boom mic work well for calls.
+The OpenComm are more expensive than models without boom mic.
 
 ## Mpow Air 2.4G
 
@@ -94,7 +97,8 @@ These are over ear Bluetooth headphones.
 
 * Music quality is very good
 * I have not really tested the microphone much.
-  I have done some calls with them, but obviously they pick up noise, because they do not have a boom mic.
+  I have done some calls with them, but obviously they pick up noise.
+  They do not have a boom mic.
 * They have good noise isolation, both physical and software.
 * They have lots of controls, and they are quite nice.
 * I have worn them for two hours and a half straight, they become a bit uncomfortable, but usually removing them for a minute is enough.
@@ -146,7 +150,7 @@ The closest a microphone is to your mouth, the less noise it will pick up.
 I do not have any indication that there are headphones whose microphone sits near your ears that do not pick up a lot of noise.
 (My Jabra Elite 85t and the previous 65t pick up a lot of noise and wind.)
 
-Headsets with a boom mic are much better if you need to speak in noisy environments.
+My experiences with headsets with a boom mic are much better in noisy environments.
 
 ## On Bluetooth and computers
 
