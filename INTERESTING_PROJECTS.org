@@ -149,7 +149,9 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** PaaS
    - https://github.com/piku/piku
 ** Virtualization
+   - https://linuxcontainers.org/incus/ - LXD fork, supports VMs, has good "cloud" templates.
    - https://github.com/karmab/kcli
+   - https://github.com/Xe/waifud
    - https://github.com/virt-lightning/virt-lightning libvirt + cloud images
 *** WASM
     - https://github.com/WAVM/Wavix
