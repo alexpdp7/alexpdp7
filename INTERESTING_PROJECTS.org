@@ -202,6 +202,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/SimonBrazell/privacy-redirect
    - https://github.com/benbusby/farside
    - https://github.com/timhutton/twitter-archive-parser
+   - https://sr.ht/~cloutier/bird.makeup/ - Twitter ActivityPub bridge
 * Hardware
   - https://junkerhq.net/xrgb/index.php/OSSC - The Open Source Scan Converter is a low-latency video digitizer and scan converter designed primarily for connecting retro video game consoles and home computers to modern displays.
 ** Phones
