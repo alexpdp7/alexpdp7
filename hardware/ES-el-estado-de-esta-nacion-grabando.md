@@ -1,32 +1,23 @@
 # El estado de esta nación grabando
 
-## Introducción
-
-Un familiar está encantado con su "vídeo" de hace ya muchos años.
+Un familiar estaba encantado con su "vídeo" de hace ya muchos años.
 El vídeo es un receptor de TDT con disco duro (y DVD-RW) con el que puede grabar programas emitidos por TDT en España.
 Está acostumbrado a ver la tele y grabar, y hasta muy recientemente no han tenido Internet en casa, por lo que no están acostumbrados a usar plataformas tipo Netflix.
 
-El vídeo es antiguo y sólo puede grabar programas "SD" (de "baja" calidad).
-Al comenzar la TDT, la mayoría de canales eran SD, y sólo algunos canales tenían variante SD y HD (e.g. Televisión Española).
-
-Ahora por 2024, está planteado eliminar los canales SD para ir introduciendo canales 4K y varias cosas más.
-Ya se han retirado algunos canales SD, creo.
-
-Por tanto, el vídeo que usa mi familiar dejará de ser útil en breve.
+Pero este vídeo sólo soporta SD, y en 2024 se produce el apagón.
 
 ## Alternativas "distintas"
 
 El familiar comienza a usar Amazon Prime y alguna otra plataforma, pero no acaba de acostumbrarse y sigue grabando.
 
-Una posible alternativa sería algún servicio como [Tivify](https://www.tivify.tv/), que permite ver canales tradicionales de TDT como una plataforma de streaming normal y permite reproducir programas de los días anteriores.
-Esto sería incluso más práctico, ya que no haría falta programar grabaciones.
-Existen servicios parecidos (Movistar+ incluye un servicio similar).
-La única desventaja es que tiene un coste mensual, y investigando sobre este tema, me he encontrado a gente en situaciones familiares que lo han probado y no se han "apañado".
+* [Tivify](https://www.tivify.tv/) y similares permiten ver canales tradicionales de TDT como una plataforma de streaming normal y permite reproducir programas de los días anteriores.
+  Es más práctico, ya que no hay que programar grabaciones.
+  Sin embargo, tiene coste y la gente acostumbrada a grabar parece no apañarse.
 
-Otra opción es HbbTV, conocido en España como LovesTv.
-Es una "capa" sobre una Smart TV que integra la emisión en TDT con una versión de la web de cada canal.
-Si estamos viendo TVE1, podemos activar el LovesTv y acceder al listado de programas anteriores del canal y verlos.
-Sin embargo, como veremos más adelante, le compramos al familiar una de las pocas teles del mercado (Xiaomi, de la que tenía excelentes referencias) que no tiene, pues no conocíamos esta característica.
+* Otra opción es HbbTV, conocido en España como LovesTv.
+  Es una "capa" sobre una Smart TV que integra la emisión en TDT con una versión de la web de cada canal.
+  Si estamos viendo TVE1, podemos activar el LovesTv y acceder al listado de programas anteriores del canal y verlos.
+  Sin embargo, como veremos más adelante, le compramos al familiar una de las pocas teles del mercado (Xiaomi, de la que tenía excelentes referencias) que no tiene, pues no conocíamos esta característica.
 
 ## Intentar mantener lo mismo
 
@@ -70,9 +61,9 @@ En Inglaterra he encontrado cosas parecidas.
 
 Sin embargo, se han de comprar al extranjero, y parecen más problemáticos de conseguir aquí, tener garantía, certeza que funcionan en España, etc.
 
-## Primera solución casera
+## Primer intento
 
-Desde hace tiempo que tengo una Raspberry Pi con una sintonizadora USB, que utilizo con LibreElec + Kodi + TVHeadend.
+OADesde hace tiempo que tengo una Raspberry Pi con una sintonizadora USB, que utilizo con LibreElec + Kodi + TVHeadend.
 LibreElec es un sistema operativo fácil de instalar en Raspberry que integra Kodi y TVHeadend.
 Kodi es un interfaz para televisores con reproductor de medios, que se integra con TVHeadend.
 TVHeadend es un software para grabar TDT en un ordenador, mediante una sintonizadora.
@@ -81,54 +72,27 @@ A mí me funciona de maravilla para grabar de cuando en cuando películas.
 Además, hay aplicaciones para controlarlo (mucho más cómodo que con un mando de TV).
 También es fácil hacer streaming y ver grabaciones desde otros dispositivos.
 
-Tenía una Raspberry Pi por ahí sin usar, así que decidí comprar un [Raspberry Pi TV HAT](https://www.raspberrypi.com/products/raspberry-pi-tv-hat/).
-Tenía bastante reticencia a comprar un sintonizador USB, porque tiene que funcionar en Linux para que el invento funcione.
-Hay listas de compatibilidad, pero no están muy actualizadas y en general es complicado encontrar las que están probadas en España.
-Sin embargo, el TV HAT es muy popular con gente que usa Raspberries, así que la compatibilidad estaba prácticamente asegurada (veremos más adelante que esto tiene matices).
+Primero probé con un [Raspberry Pi TV HAT](https://www.raspberrypi.com/products/raspberry-pi-tv-hat/) y LibreElec + Kodi + TVHeadend sobre Raspbian.
 
-Le monté LibreElec con la Raspberry y el HAT y... el familiar no se apañó.
-Tiene cierto sentido, porque hay que ir a la entrada de HDMI de la Raspberry en el televisor, aclararse con el interfaz de Kodi (que está bien, pero no es óptimo para gente mayor), y grabar y ver.
+## Solución actual
 
-## Segunda solución casera
+Ahora usa una [aplicación de Android TV que permite hacer de interfaz de TVHeadend, integrado en Android TV](https://dreamepg.de/index.php/en/apps/tvheadend/playertv).
+Es más fácil de usar que Kodi.
 
-Encontré una [aplicación de Android TV que permite hacer de interfaz de TVHeadend, integrado en Android TV](https://dreamepg.de/index.php/en/apps/tvheadend/playertv).
-La probé y es bastante más fácil de usar que Kodi.
+Uso [un sistema propio para provisionar una Raspberry](https://github.com/alexpdp7/raspberry-pi-headless-provision), instalando Debian y TVHeadend.
 
-Mi idea era montar TVHeadend en la Raspberry, sin Kodi, y conectar la aplicación.
+El HAT no es compatible con Debian, sólo con Raspbian y similares.
+Así, he pasado el HAT a mi Raspberry con LibreElec y he puesto un sintonizador nuevo en la Raspberry del familiar.
 
-### Interludio friki
+El familiar controla TVHeadend con dream Player TV for TVheadend en la Android TV y con el interfaz web de TVHeadend en un portátil.
 
-Pensé que sería interesante poder acceder remotamente a la Raspberry para hacer soporte si fuera necesario.
-Además, me gusta provisionar máquinas y servicios automatizadamente, y me decidí a investigar esto.
+También he puesto un script cutre para montar un túnel SSH para poder hacer soporte en remoto.
 
-Lo primero que descubrí es que Raspberry Pi OS, antes conocido como Raspbian, tiene funcionalidades un poco primitivas para provisionado automático.
-Así que me decidí por usar Debian (que es la base de Raspberry Pi OS).
-Esto es guay, porque [he encontrado maneras de provisionar la Raspberry con Debian que me gustan](https://github.com/alexpdp7/raspberry-pi-headless-provision) y con las que creo que puedo construir la solución que necesito.
+Esto funciona más o menos bien, pero:
 
-Pero he descubierto que el TV HAT y la Raspberry necesitan bastantes ajustes en el sistema operativo para funcionar.
-En Debian, el TV HAT no está soportado directamente.
+* Debian en la Raspberry tarda como tres minutos en arrancar.
+* Hay que pelearse bastante para sintonizar los canales bien.
+* La guía no es del todo robusta.
+* TVHeadend no funciona muy bien con grabaciones solapadas.
 
-#### Debian vs. Raspberry Pi OS
-
-Las Raspberries están muy bien, pero son un hardware bastante especialito.
-Para empezar, la 5 es la primera que tiene un reloj con batería, que me ha causado más problemas de los que debería.
-La Raspberry no está soportada por muchos sistemas operativos directamente (Debian no la soporta oficialmente).
-
-Raspberry Pi OS no me inspira muchísima confianza tampoco.
-
-Así que las Raspberries siempre me tocan un poco la moral.
-Son muy baratas, pero muchas veces me planteo si valen la pena, pudiendo conseguir PCs estándar mucho más fáciles de soportar.
-Creo que las mayores ventajas de las Raspberries es lo fácil que es experimentar con cambiar la microSD del sistema operativo, y su tamaño y consumo.
-
-### Estado actual
-
-El HAT no funciona en Debian, así que he pasado el HAT a mi Raspberry, que se quedará en LibreElec que lo soporta perfectamente.
-Así libero el sintonizador TDT USB que estaba usando.
-
-El plan es instalar Debian, montar un provisionado remoto chulo para soporte, ponerle TVHeadend e integrarlo con el Smart TV con Android TV del familiar.
-
-## Otras opciones para futuro
-
-* Tivify
-* Convencer al familiar de que use plataformas y apps
-* Buscar otros dispositivos
+De momento el familiar va tirando con Tivify como plan B.
