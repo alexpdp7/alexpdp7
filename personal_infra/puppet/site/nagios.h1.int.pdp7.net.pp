@@ -16,6 +16,14 @@ node 'nagios.h1.int.pdp7.net' {
     }
   }
 
+  nagios_host {"ac.mad.int.pdp7.net":
+    use => 'generic-host',
+    max_check_attempts => 5,
+    contact_groups => 'admins',
+    hostgroups => 'k8s',
+    check_command => 'check-host-alive',
+  }
+
   nagios_service {'alex.corcoles.net-gemini-cert':
     use => 'generic-service',
     service_description => 'alex.corcoles.net-gemini-cert',
