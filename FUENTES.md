@@ -1,19 +1,25 @@
-(Véase [el artículo correspondiente en mi blog](https://t.co/Vyzn78riPZ).)
+(Véase [el artículo correspondiente en mi blog](https://alex.corcoles.net/2022/11/origenes/).)
+
+También podéis ver [el listado de cuentas que sigo en el Fediverso](https://alex.femto.pub/@yo@alex.femto.pub/following/).
 
 # Gente
 
-* [https://www.jwz.org/blog/](jwz) el blog de JWZ, uno de los inventores de Internet.
-* [Maartje Eyskens](https://blahaj.social/@maartje.rss) brevemente excompañera de trabajo, curioso cruce entre retrotecnologia (faxes, Windows 2000, etc.), trenes y tiburones de IKEA.
+* JWZ, uno de los inventores de Internet [https://www.jwz.org/blog/](blog), [https://mastodon.social/@jwz](mastodon).
+* [Maartje Eyskens](https://blahaj.social/@maartje) brevemente excompañera de trabajo, curioso cruce entre retrotecnologia (faxes, Windows 2000, etc.), trenes y tiburones de IKEA.
 * [Danger Mouse](https://www.dangermouse.net/), astrofísico, es mediofamoso por sus webcómics de Lego, decanos de Internet.
   El blog es su vida cotidiana, como profesor particular de ética y ciencia.
   De vez en cuando cuelga artículos divulgativos excelentes.
-* [chechar](https://mastodon.xyz/@chechar) ([blog](https://obm.corcoles.net/)) @chechar es mi nepotismo en forma de hermano.
+* [chechar](https://mastodon.social/@chechar/) ([blog](https://obm.corcoles.net/)), mi nepotismo en forma de hermano.
   Tecnología y esas cosas.
 * Mark Dominus [shitposts](https://shitpost.plover.com) [blog](https://blog.plover.com/) es un friki de las mates, la informática y la lingüística.
 * [Andrew Braybrook](http://uridiumauthor.blogspot.com/) @UridiumAuthor es eso, el autor del videojuego clásico Uridium (y el Paradroid, etc.).
   De vez en cuando descarga artículos brutales sobre programación de videojuegos en todas las eras.
 * [Fabien Sanglard](https://fabiensanglard.net/) es un historiador del videojuego.
 * [apenwarr](https://apenwarr.ca/log/) escribe muy ocasionalmente sobre Internet en general.
+* [David Woodbridge](https://dragonscave.space/@Woody) @dwoodbridge es una personalidad del mundo de la accesibilidad.
+* [Jeff Minter](https://toot.wales/@llamasoft_ox) @llamasoft_ox es un programador de videojuegos clásico que retransmite la vida de su granja de ovejas en Gales.
+* [William Gibson](https://mastodon.social/@GreatDismal) @GreatDismal es el escritor cyberpunk más icónico.
+* [Neil Gaiman](https://mastodon.social/@neilhimself) @neilhimself escritor de fantasía bastante referente.
 
 # Webcómics y humor
 
@@ -24,10 +30,6 @@
 
 # Potenciales Mastodon
 
-* [David Woodbridge](https://dragonscave.space/@Woody) @dwoodbridge es una personalidad del mundo de la accesibilidad.
-* [Jeff Minter](https://toot.wales/@llamasoft_ox) @llamasoft_ox es un programador de videojuegos clásico que retransmite la vida de su granja de ovejas en Gales.
-* [William Gibson](https://mastodon.social/@GreatDismal) @GreatDismal es el escritor cyberpunk más icónico.
-* [Neil Gaiman](https://mastodon.social/@neilhimself) @neilhimself escritor de fantasía bastante referente.
 
 # Cine
 
@@ -72,8 +74,6 @@ A diferencia de la mayoria de webs, encontrar los RSS de Google News no es trivi
 
 Otros sitios serían:
 
-* [Fivethirtyeight](https://fivethirtyeight.com) un blog de noticias de todo tipo (pero sobre todo política americana y deportes) basado en datos.
-  Famosos por sus predicciones estadísticas, también ponen cosas como puzzles matemáticos.
 * [The long read](https://www.theguardian.com/news/series/the-long-read) son los artículos "largos" de The Guardian.
   También tienen podcast.
 
