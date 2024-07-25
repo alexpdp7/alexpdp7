@@ -179,6 +179,8 @@ This is likely: https://github.com/txtdot/txtdot
 
 * Scalable personal cloud
 
+This is basically a hybrid of https://linuxcontainers.org/incus/ and https://proxmox.com/en/proxmox-virtual-environment/overview
+
 1..n node VM/container hosting platform
 
 - ZFS storage (use https://github.com/marcan/takeover.sh for easy set up of a ZFS mirror root system)
