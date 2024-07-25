@@ -36,12 +36,24 @@ See [[https://github.com/open-telemetry/opentelemetry-specification/blob/main/ex
 
 Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 
+* Simple web proxy
+
+- Proxy + web frontend that does ~chromium --headless --dump-dom $URL --virtual-time-budget=10000 | w3m -T text/html -dump~
+- Perhaps pluggable DOM manipulation
+
+* "Cloudy" Gemini client
+
+- Multidevice bookmarks, certificates, etc.
+- Perhaps "personal" web frontend
+
 * Terminal mail client
 
 - Easy set up of common mail accounts (perhaps using mbsync, notmuch, mu, etc.)
 - Sane defaults
 - Markdown email (write email as Markdown, send as plain text + HTML)
 - Probably https://jmap.io/ can make implementing this easier
+
+WIP: https://github.com/alexpdp7/epistle
 
 * Userland WASM Linux distro
 
