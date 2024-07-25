@@ -5,7 +5,7 @@ La vida es dura cuando a uno le gusta ser discreto, pero a menudo no se entera q
 
 La Mi Band 2 me ofrecía una funcionalidad primordial: vibración en la muñeca cuando recibo una notificación del móvil. Tiene funcionalidades de eso de la vida sana; pulsímetro, pedómetro y contabilidad del sueño, que uso casualmente (me hace gracia mirar los datos de tanto en cuando, pero poco más), así que realmente para mi tienen poca importancia. Sin embargo, a pesar de que resuelve el tema un poco... la solución se queda un poco corta.
 
-Sólo las llamadas de teléfono ofrecen alguna información contextual (el contacto que te llama). Todo lo demás, casi nada; para ciertas aplicaciones se muestran iconos específicos, pero no hay manera de saber quién te envía un Whatsapp o qué alarma está sonando. Aparentemente existen soluciones para mejorar esto, pero yo sólo probé las gratuitas sin éxito.
+Sólo las llamadas de teléfono ofrecen alguna información contextual (el contacto que te llama). Todo lo demás, casi nada; para ciertas aplicaciones se muestran iconos específicos, pero no hay manera de saber quién te envía un WhatsApp o qué alarma está sonando. Aparentemente existen soluciones para mejorar esto, pero yo sólo probé las gratuitas sin éxito.
 
 La Mi Band 3, en cambio, promete texto de las notificaciones, así que entró en mi wishlist rápidamente, pues sigue teniendo un precio muy inferior a cualquier otro producto "fiable" comparable (e.g. tampoco me voy a liar a pedir cosas a Aliexpress de marcas desconocidas).
 

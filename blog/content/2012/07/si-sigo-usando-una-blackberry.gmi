@@ -9,7 +9,7 @@ Sí, es básicamente el teclado. Sigo detestando cada palabra que tengo que apor
 
 Indudablemente, la Blackberry tiene una larguísima lista de defectos, pero al fin y al cabo cubre mis necesidades a la perfección:
 
-* Puedo usar mensajería/redes sociales de todo tipo sin problemas; tengo los clientes que importan (Whatsapp, Twitter, Facebook, Google Talk y email) que funcionan perfectamente y que se benefician inmensamente del teclado
+* Puedo usar mensajería/redes sociales de todo tipo sin problemas; tengo los clientes que importan (WhatsApp, Twitter, Facebook, Google Talk y email) que funcionan perfectamente y que se benefician inmensamente del teclado
 * El navegador soporta el Google Reader de iPhone perfectamente, lo que cubre el 80% de mis necesidades de navegación (y en general me permite leer lo que quiero leer perfectamente adaptado a móvil desde el mismo Google Reader. La gente con feeds incompletos a veces me fuerza a ir a páginas que se le atragantan al navegador... no es frecuente pero sucede, pero se resuelve rápido con una estrellita). El resto, la mayoría del tiempo son sitios que tienen versión móvil (webs de noticias, Wikipedia, etc.).
 * GPS entre la app de Blackberry y la de Google es aceptable. El Google Maps de Blackberry tiene una búsqueda lenta y lamentable, pero se sobrevive
 * La cámara no es como para hacer fotografía profesional, ni mucho menos, pero lo suficiente como para sacarle fotos al gato y a las chorradas que uno ve por ahí

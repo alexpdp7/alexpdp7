@@ -25,24 +25,24 @@ A nivel individual, podemos formarnos para hacernos menos vulnerables a los frau
 
 ## Los protocolos cerrados dan un poder desproporcionado a empresas privadas
 
-Para la mayoría de gente, Whatsapp es prácticamente una necesidad para la vida cotidiana.
+Para la mayoría de gente, WhatsApp es prácticamente una necesidad para la vida cotidiana.
 
 Esto hace que Meta controle una parte sustancial de nuestras comunicaciones, queramos o no.
-Además, esto hace que cualquier problema con Whatsapp (incidencia, carencia, etc.) sea inevitable.
+Además, esto hace que cualquier problema con WhatsApp (incidencia, carencia, etc.) sea inevitable.
 
 También hay efectos inesperados como que Meta decide qué sistemas operativos móviles son viables y cuáles no.
 (En un par de ocasiones, me he tenido que cambiar de móvil porque Meta ha decidido dejar de soportarlo.
-Aunque puedo experimentar con sistemas operativos móviles alternativos, siempre tengo que tener un móvil soportado por Whatsapp.)
+Aunque puedo experimentar con sistemas operativos móviles alternativos, siempre tengo que tener un móvil soportado por WhatsApp.)
 
 [La ley de mercados digitales (DMA)](https://maldita.es/malditatecnologia/20240313/dma-ley-mercados-digitales-usuarios/) en teoría ayudará parcialmente.
-Esta ley debería obligar a Whatsapp a interoperar, con lo que podríamos comunicarnos con usuarios de Whatsapp sin usar Whatsapp, mitigando algunos problemas.
+Esta ley debería obligar a WhatsApp a interoperar, con lo que podríamos comunicarnos con usuarios de WhatsApp sin usar WhatsApp, mitigando algunos problemas.
 Sin embargo, aunque lleva en vigor desde el 7 de marzo de 2024, esto todavía no es posible y está por ver cuán efectivo será.
 
 Muchos sistemas de comunicación existentes son más abiertos que los protocolos modernos:
 
 * Cualquiera puede montar un servidor de correo y comunicarse con usuarios de correo electrónico de otros proveedores.
   Pese a que muchos apuntan a que Google y Microsoft tienen un poder desproporcionado de facto, sigue siendo totalmente viable usar otros proveedores.
-  Y aunque se apunta que la interoperabilidad de los correos es causante del spam, muchos otros sistemas cerrados como Whatsapp tienen problemas de spam similares o mayores.
+  Y aunque se apunta que la interoperabilidad de los correos es causante del spam, muchos otros sistemas cerrados como WhatsApp tienen problemas de spam similares o mayores.
 
 * Aunque no todo el mundo puede hacer emisiones de DVB-T, cualquiera con una antena puede captar las emisiones y visualizarlas.
   (Los protocolos con los que se codifican las emisiones de DVB-T están disponibles para cualquiera.)
