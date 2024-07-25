@@ -9,7 +9,7 @@ Lo más interesante ha sido descubrir que lo que parece que hoy en día se llama
 => https://sdf.org/ [2] Super Dimension Fortress
 => gemini://tildeverse.org/ [3] El Tildeverso
 
-Esto me ha llevado a meterme, con mi edad y en los tiempos que corren, en tilde.chat[1], la red de IRC del Tildeverso. Ciertamente, es más complejo que usar Slack (IRC no tiene "persistencia" por defecto- una manera de conseguirla es correr tu cliente IRC en una sesión persistente SSH de la que uno se puede desconectar y reconectar cuando apaga su ordenador), pero la verdad que tras Gemini, ha sido otra revelación pasar de los horriblemente pesados Slack, Google Chat, Telegram, Whatsapp, Discord... a un sistema prácticamente instantáneo cuya carga en nuestro portátil es irrisoria (incluso sin pensar que últimamente los 8gb de mi portátil se me antojan cortos para usar estos sistemas de mensajería. El proceso de weechat que uso no consume ni 50 megas de RAM).
+Esto me ha llevado a meterme, con mi edad y en los tiempos que corren, en tilde.chat[1], la red de IRC del Tildeverso. Ciertamente, es más complejo que usar Slack (IRC no tiene "persistencia" por defecto- una manera de conseguirla es correr tu cliente IRC en una sesión persistente SSH de la que uno se puede desconectar y reconectar cuando apaga su ordenador), pero la verdad que tras Gemini, ha sido otra revelación pasar de los horriblemente pesados Slack, Google Chat, Telegram, WhatsApp, Discord... a un sistema prácticamente instantáneo cuya carga en nuestro portátil es irrisoria (incluso sin pensar que últimamente los 8gb de mi portátil se me antojan cortos para usar estos sistemas de mensajería. El proceso de weechat que uso no consume ni 50 megas de RAM).
 
 => https://tilde.chat/ tilde.chat, la red IRC del Tildeverso
 

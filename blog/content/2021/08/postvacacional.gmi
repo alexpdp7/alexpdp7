@@ -8,7 +8,7 @@ JWZ apuntaba al misterio del emoji del sr. trajeado saltarín[1]. La BBC aclara 
 => https://www.jwz.org/blog/2021/08/unicode-character-u1f574-man-in-business-suit-levitating/ [1]
 => https://www.bbc.co.uk/news/technology-58180556 [2]
 
-Pese a que no soy fan de los emojis, debo admitir que las reactions de Slack y demás son útiles (permiten hacer "ack" de un mensaje sin generar una notificación). Parece que pronto estarán en Whatsapp:
+Pese a que no soy fan de los emojis, debo admitir que las reactions de Slack y demás son útiles (permiten hacer "ack" de un mensaje sin generar una notificación). Parece que pronto estarán en WhatsApp:
 
 => https://www.gsmarena.com/message_reactions_are_coming_to_whatsapp-news-50668.php
 

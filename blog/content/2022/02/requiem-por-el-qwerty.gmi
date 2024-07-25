@@ -11,7 +11,7 @@ Cuando la batería de mi fabulosa KeyONE ya no aguantaba ni un suspiro, ya decid
 
 => gemini://alex.corcoles.net/2021/09/vuelve-rim [1] Previsor que es uno (aunque el título del artículo, "Vuelve Rim" era una invitación al gafe)
 
-Ciertamente, esperaré a que se confirme la noticia, pero aunque el luto ha comenzado, comienzo a mirar opciones. El PinePhone y su funda-teclado es de las mejores opciones, pero también es una opción extrema con doble cabriola por no ser Android y el peso de Whatsapp en mi entorno (no se puede usar Whatsapp sin un móvil Android o iOS activo. Podría tener dos móviles, pero también Mark Zuckerberg podría dejar de fastidiarme y dar una API de cliente como la de Telegram, ¿no?). Pero por $150 el teléfono y $50 el teclado, es una opción tentadora.
+Ciertamente, esperaré a que se confirme la noticia, pero aunque el luto ha comenzado, comienzo a mirar opciones. El PinePhone y su funda-teclado es de las mejores opciones, pero también es una opción extrema con doble cabriola por no ser Android y el peso de WhatsApp en mi entorno (no se puede usar WhatsApp sin un móvil Android o iOS activo. Podría tener dos móviles, pero también Mark Zuckerberg podría dejar de fastidiarme y dar una API de cliente como la de Telegram, ¿no?). Pero por $150 el teléfono y $50 el teclado, es una opción tentadora.
 
 => https://pine64.com/product/pinephone-pinephone-pro-keyboard-case/ La funda-teclado del PinePhone
 

@@ -15,8 +15,8 @@ Soju also uses modern extensions to make the IRC experience simpler.
 
 * [Bitlbee](https://www.bitlbee.org) as a bridge to Telegram.
 Bitlbee connects traditional IM networks, such as XMPP to IRC.
-There are plugins for many IM systems, including Whatsapp.
-However, Whatsapp does not have a "supported API", so I am wary to use anything else than official clients.
+There are plugins for many IM systems, including WhatsApp.
+However, WhatsApp does not have a "supported API", so I am wary to use anything else than official clients.
 But with Telegram, I can integrate IRC with it.
 
 * [Senpai](https://git.sr.ht/~taiite/senpai) is a modern terminal IRC client that is "Soju-aware".
