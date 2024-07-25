@@ -21,6 +21,7 @@ def html_template(*content, page_title=None, full):
     if full:
         full_part = [
             h.H2(meta.SUBTITLE),
+            h.P(h.A("Buscar con DuckDuckGo en esta página", href="https://html.duckduckgo.com/html/?q=site:alex.corcoles.net")),
             h.P(*links),
         ]
 

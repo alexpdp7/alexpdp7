@@ -1,0 +1,39 @@
+* Pocket computers
+
+In 2011, I started using a Blackberry Bold 9780, until 2014.
+The usable keyboard made me think that a device like this could replace laptops and desktop computers.
+Together with a functional browser and the trackpad (which allowed using mobile-unfriendly websites), the Bold was a great device for me.
+
+The Blackberry Classic I used 2015-2017 was the pinnacle of this idea, together with a prescient gesture interface and many great UI innovations which have been since lost.
+
+The Blackberry KeyONE I used 2017-2021 was the last device I used that had this greatness.
+
+Since then, I believe the loss of physical keyboard phones means that some uses of the smartphone have disappeared.
+
+** Current devices
+
+*** [[https://www.unihertz.com/products/titan-pocket][Titan Pocket]] (owned)
+
+- The keyboard feels worse than a Blackberry
+- The keyboard has deteriorated with age (some keys require extra pressure to activate, meaning typing is painful)
+- The keyboard software is insufficient for writing in Spanish and Catalan
+
+*** [[https://www.lilygo.cc/products/t-deck][T-Deck]]
+*** [[https://beepy.sqfmi.com/][Beepy]]
+*** [[https://shop.m5stack.com/products/m5stack-cardputer-kit-w-m5stamps3][Cardputer]]
+
+** Obstacles
+
+*** Communication platforms without an open API
+
+The main use of a pocket computer with a physical keyboard would be communication.
+Unfortunately, many communication platforms I use are closed, so I can only use them with an Android (or similar) device.
+If this was not the case, using devices with other operating systems would be more feasible.
+
+*** WhatsApp
+
+Although I do not use WhatsApp a lot (I use mostly Telegram), living in Spain it is unavoidable.
+I hope that the DMA will allow me to send messages to WhatsApp users through something that has an API, the DMA does not seem to be effective as of now.
+
+*** Slack
+*** Discord
