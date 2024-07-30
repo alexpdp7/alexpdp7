@@ -16,11 +16,17 @@ node 'nagios.h1.int.pdp7.net' {
     }
   }
 
-  nagios_host {"ac.mad.int.pdp7.net":
+  nagios_host {"shellyplusplugs-b0b21c1329b4.mad.int.pdp7.net":
     use => 'generic-host',
     max_check_attempts => 5,
     contact_groups => 'admins',
-    hostgroups => 'k8s',
+    check_command => 'check-host-alive',
+  }
+
+  nagios_host {"shellyhtg3-54320453c804.mad.int.pdp7.net":
+    use => 'generic-host',
+    max_check_attempts => 5,
+    contact_groups => 'admins',
     check_command => 'check-host-alive',
   }
 
