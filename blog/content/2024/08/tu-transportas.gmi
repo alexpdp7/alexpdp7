@@ -1,0 +1,21 @@
+# Tú transportas
+2024-08-03
+
+En breve espero daros la lata con mi último... creo que los jóvenes lo llaman "haul":
+
+* Bangle.js 2 (más guay de lo que esperaba, muy trabajado todo y Gadgetbridge ha evolucionado un montón)
+* Dos Shelly Plus Plug S y un Shelly H&T Gen3 (cacharros de domótica con APIs HTTP, pero también con servicio cloud refinado)
+* M5Stack Core 2 (un ESP32 diminuto con pantallita, micro, altavoz... una monada, pero que todavía no sé si tendré tiempo de usar para algo)
+* Un HAT con una pantalla de tinta electrónica para Raspberry Pi (igual, a ver de dónde saco tiempo)
+
+Después de ese batiburrillo, otro batiburrillo:
+
+=> https://arxiv.org/abs/2407.11373 Espero que mi querido Prolog no sea lo que haga triunfar a un malvado enemigo.
+=> https://xkcd.com/325/ Por qué que perder tu cuenta por el 2FA no le importa una mierda a las grandes empresas de Internet.
+=> https://en.wikipedia.org/wiki/List_of_English_words_of_Indian_origin ¿Adivináis el origen de candy, cash, cot, juggernaut, mugger, pal, peacock, shampoo y thug?
+=> https://www.netflix.com/es-en/title/81217220 Me temo que no tendrá a Sarah, pero bueno...
+=> https://www.cnx-software.com/2024/07/19/radxa-x4-low-cost-credit-card-sized-intel-n100-sbc-raspberry-pi-5-alternative/ ¿Una Raspberry Pi sin los problemas de las Raspberry Pi?
+=> https://www.rockfm.fm/al-dia/noticias/dia-que-rosendo-conocio-rory-gallagher-unos-majaras-que-estan-locos-por-20220302_1936126 Era obvio, pero Rosendo es fan de Rory Gallagher.
+=> https://github.com/alexpdp7/alexpdp7/blob/master/misc/problemas.md Una pequeña lista de problemas que me tocan alguna fibra determinada
+=> https://github.com/alexpdp7/alexpdp7/blob/master/FUENTES.md Ajustes a mis sugerencias RSS
+=> https://en.wikipedia.org/wiki/What3words Inesperadamente controvertidos sistemas de codificar coordenadas
