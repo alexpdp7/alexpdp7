@@ -178,6 +178,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/ltratt/pizauth - OAuth tool
    - https://docs.nitrokey.com/nethsm/ - Open-source HSM (physical and virtual)
    - https://github.com/lkl/linux - library-mode Linux
+   - https://github.com/Stirling-Tools/Stirling-PDF - PDF manipulation webapp
 ** Emacs
    - https://github.com/manateelazycat/lsp-bridge
 ** Desktop
