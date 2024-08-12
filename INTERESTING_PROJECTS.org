@@ -107,6 +107,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Misc
    - https://github.com/DavHau/nix-portable - portable Nix, no root required, works in an LXC container
    - https://github.com/rulex-rs/pomsky - regex alternative
+   - https://rosie-lang.org/ - another regex alternative, based on PEGs
    - https://github.com/sourcegraph/doctree - code browser
    - https://github.com/singer-io/getting-started
    - https://github.com/kellyjonbrazil/jc - JSON converter for common CLI tools
