@@ -1,3 +1,7 @@
+* Manual for safe digital life
+
+- In Spanish, https://www.incibe.es/ciudadania/formacion/guias is not terrible, but not great either.
+
 * Nice mailing lists
 
 - GH-style user/organization creation
