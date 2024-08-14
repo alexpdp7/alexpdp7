@@ -172,6 +172,8 @@ This is likely: https://github.com/txtdot/txtdot
 
 * Touch controller/meeting controller/desktop shortcuts
 
+https://mutedeck.com/ is basically this.
+
 - API server to control Google Meet (mute, etc.)
 - Use a USB gamepad to mute in videoconferences, etc
 - Small webapp for touch interface in phone
