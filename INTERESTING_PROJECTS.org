@@ -125,6 +125,9 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://github.com/gristlabs/grist-core
   - https://github.com/aardappel/treesheets
   - https://www.visidata.org/
+** Statically-typed Lisp
+  - https://lexi-lambda.github.io/hackett/
+  - https://coalton-lang.github.io/
 * Systems
 ** Identity
   - https://github.com/kanidm/kanidm - An alternative to FreeIPA
