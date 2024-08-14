@@ -128,6 +128,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Statically-typed Lisp
   - https://lexi-lambda.github.io/hackett/
   - https://coalton-lang.github.io/
+  - https://docs.racket-lang.org/ts-guide/
 * Systems
 ** Identity
   - https://github.com/kanidm/kanidm - An alternative to FreeIPA
