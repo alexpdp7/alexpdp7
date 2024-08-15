@@ -198,6 +198,10 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
   - VPN interfaces
   -  Reverse proxies
 
+* Better "frontends" for console programs with OpenTelemetry support
+
+https://github.com/alexpdp7/rust_tracing_starter
+
 * Ecosystem for mountable e-ink displays with wireless charging and magnets
 
 - For example, a small e-ink tablet that you can attach to a wireless charger with magnets in your fridge, with an always-on display of a shopping list, and a microphone to add new items.
