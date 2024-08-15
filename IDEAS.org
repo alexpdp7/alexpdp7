@@ -2,13 +2,39 @@
 
 - In Spanish, https://www.incibe.es/ciudadania/formacion/guias is not terrible, but not great either.
 
-* Nice mailing lists
+* Easier self-hosted communities
+** NixOS Pubnix
+** Nice mailing lists
 
 - GH-style user/organization creation
 - Every user/organization can create mailing lists
 - Mailing lists have a web UI
 - The mailing list UI can be completely customized to look like microblogging, blogs, comment systems, etc.
 - max n messages over m days feature. n=0, don't send me emails. n=1, send me a digest every m days. n>=2, stop at n-1, then wait until the m period is over to send me a digest.
+
+* HTML/JS only browser engine
+
+This is likely: https://github.com/txtdot/txtdot
+Also:
+
+#+BEGIN_SRC bash
+chromium --headless --dump-dom mastodon.social/@foo/12345... | w3m -T text/html -dump
+#+END_SRC
+
+- Use an existing JS engine to implement a browser that can parse HTML and execute JS, but which has no concept of graphics
+- Could be used to implement a text HTML browser that can access the modern web
+- Extensible and scriptable, to generate "article mode" scripts, scrapers, and "API proxies" (or redirect to farside.link, etc.)
+- Proxy
+
+* Touch controller/meeting controller/desktop shortcuts + calendar
+
+https://mutedeck.com/ is basically this.
+
+- API server to control Google Meet (mute, etc.)
+- Use a USB gamepad to mute in videoconferences, etc
+- Small webapp for touch interface in phone
+- Displays and alerts on upcoming events
+- See https://github.com/alexpdp7/meet-controller
 
 * Parallel execution framework
 
@@ -51,13 +77,14 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 - Perhaps "personal" web frontend
 
 * Terminal mail client
-
 - Easy set up of common mail accounts (perhaps using mbsync, notmuch, mu, etc.)
 - Sane defaults
 - Markdown email (write email as Markdown, send as plain text + HTML)
 - Probably https://jmap.io/ can make implementing this easier
 
 WIP: https://github.com/alexpdp7/epistle
+
+Perhaps use mblaze
 
 * Databases in text markup documents
 
@@ -89,6 +116,14 @@ https://github.com/alexpdp7/ubpkg/ (also discusses some alternatives)
 - Complex nested lists
 - Styling of code blocks (highlighting, user input, replaceable...)
 - See https://github.com/jgm/djot / https://github.com/opendevise/asciidoc-parsing-lab/
+- Helper for "prose linters".
+
+* WOL tool
+
+- Can be used from browsers/apps
+- "Network-transparent"
+
+Probably Home Assistant can do this.
 
 * Streaming DB
 
@@ -158,14 +193,6 @@ Run the reverse proxy on your domain so you can "duplicate" your identity on you
   -  Native GUIs frontends
 - Smart join completion
 
-* HTML/JS only browser engine
-
-This is likely: https://github.com/txtdot/txtdot
-
-- Use an existing JS engine to implement a browser that can parse HTML and execute JS, but which has no concept of graphics
-- Could be used to implement a text HTML browser that can access the modern web
-- Extensible and scriptable, to generate "article mode" scripts, scrapers, and "API proxies"
-
 * News aggregator
 
 - Basically news.google.com (grouping of the same news across different publications)
@@ -179,15 +206,6 @@ This is likely: https://github.com/txtdot/txtdot
 - So it can help with timing/pacing, and even generate a nice video
 - Optional mode to limit slides to "hero images" and a reduced number of words per page. See [[https://www.nytimes.com/2010/04/27/world/27powerpoint.html][We Have Met the Enemy and He Is PowerPoint]]
 - Teleprompter/good speaker notes mode
-
-* Touch controller/meeting controller/desktop shortcuts
-
-https://mutedeck.com/ is basically this.
-
-- API server to control Google Meet (mute, etc.)
-- Use a USB gamepad to mute in videoconferences, etc
-- Small webapp for touch interface in phone
-- See https://github.com/alexpdp7/meet-controller
 
 * Scalable personal cloud
 
