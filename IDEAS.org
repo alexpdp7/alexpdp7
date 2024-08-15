@@ -59,6 +59,12 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 
 WIP: https://github.com/alexpdp7/epistle
 
+* Databases in text markup documents
+
+- Embed queries of tables
+
+See https://github.com/alexpdp7/pandocsql https://github.com/alexpdp7/pandoc_datalog
+
 * Userland WASM Linux distro
 
 - Bootstrap a Linux distro to run on WASM
