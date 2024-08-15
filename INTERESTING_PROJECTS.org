@@ -137,6 +137,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Email
    - https://github.com/simonrob/email-oauth2-proxy
    - https://pimalaya.org/ Rust email tools, including sync, MIME...
+   - https://github.com/leahneukirchen/mblaze/ - CLI email "UNIX-philosophy" tools
 *** Notmuch
     - https://github.com/gauteh/lieer - GMail
 ** Configuration management
