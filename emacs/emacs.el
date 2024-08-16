@@ -57,6 +57,12 @@
   (global-set-key (kbd "C-x C-b") #'helm-mini)
   (setq helm-ff-skip-boring-files t))
 
+;; learn keyboard shortcuts
+(use-package which-key
+  :ensure t
+  :config
+  (which-key-mode))
+
 ;; LSP base for Rust and Java
 (use-package lsp-mode
   :ensure t
