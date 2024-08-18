@@ -59,12 +59,16 @@ See [[https://github.com/open-telemetry/opentelemetry-specification/blob/main/ex
 - Acts as a bot in IRC, email, Slack, etc. posting when the job is done, providing updates, etc.
 - Starts an xterm.js to watch the output
 
-* Browser cursor control
+* Better "smart TV" experience
+
+** Browser cursor control
 
 - Adapt web pages so you can browse them using cursor keys.
 - Use a "powerful" computer as a Smart TV with a simple remote
 
 Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
+
+** Run Android on powerful x86 inside Kodi https://github.com/supechicken/waydroid-androidtv-build
 
 * Simple web proxy
 
