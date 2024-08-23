@@ -140,6 +140,8 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/leahneukirchen/mblaze/ - CLI email "UNIX-philosophy" tools
 *** Notmuch
     - https://github.com/gauteh/lieer - GMail
+** Instant messaging
+   - https://letsconvene.im/ - browser-based conversations without accounts
 ** Configuration management
    - https://github.com/habitat-sh/habitat
 ** File sync
