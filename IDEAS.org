@@ -172,18 +172,13 @@ See https://github.com/EvgSkv/logica, [[https://prql-lang.org/]]
 - Declarative join via foreign key constraint names
 - Better ordering for code completion (e.g. FROMs first)
 
-* Random review experiment
-
-I want to review all my blog posts (~1000) for formatting, broken links, etc.
-I do not want to keep a list of the blog posts I have reviewed.
-If I review n posts at random every t time period, what is the probability over time of reviewing p% of posts?
-
-Create a website to run this experiment.
-
-* ActivityPub reverse proxy
+* Easier own-your-Fedipub identity
+** ActivityPub reverse proxy
 
 Run the reverse proxy on your domain so you can "duplicate" your identity on your own domain
+** ActivityPub SaaS kit
 
+(Maybe Yunohost)
 * Statically-typed AST transform-friendly language
 
 - A Haskell/Rusty language, but with GC and nice compiler errors.
@@ -240,8 +235,3 @@ https://github.com/alexpdp7/rust_tracing_starter
 
 * C64 Roguelike
 
-* Software development book ( https://github.com/alexpdp7/wakat )
-
-* Deterministic embeddable simple language for calculator and notebooks
-
-https://github.com/alexpdp7/plankalkul/ , that deprecated https://github.com/alexpdp7/pdp7_calc/ .
