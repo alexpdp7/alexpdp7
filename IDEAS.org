@@ -63,7 +63,7 @@ chromium --headless --dump-dom mastodon.social/@foo/12345... | w3m -T text/html 
 - Extensible and scriptable, to generate "article mode" scripts, scrapers, and "API proxies" (or redirect to farside.link, etc.)
 - Proxy
 
-* Simple web proxy
+** Simple web proxy
 
 - Proxy + web frontend that does ~chromium --headless --dump-dom $URL --virtual-time-budget=10000 | w3m -T text/html -dump~
 - Perhaps pluggable DOM manipulation
