@@ -3,9 +3,18 @@ Mainly because it excludes projects not on GitHub.
 Also keeping things in a Org mode means I can classify and add notes.
 
 * Coding
-** Version control
+** Version control and code management
    - https://github.com/josh-project/josh Alternative to moe/copybara that looks simpler?
    - https://martinvonz.github.io/jj/ Alternative Git frontend
+   - https://github.com/copier-org/copier/ - project templater
+   - https://github.com/Skyscanner/turbolift - operating on multiple repos
+   - https://github.com/sourcegraph/doctree - code browser
+*** CI/CD
+  - https://github.com/earthly/earthly - Standalone build tool with containers
+  - https://github.com/reviewdog/reviewdog - Error parser than can annotate GitHub pull requests
+  - http://jk.ozlabs.org/projects/patchwork/ - Mailing list patch parser
+  - https://github.com/bazelbuild/remote-apis - Bazel's remote APIs for compiling, artifacts, and log streaming; with links to projects that support them
+
 ** Observability
    - https://github.com/equinix-labs/otel-cli
    - https://github.com/timescale/promscale
@@ -39,8 +48,17 @@ Also keeping things in a Org mode means I can classify and add notes.
 **** gRPC
      - https://github.com/grpc/grpc-web
      - https://github.com/twitchtv/twirp - Simple protobuf+HTTP RPC
-** Databases
-*** Relational
+** Data
+   - https://github.com/singer-io/getting-started
+   - https://github.com/dflemstr/rq - Record tool
+*** BI
+   - https://github.com/getredash/redash
+   - https://github.com/metabase/metabase
+*** Tabular data
+  - https://github.com/gristlabs/grist-core
+  - https://github.com/aardappel/treesheets
+  - https://www.visidata.org/
+*** Relational databases
     - https://github.com/EvgSkv/logica
     - [[https://prql-lang.org/]]
     - https://github.com/edgedb/edgedb - Graphs
@@ -63,7 +81,8 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Low code
    - https://github.com/microsoft/Power-Fx
    - https://github.com/carltongibson/neapolitan - one of Django's authors does a variation on the Django admin?
-** Python
+** Language-specific
+*** Python
    - https://github.com/inducer/pudb Full-screen console debugger for Python
    - https://pyoxidizer.readthedocs.io/en/latest/index.html Self-contained Python distributions, packaging, etc.
    - https://tushar.lol/post/packaged/ Uses [[https://github.com/indygreg/python-build-standalone]] to package Python applications.
@@ -71,20 +90,24 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/fsspec/filesystem_spec/ VFS-like Python API
    - https://github.com/errbotio/errbot Multiplatform bot framework
    - https://github.com/pydantic/logfire otel wrapper?
-** Rust
+*** Rust
    - https://github.com/flutter-rs/flutter-rs
    - https://github.com/xTibor/rust-on-c64
    - https://crates.io/crates/crossterm
    - https://github.com/matklad/xshell - Rust as a shell replacement, with nice interpolation
    - https://github.com/bytecodealliance/cap-std - Safer, opt-in file access
-*** Async
+**** Async
    - https://zoo.dev/blog/introducing-delouse - Async debugging
-** Java
+*** Java
    - https://github.com/jbangdev/jbang
    - https://github.com/mabe02/lanterna - TUI
    - https://github.com/testcontainers/testcontainers-java
    - https://github.com/google/error-prone
    - https://github.com/google/auto
+*** Statically-typed Lisp
+  - https://lexi-lambda.github.io/hackett/
+  - https://coalton-lang.github.io/
+  - https://docs.racket-lang.org/ts-guide/
 ** Email
    - https://github.com/moggers87/salmon - Mail applications
 ** Parsers
@@ -99,49 +122,30 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://github.com/Engelberg/instaparse
   - https://janet-lang.org/docs/peg.html - Janet is a programming language with first-class support for PEGs
   - https://craftinginterpreters.com/contents.html - Book
+  - https://github.com/rulex-rs/pomsky - regex alternative
+  - https://rosie-lang.org/ - another regex alternative, based on PEGs
 *** DCGs/Prolog
    - https://en.wikipedia.org/wiki/Definite_clause_grammar
    - https://github.com/mthom/scryer-prolog/
    - https://github.com/rla/prolog-markdown
    - https://github.com/aarroyoc/djota/tree/main - A Djot parser in Prolog
+** Emacs
+   - https://github.com/manateelazycat/lsp-bridge
 ** Misc
-   - https://github.com/DavHau/nix-portable - portable Nix, no root required, works in an LXC container
-   - https://github.com/rulex-rs/pomsky - regex alternative
-   - https://rosie-lang.org/ - another regex alternative, based on PEGs
-   - https://github.com/sourcegraph/doctree - code browser
-   - https://github.com/singer-io/getting-started
    - https://github.com/kellyjonbrazil/jc - JSON converter for common CLI tools
    - https://github.com/open-meteo/open-meteo/
-   - https://github.com/copier-org/copier/ - project templater
-   - https://github.com/Skyscanner/turbolift - operating on multiple repos
-   - https://github.com/FiloSottile/age - encryption tool that can use SSH keys
-  - https://github.com/KDE/kitinerary/tree/master/src/lib/scripts - a lot of travel email scrapers (plane and train tickets, etc.)
-** CI/CD
-  - https://github.com/earthly/earthly - Standalone build tool with containers
-  - https://github.com/reviewdog/reviewdog - Error parser than can annotate GitHub pull requests
-  - http://jk.ozlabs.org/projects/patchwork/ - Mailing list patch parser
-  - https://github.com/bazelbuild/remote-apis - Bazel's remote APIs for compiling, artifacts, and log streaming; with links to projects that support them
-** Tabular data
-  - https://github.com/gristlabs/grist-core
-  - https://github.com/aardappel/treesheets
-  - https://www.visidata.org/
-** Statically-typed Lisp
-  - https://lexi-lambda.github.io/hackett/
-  - https://coalton-lang.github.io/
-  - https://docs.racket-lang.org/ts-guide/
+   - https://github.com/KDE/kitinerary/tree/master/src/lib/scripts - a lot of travel email scrapers (plane and train tickets, etc.)
+   - https://github.com/igor-petruk/scriptisto - Generic shebang for compiling software, with RPM/DEB
 * Systems
+** Portable environments
+   - https://github.com/DavHau/nix-portable - portable Nix, no root required, works in an LXC container
+   - https://github.com/fsquillace/junest - Arch chroots
+   - https://github.com/linuxserver/proot-apps - Portable container apps with just proot
+   - https://github.com/lkl/linux - library-mode Linux
 ** Identity
   - https://github.com/kanidm/kanidm - An alternative to FreeIPA
 *** Keycloak
     - https://github.com/adorsys/keycloak-config-cli - Config as code for KeyCloak
-** Email
-   - https://github.com/simonrob/email-oauth2-proxy
-   - https://pimalaya.org/ Rust email tools, including sync, MIME...
-   - https://github.com/leahneukirchen/mblaze/ - CLI email "UNIX-philosophy" tools
-*** Notmuch
-    - https://github.com/gauteh/lieer - GMail
-** Instant messaging
-   - https://letsconvene.im/ - browser-based conversations without accounts
 ** Configuration management
    - https://github.com/habitat-sh/habitat
 ** File sync
@@ -154,19 +158,14 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/kd2org/karadav NextCloud-compatible WebDav server
    - https://willowprotocol.org/
 ** Home automation
-   - https://github.com/Yakifo/amqtt	
+   - https://github.com/Yakifo/amqtt
 ** PaaS
    - https://github.com/piku/piku
-** Virtualization
+*** Virtualization
    - https://linuxcontainers.org/incus/ - LXD fork, supports VMs, has good "cloud" templates.
    - https://github.com/karmab/kcli
    - https://github.com/Xe/waifud
    - https://github.com/virt-lightning/virt-lightning libvirt + cloud images
-*** WASM
-    - https://github.com/WAVM/Wavix
-** BI
-   - https://github.com/getredash/redash
-   - https://github.com/metabase/metabase
 ** Networking
    - https://docs.vyos.io/ Declarative network appliance
    - https://github.com/gekmihesg/ansible-openwrt
@@ -174,30 +173,40 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/lanefu/clammy-ng - Raspbian on NanoPi Ansible-managed router
 *** VPN
     - https://github.com/StreisandEffect/streisand
+** Cryptography
+   - https://github.com/FiloSottile/age - encryption tool that can use SSH keys
+   - https://docs.nitrokey.com/nethsm/ - Open-source HSM (physical and virtual)
+** Remote desktops
+  - https://github.com/linuxserver/docker-baseimage-kasmvnc - Web adapter for graphical applications
+** Misc
+   - https://github.com/marcan/takeover.sh
+   - https://github.com/ltratt/pizauth - OAuth tool
+* End-user software
+   - https://github.com/ventoy/Ventoy
+** Email
+   - https://github.com/simonrob/email-oauth2-proxy
+   - https://pimalaya.org/ Rust email tools, including sync, MIME...
+   - https://github.com/leahneukirchen/mblaze/ - CLI email "UNIX-philosophy" tools
+*** Notmuch
+    - https://github.com/gauteh/lieer - GMail
+** Phones
+   - https://github.com/Genymobile/scrcpy - remote control Android
+   - https://github.com/wolpi/prim-ftpd
+** Desktop
+  - https://github.com/YaLTeR/niri/
+  - https://ublue.it/
+  - https://github.com/kmonad/kmonad - advanced cross-platform keyboard remappings
 ** Multimedia
+*** Video
    - https://github.com/zoriya/Kyoo - Jellyfin alternative
    - https://github.com/asapach/peerflix-server - Torrent streaming server that can stream files as they download (not perfectly)
    - https://github.com/hauxir/rapidbay - Video Torrent web interface, can be set up as Magnet link handler, but downloads full file before playing
    - https://github.com/anacrolix/torrent?tab=readme-ov-file#downstream-projects - Users of a Torrent library in theory capable of streaming
-** Misc
-   - https://github.com/igor-petruk/scriptisto - Generic shebang for compiling software, with RPM/DEB
-   - https://github.com/ventoy/Ventoy
-   - https://github.com/marcan/takeover.sh
-   - https://github.com/dflemstr/rq - Record tool
-   - https://github.com/ltratt/pizauth - OAuth tool
-   - https://docs.nitrokey.com/nethsm/ - Open-source HSM (physical and virtual)
-   - https://github.com/lkl/linux - library-mode Linux
+*** Document management
    - https://github.com/Stirling-Tools/Stirling-PDF - PDF manipulation webapp
-** Emacs
-   - https://github.com/manateelazycat/lsp-bridge
-** Desktop
-  - https://github.com/YaLTeR/niri/
-  - https://ublue.it/
-  - https://github.com/kmonad/kmonad - advanced cross-platform keyboard remapping
-** Other
-  - https://github.com/fsquillace/junest - Arch chroots
-  - https://github.com/linuxserver/docker-baseimage-kasmvnc - Web adapter for graphical applications
-  - https://github.com/linuxserver/proot-apps - Portable container apps with just proot
+   - https://github.com/mzucker/noteshrink - handwriting to PDF
+** Instant messaging
+   - https://letsconvene.im/ - browser-based conversations without accounts
 * Anti social
 ** Platforms
    - https://github.com/taviso/nntpit - Reddit over NNTP
@@ -218,8 +227,6 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://junkerhq.net/xrgb/index.php/OSSC - The Open Source Scan Converter is a low-latency video digitizer and scan converter designed primarily for connecting retro video game consoles and home computers to modern displays.
 ** Phones
    - https://github.com/Dakkaron/Fairberry - add Blackberry keyboard to other phones
-   - https://github.com/Genymobile/scrcpy - remote control Android
-   - https://github.com/wolpi/prim-ftpd
 * Technical writing
 ** Document formats
    - https://github.com/nota-lang/nota - Proper parser, Markdown, LaTeX...
@@ -248,5 +255,3 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/ProseMirror/prosemirror-markdown
 * Other
   - https://github.com/jhuangtw/xg2xg
-  - https://github.com/mzucker/noteshrink - handwriting to PDF
-  - https://github.com/txtdot/txtdot - proxy that renders SPAs as HTML?
