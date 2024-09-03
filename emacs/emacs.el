@@ -24,6 +24,14 @@
 (require-theme 'modus-themes)
 (load-theme 'modus-vivendi :no-confirm)
 
+;; From https://github.com/emacs-lsp/lsp-ui/issues/607 , silence some mouse hovering noise
+(let ((areas '("mode-line" "left-margin" "left-fringe" "right-fringe" "header-line" "vertical-scroll-bar"))
+          loc)
+      (while areas
+        (setq loc (pop areas))
+        (global-set-key
+         (kbd (concat "<" loc "> <mouse-movement>")) #'ignore)))
+
 (require 'use-package-ensure)
 (setq use-package-always-ensure t)
 
