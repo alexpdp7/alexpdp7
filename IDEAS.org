@@ -1,7 +1,6 @@
 * Make digital life safer
 
-- In Spanish, https://www.incibe.es/ciudadania/formacion/guias is not terrible, but not great either.
-
+- [[https://github.com/vida-segura-online-es/vida-segura-online-es][vida-segura-online-es]], a resource that provides reputable resources oriented to people living in Spain.
 
 ** Key escrow for everyone
 
