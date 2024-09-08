@@ -1,0 +1,38 @@
+# Pesados y malvados
+2024-09-08
+
+Vi el link a continuación...
+
+=> https://krebsonsecurity.com/2024/09/sextortion-scams-now-include-photos-of-your-home/
+
+... justo antes de ponerme con otro pequeño experimento...
+
+=> https://github.com/vida-segura-online-es/vida-segura-online-es
+
+tras descubrir que el INCIBE tiene materiales curiosos en su web. Entre eso y el spam telefónico, donde más o menos mensualmente oímos sobre nuevas medidas que al cabo de unos meses, no cambian nada, como la última:
+
+> https://elpais.com/economia/2024-07-30/el-gobierno-prepara-una-nueva-normativa-para-combatir-las-estafas-telefonicas-y-por-sms.html
+
+Con todo esto, llevo un mes de agitar el puño al aire en el Fediverso, cosa que también redunda en un batiburrillo mucho más grande de lo habitual:
+
+=> https://about.fb.com/news/2024/09/an-update-on-how-were-building-safe-and-secure-third-party-chats-for-users-in-europe/ ¿CUÁNDO, MARK, CUÁNDO?
+=> https://www.b-list.org/weblog/2024/aug/27/highlander-problem/ Los Inmortales y las dificultades del modelado de bases de datos
+=> https://people.com/human-interest/margaret-atwood-unburnable-edition-handmaids-tale/ Margaret Atwood Uses a Flamethrower on 'Unburnable' Edition of 'The Handmaid's Tale' to Protest Book Banning
+=> https://news.ycombinator.com/item?id=41326459 Para los fans de Gary Larson, a veces se encuentran cosas guays en HN.
+=> https://webostv.developer.lge.com/news/2024-07-15-new-and-successful-experiment-of-webos-with-flutter LG experimenta con Flutter para teles. Cualquier cosa menos el horrible status quo, por favor.
+=> https://github.com/supechicken/waydroid-androidtv-build Aunque meterle Waydroid a un PC potentillo es intrigante.
+=> https://liliputing.com/lilygo-t-deck-plus-is-a-70-handheld-with-gps-lora-and-a-blackberry-keyboard/ Más formato Blackberry, por favor
+=> https://edition.cnn.com/2008/WORLD/asiapcf/09/26/ta.kitano/index.html "For me comedy and violence has a lot in common. Just as you expect, comedy always lurks behind the most unexpected of circumstances."
+=> https://www.theverge.com/2024/8/28/24230587/tumblr-move-blogs-wordpress-automattic La manera más extraña de cumplir la promesa de añadir ActivityPub a Tumblr
+=> https://en.wikipedia.org/wiki/Meow_Wars Las guerras maullídicas, que los conflictos en Internet no son nada nuevo.
+=> https://en.wikipedia.org/wiki/Tucows TUCOWS VIVE.
+=> https://www.johndcook.com/blog/2024/09/01/miles-to-kilometers/ La serie de Fibonacci y la conversión entre millas y kilómetros
+=> https://www.apple.com/es/iphone-15/ ¿Resulta ser que ahora poner USB-C en vez de un conector propietario es "una entrada triunfal" que "te hará la vida más fácil" y no el applecalipsis?
+=> https://infosec.exchange/@codinghorror/113013169914562731 Por Atwood descubro que Winwood es el germen de música electrónica moderna que me gusta. ¿Hay música electrónica moderna que no sea samples de música anterior que me gusta?
+=> https://store.steampowered.com/app/2406770/Bodycam/ Buscando el qué fue de Unrecord, el juego fotorrealista, me encuentro con Bodycam, hecho por dos adolescentes y al parecer, cualquiera le puede meter mano y probarlo.
+=> https://kotaku.com/star-wars-outlaws-stealth-bugs-ubisoft-1851637931 Star Wars Outlaws Is A Crappy Masterpiece.
+=> https://en.wikipedia.org/wiki/Ostrich_algorithm El algoritmo del avestruz
+=> https://www.theverge.com/2024/9/1/24232298/sub-club-fediverse-make-money Mantened el palabro "monetizar" alejado del Fediverso, por favor.
+=> https://redesnuestras.net/2024/09/01/contarlo-para-que-a-mas-gente-le-parezca-que-tiene-sentido/ Un artículo interesante sobre la edad "dorada" de Internet, que responde a algunos pensamientos recientes que he tenido sobre el gatekeeping.
+=> https://en.wikipedia.org/wiki/Screw Screws with a left-hand thread are used in exceptional cases, such as where the screw will be subject to counterclockwise torque, which would tend to loosen a right-hand screw. For this reason, the left-side pedal of a bicycle has a left-hand thread.
+=> https://en.wikipedia.org/wiki/Public_Service_Broadcasting_(band) They take samples from old public information films, archive footage and propaganda material.
