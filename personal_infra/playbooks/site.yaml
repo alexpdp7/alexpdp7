@@ -72,3 +72,15 @@
     - role: takahe
       vars:
         context: "admin@{{ talos_host.talos_cluster }}"
+
+- name: deploy coming-soon-rss
+  hosts: k8s-prod.h1.int.pdp7.net
+  tags:
+    - k8s
+    - coming-soon-rss
+  gather_facts: false
+  roles:
+    - role: coming_soon_rss
+      vars:
+        context: "admin@{{ talos_host.talos_cluster }}"
+        host: coming-soon-rss.k8s-prod.h1.int.pdp7.net

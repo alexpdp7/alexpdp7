@@ -1,0 +1,11 @@
+---
+- uri:
+    url: https://raw.githubusercontent.com/alexpdp7/coming-soon-rss/6708758549e1eaffd77a9ef556deeb4a283f5557/k8s.yaml
+    return_content: true
+  register: manifest
+  delegate_to: 127.0.0.1
+- k8s:
+    context: "{{ context }}"
+    state: present
+    definition: "{{ manifest.content | replace('coming-soon-rss.example.com', host) }}"
+  delegate_to: 127.0.0.1
