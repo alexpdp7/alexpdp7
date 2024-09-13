@@ -17,7 +17,7 @@ Josh is a daemon that can serve virtual Git repositories that apply transformati
 With Josh, you can create a virtual Git repository that combines multiple repositories, or a virtual repository that contains a subtree of another repository.
 
 Because Josh is a daemon, using Josh has a greater overhead than other options to combine code from other repositories.
-However, Josh provides the josh-filter command that can be used for similar purposes, without the extra maintenance of a service.
+However, Josh provides the josh-filter command that can be used for similar purposes without the extra maintenance of a service.
 
 This document describes a sample scenario and a step-by-step procedure that you can follow along to learn about josh-filter.
 
@@ -25,7 +25,7 @@ This document describes a sample scenario and a step-by-step procedure that you 
 
 A development team maintains the `foo` repository.
 The code in the `foo` repository uses external code from the `bar` repository.
-The team needs to make changes to code in the `bar` repository, but they do not have found a convenient procedure to do so.
+The team needs to make changes to code in the `bar` repository, but they have not found a convenient procedure to do so.
 Ideally, the team would like to synchronize their changes with the `bar` repository, so that they can benefit from `bar` updates, and contribute back.
 
 ## Preparing the example
@@ -35,7 +35,7 @@ Create an `example` directory to contain all the files required for this example
 To follow this example, you will need two repositories standing for the `foo` and `bar` repositories.
 You can use any repository, but the example assumes that the repos are called `foo` and `bar`, and that the `bar` repository will be copied to the `external/bar` path in the `foo` repository.
 
-The example works with two local mirrored repositories in Git, so that you can simulate pushing and pulling from a Git provider such as GitHub.
+The example works with two local mirrored repositories in Git, so you can simulate pushing and pulling from a Git provider such as GitHub.
 The example uses `foo.git` and `bar.git` as the URLs of the two repositories.
 You can replace the URLs with real repository URLs, or you can create these repositories by mirroring real repositories.
 If you use local mirrors, then you can also simulate pushing and pulling without affecting real repositories.
@@ -111,7 +111,7 @@ Push the branch to the `foo.git` remote.
 git push --set-upstream origin incorporate-bar
 ```
 
-If you were working with a real repository, then you could create, review, and merge a pull request by usual procedures.
+If you were working with a real repository, then you could create, review, and merge a pull request by following the usual procedures.
 If you are using mirrored repositories, then change to the main branch and merge the `incorporate-bar` branch.
 
 ```
@@ -175,7 +175,7 @@ git push --set-upstream origin pull-bar
 
 After these commands, the `pull-bar` branch contains the new changes from `bar.git`.
 
-If you were working with a real repository, then you could create, review, and merge a pull request by usual procedures.
+If you were working with a real repository, then you could create, review, and merge a pull request by following the usual procedures.
 If you are using mirrored repositories, then change to the main branch and merge the `pull-bar` branch.
 
 ```
