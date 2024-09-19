@@ -251,6 +251,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/bminixhofer/nlprule - LanguageTool in Rust
    - https://github.com/valentjn/ltex-ls - LanguageTool LSP with LaTeX support
    - https://github.com/jmartorell/LTlab - Spanish tools for LanguageTool
+   - https://github.com/LuminosoInsight/exquisite-corpus
    - https://github.com/languagetool-org/languagetool
 ** ProseMirror
    - https://github.com/ProseMirror/prosemirror-markdown
