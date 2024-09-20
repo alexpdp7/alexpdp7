@@ -5,7 +5,6 @@ node 'dixie.bcn.int.pdp7.net' {
 host-record=archerc7,archerc7.bcn.int.pdp7.net,192.168.76.6
 host-record=dixie.bcn.int.pdp7.net,dixie,192.168.76.2
 host-record=router4g.bcn.int.pdp7.net,router4g,192.168.76.3
-dhcp-option=121,10.0.0.0/8,192.168.76.2
 ",
     notify => Service["dnsmasq"],
   }
