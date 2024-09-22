@@ -19,7 +19,7 @@ I consider the following two the pillars of functional programming:
 
 * Pure functions.
   Pure functions always return the same value for a given set of arguments.
-  Pure functions also have no side-effect; they do not modify anything in the system they run.
+  Pure functions also have no side effects; they do not modify anything in the system they run.
   For example, a function that creates a file is not pure.
 
 These concepts can be applied in most popular programming languages.
@@ -44,13 +44,13 @@ hello
 hello
 ```
 
-Similarly, you can write pure functions in mostly any language.
+Similarly, you can write pure functions in almost any language.
 
 When you have first-class functions, you can define some higher-order functions that generalize some common code.
 Three very common higher-order functions are:
 
 * Filter.
-  Filter applies a function to each element of a list, and returns a list composed of the elements for whiich the function returned true.
+  Filter applies a function to each element of a list, and returns a list composed of the elements for which the function returned true.
 * Map.
   Map applies a function to each element of a list, and returns a list of the result of the application of the function to each element.
 * Fold.
@@ -126,7 +126,7 @@ This phenomenon helps avoid incorrect programs.
 Functional programming practitioners often recommend Haskell as a functional programming language.
 
 [According to the Wikipedia](https://en.wikipedia.org/wiki/Haskell), "Haskell is a general-purpose, statically-typed, purely functional programming language with type inference and lazy evaluation".
-Also, Haskell was designed by a commite whose purpose was "to consolidate existing functional languages into a common one to serve as a basis for future research in functional-language design".
+Also, Haskell was designed by a committee whose purpose was "to consolidate existing functional languages into a common one to serve as a basis for future research in functional-language design".
 
 * Haskell is perhaps the language with more built-in functional programming features.
 As mentioned, Haskell is used for research about functional programming, therefore many new concepts appear in Haskell first.
@@ -145,7 +145,7 @@ However, Haskell's benefits frequently also are negative for learning.
   When writing Haskell code for learning, you can likely stumble into issues not present in languages that use eager evaluation.
 
 * Haskell is very strict about purity.
-  To implement programs that have side-effects, such as accessing files, you must use specific language features.
+  To implement programs that have side effects, such as accessing files, you must use specific language features.
   Many articles try to explain those features, because many people have trouble understanding them.
 
 * Many libraries and tools in the ecosystem take advantage of powerful features enabled by Haskell.
@@ -210,7 +210,7 @@ Haskell is inspired by ML, but many of the Haskell features discussed above are 
 * MLs have eager evaluation, therefore avoiding the performance pitfalls of Haskell.
 * MLs have simpler syntax, therefore frequently leading to clearer error messages.
 
-(For example, compare the following snippet of OCaml to the previous error message example from Haskell:
+For example, compare the following snippet of OCaml to the previous error message example from Haskell:
 
 ```
 $ utop  # utop is a friendlier OCaml REPL
