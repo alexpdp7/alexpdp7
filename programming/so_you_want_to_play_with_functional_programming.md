@@ -6,6 +6,15 @@ I share this opinion.
 
 This article tries to help people who have read about functional programming figure out how to proceed.
 
+Note that this article expresses personal opinion.
+Particularly, I am not an expert in this topic:
+
+* I have programmed some Haskell (about 50 Project Euler problems, plus experimentation on and off during the years).
+* I have studies of SML and functional programming.
+* I have some minimal experience with Lisp.
+* I have applied some functional programming techniques while being paid to write in non-functional programming languages.
+* However, I have never been paid to write in any of those languages.
+
 ## The basics of functional programming
 
 [The Wikipedia article on functional programming](https://en.wikipedia.org/wiki/Functional_programming) is a great place to get started.
@@ -174,6 +183,8 @@ Personally, Haskell is my favorite functional programming language.
 However, I learned Haskell after learning (with teachers and support from others) other functional programming languages.
 I think that Haskell is ideal to learn the most powerful concepts in functional programming, but it is not as ideal as a first functional programming language.
 
+(Note that these recommendations come from someone who only has implemented about 50 Project Euler problems in Haskell, and has experimented on and off with the language, but not been paid for it.)
+
 ### Lisp
 
 Many programmers like Lisp and languages in the Lisp family, such as Scheme or Clojure.
@@ -193,6 +204,8 @@ Personally, I find the Lisp syntax hard to read and write, and likely an additio
 
 I recommend learning Lisp because it is a unique programming language that can teach you many programming language concepts that are not present in many other languages.
 However, I do not recommend Lisp for learning functional programming (unless you already know Lisp).
+
+(Note that these recommendations come from someone who has some formal training on Lisp but only uses Lisp infrequently [as a recent Emacs user].)
 
 ### The ML family of programming languages
 
@@ -225,3 +238,5 @@ Error: This function has type int -> int -> int
 
 In my opinion, OCaml and F# are better languages for the initial learning of functional programming than Haskell.
 After learning an ML, you are likely more prepared to learn Haskell and more sophisticated functional programming.
+
+(Note that those recommendations come from someone who only has experimented with OCaml and F#, and learned SML formally.)
