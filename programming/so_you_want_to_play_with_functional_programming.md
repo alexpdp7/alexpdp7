@@ -15,6 +15,13 @@ Particularly, I am not an expert in this topic:
 * I have applied some functional programming techniques while being paid to write in non-functional programming languages.
 * However, I have never been paid to write in any of those languages.
 
+Shortly after writing this, I was shown:
+
+https://technomancy.us/194
+
+I agree with most of that the article explains.
+I might extend this article with some similar ideas, but for the moment, I recommend reading that carefully before reading the rest of this article.
+
 ## The basics of functional programming
 
 [The Wikipedia article on functional programming](https://en.wikipedia.org/wiki/Functional_programming) is a great place to get started.
