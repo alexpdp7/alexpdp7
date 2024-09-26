@@ -30,6 +30,7 @@
 
 * Organizations
 
+- [[https://charity.wtf/2024/07/24/pragmatism-neutrality-and-leadership/][Pragmatism, Neutrality and Leadership]]; the parts about "As a leader, your job is to succeed", "Companies with shitty cultures win all the time"
 - [[https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/][The Engineer/Manager Pendulum]] Why people should multiclass engineering and management
 - [[https://varoa.net/2024/01/09/how-organisations-cripple-engineering-teams-with-good-intentions.html][How organisations cripple engineering teams with good intentions]] Arguments for having coders code
 - [[https://stackoverflow.blog/2024/06/10/generative-ai-is-not-going-to-build-your-engineering-team-for-you/][Generative AI Is Not Going To Build Your Engineering Team For You]] Bad title; it's about the need for junior coders
