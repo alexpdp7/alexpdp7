@@ -6,13 +6,15 @@
   run_once: True
   register: url
 - name: download package
-  uri:
-    url: "{{ url.stdout|from_json|json_query(ragent['package_key'][ansible_os_family][ansible_distribution_major_version][ansible_architecture]) }}"
-    dest: /tmp/ragent_downloaded_package.zip
-    user: " {{ ragent_download['user'] }}"
-    password: "{{ ragent_download['token'] }}"
-    force_basic_auth: yes
-    follow_redirects: all
+  command:
+    argv:
+      - curl
+      - "{{ url.stdout|from_json|json_query(ragent['package_key'][ansible_os_family][ansible_distribution_major_version][ansible_architecture]) }}"
+      - -o
+      - /tmp/ragent_downloaded_package.zip
+      - --header
+      - "Authorization: Bearer {{ ragent_download['token'] }}"
+      - "-L"
 - name: unzip
   unarchive:
     src: /tmp/ragent_downloaded_package.zip
