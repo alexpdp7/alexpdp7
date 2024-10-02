@@ -67,4 +67,6 @@ host-record=router4g.bcn.int.pdp7.net,router4g,192.168.76.3
     ensure => link,
     target => '/usr/local/sbin/zfs_receive_h2',
   }
+
+  class {'jellyfin':}
 }
