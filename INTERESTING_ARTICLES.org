@@ -11,6 +11,7 @@
 ** Testing
 
 - [[https://testing.googleblog.com/2014/05/testing-on-toilet-risk-driven-testing.html][Testing on the Toilet: Risk-Driven Testing]]
+- [[https://softwareengineering.stackexchange.com/questions/123627/what-are-the-london-and-chicago-schools-of-tdd][What are the London and Chicago schools of TDD?]] (Just to remember these useful terms)
 
 ** Python
 
