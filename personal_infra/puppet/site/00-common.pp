@@ -6,15 +6,17 @@ if $facts['os']['family'] == 'Debian' {
   class {'debian':}
 }
 
-$nagios_host = $facts['networking']['fqdn']
+if lookup({name => 'nagios.monitor', default_value => true}) {
+  $nagios_host = $facts['networking']['fqdn']
 
-nagios_host {$nagios_host:
-  use => 'generic-host',
-  address => lookup({name => 'nagios.address', default_value => $facts['networking']['fqdn']}),
-  max_check_attempts => 5,
-  contact_groups => 'admins',
-  hostgroups => 'linux',
-  check_command => 'check-host-alive',
+  nagios_host {$nagios_host:
+    use => 'generic-host',
+    address => lookup({name => 'nagios.address', default_value => $facts['networking']['fqdn']}),
+    max_check_attempts => 5,
+    contact_groups => 'admins',
+    hostgroups => 'linux',
+    check_command => 'check-host-alive',
+  }
 }
 
 # https://github.com/alexpdp7/ragent/issues/352
