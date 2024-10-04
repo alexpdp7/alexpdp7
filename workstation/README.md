@@ -23,6 +23,8 @@ Checklist:
 
 # Debian setup
 
+* Remove CD apt source
 * Join FreeIPA with Gnome initial setup.
-* Change root password, sync with inventory and Bitwarden.
 * Enable SSH root login.
+* Change root password, sync with inventory and Bitwarden.
+* Provision with Ansible
