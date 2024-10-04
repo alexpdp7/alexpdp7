@@ -1,5 +1,5 @@
 class workstation {
-  package {['pipx', 'rclone', 'fuse', 'rsync', 'sshpass', 'bash-completion', 'python3-pip']:}
+  package {['pipx', 'rclone', 'rsync', 'sshpass', 'bash-completion', 'python3-pip']:}
 
   if ($facts['os']['family'] == 'Debian') {
     file {'/etc/apt/keyrings/packages.mozilla.org.asc':
