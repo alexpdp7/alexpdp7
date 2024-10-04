@@ -1,4 +1,4 @@
-I am trying to move my tools into Cosmopolitan binaries (only [Emacs](../scripts/p7s/emacs.py) at the moment), a [container image](build_workstation) for use with Distrobox, and [a Python module with tools](../scripts).
+I am trying to move some tools into a [container image](build_workstation) for use with Distrobox, and [a Python module with tools](../scripts).
 
 This includes:
 
@@ -20,3 +20,9 @@ Checklist:
 * ZFS (for backups)
 * FreeIPA client
 * Email client
+
+# Debian setup
+
+* Join FreeIPA with Gnome initial setup.
+* Change root password, sync with inventory and Bitwarden.
+* Enable SSH root login.
