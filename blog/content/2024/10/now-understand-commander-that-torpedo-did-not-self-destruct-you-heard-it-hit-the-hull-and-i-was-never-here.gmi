@@ -1,0 +1,35 @@
+# Now, understand, Commander, that torpedo did not self-destruct. You heard it hit the hull. And I... was never here.
+2024-10-05
+
+Como he de ver anime, se me ocurren neologismos:
+
+* Shonensplaining: la insistencia en narrar todo lo que pasa (otros lo llaman la audiodescripción del anime)
+* Snonempoderamiento: lo de que el protagonista cada vez sea... más
+
+y que quizá DBZ es la única responsable de mi "fatiga de shonen". El anime que veo últimamente ha sido:
+
+Skull-face Bookseller Honda-san / ガイコツ書店員本田さん; 12 episodios de 11 minutos, más especial de 3 minutos. Un delicioso entretenimiento totalmente basado en los aspavientos de un librero manga. Hace reír, aunque por lo demás no tiene mucha gracia, aunque se aprende.
+
+Ramen Akaneko ラーメン赤猫; 12 episodios. Un local de ramen regentado por gatos, pero no. No hace falta decir nada más.
+
+Sobre el spam, mis investigaciones apuntan que simplemente no existe una manera de denunciar spam telefónico si el agresor no es tan amable de identificarse.
+
+=> https://dle.rae.es/ortopedia Por algún motivo pensaba que sólo era ortopedia si era de la región de los pies. Pero no, es sólo si es para niños.
+=> https://sketchplanations.com/vorfreude No aprendo tantos palabros germánicos como esperaría, pero aquí tenéis uno.
+=> https://youtu.be/vkUNH9r6UCI?si=PzV04p8gsMLYUmpb&t=25 Salut i força al Knuth
+=> https://arstechnica.com/information-technology/2024/09/dead-internet-theory-comes-to-life-with-new-ai-powered-social-media-app/ ¿Las redes sociales se acercan a su forma final?
+=> https://www.citationneeded.news/posse/ Mientras tanto, dadle al POSSE.
+=> https://www.theverge.com/2024/9/18/24248471/linkedin-ai-training-user-accounts-data-opt-in ¿O la peor red social destruirá la IA?
+=> https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup Esperemos que sea antes de que la IA destruya una de las mejores cosas de Internet.
+=> https://www.theguardian.com/technology/article/2024/sep/08/goodbye-tinder-hello-strava-have-hobby-apps-become-the-new-social-networks Igual lo importante no es Mastodon (el microblogging); son Bookwyrm, Mobilizon, Funkwhale... Igual el microblogging es... ¿malo?
+=> https://elpais.com/opinion/2024-09-09/vayamonos-ya-todos-de-x-que-es-un-antro.html Pero Twitter es aún peor.
+=> https://tkz.one/@muchanchoasado/113159147285979657 Acojonante y emocionante la accesibilidad "fan" para los Pokémon
+=> https://www.youtube.com/watch?v=T7aVUqmQ_Sc Lo mismo para el Forza, aunque si lo hace Microsoft... ¿tiene más o menos mérito?
+=> https://audiocinemateca.com/ Sin imágenes, pero en acción
+=> https://www.ccma.cat/3cat/audiodescripcio/ Lo mismo, en catalán
+=> https://proxy.jesusysustics.com/2024/09/10124/ Métodos sorprendentes para identificar spam
+=> https://theconversation.com/the-data-on-extreme-human-ageing-is-rotten-from-the-inside-out-ig-nobel-winner-saul-justin-newman-239023 ¿Longevos o con mala documentación?
+=> https://xkcd.com/2988/ La verdadera pirámide de Maslow
+=> https://www.theverge.com/2024/9/23/24250684/google-tv-streamer-4k-review-smart-home-hub Ya podría haber puesto The Verge más arriba lo de "it's definitely not fast". Pues no me compraré el nuevo Chromecast si no es por "necesidad".
+=> https://godbolt.org/ Godbolt al parecer es un apellido, pero también es un gran entretenimiento si a uno le hacen gracia los compiladores.
+=> https://www.mozilla.org/en-US/firefox/131.0/releasenotes/#:~:text=firefox%20now%20supports%20text%20fragments%2C%20which%20allows%20users%20to%20link%20directly%20to%20a%20specific%20portion%20of%20text%20in%20a%20web%20document%20via%20a%20special%20url%20fragment. Parece ser que este enlace ya hace lo que toca en Firefox 131. Las capturas de pantalla seguirán ahí, pero bueno.
