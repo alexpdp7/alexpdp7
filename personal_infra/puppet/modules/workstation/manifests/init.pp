@@ -1,5 +1,5 @@
 class workstation {
-  package {['pipx', 'rclone', 'rsync', 'sshpass', 'bash-completion', 'python3-pip']:}
+  package {['pipx', 'rclone', 'rsync', 'sshpass', 'bash-completion', 'python3-pip', 'xclip']:}
 
   if ($facts['os']['family'] == 'Debian') {
     package {['nextcloud-desktop']:}
