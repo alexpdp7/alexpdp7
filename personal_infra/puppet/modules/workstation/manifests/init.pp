@@ -2,6 +2,8 @@ class workstation {
   package {['pipx', 'rclone', 'rsync', 'sshpass', 'bash-completion', 'python3-pip']:}
 
   if ($facts['os']['family'] == 'Debian') {
+    package {['nextcloud-desktop']:}
+
     file {'/etc/apt/keyrings/packages.mozilla.org.asc':
       content => @(EOT)
       -----BEGIN PGP PUBLIC KEY BLOCK-----
