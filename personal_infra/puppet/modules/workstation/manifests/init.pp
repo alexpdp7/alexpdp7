@@ -4,6 +4,19 @@ class workstation {
   if ($facts['os']['family'] == 'Debian') {
     package {['nextcloud-desktop']:}
 
+    file {'/etc/apt/preferences.d/90_emacs':
+      content => @(EOT)
+      Package: src:emacs
+      Pin: release n=bookworm-backports
+      Pin-Priority: 990
+      | EOT
+      ,
+    }
+    ~>
+    Exec["/usr/bin/apt update"]
+    ->
+    package {'emacs-nox':}
+
     file {'/etc/apt/keyrings/packages.mozilla.org.asc':
       content => @(EOT)
       -----BEGIN PGP PUBLIC KEY BLOCK-----
