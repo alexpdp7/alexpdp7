@@ -28,3 +28,11 @@ Checklist:
 * Enable SSH root login.
 * Change root password, sync with inventory and Bitwarden.
 * Provision with Ansible
+
+```
+bw config server https://bitwarden.pdp7.net/
+bw login
+bw list items --search firefox
+```
+
+; to configure Firefox Sync.
