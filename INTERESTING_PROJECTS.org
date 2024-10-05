@@ -236,6 +236,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/jgm/djot - JGM designs a simpler Markdown, with an AST
    - https://github.com/typst/typst - technically sound modern LaTeX replacement
    - https://github.com/nvim-neorg - org-mode alternative, TreeSitter-grammar-first
+   - https://github.com/podlite/podlite/ - powerful lightweight markup language with styling in code blocks
 *** Markdown
     - https://github.com/lezer-parser/markdown
 **** Rust Parsers
