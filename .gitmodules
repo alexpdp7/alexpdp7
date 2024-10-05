@@ -13,3 +13,6 @@
 [submodule "personal_infra/puppet/modules/cron"]
 	path = personal_infra/puppet/modules/cron
 	url = https://github.com/puppetlabs/puppetlabs-cron_core.git
+[submodule "scripts/PaperWM"]
+	path = scripts/PaperWM
+	url = https://github.com/paperwm/PaperWM.git
