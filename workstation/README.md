@@ -36,3 +36,5 @@ bw list items --search firefox
 ```
 
 ; to configure Firefox Sync.
+
+* Seed NoScript from another Firefox through Nextcloud.
