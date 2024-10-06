@@ -1,4 +1,4 @@
-class incus($network_device) {
+class incus {
   file {'/etc/apt/keyrings/zabbly.asc':
     content => @(EOT)
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -70,45 +70,7 @@ class incus($network_device) {
   ->
   package {'incus':}
 
-  file {'/etc/incus.puppet':
-    content => @("EOT")
-    config: {}
-    networks:
-    - config:
-        ipv4.address: auto
-        ipv6.address: auto
-      description: ""
-      name: incusbr0
-      type: ""
-      project: default
-    storage_pools:
-    - config: {}
-      description: ""
-      name: default
-      driver: dir
-    profiles:
-    - config: {}
-      description: ""
-      devices:
-        eth0:
-          name: $network_device
-          network: incusbr0
-          type: nic
-        root:
-          path: /
-          pool: default
-          type: disk
-      name: default
-    projects: []
-    cluster: null
-    | EOT
-    ,
-  }
-
-  exec {'/usr/bin/incus admin init --preseed </etc/incus.puppet':
-    require => [
-      File['/etc/incus.puppet'],
-      Package['incus'],
-    ],
+  exec {'/usr/bin/incus admin init --minimal':
+    require => Package['incus'],
   }
 }

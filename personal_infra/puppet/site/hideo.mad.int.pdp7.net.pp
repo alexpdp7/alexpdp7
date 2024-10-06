@@ -1,7 +1,5 @@
 node 'hideo.mad.int.pdp7.net' {
   class {'workstation':}
-  class {'incus':
-    network_device => 'wlp3s0',
-  }
+  class {'incus':}
   package {['zfs-dkms', 'sanoid']:}
 }
