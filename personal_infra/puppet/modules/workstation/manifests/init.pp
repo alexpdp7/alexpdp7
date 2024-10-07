@@ -1,21 +1,8 @@
 class workstation {
-  package {['pipx', 'rclone', 'rsync', 'sshpass', 'bash-completion', 'python3-pip', 'xclip']:}
+  package {['rclone', 'sshpass', 'python3-pip', 'xclip']:}
 
   if ($facts['os']['family'] == 'Debian') {
     package {['nextcloud-desktop']:}
-
-    file {'/etc/apt/preferences.d/90_emacs':
-      content => @(EOT)
-      Package: src:emacs
-      Pin: release n=bookworm-backports
-      Pin-Priority: 990
-      | EOT
-      ,
-    }
-    ~>
-    Exec["/usr/bin/apt update"]
-    ->
-    package {'emacs-nox':}
 
     file {'/etc/apt/keyrings/packages.mozilla.org.asc':
       content => @(EOT)
