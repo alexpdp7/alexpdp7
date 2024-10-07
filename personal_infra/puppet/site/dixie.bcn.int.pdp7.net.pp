@@ -69,4 +69,5 @@ host-record=router4g.bcn.int.pdp7.net,router4g,192.168.76.3
   }
 
   class {'jellyfin':}
+  class {'debian::backports':}  # basically to get emacs
 }
