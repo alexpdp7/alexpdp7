@@ -7,6 +7,7 @@
 - [[https://mikehadlow.blogspot.com/2012/05/configuration-complexity-clock.html][The Configuration Complexity Clock]] Programming languages, configuration files, DSLs for configuration
 - [[https://olano.dev/2023-11-30-code-is-run-more-than-read/][Code is run more than read]] A unified theory of broken software
 - [[https://www.teamten.com/lawrence/writings/java-for-everything.html][Java for Everything]] The advantages of focusing on a single language and how performance and static typing are helpful.
+- [[https://en.wikipedia.org/wiki/Ostrich_algorithm][Ostrich algorithm]]
 
 ** Testing
 
