@@ -15,6 +15,8 @@ Hasta donde yo sé:
 
 * Es trivial falsear la identificación de un SMS para que sea idéntico al que envía una entidad legítima.
   (E.g.: puedes hacer un SMS que se identifique como "Correos", igual que un SMS legítimo de Correos.)
+* No existe, hasta donde yo sé, todo mecanismo de denuncia requiere que identifiquemos al autor de la llamada.
+  Identificar quién llama sólo es posible si la empresa decide identificarse.
 * No percibo ninguna consecuencia negativa para nadie que participe en la basura telefónica.
   Esto incluye a quienes realizan estas llamadas y SMS, y a las operadoras telefónicas por las que fluyen.
 
