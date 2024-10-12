@@ -168,6 +168,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/Xe/waifud
    - https://github.com/virt-lightning/virt-lightning libvirt + cloud images
 ** Networking
+   - https://github.com/abhinavsingh/proxy.py Extensible Python proxy
    - https://docs.vyos.io/ Declarative network appliance
    - https://github.com/gekmihesg/ansible-openwrt
    - https://github.com/glennbrown/home-infra/tree/main/ansible/roles/openwrt-dhcp-dns ansible-openwrt samples by glenn on Ars IRC.
