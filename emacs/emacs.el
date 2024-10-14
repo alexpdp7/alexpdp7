@@ -48,6 +48,12 @@
   :config
   (xclip-mode 1))
 
+;; editorconfig simplifies adhering to code standards
+(use-package editorconfig
+  :ensure t
+  :config
+  (editorconfig-mode 1))
+
 ;; Fancy undo
 (use-package undo-tree
   :ensure t
