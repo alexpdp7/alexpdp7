@@ -8,6 +8,7 @@
 - [[https://olano.dev/2023-11-30-code-is-run-more-than-read/][Code is run more than read]] A unified theory of broken software
 - [[https://www.teamten.com/lawrence/writings/java-for-everything.html][Java for Everything]] The advantages of focusing on a single language and how performance and static typing are helpful.
 - [[https://en.wikipedia.org/wiki/Ostrich_algorithm][Ostrich algorithm]]
+- [[https://blog.brownplt.org/2024/04/12/behavior-misconceptions.html][Finding and Fixing Standard Misconceptions About Program Behavior]] About the Standard Model of Languages (SMoL)
 
 ** Testing
 
