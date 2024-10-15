@@ -32,8 +32,9 @@
         (global-set-key
          (kbd (concat "<" loc "> <mouse-movement>")) #'ignore)))
 
-;; I use Emacs in the terminal, where x-pos-tip is not defined. This masks errors :(
+;; I use Emacs in the terminal, where x-pos|hide-tip is not defined. This masks errors :(
 (defun x-pos-tip () nil)
+(defun x-hide-tip () nil)
 
 (require 'use-package-ensure)
 (setq use-package-always-ensure t)
