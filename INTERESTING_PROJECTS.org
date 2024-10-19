@@ -218,6 +218,7 @@ Also keeping things in a Org mode means I can classify and add notes.
     - https://github.com/bashrc2/epicyon
     - https://microblog.pub/
     - https://jointakahe.org/
+    - https://github.com/enafore/enafore - Keyboard-friendly Mastodon web client, compatible with Takahe
 ** Pubnix
    - https://github.com/cwmccabe/pubnixhist
 ** Other
