@@ -1,0 +1,24 @@
+# Lenguas trabadas
+2024-10-19
+
+Buenos días,
+
+> En la actualidad, por razones organizativas, la Real Academia Española no atiende este tipo de consultas a través del correo electrónico. Puede plantearnos sus dudas sobre el uso correcto del español a través de la cuenta @RAEinforma en X (antes conocido como Twitter).
+
+Querría proponerles humildemente que reconsideren esta política.
+
+Aunque X puede parecer un mecanismo de interacción adecuado por su aparentemente gran alcance, no todo el mundo tiene o quiere tener una cuenta de X. X es una empresa privada y se ha demostrado que el uso por parte de las instituciones de X ha resultado perjudicial tanto para estas instituciones como para el público en general.
+
+Por poner un ejemplo, Twitter solía dar acceso gratuito a instituciones como la RAE para investigación. Entiendo que la inmensa cantidad de mensajes de usuarios de Twitter serían de interés para la investigación lingüística, pero X eliminó el acceso el año pasado.
+
+Instituciones como la Unión Europea ya están usando alternativas a X[1] para la comunicación.
+
+En su caso, les animaría a no hacer de X el canal exclusivo para consultas lingüísticas. Entiendo que habilitar el correo electrónico para consultas lingüísticas sería de las medidas que requerirían menos esfuerzo que permitiría a cualquiera hacer consultas sin tener que pasar por una plataforma controlada por una empresa privada.
+
+Creo que esto estaría completamente con la misión divulgativa de la RAE, permitiendo que más gente tenga acceso a su obra.
+
+Atentamente,
+
+Yo
+
+=> https://ec.social-network.europa.eu/about [1] La instancia oficial de Mastodon de la Comisión Europea
