@@ -67,6 +67,15 @@ chromium --headless --dump-dom mastodon.social/@foo/12345... | w3m -T text/html 
 - Proxy + web frontend that does ~chromium --headless --dump-dom $URL --virtual-time-budget=10000 | w3m -T text/html -dump~
 - Perhaps pluggable DOM manipulation
 
+* Typing database
+
+- A database of keyboard layouts.
+- You can query how many keystrokes are required to enter a specific character.
+- A database of characters used when writing in specific languages.
+
+This would be useful to decide which characters to use for programmatic syntax.
+(That require few keystrokes for most users, but collide as little as possible with punctuation, etc.)
+
 * Better "smart TV" experience
 
 ** Browser cursor control
