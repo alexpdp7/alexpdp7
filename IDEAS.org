@@ -14,7 +14,7 @@
 - And smart filters for topics (e.g. I'm interested in TV series, but not realities)
 
 * Easier self-hosted communities
-** NixOS Pubnix
+** Yunohost
 ** Nice mailing lists
 
 - GH-style user/organization creation
@@ -28,10 +28,6 @@
 *** ActivityPub reverse proxy
 
 Run the reverse proxy on your domain so you can "duplicate" your identity on your own domain
-*** ActivityPub SaaS kit
-
-(Maybe Yunohost)
-
 ** Scalable personal cloud
 
 This is basically a hybrid of https://linuxcontainers.org/incus/ and https://proxmox.com/en/proxmox-virtual-environment/overview
@@ -48,24 +44,9 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
   -  Reverse proxies
 
 * Simpler web
-** HTML/JS only browser engine
+** Document how terminal browsers can invoke a full browser to execute JavaScript
 
-This is likely: https://github.com/txtdot/txtdot
-Also:
-
-#+BEGIN_SRC bash
-chromium --headless --dump-dom mastodon.social/@foo/12345... | w3m -T text/html -dump
-#+END_SRC
-
-- Use an existing JS engine to implement a browser that can parse HTML and execute JS, but which has no concept of graphics
-- Could be used to implement a text HTML browser that can access the modern web
-- Extensible and scriptable, to generate "article mode" scripts, scrapers, and "API proxies" (or redirect to farside.link, etc.)
-- Proxy
-
-** Simple web proxy
-
-- Proxy + web frontend that does ~chromium --headless --dump-dom $URL --virtual-time-budget=10000 | w3m -T text/html -dump~
-- Perhaps pluggable DOM manipulation
+See [[https://www.gnu.org/software/emacs/manual/html_node/eww/Advanced.html]], w3m has similar stuff.
 
 * Typing database
 
