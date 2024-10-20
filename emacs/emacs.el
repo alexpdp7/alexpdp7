@@ -143,8 +143,5 @@
 (use-package puppet-mode
   :ensure t)
 
-(use-package nix-mode
-  :mode "\\.nix\\'")
-
 (use-package zmq :ensure t)
 (use-package jupyter :ensure t)
