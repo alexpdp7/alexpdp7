@@ -156,4 +156,6 @@
   (elfeed-protocol-enable)
   (setq elfeed-protocol-feeds '(("fever+https://alex@miniflux.pdp7.net"
 				 :api-url "https://miniflux.pdp7.net/fever/"
-				 :password-file "~/.miniflux.fever.pw"))))
+				 :password-file "~/.miniflux.fever.pw")))
+  (setq-default elfeed-search-filter "+unread ")
+  (setq-default elfeed-sort-order 'ascending))
