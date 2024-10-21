@@ -158,4 +158,5 @@
 				 :api-url "https://miniflux.pdp7.net/fever/"
 				 :password-file "~/.miniflux.fever.pw")))
   (setq-default elfeed-search-filter "+unread ")
-  (setq-default elfeed-sort-order 'ascending))
+  (setq-default elfeed-sort-order 'ascending)
+  (setq elfeed-protocol-fever-update-unread-only nil))
