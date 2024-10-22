@@ -138,6 +138,12 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/KDE/kitinerary/tree/master/src/lib/scripts - a lot of travel email scrapers (plane and train tickets, etc.)
    - https://github.com/igor-petruk/scriptisto - Generic shebang for compiling software, with RPM/DEB
 * Systems
+** Self-hosting solutions
+   - https://yunohost.org/
+   - https://sandstorm.io/
+   - https://casaos.zimaspace.com/
+   - https://caprover.com/ (With "One click apps")
+   - https://freedombox.org/
 ** Portable environments
    - https://github.com/DavHau/nix-portable - portable Nix, no root required, works in an LXC container
    - https://github.com/fsquillace/junest - Arch chroots
