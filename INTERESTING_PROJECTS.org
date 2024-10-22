@@ -144,6 +144,8 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://casaos.zimaspace.com/
    - https://caprover.com/ (With "One click apps")
    - https://freedombox.org/
+*** Meta
+   - https://github.com/0dataapp/awesome-0data?tab=readme-ov-file#easy-indie-platforms
 ** Portable environments
    - https://github.com/DavHau/nix-portable - portable Nix, no root required, works in an LXC container
    - https://github.com/fsquillace/junest - Arch chroots
