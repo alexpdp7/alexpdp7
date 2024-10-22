@@ -14,7 +14,12 @@
 - And smart filters for topics (e.g. I'm interested in TV series, but not realities)
 
 * Easier self-hosted communities
-** Yunohost
+** Database of self-hosting packages
+
+See https://github.com/alexpdp7/alexpdp7/blob/master/INTERESTING_PROJECTS.org#self-hosting-solutions
+
+- Track versions so you can determine update track records.
+
 ** Nice mailing lists
 
 - GH-style user/organization creation
