@@ -36,6 +36,9 @@
 (defun x-pos-tip () nil)
 (defun x-hide-tip () nil)
 
+(global-whitespace-mode)
+(setopt whitespace-style '(tab-mark))
+
 (require 'use-package-ensure)
 (setq use-package-always-ensure t)
 
