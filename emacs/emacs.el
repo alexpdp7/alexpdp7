@@ -162,4 +162,5 @@
 				 :password-file "~/.miniflux.fever.pw")))
   (setq-default elfeed-search-filter "+unread ")
   (setq-default elfeed-sort-order 'ascending)
-  (setq elfeed-protocol-fever-update-unread-only nil))
+  (setq elfeed-protocol-fever-update-unread-only nil)
+  (setopt elfeed-search-title-max-width 140))
