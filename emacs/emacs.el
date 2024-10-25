@@ -148,19 +148,3 @@
 
 (use-package zmq :ensure t)
 (use-package jupyter :ensure t)
-
-(use-package elfeed :ensure t)
-(use-package elfeed-protocol
-  :ensure t
-  :config
-  (setq elfeed-use-curl t)
-  (elfeed-set-timeout 36000)
-  (setq elfeed-protocol-enabled-protocols '(fever))
-  (elfeed-protocol-enable)
-  (setq elfeed-protocol-feeds '(("fever+https://alex@miniflux.pdp7.net"
-				 :api-url "https://miniflux.pdp7.net/fever/"
-				 :password-file "~/.miniflux.fever.pw")))
-  (setq-default elfeed-search-filter "+unread ")
-  (setq-default elfeed-sort-order 'ascending)
-  (setq elfeed-protocol-fever-update-unread-only nil)
-  (setopt elfeed-search-title-max-width 140))
