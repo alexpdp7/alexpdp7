@@ -26,11 +26,11 @@ def main():
     parser.add_argument("ip")
     parser.add_argument("command", nargs="+")
 
-    parser.add_argument("--route", nargs="*", help="destination,gateway")
+    parser.add_argument("--route", action="append", help="destination,gateway")
 
     args = parser.parse_args()
 
-    routes = "".join([_make_route(r) for r in args.route])
+    routes = "\n".join([_make_route(r) for r in args.route])
 
     command = shlex.join(args.command)
 
