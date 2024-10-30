@@ -23,6 +23,9 @@ Checklist:
 
 # Debian setup
 
+(Remember, Puppet set up switches Firefox ESR in Debian with upstream Debian.
+This sets up a new profile without stored sessions.)
+
 * Remove CD apt source
 * Join FreeIPA with Gnome initial setup.
 * Enable SSH root login.
