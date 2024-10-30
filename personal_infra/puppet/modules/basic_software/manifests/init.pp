@@ -1,5 +1,5 @@
 class basic_software {
-  package {['less', 'mlocate', 'traceroute', 'nmap', 'tree', 'tar', 'screen', 'git', 'net-tools', 'pipx', 'rsync', 'bash-completion']:}
+  package {['less', 'mlocate', 'traceroute', 'nmap', 'tree', 'tar', 'screen', 'git', 'net-tools', 'pipx', 'rsync', 'bash-completion', 'moreutils']:}
 
   if($facts['os']['family'] == 'RedHat') {
     package {'which':}
