@@ -34,6 +34,7 @@ Also keeping things in a Org mode means I can classify and add notes.
     - https://github.com/workflowproducts/envelope
     - https://github.com/PostgREST/postgrest
 ** Notebooks
+   - https://github.com/ronkok/Hurmet Pretty LaTeX-style "arithmetic" notebooks
    - https://github.com/jupytercalpoly/reactivepy
    - https://github.com/executablebooks/jupyter-book
 ** Testing
