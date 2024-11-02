@@ -1,0 +1,29 @@
+# Otros relojes apocalípticos
+2024-11-02
+
+=> https://hackaday.com/2024/11/01/apple-forces-the-signing-of-applications-in-macos-sequoia-15-1/
+
+Siempre observo con preocupación los movimientos de Apple. Apple tiene demasiado poder, y aunque a veces lo usa para el bien (irónicamente, imponer el USB, eliminar los floppies, etc.), creo que uno de sus objetivos es eliminar los ordenadores como los conocemos en facetas sobre la libertad de uso. Y creo que también tendrán una parte de responsabilidad en que cada día haya menos gente que sepa programar.
+
+Este es uno de los principales motivos por los que hago cierto boicot a Apple.
+
+Habrá que ver cómo evoluciona esto, porque no descarto que un día recordemos este momento.
+
+El resto, en batiburrillo:
+
+=> https://obm.corcoles.net/20241029/un-mac-mini-m4-sin-ram-ni-disco-vale-30-euros-segun-apple/ Y otro motivo son los precios, que soy un tacaño. Aquí un análisis que me parece innovador.
+=> https://www.jeffgeerling.com/blog/2024/realizing-meshtastics-promise-t-deck Los teclados de Blackberry son mágicos. Y parece que cada vez más gente los redescubre.
+=> https://en.wikipedia.org/wiki/.io#Phasing_Out Sospecho que se hará una excepción y el dominio .io seguirá funcionando. Pero algún día deberíamos aprender para qué sirven esos bonitos dominios de dos letras.
+=> https://opencollective.com/guppe-groups/updates/guppe-needs-new-stewardship Encuentras una pieza que te falta de ActivityPub, para descubrir que igual desaparece.
+=> https://www.printables.com/model/1051411-framework-portable-handheld-case-beth-deck La ingeniería podría ser algo así como reconvertir unos dispositivos que me perturban en un aparato único e innovador.
+=> https://www.theguardian.com/film/2012/aug/10/van-damme-expendables-2 JCVD es un ser digno de estudio. Esta entrevista de 2012 podría formar parte de estos estudios.
+=> https://www.astralcodexten.com/p/your-book-review-silver-age-marvel En 1937, Tolkien publicó sus intentos de crear una nueva mitología. En 1961, otros intentaron hacer lo mismo.
+=> https://sketchplanations.com/eponym Epónimos anónimos
+=> https://www.merriam-webster.com/dictionary/disaster Y etimologías astronómicas
+=> https://dle.rae.es/contramandar Las contraórdenes no se contraordenan, se contramandan. Y en inglés pasa algo parecido.
+=> https://enafore.social/ Un cliente de ActivityPub con buen soporte para el control por teclado.
+=> https://github.com/ihabunek/toot Aunque este es aún más terminal. Lo que con mi Takahe he tenido que parchearlo.
+=> https://github.com/mastodon/mastodon/issues/23153 Pero este es el mayor obstáculo para navegar el Fediverso desde una terminal, en mi opinión.
+=> https://typst.app/blog/2024/typst-0.12 Typst pinta guay, aunque incide en mi sorpresa ante la insistencia en la paginación. Pero esto parece que podría cambiar.
+=> https://hurmet.org/sample Esto también son cálculos en papel, pero más bien en pergamino.
+=> https://github.com/alexpdp7/alexpdp7/blob/master/hardware/ES-teles.md Artículo propio sobre la caja tonta
