@@ -1,0 +1,81 @@
+# Self hosting
+
+https://xkcd.com/743/
+
+I recall knowing people who were not programmers or system administrators doing "advanced" software things.
+They would buy a domain with shared hosting, set up email addresses, or run a WordPress blog.
+
+I see fewer people doing this today, although I see some groups setting up Mastodon servers as an alternative to Twitter.
+
+## The danger of good free services
+
+"If you're not paying for the product, you are the product" is a popular criticism of free services.
+However, I think that *good* free services create a more insidious problem.
+
+[Dumping](https://en.wikipedia.org/wiki/Dumping_(pricing_policy)) is not a recent invention.
+Creating *good* free services reduces the incentive for competition and distorts the public perception.
+
+Why would any care for providing email services if GMail is free and good?
+This is a logical and fair reasoning.
+
+However, the result of this reasoning is that nowadays, Google and Microsoft effectively control email.
+Email is a fundamental Internet service that is critical to much more than it is immediately obvious.
+How many services only allow you to reset your password through an email?
+
+Due to GMail and that enterprises never considered alternatives to Microsoft Exchange, most email in the world now passes through Microsoft and Google.
+This creates a vicious circle.
+Microsoft and Google can raise the barrier to entry to provide email services, because they can refuse to process email.
+(I am not saying they do this.
+I am saying they *can* do this.)
+
+Coincidentally, people are rejecting email more and more.
+With this, people are rejecting one of the few remaining interoperable Internet services and moving into more proprietary services.
+Surprisingly, a service where competition has severely reduced, sucks.
+
+But also, even without Microsoft or Google blocking competition, running email is harder nowadays.
+There is no incentive to provide good ways to run your own email.
+
+In the age of common people running their blogs with WordPress, despite its faults, the WordPress developers made sure that WordPress was easy to install on cheap shared hosting, and made a big effort to make updates easy.
+Running a blog had security risks, but common people were able to run WordPress safely.
+There were significant documentation and support resources so that you could own your blog.
+
+I believe that documentation and support for running your own email is increasingly hard to find.
+What is the incentive to maintain this documentation and support if GMail will provide a good service for free?
+
+The incentive is that Microsoft and Google control email, and email stagnates and sucks compared to other services that are closed and not interoperable.
+
+## All of this has happened before and will happen again
+
+We have seen this happening and repeat constantly.
+Randall Munroe's comic that opens this article was published in 2010, 14 years ago!
+
+Today, I feel that people are migrating from Twitter to BlueSky.
+
+Twitter was a good free service that allowed people to publish their thoughts for everyone to see.
+Twitter has had hundreds of millions of users, and many large organizations have trusted Twitter for their public communication.
+
+However, Twitter is a non-interoperable system controlled by a private company.
+People and organizations have slowly allowed Twitter to control public discourse.
+
+Many see Twitter now as a problem, and likely regret having ceded control to Twitter.
+
+However, I feel that instead of trying something different, another private company like BlueSky will take the mantle and have significant power over public discourse.
+
+## The alternatives to good free services might not be "good"
+
+Certainly, free good services are very convenient, and the alternatives are less convenient.
+
+One alternative is paid services.
+"If you're not paying for the product, you are the product" can mean that frequently paying for a service might turn out better for you in the long run.
+
+Besides GMail, Google provided free photo storage.
+Nowadays, people take a significant amount of photos and like to preserve them.
+By using Google services, people could store their photos automatically and conveniently.
+
+However, [on June 1, 2021, Google Photos introduced limits to this](https://blog.google/products/photos/4-things-know-about-google-photos-storage-policy-change/).
+Many people scrambled for alternatives to store their personal photos.
+
+In the past, some people paid for services like Flickr.
+Others learned to preserve their photos through their own means.
+
+However, after Google made their service free and convenient, many services like Flickr languish, and people find it alien to take care of storing their photos themselves or to pay for such service.
