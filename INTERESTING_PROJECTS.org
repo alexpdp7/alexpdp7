@@ -219,6 +219,8 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/mzucker/noteshrink - handwriting to PDF
 ** Instant messaging
    - https://letsconvene.im/ - browser-based conversations without accounts
+** Password managers
+   - https://keeweb.info/ / https://github.com/PhilippC/keepass2android have built-in support for remote storage, so they do not rely on external file synchronization
 * Anti social
 ** Platforms
    - https://github.com/taviso/nntpit - Reddit over NNTP
