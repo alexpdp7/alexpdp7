@@ -210,6 +210,7 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://github.com/kmonad/kmonad - advanced cross-platform keyboard remappings
 ** Multimedia
 *** Video
+   - https://github.com/mifi/lossless-cut Lossless video editing like Avidemux, but can preserve DVB-T subtitles
    - https://github.com/zoriya/Kyoo - Jellyfin alternative
    - https://github.com/asapach/peerflix-server - Torrent streaming server that can stream files as they download (not perfectly)
    - https://github.com/hauxir/rapidbay - Video Torrent web interface, can be set up as Magnet link handler, but downloads full file before playing
