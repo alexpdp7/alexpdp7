@@ -88,3 +88,18 @@ In the past, some people paid for services like Flickr.
 Others learned to preserve their photos through their own means.
 
 However, after Google made their service free and convenient, many services like Flickr languish, and people find it alien to take care of storing their photos themselves or to pay for such service.
+
+## We are prisoners
+
+The prisoner's dilemma describes situations where people can choose to act in their own interest or collaborate with others.
+I believe the prisoner's dilemma is present everywhere in our daily life and can explain many behaviors and situations.
+
+Choosing a good free service is frequently good for our own interest in the short term.
+Using alternatives to good free services is frequently more expensive and less convenient.
+
+However, in the long run, good free services can become dominant and thus are worse.
+
+Studies of the prisoner's dilemma discuss that when people face a prisoner's dilemma situation once, they are more likely to act in their own interesent.
+However, when facing multiple rounds of such situations, they are more likely to collaborate.
+
+We should observe the past and evaluate whether our past choices were good in the short term, but resulted in damaging dominance in the long term.
