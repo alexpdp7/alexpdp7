@@ -115,6 +115,22 @@ However, when facing multiple rounds of such situations, they are more likely to
 
 We should observe the past and evaluate whether our past choices were good in the short term, but resulted in damaging dominance in the long term.
 
+## Having no energies does not mean you are a bad person
+
+Reading this you might feel that I'm criticizing those who choose convenience.
+
+People have a limited amount of energy and time.
+There are too many things to worry about in our lives.
+We cannot evaluate every choice we make for the greater good.
+
+However, I propose that we should at least consider for a minute when we choose services.
+We can always evaluate who is providing the service, which are their incentives, and how this affects us.
+
+We should also look at previous choices and how they turned out.
+Perhaps back in the day we did not give second consideration to storing our pictures in Google Photos, or tweeting.
+But would have we been better off if we had chosen other services?
+Are we making similar choices today?
+
 ## The irony here
 
 Right now, you are reading this text on GitHub.
