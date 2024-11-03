@@ -86,6 +86,17 @@ I believe achieving dominance is an obvious goal of companies who want to be pro
 And providing good services at no cost is a great way to achieve dominance.
 Once you achieve dominance, frequently making a big profit and preventing competence is easy.
 
+## Monocultures are bigger than you
+
+When a service becomes dominant, it nearly always becomes incredibly huge.
+So huge, that you are but the tiniest of fractions of their users.
+
+You can see that most dominant services provide very little support to their users.
+Losing access to your GMail account is catastrophic for you, but unless this happens to a huge amount of users, Google will not be affected in a perceivable way.
+
+Being a paid customer of a non-dominant service nearly always puts you in a better position with the service provider.
+When you self-host or when you use a community service, you can do more to solve your problems.
+
 ## All of this has happened before and will happen again
 
 We have seen this happening and repeat constantly.
