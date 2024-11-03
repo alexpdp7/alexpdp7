@@ -10,6 +10,7 @@ I see fewer people doing this today, although I see some groups setting up Masto
 ## The danger of good free services
 
 "If you're not paying for the product, you are the product" is a popular criticism of free services.
+People use this saying to criticize free services selling your data.
 However, I think that *good* free services create a more insidious problem.
 
 [Dumping](https://en.wikipedia.org/wiki/Dumping_(pricing_policy)) is not a recent invention.
@@ -33,14 +34,15 @@ With this, people are rejecting one of the few remaining interoperable Internet 
 Surprisingly, a service where competition has severely reduced, sucks.
 
 But also, even without Microsoft or Google blocking competition, running email is harder nowadays.
-There is no incentive to provide good ways to run your own email.
+Because these companies dominate, other parties might not see improving email hosting as a rational effort to invest in.
+There is are little incentives to provide good ways to run your own email.
 
 In the age of common people running their blogs with WordPress, despite its faults, the WordPress developers made sure that WordPress was easy to install on cheap shared hosting, and made a big effort to make updates easy.
 Running a blog had security risks, but common people were able to run WordPress safely.
 There were significant documentation and support resources so that you could own your blog.
 
-I believe that documentation and support for running your own email is increasingly hard to find.
-What is the incentive to maintain this documentation and support if GMail will provide a good service for free?
+I believe that running your own email is increasingly difficult.
+What is the incentive to improve the situation if GMail will provide a good service for free?
 
 The incentive is that Microsoft and Google control email, and email stagnates and sucks compared to other services that are closed and not interoperable.
 
@@ -60,6 +62,13 @@ People and organizations have slowly allowed Twitter to control public discourse
 Many see Twitter now as a problem, and likely regret having ceded control to Twitter.
 
 However, I feel that instead of trying something different, another private company like BlueSky will take the mantle and have significant power over public discourse.
+
+Note that Twitter used to have a good public API that allowed others to deliver alternate clients and interoperate somewhat with Twitter.
+I believe that Twitter providing those allowances helped them reach their dominant position.
+But once Twitter was dominant, these allowances were not a net positive for Twitter anymore.
+Therefore, Twitter rationally removed these allowances.
+
+Why would BlueSky not do the same?
 
 ## The alternatives to good free services might not be "good"
 
