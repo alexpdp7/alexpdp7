@@ -57,6 +57,35 @@ What is the incentive to improve the situation if GMail will provide a good grat
 
 The incentive is that Microsoft and Google control email, and email stagnates and sucks compared to other services that are closed and not interoperable.
 
+## Sometimes it is not even gratis
+
+Sometimes some of our alternatives are even paid!
+
+People use proprietary operating systems that have a sticker price, even if we don't seem to pay for the operating system directly.
+
+But paid propietary operating systems of software can have similar effects.
+
+## Network effects are a vicious circle
+
+A particular factor is that some services are subject to network effects.
+
+Although Google Photos benefits somewhat from everyone being on the service, Twitter is mostly attractive because so many people are writing good posts on Twitter!
+
+Any alternative to Twitter is doomed if it has not people writing good posts, even if it were superior in all aspects to Twitter.
+
+## The true danger is monoculture
+
+I think the true danger is when a particular service becomes largely dominant.
+
+Being good of course helps dominate, but being gratis helps too, perhaps more.
+
+When a good gratis service becomes dominant, alternatives lose steam.
+Competing services have an uphill battle fighting against something that is gratis.
+
+I believe achieving dominance is an obvious goal of companies who want to be profitable.
+And providing good services at no cost is a great way to achieve dominance.
+Once you achieve dominance, frequently making a big profit and preventing competence is easy.
+
 ## All of this has happened before and will happen again
 
 We have seen this happening and repeat constantly.
@@ -96,9 +125,15 @@ However, [on June 1, 2021, Google Photos introduced limits to this](https://blog
 Many people scrambled for alternatives to store their personal photos.
 
 In the past, some people paid for services like Flickr.
-Others learned to preserve their photos through their own means.
+However, after Google made a gratis and good service, many services like Flickr languish, and people find it alien to pay for such service.
 
-However, after Google made a gratis and good service, many services like Flickr languish, and people find it alien to take care of storing their photos themselves or to pay for such service.
+Another alternative is self hosting.
+People used to story their photos on their computers and make backups on external drives.
+In my opinion, progressively less people are doing this, and it becomes more difficult to do so.
+
+Self hosting often requires some investment and nearly always requires more skills and effort than a good gratis service.
+Sometimes communities can compensate this; cooperative efforts can pool resources, skills, and effort to provide alternative services for communities.
+Self hosting can also be an opportunity to learn valuable skills, or just learn about stuff in general.
 
 ## We are prisoners
 
@@ -130,6 +165,22 @@ We should also look at previous choices and how they turned out.
 Perhaps back in the day we did not give second consideration to storing our pictures in Google Photos, or tweeting.
 But would have we been better off if we had chosen other services?
 Are we making similar choices today?
+
+## Can you do more?
+
+You can choose to not use the service at all.
+Not all gratis good services are *a necessity*!
+
+You can choose to use an alternative service which is less dominant, either paid or self-hosted.
+
+These alternatives nearly always mean sacrificing something, looking for benefits in the long run.
+
+The most valuable thing you can do is to make it easier for others to have alternatives to good gratis services.
+
+Beyond providing others access to services you self host, you can make it easier to self host.
+Writing about your experiencies and explaining what you did can be as helpful as contributing to code.
+Just using an alternative service can alter network effects, and make it more viable for others to avoid good gratis services.
+For example, publishing on Mastodon makes the Fediverse more attractive to thers.
 
 ## The irony here
 
