@@ -7,16 +7,27 @@ They would buy a domain with shared hosting, set up email addresses, or run a Wo
 
 I see fewer people doing this today, although I see some groups setting up Mastodon servers as an alternative to Twitter.
 
-## The danger of good free services
+## Gratis and libre
 
-"If you're not paying for the product, you are the product" is a popular criticism of free services.
-People use this saying to criticize free services selling your data.
-However, I think that *good* free services create a more insidious problem.
+This text discusses some questions where the word "free" can be confusing.
+People writing about these topics frequently want to separate things that have no cost from things that give you freedom.
+
+A common convention is [gratis versus libre](https://en.wikipedia.org/wiki/Gratis_versus_libre).
+
+This text uses "gratis" to mean "no cost".
+This text does not discuss much freedoms directly.
+In part, because defining and agreeing on freedoms is more difficult from defining and agreeing on what no cost means and what it entails.
+
+## The danger of good gratis services
+
+"If you're not paying for the product, you are the product" is a popular criticism of gratis services.
+People use this saying to criticize gratis services selling your data.
+However, I think that *good* gratis services create a more insidious problem.
 
 [Dumping](https://en.wikipedia.org/wiki/Dumping_(pricing_policy)) is not a recent invention.
-Creating *good* free services reduces the incentive for competition and distorts the public perception.
+Creating *good* gratis services reduces the incentive for competition and distorts the public perception.
 
-Why would any care for providing email services if GMail is free and good?
+Why would any care for providing email services if GMail is gratis and good?
 This is a logical and fair reasoning.
 
 However, the result of this reasoning is that nowadays, Google and Microsoft effectively control email.
@@ -42,7 +53,7 @@ Running a blog had security risks, but common people were able to run WordPress 
 There were significant documentation and support resources so that you could own your blog.
 
 I believe that running your own email is increasingly difficult.
-What is the incentive to improve the situation if GMail will provide a good service for free?
+What is the incentive to improve the situation if GMail will provide a good gratis service?
 
 The incentive is that Microsoft and Google control email, and email stagnates and sucks compared to other services that are closed and not interoperable.
 
@@ -53,7 +64,7 @@ Randall Munroe's comic that opens this article was published in 2010, 14 years a
 
 Today, I feel that people are migrating from Twitter to BlueSky.
 
-Twitter was a good free service that allowed people to publish their thoughts for everyone to see.
+Twitter was a good gratis service that allowed people to publish their thoughts for everyone to see.
 Twitter has had hundreds of millions of users, and many large organizations have trusted Twitter for their public communication.
 
 However, Twitter is a non-interoperable system controlled by a private company.
@@ -70,14 +81,14 @@ Therefore, Twitter rationally removed these allowances.
 
 Why would BlueSky not do the same?
 
-## The alternatives to good free services might not be "good"
+## The alternatives to good gratis services might not be "good"
 
-Certainly, free good services are very convenient, and the alternatives are less convenient.
+Certainly, gratis good services are very convenient, and the alternatives are less convenient.
 
 One alternative is paid services.
 "If you're not paying for the product, you are the product" can mean that frequently paying for a service might turn out better for you in the long run.
 
-Besides GMail, Google provided free photo storage.
+Besides GMail, Google provided gratis photo storage.
 Nowadays, people take a significant amount of photos and like to preserve them.
 By using Google services, people could store their photos automatically and conveniently.
 
@@ -87,15 +98,15 @@ Many people scrambled for alternatives to store their personal photos.
 In the past, some people paid for services like Flickr.
 Others learned to preserve their photos through their own means.
 
-However, after Google made their service free and convenient, many services like Flickr languish, and people find it alien to take care of storing their photos themselves or to pay for such service.
+However, after Google made a gratis and good service, many services like Flickr languish, and people find it alien to take care of storing their photos themselves or to pay for such service.
 
 ## We are prisoners
 
 The prisoner's dilemma describes situations where people can choose to act in their own interest or collaborate with others.
 I believe the prisoner's dilemma is present everywhere in our daily life and can explain many behaviors and situations.
 
-Choosing a good free service is frequently good for our own interest in the short term.
-Using alternatives to good free services is frequently more expensive and less convenient.
+Choosing a good gratis service is frequently good for our own interest in the short term.
+Using alternatives to good gratis services is frequently more expensive and less convenient.
 
 However, in the long run, good free services can become dominant and thus are worse.
 
