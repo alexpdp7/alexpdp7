@@ -103,3 +103,9 @@ Studies of the prisoner's dilemma discuss that when people face a prisoner's dil
 However, when facing multiple rounds of such situations, they are more likely to collaborate.
 
 We should observe the past and evaluate whether our past choices were good in the short term, but resulted in damaging dominance in the long term.
+
+## The irony here
+
+Right now, you are reading this text on GitHub.
+GitHub has become the dominant platform for sharing code in the world because GitHub is free and good, causing many of the problems that this text describes.
+Fortunately, GitHub is based on Git, which means migrating content off GitHub is not as bad as migrating off other free and good services.
