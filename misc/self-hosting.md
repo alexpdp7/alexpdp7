@@ -187,3 +187,7 @@ For example, publishing on Mastodon makes the Fediverse more attractive to thers
 Right now, you are reading this text on GitHub.
 GitHub has become the dominant platform for sharing code in the world because GitHub is free and good, causing many of the problems that this text describes.
 Fortunately, GitHub is based on Git, which means migrating content off GitHub is not as bad as migrating off other free and good services.
+
+## Further reading
+
+* [It is important for free software to use free software infrastructure](https://drewdevault.com/2022/03/29/free-software-free-infrastructure.html)
