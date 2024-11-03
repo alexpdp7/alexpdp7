@@ -25,7 +25,7 @@ People use this saying to criticize gratis services selling your data.
 However, I think that *good* gratis services create a more insidious problem.
 
 [Dumping](https://en.wikipedia.org/wiki/Dumping_(pricing_policy)) is not a recent invention.
-Creating *good* gratis services reduces the incentive for competition and distorts the public perception.
+Creating good gratis services reduces the incentive for competition and distorts the public perception.
 
 Why would any care for providing email services if GMail is gratis and good?
 This is a logical and fair reasoning.
@@ -46,7 +46,7 @@ Surprisingly, a service where competition has severely reduced, sucks.
 
 But also, even without Microsoft or Google blocking competition, running email is harder nowadays.
 Because these companies dominate, other parties might not see improving email hosting as a rational effort to invest in.
-There is are little incentives to provide good ways to run your own email.
+There are little incentives to provide good ways to run your own email.
 
 In the age of common people running their blogs with WordPress, despite its faults, the WordPress developers made sure that WordPress was easy to install on cheap shared hosting, and made a big effort to make updates easy.
 Running a blog had security risks, but common people were able to run WordPress safely.
