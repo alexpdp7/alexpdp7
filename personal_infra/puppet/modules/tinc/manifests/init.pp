@@ -1,14 +1,4 @@
 class tinc($tinc_name, $tinc_location, $tinc_connect_to, $tinc_locations, $tinc_ip, $tinc_netmask, $tinc_other_networks, $firewall = true) {
-  # https://bugzilla.redhat.com/show_bug.cgi?id=2153663
-  if($facts['os']['family'] == 'RedHat' and $facts['os']['release']['major'] == '9') {
-    copr {'tinc':
-      user => 'koalillo',
-      dist => 'epel-9',
-    }
-    ->
-    Package['tinc']
-  }
-
   package {'tinc':}
   ->
   file {'/etc/tinc':
