@@ -47,7 +47,9 @@ ail = subprocess.run(["ansible-inventory", "--list"], check=True, stdout=subproc
 inventory = json.loads(ail.stdout)
 total_hosts_in_inventory = len(inventory["_meta"]["hostvars"].keys())
 k8s_hosts_in_inventory = len(inventory["k8s"]["hosts"])
-puppet_hosts_in_inventory = total_hosts_in_inventory - k8s_hosts_in_inventory
+unmonitored_hosts_in_inventory = len(inventory["unmonitored"]["hosts"])
+
+puppet_hosts_in_inventory = total_hosts_in_inventory - k8s_hosts_in_inventory - unmonitored_hosts_in_inventory
 
 catalog_files = list(pathlib.Path("build/puppet/build/output/").glob("*/catalog.json"))
 
