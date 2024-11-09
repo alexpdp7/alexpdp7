@@ -6,6 +6,7 @@ SCHEMA = None
 LINKS = (
     ("@yo@alex.femto.pub", "https://alex.femto.pub/@yo@alex.femto.pub/"),
     ("GitHub", "https://github.com/alexpdp7/"),
+    ("TVmaze", "https://www.tvmaze.com/users/35495/koala/stats"),
     ("LinkedIn", "https://es.linkedin.com/in/alexcorcoles"),
     ("Project Euler", "https://projecteuler.net/profile/koalillo.png"),
     ("Stack Exchange", "https://stackexchange.com/users/13361/alex"),
