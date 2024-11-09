@@ -222,7 +222,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Platforms
    - https://github.com/taviso/nntpit - Reddit over NNTP
    - https://github.com/CyberShadow/DFeed - Web NNTP
-   - https://github.com/epilys/tade - Forum, mailing list, NNTP
+   - https://github.com/epilys/tade / https://github.com/epilys/sic - Forum, mailing list, NNTP
 *** Fediverse
     - https://github.com/bashrc2/epicyon
     - https://microblog.pub/
