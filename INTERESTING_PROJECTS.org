@@ -40,7 +40,6 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Testing
    - https://github.com/Mikuu/Micoo - visual diff testing
    - https://github.com/minimaxir/big-list-of-naughty-strings
-   - https://sarifweb.azurewebsites.net/ "Static Analysis Results Interchange Format", supported by GH
 ** Literate
    - https://github.com/kosmikus/lhs2tex
    - https://github.com/simplistix/sybil - testing in documentation
