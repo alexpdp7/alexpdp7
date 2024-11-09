@@ -20,7 +20,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/SigNoz/signoz
 ** Web development
    - https://github.com/fastly/pushpin - A proxy server for adding push to your API
-   - https://github.com/yudai/gotty - Terminals on the web
+   - https://xtermjs.org/ - Terminals on the web
    - https://github.com/BafS/Gutenberg - Printing
    - https://github.com/barbajs/barba - Smooth transitions
    - https://github.com/kristopolous/BOOTSTRA.386
