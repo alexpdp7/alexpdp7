@@ -25,7 +25,6 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/barbajs/barba - Smooth transitions
    - https://github.com/kristopolous/BOOTSTRA.386
 *** Frameworks
-    - https://github.com/hotwire-django/turbo-django
     - https://github.com/mit-pdos/noria
     - https://github.com/frappe/frappe
     - https://github.com/aquametalabs/aquameta
