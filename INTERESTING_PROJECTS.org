@@ -17,7 +17,6 @@ Also keeping things in a Org mode means I can classify and add notes.
 
 ** Observability
    - https://github.com/equinix-labs/otel-cli
-   - https://github.com/timescale/promscale
    - https://github.com/SigNoz/signoz
 ** Web development
    - https://github.com/fastly/pushpin - A proxy server for adding push to your API
