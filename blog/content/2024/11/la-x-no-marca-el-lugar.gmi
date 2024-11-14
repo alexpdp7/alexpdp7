@@ -1,0 +1,28 @@
+# La X no marca el lugar
+2024-11-14
+
+Acabo de renombrar mi cuenta de Twitter y desactivarla. Ahora no me deja crear una cuenta con el nombre original, pero seguiré probando hasta que me deje. (En teoría, esto evita que alguien suplante mi usuario anterior; no estoy muy convencido deque sea útil, pero bueno.)
+
+En 2020 ya decidí no contribuir más contenido original a Twitter. Desde entonces, sólo ponía allí enlaces a mi blog porque había gente que sólo me seguía por allí. He decidido que yo no debía aportar más contenido a Twitter.
+
+(He sacado un archivo de mi cuenta. Si tengo tiempo, lo publicaré de alguna manera.)
+
+Este mes también he decidido abandonar otra comunidad online más personal. Y la verdad, creo que me ha sentado bien. A pesar de que tanto Twitter como esta red social todavía me aportaban bastante. (De hecho, sigo convencido de que no es difícil usar Twitter de una manera útil. Estoy "perdiéndome" cosas que creo que me eran útiles. Pero no puedo seguir "colaborando".)
+
+Creo que es importante saber encontrar comunidades online a las que pertenecer. Yo creo que pertenezco a varias, pero estas dos que he abandonado cubrían cosas que he perdido. No tengo una buena comunidad extendida local profesional, y sigue habiendo gente valiosa escribiendo en Twitter.
+
+=> https://github.com/alexpdp7/alexpdp7/blob/master/misc/take-the-less-traveled-road.md Pero creo que hoy más que nunca tenemos que tomar decisiones "ilógicas".
+
+(Tengo cuenta de BlueSky, pero sólo he puesto dos mensajes allí explicando que no hay que usar BlueSky.)
+
+He estado leyendo un libro sobre comunidades online y categoriza lo que podemos hacer para influir en la evolución de una comunidad:
+
+* "Exit". Coger nuestros juguetes e irnos. A veces esto es complicado, y raramente es efectivo.
+* "Affective voice". Protestar amargamente y lamentarnos con otros miembros de la comunidad. ¡No siempre podemos hacerlo! Pero tampoco suele ser muy efectivo.
+* "Effective voice". Poder hablar con los que tienen poder en la comunidad. Esto puede ser efectivo.
+
+Evaluar qué opciones nos ofrece una comunidad es un factor interesante a la hora de escoger formar parte de ella. Si se tuerce, ¿haremos "exit" o tendremos "effective voice"? ¿Qué costes supondrá para nosotros la salida? ¿Estaremos mejor si escogemos una comunidad donde podamos tener "effective voice" aunque tenga otras desventajas?
+
+La verdad, he dejado una comunidad y he cambiado Twitter por el Fediverso. En el Fediverso, soy propietario de mi instancia, así que en cierta manera tengo "effective voice" absoluta.
+
+Si queréis mi consejo de cuñado: buscad cuidadosamente comunidades a las que pertenecer. E intentad ir más allá de lo que es popular (¡que también importa!) y buscad comunidades donde haya "effective voice".
