@@ -70,6 +70,11 @@ The browser displays an error because the application wizard creates an empty ap
 The Visual Studio Code .deb has a debconf prompt to add Microsoft package repositories.
 This locks Eddy.
 
+This is likely covered by these issues:
+
+* https://github.com/donadigo/eddy/issues/105
+* https://github.com/donadigo/eddy/issues/107
+
 ### The Pop!_Shop should not recommend the Visual Studio Code Flatpak
 
 Flatpaks are great most for applications, except for development tools.
