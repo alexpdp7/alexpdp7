@@ -16,6 +16,9 @@ if $facts['os']['family'] == 'Debian' and $facts['os']['release']['major'] == "1
 }
 
 # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1026008
+#
+# systems which were originally Debian 11 seem to not have this problem,
+# so I'll add hacks to new systems in their manifest :(
 if $facts['os']['family'] == 'Debian' and $facts['os']['release']['major'] == "12" {
   Package[$ipa_client_package]
   ->

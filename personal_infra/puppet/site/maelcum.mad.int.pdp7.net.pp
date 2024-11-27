@@ -11,4 +11,11 @@ node 'maelcum.mad.int.pdp7.net' {
     ,
     notify => Service['dnsmasq'],
   }
+
+  service {'sssd-pam.socket':
+    ensure => stopped,
+    enable => mask,
+  }
+  ~>
+  Exec['/usr/bin/systemctl reset-failed']
 }
