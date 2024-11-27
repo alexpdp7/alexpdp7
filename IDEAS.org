@@ -9,12 +9,16 @@
 * Better access to news
 ** News aggregator
 
+In progress: https://github.com/alexpdp7/news-rss
+
 - Basically news.google.com (grouping of the same news across different publications)
 - But with "regeneration" of headlines (e.g. replace headlines with "extremely descriptive" headlines)
 - And smart filters for topics (e.g. I'm interested in TV series, but not realities)
 
 * Easier self-hosted communities
 ** Database of self-hosting packages
+
+In progress: https://github.com/alexpdp7/selfhostwatch
 
 See https://github.com/alexpdp7/alexpdp7/blob/master/INTERESTING_PROJECTS.org#self-hosting-solutions
 
