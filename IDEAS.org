@@ -6,6 +6,11 @@
 
 - Easy-to-use key escrow/secret sharing
 - Provide emergency recovery of passwords, keys, 2FA, etc.
+
+** Mutual encrypted backups
+
+- Software to do mutual encrypted backups over the Internet
+
 * Better access to news
 ** News aggregator
 
