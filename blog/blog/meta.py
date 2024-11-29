@@ -12,4 +12,4 @@ LINKS = (
     ("Stack Exchange", "https://stackexchange.com/users/13361/alex"),
 )
 
-EMAIL_TEXT = "escríbeme cogiendo el dominio de esta web y cambiando el primer punto por una arroba"
+EMAIL_TEXT = "envíame un email cogiendo el dominio de esta web y cambiando el primer punto por una arroba"
