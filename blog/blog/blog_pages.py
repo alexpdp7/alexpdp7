@@ -47,7 +47,10 @@ class Entry:
         assert parsed[2] == gemtext.Line("")
 
         result = html.gemini_to_html(parsed[3:])
-        result.append(h.P(h.A("Editar", href=self.edit_url)))
+        result += [
+            h.P(meta.EMAIL_TEXT),
+            h.P(h.A("Editar", href=self.edit_url)),
+        ]
         return result
 
 
