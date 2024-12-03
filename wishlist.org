@@ -10,7 +10,6 @@ Todos se pueden comprar en Kindle, tapa blanda o el formato que salga más barat
 ** No ficción
 
 - [[https://www.amazon.es/dp/0735217963/][The Nineties: A Book]]
-- [[https://www.amazon.es/dp/B07QYCHJ7V/][An Elegant Puzzle: Systems of Engineering Management (English Edition)]]
 - [[https://www.amazon.es/dp/0316491977/][The Soul of A New Machine]]
 
 * Cacharros
@@ -32,7 +31,6 @@ Todos se pueden comprar en Kindle, tapa blanda o el formato que salga más barat
 
 - Pantalones cortos con bolsillos adicionales grandes
 - Camisetas colores claros
-- Calcetines compresión
 
 * Videojuegos
 
@@ -40,10 +38,6 @@ Todos se pueden comprar en Kindle, tapa blanda o el formato que salga más barat
 
 * Varios
 
-- Cosas de "Bocchi the Rock!".
-  Camisetas, etc.
-  Figuritas *sólo chibi*.
-  (Los tebeos al parecer no son gran cosa.)
 - [[https://devswag.com/products/rust-ferris][La mascota de Rust]]
 
 * Archivado (no comprar)
