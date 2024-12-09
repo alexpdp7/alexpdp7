@@ -25,7 +25,9 @@ However, in the long run I think making an extra effort to make an informed choi
 
 ## Alternatives
 
-### IRC
+### Instant messaging
+
+#### IRC
 
 IRC is a real-time chat protocol created in 1988 that is still in use.
 Many perceive flaws in IRC that seem to make it a bad choice.
@@ -68,3 +70,54 @@ Some drawbacks of IRC are:
 
 * Push notifications are not common yet.
   Although it is possible to receive instant notifications when you are mentioned or receive a private message, this is frequently difficult.
+  In general, IRC on mobile phones is not as evolved as on desktop computers.
+
+#### Matrix
+
+Matrix is a more modern chat protocol that addresses some of the drawbacks of IRC:
+
+* Matrix has end to end encryption, so conversations between users are private to Matrix administrators.
+
+* Matrix requires less effort from *channel* administrators.
+  (But running a Matrix server requires significant resources.
+  However, there are public Matrix servers and managed services.
+  Thanks to end to end encryption, using a public Matrix server is an interesting option.)
+
+* Matrix has good support for audio/video conferencing, images and gifs, reactions, push notifications, and phone usage.
+
+But also some disadvantages respect to IRC:
+
+* You need to create accounts.
+
+* Using end-to-end encryption makes some usage harder.
+  (Although end-to-end encryption is optional.)
+
+* There are less clients and tools, and generally they are more complex, more resource intensive, and less featureful.
+  (And not all clients support all features.)
+
+#### XMPP
+
+XMPP is younger than IRC, but older than Matrix.
+Compared to Matrix:
+
+* End to end encryption and audio/video conferencing is possible with XMPP, but in practice it can be difficult to access these features.
+
+* There's more XMPP clients than Matrix clients, but it is also hard to find clients that support all the features you need on different platforms.
+
+For some scenarios, if you find the right combination of XMPP server and clients, XMPP can be a great option.
+
+Historically, XMPP was not well-suited to mobile usage.
+Nowadays, mobile usage is better, but finding the right clients to use is still a challenge.
+
+#### Other instant messaging alternatives to consider
+
+* Zulip: Zulip offers instant messaging, but has some characteristics from forums.
+  (For example, Zulip uses threads with subjects.)
+
+* Mattermost, Rocketchat are designed for communication within organizations.
+
+And lastly, because all the technologies mentioned in this text allow integrations, there are bridges to join different technologies.
+
+For example, IRC channels can be bridged to Matrix rooms.
+
+Although bridges are not ideal, in some cases you can use them to make one channel available over different technologies, which might address the limitations of specific technologies.
