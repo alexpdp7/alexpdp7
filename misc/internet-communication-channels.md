@@ -8,19 +8,20 @@ If you want to provide a communication channel for a community over the Internet
 * Telegram
 * WhatsApp
 * Facebook
-* Or any other communication channel controlled by a single company
+* Or any other communication channel controlled by a single big company
 
 , then please read this article and consider an alternative.
 
-Because such channels are convenient, cheap, and easy, they are natural choices.
-However, because they are controlled by a single company, their benefits come as a tradeoff with some non-obvious problems.
-This article lists alternatives below.
+Because such channels are often convenient, cheap, and easy, they are natural choices.
 
-## The problems of communication channels controlled by a single company
+However, companies are about maximizing their benefits first.
+Certainly, providing convenient, cheap, and easy services often help companies make money.
+But I believe we have seen enough examples of companies putting their benefits first in detriment of their users.
 
-The biggest problem is that companies want to earn money, not benefit their users.
-
-Frequently, giving a convenient, cheap, and easy service makes it easier to earn money, but historically, companies ultimately put profit before the benefit of users.
+Using these alternatives will always require more effort.
+This text is long, and just reading and processing it might take more time than setting up a channel on the services mentioned above.
+The alternatives I describe certainly have drawbacks with regards to the services I am asking you to avoid.
+However, in the long run I think making an extra effort to make an informed choice pays off.
 
 ## Alternatives
 
@@ -28,7 +29,7 @@ Frequently, giving a convenient, cheap, and easy service makes it easier to earn
 
 IRC is a real-time chat protocol created in 1988 that is still in use.
 Many perceive flaws in IRC that seem to make it a bad choice.
-However, many of the flaws in IRC have been addressed in recent times and I believe it is a good choice in many (but not all) scenarios.
+However, many IRC flaws have been addressed in recent times and I believe it is a good choice in many (but not all) scenarios.
 
 The biggest traditional issue with IRC is channels without history, where you cannot see messages posted while you were offline.
 (If you suspend or turn off your laptop, you will be offline in IRC.
@@ -41,7 +42,29 @@ Heavy IRC users are either used to having no history [this might seem surprising
 However, users new to IRC might join a channel, post a question and go offline without anyone having a chance to see their message and reply.
 Then, unless people remember to answer when they are back, or other means are used, answers will not be visible to the person who asked.)
 
-Although this problem and others are solvable today, people who want to run a chat over IRC must know IRC well to set up a channel so that users have an intuitive experience.
-(And in my opinion, running an IRC channel effectively is more difficult than running a chat channel with other systems.
-However, the advantages of IRC outweigh the costs.)
+Some advantages of IRC are:
 
+* You can use IRC without creating an account.
+  This can be especially useful for providing a general contact mechanism.
+  You can create links that will ask for a nickname, and place you into a channel without any additional steps.
+
+* IRC is a very simple protocol with more than 30 years of history.
+  This means that many developers have invested significant efforts in creating powerful IRC clients and tools (such as bots).
+  And lately, many easy IRC clients are available.
+  This means that IRC can scale from simple setups that require little effort to use, to powerful setups that can provide interesting features.
+
+Some drawbacks of IRC are:
+
+* IRC does not have end to end encryption, and thus IRC administrators can read every conversation.
+  This is not a huge problem for public or semi-public channels, but it limits IRC for many scenarios.
+
+* IRC requires more effort from administrators to provide a good experience to entry-level users, control spam, and others.
+  (An important point is that although integration with audio/video conferencing is possible, it requires more effort and provides a lesser experience.)
+
+* IRC is mostly text-based.
+  Although many IRC clients can display images and gifs, communicating with images and gifs is harder on IRC.
+
+* IRC does not have reactions yet.
+
+* Push notifications are not common yet.
+  Although it is possible to receive instant notifications when you are mentioned or receive a private message, this is frequently difficult.
