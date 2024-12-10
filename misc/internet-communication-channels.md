@@ -88,7 +88,7 @@ Matrix is a more modern chat protocol that addresses some of the drawbacks of IR
 
 But also some disadvantages respect to IRC:
 
-* You need to create accounts.
+* Users need to create accounts.
 
 * Using end-to-end encryption makes some usage harder.
   (Although end-to-end encryption is optional.)
