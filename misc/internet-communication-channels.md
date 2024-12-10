@@ -54,6 +54,7 @@ Some advantages of IRC are:
   This means that many developers have invested significant efforts in creating powerful IRC clients and tools (such as bots).
   And lately, many easy IRC clients are available.
   This means that IRC can scale from simple setups that require little effort to use, to powerful setups that can provide interesting features.
+  (If you are used to plain communication clients, you might be surprised at how valuable some features can be.)
 
 Some drawbacks of IRC are:
 
