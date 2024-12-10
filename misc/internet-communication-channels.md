@@ -20,7 +20,7 @@ But I believe we have seen enough examples of companies putting their benefits f
 
 Using these alternatives will always require more effort.
 This text is long, and just reading and processing it might take more time than setting up a channel on the services mentioned above.
-The alternatives I describe certainly have drawbacks with regards to the services I am asking you to avoid.
+The alternatives I describe certainly have drawbacks compared to the services I am asking you to avoid.
 However, in the long run I think making an extra effort to make an informed choice pays off.
 
 ## Alternatives
@@ -58,14 +58,15 @@ Some advantages of IRC are:
 
 Some drawbacks of IRC are:
 
-* IRC does not have end to end encryption, and thus IRC administrators can read every conversation.
+* IRC does not have end-to-end encryption, and thus IRC administrators can read every conversation.
   This is not a huge problem for public or semi-public channels, but it limits IRC for many scenarios.
 
 * IRC requires more effort from administrators to provide a good experience to entry-level users, control spam, and others.
   (An important point is that although integration with audio/video conferencing is possible, it requires more effort and provides a lesser experience.)
 
 * IRC is mostly text-based.
-  Although many IRC clients can display images and gifs, communicating with images and gifs is harder on IRC.
+  Although many IRC clients can display images and GIFs, communicating with images and GIFs is harder on IRC.
+  (And IRC also does not have integrated audio/video conferencing.)
 
 * IRC does not have reactions yet.
 
@@ -77,23 +78,23 @@ Some drawbacks of IRC are:
 
 Matrix is a more modern chat protocol that addresses some of the drawbacks of IRC:
 
-* Matrix has end to end encryption, so conversations between users are private to Matrix administrators.
+* Matrix has end-to-end encryption, so conversations between users are private to Matrix administrators.
 
 * Matrix requires less effort from *channel* administrators.
   (But running a Matrix server requires significant resources.
   However, there are public Matrix servers and managed services.
-  Thanks to end to end encryption, using a public Matrix server is an interesting option.)
+  Thanks to end-to-end encryption, using a public Matrix server is an interesting option.)
 
-* Matrix has good support for audio/video conferencing, images and gifs, reactions, push notifications, and phone usage.
+* Matrix has good support for audio/video conferencing, images and GIFs, reactions, push notifications, and phone usage.
 
-But also some disadvantages respect to IRC:
+But also some disadvantages compared to IRC:
 
 * Users need to create accounts.
 
 * Using end-to-end encryption makes some usage harder.
   (Although end-to-end encryption is optional.)
 
-* There are less clients and tools, and generally they are more complex, more resource intensive, and less featureful.
+* There are fewer clients and tools, and generally they are more complex, more resource intensive, and less featureful.
   (And not all clients support all features.)
 
 #### XMPP
@@ -101,7 +102,7 @@ But also some disadvantages respect to IRC:
 XMPP is younger than IRC, but older than Matrix.
 Compared to Matrix:
 
-* End to end encryption and audio/video conferencing is possible with XMPP, but in practice it can be difficult to access these features.
+* End-to-end encryption and audio/video conferencing is possible with XMPP, but in practice it can be difficult to access these features.
 
 * There's more XMPP clients than Matrix clients, but it is also hard to find clients that support all the features you need on different platforms.
 
