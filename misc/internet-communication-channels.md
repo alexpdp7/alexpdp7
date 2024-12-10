@@ -122,3 +122,56 @@ And lastly, because all the technologies mentioned in this text allow integratio
 For example, IRC channels can be bridged to Matrix rooms.
 
 Although bridges are not ideal, in some cases you can use them to make one channel available over different technologies, which might address the limitations of specific technologies.
+
+### Asynchronous messaging
+
+Although my perception is that most communities nowadays communicate over instant messaging, many communities use successfully more asynchronous communication channels.
+In some cases, providing both instant messaging and an asynchronous channel can also work well.
+
+#### Mailing lists
+
+Mailing lists (and their sibling, newsgroups) are older than IRC.
+Although mailing lists are far less popular than in the past, many communities still use mailing lists.
+
+Mailing lists have several advantages:
+
+* Having an email address is nearly a necessity for all Internet users.
+  Mailing lists often require no user account other than an existing email address.
+
+* In a way, email and mailing lists share many similarities with IRC.
+  Although most people are users of just a few mail services and clients, there is a wide variety of services and clients.
+  Email power features are somewhat forgotten, but they still exist and mail clients can have very convenient features.
+
+* Most mailing list have good ways to browse and search past messages.
+  Email discussions are more naturally searchable, thanks to their slower pace and thread organization.
+
+However, they also have many advantages:
+
+* As people no longer use email to communicate, going back to email can cause significant friction.
+
+* Finding a good mailing list service is difficult.
+  (And hosting your own is also more difficult than hosting other services.)
+
+In my opinion, mailing lists are good, but they have become foreign to most people.
+
+#### Web forums
+
+Forums used to be very popular.
+
+Compared to mailing lists:
+
+* Forums require creating an account.
+
+* Forums do not have multiple clients, although forum software has also evolved for a long time, and many forums have great features.
+
+* Forums are also a bit out of style, but they are more popular and familiar to most than mailing lists.
+
+* Finding a forum service or hosting one is simpler than email.
+
+### Other possibilities
+
+Social networks tend to be slightly different communication channels than instant messaging or asynchronous messaging.
+Alternatives to social networks also exist.
+However, in my opinion, social network-style communication is not optimal for "communities" in most cases.
+Still, you might want to explore alternatives.
+The Fediverse (or ActivityPub) has many different varieties of communication channels that might suit your needs.
