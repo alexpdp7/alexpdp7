@@ -135,6 +135,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/open-meteo/open-meteo/
    - https://github.com/KDE/kitinerary/tree/master/src/lib/scripts - a lot of travel email scrapers (plane and train tickets, etc.)
    - https://github.com/igor-petruk/scriptisto - Generic shebang for compiling software, with RPM/DEB
+   - https://github.com/acaloiaro/ess - automatically and safely synchronize env.sample files with .env
 * Systems
 ** Self-hosting solutions
    - https://yunohost.org/
