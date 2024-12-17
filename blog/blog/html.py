@@ -6,7 +6,7 @@ import htmlgenerator as h
 from blog import meta, pretty, gemtext
 
 
-def html_template(*content, page_title=None, full):
+def html_template(*content, page_title=None, path, full):
     title = [h.A(meta.TITLE, href=f"{meta.SCHEMA}://{meta.HOST}")]
     if page_title:
         title += f" - {page_title}"
@@ -24,6 +24,8 @@ def html_template(*content, page_title=None, full):
             h.P(h.A("Buscar con DuckDuckGo en esta página", href="https://html.duckduckgo.com/html/?q=site:alex.corcoles.net")),
             h.P(*links),
         ]
+
+    gemini_url = f"gemini://alex.corcoles.net{path}"
 
     return pretty.pretty_html(h.render(
         h.HTML(
@@ -47,6 +49,12 @@ def html_template(*content, page_title=None, full):
                 """).lstrip())
             ),
             h.BODY(
+                h.P(
+                    "Contenido tambien disponible en Gemini en ",
+                    h.A(gemini_url, href=gemini_url),
+                    ". ",
+                    h.A("Información sobre Gemini.", href="https://geminiprotocol.net/"),
+                ),
                 h.H1(title),
                 *full_part,
                 *content,
