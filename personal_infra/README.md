@@ -16,9 +16,12 @@ See [HACKING](HACKING.md) for more "usage" instructions.
   * LXC container running FreeSWITCH
   * LXC container running Bitwarden
   * LXC container running ClickHouse
+  * LXC container running SeaweedFS (for Takahe)
   * Two VMs running Talos, providing two Kubernetes clusters (production/test)
     * My blog
+    * Takahe
     * A CRUD system I run to track my weight
+    * Some other small projects
 * Flat 1
   * HP Proliant Microserver: 4Gb RAM, 2x4Tb HDD
     * DHCP/DNS
