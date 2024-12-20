@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import sys
 import subprocess
 
 
@@ -17,11 +18,13 @@ def parse_ansible(stdout):
     return result, errors
 
 
-d = subprocess.run(["rye", "run", "ansible","-o", "-m", "setup", "-a", "filter=ansible_distribution", "!k8s"], stdout=subprocess.PIPE, encoding="utf8")
+hosts = sys.argv[1]
+
+d = subprocess.run(["rye", "run", "ansible","-o", "-m", "setup", "-a", "filter=ansible_distribution", hosts], stdout=subprocess.PIPE, encoding="utf8")
 
 d_data, d_errors = parse_ansible(d.stdout)
 
-v = subprocess.run(["rye", "run", "ansible", "-o", "-m", "setup", "-a", "filter=ansible_distribution_major_version", "!k8s"], stdout=subprocess.PIPE, encoding="utf8")
+v = subprocess.run(["rye", "run", "ansible", "-o", "-m", "setup", "-a", "filter=ansible_distribution_major_version", hosts], stdout=subprocess.PIPE, encoding="utf8")
 
 v_data, v_errors = parse_ansible(v.stdout)
 
