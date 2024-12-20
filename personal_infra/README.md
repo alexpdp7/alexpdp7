@@ -30,7 +30,7 @@ See [HACKING](HACKING.md) for more "usage" instructions.
     * tinc/ocserv
   * Raspberry Pi 3B (1Gb RAM) running LibreElec + TVHeadend, records to NFS share on HP server
 * Flat 2
-  * Raspberry Pi 4B (8Gb RAM) running Rocky Linux, runs DHCP/DNS, tinc/ocserv
+  * N100 running Debian, runs DHCP/DNS, tinc/ocserv
 * Netcup 2Gb RAM VPS running FreeIPA (also tinc/ocserv)
 
 ## Configuration management
@@ -76,7 +76,7 @@ It provides a user directory and centralized auth, with passwordless single-sign
 It also has sudo integration, so I can sudo on all systems with a single password.
 
 Many systems and services are integrated in FreeIPA.
-My laptop is joined to the domain so I can even log in to some web applications without typing a password.
+My workstations are joined to the domain so I can even log in to some web applications without typing a password.
 
 Ipsilon adds OpenID for web application authentication.
 
@@ -112,21 +112,19 @@ I use Grafana to explore monitoring information in ClickHouse.
 I use:
 
 * Proxmox, as it provides LXC containers (and VMs if needed) and ZFS storage. I like ZFS for its protection about bitrot, and because send/recv and snapshots are great for backups
-* EL8/EL9, using Rocky Linux. FreeSWITCH is on EL8 (Rocky Linux too), because the OKay repo RPMs for EL9 don't seem to work
-* Rocky Linux for my server Raspberry.
+* EL9, using Rocky Linux.
+* Debian in a few hosts.
 * LibreElec for my mediacenter Raspberry. Common distros are not an option, as they don't support hardware video acceleration. LibreElec sets up everything I need with minimal fuss, so while it's the system that doesn't use configuration management, it works fine.
 
 ## Software updates
 
-I use `dnf-automatic` on EL8 and EL9, and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
+I use `dnf-automatic` on EL9, and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
 
 `ragent` monitors when systems need a reboot and warns me through Nagios.
 
 ## Packaging
 
 * https://github.com/alexpdp7/vaultwarden-rpm / https://copr.fedorainfracloud.org/coprs/koalillo/vaultwarden/
-* https://src.fedoraproject.org/fork/koalillo/rpms/nextcloud / https://copr.fedorainfracloud.org/coprs/koalillo/nextcloud/
-* https://copr.fedorainfracloud.org/coprs/koalillo/tinc/
 
 ## Storage
 
