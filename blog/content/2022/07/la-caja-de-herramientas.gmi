@@ -15,6 +15,10 @@ EDIT 2024-04-09:
 
 Coincide con que dos años después, he corrompido mi Ventoy sobre UDF. Como siempre, todo lo importante con backup y en un soporte fiable (e.g. no una unidad que pasees por ahí, con un sistema de archivos de los buenos, etc.). No sé si mi siguiente Ventoy será UDF o exFAT.
 
+EDIT 2024-12-24:
+
+Ventoy + UDF todavía no son ideales, con lo que estoy mirando alternativas como IODD o el soporte de USB Gadget de Linux, que permite que una Raspberry emule un CDROM USB.
+
 ...
 
 Por último, todo esto funciona en los flamantes USB SSD externos que hay por ahí. Yo para todo esto me he pillado un WD de 480gb por 68€ en Amazon. Aunque 68€ no es una cantidad despreciable, esto incrementa significativamente la capacidad disponible respecto a los típicos USB "flash" baratos y, sobre todo, da unas tasas de transferencia que no hacen que nos entren ganas de tirar cosas por la ventana.
