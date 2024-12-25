@@ -58,6 +58,9 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
   -  Reverse proxies
 
 * Simpler web
+
+- https://www.fixbrowser.org/
+
 ** Document how terminal browsers can invoke a full browser to execute JavaScript
 
 See [[https://www.gnu.org/software/emacs/manual/html_node/eww/Advanced.html]], w3m has similar stuff.
