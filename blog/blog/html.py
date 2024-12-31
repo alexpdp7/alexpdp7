@@ -15,7 +15,7 @@ def html_template(*content, page_title=None, path, full):
 
     links = list(itertools.chain(*[(h.A(text, href=href), ", ") for text, href in meta.LINKS]))
 
-    links += h.BaseElement(f" {meta.EMAIL_TEXT}")
+    links += [h.BaseElement(f" {meta.EMAIL_TEXT}")]
 
     full_part = []
     if full:
