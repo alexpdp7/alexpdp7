@@ -19,7 +19,7 @@
     - join_ipa
 
 - name: deploy ragent
-  hosts: all,!k8s
+  hosts: all,!k8s,!unmonitored
   tags: deploy_ragent
   roles:
     - deploy_ragent
