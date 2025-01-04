@@ -147,3 +147,6 @@
   :ensure t)
 
 (use-package ein :ensure t)
+
+(use-package ledger-mode
+  :ensure t)
