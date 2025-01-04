@@ -1,0 +1,30 @@
+# The Bangle.js 2
+2025-01-04
+
+=> gemini://alex.corcoles.net/2024/08/tu-transportas/ Mencioné anteriormente que entre otras cosas, en agosto me compré un Bangle.js 2.
+
+Mi intención era apoyar un reloj inteligente más "abierto" y quizá trastear un poco.
+
+Como era de esperar, no he trasteado mucho, pero el reloj está bien para los 100€ más o menos que me costó.
+
+Es un reloj sencillo, no excesivamente grande. La pantalla de cristal líquido y el diseño austero le da un toque retro. Es moderadamente cómodo de llevar.
+
+La pantalla no tiene mucha resolución ni contraste, pero cumple su función y no tiene problemas de visibilidad en exteriores. Está siempre encendida, pero sólo tiene retroiluminación si pulsamos el botón. La retroiluminación es flojilla, no sirve como linterna.
+
+El software está bastante bien. A diferencia de otros relojes "abiertos", es casi completamente funcional sin trastear demasiado, pero algo hay que trastear. Yo básicamente lo uso para reloj y notificaciones. Salvo que tuve que jugar un poco con las opciones para que esté conectado constantemente al móvil, diría que las notificaciones funcionan mejor que en otros relojes que he tenido (si leemos una notificación en el móvil desaparece del reloj). Al recibir una notificación, puede vibrar adecuadamente.
+
+Las funcionalidades más sofisticadas requieren más trabajo.
+
+Hay una aplicación para ver la previsión del tiempo en el reloj que usa varios servicios libres de meteorología. Yo lo tuve funcionando un tiempo, pero ahora no me funciona. Como no me parecía muy útil, tampoco me he preocupado de arreglarlo.
+
+Tengo el reloj configurado para que me mida las pulsaciones cada diez minutos. Pulsaciones y podómetro se sincronizan con una versión propia de Gadgetbridge, con lo que podemos ver los datos en reloj y móvil, pero no viene nada más de fábrica. (A mí me gustaría poder enviar los números a una base de datos que tengo para estos propósitos.)
+
+Tiene brújula (funciona adecuadamente, pero la interfaz de usuario no es conveniente), GPS/Glonass, barómetro y termómetro, que no uso realmente.
+
+Como de interfaz es limitadillo y la pantalla táctil y botón no son maravillosos, me limito a un uso sencillo, aunque hay muchas aplicaciones disponibles.
+
+En cuanto a batería, lo cargo cada una o dos semanas.
+
+En cuanto a extensibilidad y aplicaciones, es bastante curioso. Gadgetbridge, la aplicación libre para dispositivos de este tipo, tiene soporte muy completo. Podemos sincronizar datos, aplicar actualizaciones e instalar aplicaciones. El reloj se basa en el entorno libre Espruino, centrado en una implementación de JavaScript para procesadores de recursos limitados, en conectividad Bluetooth LE o USB, y un entorno de programación basado en tecnologías web. Gracias al soporte de Bluetooth en navegadores (lamentablemente, ahora mismo sólo Chrome y no Firefox) podemos abrir una página en un navegador y tanto instalar aplicaciones como desarrollar las nuestras en un editor dentro del navegador, con un emulador o conectándose a un dispositivo físico. Las aplicaciones que se desarrollen incluso pueden conectarse a Internet a través de Gadgetbridge.
+
+El Bangle.js 2 es una opción interesante para rechazar los relojes cerrados y apostar por sistemas más abiertos, sin que ello requiera un esfuerzo titánico en hacer funcionar las cosas. Pero sí renunciamos a algo de funcionalidad y hay que dedicarle algo más de tiempo. A los que quieran trastear, creo que ofrece muchas más posibilidades que la mayoría de alternativas, tanto libres como cerradas. No es el reloj que recomendaría a cualquiera, pero sí a quien esté interesado en trastear o apartarse de los sistemas cerrados.
