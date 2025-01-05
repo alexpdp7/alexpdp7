@@ -181,6 +181,9 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/gekmihesg/ansible-openwrt
    - https://github.com/glennbrown/home-infra/tree/main/ansible/roles/openwrt-dhcp-dns ansible-openwrt samples by glenn on Ars IRC.
    - https://github.com/lanefu/clammy-ng - Raspbian on NanoPi Ansible-managed router
+*** Alternate networks
+   - https://yggdrasil-network.github.io/
+   - https://dn42.eu/
 *** VPN
     - https://github.com/StreisandEffect/streisand
 ** Cryptography
