@@ -8,7 +8,7 @@ Some example content websites are Wikipedia, news websites, and blogs.
 
 ### Make content usable without JavaScript
 
-By making your content usable without JavaScript, a content website automatically achieves most of the other points on this manifesto.
+By making your content usable without JavaScript, a content website automatically addresses most annoyances with content websites.
 
 Websites that do not require JavaScript tend to require less resources, making them faster and lighter.
 
