@@ -21,6 +21,7 @@ Since then, I believe the loss of physical keyboard phones means that some uses 
 *** [[https://www.lilygo.cc/products/t-deck][T-Deck]] / [[https://www.lilygo.cc/products/t-keyboard][T-Keyboard]]
 *** [[https://beepy.sqfmi.com/][Beepy]]
 *** [[https://shop.m5stack.com/products/m5stack-cardputer-kit-w-m5stamps3][Cardputer]]
+*** [[https://mecha.so/comet][Mecha Comet]]
 *** Others
 
 - [[https://www.tindie.com/stores/zitaotech/][ZitaoTech]] refurbs keyboards, but they seem to be permanently out of stock.
