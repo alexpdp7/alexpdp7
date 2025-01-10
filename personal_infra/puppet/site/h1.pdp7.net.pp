@@ -1,6 +1,7 @@
 node 'h1.pdp7.net' {
   class {'proxmox::freeipa':}
   class {'dns_dhcp':}
+  class {'dns_dhcp::opennic':}
 
   class {'backups':
     sanoid_config =>  @("EOT")

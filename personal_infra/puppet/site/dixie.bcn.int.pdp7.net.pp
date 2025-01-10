@@ -1,5 +1,6 @@
 node 'dixie.bcn.int.pdp7.net' {
   class {'dns_dhcp':}
+  class {'dns_dhcp::opennic':}
   file {'/etc/dnsmasq.d/static.conf':
     content => "host-record=router,router.bcn.int.pdp7.net,192.168.76.1
 host-record=archerc7,archerc7.bcn.int.pdp7.net,192.168.76.6
