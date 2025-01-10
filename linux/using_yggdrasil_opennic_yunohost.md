@@ -29,6 +29,8 @@ This is research on doing "gratis" self-hosting.
 
 ## Caveats
 
+* Do not create an initial user on Debian that matches the username you want on YunoHost!
+* YunoHost seems to override your DNS configuration with a list of public DNS servers (?)
 * At least be.libre only allows A, AAAA, NS, and TXT records.
   Mail should still work without MX records, in theory.
 * Let's Encrypt does not issue OpenNIC certificates, and the only alternative seems to be an experimental CA that supports ACME.
