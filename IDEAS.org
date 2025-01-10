@@ -29,6 +29,8 @@ See https://github.com/alexpdp7/alexpdp7/blob/master/INTERESTING_PROJECTS.org#se
 
 - Track versions so you can determine update track records.
 
+** Research alternative networks
+*** Research if https://yggdrasil-network.github.io/ + https://opennic.org/ can self-host systems such as YunoHost without a public IP, nor spending money on DNS, etc.
 ** Nice mailing lists
 
 - GH-style user/organization creation
