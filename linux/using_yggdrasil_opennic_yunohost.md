@@ -20,6 +20,11 @@ This is research on doing "gratis" self-hosting.
 
 * YunoHost provides easy installation of many popular self-hosted services.
 
+## Notes
+
+The Debian README for Yggdrasil sets up a configuration without public peers.
+My testing hosts discovered each other only because they were on the same IPv4 network, probably.
+
 ## Caveats
 
 * At least be.libre only allows A, AAAA, NS, and TXT records.
