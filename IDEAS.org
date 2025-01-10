@@ -1,3 +1,12 @@
+These are things I want to work on, but also bait other people into solving for me.
+
+These are mostly sorted by my interest; ideas on top of the list have more priority to me than ideas at the bottom of the list.
+
+If you have interest on any of those ideas and you want to influence my priorities (I would prefer to work on stuff that also interest others), please let me know.
+(I would use [[https://en.wikipedia.org/wiki/Score_voting#Advocacy][the immanent method voting system]] to judge other's priorities.
+If you send me a number between -1 and 1 for any ideas in these lists [or ideas outside the list!], I will add all numbers I receive and use that to estimate external interest.
+If you send me a list of ideas you are interested in, I will consider those votes with the value 1.)
+
 * Make digital life safer
 
 - [[https://github.com/vida-segura-online-es/vida-segura-online-es][vida-segura-online-es]], a resource that provides reputable resources oriented to people living in Spain.
