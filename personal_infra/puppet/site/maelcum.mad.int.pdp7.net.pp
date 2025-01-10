@@ -1,5 +1,6 @@
 node 'maelcum.mad.int.pdp7.net' {
   class {'dns_dhcp':}
+  class {'dns_dhcp::opennic':}
   file {'/etc/dnsmasq.d/static.conf':
     content => @(EOT)
     host-record=router,router.mad.int.pdp7.net,10.34.10.1
