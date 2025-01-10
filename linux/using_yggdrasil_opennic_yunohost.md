@@ -22,8 +22,10 @@ This is research on doing "gratis" self-hosting.
 
 ## Notes
 
-The Debian README for Yggdrasil sets up a configuration without public peers.
-My testing hosts discovered each other only because they were on the same IPv4 network, probably.
+* The Debian README for Yggdrasil sets up a configuration without public peers.
+  My testing hosts discovered each other only because they were on the same IPv4 network, probably.
+
+* be.libre domains take a while to be operative.
 
 ## Caveats
 
