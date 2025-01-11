@@ -46,6 +46,10 @@
 
 - [[https://www.currentaffairs.org/2020/08/the-truth-is-paywalled-but-the-lies-are-free/][The Truth Is Paywalled But The Lies Are Free]] - Excellent title, but the article is so-so
 
+* Society
+
+- [[https://locadeldesvan.com/2025/01/09/contra-la-tecnocratizacion-de-la-vida/][Contra la tecnocratización de la vida]] About the pressure of the modern age and the privilege of being mediocre
+
 * Meta
 
 - [[https://www.benkuhn.net/progessays/][Essays on programming I think about a lot]]
