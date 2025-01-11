@@ -12,6 +12,6 @@ class podman($user, $storage_driver) {
 
   exec {"/usr/bin/sed -i 's|#mount_program = \"/usr/bin/fuse-overlayfs\"|mount_program = \"/usr/bin/fuse-overlayfs\"|g' /etc/containers/storage.conf":
     require => Package['podman'],
-    unless => "/usr/bin/grep '^#mount_program = \"/usr/bin/fuse-overlayfs\"'",
+    unless => "/usr/bin/grep '^mount_program = \"/usr/bin/fuse-overlayfs\"' /etc/containers/storage.conf",
   }
 }
