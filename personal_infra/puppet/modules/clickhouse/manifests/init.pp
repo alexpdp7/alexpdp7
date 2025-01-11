@@ -20,11 +20,11 @@ class clickhouse {
     ,
   }
   ->
-  package {['clickhouse-server', 'clickhouse-client', 'clickhouse-keeper']:}
+  package {['clickhouse-server', 'clickhouse-client']:}
   ->
   [File['/etc/clickhouse-server/config.d/network.xml'], File['/etc/clickhouse-server/config.d/logs.xml']]
   ~>
-  service {['clickhouse-server', 'clickhouse-keeper']:
+  service {['clickhouse-server']:
     ensure => running,
     enable => true,
   }
