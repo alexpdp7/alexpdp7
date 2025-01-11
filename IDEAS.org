@@ -79,6 +79,7 @@ See [[https://www.gnu.org/software/emacs/manual/html_node/eww/Advanced.html]], w
 ** Annotate URLs with another URLs
 
 - For example, add transcriptions to comic strips that do not have them
+- The server pushes serialized bloom filters of annotated URLs (or entire annotation sets?) so that clients do not have to leak what they are browsing.
 
 * Typing database
 
