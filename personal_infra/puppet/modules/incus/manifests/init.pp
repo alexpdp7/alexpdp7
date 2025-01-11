@@ -72,5 +72,6 @@ class incus {
 
   exec {'/usr/bin/incus admin init --minimal':
     require => Package['incus'],
+    creates => '/var/lib/incus/server.crt',
   }
 }
