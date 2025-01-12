@@ -1,6 +1,8 @@
 # ISOs y USBs
 2020-07-01
 
+=> https://github.com/alexpdp7/alexpdp7/blob/master/hardware/using-an-rpi-zero-as-an-usb-drive-to-install-operating-systems.md EDIT 2025-01-12: Aquí documento una manera de hacer estas cosas con una Raspberry Pi Zero.
+
 Actualización 2024-12-24: Tras un tiempo usándolo, estoy investigando otras vías porque Ventoy da algunos problemillas. IODD fabrica cacharros algo caros que hacen esto. También está el sistema "USB Gadget" de Linux que permite a algo tipo Raspberry actuar como CDROM USB.
 
 Acabo de instalar un Windows mediante Ventoy. Ventoy te formatea un USB te mete una partición con su bootloader y te deja una partición vacía. El bootloader detecta ISOs botables en esa partición y te saca un menu al arrancar para escoger una.

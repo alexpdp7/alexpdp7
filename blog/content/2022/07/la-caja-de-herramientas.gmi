@@ -1,6 +1,8 @@
 # La caja de herramientas
 2022-07-11
 
+=> https://github.com/alexpdp7/alexpdp7/blob/master/hardware/using-an-rpi-zero-as-an-usb-drive-to-install-operating-systems.md EDIT 2025-01-21: Aquí documento como hacer esto con una Raspberry Pi Zero.
+
 Cuando uno se lía con lo que no debería, hace gastos inútiles, pero lo que aprende igual le sirve a alguien.
 
 El magnífico Ventoy[1] es un programilla disponible para Windows *y* Linux que sabe crear discos de arranque. Lo chulo es que crea un espacio para dejar ahí cualquier ISO arrancable, y al arrancar desde el disco, nos sale un bonito menú para escoger de qué ISO queremos botar. Con esto, podemos llevar todos los Live CD e instaladores que queramos en un único USB, sin tener que formatearlos cada vez que necesitamos un arranque nuevo (por tanto, también es más cómodo si queremos usar el disco para almacenar otras cosas).
