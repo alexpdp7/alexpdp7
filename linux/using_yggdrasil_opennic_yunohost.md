@@ -30,11 +30,13 @@ This is research on doing "gratis" self-hosting.
 ## Caveats
 
 * The OpenNIC ACME service cannot connect to an Yggdrasil host!
-* Do not create an initial user on Debian that matches the username you want on YunoHost!
-* YunoHost seems to override your DNS configuration with a list of public DNS servers (?)
+* Do not create an initial user on Debian that matches the username you want on YunoHost! (already documented at <https://doc.yunohost.org/en/install_on_top_of_debian>)
+* YunoHost seems to override your DNS configuration with a list of public DNS servers (<https://github.com/YunoHost/issues/issues/2444>)
 * The YunoHost firewall also messes with Yggdrasil.
 * The Debian package for Debian 12 is not compatible with public Yggdrasil nodes.
   The backport is good.
 * At least be.libre only allows A, AAAA, NS, and TXT records.
-  Mail should still work without MX records, in theory.
+  YunoHost mail works without MX records, and mail in general should work without MX records.
+  You can always use NS and host the zone yourself with all the record types you need.
 * Let's Encrypt does not issue OpenNIC certificates, and the only alternative seems to be an experimental CA that supports ACME.
+  The OpenNIC CA does not connect to Yggdrasil, but you could host your zone yourself and use a DNS server friendly to ACME.
