@@ -31,6 +31,9 @@ In progress: https://github.com/alexpdp7/news-rss
 
 * Easier self-hosted communities
 ** Regulatory compliance and self-hosting
+** Document hosting providers
+
+- https://community.exoscale.com/documentation/platform/billing/#pre-paid-billing Exoscale is cloud-y, but has pre-paid payment so overuse only results in suspension
 ** Database of self-hosting packages
 
 In progress: https://github.com/alexpdp7/selfhostwatch
