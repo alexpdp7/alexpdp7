@@ -30,6 +30,7 @@ In progress: https://github.com/alexpdp7/news-rss
 - And smart filters for topics (e.g. I'm interested in TV series, but not realities)
 
 * Easier self-hosted communities
+** Regulatory compliance and self-hosting
 ** Database of self-hosting packages
 
 In progress: https://github.com/alexpdp7/selfhostwatch
