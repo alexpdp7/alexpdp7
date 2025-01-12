@@ -279,3 +279,4 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/ProseMirror/prosemirror-markdown
 * Other
   - https://github.com/jhuangtw/xg2xg
+  - https://european-alternatives.eu/
