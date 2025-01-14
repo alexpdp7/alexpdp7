@@ -86,6 +86,8 @@ See [[https://www.gnu.org/software/emacs/manual/html_node/eww/Advanced.html]], w
 - The server pushes serialized bloom filters of annotated URLs (or entire annotation sets?) so that clients do not have to leak what they are browsing.
 - Maybe https://dokie.li/
 
+** NoScript configuration merge
+
 * Typing database
 
 - A database of keyboard layouts.
