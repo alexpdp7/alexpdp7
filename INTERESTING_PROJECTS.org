@@ -232,6 +232,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/taviso/nntpit - Reddit over NNTP
    - https://github.com/CyberShadow/DFeed - Web NNTP
    - https://github.com/epilys/tade / https://github.com/epilys/sic - Forum, mailing list, NNTP
+   - https://koldfront.dk/git/illuminant/about/ An ActivityPub server with an NNTP interface
 *** Fediverse
     - https://github.com/bashrc2/epicyon
     - https://microblog.pub/
