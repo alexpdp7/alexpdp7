@@ -25,6 +25,10 @@ node 'h1.pdp7.net' {
       [rpool/data/subvol-214-disk-1]
         use_template = backup
 
+      # vaultwarden
+      [rpool/data/subvol-215-disk-1]
+        use_template = backup
+
       [template_backup]
         frequently=0
         hourly=0
@@ -72,6 +76,10 @@ node 'h1.pdp7.net' {
 
   proxmox::proxy_host {'bitwarden.pdp7.net':
     target => 'http://bitwarden.h1.int.pdp7.net:8000/',
+  }
+
+  proxmox::proxy_host {'vaultwarden.pdp7.net':
+    target => 'http://vaultwarden.h1.int.pdp7.net:8000/',
   }
 
   proxmox::proxy_host {'grafana.pdp7.net':

@@ -57,6 +57,7 @@ host-record=router4g.bcn.int.pdp7.net,router4g,192.168.76.3
       sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-210-disk-1 rpool/user/backed/bitwarden --quiet
       sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-211-disk-1 rpool/user/backed/gitolite --quiet
       sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-214-disk-1 rpool/user/backed/weed --quiet
+      sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-215-disk-1 rpool/user/backed/vaultwarden --quiet
       | EOT
     ,
     owner => root,
