@@ -124,7 +124,7 @@ I use `dnf-automatic` on EL9, and `unattended-upgrades` on Debian/Ubuntu so upda
 
 ## Packaging
 
-* https://github.com/alexpdp7/vaultwarden-rpm / https://copr.fedorainfracloud.org/coprs/koalillo/vaultwarden/
+* https://copr.fedorainfracloud.org/coprs/koalillo/seaweedfs/ https://github.com/alexpdp7/seaweedfs-rpm
 
 ## Storage
 
