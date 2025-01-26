@@ -14,7 +14,7 @@ See [HACKING](HACKING.md) for more "usage" instructions.
   * LXC container running Miniflux
   * LXC container running Nextcloud
   * LXC container running FreeSWITCH
-  * LXC container running Bitwarden
+  * LXC container running Vaultwarden
   * LXC container running ClickHouse
   * LXC container running SeaweedFS (for Takahe)
   * Two VMs running Talos, providing two Kubernetes clusters (production/test)
