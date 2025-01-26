@@ -40,6 +40,7 @@ def html_template(*content, page_title=None, path, full):
                         padding-left: 2em;
                         padding-right: 2em;
                         background-color: #fffffa;
+                        font-family: system-ui;
                     }
                     p, blockquote, li {
                         /* from Mozilla reader mode */
