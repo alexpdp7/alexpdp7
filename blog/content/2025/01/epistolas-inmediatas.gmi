@@ -1,0 +1,86 @@
+# Epístolas inmediatas
+2025-01-26
+
+Me preguntaban hoy sobre con qué reemplazar WhatsApp. La verdad que no tengo una respuesta.
+
+Creo que el primer sistema de mensajería instantánea que usé fue ICQ. Conservo registros de conversaciones de 2004, pero creo que empecé a usarlo antes.
+
+Salvo una breve era en la que parecía que XMPP (Jabber) iba a dominar el mundo, todos los sistemas de mensajería que he usado eran cerrados. Primero los de ordenador; ICQ, AIM, MSN, Yahoo Messenger. Luego los de móvil, principalmente WhatsApp, Telegram, Signal. Luego inventos mixtos como Slack y Discord. He usado Matrix, pero tan poquito que no sé si cuenta.
+
+La mensajería instantánea es uno de los sistemas que más necesita de los efectos de red: sólo son útiles si la gente con la que quieres hablar los usa. Y yo, que llevo intentando usar sistemas abiertos me he doblegado a todos y cada uno de los sistemas cerrados que usaba la gente con la que quería hablar.
+
+El más significativo es WhatsApp. Me cerré mi cuenta de Facebook a mediados de 2018 porque la maldad de Facebook era excesiva para mí, pero hasta el día de hoy sigo usando WhatsApp porque no veo viable escapar. Hay personas y empresas con las que me es importante comunicarme con las que el único canal viable es WhatsApp.
+
+¿Se puede abandonar WhatsApp?
+
+Lo dicho, depende de lo que use con quién queráis hablar.
+
+Asumiendo que podemos influenciar a la gente, ¿qué alternativas deberíamos recomendar?
+
+Pues esto sigue siendo complicado.
+
+## Requisitos
+
+Los requisitos para mí son los siguientes:
+
+### Clientes de terceros permitidos
+
+Para mí, este sería el mínimo aceptable. Quiero poder usar, sin riesgo de saltarme los términos y condiciones del servicio, una aplicación de terceros para comunicarme. ¿Por qué? Porque esto trae la flexibilidad más absoluta. En particular, esto abre la puerta a aquellos clásicos clientes multisistema con los que sólo con un programa podíamos comunicarnos con cualquiera.
+
+(Beeper soporta esto. Pero para los servicios interesantes [e.g. WhatsApp], te estás saltando los términos y condiciones del servicio y por tanto te pueden cerrar la cuenta. Parece un problema teórico, pero es real y muy gordo.)
+
+### Multiservidor
+
+Como en el email, diferentes entidades deberían poder hospedar sus propios servidores de mensajería y que hubiera cierta interoperabilidad entre ellos. (Aunque esto último no es totalmente necesario.) Con esto y los clientes de terceros, se completa la posibilidad de saber qué pasa con nuestras comunicaciones. Podemos asegurarnos que el cifrado del sistema no tiene trampa ni cartón, y podemos escoger servidores confiables, o incluso hospedar el nuestro propio.
+
+### Buena experiencia de usuario
+
+Como usamos estos sistemas en móviles con conectividad irregular, es importante la funcionalidad de acuse de recibo. También las notificaciones lo más instantáneas posibles (y con el menor consumo de batería), pues aunque es feo que seamos esclavos de nuestros teléfonos, la mensajería instantánea es mejor cuanto más instantánea es.
+
+El soporte multidispositivo es importante. Mientras estemos lastrados por la pobre experiencia de tecleo de los móviles de hoy en día, poder usar estos sistemas en un portátil o ordenador de escritorio con un teclado agradable es clave para que nos comuniquemos bien.
+
+### Privacidad
+
+La verdad, para mí no es importante la privacidad. Tengo el privilegio de que seguramente para mí nunca sea un problema que un gobierno o empresa lea mis mensajes. Pero para mucha gente, esto no es así. Y hay una cierta "seguridad en los números"; si poca gente utiliza sistemas de mensajería privados, es más fácil romper la privacidad.
+
+Pero esto tiene sus consecuencias. Creo que de momento nadie ha implementado el cacareado cifrado de extremo a extremo sin perceptibles problemas de usabilidad. Y además, en ocasiones la privacidad es contraria a los tres requisitos que ya he mencionado.
+
+## Evaluando
+
+### WhatsApp
+
+No permite clientes de terceros, no es multiservidor, pero tiene una excelente experiencia de usuario (en particular, las notificaciones son las más fiables que he usado; aunque el multidispositivo cojea bastante). En teoría la privacidad es buena, pero yo no me fío.
+
+El tema es que al menos en mi entorno, WhatsApp es el rey. Con lo que sigo con atención la aplicación de la Ley de Mercados Digitales, que algún día forzará a WhatsApp a interoperar con otros sistemas de mensajería, resolviendo de hecho muchos de mis problemas con él.
+
+### Telegram
+
+Comparado con WhatsApp, sí permite clientes de terceros. No es un soporte idóneo (es excesivamente complicado crear clientes de terceros), pero ahí está y es uno de los motivos, junto con su popularidad en mi entorno, por los que es el sistema que más uso. La experiencia de usuario y privacidad es similar a la de WhatsApp.
+
+### Signal
+
+También permite clientes de terceros, pero es todavía más problemático que Telegram en ese sentido. La experiencia de usuario se ve algo perjudicada por su mejor privacidad.
+
+El motivo por el que lo uso es que prácticamente no conozco gente que lo use. Y su falta de popularidad podría estar relacionada con que su privacidad hace que sea más exigente para el usuario para usarlo. (Podemos perder nuestro histórico de conversaciones si no vamos con cuidado.)
+
+### Slack/Discord
+
+Aunque son principalmente otra cosa, se pueden usar perfectamente como mensajería instantánea. ¡Y mucha gente que conozco los usa! Pero son todavía peores que los anteriores, especialmente porque no permiten clientes de terceros.
+
+### Sistemas abiertos
+
+Lamentablemente, ni IRC, ni Matrix, ni XMPP son usados por suficientes de mis contactos para que valga la pena, y todos tienen inconvenientes de uno u otro tipo.
+
+IRC está más cerca de lo que creemos de dar una buena experiencia de usuario. Sus problemas de usabilidad conocidos (¡falta de historial!) tienen soluciones, excepto la falta de notificaciones push que podría llegar pronto. Pero sigue requiriendo demasiado esfuerzo para utilizarlo, pese a que la experiencia puede ser magnífica porque hay miles de clientes de todo tipo gracias a la sencillez del protocolo.
+
+Matrix es una especie de Signal multiservidor, pero su uso del cifrado extremo a extremo sufre de todavía más problemas de los que padece Signal. En realidad es una opción la mar de interesante, pero aún soy cauteloso recomendándolo.
+
+XMPP es el gran desconocido. Con la combinación de elementos adecuada, ofrece soluciones a todas mis necesidades. Pero requiere más esfuerzo por parte de los usuarios y tengo dudas sobre su funcionamiento en iOS.
+
+## Conclusión
+
+De momento, en mi entorno, yo me quedo quieto usando Telegram y WhatsApp. Dista mucho de ser ideal, pero espero que la Ley de Mercados Digitales agite el panorama considerablemente.
+
+Os animo a jugar con Matrix y Signal, que sin ser ideales, son las alternativas más reales ahora mismo; creo que es viable su uso por la gente de a pie.
+
+Si tenéis un entorno aventurero, os animaría a echarle un ojo a IRC y XMPP. Para aquellos que estén dispuestos a dedicarles algo de tiempo, pueden ofrecer ventajas únicas y creo que si más gente los usa, podrían avanzar lentamente hacia ser más viables para el público en general.
