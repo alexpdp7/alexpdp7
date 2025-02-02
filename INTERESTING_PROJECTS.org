@@ -6,6 +6,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Version control and code management
    - https://github.com/josh-project/josh Alternative to moe/copybara that looks simpler?
    - https://martinvonz.github.io/jj/ Alternative Git frontend
+   - https://radicle.xyz/ Decentralized forge
    - https://github.com/copier-org/copier/ - project templater
    - https://github.com/Skyscanner/turbolift - operating on multiple repos
    - https://github.com/sourcegraph/doctree - code browser
