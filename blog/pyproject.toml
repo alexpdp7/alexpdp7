@@ -10,7 +10,7 @@ python = "^3.9"
 # bicephalus = { path = "../../bicephalus", develop = true }
 bicephalus = { git = "https://github.com/alexpdp7/bicephalus.git" }
 htmlgenerator = "^1.2.32"
-beautifulsoup4 = "^4.12.3"
+beautifulsoup4 = "^4.13.0"
 feedgen = "^1.0.0"
 lxml = "^5.3.0"
 
