@@ -1,0 +1,22 @@
+# El lento adiós a la magia de los ordenadores
+2025-02-07
+
+Desde el día (hace más de cuarenta años) en que pude escribir en un teclado y hacer aparecer letras en una tele, me han fascinado los ordenadores. Mucho antes de que apareciesen los ordenadores, existían máquinas que podían realizar tareas muy complejas y útiles, pero ninguna tan versátil como un ordenador, porque el ordenador es programable.
+
+Si lo pensáis, esto es lo que hace que los ordenadores hayan conquistado el mundo. Cualquiera puede coger un ordenador, aprender cómo funciona, aprender a programarlo y descubrir nuevas cosas que hacer con el aparato. Y así, se han convertido en una de las herramientas más versátiles que podemos tener.
+
+Pero después de la revolución del ordenador personal, llegó la revolución del smartphone. Tras la conquista del mundo por los ordenadores, está claro que los móviles le han comido la tostada a los ordenadores y se han hecho con su territorio.
+
+¿No es el móvil un ordenador? Sí y no. Sí, se puede programar un móvil (me da un poco igual que en general necesitas un ordenador para programar un móvil), pero cada vez menos.
+
+Poco a poco se van introduciendo medidas de control. Aunque Apple se lleva gran parte de la fama sobre dispositivos cerrados, Google no es que ande tan lejos. Llevo días trasteando intentando inspeccionar qué hace una aplicación de Android. Me encuentro capa tras capa de protecciones, problemas e impedimentos que hacen evidente que tenemos mucho menos control de los móviles que de los ordenadores.
+
+Hay justificaciones más o menos aceptables a algunas de estas medidas de control. Puede disgustarnos que los artistas quieran imponer restricciones al consumo de sus obras para ganar dinero con ellas, pero hay suficientes artistas que no lo hacen para que podamos escoger consumir sólo productos sin restricciones.
+
+Pero la aplicación que estoy inspeccionando no está en esta situación. Lo que quiero hacer no va a hacer perder dinero a la empresa que lleva la aplicación (si acaso, lo contrario); sólo circunvalar defectos de usabilidad que me irritan y que esta empresa no piensa corregir. Quizá esta empresa esté justificada en buscar ciertas protecciones, pero en mi opinión estas protecciones no tienen por qué pasar por trabas infinitas para que yo no pueda saber qué se está ejecutando en un dispositivo de mi propiedad.
+
+Es complicado enmarcar esta discusión adecuadamente. Ya hace varias décadas que hay voces clamando contra estos movimientos. Y aunque hay críticas sin sentido, cada vez más hay mensajes que parecían disparates imposibles que han resultado ser previsiones milimétricas.
+
+Siempre digo que si hubiese llegado al mundo no muchos años más tarde, no sé si hubiese recorrido el mismo camino. Me preocupa que la versatilidad del ordenador ya no reina. Conforme menos gente juega con máquinas programables, a menos gente se le ocurren cosas nuevas que nos hagan avanzar.
+
+Es cierto que hay problemas mucho más graves en este mundo, pero todos tenemos nuestras preocupaciones idiosincráticas y esta es una de las mías. Si os halláis en un cruce de caminos, y uno de los caminos lleva a más pérdida de control sobre nuestros ordenadores, si podéis escoger el otro camino, aunque os suponga una inconveniencia, os animo a que vayáis por la senda menos transitada. Creo que todos saldremos ganando con ello.
