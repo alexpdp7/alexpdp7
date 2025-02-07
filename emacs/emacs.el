@@ -150,3 +150,8 @@
 
 (use-package ledger-mode
   :ensure t)
+
+;; Sometimes I like playing with Prolog
+(setq prolog-system 'swi)
+(setq auto-mode-alist (append '(("\\.pl\\'" . prolog-mode))
+                              auto-mode-alist))
