@@ -85,6 +85,7 @@ See [[https://www.gnu.org/software/emacs/manual/html_node/eww/Advanced.html]], w
 - For example, add transcriptions to comic strips that do not have them
 - The server pushes serialized bloom filters of annotated URLs (or entire annotation sets?) so that clients do not have to leak what they are browsing.
 - Maybe https://dokie.li/
+- Alternative approach with Violentmonkey for accessibility purposes: [[https://github.com/alexpdp7/aelevenymonkey]].
 
 ** NoScript configuration merge
 
