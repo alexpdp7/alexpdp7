@@ -15,6 +15,7 @@ Todos se pueden comprar en Kindle, tapa blanda o el formato que salga más barat
 
 * Cacharros
 
+- Pedal USB para el ordenador. [[https://www.amazon.es/PCsensor-Interruptor-Programable-Combinación-Personalizada/dp/B08SLX75K8/][Este]], o cualquiera más barato si en algún sitio de Internet pone que es compatible con Linux.
 - Alfombrilla para el ratón.
   Adoraba [[https://spectrum.ieee.org/media-library/image-of-a-mousepad-with-a-vintage-sun-microsystems-logo-and-slogan.jpg?id=25589293&width=2400&height=1443][esta alfombrilla]] que tenía desde hace décadas, pero que se me fastidió porque le daba mucho el sol :(
 - Futón para Madrid
