@@ -3,8 +3,8 @@ Following this advice can make your tools easy to install by others, pleasant to
 * Use [my suggestions for setting up Python projects](project_setup.md), particularly:
   * Provide instructions for installing your tool using [pipx](https://github.com/pypa/pipx).
     Using pipx, people can install and upgrade your script using a simple command that requires no administrative privileges (but it requires having Python and pipx installed).
-  * As you are using [poetry](https://python-poetry.org/), following the indications above:
-    * Use [Poetry's support for specifying scripts](https://python-poetry.org/docs/pyproject/#scripts), so when installing your tool via pipx or other means, your scripts are added to the user's path.
+  * As you are using [uv](https://docs.astral.sh/uv/), following the indications above:
+    * Use [entry points](https://docs.astral.sh/uv/concepts/projects/config/#entry-points), so when installing your tool via pipx or other means, your scripts are added to the user's path.
     * Dependencies you define will be installed automatically along with your application.
       This reduces the effort users need to use your application if you need third-party libraries.
       However, I would still advise to avoid unnecessary dependencies (for simple HTTP requests you can use the base library. If you do complex requests, then using a third-party library might be much simpler).

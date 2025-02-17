@@ -8,26 +8,19 @@ Pipx is a tool that installs Python packages to your user environment. It create
 
 Pipx is useful for two purposes:
 
-* To install tools such as poetry
+* To install tools such as uv
 * To let other users install your software easily
 
-# Use Poetry
-
-> [!NOTE]
-> I have been using [rye](https://rye.astral.sh/) recently.
-> Not enough to recommend it unconditionally over Poetry, but I am liking it so far.
-> Consider testing it.
-> It uses [Python redistributable builds](https://github.com/indygreg/python-build-standalone) to manage Python versions, so you can choose to use more modern Python versions.
+# Use uv
 
 When using third-party dependencies in your Python code, it is highly interesting to avoid installing any project-specific dependency outside the project.
 
 To achieve that, traditionally virtualenvs are used; those are miniature Python installations where you can install any library you want. Virtualenvs need to be explicitly activated to be used, so it is easy to have a virtualenv for each Python project you are working on.
 
-Poetry is a tool that leverages virtualenvs to manage a project's dependencies, managing virtualenvs automatically.
+uv is a tool that leverages virtualenvs to manage a project's dependencies, managing virtualenvs automatically.
+uv can also manage Python distributions, downloading automatically Python versions other than the existing ones on your system.
 
-There are many similar tools such as pipenv and there are many multiple ways to specify a project's dependencies (`setup.py`, `requirements.txt`, etc.); Poetry provides a convenient way to do everything.
-
-You can install poetry using pipx.
+There are many similar tools such as pipenv and there are many multiple ways to specify a project's dependencies (`setup.py`, `requirements.txt`, etc.); uv provides a convenient way to do everything.
 
 Consider reading [some brief notes about Python dependency management](dependency_handling.md).
 
@@ -62,13 +55,9 @@ Set up your version control so changes cannot be made to your main codeline with
 > Consider testing it.
 > It requires slightly less configuration and it comes with more lints.
 
-## Use Black
+## Use Ruff
 
-Use Black to format your code.
-
-## Use flake8
-
-Use `flake8` to gate changes. Use `flake8-black` to prevent committed code which does not follow Black style.
+Use Ruff to format and lint your code.
 
 # Version control
 
@@ -93,8 +82,6 @@ It is reasonable to support multiple versions of Python 3 from 3.4 onwards. Supp
 Even if you are not running your code using the latest versions of Python, try to support all the newest available versions.
 
 Use continuous integration to run your tests in all supported versions of Python.
-
-This implies that development should be possible to do without using a specific version of Python, so pyenv or similar is not strictly needed.
 
 # Use ipython and ipdb
 
