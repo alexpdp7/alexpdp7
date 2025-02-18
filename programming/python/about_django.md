@@ -109,3 +109,6 @@ For example:
 * [Django REST framework](https://www.django-rest-framework.org/) provides a layer to provide REST APIs on top of the Django ORM.
 * Projects exist to add support for Django for front end frameworks such as [htmx](https://htmx.org/) or [Hotwire](https://hotwired.dev/).
   These frameworks are an intermediate step between traditional server-side-rendered applications and JavaScript front ends, enabling most of the benefits of JavaScript front ends within the traditional server-side rendering approach.
+
+Additionally, providing an API is also useful beyond JavaScript front ends.
+APIs are necessary for other purposes, such as implementing mobile apps to interact with your application, or just providing an API for programmatic access to your application.
