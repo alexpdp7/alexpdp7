@@ -88,3 +88,24 @@ However, while developing a Django application, you frequently need to make many
 
 In my opinion, if you follow the Django documentation, then you might end up using migrations for those development schema changes.
 This is awkward and problematic, and there are procedures to develop database changes that work better.
+
+### Django only tackles database-based, server-side-rendered, non highly interactive web applications
+
+While certainly a huge amount of applications:
+
+* Revolve around data stored in a relational database
+* Are better implemented as server-side rendering applications
+* Do not require very complex or real-time interactions
+
+There are certainly many applications that do not fit this mold.
+
+In my opinion, focusing on database-based applications is a good decision.
+Many Django features (like the admin) revolve around the database, and a framework oriented to other applications likely should be very different.
+
+However, more and more applications break the limits of server-side rendering, and while you can build such applications with Django, you need a lot of effort or finding additional libraries to use.
+
+For example:
+
+* [Django REST framework](https://www.django-rest-framework.org/) provides a layer to provide REST APIs on top of the Django ORM.
+* Projects exist to add support for Django for front end frameworks such as [htmx](https://htmx.org/) or [Hotwire](https://hotwired.dev/).
+  These frameworks are an intermediate step between traditional server-side-rendered applications and JavaScript front ends, enabling most of the benefits of JavaScript front ends within the traditional server-side rendering approach.
