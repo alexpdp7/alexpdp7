@@ -139,6 +139,8 @@ A completely declarative SQL CRUD framework
   -  REST API
 - Commercial frontend for design
 
+** Layer FastAPI on top of the Django ORM to add APIs to Django applications.
+
 * SQL2
 
 See https://github.com/EvgSkv/logica, [[https://prql-lang.org/]]
