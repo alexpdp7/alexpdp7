@@ -112,3 +112,15 @@ For example:
 
 Additionally, providing an API is also useful beyond JavaScript front ends.
 APIs are necessary for other purposes, such as implementing mobile apps to interact with your application, or just providing an API for programmatic access to your application.
+
+### Some common tasks should have more tutorial content
+
+The Django documentation is mostly for reference, covering all Django features, but with little content on how to use Django.
+The items I list below likely are documented on books, websites, forums, etc.
+If you know a good source for many of those, even if it is paid, feel free to let me know to add references.
+
+* Admin
+  * Restricting users to a subset of the instances of a model.
+    For example, users belong to organizations and users should only see instances of some model related to their organization.
+    The FAQ contains [How do I limit admin access so that objects can only be edited by the users who created them?](https://docs.djangoproject.com/en/5.1/faq/admin/#how-do-i-limit-admin-access-so-that-objects-can-only-be-edited-by-the-users-who-created-them), which is a very similar question and points to the features you need to use to achieve these goals.
+    (These requirements are often related to requiring [extending the existing User model](https://docs.djangoproject.com/en/5.1/topics/auth/customizing/#extending-the-existing-user-model).)
