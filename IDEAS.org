@@ -178,12 +178,7 @@ https://github.com/alexpdp7/ubpkg/ (also discusses some alternatives)
 
 * Extensible lightweight markup language
 
-- A language similar to AsciiDoc...
-- But with a well-defined AST
-- Complex nested lists
-- Styling of code blocks (highlighting, user input, replaceable...)
-- See https://github.com/jgm/djot / https://github.com/opendevise/asciidoc-parsing-lab/
-- Helper for "prose linters".
+See [[misc/document-formats.md]]
 
 * Touch controller/meeting controller/desktop shortcuts + calendar
 
