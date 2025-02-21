@@ -128,3 +128,7 @@ If you know a good source for many of those, even if it is paid, feel free to le
     For example, users belong to organizations and users should only see instances of some model related to their organization.
     The FAQ contains [How do I limit admin access so that objects can only be edited by the users who created them?](https://docs.djangoproject.com/en/5.1/faq/admin/#how-do-i-limit-admin-access-so-that-objects-can-only-be-edited-by-the-users-who-created-them), which is a very similar question and points to the features you need to use to achieve these goals.
     (These requirements are often related to requiring [extending the existing User model](https://docs.djangoproject.com/en/5.1/topics/auth/customizing/#extending-the-existing-user-model).)
+  * Having a search UI for reference fields instead of dropdowns.
+    Many projects similar to the admin only offer dropdowns for reference fields.
+    This does not work when the referenced objects are more than a couple.
+    Django calls this [`raw_id_fields`](https://docs.djangoproject.com/en/5.1/ref/contrib/admin/#django.contrib.admin.ModelAdmin.raw_id_fields), and it is difficult to learn that this feature exists.
