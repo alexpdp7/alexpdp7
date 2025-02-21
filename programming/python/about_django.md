@@ -89,6 +89,10 @@ However, while developing a Django application, you frequently need to make many
 In my opinion, if you follow the Django documentation, then you might end up using migrations for those development schema changes.
 This is awkward and problematic, and there are procedures to develop database changes that work better.
 
+I would like a command that recreates your database, applying unmigrated model changes.
+This command could also have hooks to load sample data.
+(Likely, Python code and not fixtures.)
+
 ### Django only tackles database-based, server-side-rendered, non highly interactive web applications
 
 While certainly a huge amount of applications:
