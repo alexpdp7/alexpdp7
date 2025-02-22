@@ -16,9 +16,9 @@ jobs:
       - run: |
           cd blog/
           rustup toolchain install nightly --profile minimal
-          podman login quay.io -u $USER -p $TOKEN --authfile ~/docker-config
+          podman login quay.io -u $BLOG_ROBOT_USERNAME -p $BLOG_ROBOT_TOKEN --authfile ~/docker-config
           chmod ugo+r ~/docker-config
           ./build.rs --docker-config ~/docker-config . quay.io/alexpdp7/blog:latest
         env:
-          USER: ${{ vars.BLOG_ROBOT_USERNAME }}
-          TOKEN: ${{ secrets.BLOG_ROBOT_TOKEN }}
+          BLOG_ROBOT_USERNAME: ${{ vars.BLOG_ROBOT_USERNAME }}
+          BLOG_ROBOT_TOKEN: ${{ secrets.BLOG_ROBOT_TOKEN }}
