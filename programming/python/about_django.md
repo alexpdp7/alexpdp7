@@ -15,6 +15,9 @@ Therefore, I lean towards using frameworks that provide more batteries in most c
 
 In fact, most of the complaints described in this document are caused by Django having too few batteries, not too many!
 
+> [!TIP]
+> [Django training wheels](https://github.com/alexpdp7/django-tws) is my project in alpha to address some of those shortcomings.
+
 ## The Django admin
 
 Besides including more batteries than most other frameworks, and being in general a well-engineered framework in my opinion, Django includes the admin.
