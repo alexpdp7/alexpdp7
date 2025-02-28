@@ -19,20 +19,13 @@
   :config
   (add-hook 'adoc-mode-hook #'abbrev-mode))
 
-(cl-defun slot/vc-install (&key (fetcher "github") repo name rev backend)
-  (let* ((url (format "https://www.%s.com/%s" fetcher repo))
-         (iname (when name (intern name)))
-         (pac-name (or iname (intern (file-name-base repo)))))
-    (unless (package-installed-p pac-name)
-      (package-vc-install url iname rev backend))))
-
 (use-package flymake-vale
-  :init (slot/vc-install :fetcher "github" :repo "tpeacock19/flymake-vale")
-  :ensure t)
-
-(add-hook 'adoc-mode-hook #'flymake-vale-load)
-(add-hook 'find-file-hook 'flymake-vale-maybe-load)
-(add-hook 'adoc-mode-hook 'flymake-mode)
+  :vc (:url "https://github.com/tpeacock19/flymake-vale.git"
+            :rev :newest)
+  :config
+  (add-to-list 'flymake-vale-modes 'adoc-mode)
+  (add-hook 'find-file-hook 'flymake-vale-maybe-load)
+  )
 
 (use-package flymake-aspell
   :ensure t)

@@ -155,3 +155,11 @@
 (setq prolog-system 'swi)
 (setq auto-mode-alist (append '(("\\.pl\\'" . prolog-mode))
                               auto-mode-alist))
+
+(use-package flymake-vale
+  :vc (:url "https://github.com/tpeacock19/flymake-vale.git"
+            :rev :newest)
+  :config
+  (add-to-list 'flymake-vale-modes 'rust-mode)
+  (add-hook 'find-file-hook 'flymake-vale-maybe-load)
+  )
