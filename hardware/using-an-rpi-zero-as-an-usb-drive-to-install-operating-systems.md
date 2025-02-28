@@ -24,6 +24,7 @@ However, without any additional setup, the procedures I describe only work when 
 However, I was confused: you must mount the thin acrylic shield below the USB dongle extension board, then the thick shield over the board, then the Raspberry Pi.)
 
 1. Use the Raspberry Pi Imager to create a MicroSD card for your Raspberry Pi Zero, configuring remote access via SSH and your wireless network.
+1. Add `dtoverlay=dwc2` to `/boot/firmware/config.txt` to enable USB trickery, as per [the adapter instructions](https://wiki.52pi.com/index.php/EP-0097#For_the_latest_Raspberry_Pi_OS).
 1. Connect the Raspberry Pi with the adapter into an always-on USB port of the device you want to use.
 1. Stall the device boot process until you set everything up on the Raspberry.
 1. Connect via ssh over wireless to the Raspberry Pi.
