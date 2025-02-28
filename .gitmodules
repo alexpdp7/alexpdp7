@@ -16,3 +16,6 @@
 [submodule "scripts/PaperWM"]
 	path = scripts/PaperWM
 	url = https://github.com/paperwm/PaperWM.git
+[submodule "linux/thinkpad_x12_fn_switcher"]
+	path = linux/thinkpad_x12_fn_switcher
+	url = https://github.com/manueljaeckle/thinkpad_x12_fn_switcher.git
