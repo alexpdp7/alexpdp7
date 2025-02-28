@@ -6,6 +6,15 @@ Bootstrapping on a Fedora toolbox:
 
 ```
 dnf install pipx emacs-nox xclip
+```
+
+Bootstrapping on Debian:
+
+```
+sudo apt install git pipx emacs-nox xclip
+```
+
+```
 mkdir git
 cd git
 git clone https://github.com/alexpdp7/alexpdp7.git
