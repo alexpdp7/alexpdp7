@@ -15,6 +15,7 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://github.com/reviewdog/reviewdog - Error parser than can annotate GitHub pull requests
   - http://jk.ozlabs.org/projects/patchwork/ - Mailing list patch parser
   - https://github.com/bazelbuild/remote-apis - Bazel's remote APIs for compiling, artifacts, and log streaming; with links to projects that support them
+  - https://github.com/lima-vm/lima-actions - Lima for GitHub Actions
 
 ** Observability
    - https://github.com/equinix-labs/otel-cli
