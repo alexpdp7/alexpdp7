@@ -2,7 +2,7 @@ node 'hideo.mad.int.pdp7.net' {
   class {'workstation':}
   class {'incus':}
   class {'steam':}
-  package {['zfs-dkms', 'sanoid']:}
+  package {['zfs-dkms', 'sanoid', 'nextcloud-desktop']:}
 
   # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1026008
   Package[$ipa_client_package]
