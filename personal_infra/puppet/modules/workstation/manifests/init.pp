@@ -2,8 +2,7 @@ class workstation {
   package {['rclone', 'sshpass', 'python3-pip', 'xclip']:}
 
   if ($facts['os']['family'] == 'Debian') {
-    # make nextcloud-desktop a separate class
-    package {['nextcloud-desktop', 'gnome-shell-extension-appindicator']:}
+    package {['gnome-shell-extension-appindicator']:}
 
     file {'/etc/apt/keyrings/packages.mozilla.org.asc':
       content => @(EOT)
