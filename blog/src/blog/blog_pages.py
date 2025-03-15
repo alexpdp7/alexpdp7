@@ -1,4 +1,5 @@
 import datetime
+import importlib.resources
 import itertools
 import pathlib
 import textwrap
@@ -12,15 +13,18 @@ from feedgen import feed
 from blog import html, page, gemtext, meta, pretty
 
 
+CONTENT = importlib.resources.files("content").iterdir().__next__().parent
+
 def gemini_links():
     return "\n".join([f"=> {url} {text}" for text, url in meta.LINKS])
 
 
 class Entry:
     def __init__(self, path: pathlib.Path):
-        assert path.is_relative_to(pathlib.Path("content")), f"bad path {path}"
+        assert path.is_relative_to(CONTENT), f"bad path {path} not relative to {CONTENT}"
         self.path = path
         self.content = path.read_text()
+        self.relative_path = path.relative_to(CONTENT)
 
     @property
     def title(self):
@@ -32,7 +36,7 @@ class Entry:
 
     @property
     def uri(self):
-        return f"/{self.path.parts[1]}/{self.path.parts[2]}/{self.path.stem}/"
+        return f"/{self.relative_path.parts[0]}/{self.relative_path.parts[1]}/{self.relative_path.stem}/"
 
     @property
     def edit_url(self):
@@ -56,7 +60,7 @@ class Entry:
 
 class Root(page.BasePage):
     def entries(self):
-        entries = map(Entry, pathlib.Path("content").glob("*/*/*.gmi"))
+        entries = map(Entry, CONTENT.glob("*/*/*.gmi"))
         return sorted(entries, key=lambda e: e.posted, reverse=True)
 
     def get_gemini_content(self):

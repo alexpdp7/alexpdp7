@@ -8,6 +8,5 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           cd blog/
-          pipx install poetry
-          poetry install
-          poetry run pytest
+          pipx install uv
+          uv run pytest

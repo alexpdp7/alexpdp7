@@ -22,27 +22,30 @@ items:
           app: blog
       spec:
         containers:
-        - command:
-          - /cnb/lifecycle/launcher
-          - python
-          - -m
-          - blog
-          - --key-cert
-          - /tls-gemini/tls.key
-          - /tls-gemini/tls.crt
-          - https
-          - alex.corcoles.net
-          env:
-            - name: OTEL_EXPORTER_OTLP_ENDPOINT
-              value: http://clickhouse.h1.int.pdp7.net:4317
-            - name: OTEL_EXPORTER_OTLP_INSECURE
-              value: "true"
-          image: quay.io/alexpdp7/blog:latest
-          imagePullPolicy: Always
-          name: blog
-          volumeMounts:
-            - mountPath: /tls-gemini
-              name: tls-gemini
+          - image: ghcr.io/astral-sh/uv:debian
+            command:
+              - uv
+              - run
+              - --with
+              - git+https://github.com/alexpdp7/alexpdp7.git@blog-respect-dark-mode#subdirectory=blog
+              - python
+              - -m
+              - blog
+              - --key-cert
+              - /tls-gemini/tls.key
+              - /tls-gemini/tls.crt
+              - https
+              - alex.corcoles.net
+            env:
+              - name: OTEL_EXPORTER_OTLP_ENDPOINT
+                value: http://clickhouse.h1.int.pdp7.net:4317
+              - name: OTEL_EXPORTER_OTLP_INSECURE
+                value: "true"
+            imagePullPolicy: Always
+            name: blog
+            volumeMounts:
+              - mountPath: /tls-gemini
+                name: tls-gemini
         volumes:
           - name: tls-gemini
             secret:
