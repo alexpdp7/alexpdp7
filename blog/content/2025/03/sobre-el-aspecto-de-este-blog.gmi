@@ -1,0 +1,26 @@
+# Sobre el aspecto de este blog
+2025-03-15
+
+Han pasado 15 días desde que me saltó la alarma mensual de escribir algo en el blog. Pero claro, lo que he decidido hacer antes de eso es un retoque insignificante (y que está mal) en el aspecto de este blog.
+
+Y como este blog es un alarde de sobreingeniería, he estado dos horas y pico para hacer el cambio, porque he tenido que arreglar otros problemas que tenía coleando por ahí. Pero al menos supongo que me da para hacer la entrada que tocaba.
+
+Este blog aspira a tener el diseño más neutro del mundo. De hecho, mi mayor deseo sería que el lector del blog y no yo, sea quien decida el aspecto. Esta es una de las cosas que me gustan de Gemini[1], que como no permite ningún estilo, se supone que cada persona configura su navegador de Gemini a su gusto. (Este blog es visible también en Gemini, claro. Os animo a usarlo.)
+
+Mi táctica habitual es aplicar la menor cantidad de CSS posible, pero por diversos motivos (incluyendo la presión social), al final ajusto cosas.
+
+Tradicionalmente tenía:
+
+* Configuro el "viewport" para que la web se vea bien en móvil. Esto es de lo que más me toca las narices; los navegadores no pueden cambiar el comportamiento por defecto que tienen desde tiempos inmemoriales (porque "romperían" muchas páginas), y para hacer una página HTML que se vea bien en todos los dispositivos, es necesario meter un puñetero atributo en todas y cada una de las páginas HTML que escribimos.
+
+* Ajusto el texto para que tenga un ancho limitado y esté centrado en la página, por legibilidad en pantallas grandes. También aumento el tamaño y el espacio entre líneas ligeramente siguiendo lo que hace el modo de legibilidad de Firefox.
+
+* Ajusto el color de fondo para que no sea blanco puro (por presión social).
+
+Pero el otro día me di cuenta de que había una preferencia del usuario que no respetaba: el modo oscuro. El modo oscuro no es santo de mi devoción, pero ciertamente si mi intención es que cada persona vea mi blog como prefiera, debo ceder y respetarlo. Si leéis esta entrada directamente con modo oscuro, debería tener el fondo oscuro.
+
+(Los colores de los enlaces no me convencen, pero no tengo claro qué colores debería usar :(
+
+Lo otro que he toqueteado es que aunque pensaba que especificar el tipo de letra "system-ui" sería más acorde a las preferencias del usuario. Pero me he dado cuenta de que "system-ui" se salta las preferencias especificadas en el navegador, y al menos en el sistema operativo que uso (Gnome), cambiar la fuente del sistema es más complicado que cambiar las preferencias de tipos de letras del navegador. Firefox por defecto usa un tipo de letra con serifa, mientras que la fuente de mi sistema es sin serifa. Me dicen que para mayor legibilidad, en pantalla son preferibles las fuentes sin serifa, con lo que me temo que si es así, mi recomendación sería que ajustéis la fuente por defecto de vuestro navegador, pues por defecto parece que usan fuentes con serifa.
+
+=> https://geminiprotocol.net/ [1] Gemini
