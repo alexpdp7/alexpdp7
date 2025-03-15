@@ -1,29 +1,28 @@
 import dataclasses
 import re
-import typing
 
 
 def parse(s):
-    """
+    r"""
     >>> parse('''# Header 1
-    ... 
+    ...
     ... ## Header 2
-    ... 
+    ...
     ... ### Header 3
-    ... 
+    ...
     ... * List 1
     ... * List 2
-    ... 
+    ...
     ... > First line quote.
     ... > Second line of quote.
-    ... 
+    ...
     ... ```
     ... Fenced
     ... Lines
     ... ```
-    ... 
+    ...
     ... Paragraph.
-    ... 
+    ...
     ... Another paragraph.
     ... ''')
     [Header(level=1, text='Header 1'),
@@ -38,13 +37,12 @@ def parse(s):
      BlockQuote(lines=[BlockQuoteLine(text='First line quote.'),
                        BlockQuoteLine(text='Second line of quote.')]),
      Line(text=''),
-     Pre(content='Fenced\\nLines\\n'),
+     Pre(content='Fenced\nLines\n'),
      Line(text=''),
      Line(text='Paragraph.'),
      Line(text=''),
      Line(text='Another paragraph.')]
     """
-
     lines = s.splitlines()
 
     i = 0
@@ -121,7 +119,7 @@ class Link:
     """
 
     url: str
-    text: typing.Optional[str]
+    text: str | None
 
     def __init__(self, line: str):
         assert Link.is_link(line)
@@ -132,6 +130,7 @@ class Link:
     @staticmethod
     def is_link(line: str):
         return line.startswith("=>")
+
 
 @dataclasses.dataclass
 class Header:
@@ -157,6 +156,7 @@ class Header:
     @staticmethod
     def is_header(line: str):
         return re.match("#{1,3} .*", line)
+
 
 @dataclasses.dataclass
 class ListItem:
@@ -210,12 +210,12 @@ class Line:
 
 @dataclasses.dataclass
 class List:
-    items: typing.List[ListItem]
+    items: list[ListItem]
 
 
 @dataclasses.dataclass
 class BlockQuote:
-    lines: typing.List[BlockQuoteLine]
+    lines: list[BlockQuoteLine]
 
 
 @dataclasses.dataclass

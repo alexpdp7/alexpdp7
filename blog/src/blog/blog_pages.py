@@ -10,10 +10,11 @@ import htmlgenerator as h
 
 from feedgen import feed
 
-from blog import html, page, gemtext, meta, pretty
+from blog import gemtext, html, meta, page, pretty
 
 
 CONTENT = importlib.resources.files("content").iterdir().__next__().parent
+
 
 def gemini_links():
     return "\n".join([f"=> {url} {text}" for text, url in meta.LINKS])
@@ -21,7 +22,9 @@ def gemini_links():
 
 class Entry:
     def __init__(self, path: pathlib.Path):
-        assert path.is_relative_to(CONTENT), f"bad path {path} not relative to {CONTENT}"
+        assert path.is_relative_to(CONTENT), (
+            f"bad path {path} not relative to {CONTENT}"
+        )
         self.path = path
         self.content = path.read_text()
         self.relative_path = path.relative_to(CONTENT)
@@ -36,7 +39,19 @@ class Entry:
 
     @property
     def uri(self):
-        return f"/{self.relative_path.parts[0]}/{self.relative_path.parts[1]}/{self.relative_path.stem}/"
+        """
+        >>> Entry(CONTENT / "2003/11/toda-saga-tiene-su-inicio.gmi").uri
+        '/2003/11/toda-saga-tiene-su-inicio/'
+        """
+        return "/".join(
+            [
+                "",
+                self.relative_path.parts[0],
+                self.relative_path.parts[1],
+                self.relative_path.stem,
+                "",
+            ]
+        )
 
     @property
     def edit_url(self):
@@ -88,7 +103,9 @@ class Root(page.BasePage):
         return (
             bicephalus.Status.OK,
             "text/html",
-            html.html_template(*itertools.chain(posts), path=self.request.path, full=True),
+            html.html_template(
+                *itertools.chain(posts), path=self.request.path, full=True
+            ),
         )
 
     def feed(self):
@@ -101,7 +118,13 @@ class Root(page.BasePage):
             fe = fg.add_entry()
             url = f"{meta.SCHEMA}://{meta.HOST}/{entry.uri}"
             fe.link(href=url)
-            fe.published(datetime.datetime.combine(entry.posted, datetime.datetime.min.time(), tzinfo=datetime.timezone.utc))
+            fe.published(
+                datetime.datetime.combine(
+                    entry.posted,
+                    datetime.datetime.min.time(),
+                    tzinfo=datetime.UTC,
+                )
+            )
             fe.title(entry.title)
             html = h.render(h.BaseElement(*entry.html()), {})
             html = pretty.pretty_html(html)
@@ -126,9 +149,9 @@ class EntryPage(page.BasePage):
                 => gemini://{meta.HOST} alex.corcoles.net
                 {meta.EMAIL_TEXT}
 
-            """) +
-            self.entry.content +
-            textwrap.dedent(f"""\
+            """)
+            + self.entry.content
+            + textwrap.dedent(f"""\
                 => {self.entry.edit_url} Editar
             """)
         )

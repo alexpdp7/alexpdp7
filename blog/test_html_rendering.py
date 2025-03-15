@@ -1,5 +1,3 @@
-import pathlib
-
 import pytest
 
 from blog import blog_pages

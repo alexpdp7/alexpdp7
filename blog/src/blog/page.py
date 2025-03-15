@@ -22,7 +22,6 @@ class BasePage:
 
 class NotFound(BasePage):
     def get_gemini_content(self):
-        # TODO: does not work!
         return (
             bicephalus.Status.NOT_FOUND,
             "text/gemini",

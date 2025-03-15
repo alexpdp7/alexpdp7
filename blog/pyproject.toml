@@ -32,3 +32,14 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel.force-include]
 "content" = "content"
 "static" = "static"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+   "E741",                        # Ambiguous variable name (single letter variable)
+   "ANN",                         # Missing type annotations
+   "D1",                          # Missing docstrings
+   "B011", "PT015", "S101",       # I am wrong in liking asserts, but I do
+   "COM812",                      # Trailing comma missing, incompatible with ruff format
+   "D400", "D415", "D212", "D205" # I like doctests without docstrings
+]
