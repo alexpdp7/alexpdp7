@@ -176,6 +176,8 @@ https://github.com/alexpdp7/ubpkg/ (also discusses some alternatives)
 - Manifests describe how to fetch binaries (e.g. from GitHub releases)
 - Manifests are just files that can be referenced by URLs, or be contained in repositories of manifests
 
+* Tvheadend XMLTV export and metadata restructuring
+
 * Extensible lightweight markup language
 
 See [[misc/document-formats.md]]
