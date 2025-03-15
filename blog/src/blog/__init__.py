@@ -1,12 +1,11 @@
 import importlib.resources
-import pathlib
 import re
 
 import bicephalus
 
 import htmlgenerator as h
 
-from blog import blog_pages, page, html, pretty, gemtext
+from blog import blog_pages, gemtext, html, page, pretty
 
 
 STATIC = importlib.resources.files("static").iterdir().__next__().parent
@@ -19,7 +18,7 @@ class SimplePage(page.BasePage):
         self.title = title
 
     def get_gemini_content(self):
-        file = (STATIC / self.url[1:] / "index.gmi")
+        file = STATIC / self.url[1:] / "index.gmi"
         return (
             bicephalus.Status.OK,
             "text/gemini",
@@ -30,19 +29,29 @@ class SimplePage(page.BasePage):
         return (
             bicephalus.Status.OK,
             "text/html",
-            pretty.pretty_html(h.render(
-            h.HTML(
-                h.HEAD(
-                    h.TITLE(self.title),
-                ),
-                h.BODY(*html.gemini_to_html(gemtext.parse(self.get_gemini_content()[2])))
-            ), {})),
+            pretty.pretty_html(
+                h.render(
+                    h.HTML(
+                        h.HEAD(
+                            h.TITLE(self.title),
+                        ),
+                        h.BODY(
+                            *html.gemini_to_html(
+                                gemtext.parse(self.get_gemini_content()[2])
+                            )
+                        ),
+                    ),
+                    {},
+                )
+            ),
         )
 
 
 def handler(request: bicephalus.Request) -> bicephalus.Response:
     if not request.path.endswith("/"):
-        return bicephalus.Response(request.path + "/", None, bicephalus.Status.PERMANENT_REDIRECTION)
+        return bicephalus.Response(
+            request.path + "/", None, bicephalus.Status.PERMANENT_REDIRECTION
+        )
     if request.path == "/":
         return blog_pages.Root(request).response()
     if re.match(r"/\d{4}/\d{2}/.*/", request.path):
@@ -56,6 +65,8 @@ def handler(request: bicephalus.Request) -> bicephalus.Response:
     if request.path == "/laspelis/":
         return SimplePage(request, request.path, "laspelis").response()
     if re.match(r"/laspelis/\d+/", request.path):
-        return SimplePage(request, request.path.removesuffix("/") + "/", request.path).response()
+        return SimplePage(
+            request, request.path.removesuffix("/") + "/", request.path
+        ).response()
 
     return page.NotFound(request).response()

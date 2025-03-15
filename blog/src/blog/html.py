@@ -3,7 +3,7 @@ import textwrap
 
 import htmlgenerator as h
 
-from blog import meta, pretty, gemtext
+from blog import gemtext, meta, pretty
 
 
 def html_template(*content, page_title=None, path, full):
@@ -13,7 +13,9 @@ def html_template(*content, page_title=None, path, full):
 
     title = h.BaseElement(*title)
 
-    links = list(itertools.chain(*[(h.A(text, href=href), ", ") for text, href in meta.LINKS]))
+    links = list(
+        itertools.chain(*[(h.A(text, href=href), ", ") for text, href in meta.LINKS])
+    )
 
     links += [h.BaseElement(f" {meta.EMAIL_TEXT}")]
 
@@ -21,18 +23,30 @@ def html_template(*content, page_title=None, path, full):
     if full:
         full_part = [
             h.H2(meta.SUBTITLE),
-            h.P(h.A("Buscar con DuckDuckGo en esta página", href="https://html.duckduckgo.com/html/?q=site:alex.corcoles.net")),
+            h.P(
+                h.A(
+                    "Buscar con DuckDuckGo en esta página",
+                    href="https://html.duckduckgo.com/html/?q=site:alex.corcoles.net",
+                )
+            ),
             h.P(*links),
         ]
 
     gemini_url = f"gemini://alex.corcoles.net{path}"
 
-    return pretty.pretty_html(h.render(
-        h.HTML(
-            h.HEAD(
-                h.TITLE(meta.TITLE + (f" - {page_title}" if page_title else "")),
-                h.LINK(rel="alternate", type="application/rss+xml", title=meta.TITLE, href=f"{meta.SCHEMA}://{meta.HOST}/feed/"),
-                h.STYLE(textwrap.dedent("""
+    return pretty.pretty_html(
+        h.render(
+            h.HTML(
+                h.HEAD(
+                    h.TITLE(meta.TITLE + (f" - {page_title}" if page_title else "")),
+                    h.LINK(
+                        rel="alternate",
+                        type="application/rss+xml",
+                        title=meta.TITLE,
+                        href=f"{meta.SCHEMA}://{meta.HOST}/feed/",
+                    ),
+                    h.STYLE(
+                        textwrap.dedent("""
                     body {
                         max-width: 40em;
                         margin-left: auto;
@@ -53,23 +67,28 @@ def html_template(*content, page_title=None, path, full):
                         line-height: 1.6em;
                         font-size: 20px;
                     }
-                """).lstrip())
-            ),
-            h.BODY(
-                h.P(
-                    "Contenido tambien disponible en Gemini en ",
-                    h.A(gemini_url, href=gemini_url),
-                    ". ",
-                    h.A("Información sobre Gemini.", href="https://geminiprotocol.net/"),
+                """).lstrip()
+                    ),
                 ),
-                h.H1(title),
-                *full_part,
-                *content,
+                h.BODY(
+                    h.P(
+                        "Contenido tambien disponible en Gemini en ",
+                        h.A(gemini_url, href=gemini_url),
+                        ". ",
+                        h.A(
+                            "Información sobre Gemini.",
+                            href="https://geminiprotocol.net/",
+                        ),
+                    ),
+                    h.H1(title),
+                    *full_part,
+                    *content,
+                ),
+                doctype="html",
             ),
-            doctype="html",
-        ),
-        {},
-    ))
+            {},
+        )
+    )
 
 
 def gemini_to_html(parsed):
@@ -93,7 +112,9 @@ def gemini_to_html(parsed):
             url = gem_element.url
             if url.startswith("gemini://"):
                 if url.startswith("gemini://alex.corcoles.net/"):
-                    url = url.replace("gemini://alex.corcoles.net/", f"{meta.SCHEMA}://{meta.HOST}/")
+                    url = url.replace(
+                        "gemini://alex.corcoles.net/", f"{meta.SCHEMA}://{meta.HOST}/"
+                    )
                 else:
                     url = url.replace("gemini://", "https://portal.mozz.us/gemini/")
 
