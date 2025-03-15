@@ -41,7 +41,6 @@ def html_template(*content, page_title=None, path, full):
                         padding-right: 2em;
                         background-color: #fffffa;
                         color: #000000;
-                        font-family: system-ui;
                     }
                     @media (prefers-color-scheme: dark) {
                         body {
