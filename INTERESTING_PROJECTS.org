@@ -99,6 +99,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/matklad/xshell - Rust as a shell replacement, with nice interpolation
    - https://github.com/bytecodealliance/cap-std - Safer, opt-in file access
    - https://www.lurklurk.org/effective-rust/ - Effective Rust, a Rust book beyond the Rust documentation
+   - https://gitlab.com/DPDmancul/clap-serde-derive - derive configuration files and Clap from the same structs
 **** Async
    - https://zoo.dev/blog/introducing-delouse - Async debugging
 *** Java
