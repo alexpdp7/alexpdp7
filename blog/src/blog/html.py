@@ -47,20 +47,15 @@ def html_template(*content, page_title=None, path, full):
                     ),
                     h.STYLE(
                         textwrap.dedent("""
+                        :root {
+                            color-scheme: light dark;
+                        }
                         body {
                             max-width: 40em;
                             margin-left: auto;
                             margin-right: auto;
                             padding-left: 2em;
                             padding-right: 2em;
-                            background-color: #fffffa;
-                            color: #000000;
-                        }
-                        @media (prefers-color-scheme: dark) {
-                            body {
-                                background-color: #000000;
-                                color: #fffffa;
-                            }
                         }
                         p, blockquote, li {
                             /* from Mozilla reader mode */
