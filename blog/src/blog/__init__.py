@@ -2,11 +2,9 @@ import importlib.resources
 import re
 
 import bicephalus
-
 import htmlgenerator as h
 
 from blog import blog_pages, gemtext, html, page, pretty
-
 
 STATIC = importlib.resources.files("static").iterdir().__next__().parent
 
@@ -47,7 +45,7 @@ class SimplePage(page.BasePage):
         )
 
 
-def handler(request: bicephalus.Request) -> bicephalus.Response:
+def handler(request: bicephalus.Request) -> bicephalus.Response:  # noqa: PLR0911
     if not request.path.endswith("/"):
         return bicephalus.Response(
             request.path + "/", None, bicephalus.Status.PERMANENT_REDIRECTION
