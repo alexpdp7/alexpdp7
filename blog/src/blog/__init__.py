@@ -1,3 +1,4 @@
+import importlib.resources
 import pathlib
 import re
 
@@ -8,6 +9,9 @@ import htmlgenerator as h
 from blog import blog_pages, page, html, pretty, gemtext
 
 
+STATIC = importlib.resources.files("static").iterdir().__next__().parent
+
+
 class SimplePage(page.BasePage):
     def __init__(self, request, url, title):
         super().__init__(request)
@@ -15,10 +19,11 @@ class SimplePage(page.BasePage):
         self.title = title
 
     def get_gemini_content(self):
+        file = (STATIC / self.url[1:] / "index.gmi")
         return (
             bicephalus.Status.OK,
             "text/gemini",
-            pathlib.Path(f"static{self.url}index.gmi").read_text(),
+            file.read_text(),
         )
 
     def get_http_content(self):
@@ -41,7 +46,7 @@ def handler(request: bicephalus.Request) -> bicephalus.Response:
     if request.path == "/":
         return blog_pages.Root(request).response()
     if re.match(r"/\d{4}/\d{2}/.*/", request.path):
-        blog_file = pathlib.Path("content") / (request.path[1:-1] + ".gmi")
+        blog_file = blog_pages.CONTENT / (request.path[1:-1] + ".gmi")
         if blog_file.exists():
             return blog_pages.EntryPage(request, blog_file).response()
     if request.path == "/feed/" and request.proto == bicephalus.Proto.HTTP:
