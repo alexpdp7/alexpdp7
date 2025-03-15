@@ -3,11 +3,9 @@ import logging
 import sys
 
 from bicephalus import main as bicephalus_main
-from bicephalus import otel
-from bicephalus import ssl
+from bicephalus import otel, ssl
 
 import blog
-
 from blog import meta
 
 

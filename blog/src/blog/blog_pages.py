@@ -5,13 +5,10 @@ import pathlib
 import textwrap
 
 import bicephalus
-
 import htmlgenerator as h
-
 from feedgen import feed
 
 from blog import gemtext, html, meta, page, pretty
-
 
 CONTENT = importlib.resources.files("content").iterdir().__next__().parent
 
