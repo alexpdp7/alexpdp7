@@ -27,7 +27,7 @@ items:
               - uv
               - run
               - --with
-              - git+https://github.com/alexpdp7/alexpdp7.git@blog-respect-dark-mode#subdirectory=blog
+              - git+https://github.com/alexpdp7/alexpdp7.git#subdirectory=blog
               - python
               - -m
               - blog
