@@ -125,7 +125,7 @@ class Link:
         assert Link.is_link(line)
         parts = line.split(None, 2)
         self.url = parts[1]
-        self.text = parts[2] if len(parts) > 2 else None
+        self.text = parts[2] if len(parts) > 2 else None  # noqa: PLR2004, > 2 "magic constant"
 
     @staticmethod
     def is_link(line: str):
