@@ -4,7 +4,6 @@ class proxmox::proxy ($mail, $base_hostname) {
   service {'apache2':
     enable => true,
     ensure => running,
-    require => File['/usr/local/bin/notify_md_renewal'],
   }
 
   $apache_dep = {
@@ -24,7 +23,6 @@ class proxmox::proxy ($mail, $base_hostname) {
     MDomain $base_hostname auto
     MDCertificateAgreement accepted
     MDContactEmail $mail
-    MDNotifyCmd /usr/local/bin/notify_md_renewal
 
     <VirtualHost *:443>
       ServerName $base_hostname
@@ -35,7 +33,7 @@ class proxmox::proxy ($mail, $base_hostname) {
     * => $apache_dep
   }
 
-  file {'/usr/local/bin/notify_md_renewal':
+  file {'/etc/cron.daily/renew_md_certificates':
     content => @("EOT"/$)
     #!/bin/sh
 
@@ -46,7 +44,7 @@ class proxmox::proxy ($mail, $base_hostname) {
     done
     | EOT
     ,
-    mode => '4755',
+    mode => '0755',
   }
 
   service {'nagios':}
