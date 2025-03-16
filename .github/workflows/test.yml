@@ -9,4 +9,5 @@ jobs:
       - run: |
           cd blog/
           pipx install uv
+          uv tool run ruff check
           uv run pytest
