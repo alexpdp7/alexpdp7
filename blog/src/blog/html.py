@@ -86,7 +86,7 @@ def html_template(*content, page_title=None, path, full):
     )
 
 
-def gemini_to_html(parsed):
+def gemini_to_html(parsed):  # noqa: C901, PLR0912, PLR0915
     i = 0
     result = []
     while i < len(parsed):
