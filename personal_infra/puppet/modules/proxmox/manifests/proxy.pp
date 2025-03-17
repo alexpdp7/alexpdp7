@@ -37,7 +37,7 @@ class proxmox::proxy ($mail, $base_hostname) {
     content => @("EOT"/$)
     #!/bin/sh
 
-    pvenode cert set /etc/apache2/md/domains/$base_hostname/pubcert.pem /etc/apache2/md/domains/$base_hostname/privkey.pem  --force 1 --restart 1
+    pvenode cert set /etc/apache2/md/domains/$base_hostname/pubcert.pem /etc/apache2/md/domains/$base_hostname/privkey.pem  --force 1 --restart 1 >/dev/null
 
     for hook in /usr/local/bin/notify_md_renewal_hook_* ; do
       \$hook
