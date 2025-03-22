@@ -109,6 +109,11 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 
 ** Run Android on powerful x86 inside Kodi https://github.com/supechicken/waydroid-androidtv-build
 
+** Streaming service planner
+
+- List shows you want to see, see a calendar of releases by service
+- Prototype: https://github.com/alexpdp7/strsvcp
+
 * Userland WASM Linux distro
 
 - Bootstrap a Linux distro to run on WASM
@@ -117,10 +122,6 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 - Should be able to run on non-POSIX filesystems
 - Could replace Docker/containers for developers
 - Similar to https://github.com/WAVM/Wavix
-
-** Streaming service planner
-
-- List shows you want to see, see a calendar of releases by service
 
 * Databases in text markup documents
 
