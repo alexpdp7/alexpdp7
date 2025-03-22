@@ -118,6 +118,10 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 - Could replace Docker/containers for developers
 - Similar to https://github.com/WAVM/Wavix
 
+** Streaming service planner
+
+- List shows you want to see, see a calendar of releases by service
+
 * Databases in text markup documents
 
 - Embed queries of tables
