@@ -288,3 +288,4 @@ See [[misc/document-formats.md]].
 * Other
   - https://github.com/jhuangtw/xg2xg
   - https://european-alternatives.eu/
+  - https://developer.themoviedb.org/ rate-limited APIs for TV shows and movies with airdates
