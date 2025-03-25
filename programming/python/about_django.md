@@ -32,7 +32,7 @@ Many similar tools exist, but I have not found any other tool that can do so muc
 
 * The Django admin has a simple, but useful for many scenarios permissions functionality, where editing certain entities is restricted to groups of users.
 
-The Django admin is frequently a big boost during the early development of database-backed applications, and sometimes I can provide value during a big part of the life of an application.
+The Django admin is frequently a big boost during the early development of database-backed applications, and sometimes it can provide value during a big part of the life of an application.
 
 Additionally, traditionally when working with frameworks without an equivalent facility, the friction of adding an interface to edit a piece of data can be large.
 Developers pressed for time might opt to hardcode the data in the source code of the application, requiring code changes to modify certain behaviors of the application.
