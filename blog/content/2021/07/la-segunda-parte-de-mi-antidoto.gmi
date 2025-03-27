@@ -1,7 +1,7 @@
 # La segunda parte de mi antídoto
 2021-07-23
 
-=> https://farside.link/invidious/watch?v=b0BTs66JAgM Está aquí, claro.
+=> https://youtube.com/watch?v=b0BTs66JAgM Está aquí, claro.
 
 Si escribís scripts de shell, haríais bien en leer cosas como [1] o [2].
 

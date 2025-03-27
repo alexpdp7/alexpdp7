@@ -3,4 +3,4 @@
 
 (malpensaos [1])
 
-=> https://farside.link/invidious/watch?v=K2cYWfq--Nw [1] malpensaos
+=> https://youtube.com/watch?v=K2cYWfq--Nw [1] malpensaos

@@ -9,7 +9,7 @@ Las órdenes son relativamente simples y dispones de un modo de previsualizació
 
 Para el aspecto visual, podéis echarle un vistazo al trailer:
 
-=> https://farside.link/invidious/watch?v=BOlV_9DYnOw
+=> https://youtube.com/watch?v=BOlV_9DYnOw
 
 , los gráficos son sencillos y atractivos (y como bonus, ¡funciona aceptablemente hasta en mi netbook!).
 

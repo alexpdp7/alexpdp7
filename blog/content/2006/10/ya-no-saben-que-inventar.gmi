@@ -16,4 +16,4 @@ Quizás por esa conversación, quizás por confraternizar con el genio que dijo 
 Quizás en unos días haga una reseña más completa (tarjeta de dos gigas en mano), pero de momento, bonita pantalla, bonita reproducción de video, aspecto medianamente aceptable, ligeros problemas (no sincroniza por IrMC [4] como los Sony Ericsson, con lo cual no puedo usar mi sincronización de agenda habitual y su sistema de USB no debe ser muy educado, porque cuando lo desconecto, el subsistema de USB Storage de Linux se va a tomar viento), bonita cámara y bueno, ya veremos como sale el hermano de R2-D2 (a) [5].
 
 => http://en.wikipedia.org/wiki/Bluetooth_profile#Synchronisation_Profile_.28SYNCH.29 [4] IrMC
-=> https://farside.link/invidious/watch?v=x2GAsrYBAjY [5] R2-D2 (a)
+=> https://youtube.com/watch?v=x2GAsrYBAjY [5] R2-D2 (a)

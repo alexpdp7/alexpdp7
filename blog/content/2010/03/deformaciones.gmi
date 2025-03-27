@@ -7,8 +7,8 @@ De cómo Paul Kalkbrenner [1] (estamos pendientes de experimentar esto [2]) conv
 
 => http://en.wikipedia.org/wiki/Paul_Kalkbrenner [1] Paul Kalkbrenner
 => http://www.imdb.com/title/tt1213019/ [2] esto
-=> https://farside.link/invidious/watch?v=_Y7D8eUrjMc [3] la horripilante Momposina
-=> https://farside.link/invidious/watch?v=EzGL0uUyWsQ [4] algo completamente diferente
+=> https://youtube.com/watch?v=_Y7D8eUrjMc [3] la horripilante Momposina
+=> https://youtube.com/watch?v=EzGL0uUyWsQ [4] algo completamente diferente
 
 >
 >

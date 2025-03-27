@@ -14,7 +14,7 @@ A las entregas anteriores:
 
 Ahora hay que añadirle otro más (y quizá, aún más inexplicable):
 
-=> https://farside.link/invidious/watch?v=6gUiQ8CqLcY Travis Scott - Sirens
+=> https://youtube.com/watch?v=6gUiQ8CqLcY Travis Scott - Sirens
 
 => gemini://alex.corcoles.net/2022/11/el-doble-factor-y-su-progenitora/ Debo admitir que cuando os cité el XKCD sobre precisión y exactitud, creo que no lo entendí completamente. Pero porque fui tan vago de no mirar los artículos de la Wikipedia sobre el tema:
 
