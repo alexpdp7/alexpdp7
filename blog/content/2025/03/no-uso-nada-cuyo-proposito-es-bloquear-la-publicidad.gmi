@@ -1,0 +1,30 @@
+# No uso nada cuyo propósito es bloquear la publicidad
+2025-03-27
+
+Aunque vaya por delante que bloqueo mucha publicidad accidentalmente.
+
+No uso ni Pi-hole, ni uBlock Origin, ni ningúna interfaz alternativa de YouTube.
+
+Sí uso la extensión de Firefox NoScript. NoScript es una herramienta para desactivar el JavaScript en las páginas web. Uso la configuración en la que el JavaScript sólo funciona para los dominios que apruebo.
+
+Muy frecuentemente, esto elimina toda la publicidad de muchas páginas web, ya que muchísima publicidad está basada en JavaScript, y en particular, JavaScript hospedado en dominios de empresas de publicidad. Pero no es un mecanismo muy efectivo; por ejemplo me como toda la publicidad en Google, YouTube y muchos sitios más.
+
+(Es decir: si no queréis ver publicidad, usad algo que no sea NoScript. Además es un tostón soberano usarlo. Yo lo uso porque creo que JavaScript es nocivo para las páginas web en las que simplemente pretendo leer algo, más que nada porque cada vez requerimos de sistemas más potentes para ejecutar cada vez más JavaScript que no tiene nada que ver con lo que queremos leer.)
+
+(Cada vez menos, pero desactivar el JavaScript también desactiva a veces muros de pago.)
+
+En mi caso, bloquear la publicidad me parece algo netamente negativo. La verdad, quiero ser consciente de la publicidad, y que esto influya en mis hábitos de navegación. (Ciertamente es contradictorio que use NoScript entonces, ya que me evita mucha publicidad. Pero también me influye en que navego más por páginas web que funcionan sin JavaScript, lo que creo que tiene unos efectos similares a evitar navegar por las páginas que tienen mucha publicidad.)
+
+La verdad que cuando uso YouTube, me como bastantes anuncios. Pero creo que esto hace que seleccione más cuidadosamente a qué dedico mi tiempo.
+
+(Y oye, si alguien que hace un vídeo que considero valioso, y su deseo es recibir algo de dinero por publicidad, ¿quizá debería respetar los deseos de la persona que crea algo que me gusta? Soy consciente de que este razonamiento tiene problemas por todos lados, pero quiero pensar que al menos en parte es válido.)
+
+También es cierto que pago por un servicio de streaming de música (y curiosamente en 2016 me decanté por Google Play Music porque la publicidad de Spotify me molestaba tanto que me parecía mal pagar para evitarla) y me suscribo a servicios de streaming de series y películas porque hace tiempo que mayormente sólo pirateo si quiero ver algo que no está disponible en streaming. (En realidad, lo que debería hacer es volver a comprar medio físico y digitalizarlo. Es una opción que mayormente hemos olvidado colectivamente, pero que quizá sea mucho mejor que los servicios de streaming.)
+
+Otra vía que exploro es que si buscamos un poco, hay maneras más interesantes de encontrar contenidos. Esto me parece especialmente interesante y efectivo para libros y prensa; creo también que debería consumir más radio y más música disponible libremente, aunque de momento no tengo energía suficiente como para ser efectivo. También hay bastante que explorar entre lo que hay con derechos de autor caducados.
+
+En el pasado, también tiré de promociones tipo los Humble Bundle, de donde he sacado bastantes videojuegos a los que he jugado bastante y otros a los que no he jugado nada. También he acumulado libros que nunca leeré.
+
+En mi opinión, tanto bloquear la publicidad como saltarnos las protecciones de derechos de autor, aunque seguramente lícito, legal e incluso defendible y necesario en muchas situaciones, también tiene una consecuencia negativa en cómo se establecen incentivos de consumo. Principalmente, que la publicidad y las protecciones de derechos de autor escalan para combatir estas prácticas de una manera que nos perjudica a todos los consumidores. También creo que se distorsiona el mercado, pues se incentiva el consumo de productos y el consumo de servicios a pesar de su publicidad y derechos de autor, y se desincentiva las alternativas que dan mejores condiciones a los consumidores. ("¿Para qué voy a premiar a gente que publica fuera del infierno de la publicidad de YouTube, si puedo ver lo que quiero en YouTube sin pagar y sin anuncios?")
+
+Ni siquiera pretendo pensar que mi estrategia es óptima. Pero creo que muchas veces se acepta dogmáticamente una visión excesivamente simplista que seguramente no sea lo que más nos convenga.
