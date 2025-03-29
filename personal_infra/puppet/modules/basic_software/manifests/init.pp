@@ -3,6 +3,13 @@ class basic_software {
 
   if($facts['os']['family'] == 'RedHat') {
     package {'which':}
+
+    copr {'emacs-30':
+      user => 'mlampe',
+      dist => 'epel-9',
+    }
+    ->
+    package {'emacs-nw':}
   }
 
   if ($facts['os']['family'] == 'Debian') {

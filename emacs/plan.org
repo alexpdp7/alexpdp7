@@ -1,6 +1,4 @@
-* Update to 30.1 and clean up
-** https://copr.fedorainfracloud.org/coprs/mlampe/emacs-30/ for EL9
-** editorconfig
+* editorconfig
 * Helm/company alternatives
 * Rustic
 * Magit
