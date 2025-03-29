@@ -1,3 +1,2 @@
 * Disable custom variables appending to config
-* Helm/company alternatives
 * Magit
