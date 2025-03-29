@@ -112,13 +112,6 @@
 (use-package yaml-mode
   :ensure t)
 
-;; lsp-mode seems unusably slow, so don't install the Ansible language server
-;; if you want to get it working, try https://www.reddit.com/r/emacs/comments/ybbkks/how_to_properly_set_up_lsp_ansible_language/itfxoaa/
-(use-package ansible
-  :ensure t
-  :config
-  (add-hook 'yaml-mode-hook 'ansible))
-
 ;; Puppet support; mostly for syntax highlighting
 
 (use-package puppet-mode
