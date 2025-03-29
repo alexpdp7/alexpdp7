@@ -53,14 +53,7 @@
   ;; https://www.reddit.com/r/emacs/comments/tejte0/undotree_bug_undotree_files_scattering_everywhere/?rdt=39892
   (setq undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo"))))
 
-;; nicer completion UI
-(use-package helm
-  :ensure t
-  :config
-  (global-set-key (kbd "M-x") #'helm-M-x)
-  (global-set-key (kbd "C-x C-f") #'helm-find-files)
-  (global-set-key (kbd "C-x C-b") #'helm-mini)
-  (setq helm-ff-skip-boring-files t))
+(fido-vertical-mode)
 
 ;; learn keyboard shortcuts
 (which-key-mode)
