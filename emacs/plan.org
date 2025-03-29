@@ -1,4 +1,3 @@
 * Disable custom variables appending to config
-* Remember last position in file
 * Helm/company alternatives
 * Magit
