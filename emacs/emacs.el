@@ -78,7 +78,8 @@
 (use-package rustic
   :ensure t
   :config
-  (setq rustic-format-on-save t))
+  (setq rustic-format-on-save t)
+  (setq rustic-rustfmt-args "--edition 2018"))
 
 ;; Python support
 ; https://github.com/jorgenschaefer/elpy/issues/1890#issuecomment-792361668
