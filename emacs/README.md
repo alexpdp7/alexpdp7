@@ -19,7 +19,7 @@ Don't avoid the menus.
 Sometimes it's just easier to hit F10 and find something in the menus.
 You can also M-x to execute commands, like `indent-region`.
 
-Many other stuff is support for things I do: AsciiDoc, Vale, Rust, Python, Java, YAML, Ansible, Puppet.
+Many other stuff is support for things I do: Vale, Rust, Python, Java, YAML, Puppet.
 You probably need other plugins, and maybe you don't need them right now.
 
 Maybe try out some of the large configurations, to learn what fancy stuff is available and add it as you become comfortable with the previous thing you configured.
