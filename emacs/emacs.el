@@ -90,14 +90,11 @@
   :init
   (elpy-enable))
 
-;;; Java Support
+;; Java Support
 (use-package lsp-java
   :ensure t
   :config
-  (add-hook 'java-mode-hook 'lsp)
-  (add-hook 'java-mode-hook (lambda ()
-                              (setq c-basic-offset 2
-                                    indent-tabs-mode f))))
+  (add-hook 'java-mode-hook 'lsp))
 
 ;; YAML support
 (use-package yaml-mode
