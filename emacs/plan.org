@@ -1,3 +1,6 @@
-* Reenable package-check-signature
+* Update to 30.1 and clean up
+** https://copr.fedorainfracloud.org/coprs/mlampe/emacs-30/ for EL9
+** editorconfig
+* Helm/company alternatives
+* Rustic
 * Magit
-* Elfeed + elfeed-protocol/fever
