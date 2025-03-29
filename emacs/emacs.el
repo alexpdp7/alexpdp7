@@ -75,10 +75,7 @@
   (setq helm-ff-skip-boring-files t))
 
 ;; learn keyboard shortcuts
-(use-package which-key
-  :ensure t
-  :config
-  (which-key-mode))
+(which-key-mode)
 
 ;; LSP base for Rust and Java
 (use-package lsp-mode
