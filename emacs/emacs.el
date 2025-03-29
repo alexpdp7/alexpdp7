@@ -73,11 +73,6 @@
   (setq lsp-lens-enable nil)
   :custom (lsp-rust-features "all"))
 
-(use-package company
-  :ensure t
-  :config
-  (add-hook 'after-init-hook 'global-company-mode))
-
 (use-package lsp-ui
   :ensure t)
 (use-package yasnippet
