@@ -9,6 +9,8 @@
 (xterm-mouse-mode 1)
 (save-place-mode t)
 
+(setq custom-file "~/.emacs.d/disable-custom-variable-saving")
+
 ;; From https://www.emacswiki.org/emacs/SmoothScrolling#h5o-8
 (setq scroll-step 1)
 (setq scroll-conservatively 10000)
