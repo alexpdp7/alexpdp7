@@ -24,18 +24,6 @@
 (require-theme 'modus-themes)
 (load-theme 'modus-vivendi :no-confirm)
 
-;; From https://github.com/emacs-lsp/lsp-ui/issues/607 , silence some mouse hovering noise
-(let ((areas '("mode-line" "left-margin" "left-fringe" "right-fringe" "header-line" "vertical-scroll-bar"))
-          loc)
-      (while areas
-        (setq loc (pop areas))
-        (global-set-key
-         (kbd (concat "<" loc "> <mouse-movement>")) #'ignore)))
-
-;; I use Emacs in the terminal, where x-pos|hide-tip is not defined. This masks errors :(
-(defun x-pos-tip () nil)
-(defun x-hide-tip () nil)
-
 (global-whitespace-mode)
 (setopt whitespace-style '(tab-mark))
 
@@ -98,13 +86,10 @@
 (yas-global-mode 1)
 
 ;; Rust support
-(use-package rust-mode
+(use-package rustic
   :ensure t
   :config
-  (add-hook 'rust-mode-hook #'lsp)
-  (add-hook 'rust-mode-hook
-            (lambda () (setq indent-tabs-mode nil)))
-  (setq rust-format-on-save t))
+  (setq rustic-format-on-save t))
 
 ;; Python support
 ; https://github.com/jorgenschaefer/elpy/issues/1890#issuecomment-792361668
