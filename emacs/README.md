@@ -7,9 +7,9 @@ Just do it!
 It's a bit alien at first, but I didn't need much time to do all my editing in Emacs.
 I haven't learnt Emacs Lisp and I haven't adopted any large configuration package.
 
-[My `emacs.el` right now is 160 lines, a good chunk of that is obscure stuff for work](https://github.com/alexpdp7/alexpdp7/blob/4cbc783bbe406051bbcf88995316c9994518cbd9/emacs/emacs.el).
+[My `emacs.el` right now is 130 lines](https://github.com/alexpdp7/alexpdp7/blob/4cbc783bbe406051bbcf88995316c9994518cbd9/emacs/emacs.el).
 Perhaps when you read this, my current config will be much bigger..
-But I'm definitely happy today with my 160-line config.
+But I'm definitely happy today with my 130-line config.
 
 You can start without a configuration.
 Whenever you can't do something, search Internet.
