@@ -65,8 +65,6 @@
 (use-package lsp-mode
   :ensure t
   :init
-  ;; Windows Terminal has rendering issues with lenses?
-  (setq lsp-lens-enable nil)
   :custom (lsp-rust-features "all"))
 
 (use-package lsp-ui
