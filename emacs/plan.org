@@ -1,2 +1,1 @@
-* Disable custom variables appending to config
 * Magit
