@@ -3,7 +3,7 @@
 ;; Nicer defaults
 
 (setq compilation-scroll-output t)
-(setq column-number-mode t)
+(setq column-number-mode t)               ; in the mode line
 (setq-default show-trailing-whitespace t)
 (setq org-startup-folded t)
 (xterm-mouse-mode 1)
