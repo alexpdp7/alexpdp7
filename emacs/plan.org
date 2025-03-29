@@ -1,1 +1,1 @@
-* Magit
+* Jumping around projects
