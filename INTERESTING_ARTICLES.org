@@ -54,3 +54,4 @@
 * Meta
 
 - [[https://www.benkuhn.net/progessays/][Essays on programming I think about a lot]]
+- [[https://www.piglei.com/articles/en-programmer-reading-list-part-one/][A Programmer's Reading List: 100 Articles I Enjoyed (1-50)]]
