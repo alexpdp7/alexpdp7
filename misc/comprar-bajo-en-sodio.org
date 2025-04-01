@@ -18,6 +18,11 @@ Dentro de productos simiares, el contenido en sal puede variar muchísimo.
 Prestad siempre atención al comprar para revisar la cantidad de sal, que puede no coincidir con la descrita aquí.
 La sal no es la única fuente de sodio, revisad si lo que coméis lleva otras sustancias con sodio como el glutamato monosódico (o MSG).
 
+** Recursos interesantes
+
+- [[https://world.openfoodfacts.org][Open Food Facts]] tiene datos nutricionales sobre muchos productos.
+  Sorprendentemente, he encontrado muchos productos buscando por código de barras.
+
 ** Productos
 
 *** Quesos
