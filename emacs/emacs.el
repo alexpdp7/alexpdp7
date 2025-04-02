@@ -43,6 +43,7 @@
   :config
   (xclip-mode 1))
 
+;; This does not respect things in JSON mode; see https://debbugs.gnu.org/cgi/bugreport.cgi?bug=72808 ; M-x use set-variable js-indent-level to override :\
 (editorconfig-mode 1)
 
 ;; Fancy undo
