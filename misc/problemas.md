@@ -25,6 +25,10 @@ Además, los falsos positivos de los filtros pueden hacer perdernos comunicacion
 
 A nivel individual, podemos formarnos para hacernos menos vulnerables a los fraudes, pero es prácticamente imposible evitar las molestias.
 
+Otras referencias:
+
+* [Hiya Global Call Threat Report Q4 2024](https://www.hiya.com/global-call-threat-report), que redirige a [este PDF](https://6751436.fs1.hubspotusercontent-na1.net/hubfs/6751436/Global%20Call%20Threat%20Report_2024Q4.pdf).
+
 ## Los protocolos cerrados dan un poder desproporcionado a empresas privadas
 
 Para la mayoría de gente, WhatsApp es prácticamente una necesidad para la vida cotidiana.
