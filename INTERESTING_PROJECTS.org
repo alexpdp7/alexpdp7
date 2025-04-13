@@ -192,6 +192,8 @@ Also keeping things in a Org mode means I can classify and add notes.
 *** VPN
     - https://github.com/StreisandEffect/streisand
     - https://github.com/netbirdio/netbird Tailscale-like
+*** Countermeasures
+    - https://privacypass.github.io/ Human proof standard?
 ** Cryptography
    - https://github.com/smallstep/certificates CA that supports ACME
    - https://github.com/FiloSottile/age - encryption tool that can use SSH keys
