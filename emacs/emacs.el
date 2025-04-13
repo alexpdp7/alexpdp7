@@ -82,6 +82,9 @@
   (setq rustic-format-on-save t)
   (setq rustic-rustfmt-args "--edition 2018"))
 
+(add-hook 'rust-mode-hook
+          (lambda () (setq indent-tabs-mode nil)))
+
 ;; Python support
 ; https://github.com/jorgenschaefer/elpy/issues/1890#issuecomment-792361668
 ; Need to downgrade jedi to get it to work :(
