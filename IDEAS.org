@@ -80,6 +80,13 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
 
 See [[https://www.gnu.org/software/emacs/manual/html_node/eww/Advanced.html]], w3m has similar stuff.
 
+Also:
+
+- https://github.com/abhinavsingh/proxy.py Extensible Python proxy
+- https://github.com/TempoWorks/txtdot
+- https://github.com/4383/photonos
+- https://sr.ht/%7Ebptato/chawan/
+
 ** Annotate URLs with another URLs
 
 - For example, add transcriptions to comic strips that do not have them
