@@ -36,3 +36,13 @@ However, I was confused: you must mount the thin acrylic shield below the USB do
 ### Notes
 
 * You can run a command such as `while date ; do sleep 1 ; done` to monitor that the Raspberry Pi does not reboot or poweroff.
+
+### Ideas
+
+Create an automated process that:
+
+* Installs Raspbian lite to an SD card
+* Alters the SD partitions to create a large UDF partition
+* Enables a systemd service on boot that exposes `/udf/image` as USB mass storage
+* Then users can either manipulate the SD card through SSH, or by mounting the UDF partition
+* `/udf/image` can be a symbolic link
