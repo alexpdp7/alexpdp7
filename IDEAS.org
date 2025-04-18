@@ -20,15 +20,7 @@ If you send me a list of ideas you are interested in, I will consider those vote
 
 - Software to do mutual encrypted backups over the Internet
 
-* Better access to news
-** News aggregator
-
-In progress: https://github.com/alexpdp7/news-rss
-
-- Basically news.google.com (grouping of the same news across different publications)
-- But with "regeneration" of headlines (e.g. replace headlines with "extremely descriptive" headlines)
-- And smart filters for topics (e.g. I'm interested in TV series, but not realities)
-
+* Better access to news https://github.com/las-noticias for Spain
 * Easier self-hosted communities
 ** Regulatory compliance and self-hosting
 ** Document hosting providers
