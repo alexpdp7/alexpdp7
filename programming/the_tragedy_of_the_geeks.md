@@ -69,3 +69,7 @@ Maybe if people coming into the field are aware of this phenomenon, they will be
 
 If a sufficient amount of people decide that the time investment is not worthwhile, then perhaps the competition will decrease.
 And if people are well informed and decide to move forward, at least they will be less likely to become frustrated or regret their decision.
+
+## Further reading
+
+* [A paean to programming](https://bertrandmeyer.com/2025/04/23/a-paean-to-programming/), by [Bertrand Meyer](https://en.wikipedia.org/wiki/Bertrand_Meyer)
