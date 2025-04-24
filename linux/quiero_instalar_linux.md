@@ -110,7 +110,7 @@ Existe una infinita variedad de "distribuciones" de Linux y la elección es uno 
 
 Además, es común que los usuarios de Linux sean entusiastas de ciertas distribuciones.
 
-Siempre es recomendable dejarse asesoras, especialmente por personas que nos puedan ayudar ante ciertas dificultades.
+Siempre es recomendable dejarse asesorar, especialmente por personas que nos puedan ayudar ante ciertas dificultades.
 Será siempre más fácil ayudarnos con una distribución con la que estamos familiarizados.
 
 Sin embargo, hay que considerar que hay diversos grados de dificultad en las distribuciones Linux, y los usuarios avanzados a menudo escogen distribuciones más complejas para aprovechar sus peculiaridades.
@@ -132,26 +132,26 @@ Hay una serie de criterios a observar al escoger una distribución:
 
 Otro criterio importante pero más complejo es la política de versiones de la distribución.
 
-### Distribuciones Linux de soporte largo
+### Distribuciones Linux de soporte prolongado
 
-Hay distribuciones de soporte largo, como Ubuntu (LTS), Debian (stable) o Red Hat Enterprise Linux (y derivados) que sacan una versión nueva cada 2-3 años y se comprometen a soportar esa versión durante un periodo largo de tiempo.
+Hay distribuciones de soporte prolongado, como Ubuntu (LTS), Debian (stable) o Red Hat Enterprise Linux (y derivados) que sacan una versión nueva cada 2-3 años y se comprometen a soportar esa versión durante un periodo largo de tiempo.
 
-Esto quiere decir que el software que llevan no esté muy al día y que podemos tener problemas de soporte de hardware, especialmente para hardware muy moderno.
+Esto quiere decir que el software que llevan puede no estar muy al día y que podemos tener problemas de soporte de hardware, especialmente para hardware muy moderno.
 Sin embargo, respecto a distribuciones con ciclos de vida más cortos, ofrece la gran ventaja de que las actualizaciones rutinarias son más sencillas y conllevan menos riesgo de problemas.
 
-Si encontramos una distribución Linux con soporte largo que soporta bien nuestro hardware, recomiendo comenzar con una distribución así mientras aprendemos Linux.
+Si encontramos una distribución Linux con soporte prolongado que soporta bien nuestro hardware, recomiendo comenzar con una distribución así mientras aprendemos Linux.
 
 Cada varios años tendremos que aplicar una actualización grande, pero en general, como estas actualizaciones son poco frecuentes, se prueban más ampliamente.
 
-(Las distribuciones de soporte largo sacan actualizaciones de software, claro, pero intentan sólo sacar actualizaciones de seguridad o corrección de errores, excluyendo actualizaciones que introduzcan grandes cambios.)
+(Las distribuciones de soporte prolongado también tienen actualizaciones de software, claro, pero intentan sólo sacar actualizaciones de seguridad o corrección de errores, excluyendo actualizaciones que introduzcan grandes cambios.)
 
-### Distribuciones Linux de soporte corto
+### Distribuciones Linux de soporte breve
 
 Otras distribuciones, como Fedora y Ubuntu (no LTS), sacan una versión nueva con mayor cadencia (cada 6 meses, típicamente), y el soporte para versiones no recientes decae rápidamente.
 
 Estas distribuciones tienen software más actualizado, pero por contra, tendremos que aplicar con más frecuencia actualizaciones grandes que pueden ser más problemáticas.
 
-Es cierto que estas distribuciones también prueban mucho las actualizaciones, y que al ser actualizaciones grandes más frecuentes en teoría deberían tener menos riesgo, pero recomiendo sólo usar distribuciones de soporte corto si funcionan en nuestro hardware y las de soporte largo no.
+Es cierto que estas distribuciones también prueban mucho las actualizaciones, y que al ser actualizaciones grandes más frecuentes en teoría deberían tener menos riesgo, pero recomiendo sólo usar distribuciones de soporte breve si funcionan en nuestro hardware y las de soporte prolongado no.
 
 ### Distribuciones Linux de versionado continuo
 
@@ -172,17 +172,17 @@ Si el instalador no es "live", normalmente podremos encontrar una versión alter
 
 La distribución debería documentar adecuadamente el proceso de instalación, pero casi siempre consiste en:
 
-* Configurar el ordenador para que en vez de arrancar el instalador en vez del sistema operativo que ya tenemos instalado.
+* Configurar el ordenador para arrancar el instalador en vez del sistema operativo que ya tenemos instalado.
   Esto en general se hace con lo que se suele llamar "BIOS", a la que accedemos pulsando una tecla específica durante el proceso de arranque.
   Si nuestro sistema actual es Windows, las versiones modernas tienen funcionalidades de arranque rápido que pueden interferir con la selección de arranque.
-  Podemos necesitar consultar instrucciones más específicas para cambiar el arranque.
+  Es posible que necesitemos consultar instrucciones más específicas para cambiar el arranque.
 
 * Probar el sistema en el entorno "live" y luego seleccionar una opción para hacer la instalación definitiva.
 
-* Escoger el nombre del ordenador, de nuestro usuario y otras elecciones durante el proceso de instalación.
+* Escoger el nombre del ordenador, de nuestro usuario y otras opciones durante el proceso de instalación.
 
-* Una opción importante es si queremos que Linux y nuestro sistema operativo existente (típicamente Windows) coexistan o reemplazar completamente con Linux.
-  Esto puede ser importante si necesitamos Windows sí o sí específicamente, aunque recomiendo intentar evitar esta opción si podemos.
+* Una opción importante es si queremos que Linux y nuestro sistema operativo existente (típicamente Windows) coexistan o reemplazar el sistema operativo existente completamente con Linux.
+  Esto puede ser importante si necesitamos Windows sí o sí específicamente, aunque recomiendo intentar evitar esta opción si es posible.
   Particularmente, no instalando Linux en nuestro único ordenador hasta que estemos tranquilos.
 
 ### ¿Qué problemas puede haber?
@@ -191,7 +191,7 @@ La distribución debería documentar adecuadamente el proceso de instalación, p
 
 Los discos USB tienen un amplio abanico de calidades.
 
-No es tan raro los USB defectuosos que pueden causar que el proceso de instalación falle.
+No es tan raro encontrar USB defectuosos que pueden causar que el proceso de instalación falle.
 
 Además, aunque es poco común, la descarga del instalador puede no funcionar adecuadamente.
 
@@ -200,7 +200,7 @@ Ante problemas extraños, siempre es recomendable:
 * Verificar la descarga siguiendo las instrucciones de la distribución.
 * Verificar el disco USB; muchos instaladores permiten hacer una verificación antes de empezar, algunos programas para grabar USB pueden hacer una comprobación después de grabar.
 
-Aunque las verificaciones sean exitosas, sigue habiendo margen para el error.
+Aunque las verificaciones no encuentren problemas, sigue habiendo margen para el error.
 Siempre es conveniente tener otro USB para hacer otra prueba, para descartar problemas.
 
 #### Problemas de instalación
