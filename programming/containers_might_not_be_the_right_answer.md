@@ -3,6 +3,7 @@
 Containers are everywhere, and I feel today they are the default answer to many problems for many people.
 
 [Although the author of one of the handiest quotes does not want people to use it](https://www.jwz.org/blog/2014/05/so-this-happened/), I think that quote adequately describes the situation.
+Definitely, containers are no silver bullet.
 
 Containers are a good example of an “easy but not simple” technique (see [the "Simple Made Easy" - Rich Hickey (2011) talk](https://www.youtube.com/watch?v=SxdOUGdseq4)).
 
