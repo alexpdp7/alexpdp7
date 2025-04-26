@@ -6,8 +6,7 @@ authors = ["alex <alex@pdp7.net>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-appdirs = "^1.4.4"
-httpx = "^0.25.0"
+httpx = "^0.28.1"
 
 
 [build-system]
@@ -17,7 +16,6 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 ruscreen = 'p7s.ruscreen:main'
-newsboat = 'p7s.newsboat:main'
 mbsync_config = 'p7s.mail:generate_config'
 db-create = 'p7s.distrobox:create'
 db-enter = 'p7s.distrobox:enter'
@@ -30,4 +28,3 @@ setup_emacs = 'p7s.emacs:setup_emacs'
 setup_ubpkg = 'p7s.ubpkg:setup_ubpkg'
 setup_paperwm = 'p7s.paperwm:setup_paperwm'
 setup_x12 = 'p7s.x12:setup_x12'
-update_zfs = 'p7s.zfs:update_zfs'

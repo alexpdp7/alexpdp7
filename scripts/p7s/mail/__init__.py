@@ -7,8 +7,8 @@ from p7s.mail import mbsync
 
 
 def generate_config():
-    gmail = bitwarden.get_item("https://bitwarden.pdp7.net", "alex@corcoles.net", "cad137b0-cfd5-4d5c-b167-98a9e792f4cc")["login"]
-    yahoo = bitwarden.get_item("https://bitwarden.pdp7.net", "alex@corcoles.net", "e24727e7-c0ef-4c97-afd0-8497d547304c")["login"]
+    gmail = bitwarden.get_item("https://vaultwarden.pdp7.net", "alex@corcoles.net", "f9bba940-769d-430a-82f4-5da10990e8fd")["login"]
+    yahoo = bitwarden.get_item("https://vaultwarden.pdp7.net", "alex@corcoles.net", "5c4d9e3b-121d-45f5-bab6-03b42d291326")["login"]
     (pathlib.Path.home() / (".mbsyncrc")).write_text(
         mbsync.mbsync_gmail(gmail["username"], gmail["password"], "~/Mail") +
         "\n" +
