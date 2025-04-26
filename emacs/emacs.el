@@ -111,7 +111,11 @@
 (use-package ein :ensure t)
 
 (use-package ledger-mode
-  :ensure t)
+  :ensure t
+  :config
+  (add-hook 'ledger-mode-hook
+            (lambda ()
+              (setq-local tab-always-indent 'complete))))
 
 ;; Sometimes I like playing with Prolog
 (setq prolog-system 'swi)
