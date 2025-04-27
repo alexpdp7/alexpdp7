@@ -19,7 +19,6 @@
 (setq backup-directory-alist `(("." . ,--backup-directory)))
 
 ;; Colorblind friendly theme.
-(require-theme 'modus-themes)
 (load-theme 'modus-vivendi :no-confirm)
 
 (global-whitespace-mode)
