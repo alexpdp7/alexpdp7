@@ -11,11 +11,6 @@
 
 (setq custom-file "~/.emacs.d/disable-custom-variable-saving")
 
-;; From https://www.emacswiki.org/emacs/SmoothScrolling#h5o-8
-(setq scroll-step 1)
-(setq scroll-conservatively 10000)
-(setq auto-window-vscroll nil)
-
 ;; Do not spill temporary files everywhere
 ;; https://stackoverflow.com/a/18330742
 (defvar --backup-directory (concat user-emacs-directory "backups"))
