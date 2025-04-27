@@ -57,8 +57,7 @@
 (which-key-mode)
 
 ; for eglot snippet completion
-(use-package yasnippet
-  :ensure t)
+(use-package yasnippet :ensure t)
 
 (yas-global-mode 1)
 
@@ -87,14 +86,12 @@
   (elpy-enable))
 
 ;; YAML support
-(use-package yaml-mode
-  :ensure t)
+(use-package yaml-mode :ensure t)
 
 ;; Puppet support; mostly for syntax highlighting
+(use-package puppet-mode :ensure t)
 
-(use-package puppet-mode
-  :ensure t)
-
+;; Python notebooks
 (use-package ein :ensure t)
 
 (use-package ledger-mode :ensure t)
