@@ -62,42 +62,35 @@
 ;; learn keyboard shortcuts
 (which-key-mode)
 
-;; LSP base for Rust and Java
-(use-package lsp-mode
-  :ensure t
-  :init
-  :custom (lsp-rust-features "all"))
-
-(use-package lsp-ui
-  :ensure t)
+; for eglot snippet completion
 (use-package yasnippet
   :ensure t)
 
 (yas-global-mode 1)
 
+(global-completion-preview-mode 1)
+(setq tab-always-indent 'complete)
+
 ;; Rust support
+;; rustic-enable-detached-file-support seems to be problematic :(
 (use-package rustic
   :ensure t
   :config
   (setq rustic-format-on-save t)
-  (setq rustic-rustfmt-args "--edition 2018"))
+  (setq rustic-rustfmt-args "--edition 2018")
+  (setq rustic-lsp-client 'eglot)
+  (add-hook 'eglot--managed-mode-hook (lambda () (flymake-mode -1)))
+  (add-hook 'rust-mode-hook (lambda () (setq indent-tabs-mode nil))))
 
-(add-hook 'rust-mode-hook
-          (lambda () (setq indent-tabs-mode nil)))
+;; https://download.eclipse.org/jdtls/milestones/1.43.0/jdt-language-server-1.43.0-202412191447.tar.gz is the last language server that supports Debian 12 JDK
+;; Untar the archive and symlink the jdtls binary in ~/.local/bin
+(add-hook 'java-mode-hook 'eglot-ensure)
 
-;; Python support
-; https://github.com/jorgenschaefer/elpy/issues/1890#issuecomment-792361668
-; Need to downgrade jedi to get it to work :(
+;; Did not manage to make eglot work :(
 (use-package elpy
   :ensure t
   :init
   (elpy-enable))
-
-;; Java Support
-(use-package lsp-java
-  :ensure t
-  :config
-  (add-hook 'java-mode-hook 'lsp))
 
 ;; YAML support
 (use-package yaml-mode
@@ -123,7 +116,6 @@
                               auto-mode-alist))
 
 (add-hook 'markdown-mode-hook 'flymake-mode)
-(add-hook 'rust-mode-hook 'flymake-mode)
 
 (use-package flymake-vale
   :vc (:url "https://github.com/tpeacock19/flymake-vale.git"
