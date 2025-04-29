@@ -101,6 +101,7 @@
 
 ;; Python notebooks
 (use-package ein :ensure t)
+(defvar ein:jupyter-default-notebook-directory (concat user-emacs-directory "ein"))
 
 (use-package ledger-mode :ensure t)
 
