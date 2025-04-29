@@ -83,7 +83,13 @@
 
 ;; The default setting is higher than strict, and complains (amongst others) about missing type annotations
 (setq-default eglot-workspace-configuration
-              '(:basedpyright (:typeCheckingMode "strict")))
+              '(:basedpyright (:typeCheckingMode "strict")
+                              :basedpyright.analysis (:diagnosticSeverityOverrides (
+                                                                                    :reportMissingParameterType "none"
+                                                                                    :reportUnknownParameterType "none"
+                                                                                    :reportUnknownVariableType "none"
+                                                                                    :reportUnknownMemberType "none"
+                                                                                    :reportUnknownArgumentType "none"))))
 
 ;; YAML support
 (use-package yaml-mode :ensure t)
