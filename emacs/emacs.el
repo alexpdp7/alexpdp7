@@ -56,7 +56,7 @@
 ;; learn keyboard shortcuts
 (which-key-mode)
 
-; for eglot snippet completion
+;; for eglot snippet completion
 (use-package yasnippet :ensure t)
 
 (yas-global-mode 1)
