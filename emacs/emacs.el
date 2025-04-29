@@ -63,6 +63,7 @@
 
 (global-completion-preview-mode 1)
 (setq tab-always-indent 'complete)
+(setq text-mode-ispell-word-completion nil)
 
 ;; Rust support
 ;; rustic-enable-detached-file-support seems to be problematic :(
