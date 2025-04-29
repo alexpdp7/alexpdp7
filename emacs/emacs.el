@@ -3,13 +3,24 @@
 ;; Nicer defaults
 
 (setq compilation-scroll-output t)
-(setq column-number-mode t)               ; in the mode line
+(setq column-number-mode t)  ; in the mode line
 (setq-default show-trailing-whitespace t)
-(setq org-startup-folded t)
+(global-whitespace-mode)
+(setopt whitespace-style '(tab-mark))
 (xterm-mouse-mode 1)
-(save-place-mode t)
-
+(save-place-mode t) ; persists your position in files
 (setq custom-file "~/.emacs.d/disable-custom-variable-saving")
+(load-theme 'modus-vivendi :no-confirm) ; colorblind-friendly theme
+(fido-vertical-mode) ; nice completion for M-x
+(which-key-mode) ; learn keyboard shortcuts
+(global-completion-preview-mode 1) ; show things that you can tab-complete
+(setq tab-always-indent 'complete) ; allow tab to complete
+(setq text-mode-ispell-word-completion nil) ; but do not complete dictionary words
+
+(setq org-startup-folded t)
+
+;; This does not respect things in JSON mode; see https://debbugs.gnu.org/cgi/bugreport.cgi?bug=72808 ; M-x use set-variable js-indent-level to override :\
+(editorconfig-mode 1)
 
 ;; Do not spill temporary files everywhere
 ;; https://stackoverflow.com/a/18330742
@@ -18,15 +29,9 @@
         (make-directory --backup-directory t))
 (setq backup-directory-alist `(("." . ,--backup-directory)))
 
-;; Colorblind friendly theme.
-(load-theme 'modus-vivendi :no-confirm)
-
-(global-whitespace-mode)
-(setopt whitespace-style '(tab-mark))
-
+;; Configure the package manager. Some packages I use are not in the default repositories
 (require 'use-package-ensure)
 (setq use-package-always-ensure t)
-
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
@@ -36,9 +41,6 @@
   :ensure t
   :config
   (xclip-mode 1))
-
-;; This does not respect things in JSON mode; see https://debbugs.gnu.org/cgi/bugreport.cgi?bug=72808 ; M-x use set-variable js-indent-level to override :\
-(editorconfig-mode 1)
 
 ;; Fancy undo
 (use-package undo-tree
@@ -51,19 +53,9 @@
   ;; https://www.reddit.com/r/emacs/comments/tejte0/undotree_bug_undotree_files_scattering_everywhere/?rdt=39892
   (setq undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo"))))
 
-(fido-vertical-mode)
-
-;; learn keyboard shortcuts
-(which-key-mode)
-
 ;; for eglot snippet completion
 (use-package yasnippet :ensure t)
-
 (yas-global-mode 1)
-
-(global-completion-preview-mode 1)
-(setq tab-always-indent 'complete)
-(setq text-mode-ispell-word-completion nil)
 
 ;; Rust support
 ;; rustic-enable-detached-file-support seems to be problematic :(
@@ -100,8 +92,10 @@
 (use-package puppet-mode :ensure t)
 
 ;; Python notebooks
-(use-package ein :ensure t)
-(defvar ein:jupyter-default-notebook-directory (concat user-emacs-directory "ein"))
+(use-package ein
+  :ensure t
+  :config
+  (defvar ein:jupyter-default-notebook-directory (concat user-emacs-directory "ein")))
 
 (use-package ledger-mode :ensure t)
 
@@ -110,7 +104,7 @@
 (setq auto-mode-alist (append '(("\\.pl\\'" . prolog-mode))
                               auto-mode-alist))
 
-
+;; the following is a bit fiddly, eglot requires some extra love to have extra flymake providers
 (use-package flymake-vale
   :vc (:url "https://github.com/tpeacock19/flymake-vale.git"
             :rev :newest)
