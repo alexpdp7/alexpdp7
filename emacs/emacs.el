@@ -72,7 +72,9 @@
   :config
   (setq rustic-format-on-save t)
   (setq rustic-rustfmt-args "--edition 2018")
-  (setq rustic-lsp-client 'eglot))
+  (setq rustic-lsp-client 'eglot)
+  ;; https://github.com/emacs-rustic/rustic/issues/99
+  (put 'rustic-indent-offset 'safe-local-variable 'integerp))
 
 ;; https://download.eclipse.org/jdtls/milestones/1.43.0/jdt-language-server-1.43.0-202412191447.tar.gz is the last language server that supports Debian 12 JDK
 ;; Untar the archive and symlink the jdtls binary in ~/.local/bin
