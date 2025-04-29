@@ -78,11 +78,12 @@
 ;; Untar the archive and symlink the jdtls binary in ~/.local/bin
 (add-hook 'java-mode-hook 'eglot-ensure)
 
-;; Did not manage to make eglot work :(
-(use-package elpy
-  :ensure t
-  :init
-  (elpy-enable))
+;; pipx install basedpyright
+(add-hook 'python-mode-hook 'eglot-ensure)
+
+;; The default setting is higher than strict, and complains (amongst others) about missing type annotations
+(setq-default eglot-workspace-configuration
+              '(:basedpyright (:typeCheckingMode "strict")))
 
 ;; YAML support
 (use-package yaml-mode :ensure t)
