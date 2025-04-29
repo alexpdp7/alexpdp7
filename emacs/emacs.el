@@ -71,9 +71,7 @@
   :config
   (setq rustic-format-on-save t)
   (setq rustic-rustfmt-args "--edition 2018")
-  (setq rustic-lsp-client 'eglot)
-  (add-hook 'eglot--managed-mode-hook (lambda () (flymake-mode -1)))
-  (add-hook 'rust-mode-hook (lambda () (setq indent-tabs-mode nil))))
+  (setq rustic-lsp-client 'eglot))
 
 ;; https://download.eclipse.org/jdtls/milestones/1.43.0/jdt-language-server-1.43.0-202412191447.tar.gz is the last language server that supports Debian 12 JDK
 ;; Untar the archive and symlink the jdtls binary in ~/.local/bin
@@ -101,12 +99,16 @@
 (setq auto-mode-alist (append '(("\\.pl\\'" . prolog-mode))
                               auto-mode-alist))
 
-(add-hook 'markdown-mode-hook 'flymake-mode)
 
 (use-package flymake-vale
   :vc (:url "https://github.com/tpeacock19/flymake-vale.git"
             :rev :newest)
   :config
-  (add-hook 'markdown-mode-hook #'flymake-vale-load)
-  (add-hook 'rust-mode-hook #'flymake-vale-load)
-  )
+  (add-hook 'find-file-hook 'flymake-vale-maybe-load)
+  (add-to-list 'flymake-vale-modes 'rustic-mode))
+
+(setq eglot-stay-out-of '(flymake))
+(add-hook 'eglot--managed-mode-hook (lambda ()
+  (add-hook 'flymake-diagnostic-functions 'eglot-flymake-backend nil t)
+  (flymake-mode 1)))
+(add-hook 'markdown-mode-hook 'flymake-mode)
