@@ -30,12 +30,7 @@ The constraint does not be an exact version, it can also be a range of versions,
 
 (Constraints additionally can specify other restrictions, such as requiring different versions for different Python versions, and other interesting possibilities.)
 
-When using setuptools and dependencies using setuptools, you quickly can run into problems.
-
-If packages specify exact dependency versions, then there are many changes of packages having conflicting requirements.
-
-If packages do not specify exact dependency versions, then the actual versions that pip installs can vary as new versions of packages are released.
-This can lead to bugs, because code might not work properly when using newer versions of dependencies.
+In my opinion, although you can package applications and libraries properly using Setuptools, doing it correctly requires much knowledge, effort, and is error-prone.
 
 ## Version locking and `requirements.txt`
 
