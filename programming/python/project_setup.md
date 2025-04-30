@@ -6,10 +6,12 @@ It is not meant to reflect the best or most common practices, just my personal t
 
 Pipx is a tool that installs Python packages to your user environment. It creates an isolated environment for every tool, so if you install multiple packages they won't have version conflicts. It also takes care of adding a module's entrypoints to your user path.
 
-Pipx is useful for two purposes:
+uv can do very much the same and additionally uv can install most Python versions.
+However, at the time of writing this, pipx is available as a package in many Linux distributions, while uv is not.
 
-* To install tools such as uv
-* To let other users install your software easily
+If your project can be packaged so that it works with pipx, then many Linux users will be able to install it with pipx after installing pipx with their package manager.
+
+uv can be more convenient for software that requires specific versions of Python that are not available in Linux distributions, but in general cannot be installed with Linux package managers.
 
 # Use uv
 
