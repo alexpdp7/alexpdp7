@@ -19,7 +19,7 @@ You can execute Emacs commands with `M-x` (alt-x).
 You can learn many keybindings through the hints that the Emacs menu and `M-x` show.
 
 When you pause after pressing an incomplete shortcut, `which-key-mode` shows the next keys and shortcuts available.
-By pressing `C-x` (control-x), `C-c`, or `C-h, you can see the global, mode, and help shortcuts respectively.
+By pressing `C-x` (control-x), `C-c`, or `C-h`, you can see the global, mode, and help shortcuts respectively.
 
 [My `emacs.el` is about 120 lines](emacs.el).
 Perhaps when you read this, my current config will be much bigger..
