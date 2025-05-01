@@ -78,6 +78,13 @@ Also:
 - https://github.com/TempoWorks/txtdot
 - https://github.com/4383/photonos
 - https://sr.ht/%7Ebptato/chawan/
+- https://offpunk.net/
+
+Browsers as a platform to manage content:
+
+- Just view the content as HTML with user-defined styling
+- Archive all that we see so that we can locate content we have read easily, share with others, etc.
+- RSS/Gemfeed/content subscription
 
 ** Annotate URLs with another URLs
 
