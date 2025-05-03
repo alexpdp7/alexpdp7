@@ -1,0 +1,15 @@
+# La web
+2025-05-03
+
+Vuelvo a escribir porque me suena una alarma y que llevabais más de un mes sin sufrir un artículo en este blog.
+
+Pero bueno, haré trampa; simplemente quiero dar bombo a dos artículos a los que, por diversos motivos, he estado haciendo mejoras esta mañana.
+
+=> https://github.com/alexpdp7/alexpdp7/blob/master/programming/the-content-web-manifesto/README.md The content web manifesto
+=> https://github.com/alexpdp7/alexpdp7/blob/master/programming/a_plan_against_the_current_web.md A plan against the current web
+
+La web es una de las facetas más valiosas de Internet; ambas son juntas algo *importante* para todos nosotros. Pero están en peligro.
+
+En los artículos me enrollo más, pero la recomendación más breve que puedo dar es la siguiente: si publicáis material en la web, probad que funcione con un navegador de terminal sin JavaScript como w3m, lynx, o elinks.
+
+No es coña. Creo que es una de las cosas con mejor relación calidad/precio que se pueden hacer hoy en día.
