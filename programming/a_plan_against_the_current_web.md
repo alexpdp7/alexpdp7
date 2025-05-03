@@ -6,26 +6,7 @@ This complexity is derived from using the web for delivering applications, where
 
 ## Part I: Make content websites simple again
 
-Nowadays you cannot use "simple" browsers like Lynx, Dillo, etc. conveniently to browse content.
-You will run into pages which are not usable without a fast and sophisticated Javascript engine, or without a fully-featured web renderer.
-The most common example are websites that are just a blank page when viewed with a browser with Javascript disabled.
-
-If users could browse content using simple browsers, then the power of Chrome would decrease.
-Also, content sites which are usable with simple browsers in my opinion have a nicer user experience: faster, lighter, more accessible, and more flexible.
-
-This is in part impossible nowadays due to the popularity of Javascript-first websites developed as SPAs, and the fall from popularity of progressive enhancement.
-But you can do your part: ensure that you test your content website using a low-powered browser.
-Not Chrome, not Firefox, not Safari; use Dillo, Lynx, etc. to verify that your website works.
-
-This will not move the needle, but your normal users (those who use Chrome) will benefit too.
-
-### Diversion: Gemini
-
-Yes, I cannot avoid talking about Gemini.
-Gemini is this idea driven to the extreme.
-It's an alternative to web browsers and HTML which is so simple that you can implement a Gemini browser in a weekend.
-Of course, it is so extreme that it cannot be a mainstream success.
-But it is an insightful study about these ideas that can be analyzed to learn.
+See [the content web manifesto](the-content-web-manifesto).
 
 ## Part II: Application distribution sucks
 

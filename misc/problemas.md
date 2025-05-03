@@ -70,4 +70,4 @@ Firefox es cada vez más minoritario e irrelevante [aunque yo lo uso y animo a t
 La sofisticación y complejidad de Chrome y Safari adicionalmente hacen que cada vez existan más webs y aplicaciones web que son prácticamente inutilizables en dispositivos de rendimiento modesto.
 Esto hace que sea virtualmente necesario renovar nuestros dispositivos con más frecuencia de la necesaria, a dispositivos más costosos de lo que necesitaríamos para el resto de nuestros propósitos.
 
-He escrito más sobre el tema en inglés en [A plan against the current web](../programming/a_plan_against_the_current_web.md).
+He escrito más sobre el tema en inglés en [a plan against the current web](../programming/a_plan_against_the_current_web.md) y [the content web manifesto](../programming/the-content-web-manifesto/README.md).
