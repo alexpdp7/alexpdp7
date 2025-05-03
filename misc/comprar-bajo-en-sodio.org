@@ -78,7 +78,7 @@ La sal no es la única fuente de sodio, revisad si lo que coméis lleva otras su
 - Carrilera en salsa Carretilla - Sal 0.68/100g
 - [[https://world.openfoodfacts.org/product/8436573552448/pizza-5-quesos-mamamasa][Pizza 5 quesos Mamamasa]] - Sal <0.1/100g
 
-  Aunque los platos preparados suelen tener bastante sal, a veces alguno lleva menos de lo que parece.
+Aunque los platos preparados suelen tener bastante sal, a veces alguno lleva menos de lo que parece.
 
 *** Pasta
 
