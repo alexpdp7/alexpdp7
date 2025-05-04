@@ -1,0 +1,50 @@
+# Jugando al Monopoly
+2025-05-04
+
+Ayer alguien opinaba sobre las sanciones contra los abusos monopolísticos de los que se ha hallado culpable a Google[1]. Y estuve un buen rato pensando en el tema sin llegar a conclusiones claras.
+
+Si no estoy muy equivocado, tener un monopolio no es ilegal en la mayoría de sitios. Los problemas vienen cuando abusas de la fuerza que te da tener un monopolio; tanto para expandirte a otras áreas como para proteger tu monopolio.
+
+En mi opinión esto no está mal. Aunque dejarlo todo en manos de la magia de la competencia no es una buena estrategia, sí que la competencia es buena para el consumidor. Si miráis a vuestro alrededor, en general las cosas funcionan mejor o peor según el grado de competencia que haya. No está mal que si eres exageradamente bueno en algo te forres, pero si impides que la gente compita contigo de igual a igual, no porque haces las cosas mejor, sino gracias a tu cuota de mercado (aunque hayas obtenido esta cuota de mercado haciendo las cosas bien), debes ser detenido.
+
+Más o menos todo esto viene con ejemplos en una página de la Wikipedia inglesa sobre Microsoft en los juzgados[2].
+
+Parece ser que por lo que han hallado culpable a Google es básicamente por su negocio de publicidad. Que recordemos que Google es una empresa de publicidad; el 86% de los ingresos de Alphabet son por publicidad. Todo lo demás son cosas para ayudar a ganar dinero por publicidad. No estoy muy puesto en los detalles de sus ilegalidades en cuanto a publicidad, pero eso no me impedirá opinar sobre las malas prácticas que opino que efectúa Google.
+
+El servicio de Google con el que interactuamos casi todos es su buscador. A pesar de que estoy de acuerdo con que la calidad del buscador de Google ha caído en picado, en el último año he estado usando Bing y DuckDuckGo y me han parecido peores. (Me falta animarme a pagar y probar Kagi. Su opción de personalizar promociones y penalizaciones de dominios me parece potencialmente muy valiosa.) Apple ha declarado en juicio que aunque Google le paga una millonada por ser el buscador por defecto de los dispositivos Apple, Apple no considera que haya un buscador alternativo decente.
+
+Hacer un buscador es caro y costoso, y no veo indicios de que la falta de competencia venga por malas artes directas en el ámbito de los buscadores por parte de Google. Sí puede ser que Google sea la única entidad para la que es rentable operar un buscador, porque los ingresos por publicidad que le genera el buscador compensan los enormes costes de mantener el buscador. Eso sí, podría ser que esos ingresos sí provengan de prácticas ilícitas en materia de publicidad.
+
+Es complicado. Si tenemos que penalizar a Google, ¿cómo lo podemos hacer sin que pierdan el incentivo de proporcionar un buscador que parece no tener igual? Si Google no puede mostrar publicidad en el buscador, ¿de qué les sirve gastarse el dineral en dar el buscador sin costes directos al usuario? Además, aparte de prácticas ilícitas, tampoco está mal que Google se forre por tener un buscador al parecer sin igual.
+
+Pero por ejemplo, creo que Google sí ha abusado de su monopolio con el buscador para montarse otro monopolio: el de los navegadores. Google Chrome es el navegador que usa más o menos dos tercios de la población. Le siguen una tripleta de Safari, Edge y el navegador de Samsung, que casualmente también son un poco sospechosos de usar sus posiciones para imponer sus navegadores, y que dejan menos de un 10% de cuota de mercado al resto de navegadores.
+
+Para más inri, Edge y el navegador de Samsung utilizan el mismo motor que Google Chrome, con lo que básicamente la web es técnicamente lo que deciden Google y Apple.
+
+La web es un servicio casi básico para gran parte de la población. Por ejemplo, es uno de los mecanismos más prácticos para interactuar con la administración pública y servicios básicos. (Donde la alternativa, ojo, cada vez más son las aplicaciones móviles que, oh sorpresa, están todavía más controladas por Google y Apple.)
+
+En materia de navegadores la situación de competencia es distinta, pero también problemática. En mi opinión, Google ha metido una cantidad de recursos espectacular en el desarrollo de Chrome, creando una plataforma gigantesca que hasta un gigante como Microsoft ha tirado la toalla porque no ve rentable mantener su propio navegador.
+
+¿Pero realmente necesitamos una plataforma tan potente para acceder a contenidos y acceder a servicios básicos? En mi opinión, no, y considero necesario asegurar el acceso a "servicios básicos y de interés general" mediante una plataforma web limitada en alcance de manera que no sólo dos de las empresas más grandes del planeta puedan mantener un navegador viable. Por otra parte, igual se podría financiar el desarrollo de navegadores open source con dinero público.
+
+Sin embargo, aunque esto nos ayudaría a los que queremos evitar usar Google Chrome (o Safari), seguramente haría poco por diversificar las cuotas de mercado de los navegadores.
+
+Todo lo que digo creo que no cambiaría mayormente el panorama, pero sin duda sería un paso adelante asegurar servicios básicos y de interés general a través de navegadores más sencillos. Combinado con que algún día opere el Reglamento de Mercados Digitales en ámbitos como los servicios de mensajería, al menos habría más posibilidades reales de competencia. Seguramente los consumidores seguirán eligiendo mayoritariamente a las grandes plataformas, pero al menos el pequeño porcentaje de gente que no desea usarlas lo tendría más fácil, e igual podría crecer poco a poco, y quizá ayude algo a mantener a raya los abusos de las grandes plataformas.
+
+Hablando en términos más concretos, si sigue siendo viable usar Firefox para acceder a la web sin tener que depender de la financiación de Google, si podemos comunicarnos sin tener que instalar software de Meta en nuestros teléfonos, o incluso usando teléfonos cuyo sistema operativo no esté controlado por Apple y Google, esto ya supondría un pequeño paso adelante, creo que necesario para los siguientes pequeños pasos adelante.
+
+Mis recomendaciones iniciales pasan por:
+
+* Si tenéis cualquier tipo de influencia en la publicación de contenidos en la web, simplificad en la medida de lo posible los requerimientos que impongáis en materia de navegador. Puede parecer extremo, pero mi recomendación es la de ayer: si es posible, haced que vuestro contenido funcione hasta con navegadores de terminal sin JavaScript; esto no es tan complicado en la mayoría de casos y trae beneficios de todo tipo.
+
+* Intentad en la medida de lo posible no utilizar navegadores basados en Google Chrome o Safari. Firefox no es idóneo, pero es totalmente viable.
+
+* Intentad estar disponibles en sistemas de mensajería no controlados por Meta (y a ser posible, tampoco por Apple, Google y Microsoft). Aunque en este punto las alternativas tampoco son geniales, he escrito sobre el tema en español[3] y más extensamente en inglés[4].
+
+(Y dejo para otro día hablar del correo electrónico. Y sobre redes sociales ya he desvariado bastante, como por ejemplo aquí[5].)
+
+=> https://mastodon.social/@chechar/114444705177197924 [1] opino que la mejor sanción contra las prácticas monopolísticas ilegales de Google...
+=> https://en.wikipedia.org/wiki/Microsoft_litigation [2] Microsoft en los juzgados
+=> gemini://alex.corcoles.net/2025/01/epistolas-inmediatas/ [3] Sobre mensajería instantánea en español
+=> https://github.com/alexpdp7/alexpdp7/blob/master/misc/internet-communication-channels.md [4] Sobre mensajería instantánea en inglés
+=> gemini://alex.corcoles.net/2025/03/viajar-en-el-tiempo-a-2006-para-comerle-la-cabeza-a-jack/ [5] Sobre redes sociales
