@@ -1,0 +1,22 @@
+# Kagi y Pixar
+2025-05-14
+
+(La animación en tres dimensiones poco tiene que ver con esto, pero luego que si los catalanes y la escatología.)
+
+Acabo de dejarme algo más de 60 euros en una suscripción anual "starter" de Kagi.
+
+La verdad, aunque Google no es santo de mi devoción, tampoco es de mis prioridades en cuanto a boicots se refiere. (Sigo usando GMail, que me da mucho más por saco; sospecho que Google Maps es insustituible a día de hoy y uso un Pixel.) Pero hay que hacer algo de investigación para saber qué se masca en el mercado y creo que pagar por un buscador es un concepto que vale la pena explorar.
+
+En breve, lo importante: los resultados parecen al menos igual de buenos que los de Google y mejores que los de Bing y DuckDuckGo. (Tampoco he probado muchos buscadores más.)
+
+Pensaba que mi funcionalidad estrella de Kagi sería su bloqueo de dominios en los resultados, pero todavía no la he usado. Quizá porque los resultados son suficientemente buenos, quizá porque no puedes simplemente penalizar un dominio, que a priori me parece más deseable.
+
+Casi no he usado sus otras funcionalidades. Lo mejor es que escoger si queremos resultados locales o no es mucho mejor que en Google. Otras funcionalidades parecen muy yanquicéntricas, como su buscador de recetas.
+
+Me he decidido por la tarifa starter (300 búsquedas mensuales) por dos motivos. Uno, las 100 búsquedas de pruebas me han durado más o menos 10 días, así que creo que no me hace falta pasarme a la tarifa superior. Segundo, estoy excesivamente acostumbrado a usar Google para ir a cualquier página que no me saque la barra de direcciones de Firefox, lo que me parece un desperdicio.
+
+Para corregir esto, me he entretenido en añadir las Wikipedias inglesa y española como motores de búsqueda en mi navegador. El proceso es excesivamente tedioso (al menos en Firefox), pero creo que poder seleccionar el idioma explícitamente me va un poco bien. Además, muchas veces el resultado de la Wikipedia que quiero no está entre los primeros resultados de Google, con lo que supongo que vale la pena.
+
+Mi mayor reserva respecto a Kagi es que hacen bastantes cosas de LLMs. Pero al menos de momento no es intrusivo, y les daré el beneficio de la duda de que quizá es la manera de conseguir financiación en estos tiempos. O incluso, que igual en un buscador se le pueden dar usos lícitos a algunas tecnologías adyacentes a los LLM.
+
+¿Haré campaña por Kagi? De momento, no. Conozco gente contenta con buscadores gratuitos que parecen éticos. Pero habrá que ver los mejores modelos para financiar buscadores y de momento quiero ver cómo evoluciona Kagi.
