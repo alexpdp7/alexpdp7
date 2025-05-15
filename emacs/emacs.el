@@ -106,6 +106,11 @@
 (setq auto-mode-alist (append '(("\\.pl\\'" . prolog-mode))
                               auto-mode-alist))
 
+(use-package sql-indent
+  :ensure t
+  :config
+  (add-hook 'sql-mode-hook 'sqlind-minor-mode))
+
 ;; the following is a bit fiddly, eglot requires some extra love to have extra flymake providers
 (use-package flymake-vale
   :vc (:url "https://github.com/tpeacock19/flymake-vale.git"
