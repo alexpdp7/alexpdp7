@@ -9,7 +9,7 @@ La verdad, aunque Google no es santo de mi devoción, tampoco es de mis priorida
 
 En breve, lo importante: los resultados parecen al menos igual de buenos que los de Google y mejores que los de Bing y DuckDuckGo. (Tampoco he probado muchos buscadores más.)
 
-Pensaba que mi funcionalidad estrella de Kagi sería su bloqueo de dominios en los resultados, pero todavía no la he usado. Quizá porque los resultados son suficientemente buenos, quizá porque no puedes simplemente penalizar un dominio, que a priori me parece más deseable.
+Pensaba que mi funcionalidad estrella de Kagi sería su bloqueo de dominios en los resultados, pero todavía no la he usado. Quizá porque los resultados son suficientemente buenos, quizá porque no puedes simplemente penalizar un dominio, que a priori me parece más deseable. (Edito: me había confundido la interfaz; se puede bloquear, penalizar, promocionar y "chinchetar" por dominio.)
 
 Casi no he usado sus otras funcionalidades. Lo mejor es que escoger si queremos resultados locales o no es mucho mejor que en Google. Otras funcionalidades parecen muy yanquicéntricas, como su buscador de recetas.
 
