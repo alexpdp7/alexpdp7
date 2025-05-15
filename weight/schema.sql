@@ -59,6 +59,26 @@ insert into zqxjk._tables(name, default_sort) values ('pressure_medication', '{"
 
 create schema reporting;
 
+create view reporting.aggregate_standard_bp_measurements as (
+  with daily_standard_bp_measurements as (
+    select date_trunc('day', bp.measured_at)::date as day_measured,
+           systolic,
+           diastolic
+      from weight.bp
+     where bp.kind = 'standard'
+  )
+  select daily_standard_bp_measurements.*,
+         'all' as kind
+    from daily_standard_bp_measurements
+   union
+  select day_measured,
+         min(systolic) as systolic,
+         min(diastolic) as diastolic,
+         'daily_minimum' as kind
+    from daily_standard_bp_measurements
+   group by day_measured
+);
+
 create view reporting.weekly_blood_pressure as (
   with limits as (
     select date_trunc('week', min(taken_at)) as min_week,
