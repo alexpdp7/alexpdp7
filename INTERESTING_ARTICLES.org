@@ -11,6 +11,7 @@
 - [[https://en.wikipedia.org/wiki/Ostrich_algorithm][Ostrich algorithm]]
 - [[https://blog.brownplt.org/2024/04/12/behavior-misconceptions.html][Finding and Fixing Standard Misconceptions About Program Behavior]] About the Standard Model of Languages (SMoL)
 - [[https://dannorth.net/best-simple-system-for-now/][Best Simple System for Now]] A view I disagree on about IAGNI and the opposite concepts, but interesting
+- [[https://mmapped.blog/posts/38-static-types-perfectionism][Static types are for perfectionists]] Our programming style is influenced by our personality and life
 
 ** Testing
 
