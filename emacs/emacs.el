@@ -16,6 +16,7 @@
 (global-completion-preview-mode 1) ; show things that you can tab-complete
 (setq tab-always-indent 'complete) ; allow tab to complete
 (setq text-mode-ispell-word-completion nil) ; but do not complete dictionary words
+(windmove-default-keybindings) ; S-cursor to move to different windows
 
 (setq org-startup-folded t)
 
