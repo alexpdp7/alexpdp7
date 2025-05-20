@@ -39,6 +39,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/ronkok/Hurmet Pretty LaTeX-style "arithmetic" notebooks
    - https://github.com/jupytercalpoly/reactivepy
    - https://github.com/executablebooks/jupyter-book
+   - https://github.com/OKUA1/juvio - Git-friendly notebooks with uv for dependencies
 ** Testing
    - https://github.com/Mikuu/Micoo - visual diff testing
    - https://github.com/minimaxir/big-list-of-naughty-strings
