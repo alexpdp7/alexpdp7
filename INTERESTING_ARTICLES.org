@@ -1,6 +1,6 @@
 * General
 
-- [[https://lukeplant.me.uk/blog/posts/no-one-actually-wants-simplicity/][No one actually wants simplicity]] Simplicity is sacrifice. See also [[https://www.seangoedecke.com/wicked-features/][wicked features]].
+- [[https://lukeplant.me.uk/blog/posts/no-one-actually-wants-simplicity/][No one actually wants simplicity]] Simplicity is sacrifice. See also [[https://www.youtube.com/watch?v=SxdOUGdseq4][simple made easy (video)]], [[https://www.seangoedecke.com/wicked-features/][wicked features]].
 - [[https://www.geoffreylitt.com/2025/03/03/the-nightmare-bicycle.html][Avoid the nightmare bicycle]] Good designs expose systematic structure; they lean on their users’ ability to understand this structure and apply it to new situations.
 
 * Programming
