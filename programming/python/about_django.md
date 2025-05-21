@@ -135,3 +135,7 @@ If you know a good source for many of those, even if it is paid, feel free to le
     Many projects similar to the admin only offer dropdowns for reference fields.
     This does not work when the referenced objects are more than a couple.
     Django calls this [`raw_id_fields`](https://docs.djangoproject.com/en/5.1/ref/contrib/admin/#django.contrib.admin.ModelAdmin.raw_id_fields), and it is difficult to learn that this feature exists.
+
+## Further reading
+
+* [CRUD is an important unsolved problem](../crud_is_an_important_unsolved_problem.md)
