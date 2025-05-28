@@ -68,6 +68,7 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
 * Responsive handwriting
 
 - A tool that helps create handwritten documents that adapt to different screen and text sizes
+- [[https://alexpdp7.github.io/responsive-handwriting/][Manual proof of concept]].
 
 * Typing database
 
