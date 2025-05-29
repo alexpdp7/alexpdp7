@@ -11,9 +11,9 @@ def setup_soju():
         Description=IRC Bouncer
 
         [Container]
-        Image=quay.io/alexpdp7/workstation:latest
-        Volume=/home/alex/.config/containers/systemd/soju_config:/etc/soju/config
-        Volume=/home/alex/.local/lib/soju:/var/lib/soju/
+        Image=codeberg.org/emersion/soju:latest
+        Volume=/home/alex/.config/containers/systemd/soju_config:/soju-config
+        Volume=/home/alex/.local/lib/soju/:/var/lib/soju
         # running this on an LXC container, which borks SecurityLabelDisable
         #SecurityLabelDisable=true
         Network=host
@@ -41,6 +41,6 @@ def setup_soju():
     sojudb_wrapper.write_text(textwrap.dedent("""
         #!/bin/sh
 
-        podman run -it --rm --security-opt label=disable -v ~/.config/containers/systemd/soju_config:/etc/soju/config -v ~/.local/lib/soju/:/var/lib/soju quay.io/alexpdp7/workstation:latest sojudb "$@"
+        podman run -it --rm --security-opt label=disable -v ~/.config/containers/systemd/soju_config:/soju-config -v ~/.local/lib/soju/:/var/lib/soju codeberg.org/emersion/soju:latest sojudb "$@"
     """).lstrip())
     sojudb_wrapper.chmod(0o755)
