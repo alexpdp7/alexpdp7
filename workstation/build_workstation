@@ -24,7 +24,7 @@ set -ue
 		     --package man-db \
 		     --package isync \
 		     --package soju \
-                     --package libotr \
+		     --package libotr \
 		     --package qemu-system-aarch64 \
 		     --package qemu-system-arm-firmware \
 		     --package qemu-img \
