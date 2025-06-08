@@ -40,6 +40,6 @@ However, `dd` can fail on some disks, perhaps due to damage or copy protection.
 
 * Start playback of the disc using [VLC media player](https://www.videolan.org/vlc/).
 * Try `dd` first, if it fails, then run a command like `ddrescue -n -b2048 -K1M /dev/sr0 x.iso x.map`.
-* After `ddrescue` starts running, pause playback.
+* After `ddrescue` starts running, quit VLC.
 
 [FindVUK](http://fvonline-db.bplaced.net/) has the keys to rip Blu-ray discs.
