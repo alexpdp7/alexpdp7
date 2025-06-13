@@ -299,3 +299,4 @@ See [[misc/document-formats.md]].
   - https://github.com/jhuangtw/xg2xg
   - https://european-alternatives.eu/
   - https://developer.themoviedb.org/ rate-limited APIs for TV shows and movies with airdates
+  - https://carpentries.org/ teaching materials about programming and data for scientists and librarians and https://teachtogether.tech/ their "meta" materials for teaching technology
