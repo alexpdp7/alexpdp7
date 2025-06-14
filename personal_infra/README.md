@@ -19,7 +19,7 @@ See [HACKING](HACKING.md) for more "usage" instructions.
   * LXC container running SeaweedFS (for Takahe)
   * Two VMs running Talos, providing two Kubernetes clusters (production/test)
     * My blog
-    * Takahe
+    * Incarnator
     * A CRUD system I run to track my weight
     * Some other small projects
 * Flat 1

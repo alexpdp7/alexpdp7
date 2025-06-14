@@ -89,7 +89,7 @@
           spec:
             containers:
               - name: webserver
-                image: "jointakahe/takahe:{{ takahe.version }}"
+                image: "docker.io/avaraline/incarnator:{{ takahe.version }}"
                 args:
                   - "gunicorn"
                   - "takahe.wsgi:application"
@@ -188,7 +188,7 @@
           spec:
             containers:
               - name: stator
-                image: "jointakahe/takahe:{{ takahe.version }}"
+                image: "docker.io/avaraline/incarnator:{{ takahe.version }}"
                 args:
                   - python3
                   - manage.py
@@ -214,7 +214,7 @@
             restartPolicy: Never
             containers:
               - name: webserver
-                image: "jointakahe/takahe:{{ takahe.version }}"
+                image: "docker.io/avaraline/incarnator:{{ takahe.version }}"
                 args: ["python3", "manage.py", "migrate"]
                 envFrom:
                   - configMapRef:

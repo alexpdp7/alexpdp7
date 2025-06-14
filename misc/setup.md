@@ -35,7 +35,7 @@ I use Firefox with LanguageTool, Bitwarden and NoScript.
 ## Services
 
 * Miniflux (RSS) (self-hosted)
-* Takahe (ActivityPub/Fediverse/Mastodon), with Enafore for desktop, Toot for terminal, and Tusky for Android (self-hosted)
+* Incarnator (ActivityPub/Fediverse/Mastodon), with Enafore for desktop, Toot for terminal, and Tusky for Android (self-hosted)
 * Telegram, WhatsApp, Discord, Signal, Slack, Google Messages, but also [modern IRC](../workstation/modern_irc.md)
 * TVMaze
 * Google (GMail, Calendar, Contacts)

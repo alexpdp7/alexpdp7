@@ -9,10 +9,13 @@ Pensaba que el cacareado "Mastodon is hard" era una exageración de apoltronados
 
 En los detalles técnicos, estoy usando Takahe[1] sobre mi Kubernetes. Como intento publicar todo el montaje de mi infraestructura, podéis curiosear por aquí[2]. Aparte de lo primitivo del despliegue, lo otro destacable es que como Takahe quiere "object storage", estoy de pruebas con SeaweedFS[3] y he comenzado a mantener un RPM para desplegarlo[4].
 
+Actualización 2025-06-14: Estoy usando Incarnator[5], porque Takahe está un poco inactivo e Incarnator es un fork más activo.
+
 => https://jointakahe.org/ [1] Takahe
 => https://github.com/alexpdp7/alexpdp7/blob/master/personal_infra/playbooks/roles/takahe/tasks/main.yaml [2] El playbook que despliega Takahe
 => https://github.com/seaweedfs/seaweedfs [3] SeaweedFS
 => https://github.com/alexpdp7/seaweedfs-rpm/tree/main [4] Un RPM de SeaweedFS
+=> https://github.com/avaraline/incarnator [5] Incarnator, un fork más activo de Takahe
 
 Las ventajas de Takahe son:
 
