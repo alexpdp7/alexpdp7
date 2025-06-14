@@ -43,3 +43,5 @@ However, `dd` can fail on some disks, perhaps due to damage or copy protection.
 * After `ddrescue` starts running, quit VLC.
 
 [FindVUK](http://fvonline-db.bplaced.net/) has the keys to rip Blu-ray discs.
+However, with encrypted Blu-ray discs, you need to configure the keys in each device where you want to play back the content.
+[blu-save](https://git.sr.ht/~shironeko/blu-save) can remove the encryption, so that you can play `BDMV/STREAM/*.m2ts` with VLC without setting up the keys, but VLC cannot play the disc without the keys (!)
