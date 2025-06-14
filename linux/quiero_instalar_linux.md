@@ -225,3 +225,68 @@ Este proceso puede ser distinto; si antes lo hicimos desde Windows, una vez reem
 
 Como mencionamos anteriormente, siempre debería ser posible volver a Windows.
 Si nos hemos asegurado que nuestros datos estén protegidos, podemos reinstalar Windows de nuevo o usar las funcionalidades de recuperación.
+
+## Instalando programas en Linux
+
+Un ordenador y un sistema operativo no son más que medios para usar programas.
+De hecho, las distribuciones de Linux se llaman distribuciones porque aparte de Linux en sí (que por sí mismo no sirve de mucho), empaquetan una colección de programas para que nuestro ordenador sea útil.
+
+Por tanto, es importante saber qué programas necesitamos y cómo instalarlos en Linux.
+
+Lo más fácil suele ser instalar los programas que empaqueta nuestra distribución.
+Además, las actualizaciones de los programas instalados desde nuestra distribución están integradas con las actualizaciones del sistema, lo que supone una ventaja interesante respecto a otros sistemas operativos.
+
+Sin embargo, ni la distribución más extensa puede contener todos los programas que pueda necesitar todo el mundo.
+(Aunque en general, cualquiera puede pasar por un proceso para añadir el programa que quiera a una distribución, aunque en general empaquetar programas para distribuciones es de las maneras más complejas de distribuir software.)
+
+Adicionalmente, las distribuciones (especialmente las de soporte prolongado[^1]) no siempre están al día con las últimas versiones del software que empaquetan.
+
+[^1]: las distribuciones de soporte prolongado y muchas de soporte breve sólo incorporan actualizaciones de seguridad y corrección de defectos.
+      Aunque esto supone sus ventajas, muchas veces nos impedirá tener acceso a las funcionalidades más nuevas de un programa.
+
+La mayoría de distribuciones tienen páginas web donde podemos buscar un programa y ver qué versiones están empaquetadas en qué versión de la distribución, como por ejemplo:
+
+* [Debian](https://www.debian.org/distrib/packages)
+* [Ubuntu](https://packages.ubuntu.com/)
+* [Fedora](https://packages.fedoraproject.org/)
+
+Nota: los paquetes de una distribución en general sólo se deben usar en la misma distribución *y* versión de la distribución para la que está hecho el paquete.
+Aunque a veces es posible aprovechar paquetes, no es recomendable si no sabemos bien cómo funciona.
+
+Pero existen más mecanismos para instalar software.
+
+### Sistemas de paquetes genéricos
+
+Principalmente Flatpak y Snap son dos sistemas para instalar software que funcionan en muchas distribuciones.
+A diferencia de los paquetes de una distribución, que sólo funcionan en esa distribución, un Flatpak o un Snap funcionarán en todas las distribuciones que estén soportadas ([aquí las distribuciones que soporta Flatpak](https://flatpak.org/setup/ "Instrucciones para instalar Flatpak en distribuciones soportadas") y [las soportadas por Snap](https://snapcraft.io/docs/installing-snapd "Instrucciones para instalar Snap en distribuciones soportadas")).
+
+La ventaja indirecta para el usuario es que el autor de un programa (o cualquiera) puede hacer un Flatpak o un Snap e inmediatamente lo pueden usar usuarios de distintas distribuciones, sin tener que hacer el esfuerzo de empaquetarlo para todas las distribuciones.
+Con esto, hay bastantes programas que están mejor mantenidos como Flatpak o Snap que en las distribuciones.
+
+Sin embargo, mientras que ya confiamos implícitamente en nuestra distribución para tener programas libres de malicia (o al menos, si distribuyen programas maliciosos ya lo sufrimos), al añadir Flatpaks o Snaps debemos ser más cuidadosos, porque los programas pueden quedar desactualizados, el empaquetador no necesariamente es el autor del software, y un largo etcétera.
+
+Flatpak y Snap incorporan mecanismos para aislar los programas de manera que no puedan tener efectos negativos sobre nuestro sistema (como código malicioso, por ejemplo), que pueden ser más avanzados que los mecanismos de protección de la mayoría de distribuciones.
+Esto nos da cierta tranquilidad, pero puede causar problemas.
+Tanto el hecho de que los Flatpak y Snaps funcionan bajo varias distribuciones como estos mecanismos de protección pueden causar algunos problemas en algunos programas.
+
+A menudo pero no siempre, los Flatpak y Snap están integrados con las actualizaciones del sistema.
+
+### Empaquetados de terceros
+
+La mayoría de distribuciones dan mecanismos para que cualquiera pueda crear repositorios de paquetes alternativos.
+
+Algunos programas proporcionan repositorios para algunas distribuciones, y hay grupos que se dedican a crear repositorios con programas adicionales para distribuciones específicas.
+
+Usando estos repositorios, casi siempre conservamos que las actualizaciones de programas de estos repositorios se integran en las actualizaciones del sistema, con lo que es sencillo estar actualizado.
+
+Cuando el repositorio está empaquetado por los autores del programa, en general mejora la confiabilidad del paquete.
+En repositorios alternativos, nos tenemos que fiar más de quién mantiene el repositorio, aunque hay repositorios de terceros con un largo historial de confiabilidad y calidad.
+
+### Distribuciones binarias
+
+Algunos autores distribuyen versiones binarias de su programa, que funcionan de una manera similar a como se distribuye la mayoría de software en Windows o macOS.
+
+Estos binarios suelen ser confiables y de calidad, pero principalmente ofrecen dos problemas:
+
+* Los binarios no siempre funcionan en todas las distribuciones.
+* Si el programa no incorpora un mecanismo de actualizaciones, tendremos que actualizar el programa manualmente.
