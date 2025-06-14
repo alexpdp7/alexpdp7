@@ -28,13 +28,15 @@
     wait: true
     state: present
   tags: dns
-- k8s:
+- name: create namespace
+  k8s:
     context: "{{ context }}"
     state: present
     name: "{{ takahe.namespace }}"
     kind: Namespace
   delegate_to: 127.0.0.1
-- k8s:
+- name: create secret
+  k8s:
     context: "{{ context }}"
     state: present
     name: takahe-secrets
@@ -47,7 +49,8 @@
         TAKAHE_EMAIL_SERVER: "{{ ('smtp://' + mail.ses_username + ':' + mail.ses_password + '@' + mail.ses_endpoint + ':25?tls=true') | b64encode }}"
         TAKAHE_MEDIA_BACKEND: "{{ (takahe.s3_proto + '://' + takahe.s3_access_key + ':' + takahe.s3_secret_key + '@' + takahe.s3_endpoint + '/' + takahe.s3_bucket) | b64encode }}"
   delegate_to: 127.0.0.1
-- k8s:
+- name: create config map
+  k8s:
     context: "{{ context }}"
     state: present
     name: takahe-config
@@ -66,7 +69,8 @@
         TAKAHE_CSRF_HOSTS: "{{ ['https://femto.pub', 'https://alex.femto.pub'] | to_json }}"
         TAKAHE_ERROR_EMAILS: "{{ [takahe.admin_email] | to_json }}"
   delegate_to: 127.0.0.1
-- k8s:
+- name: create deployment
+  k8s:
     context: "{{ context }}"
     state: present
     name: webserver
@@ -113,7 +117,8 @@
                     path: /
                     port: 8000
   delegate_to: 127.0.0.1
-- k8s:
+- name: create service
+  k8s:
     context: "{{ context }}"
     state: present
     name: webserver
@@ -131,7 +136,8 @@
         selector:
           run: webserver
   delegate_to: 127.0.0.1
-- k8s:
+- name: create ingress
+  k8s:
     context: "{{ context }}"
     state: present
     name: webserver
@@ -162,7 +168,8 @@
                       port:
                         name: web
   delegate_to: 127.0.0.1
-- k8s:
+- name: create stator deployment
+  k8s:
     context: "{{ context }}"
     state: present
     name: stator
@@ -192,7 +199,8 @@
                   - secretRef:
                       name: takahe-secrets
   delegate_to: 127.0.0.1
-- k8s:
+- name: create migrate job
+  k8s:
     context: "{{ context }}"
     state: present
     name: migrate
