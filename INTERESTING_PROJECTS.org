@@ -254,8 +254,8 @@ Also keeping things in a Org mode means I can classify and add notes.
 *** Fediverse
     - https://github.com/bashrc2/epicyon
     - https://microblog.pub/
-    - https://jointakahe.org/
-    - https://github.com/enafore/enafore - Keyboard-friendly Mastodon web client, compatible with Takahe
+    - https://jointakahe.org/ (active fork https://github.com/avaraline/incarnator)
+    - https://github.com/enafore/enafore - Keyboard-friendly Mastodon web client, compatible with Takahe/Incarnator
     - https://github.com/ihabunek/toot - Terminal Mastodon web client.
 ** Pubnix
    - https://github.com/cwmccabe/pubnixhist
