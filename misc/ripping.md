@@ -48,3 +48,8 @@ However, with encrypted Blu-ray discs, you need to configure the keys in each de
 [blu-save](https://git.sr.ht/~shironeko/blu-save) can remove the encryption.
 However, VLC is confused by the `AACS` and `CERTIFICATE` directories that blu-save copies to the output.
 If you remove them, then VLC can play the `BDMV` directory with menus, etc.
+
+For playback, most software (including Kodi and VLC for Android) can play back DVD ISO with full menu support.
+
+For Blu-ray, Kodi for Android can open a repacked ISO and identify the titles.
+However, Kodi did not support the menus for the Blu-ray I tested.
