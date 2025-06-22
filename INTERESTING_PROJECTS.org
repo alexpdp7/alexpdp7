@@ -268,6 +268,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://rss-parrot.net/ RSS to ActivityPub
 * Hardware
   - https://junkerhq.net/xrgb/index.php/OSSC - The Open Source Scan Converter is a low-latency video digitizer and scan converter designed primarily for connecting retro video game consoles and home computers to modern displays.
+  - https://openterface.com/ - Adds KVM capabilities to a laptop.
 ** Phones
    - https://github.com/Dakkaron/Fairberry - add Blackberry keyboard to other phones
 * Technical writing
