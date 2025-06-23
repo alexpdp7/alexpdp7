@@ -207,6 +207,8 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://docs.nitrokey.com/nethsm/ - Open-source HSM (physical and virtual)
 ** Remote desktops
   - https://github.com/linuxserver/docker-baseimage-kasmvnc - Web adapter for graphical applications
+  - https://selkies-project.github.io/selkies/ - Replacement for KasmVNC?
+  - https://moonlight-stream.org/ / https://docs.lizardbyte.dev/projects/sunshine/latest/ - Nvidia-like streaming
   - https://github.com/m1k1o/neko/
 ** Misc
    - https://github.com/marcan/takeover.sh
