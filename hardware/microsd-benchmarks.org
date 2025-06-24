@@ -1,0 +1,10 @@
+Tests made with GNOME Disks on Debian 12, with all the default parameters.
+
+| Reader | MicroSD card                       | Average Read Rate (MB/s) | Average Write Rate (MB/s) | Average Access Time (ms) |
+|--------+------------------------------------+--------------------------+---------------------------+--------------------------|
+| VKUSRA | SanDisk Ultra 32 gb                |                     18.8 |                      18.5 |                     0.67 |
+| VKUSRA | Kingston CANVAS Select Plus 128 gb |                     10.9 |                        11 |                    34.17 |
+| Blue   | SanDisk Ultra 32 gb                |                     17.1 |                       9.8 |                     0.77 |
+| Blue   | Kingston CANVAS Select Plus 128 gb |                     17.5 |                      10.8 |                    33.44 |
+
+Sandisk reader seems to not recognize MicroSD cards frequently :(
