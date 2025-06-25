@@ -17,7 +17,6 @@
 
 - [[https://testing.googleblog.com/2014/05/testing-on-toilet-risk-driven-testing.html][Testing on the Toilet: Risk-Driven Testing]] "Your tests are a means. The bang is what counts. It’s your job to maximize it."
 - [[https://testing.googleblog.com/2024/10/smurf-beyond-test-pyramid.html][SMURF: Beyond the Test Pyramid]] Test categories and the pyramid are excessively limited models.
-- [[https://softwareengineering.stackexchange.com/questions/123627/what-are-the-london-and-chicago-schools-of-tdd][What are the London and Chicago schools of TDD?]] (Just to remember these useful terms)
 
 ** Python
 
@@ -61,3 +60,21 @@
 
 - [[https://www.benkuhn.net/progessays/][Essays on programming I think about a lot]]
 - [[https://www.piglei.com/articles/en-programmer-reading-list-part-one/][A Programmer's Reading List: 100 Articles I Enjoyed (1-50)]]
+
+* Infrequent but useful terms
+
+- [[https://en.wikipedia.org/wiki/Abilene_paradox][The Abilene paradox]] is a collective fallacy, in which a group of people collectively decide on a course of action that is counter to the preferences of most or all individuals in the group, while each individual believes it to be aligned with the preferences of most of the others.
+- [[https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect][The Dunning–Kruger effect]] is a cognitive bias in which people with limited competence in a particular domain overestimate their abilities. Some researchers also include the opposite effect for high performers: their tendency to underestimate their skills. In popular culture, the Dunning–Kruger effect is often misunderstood as a claim about general overconfidence of people with low intelligence instead of specific overconfidence of people unskilled at a particular task.
+  [[https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.840180/full][This effect might only be caused by subjects in the bottom quartile can only make optimistic errors placing themselves into a higher quartile, while subjects in the top quartile can only make pessimistic errors placing themselves in a lower quartile]].
+- [[https://en.wikipedia.org/wiki/Gell-Mann_amnesia_effect][The Gell-Mann amnesia effect]] is a cognitive bias describing the tendency of individuals to critically assess media reports in a domain they are knowledgeable about, yet continue to trust reporting in other areas despite recognizing similar potential inaccuracies.
+- [[https://en.wikipedia.org/wiki/Goodhart%27s_law][Goodhart's law]] is an adage that has been stated as, "When a measure becomes a target, it ceases to be a good measure".
+  [[https://en.wikipedia.org/wiki/McNamara_fallacy][The McNamara fallacy]] (also known as the quantitative fallacy) involves making a decision based solely on quantitative observations (or metrics) and ignoring all others.
+- [[https://en.wikipedia.org/wiki/Hanlon%27s_razor][Hanlon's razor]] is an adage, or rule of thumb, that states: Never attribute to malice that which is adequately explained by stupidity.
+- [[https://en.wikipedia.org/wiki/Hawthorne_effect][The Hawthorne effect]] is a type of human behavior reactivity in which individuals modify an aspect of their behavior in response to their awareness of being observed.
+- [[https://softwareengineering.stackexchange.com/questions/123627/what-are-the-london-and-chicago-schools-of-tdd][What are the London and Chicago schools of TDD?]] (Just to remember these useful terms)
+- [[https://en.wikipedia.org/wiki/Sturgeon%27s_law][Sturgeon's law]] is an adage stating "ninety percent of everything is crap".
+
+Sources:
+
+- [[https://en.wikipedia.org/wiki/List_of_paradoxes][List of paradoxes]]
+- [[https://en.wikipedia.org/wiki/Unintended_consequences][Unintended consequences]]
