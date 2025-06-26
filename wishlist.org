@@ -18,7 +18,6 @@ Todos se pueden comprar en Kindle, tapa blanda o el formato que salga más barat
 
 * Cacharros
 
-- Correa de 20mm para mi [Bangle.js 2](https://www.espruino.com/Bangle.js2) que no me dé reacción y que no sea metálica para no destruir portátiles.
 - Pedal USB para el ordenador. [[https://www.amazon.es/PCsensor-Interruptor-Programable-Combinación-Personalizada/dp/B08SLX75K8/][Este]], o cualquiera más barato si en algún sitio de Internet pone que es compatible con Linux.
 - Alfombrilla para el ratón.
   Adoraba [[https://spectrum.ieee.org/media-library/image-of-a-mousepad-with-a-vintage-sun-microsystems-logo-and-slogan.jpg?id=25589293&width=2400&height=1443][esta alfombrilla]] que tenía desde hace décadas, pero que se me fastidió porque le daba mucho el sol :(
