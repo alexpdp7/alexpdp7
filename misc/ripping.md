@@ -48,8 +48,9 @@ For playback, most software (including Kodi and VLC for Android) can play back D
 
 #### Blu-ray
 
-[FindVUK](http://fvonline-db.bplaced.net/) has the keys to rip Blu-ray discs.
+[FindVUK](http://fvonline-db.bplaced.net/) has the keys to play Blu-ray discs ripped with `dd`.
 However, with encrypted Blu-ray discs, you need to configure the keys in each device where you want to play back the content.
+(And this is not easy or possible in some cases.)
 
 [blu-save](https://git.sr.ht/~shironeko/blu-save) can remove the encryption.
 Remember to specify the path to the keys when running blu-save.
