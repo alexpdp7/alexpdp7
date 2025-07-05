@@ -1,0 +1,60 @@
+# Mods no siempre elegantes
+2025-07-05
+
+Una persona a la que sigo en el fediverso puso el otro día que estaba experimentando con OpenMPT, un tracker. Esto me llevó inmediatamente a los noventa otra vez.
+
+El Commodore 64, nuestro primer ordenador doméstico, tiene una gran reputación por el SID, su chip de sonido. Pero esto es principalmente porque le daba mil vueltas al resto de ordenadores personales habituales de la época y tiene un sonido muy peculiar:
+
+=> https://www.youtube.com/watch?v=ZX-Ixb0sy4E La música de Rob Hubbard para el IK+ de C64. Pelotazo de juego, pelotazo de música.
+
+No fue hasta el Amiga y el Atari ST (1985 ambos) que los ordenadores domésticos podrían hacer música con mayúsculas. Revisando, más el Amiga que el ST; aunque ambos tenían suficiente capacidad para mover instrumentos "sampleados", parece ser que los cuatro canales de sonido del Amiga (suficientes para gran variedad de música, como veremos) superaban a los dos canales del ST.
+
+(Aunque por otra parte, el ST traía de serie puertos MIDI, con lo que podía usar sintetizadores, teclados y otros aparatos de música, con lo que como ordenador de estudio más allá de su hardware incorporado, dominaba.)
+
+Es decir, el C64 podía sintetizar sonidos como los que oís en la música del IK+, pitiditos y ruidos. Pero el Amiga podía hacer:
+
+=> https://www.youtube.com/watch?v=ZuK1zPcNxCg El mítico "Cortouchka!"
+
+Donde las guitarras y la batería casi con total seguridad son sonidos grabados de instrumentos reales, con lo que el Amiga podía hacer música que sonaba "de verdad". O incluso un disco de oro en Reino Unido:
+
+=> https://music.youtube.com/watch?v=qqm6NpJRoic&si=5dmMSkAPwgpazi9K "Acceptable in the 80's" del disco "I Created Disco" de Calvin Harris
+
+La mayoría de la música que oímos del Amiga hoy en día son "mods" (módulos) compuestos con "trackers", el software al que hacía referencia en la entrada.
+
+Un tracker es un programa gráfico que nos muestra una columna por cada pista de sonido que soporta el ordenador; para el Amiga en general 4, aunque algún tracker conseguía sacar 8 pistas con algún truco. Cada columna solía tener 64 líneas, y en cada línea podía haber una nota.
+
+Esto constituía un "pattern" (de típicamente unos 4 compases) y un mod era una combinación de patterns. (Es decir, normalmente había algún pattern que se repetía, tal como en la música normal hay partes repetidas.)
+
+La "magia" es que tenías que encajar la música en los 4 canales. El vídeo de Cortoucha visualiza los cuatro canales, que comienza con un canal de bajo y dos canales donde se van alternando sonidos de cuerdas, al que luego se añade una melodía de viento.
+
+Luego, comienza con uno o dos canales para la percusión, uno o dos para guitarras y otro para bajo.
+
+Ahí está lo complicado. Por ejemplo, si ponemos sólo un canal para la percusión, cuando comience un sonido (por ejemplo, un bombo), se corta el sonido que sonaba antes (por ejemplo, los platillos). Con lo que si queremos que se oigan los dos a la vez, necesitaremos gastar dos canales; o sacrificar un poco de profundidad del sonido y que no suenen a la vez.
+
+Y para acordes, pues un acorde de tres notas se nos comerá tres canales.
+
+Pero claro, eso es si los "samples" que usamos sólo tienen un sonido. Pero al ser samples, en realidad pueden ser cualquier cosa. Como por ejemplo, un acorde de guitarra grabado sólo nos consumirá un canal.
+
+Pero el truco tiene truco; el Amiga no tiene memoria ilimitada y cada sample que usamos consume un poco de memoria. Con lo que en general, aunque se podía usar un tracker como secuenciador para simplemente tener samples que eran pistas completas de estudio y combinarlas, la mayoría de mods se basaban en unos cuantos samples de instrumentos combinados con gracia.
+
+Hacer mods era básicamente intentar encajar en cuatro canales la música que queremos hacer, recurriendo a trucos de todo tipo para conseguir el sonido que buscamos.
+
+Seguramente, también la mayoría de la música que escucháis en un juego de Amiga la compuso alguien con un tracker. En el C64 ya había software para componer la música de los juegos, pero era bastante común escribir programas que hacían la música en vez de usar un software especializado. La gracia en los juegos es que claro, quieres efectos de sonido para los disparos y demás, con lo que las dificultades de los cuatro canales se incrementan más.
+
+(Además, el Amiga soltaba dos de sus canales fijos por el altavoz izquierdo y otros dos, por el derecho. Con lo que si querías sonido direccional, pues el más difícil todavía.)
+
+Otro factor son los efectos. Cada casilla de un patrón podía aplicar un (y sólo uno) efecto. Un efecto podía ser un cambio de tono, de volumen o cosas más esotéricas como un "arpeggio", que era una manipulación del sonido del sample para que sonase parecido a un acorde.
+
+Pero lo verdaderamente interesante de los mods era algo así como la magia de la web y el HTML. Como mucha música se distribuía en mods, simplemente podíamos abrirla en el tracker y ver todo. Podíamos coger los samples y hacer una canción distinta. Podíamos examinar las pistas nota a nota para aprender los trucos que había inventado el artista. Y aunque servidor no aprendió más por ser un poco negado por la música, personalmente conozco gente que hoy en día compone comercialmente que comenzó con un tracker en el Amiga. (Y seguro que bastantes más músicos famosos que Calvin Harris comenzaron ahí.)
+
+Hoy en día los mods siguen bastante vivos, con software nuevo como OpenMPT. Creo que los trackers, por su simplicidad, son bastante más accesibles que los secuenciadores "profesionales". Personalmente he jugado con algún secuenciador y está lejos de la inmediatez del tracker; el otro día cuando vi comentado el tema, encontré un tracker que funciona dentro de un navegador y en unos minutos, tras llevar más de una década sin tocar uno, pude hacer algún ruidito gracioso, mientras que con los secuenciadores he necesitado mucho más rato para hacer nada.
+
+Porque el tracker se abre ya con una pista en blanco. Cargas un instrumento, pones dos notas, y ya lo tienes. Y además, están pensados para poder hacer sonar los samples "en vivo". Si no estás en modo editar, donde al pulsar una tecla se escribe sobre la pista, al pulsar la Q del teclado sonará un do del sample que tengas seleccionado. Luego el 2 hace el do sostenido, la W el re, etc., son Z-S-X-etc. en las filas inferiores del teclado reproduciendo otra octava "de piano" por debajo.
+
+Es decir, que también podemos usar el teclado de nuestro ordenador a modo de piano electrónico. (Con lo que yo, al cabo de una década, todavía puedo hacer sonar alguna melodía en un teclado.)
+
+El Amiga salió en el 85, pero fue en el 87 cuando salieron los primeros trackers, coincidiendo con la llegada del Amiga 500, que costaba la mitad que el primer modelo de Amiga. Recuerdo comenzar a conseguir floppies con mods, escucharlos, trastear con ellos, e incluso grabarlos en cintas para oírlos lejos del ordenador. En los 90, con los PC comenzando a ofrecer mejores capacidades de gráficos y sonido a precios asequibles, con la SoundBlaster y la Gravis Ultrasound, los PC también se unieron a la fiesta, incluso superando las capacidades del Amiga (más canales, y sonido de 16 bits calidad CD, ofreciendo un sonido más fiel que los 8 bits del Amiga).
+
+Más tarde, con CPUs más potentes, el tema de los canales dejó de ser relevante. En algún momento, las CPUs de los ordenadores personales alcanzaron cotas absurdas de potencia y simplemente podían mezclar tantos canales como se quisiera en tiempo real, y el almacenamiento y la compresión como la de los MP3 hacía que los PCs pudiesen reproducir cualquier música sin problema. El tracker pasó de ser *la* herramienta para hacer música dentro y fuera de los juegos a ser una herramienta peculiar y limitada. Que como en otros casos, las limitaciones llevan a la creatividad, pero que ciertamente, hoy en día no están en el mismo lugar que en tiempos pasados.
+
+=> https://www.stef.be/bassoontracker/ Os animo a jugar con algún tracker en navegador como este BassoonTracker.
