@@ -34,7 +34,9 @@ See <https://diskprices.com/>.
 
 ### Video
 
-You can use `dd` to rip DVD and Blu-ray.
+#### DVD
+
+Use `dd` to rip DVD.
 However, `dd` can fail on some disks, perhaps due to damage or copy protection.
 [This post on unix.stackexchange describes a trick that works](https://unix.stackexchange.com/a/642790):
 
@@ -42,14 +44,27 @@ However, `dd` can fail on some disks, perhaps due to damage or copy protection.
 * Try `dd` first, if it fails, then run a command like `ddrescue -n -b2048 -K1M /dev/sr0 x.iso x.map`.
 * After `ddrescue` starts running, quit VLC.
 
+For playback, most software (including Kodi and VLC for Android) can play back DVD ISO with full menu support
+
+#### Blu-ray
+
 [FindVUK](http://fvonline-db.bplaced.net/) has the keys to rip Blu-ray discs.
 However, with encrypted Blu-ray discs, you need to configure the keys in each device where you want to play back the content.
 
 [blu-save](https://git.sr.ht/~shironeko/blu-save) can remove the encryption.
+Remember to specify the path to the keys when running blu-save.
+
 However, VLC is confused by the `AACS` and `CERTIFICATE` directories that blu-save copies to the output.
 If you remove them, then VLC can play the `BDMV` directory with menus, etc.
 
-For playback, most software (including Kodi and VLC for Android) can play back DVD ISO with full menu support.
+You can repack a Blu-ray extracted with blu-save by running a command like:
 
-For Blu-ray, Kodi for Android can open a repacked ISO and identify the titles.
+```
+mkisofs -allow-limited-size -o .../my.iso .
+```
+
+from the directory that contains *only* the `BDMV` directory.
+
+VLC for desktop computers can open a repacked Blu-ray ISO and show the menus.
+Kodi for Android can open a repacked Blu-ray ISO and identify the titles.
 However, Kodi did not support the menus for the Blu-ray I tested.
