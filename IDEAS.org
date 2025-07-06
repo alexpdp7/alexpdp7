@@ -11,6 +11,13 @@ If you send me a list of ideas you are interested in, I will consider those vote
 
 - [[https://github.com/vida-segura-online-es/vida-segura-online-es][vida-segura-online-es]], a resource that provides reputable resources oriented to people living in Spain.
 
+** Own your email or stable communities for email
+
+Make it easier for people to get a domain and own their email address.
+
+- Comparison of methods to do this (e.g. bring-your-own domain email providers, with prices, ease-of-use, etc.)
+- Make it easier to create long-lasting communities that provide such services (ISPs, banks, insurance companies, governments, proffesional associations?)
+
 ** Key escrow for everyone
 
 - Easy-to-use key escrow/secret sharing
