@@ -25,3 +25,11 @@
       dest: "/etc/ansible/tinc/"
     with_inventory_hostnames:
       - tinc
+  - name: regenerate hosts
+    command: /etc/tinc/pdp7/generate_host_{{ hostvars[item].network.location}}.sh
+    with_inventory_hostnames:
+      - tinc
+  - name: restart tinc
+    service:
+      name: tinc@pdp7
+      state: restarted
