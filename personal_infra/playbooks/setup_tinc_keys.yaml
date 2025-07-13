@@ -26,7 +26,7 @@
     with_inventory_hostnames:
       - tinc
   - name: regenerate hosts
-    command: /etc/tinc/pdp7/generate_host_{{ hostvars[item].network.location}}.sh
+    command: /etc/tinc/pdp7/generate_host_{{ hostvars[item].network.tinc.location}}.sh
     with_inventory_hostnames:
       - tinc
   - name: restart tinc
