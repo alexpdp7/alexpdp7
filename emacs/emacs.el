@@ -107,6 +107,21 @@
 (setq auto-mode-alist (append '(("\\.pl\\'" . prolog-mode))
                               auto-mode-alist))
 
+;; for typescript and tsx, use treesit-install-language-grammar to enable the built-in Emacs modes; interactive install is fine, see https://www.masteringemacs.org/article/how-to-get-started-tree-sitter
+(add-hook 'tsx-ts-mode-hook 'eglot-ensure)
+(add-hook 'typescript-ts-mode-hook 'eglot-ensure)
+
+(with-eval-after-load 'eglot
+  (add-to-list 'eglot-server-programs
+               '(tsx-ts-mode . ("npx" "typescript-language-server" "--stdio"))))
+
+(with-eval-after-load 'eglot
+  (add-to-list 'eglot-server-programs
+               '(typescript-ts-mode . ("npx" "typescript-language-server" "--stdio"))))
+
+(add-to-list 'auto-mode-alist '("\\.ts" . typescript-ts-mode))
+(add-to-list 'auto-mode-alist '("\\.tsx" . tsx-ts-mode))
+
 (use-package sql-indent
   :ensure t
   :config
