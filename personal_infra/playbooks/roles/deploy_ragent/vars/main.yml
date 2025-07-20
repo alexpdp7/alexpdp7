@@ -2,20 +2,16 @@
 ragent:
   package_key:
     Debian:
-      '10':
-        x86_64: debian_buster
-        armv7l: debian_buster_rpi3
-      '11': # apparently the buster package works for bullseye
-        x86_64: debian_buster
-        armv7l: debian_buster_rpi3
-      '12': # apparently the buster package works for bookworm
-        x86_64: debian_buster
-        armv7l: debian_buster_rpi3
-      '20': # and it also works for Ubuntu 20.04
-        x86_64: debian_buster
+      # package is built for the oldest non-archived Debian version, seems to work "upwards"
+      '11':
+        x86_64: debian
+        armv7l: debian_rpi3
+      '12':
+        x86_64: debian
+        armv7l: debian_rpi3
+#      '20': # and it also works for Ubuntu 20.04
+#        x86_64: debian_buster
     RedHat:
-      '7':
-        x86_64: el7
       '8':
         x86_64: el8
         aarch64: el8_rpi4
