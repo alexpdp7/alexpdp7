@@ -4,12 +4,9 @@ $ipa_client_package = case $facts['os']['family'] {
   default: { fail($facts['os']['family']) }
 }
 
-if $facts['os']['family'] == 'Debian' and $facts['os']['release']['major'] == "11" {
-  class {'debian::backports':}
-  ->
-  Package[$ipa_client_package]
-
-  service {['sssd-pac.service', 'sssd-pac.socket']:
+if $facts['os']['family'] == 'Debian' and $facts['os']['release']['major'] == "12" {
+  # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1026008
+  service {['sssd-ssh.socket', 'sssd-pam-priv.socket', 'sssd-nss.socket', 'sssd-pam.socket', 'sssd-sudo.socket', 'sssd-pac.socket']:
     ensure => stopped,
     enable => mask,
   }
