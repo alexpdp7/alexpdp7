@@ -10,7 +10,7 @@ Also see [further notes](NOTES.org).
 
 ### Test your website with a terminal browser without JavaScript like w3m, lynx, or elinks
 
-If your website works with one of those browsers, then:
+If your website is usable with one of those browsers, then:
 
 * Your website does not require JavaScript to load.
   This automatically addresses most annoyances with content websites.
