@@ -29,7 +29,6 @@ set -ue
 		     --package qemu-img \
 		     --package cdrtools \
 		     --package mailutils \
-		     --package senpai \
 		     --aur-package telegram-tdlib-purple-minimal-git \
 		     --aur-package bitlbee-libpurple \
 		     workstation
