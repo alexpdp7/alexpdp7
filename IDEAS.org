@@ -76,6 +76,13 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
 - Perhaps https://github.com/exaroth/liveboat-github-runner
 
 * [[programming/the-content-web-manifesto/README.md][Simpler web]]
+* Public RSS reader
+
+- A GitHub Actions-powered RSS grabber
+- You create a repo with a text list of RSS feeds (or OPML, etc.)
+- GitHub Actions runs a daily process of fetching the RSS feeds, and publishes a long HTML page with all the fetched items, perhaps another page per feed, etc.
+- You can use it as a feed reader... and as a way to publicize feeds worth following. People can just skim through the main article list and find feeds they like.
+
 * Responsive handwriting
 
 - A tool that helps create handwritten documents that adapt to different screen and text sizes
