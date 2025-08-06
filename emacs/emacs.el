@@ -140,3 +140,7 @@
   (add-hook 'flymake-diagnostic-functions 'eglot-flymake-backend nil t)
   (flymake-mode 1)))
 (add-hook 'markdown-mode-hook 'flymake-mode)
+
+(add-hook 'js-json-mode-hook
+          (lambda ()
+            (setq indent-tabs-mode nil)))
