@@ -244,6 +244,8 @@ Also keeping things in a Org mode means I can classify and add notes.
 *** Document management
    - https://github.com/Stirling-Tools/Stirling-PDF - PDF manipulation webapp
    - https://github.com/mzucker/noteshrink - handwriting to PDF
+*** Music
+   - https://mixxx.org/ - DJ software
 ** Instant messaging
    - https://letsconvene.im/ - browser-based conversations without accounts
    - https://github.com/kiwiirc/plugin-conference - Jitsi/KiwiIRC integration
