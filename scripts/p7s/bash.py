@@ -15,8 +15,12 @@ def is_debian_bookworm():
     return platform.freedesktop_os_release().get("VERSION_CODENAME") == "bookworm"
 
 
+def is_debian_trixie():
+    return platform.freedesktop_os_release().get("VERSION_CODENAME") == "trixie"
+
+
 def is_debian_based():
-    return is_ubuntu_2204() or is_ubuntu_2404() or is_debian_bookworm()
+    return is_ubuntu_2204() or is_ubuntu_2404() or is_debian_bookworm() or is_debian_trixie()
 
 
 def setup_bash():
