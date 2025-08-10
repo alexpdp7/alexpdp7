@@ -230,6 +230,10 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://github.com/YaLTeR/niri/
   - https://ublue.it/
   - https://github.com/kmonad/kmonad - advanced cross-platform keyboard remappings
+*** Gnome
+  - https://extensions.gnome.org/extension/6784/wiggle/ - shake your pointer to embiggen
+  - https://extensions.gnome.org/extension/6099/paperwm/ - easy tiling
+  - https://extensions.gnome.org/extension/6000/quick-settings-audio-devices-renamer/ / https://extensions.gnome.org/extension/5964/quick-settings-audio-devices-hider/ - hide and rename audio devices
 ** Multimedia
 *** Video
    - https://github.com/mifi/lossless-cut Lossless video editing like Avidemux, but can preserve DVB-T subtitles
