@@ -90,6 +90,7 @@
             containers:
               - name: webserver
                 image: "docker.io/avaraline/incarnator:{{ takahe.version }}"
+                imagePullPolicy: Always
                 args:
                   - "gunicorn"
                   - "takahe.wsgi:application"
@@ -189,6 +190,7 @@
             containers:
               - name: stator
                 image: "docker.io/avaraline/incarnator:{{ takahe.version }}"
+                imagePullPolicy: Always
                 args:
                   - python3
                   - manage.py
