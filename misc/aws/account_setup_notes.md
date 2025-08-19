@@ -1,5 +1,9 @@
 # Account setup notes
 
+> [!CAUTION]
+> I do not have AWS training nor significant experience.
+> The information here can be insecure and dangerous.
+
 ## Initial setup
 
 ### Creating the initial management account and initial configuration
