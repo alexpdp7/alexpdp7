@@ -20,8 +20,12 @@
 
 (setq org-startup-folded t)
 
-;; This does not respect things in JSON mode; see https://debbugs.gnu.org/cgi/bugreport.cgi?bug=72808 ; M-x use set-variable js-indent-level to override :\
 (editorconfig-mode 1)
+
+(add-hook 'js-json-mode-hook
+          (lambda ()
+            (setq indent-tabs-mode nil)
+            (setq js-indent-level 2)))
 
 ;; Do not spill temporary files everywhere
 ;; https://stackoverflow.com/a/18330742
@@ -140,7 +144,3 @@
   (add-hook 'flymake-diagnostic-functions 'eglot-flymake-backend nil t)
   (flymake-mode 1)))
 (add-hook 'markdown-mode-hook 'flymake-mode)
-
-(add-hook 'js-json-mode-hook
-          (lambda ()
-            (setq indent-tabs-mode nil)))
