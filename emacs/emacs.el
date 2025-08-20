@@ -1,5 +1,7 @@
 ;; symlink this file to ~/.emacs
 
+;; M-x package-refresh-contents if some package 404s
+
 ;; Nicer defaults
 
 (setq compilation-scroll-output t)
