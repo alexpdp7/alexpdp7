@@ -100,6 +100,8 @@
 ;; Puppet support; mostly for syntax highlighting
 (use-package puppet-mode :ensure t)
 
+(use-package terraform-mode :ensure t)
+
 ;; Python notebooks
 (use-package ein
   :ensure t
