@@ -11,3 +11,23 @@ You need the SFTP server program on your local machine (on Debian, the `openssh-
 ```
 aptitude search '~S ~i !~ODebian'
 ```
+
+## Memory usage queries
+
+### systemd
+
+```
+systemd-cgtop -m
+```
+
+Drill down with:
+
+```
+systemd-cgtop -m user.slice/user-1000.slice
+```
+
+### smem
+
+```
+sudo smem -P beam.smp -kta
+```
