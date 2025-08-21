@@ -187,6 +187,12 @@ https://github.com/alexpdp7/ubpkg/ (also discusses some alternatives)
 
 * Tvheadend XMLTV export and metadata restructuring
 
+* Geeky surveys
+
+- Surveys are defined using a Python DSL
+- Survey reponses are JSON-like
+- Frontends such as a terminal UI, completely keyboard-driveable HTML, etc.
+
 * Extensible lightweight markup language
 
 See [[misc/document-formats.md]]
