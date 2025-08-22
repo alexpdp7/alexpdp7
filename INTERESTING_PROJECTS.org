@@ -303,6 +303,8 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/languagetool-org/languagetool
 ** ProseMirror
    - https://github.com/ProseMirror/prosemirror-markdown
+** Diagrams
+   - https://d2lang.com/ Improved Mermaid?
 * Other
   - https://github.com/jhuangtw/xg2xg
   - https://european-alternatives.eu/
