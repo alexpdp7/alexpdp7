@@ -282,10 +282,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Phones
    - https://github.com/Dakkaron/Fairberry - add Blackberry keyboard to other phones
 * Technical writing
-** Document formats
-
-See [[misc/document-formats.md]].
-
+** Document formats - see [[misc/document-formats.md]].
 *** Markdown
    - https://github.com/lezer-parser/markdown
    - https://github.com/markdoc/markdoc
