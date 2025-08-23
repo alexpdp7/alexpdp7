@@ -209,6 +209,7 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://selkies-project.github.io/selkies/ - Replacement for KasmVNC?
   - https://moonlight-stream.org/ / https://docs.lizardbyte.dev/projects/sunshine/latest/ - Nvidia-like streaming
   - https://github.com/m1k1o/neko/
+  - https://github.com/neutrinolabs/xorgxrdp - MS RDP for Linux desktops. Pay attention to "glamor" acceleration.
 ** Misc
    - https://github.com/marcan/takeover.sh
    - https://github.com/ltratt/pizauth - OAuth tool
