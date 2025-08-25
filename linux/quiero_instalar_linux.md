@@ -14,8 +14,9 @@ Linux es indudablemente uno de los mejores sistemas operativos que podemos usar 
 Sin embargo:
 
 * Usar Linux sigue siendo algo más complicado que usar Windows, macOS, ChromeOS, Android y otros.
-* No todo funciona en Linux.
-  Hay ordenadores y dispositivos que no funcionan correctamente en Linux, así como software que podemos necesitar.
+* Todos los fabricantes de ordenadores y componentes dedican un esfuerzo razonable a hacer funcionar sus productos en Windows.
+  Muy pocos fabricantes hacen lo mismo para Linux.
+  Aunque muchas veces los desarrolladores de Linux consiguen hacer funcionar hardware, escoger hardware con buen soporte para Linux es prácticamente indispensable, y esto no garantiza una experiencia libre de problemas.
 
 Aunque uso Linux, he usado Windows, macOS, ChromeOS y Android, y es perfectamente lícito usarlos.
 Usando Linux seguramente aprendáis cosas nuevas y obtengáis beneficios, pero no siempre es lo mejor que podéis hacer con vuestro tiempo libre.
