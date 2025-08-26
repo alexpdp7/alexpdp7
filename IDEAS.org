@@ -118,6 +118,10 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 - List shows you want to see, see a calendar of releases by service
 - Prototype: https://github.com/alexpdp7/strsvcp
 
+** Discussion for TV series
+
+- Shows only messages from people who have not seen more episodes than you
+
 * Userland WASM Linux distro
 
 - Bootstrap a Linux distro to run on WASM
