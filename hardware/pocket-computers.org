@@ -28,6 +28,7 @@ See also <https://www.bringbackblackberry.com/>.
 
 - [[https://www.tindie.com/stores/zitaotech/][ZitaoTech]] refurbs keyboards, but they seem to be permanently out of stock.
 - [[https://linkapus.com/][Q25 project]] is a project to put an Android phone inside a Blackberry Classic shell.
+- Clicks keyboard (for iPhone, Razr, other Android phones) is [[https://programming.dev/post/36053940/18895789][apparently good, even for non-ASCII languages]].
 
 ** Obstacles
 
