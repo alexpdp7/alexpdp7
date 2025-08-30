@@ -237,6 +237,14 @@ See [[https://github.com/open-telemetry/opentelemetry-specification/blob/main/ex
 
 * Collaborative database of places where you can play arcade games
 
+* Shell
+
+- Interface for programs to declare their interface; types of arguments, etc.
+  (This would enable things such as automatic tab completion, etc.)
+- Richer interface for output, such as allowing programs to state that they have bound to a port and serving an HTTP interface.
+  This way, `top` could have a "rich interface" (HTML/JS is not ideal, but it exists).
+  You could likely integrate a web browser into a terminal program nicely this way.
+
 * SQL Query tool
 
 - ipython notebook style interface
