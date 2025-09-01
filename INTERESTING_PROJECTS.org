@@ -130,6 +130,7 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://craftinginterpreters.com/contents.html - Book
   - https://github.com/rulex-rs/pomsky - regex alternative
   - https://rosie-lang.org/ - another regex alternative, based on PEGs
+  - https://tratt.net/laurie/blog/2020/which_parsing_approach.html - which parsing approach?
 *** DCGs/Prolog
    - https://en.wikipedia.org/wiki/Definite_clause_grammar
    - https://github.com/mthom/scryer-prolog/

@@ -63,3 +63,9 @@ Typst is very new and is not yet very popular.
 - https://github.com/nvim-neorg
 - https://github.com/podlite/podlite/
 - https://orgmode.org/
+
+## Creating your own formats
+
+https://github.com/spc476/MOPML someone created its own lightweight format using Lua and PEGs.
+
+https://tratt.net/laurie/blog/2020/which_parsing_approach.html has information about choosing parsing approaches.
