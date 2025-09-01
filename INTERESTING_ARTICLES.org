@@ -57,6 +57,10 @@
 
 - [[https://locadeldesvan.com/2025/01/09/contra-la-tecnocratizacion-de-la-vida/][Contra la tecnocratización de la vida]] About the pressure of the modern age and the privilege of being mediocre
 
+* Epistemology?
+
+- [[https://hermiene.net/essays-trans/relativity_of_wrong.html][The Relativity of Wrong]] by Isaac Asimov; all physics theories are strictly "false", but they are very true.
+
 * Meta
 
 - [[https://www.benkuhn.net/progessays/][Essays on programming I think about a lot]]
