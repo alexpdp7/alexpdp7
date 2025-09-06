@@ -44,6 +44,59 @@ TODO: set forwarding from `{id}@vanity.tld` to `{me}.{vanityid}{code}@nonvanity.
 
 Because each vanity email address and entity has a different email address, you can file emails automatically into folders if wanted.
 
+## Migrating email from Gmail
+
+```
+imapsync --user1 xxx@gmail.com -passfile1 gmailpass --user2 a@a.com --host2 imap.a.com --passfile2 pass --gmail1
+```
+
+### Preventing issues with multiple tags
+
+An email message can have multiple "tags" in Gmail that correspond to IMAP folders.
+If you have messages with multiple tags, then the migration will duplicate messages in multiple folders or file mails to one folder at "random".
+
+imapsync has features to control this, and avoid problems with the "all mail" and "sent mail" Gmail folders, but for further control, you can refile emails to have a single tag.
+
+I have an mbsync replica of my Gmail account for backup purposes.
+This replica can be used to find messages with multiple tags:
+
+```
+find . -path './\[Gmail\]/All Mail' -prune -o -not -name index -type f -exec grep -H ^Message-ID: {} \; >index
+```
+
+Produces one file with lines:
+
+```
+/.../cur/f:Message-ID:...
+```
+
+```
+#!/usr/bin/env python3
+
+import pathlib
+ms = pathlib.Path("index").read_text().splitlines()
+
+import collections
+idx = collections.defaultdict(set)
+
+for m in ms:
+    path, _, id = m.rsplit(":", 2)
+    f = "/".join(pathlib.Path(path).parts[:-2])
+    idx[id].add((path, f))
+
+for id, vs in idx.items():
+    fs = sorted(set([f for (_path, f) in vs]))
+    if len(fs) > 1:
+        print(fs)
+```
+
+```
+./idx.py | sort | uniq
+```
+
+Clear up multiple tags in Gmail to prevent duplicates.
+
+
 ## Notes
 
 * Aliases do *not* have plus addressing, use a "pattern rewrite" instead.
