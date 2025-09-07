@@ -13,20 +13,16 @@ httpx = "^0.28.1"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-
 [tool.poetry.scripts]
 ruscreen = 'p7s.ruscreen:main'
-mbsync_config = 'p7s.mail:generate_config'
-db-create = 'p7s.distrobox:create'
-db-enter = 'p7s.distrobox:enter'
-db-update = 'p7s.distrobox:update'
-nextcloud_setup = 'p7s.nextcloud:setup_nextcloud'
-soju_setup = 'p7s.soju:setup_soju'
-bitlbee_setup = 'p7s.bitlbee:setup_bitlbee'
-setup_bash = 'p7s.bash:setup_bash'
-setup_emacs = 'p7s.emacs:setup_emacs'
-setup_ubpkg = 'p7s.ubpkg:setup_ubpkg'
-setup_paperwm = 'p7s.paperwm:setup_paperwm'
-setup_x12 = 'p7s.x12:setup_x12'
+setup-bash = 'p7s.bash:setup_bash'
+setup-bitlbee = 'p7s.bitlbee:setup_bitlbee'
+setup-emacs = 'p7s.emacs:setup_emacs'
+setup-mbsync = 'p7s.mail:setup_mbsync'
+setup-nextcloud = 'p7s.nextcloud:setup_nextcloud'
+setup-paperwm = 'p7s.paperwm:setup_paperwm'
+setup-soju = 'p7s.soju:setup_soju'
+setup-ubpkg = 'p7s.ubpkg:setup_ubpkg'
+setup-x12 = 'p7s.x12:setup_x12'
 senpai = 'p7s.senpai:main'
 ledger = 'p7s.ledger:main'
