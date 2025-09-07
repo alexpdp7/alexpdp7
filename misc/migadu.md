@@ -38,7 +38,7 @@ Create any needed `{id}@vanity.tld` addresses.
 
 Different from non-vanity email addresses, vanity email addresses can be guessed and you cannot identify invalid email.
 
-TODO: set forwarding from `{id}@vanity.tld` to `{me}.{vanityid}{code}@nonvanity.tld`.
+See [../linux/misc.md#email-forwarding-via-imap] for notes about forwarding between different email servers.
 
 ### TODO Filing
 
