@@ -4,6 +4,12 @@ class workstation {
   if ($facts['os']['family'] == 'Debian') {
     package {['gnome-shell-extension-appindicator']:}
 
+    package {'gnome-software-plugin-flatpak':}
+    ->
+    exec {'/usr/bin/flatpak remote-add --if-not-exists flathub /usr/share/doc/flatpak/examples/flathub.flatpakrepo':
+      unless => '/usr/bin/flatpak remote-modify flathub',
+    }
+
     file {'/etc/apt/keyrings/packages.mozilla.org.asc':
       content => @(EOT)
       -----BEGIN PGP PUBLIC KEY BLOCK-----
