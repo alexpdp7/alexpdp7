@@ -46,4 +46,3 @@ def generate_config():
     subprocess.run(["systemctl", "--user", "daemon-reload"], check=True)
     subprocess.run(["systemctl", "--user", "enable", "--now", "mbsync.timer"], check=True)
     subprocess.run(["sudo", "loginctl", "enable-linger", "alex"], check=True)
-
