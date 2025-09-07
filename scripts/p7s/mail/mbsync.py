@@ -1,3 +1,6 @@
+"""
+We could likely make this nicer with some mail configuration autodiscovery, but who has the time.
+"""
 import textwrap
 
 
