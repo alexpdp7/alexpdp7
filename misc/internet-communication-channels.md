@@ -38,11 +38,13 @@ The biggest traditional issue with IRC is channels without history, where you ca
 Even if you run your IRC client continuously on your client, if your phone goes out of coverage or your phone suspends your IRC client, you will be offline.)
 However, nowadays you can create channels with history.
 
-(Note that many IRC channels still do not have history.
 Channels without history are frequently confusing for new users, because most chat systems have history.
 Heavy IRC users are either used to having no history [this might seem surprising, but for some this is even a benefit] or have means to be permanently connected to IRC.
 However, users new to IRC might join a channel, post a question and go offline without anyone having a chance to see their message and reply.
-Then, unless people remember to answer when they are back, or other means are used, answers will not be visible to the person who asked.)
+Then, unless people remember to answer when they are back, or other means are used, answers will not be visible to the person who asked.
+
+[The `chathistory` extension](https://ircv3.net/specs/extensions/chathistory) addresses this problem.
+As far as I know, only [the Ergo IRC server](https://ergo.chat/about) and [their network](https://ergo.chat/about-network) support this extension.
 
 Some advantages of IRC are:
 
