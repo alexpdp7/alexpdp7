@@ -6,7 +6,7 @@ from p7s import bitwarden
 from p7s.mail import mbsync
 
 
-def generate_config():
+def setup_mbsync():
     gmail = bitwarden.get_item("https://vaultwarden.pdp7.net", "alex@corcoles.net", "f9bba940-769d-430a-82f4-5da10990e8fd")["login"]
     yahoo = bitwarden.get_item("https://vaultwarden.pdp7.net", "alex@corcoles.net", "5c4d9e3b-121d-45f5-bab6-03b42d291326")["login"]
     (pathlib.Path.home() / (".mbsyncrc")).write_text(
