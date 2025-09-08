@@ -205,6 +205,11 @@ https://github.com/alexpdp7/ubpkg/ (also discusses some alternatives)
 - Manifests describe how to fetch binaries (e.g. from GitHub releases)
 - Manifests are just files that can be referenced by URLs, or be contained in repositories of manifests
 
+* Ultrasound small transfer utility
+
+- Uses sound to transfer small pieces information (e.g. text for distributed copy and paste)
+- Desktop app, webapp (for other people's computers), Android with "share" functionality
+
 * Tvheadend XMLTV export and metadata restructuring
 
 * Geeky surveys
