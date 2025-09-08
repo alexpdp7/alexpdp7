@@ -144,6 +144,8 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 - https://nixos.wiki/wiki/Nix_Installation_Guide#Installing_without_root_permissions
 - https://guix.gnu.org/manual/devel/en/html_node/Invoking-guix-pack.html
 - https://hpc.guix.info/blog/2025/03/build-daemon-drops-its-privileges/
+- https://github.com/DavHau/nix-portable/issues/66
+- https://github.com/nix-community/home-manager/issues/3752#issuecomment-1566179742
 
 * Databases in text markup documents
 
