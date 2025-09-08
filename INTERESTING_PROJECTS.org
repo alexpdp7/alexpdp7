@@ -294,6 +294,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/lezer-parser/markdown
    - https://github.com/markdoc/markdoc
    - https://liascript.github.io/ Markdown-based format for courses, exports to SCORM
+   - https://github.com/hedgedoc/hedgedoc multiplayer Markdown editor, with [[https://demo.hedgedoc.org/features#Blockquote-Tags][cute attributed blockquotes for commenting]].
 **** Rust Parsers
     - https://github.com/kivikakk/comrak
     - https://github.com/raphlinus/pulldown-cmark
