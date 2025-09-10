@@ -63,6 +63,7 @@ Typst is very new and is not yet very popular.
 - https://github.com/nvim-neorg
 - https://github.com/podlite/podlite/
 - https://orgmode.org/
+- https://github.com/sile-typesetter/sile
 
 ## Creating your own formats
 
