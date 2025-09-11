@@ -16,7 +16,7 @@ class BasePage:
         return bicephalus.Response(
             content=content.encode("utf8"),
             content_type=content_type,
-            status=bicephalus.Status.OK,
+            status=status,
         )
 
 
