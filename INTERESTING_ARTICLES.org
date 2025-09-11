@@ -83,3 +83,12 @@ Sources:
 
 - [[https://en.wikipedia.org/wiki/List_of_paradoxes][List of paradoxes]]
 - [[https://en.wikipedia.org/wiki/Unintended_consequences][Unintended consequences]]
+
+* Lost and not found
+
+Some articles I'd like to find here, but haven't been able to find again:
+
+- Enqueuing function calls vs. extending your domain model.
+  This article discussed using traditional queues for handling some actions in your application vs. doing this "declaratively".
+  For example, enqueue "send notification about x to user y" vs. "add column 'needs_x_notification to users table".
+  If I remember correctly, the article contained some insightful arguments for the latter approach I had not thought of.
