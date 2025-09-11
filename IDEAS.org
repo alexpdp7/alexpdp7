@@ -138,6 +138,7 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 
 - A container image builder that can convert JSON-like declarations of an OS into container images
 - https://github.com/bootc-dev/bootc that handles running the builder and rebooting when system configuration changes
+- https://github.com/systemd/particleos
 
 ** Rootless Nix/Guix
 
