@@ -65,7 +65,7 @@ Use Ruff to format and lint your code.
 
 ## Use a minimal gitignore file
 
-See <../git/git_advice.md#use-gitignore-properly>.
+See [use gitignore properly](../git/git_advice.md#use-gitignore-properly).
 
 ## Keep your code together
 
