@@ -79,6 +79,7 @@ def create_forward(name, from_server, to_server):
     systemd.create_user_unit(unit, _(f"""
     [Service]
     ExecStart=/usr/bin/imapfilter -c {config} -v
+    Restart=always
 
     [Install]
     WantedBy=default.target
