@@ -74,6 +74,7 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
 ** GitHub Actions/Pages-powered Planet
 
 - Perhaps https://github.com/exaroth/liveboat-github-runner
+- In progress https://github.com/alexpdp7/frozenplanetoid/
 
 * [[programming/the-content-web-manifesto/README.md][Simpler web]]
 * Public RSS reader
