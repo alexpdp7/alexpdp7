@@ -50,6 +50,9 @@ Because each vanity email address and entity has a different email address, you 
 imapsync --user1 xxx@gmail.com -passfile1 gmailpass --user2 a@a.com --host2 imap.a.com --passfile2 pass --gmail1
 ```
 
+To move mail, add `--delete1`.
+But this seems to make `imapsync` much slower!
+
 ### Preventing issues with multiple tags
 
 An email message can have multiple "tags" in Gmail that correspond to IMAP folders.
