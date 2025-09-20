@@ -15,14 +15,19 @@ GMAIL = "f9bba940-769d-430a-82f4-5da10990e8fd"
 def setup_mbsync():
     gmail = bitwarden.get_item("https://vaultwarden.pdp7.net", "alex@corcoles.net", GMAIL)["login"]
     yahoo = bitwarden.get_item("https://vaultwarden.pdp7.net", "alex@corcoles.net", MOM)["login"]
+    migadu = bitwarden.get_item("https://vaultwarden.pdp7.net", "alex@corcoles.net", "f390fbeb-0d03-44c0-82f7-8d1cf6f76247")["login"]
+
     (pathlib.Path.home() / (".mbsyncrc")).write_text(
-        mbsync.mbsync_gmail(gmail["username"], gmail["password"], "~/Mail") +
-        "\n" +
-        mbsync.mbsync_yahoo(yahoo["username"], yahoo["password"], "~/Mail")
+        "\n".join([
+            mbsync.mbsync_gmail(gmail["username"], gmail["password"], "~/Mail"),
+            mbsync.mbsync_yahoo(yahoo["username"], yahoo["password"], "~/Mail"),
+            mbsync.mbsync_migadu(migadu["username"], migadu["password"], "~/Mail"),
+        ])
     )
 
-    for username in [gmail["username"], yahoo["username"]]:
-        (pathlib.Path.home() / "Mail" / username).mkdir(exist_ok=True, parents=True)
+    # for username in [gmail["username"], yahoo["username"]]:
+    #     (pathlib.Path.home() / "Mail" / username).mkdir(exist_ok=True, parents=True)
+    (pathlib.Path.home() / "Mail" / migadu["username"]).mkdir(exist_ok=True, parents=True)
 
     systemd.create_user_unit("mbsync.service", _("""
     [Unit]
