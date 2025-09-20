@@ -8,7 +8,11 @@
 
 ### Creating the initial management account and initial configuration
 
-Opening an account requires a credit card and a phone number.
+Opening an account requires a credit card, a phone number and an email address.
+
+Once an email address is associated with an AWS account, no other AWS account can be created with the same email address, even if you delete the AWS account.
+Create use multiple email addresses or plus addressing for experiments, etc..
+(OVH "redirect", Gmail and Google Groups support plus addressing.)
 
 Go to "IAM Identity Center" and enable it in your preferred region.
 This enables AWS Organizations and creates a `Root` OU that contains the management account.
@@ -72,19 +76,7 @@ This command creates a `${starter template yaml}` file with the skeleton of your
 
 ## Account closure
 
-For tests, you might want to tear down an account and start from scratch.
-
-[Close an AWS account](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-closing.html) says:
-
-> Within a few minutes, you should receive an email confirmation that your account has been closed.
-
-> If you don’t receive this email within a few hours ...
-
-You cannot create a new account with the same account email until the account is completely removed.
-(TODO: when? I deleted my account around August 19th 23:00 and I have not received it after half an hour.)
-
-Create more email addresses or use plus addressing for faster experiments.
-(Note to self: OVH "redirect" supports plus addressing.)
+TODO: verify when deleting an account disposes resources that incur billing.
 
 ## References
 
