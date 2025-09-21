@@ -35,6 +35,10 @@
 ** Git
 - [[https://blog.gitbutler.com/git-tips-3-really-large-repositories/][Git Tips 3: Really Large Repositories]]
 
+* Systems
+
+- [[https://chrisdown.name/2018/01/02/in-defence-of-swap.html][In defence of swap: common misconceptions]]
+
 * Organizations
 
 - [[https://charity.wtf/2024/07/24/pragmatism-neutrality-and-leadership/][Pragmatism, Neutrality and Leadership]]; the parts about "As a leader, your job is to succeed", "Companies with shitty cultures win all the time".
