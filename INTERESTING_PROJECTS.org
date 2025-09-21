@@ -17,6 +17,7 @@ Also keeping things in a Org mode means I can classify and add notes.
   - http://jk.ozlabs.org/projects/patchwork/ - Mailing list patch parser
   - https://github.com/bazelbuild/remote-apis - Bazel's remote APIs for compiling, artifacts, and log streaming; with links to projects that support them
   - https://github.com/lima-vm/lima-actions - Lima for GitHub Actions
+  - https://cloud.devenv.sh/ Nix-based CI for GitHub
 ** Observability
    - https://github.com/equinix-labs/otel-cli
    - https://github.com/SigNoz/signoz
