@@ -16,7 +16,7 @@ If you send me a list of ideas you are interested in, I will consider those vote
 Make it easier for people to get a domain and own their email address.
 
 - Comparison of methods to do this (e.g. bring-your-own domain email providers, with prices, ease-of-use, etc.)
-- Make it easier to create long-lasting communities that provide such services (ISPs, banks, insurance companies, governments, proffesional associations?)
+- Make it easier to create long-lasting communities that provide such services (ISPs, banks, insurance companies, governments, professional associations?)
 
 ** Key escrow for everyone
 
