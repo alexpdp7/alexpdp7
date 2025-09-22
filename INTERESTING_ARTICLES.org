@@ -13,6 +13,7 @@
 - [[https://dannorth.net/best-simple-system-for-now/][Best Simple System for Now]] A view I disagree on about IAGNI and the opposite concepts, but interesting
 - [[https://mmapped.blog/posts/38-static-types-perfectionism][Static types are for perfectionists]] Our programming style is influenced by our personality and life
 - [[https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/][Making wrong code look wrong]] The history about Hungarian notations
+- [[https://www.hillelwayne.com/talks/ese/ddd/][What We Know We Don't Know: Empirical Software Engineering]] 40-minute video about the power of proper sleep, working schedules and stress levels vs. engineering practices
 
 ** Testing
 
