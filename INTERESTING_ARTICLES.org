@@ -48,6 +48,7 @@
 - [[https://stackoverflow.blog/2024/06/10/generative-ai-is-not-going-to-build-your-engineering-team-for-you/][Generative AI Is Not Going To Build Your Engineering Team For You]] Bad title; it's about the need for junior coders
 - [[https://luminousmen.com/post/senior-engineer-fatigue][Senior Engineer Fatigue]]
 - [[https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/][Things You Should Never Do, Part I]] About rewriting software from scratch
+- [[https://dl.acm.org/doi/10.1145/1464122.1464146][Some observations concerning large programming efforts]] Someone figured most of it out in 1964.
 
 ** Project management
 
