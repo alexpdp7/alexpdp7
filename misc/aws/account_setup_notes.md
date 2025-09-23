@@ -11,6 +11,8 @@
 Opening an account requires a credit card, a phone number and an email address.
 
 Once an email address is associated with an AWS account, no other AWS account can be created with the same email address, even if you delete the AWS account.
+However, you can change the email address of the AWS account to "free" the email address.
+
 Create use multiple email addresses or plus addressing for experiments, etc..
 (OVH "redirect", Gmail and Google Groups support plus addressing.)
 
