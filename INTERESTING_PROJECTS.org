@@ -141,6 +141,9 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/aarroyoc/djota/tree/main - A Djot parser in Prolog
 ** Emacs
    - https://github.com/manateelazycat/lsp-bridge
+** Durable execution platforms
+   - https://github.com/temporalio/temporal
+   - https://github.com/restatedev/restate
 ** Misc
    - https://github.com/kellyjonbrazil/jc - JSON converter for common CLI tools
    - https://github.com/open-meteo/open-meteo/
