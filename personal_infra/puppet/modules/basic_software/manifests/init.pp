@@ -10,6 +10,13 @@ class basic_software {
     }
     ->
     package {'emacs-nw':}
+
+    copr {'wezterm-nightly':
+      user => 'wezfurlong',
+      dist => 'rhel-9',
+    }
+    ->
+    package {'wezterm':}
   }
 
   if ($facts['os']['family'] == 'Debian') {
@@ -31,7 +38,7 @@ class basic_software {
       package {'mlocate':}
     }
 
-    file {'/usr/share/keyrings/wezterm-fury.gpg':
+    file {'/usr/share/keyrings/wezterm-fury.armored':
       content => @(EOT)
       -----BEGIN PGP PUBLIC KEY BLOCK-----
 
@@ -88,6 +95,10 @@ class basic_software {
       | EOT
       ,
     }
+    ->
+    exec {'/usr/bin/gpg --yes --dearmor -o /usr/share/keyrings/wezterm-fury.gpg </usr/share/keyrings/wezterm-fury.armored':
+      creates => '/usr/share/keyrings/wezterm-fury.gpg',
+    }
     ~>
     Exec["/usr/bin/apt update"]
 
@@ -99,6 +110,6 @@ class basic_software {
 
     Exec["/usr/bin/apt update"]
     ->
-    package {'wezterm':}
+    package {'wezterm-nightly':}
   }
 }
