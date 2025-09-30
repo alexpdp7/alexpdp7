@@ -97,6 +97,14 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
 - https://bugzilla.mozilla.org/show_bug.cgi?id=444284 means Firefox Sync does not sync search engines.
 - OpenSearch-based static site?
 
+* Videoconference based on document (not screen) sharing
+
+- Microsoft 365 and Google already offer this, but with drawbacks (Google's is Chrome only, I haven't managed to do this with free Teams).
+  Miro and others are similar.
+- Instead of screen sharing, everyone's browser opens a shared document with some synchronization (e.g. selected slide)
+- With documents that allow collaborative editing, meeting participants can edit live
+- Could start with just pdf.js sharing and document location synchronization
+
 * Typing database
 
 - A database of keyboard layouts.
