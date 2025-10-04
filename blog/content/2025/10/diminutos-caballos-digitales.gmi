@@ -1,0 +1,35 @@
+# Diminutos caballos digitales
+2025-10-04
+
+Otro de mis monotemas es el correo electrónico. Revisando el blog podemos encontrar:
+
+=> gemini://alex.corcoles.net/2011/04/como-un-maldito-replicante/ Sobre cómo en 2011 unifiqué mi correo en Google Workspace.
+=> gemini://alex.corcoles.net/2020/11/sagrada-correspondencia/ Para en 2020 darme cuenta de que quizá necesitaba una copia de seguridad.
+
+, que es menos de lo que esperaba, ya que el correo electrónico es una pieza clave de Internet, y uno de los máximos exponentes de por qué los protocolos abiertos son importantes. Con lo que, por supuesto, me obsesiona.
+
+Estos días he estado completando otra migración de todo mi correo desde Google a Migadu (y una nueva réplica por si las moscas). Los tres gigas y pico.
+
+Gmail es un servicio de correo que literalmente cambió el mundo, para bien y para mal. En 2004, Gmail salió con un giga de almacenamiento que nos puede parecer ridículo hoy en día (hoy da quince), pero que en aquel entonces era una cantidad absurda comparada a cualquier otro servicio de correo electrónico gratuito (y creo que de pago).
+
+Curiosamente, desde que conseguí mi cuenta de Gmail el 25 de abril (Gmail salió el día 1 en "April's Fools" pero era por invitación), se multiplicó mi diógenes digital y desde que tengo mi cuenta de Gmail conservo como 17 veces más correo por día. ¿Sirve de algo conservar tanto correo? Pues quizá no. Pero definitivamente fue una revolución no tener que pelearse y borrar correos si no queríamos quedarnos sin espacio. (Nota: básicamente sólo conservo correo enviado por humanos o con cierta importancia "legal". Borro mayormente notificaciones y mensajes automatizados sin importancia.)
+
+Pero la parte mala de la revolución de Google fue que aunque Gmail soporta el protocolo abierto IMAP, seguramente entre Google y Microsoft se han cargado gran parte de la apertura del correo.
+
+En el caso que nos ocupa, Gmail usa IMAP, sí, pero funciona de una forma distinta a todas las demás cuentas de correo que conozco. Las cuentas de correo que no son Gmail guardan cada mensaje en una carpeta; al principio la bandeja de entrada y luego podemos mover los correos a carpetas para organizarlo. Gmail usa "etiquetas"; todos los correos en realidad son una masa informe que podéis ver en "todos", por defecto con una etiqueta de "recibidos" (que se borra si archiváis), pero podemos aplicar todas las etiquetas que queramos a cualquier correo. IMAP permite unas etiquetas parecidas pero que funcionan de una forma muy distinta.
+
+Las diferencias entre Gmail y las cuentas de correo normales se extienden al protocolo IMAP. Gmail permite usar el protocolo IMAP, pero haciendo unas adaptaciones esotéricas; por ejemplo, las etiquetas de Gmail se convierten en carpetas IMAP, con lo que un correo puede acabar en varias carpetas. Además, Gmail lía los ya complicados de por sí mecanismos para borrar correo en IMAP. Con esto, aunque en teoría se puede usar cualquier cliente de IMAP con Gmail, hay complicaciones y problemas. (De manera que muchos clientes de IMAP tienen configuración específica cuando trabajan con cuentas de Gmail.)
+
+Esto nos quita parte de los beneficios de los protocolos abiertos, y en especial dificulta las migraciones de correo. He estado bien entretenido para hacer la migración, con bastantes pequeños problemas y cierta preocupación por perder correo (que no sería algo tan importante para una persona bien ajustada).
+
+Lo que nos lleva al otro punto. Hoy en día casi nadie usa un servicio de correo que no gestione ni Google (sobre todo particulares) o Microsoft (sobre todo empresas, aunque todavía vemos algún Hotmail por ahí). No quiero pensar qué porcentaje de correos están controlados en efecto por esas dos empresas, con efectos perniciosos para uno de los puntales de la vida digital en Internet. Pensad detenidamente los problemas que pueda causar si Google o Microsoft os quitan el acceso a vuestro correo (¿cuántos de vuestros servicios en Internet dependen de poder enviar un correo de recuperación?) o no entregan algún correo importante (aunque hoy en día cada vez usamos menos el correo para cosas importantes).
+
+Aunque muchas veces oímos que cómo van a funcionar los protocolos abiertos en la salvaje Internet libre y cómo el control de las grandes empresas evitará todos los males, cosas como el spam siguen ahí. Pero con la excusa del spam, cada día es más problemático usar un servicio de correo que no sea de Microsoft y de Google. ¡Y sin embargo mucha gente dice que la mayoría del spam viene de esos dos proveedores!
+
+Además, de una manera insidiosa, hoy en día es bastante más complicado tener una dirección de correo "en propiedad". Al estar basado en los nombres de dominio, en teoría cualquiera puede comprar un dominio por 10 euros al año y poder escoger quién hospeda nuestro correo electrónico. Pero el sencillo mecanismo de reenviar correos (por ejemplo, de nuestro proveedor de dominio a Gmail) hoy en día no es fiable por las superefectivas medidas de spam impulsadas por Google y Microsoft que no parecen tan efectivas a la hora de evitar el spam, pero sí hacen que los reenvíos de correo puedan fallar.
+
+Por último, el duopolio de Google y Microsoft en mi opinión ha conseguido que los protocolos abiertos estén prácticamente estancados prácticamente tres décadas, con un diseño que por ejemplo no está pensado para dispositivos portátiles con batería limitada y conexiones a Internet discontinuas. Sólo algunas empresas como Fastmail hacen algo de avances fuera de los ecosistemas cerrados de Google y Microsoft (que sí han adaptado sus sistemas para los tiempos modernos, pero fuera de los protocolos abiertos).
+
+Las monoculturas (o duoculturas) en este caso controladas por empresas con decenas o cientos de miles de empleados no son buenos para nosotros. Hoy en día Google y Microsoft controlan lo que un día fue un puntal de la Internet abierta, pero que hoy en día abandonamos cada vez más... para sustituirlo por sistemas todavía más cerrados controlados por las mismas empresas o empresas incluso peores.
+
+Seguramente ya sea tarde, pero mi recomendación es intentar salir de Google y Microsoft por el correo. No es algo fácil (a mí me ha costado, y soy un obseso de estos temas), pero quizá simplemente hablar del tema puede que consiga que una persona decida tener su primera dirección de correo fuera del duopolio, y quizá eso ya sería algo.
