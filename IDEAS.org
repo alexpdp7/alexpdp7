@@ -134,6 +134,11 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 
 - Shows only messages from people who have not seen more episodes than you
 
+** External metadata
+
+- A separate foo.x file that you keep next to foo.mp4 with the metadata (movie name, IMDB id, season, episode, etc.)
+- Makes things reliable and separate from opaque media databases
+
 * Next generation Linux distributions
 ** Userland WASM Linux distro
 
