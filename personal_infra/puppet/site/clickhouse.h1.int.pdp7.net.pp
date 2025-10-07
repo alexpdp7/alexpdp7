@@ -53,4 +53,24 @@ node 'clickhouse.h1.int.pdp7.net' {
     require => Package['otelcol-contrib'],
     notify => Service['otelcol-contrib'],
   }
+
+  Package['otelcol-contrib']
+  ->
+  file {'/etc/systemd/system/otelcol-contrib.service.d':
+    ensure => directory,
+  }
+  ->
+  Package['clickhouse-server']
+  ->
+  file {'/etc/systemd/system/otelcol-contrib.service.d/depends.conf':
+    content => @(EOT)
+    [Unit]
+    Requires=clickhouse-server.service
+    | EOT
+    ,
+  }
+  ~>
+  exec {'/usr/bin/systemctl daemon-reload':}
+  ~>
+  Service['otelcol-contrib']
 }
