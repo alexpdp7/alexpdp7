@@ -14,6 +14,7 @@
 - [[https://mmapped.blog/posts/38-static-types-perfectionism][Static types are for perfectionists]] Our programming style is influenced by our personality and life
 - [[https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/][Making wrong code look wrong]] The history about Hungarian notations
 - [[https://www.hillelwayne.com/talks/ese/ddd/][What We Know We Don't Know: Empirical Software Engineering]] 40-minute video about the power of proper sleep, working schedules and stress levels vs. engineering practices
+- [[https://www.hillelwayne.com/post/we-are-not-special/][We are not special]] Second of a series of three articles comparing software engineering with traditional engineering. Mostly dispels some myth and lack of knowledge about traditional engineering.
 
 ** Testing
 
