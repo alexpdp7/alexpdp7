@@ -228,6 +228,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/mistweaverco/bananas Multiplaform screen sharing with multiple cursors
    - https://lalescu.ro/liviu/fet/ timetable optimizer
    - https://github.com/glide-browser/glide programmable Firefox
+   - https://github.com/steveseguin/vdo.ninja Swiss army knife for WebRTC
 ** Email
    - https://github.com/simonrob/email-oauth2-proxy
    - https://pimalaya.org/ Rust email tools, including sync, MIME...
