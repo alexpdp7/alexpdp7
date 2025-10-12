@@ -19,7 +19,7 @@ mkdir git
 cd git
 git clone https://github.com/alexpdp7/alexpdp7.git
 cd alexpdp7
-pipx install -e scripts/
+pipx install -e scripts/  # alternatively, use uv tool install -e .
 ...
 git remote set-url origin git@github.com:alexpdp7/alexpdp7.git
 ```
