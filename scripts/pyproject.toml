@@ -1,19 +1,12 @@
-[tool.poetry]
+[project]
 name = "p7s"
-version = "0.1.0"
-description = ""
-authors = ["alex <alex@pdp7.net>"]
+requires-python = ">=3.11"
+version = "0"
+dependencies = [
+    "httpx>=0.28.1",
+]
 
-[tool.poetry.dependencies]
-python = "^3.9"
-httpx = "^0.28.1"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.poetry.scripts]
+[project.scripts]
 ruscreen = 'p7s.ruscreen:main'
 setup-bash = 'p7s.bash:setup_bash'
 setup-bitlbee = 'p7s.bitlbee:setup_bitlbee'
@@ -26,3 +19,6 @@ setup-ubpkg = 'p7s.ubpkg:setup_ubpkg'
 setup-x12 = 'p7s.x12:setup_x12'
 senpai = 'p7s.senpai:main'
 ledger = 'p7s.ledger:main'
+
+[tool.uv]
+package = true
