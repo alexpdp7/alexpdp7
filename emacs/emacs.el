@@ -12,7 +12,7 @@
 (xterm-mouse-mode 1)
 (save-place-mode t) ; persists your position in files
 (setq custom-file "~/.emacs.d/disable-custom-variable-saving")
-(load-theme 'modus-vivendi :no-confirm) ; colorblind-friendly theme
+(load-theme 'modus-vivendi :no-confirm) ; colorblind-friendly theme... but has issues with emoji and other unicode. If facing issues, M-x disable-theme
 (fido-vertical-mode) ; nice completion for M-x
 (which-key-mode) ; learn keyboard shortcuts
 (global-completion-preview-mode 1) ; show things that you can tab-complete
