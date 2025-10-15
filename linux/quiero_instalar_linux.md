@@ -31,7 +31,7 @@ La mejor manera de instalar Linux en la mayoría de casos es reemplazar el siste
 Esto quiere decir que hasta que no tengamos Linux funcionando, el ordenador donde estemos jugando seguramente estará inservible.
 Podemos tener problemas de instalación que nos impidan usar Linux, o incluso una vez instalado, podría no gustarnos.
 
-Recomiendo siempre considerar las siguientes posibilidades:
+Para hacer pruebas, recomiendo siempre considerar las siguientes posibilidades:
 
 * Probar Linux en una máquina virtual.
 
@@ -49,12 +49,40 @@ Recomiendo siempre considerar las siguientes posibilidades:
   Además, tener un ordenador para hacer pruebas siempre nos servirá para otra cosa, como sustituir temporalmente nuestro ordenador principal averiado u otros.
 
   Si no disponemos de uno, considerar examinar las tiendas de segunda mano.
-  No suele ser complicado encontrar ordenadores usables a un precio asequible, incluso de modelos cuyo fabricante soporta el uso de Linux, como ThinkPads de Lenovo y algunos modelos de HP y Dell.
+  No suele ser complicado encontrar ordenadores de segunda mano usables a un precio asequible, incluso de modelos cuyo fabricante soporta el uso de Linux, como algunos ThinkPads, HP y Dell.
 
 * Probar Linux "live".
 
   La mayoría de distribuciones Linux tienen una versión "live" que permite ejecutar Linux desde un disco USB sin modificar nuestra instalación existente.
   Esto es más conveniente para probar si un ordenador del que disponemos tiene buen soporte de Linux, pero también nos sirve para hacernos una idea del funcionamiento de Linux.
+
+* Usar discos duros totalmente separados para diferentes sistemas operativos.
+
+  La mayoría de sistemas permiten añadir un segundo disco duro y escoger cuál usar al arrancar el ordenador.
+  Esto tiene un coste extra, y en muchos casos como la mayoría de los portátiles, añade la inconveniencia de un disco duro externo.
+  Sin embargo, elimina la mayoría de los problemas del arranque dual e incluso los dispositivos separados (y especialmente los externos) nos pueden dar un plus de flexibilidad.
+
+  (Es recomendable siempre que los sistemas operativos estén en un disco SSD conectado mediante un interfaz rápido, evitando versiones de USB anteriores a USB 3.)
+
+Para un uso duradero de Linux, en general tampoco recomiendo el arranque dual, por ser una potencial fuente de problemas de fiabilidad difíciles de resolver.
+
+El arranque dual permite que los dos sistemas operativos funcionen directamente sobre el hardware, lo que puede ser necesario para que el software en *ambos* sistemas operativos pueda acceder a todo el hardware al máximo rendimiento.
+Sin embargo, la mayoría de sistemas operativos no están pensados para el arranque dual y, por ejemplo las actualizaciones pueden estropear el arranque dual.
+
+Para un uso duradero de Linux, a parte de usar hardware separado, podemos considerar:
+
+* El uso de máquinas virtuales, que adicionalmente pueden evitar problemas de compatibilidad de hardware.
+  (No todo el hardware funciona con Linux, pero Linux casi siempre funciona perfectamente en una máquina virtual.)
+
+  Windows además dispone de WSL, que es un mecanismo para integrar una máquina virtual Linux con Windows.
+
+  También podemos correr Windows dentro de una máquina virtual en Linux, aunque la licencia que teníamos de Windows en general no es apta para este uso.
+
+  Las máquinas virtuales tienen menor rendimiento y desventajas respecto a correr en el hardware directamente, aunque tienen otras ventajas.
+  (Por ejemplo, es muy fácil hacer una copia de respaldo de una máquina virtual, en general podemos mover máquinas virtuales de un sistema a otro, y más.)
+
+* La mayoría de software disponible en Linux se puede usar en otros sistemas operativos.
+  Incluso hay proyectos específicos para ofrecer plataformas similares a Linux dentro de otros sistemas operativos.
 
 ## Como estar preparados para trastear con Linux
 
@@ -183,8 +211,7 @@ La distribución debería documentar adecuadamente el proceso de instalación, p
 * Escoger el nombre del ordenador, de nuestro usuario y otras opciones durante el proceso de instalación.
 
 * Una opción importante es si queremos que Linux y nuestro sistema operativo existente (típicamente Windows) coexistan o reemplazar el sistema operativo existente completamente con Linux.
-  Esto puede ser importante si necesitamos Windows sí o sí específicamente, aunque recomiendo intentar evitar esta opción si es posible.
-  Particularmente, no instalando Linux en nuestro único ordenador hasta que estemos tranquilos.
+  Anteriormente en este documento se detallan recomendaciones sobre evitar la coexistencia de varios sistemas operativos en un mismo disco duro.
 
 ### ¿Qué problemas puede haber?
 
