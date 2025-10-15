@@ -85,6 +85,7 @@
 - [[https://en.wikipedia.org/wiki/Hawthorne_effect][The Hawthorne effect]] is a type of human behavior reactivity in which individuals modify an aspect of their behavior in response to their awareness of being observed.
 - [[https://softwareengineering.stackexchange.com/questions/123627/what-are-the-london-and-chicago-schools-of-tdd][What are the London and Chicago schools of TDD?]] (Just to remember these useful terms)
 - [[https://en.wikipedia.org/wiki/Sturgeon%27s_law][Sturgeon's law]] is an adage stating "ninety percent of everything is crap".
+- [[https://en.wikipedia.org/wiki/Schedule_chicken][Schedule chicken]] is when two or more parties working towards a common goal all claim to be holding to their original schedules for delivering their part of the work, even after they know those schedules are impossible to meet. Each party hopes the other will be the first to have their failure exposed.
 
 Sources:
 
