@@ -43,6 +43,13 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
+;; I use Wezterm, that supports the Kitty Keyboard Protocol.
+;; Using this fixes ¿ and lets Emacs use super, for example.
+(use-package kkp
+  :ensure t
+  :config
+  (global-kkp-mode +1))
+
 ;; Install xclip so cutting/copying in Emacs on a terminal affects the graphical clipboard
 (use-package xclip
   :ensure t
