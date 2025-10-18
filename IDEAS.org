@@ -58,6 +58,12 @@ See https://github.com/alexpdp7/alexpdp7/blob/master/INTERESTING_PROJECTS.org#se
 - max n messages over m days feature. n=0, don't send me emails. n=1, send me a digest every m days. n>=2, stop at n-1, then wait until the m period is over to send me a digest.
 
 ** Federated real-time communications using open protocols https://github.com/alexpdp7/frtcuop
+** Peer-to-peer encrypted NAS backups
+
+- Make NAS devices have a simple backup process to send encrypted backups to someone of your trust.
+- You enter a code on both NAS, configure disk usage, and you get remote backups that can't be read on the target.
+- You can speed up the backup via sneakernet.
+
 ** Easier own-your-Fedipub identity
 *** ActivityPub reverse proxy
 
