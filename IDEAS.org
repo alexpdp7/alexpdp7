@@ -171,15 +171,7 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 - https://github.com/DavHau/nix-portable/issues/66
 - https://github.com/nix-community/home-manager/issues/3752#issuecomment-1566179742
 
-* Standard configuration processing layer
-
-- Standardize a way to write programs that generate configuration files, so programs can be configured using these programs instead of plain configuration files.
-- For example, GitHub Actions could be written in a declarative way using libraries with pre-defined patterns.
-- Languages such as Starlark, Dhall, Jsonnet are already designed for this purpose.
-- Should have great sandboxing, ensured finite fast runtimes, but also modularization (e.g. using libs)
-- Maybe use WASM in some fashion?
-- Maybe text files with some kind of shebang that describes if the file is Starlark, Dhall or what.
-
+* [[programming/configuration_files_proposal.md][Standard configuration processing layer]]
 * Databases in text markup documents
 
 - Embed queries of tables
