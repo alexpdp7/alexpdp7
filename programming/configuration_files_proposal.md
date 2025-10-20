@@ -62,6 +62,8 @@ Use WASM runtimes:
 * They already support capabilities.
 * Parsers can be distributed as WASM blobs.
 
+Maybe use [Extism](https://github.com/extism/extism) to implement.
+
 ## Motivating examples
 
 ### Declarative CI
