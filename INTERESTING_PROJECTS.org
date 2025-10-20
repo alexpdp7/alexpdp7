@@ -144,6 +144,9 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Durable execution platforms
    - https://github.com/temporalio/temporal
    - https://github.com/restatedev/restate
+** WASM
+   - https://github.com/yomaytk/elfconv - Converts ELF binaries to WASM
+   - https://github.com/extism/extism - WASM plugin framework
 ** Misc
    - https://github.com/kellyjonbrazil/jc - JSON converter for common CLI tools
    - https://github.com/open-meteo/open-meteo/
@@ -151,7 +154,6 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/igor-petruk/scriptisto - Generic shebang for compiling software, with RPM/DEB
    - https://github.com/acaloiaro/ess - automatically and safely synchronize env.sample files with .env
    - https://github.com/oils-for-unix/oils/wiki/Internal-DSLs-for-Shell - A discussion of libraries to do shell scripts in some programming languages
-   - https://github.com/yomaytk/elfconv - Converts ELF binaries to WASM
 * Systems
 ** Self-hosting solutions
    - https://yunohost.org/
