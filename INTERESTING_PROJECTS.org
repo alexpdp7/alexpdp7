@@ -176,6 +176,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/habitat-sh/habitat
    - https://github.com/metacontroller/metacontroller Simple Kubernetes operators
 ** File sync
+   - https://github.com/opencloud-eu desktop client is a fork of Nextcloud; app is Go, seems to keep stored files as-is
    - https://thelig.ht/code/userspacefs/ - Usermode filesystem Python library that works on Windows, Linux and macOS
    - https://github.com/mutagen-io/mutagen
    - https://github.com/tkellogg/dura
