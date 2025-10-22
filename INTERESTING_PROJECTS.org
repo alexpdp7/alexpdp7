@@ -163,6 +163,18 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://freedombox.org/
 *** Meta
    - https://github.com/0dataapp/awesome-0data?tab=readme-ov-file#easy-indie-platforms
+** File sync
+   - https://github.com/opencloud-eu desktop client is a fork of Nextcloud; app is Go, seems to keep stored files as-is
+   - https://thelig.ht/code/userspacefs/ - Usermode filesystem Python library that works on Windows, Linux and macOS
+   - https://github.com/mutagen-io/mutagen
+   - https://github.com/tkellogg/dura
+   - https://github.com/perkeep/perkeep
+   - https://github.com/upspin/upspin
+   - https://github.com/mickael-kerjean/filestash Web file manager with org-mode support
+   - https://github.com/kd2org/karadav NextCloud-compatible WebDav server
+   - https://willowprotocol.org/
+** Groupware
+   - https://github.com/stalwartlabs mail, calendar, contacts *and* files, using JMAP and WebDAV
 ** Portable environments
    - https://github.com/DavHau/nix-portable - portable Nix, no root required, works in an LXC container
    - https://github.com/fsquillace/junest - Arch chroots
@@ -175,16 +187,6 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Configuration management
    - https://github.com/habitat-sh/habitat
    - https://github.com/metacontroller/metacontroller Simple Kubernetes operators
-** File sync
-   - https://github.com/opencloud-eu desktop client is a fork of Nextcloud; app is Go, seems to keep stored files as-is
-   - https://thelig.ht/code/userspacefs/ - Usermode filesystem Python library that works on Windows, Linux and macOS
-   - https://github.com/mutagen-io/mutagen
-   - https://github.com/tkellogg/dura
-   - https://github.com/perkeep/perkeep
-   - https://github.com/upspin/upspin
-   - https://github.com/mickael-kerjean/filestash Web file manager with org-mode support
-   - https://github.com/kd2org/karadav NextCloud-compatible WebDav server
-   - https://willowprotocol.org/
 ** Home automation
    - https://github.com/Yakifo/amqtt
 ** PaaS
