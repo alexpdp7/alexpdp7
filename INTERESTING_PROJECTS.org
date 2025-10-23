@@ -4,13 +4,14 @@ Also keeping things in a Org mode means I can classify and add notes.
 
 * Coding
 ** Version control and code management
-   - https://github.com/josh-project/josh Alternative to moe/copybara that looks simpler?
+   - https://github.com/josh-project/josh Alternative to moe/copybara that looks simpler? [[https://github.com/rust-lang/josh-sync][Wrapper tool for CI]]
    - https://martinvonz.github.io/jj/ Alternative Git frontend
    - https://radicle.xyz/ Decentralized forge
    - https://github.com/copier-org/copier/ - project templater
    - https://github.com/Skyscanner/turbolift - operating on multiple repos
    - https://github.com/sourcegraph/doctree - code browser
    - https://mergiraf.org/ - Language-aware merge conflict solver
+   - https://forge.rust-lang.org/triagebot/range-diff.html show diffs after rewriting history
 *** CI/CD
   - https://github.com/earthly/earthly - Standalone build tool with containers
   - https://github.com/reviewdog/reviewdog - Error parser than can annotate GitHub pull requests
