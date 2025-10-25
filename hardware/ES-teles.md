@@ -69,6 +69,7 @@ Todos los servicios de streaming pueden usarse en ordenadores convencionales.
 La mayoría de ordenadores disponen de mayor potencia que la mayoría de dispositivos, con lo que podrían proporcionar una mejor experiencia navegando por los menús.
 
 Sin embargo, no hay buenas maneras de usar mandos tradicionales para navegar por los menús, y no es inmediato ponerle a un ordenador un interfaz adecuado para uso como televisor.
+(La navegación espacial ayudaría, pero sólo he encontrado [el soporte de Vivaldi para ella](https://help.vivaldi.com/desktop/shortcuts/spatial-navigation/), y no parecía funcionar muy bien.)
 
 Existen opciones como teclados con touchpad integrado, o mandos con giroscopio que permiten controlar un ordenador apuntando al televisor, pero son soluciones más inconvenientes que los mandos tradicionales.
 
