@@ -1,8 +1,0 @@
-* Search
-** Kagi
-
-- Can block domains
-
-* Email
-** https://migadu.com/
-** https://www.fastmail.com/
