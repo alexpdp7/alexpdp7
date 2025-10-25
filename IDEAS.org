@@ -171,7 +171,7 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 - https://github.com/DavHau/nix-portable/issues/66
 - https://github.com/nix-community/home-manager/issues/3752#issuecomment-1566179742
 
-* [[programming/configuration_files_proposal.md][Standard configuration processing layer]]
+* [[https://github.com/alexpdp7/tojson/][Standard configuration processing layer]]
 * Databases in text markup documents
 
 - Embed queries of tables
