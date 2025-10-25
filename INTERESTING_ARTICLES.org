@@ -28,6 +28,7 @@
 ** Rust
 
 - [[https://www.hezmatt.org/~mpalmer/blog/2024/05/01/the-mediocre-programmers-guide-to-rust.html][The Mediocre Programmer's Guide to Rust]]
+- [[https://qouteall.fun/qouteall-blog/2025/How to Avoid Fighting Rust Borrow Checker][How to Avoid Fighting Rust Borrow Checker]]
 
 ** Optimization
 
