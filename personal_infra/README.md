@@ -170,7 +170,7 @@ You can also use STUN/TURN servers, but I had lots of trouble getting that set u
 
 For the phones, I bought and set up two Grandstream HT801 ATA devices.
 Those are quite cheap (around 40€), but they are quite fancy professional network devices, with a rough but featureful UI (they can do OpenVPN, SNMP, etc.).
-They connect directly to FreeSWITCH over the Internet, autoconfiguring via DHCP, so in theory they could work anywhere in the world with a network connection.
+They connect directly to Flexisip over the Internet, autoconfiguring via DHCP, so in theory they could work anywhere in the world with a network connection.
 After configuration and assigning an extension, you only need to connect cheap wireless phones to them, and start making calls with the 1000...1020 extensions.
 
 For testing and occasional calls I use [Baresip](https://github.com/baresip/baresip) and [Linphone](https://www.linphone.org/) from F-Droid in my smartphone, and from Debian in my laptop.
