@@ -179,4 +179,32 @@ node 'h1.pdp7.net' {
   }
   ~>
   Service['apache2']
+
+  # bogus host to obtain a certificate for sip.pdp7.net
+  file {"/etc/apache2/sites-enabled/sip.pdp7.net.conf":
+    content => @("EOT")
+      MDomain sip.pdp7.net
+
+      <VirtualHost *:443>
+        ServerName sip.pdp7.net
+        SSLEngine on
+        Alias / /bogus
+      </VirtualHost>
+      | EOT
+    ,
+  }
+  ~>
+  Service['apache2']
+
+  file {"/usr/local/bin/notify_md_renewal_hook_sip":
+    content => @("EOT"/$)
+    #!/bin/sh
+
+    cp /etc/apache2/md/domains/sip.pdp7.net/pubcert.pem  /rpool/data/subvol-209-disk-0/etc/pki/tls/certs/localhost.crt
+    cp /etc/apache2/md/domains/sip.pdp7.net/privkey.pem  /rpool/data/subvol-209-disk-0/etc/pki/tls/private/localhost.key
+    pct exec 209 systemctl restart flexisip-proxy
+    | EOT
+    ,
+    mode => '0755',
+  }
 }

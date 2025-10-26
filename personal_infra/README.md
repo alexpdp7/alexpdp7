@@ -13,7 +13,7 @@ See [HACKING](HACKING.md) for more "usage" instructions.
   * LXC container running a FreeIPA replica
   * LXC container running Miniflux
   * LXC container running Nextcloud
-  * LXC container running FreeSWITCH
+  * LXC container running Flexisip
   * LXC container running Vaultwarden
   * LXC container running ClickHouse
   * LXC container running SeaweedFS (for Takahe)
@@ -160,34 +160,23 @@ However, I need to provide calls between my home and another home using physical
 The key to this is the SIP protocol.
 You can get classical phones that work using the SIP protocol, or ATA devices that turn a regular phone into a SIP phone.
 
-I installed FreeSWITCH from the [OKay repo](https://okay.network/blog-news/rpm-repositories-for-centos-6-and-7.html).
-FreeSWITCH comes with a fairly complete default configuration.
-By default it will set up extensions in the 1000...1020 range, with a configurable single password for all extensions, plus some extensions for test calls, etc.
+I installed Flexisip.
 
 The major difficulty in setting a SIP server is networking.
-I run FreeSWITCH in an LXC container on Proxmox.
+I run Flexisip in an LXC container on Proxmox.
 I expose the SIP server's SSL TCP port to the Internet, plus a range of UDP ports, using iptables.
 (I consulted some SIP forums, and apparently there are no major hardening requirements in exposing a SIP server to the Internet, although I think maybe it's better to use a SIP proxy.)
 You can also use STUN/TURN servers, but I had lots of trouble getting that set up.
-Also by default, FreeSWITCH figures out a public IP- if you want to get FreeSWITCH working behind a VPN, you need to disable that.
 
 For the phones, I bought and set up two Grandstream HT801 ATA devices.
 Those are quite cheap (around 40€), but they are quite fancy professional network devices, with a rough but featureful UI (they can do OpenVPN, SNMP, etc.).
 They connect directly to FreeSWITCH over the Internet, autoconfiguring via DHCP, so in theory they could work anywhere in the world with a network connection.
 After configuration and assigning an extension, you only need to connect cheap wireless phones to them, and start making calls with the 1000...1020 extensions.
 
-For testing and occasional calls I use [Baresip](https://github.com/baresip/baresip) from F-Droid in my smartphone, and from Debian in my laptop.
+For testing and occasional calls I use [Baresip](https://github.com/baresip/baresip) and [Linphone](https://www.linphone.org/) from F-Droid in my smartphone, and from Debian in my laptop.
 For smartphones, SIP has the drawback that it requires a persistent connection to the SIP server to receive calls- thus draining the battery a bit.
-Some SIP setups use push notifications to get around that, but that seemed to be complex.
+Linphone/Flexisip are supposed to use mobile push, but I have not set this up.
 So the only devices that are connected 24/7 are the ATAs, I use my smartphone and my laptop occasionally.
-
-SIP allows many other interesting stuff such as:
-
-* Instant messaging
-* Videoconferencing
-* Advanced phone features (conferences, barging in, voicemail, automation)
-
-So you can do real fancy stuff with it, but I haven't looked at it, because really I just need calls over two households on physical classical wireless handsets.
 
 ## Possible improvements
 
