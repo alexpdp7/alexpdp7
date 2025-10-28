@@ -53,6 +53,9 @@ Also keeping things in a Org mode means I can classify and add notes.
 **** gRPC
      - https://github.com/grpc/grpc-web
      - https://github.com/twitchtv/twirp - Simple protobuf+HTTP RPC
+*** P2P
+   - https://github.com/n0-computer/iroh
+   - https://github.com/magic-wormhole/magic-wormhole
 ** Data
    - https://github.com/singer-io/getting-started
    - https://github.com/dflemstr/rq - Record tool
