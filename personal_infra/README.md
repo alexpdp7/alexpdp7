@@ -4,19 +4,19 @@ This is a general overview.
 See [HACKING](HACKING.md) for more "usage" instructions.
 
 * Hetzner auction server: 128Gb RAM, 2x1Tb SSD. Runs Proxmox, tinc/ocserv, Apache as reverse proxy
+  * LXC container running Nextcloud
+  * LXC container running Vaultwarden
+  * LXC container running Miniflux
+  * LXC container running Flexisip
+  * LXC container running Gitolite
+  * LXC container running SeaweedFS (for Takahe)
+  * LXC container running a workstation
+  * LXC container running PostgreSQL
+  * LXC container running a FreeIPA replica
+  * LXC container running Ipsilon
   * LXC container running Nagios
   * LXC container running Grafana
-  * LXC container running Ipsilon
-  * LXC container running PostgreSQL
-  * LXC container running a workstation
-  * LXC container running Gitolite
-  * LXC container running a FreeIPA replica
-  * LXC container running Miniflux
-  * LXC container running Nextcloud
-  * LXC container running Flexisip
-  * LXC container running Vaultwarden
   * LXC container running ClickHouse
-  * LXC container running SeaweedFS (for Takahe)
   * Two VMs running Talos, providing two Kubernetes clusters (production/test)
     * My blog
     * Incarnator
