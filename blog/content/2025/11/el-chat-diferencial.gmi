@@ -1,0 +1,34 @@
+# El chat diferencial
+2025-11-01
+
+Intento no repetir tema en entradas consecutivas, PERO lo voy a hacer en cierta forma.
+
+Hace un mes o así descubrí Delta Chat, el sistema de mensajería instantánea que más me ha flipado hasta la fecha.
+
+Aunque debo admitir que su virtud más sorprendente es que hará explotar la cabeza a la gente con interés en cómo funciona la tecnología, mientras que seguramente sea una opción ideal para los que no tienen tal interés.
+
+Delta Chat es una aplicación de mensajería como WhatsApp o Telegram. Pero de verdad. No es más complicado y va muy bien. Las llamadas de audio y vídeo están ahora mismo escondidas por defecto, pero funcionan bien.
+
+Lamentablemente, dudo muchísimo que tenga ningún tipo de penetración, de manera que es mi chat favorito que apenas usaré, pero me parece fantástico.
+
+Pero lo sorprendente: 1) funciona sobre servidores de correo electrónico tradicionales y 2) tiene un sistema de aplicaciones de chat mágico.
+
+Delta Chat es descentralizado; cada usuario puede tener cuenta en un servidor que cualquiera puede montar. (Pero el proceso de registro te pone un servidor por defecto.) Pero es un servidor de correo electrónico con un par de tuneos para asegurarse de que a) los mensajes están cifrados de extremo a extremo (usando los estándares de cifrado de correo existentes) b) los mensajes fluyen a toda pastilla.
+
+Cosa que nunca deduciríais usando Delta Chat, y si sois de esos que digo que os interesa cómo funcionan las cosas, es lo que os digo, ahora mismo os estaréis preguntando cómo narices funciona esto bien, mientras que los que no tengan tal interés estarás usando Delta Chat tan ricamente.
+
+Lo otro es el sistema de aplicaciones.
+
+=> https://webxdc.org/apps/ En webxdc.org podéis encontrar un catálogo de aplicaciones que se pueden añadir a cualquier conversación en Delta Chat.
+
+Es una especie de estándar que permite implementar aplicaciones (basadas en tecnologías web; JavaScript, HTML y CSS) que permiten a todos los participantes del chat interactuar con ellas. Hay cosas como listas de la compra, recordatorios compartidos de tareas o juegos.
+
+La magia es que estas aplicaciones funcionan completamente sobre Delta Chat y sólo hace falta un servidor de archivos estáticos para hospedarlas. Es decir, ¡que no hace falta ni base de datos ni nada por el estilo para hacer aplicaciones colaborativas sobre Internet!
+
+(Nota a los "educadores": por tanto, en mi opinión es una plataforma espectacular para los que aprenden a programar. No me consta nada parecido donde puedas publicar aplicaciones a coste 0, usando estándares web y que sean "multijugador".)
+
+La última funcionalidad interesante es que en un periquete puedes añadirte otra cuenta, con lo que puedes crearte direcciones de usar y tirar si tienes que hablar con alguien pero no quieres darle tu dirección principal.
+
+Ahora mismo no se me ocurre ningún sistema de mensajería que se le pueda comparar. Fácil de usar, de código abierto, descentralizado e innovador. (También tiene multidispositivo, aplicación de escritorio... no echo nada en falta.) Por supuesto, sólo conozco cuatro personas que lo usan, y de ellas, no me comunico asiduamente con ninguna.
+
+Pero si tenéis la oportunidad, recomiendo encarecidamente que le echéis un vistazo.
