@@ -4,20 +4,28 @@
 
 ;; Nicer defaults
 
+(fido-vertical-mode) ; nice completion for M-x
+(which-key-mode) ; learn keyboard shortcuts
+
 (setq compilation-scroll-output t)
 (setq column-number-mode t)  ; in the mode line
+
 (setq-default show-trailing-whitespace t)
 (global-whitespace-mode)
 (setopt whitespace-style '(tab-mark))
+
 (xterm-mouse-mode 1)
+
 (save-place-mode t) ; persists your position in files
-(setq custom-file "~/.emacs.d/disable-custom-variable-saving")
+
+(setq custom-file "~/.emacs.d/disable-custom-variable-saving") ; do not do weird things when changing variables
+
 (load-theme 'modus-vivendi :no-confirm) ; colorblind-friendly theme... but has issues with emoji and other unicode. If facing issues, M-x disable-theme
-(fido-vertical-mode) ; nice completion for M-x
-(which-key-mode) ; learn keyboard shortcuts
+
 (global-completion-preview-mode 1) ; show things that you can tab-complete
 (setq tab-always-indent 'complete) ; allow tab to complete
 (setq text-mode-ispell-word-completion nil) ; but do not complete dictionary words
+
 (windmove-default-keybindings) ; S-cursor to move to different windows
 
 (setq org-startup-folded t)
