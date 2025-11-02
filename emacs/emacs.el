@@ -38,11 +38,15 @@
             (setq js-indent-level 2)))
 
 ;; Do not spill temporary files everywhere
-;; https://stackoverflow.com/a/18330742
-(defvar --backup-directory (concat user-emacs-directory "backups"))
-(if (not (file-exists-p --backup-directory))
-        (make-directory --backup-directory t))
-(setq backup-directory-alist `(("." . ,--backup-directory)))
+;; https://emacs.stackexchange.com/a/81518
+(let ((my-auto-save-directory (locate-user-emacs-file "auto-save")))
+  (setq auto-save-file-name-transforms
+      `((".*" ,my-auto-save-directory t))))
+
+(let ((my-backup-directory (locate-user-emacs-file "backups")))
+  (setq backup-directory-alist `("." my-backup-directory)))
+
+(setq create-lockfiles nil)
 
 ;; Configure the package manager. Some packages I use are not in the default repositories
 (require 'use-package-ensure)
