@@ -88,6 +88,8 @@
 - [[https://en.wikipedia.org/wiki/Sturgeon%27s_law][Sturgeon's law]] is an adage stating "ninety percent of everything is crap".
 - [[https://en.wikipedia.org/wiki/Schedule_chicken][Schedule chicken]] is when two or more parties working towards a common goal all claim to be holding to their original schedules for delivering their part of the work, even after they know those schedules are impossible to meet. Each party hopes the other will be the first to have their failure exposed.
 
+See also [[misc/greek-task-list.md][Greek task list]].
+
 Sources:
 
 - [[https://en.wikipedia.org/wiki/List_of_paradoxes][List of paradoxes]]
