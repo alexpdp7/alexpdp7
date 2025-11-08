@@ -239,6 +239,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/glide-browser/glide programmable Firefox
    - https://github.com/steveseguin/vdo.ninja Swiss army knife for WebRTC
    - https://github.com/Manawyrm/AnotterKiosk Firefox kiosk
+   - https://linuxae.org.es/ Distribución GNU/Linux para el uso de la Administración Electrónica
 ** Email
    - https://github.com/simonrob/email-oauth2-proxy
    - https://pimalaya.org/ Rust email tools, including sync, MIME...
