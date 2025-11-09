@@ -15,7 +15,7 @@ class automatic_updates {
         enable => true,
       }
     }
-    elsif ($facts['os']['release']['major'] == '8' or $facts['os']['release']['major'] == '9') {
+    elsif ($facts['os']['release']['major'] == '8' or $facts['os']['release']['major'] == '9' or $facts['os']['release']['major'] == '10') {
       package {'dnf-automatic':}
       ->
       service {'dnf-automatic-install.timer':
