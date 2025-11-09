@@ -23,3 +23,12 @@ if lookup({name => 'nagios.monitor', default_value => true}) {
 if $facts['os']['family'] == 'RedHat' and $facts['os']['release']['major'] == '9' {
   package {'compat-openssl11':}
 }
+
+if $facts['os']['family'] == 'RedHat' and $facts['os']['release']['major'] == "10" {
+  service {'dev-mqueue.mount':
+    ensure => stopped,
+    enable => mask,
+  }
+  ~>
+  Exec['/usr/bin/systemctl reset-failed']
+}

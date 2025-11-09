@@ -21,6 +21,9 @@ ragent:
       '9':
         x86_64: el8
         aarch64: el8_rpi4
+      '10':
+        x86_64: el8
+        aarch64: el8_rpi4
   install_command:
     Debian: "dpkg -i"
     RedHat: "rpm -i"

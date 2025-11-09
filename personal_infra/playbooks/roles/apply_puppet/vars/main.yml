@@ -1,0 +1,13 @@
+---
+puppet:
+  by_os:
+    Debian:
+      '12':
+        package: puppet
+      '13':
+        package: puppet
+    RedHat:
+      '9':
+        package: puppet
+      '10':
+        package: openvox-agent

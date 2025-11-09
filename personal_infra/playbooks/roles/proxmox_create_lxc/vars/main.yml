@@ -1,8 +1,8 @@
 ---
 flavors:
-  el8:
-    template: rockylinux-8-default_20210929
-    pct_ostype: centos
   el9:
     template: rockylinux-9-default_20240912
+    pct_ostype: centos
+  el10:
+    template: almalinux-10-default_20250930
     pct_ostype: centos
