@@ -44,9 +44,7 @@ class clickhouse {
         <asynchronous_metric_log>
           <ttl>event_date + INTERVAL 3 DAY DELETE</ttl>
         </asynchronous_metric_log>
-        <trace_log>
-          <ttl>event_date + INTERVAL 3 DAY DELETE</ttl>
-        </trace_log>
+        <trace_log remove="1"/>
         <metric_log>
           <ttl>event_date + INTERVAL 3 DAY DELETE</ttl>
         </metric_log>
