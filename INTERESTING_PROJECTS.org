@@ -21,7 +21,7 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://cloud.devenv.sh/ Nix-based CI for GitHub
 ** Observability
    - https://github.com/equinix-labs/otel-cli
-   - https://github.com/SigNoz/signoz
+   - https://github.com/hyperdxio/hyperdx
 ** Web development
    - https://github.com/fastly/pushpin - A proxy server for adding push to your API
    - https://xtermjs.org/ - Terminals on the web
