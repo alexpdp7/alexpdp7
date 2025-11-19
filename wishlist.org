@@ -4,7 +4,10 @@ Todos se pueden comprar en Kindle, tapa blanda o el formato que salga más barat
 
 ** Ficción
 
-- Tebeos de "Bocchi the Rock!"; tengo los volúmenes 1 a 7 en español
+- Tebeos de "Bocchi the Rock!"; tengo los volúmenes 1 a 7 de la serie principal en español.
+  Existe una antología de historias de otros artistas "BOCCHI THE ROCK COMIC ANTHOLOGY: Volume 1".
+  También hay una serie paralela sobre Kikuri Hiroi, un personaje secundario.
+  (Ambas sólo en inglés.)
 - [[https://en.wikipedia.org/wiki/Bowling_Alone][Bowling alone]]
 - [[https://www.amazon.es/dp/0440539811/][The Illuminatus! Trilogy]]
 - [[https://en.wikipedia.org/wiki/Salt_Fat_Acid_Heat_(book)][Salt Fat Acid Heat]]
