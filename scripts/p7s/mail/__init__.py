@@ -90,6 +90,7 @@ def create_forward(name, from_server, to_server):
     [Service]
     ExecStart=/usr/bin/imapfilter -c {config} -v
     Restart=always
+    RestartSec=60
 
     [Install]
     WantedBy=default.target
