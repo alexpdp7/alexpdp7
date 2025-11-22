@@ -59,7 +59,7 @@ See https://github.com/alexpdp7/alexpdp7/blob/master/INTERESTING_PROJECTS.org#se
 
 ** Federated real-time communications using open protocols https://github.com/alexpdp7/frtcuop
 
-- Integrate an XMPP server (such as [[https://esl.github.io/MongooseDocs/latest/modules/mod_jingle_sip/][MongooseIM with mod_jingle_sip]]) with SIP systems (such as Flexisip).
+- Integrate an XMPP server (such as [[https://esl.github.io/MongooseDocs/latest/tutorials/Jingle-SIP-setup/][MongooseIM with mod_jingle_sip]]) with SIP systems (such as Flexisip).
 
 ** Peer-to-peer encrypted NAS backups
 
