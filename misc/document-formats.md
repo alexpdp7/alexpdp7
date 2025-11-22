@@ -56,6 +56,9 @@ Checks all my boxes, except:
 
 Typst is very new and is not yet very popular.
 
+[Typesetter](https://codeberg.org/haydn/typesetter) is a desktop application that embeds Typst, so no additional setup is needed.
+However, Typesetter is only available as a Flatpak.
+
 ### TODO: other formats
 
 - https://github.com/nota-lang/nota
