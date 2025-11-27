@@ -70,11 +70,19 @@ Some drawbacks of IRC are:
   Although many IRC clients can display images and GIFs, communicating with images and GIFs is harder on IRC.
   (And IRC also does not have integrated audio/video conferencing.)
 
-* IRC does not have reactions yet.
-
 * Push notifications are not common yet.
   Although it is possible to receive instant notifications when you are mentioned or receive a private message, this is frequently difficult.
   In general, IRC on mobile phones is not as evolved as on desktop computers.
+
+Interesting projects:
+
+* Web clients
+  * https://github.com/ObsidianIRC/ObsidianIRC
+  * https://kiwiirc.com/
+  * https://codeberg.org/emersion/gamja
+* https://soju.im/ (Bouncer)
+* https://halloy.chat/ (Graphical desktop client)
+* https://git.sr.ht/~delthas/senpai (Terminal client)
 
 #### Matrix
 
