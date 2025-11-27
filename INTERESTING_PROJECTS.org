@@ -19,6 +19,7 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://github.com/bazelbuild/remote-apis - Bazel's remote APIs for compiling, artifacts, and log streaming; with links to projects that support them
   - https://github.com/lima-vm/lima-actions - Lima for GitHub Actions
   - https://cloud.devenv.sh/ Nix-based CI for GitHub
+  - https://github.com/cirruslabs/ - CI for GitHub, with Starlark workflow definitions that can import definitions from other places. (Cannot be self hosted, only runners.) (Has [[https://github.com/cirruslabs/cirrus-cli][an interesting CLI].)
 ** Observability
    - https://github.com/equinix-labs/otel-cli
    - https://github.com/hyperdxio/hyperdx
@@ -199,6 +200,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://linuxcontainers.org/incus/ - LXD fork, supports VMs, has good "cloud" templates.
    - https://github.com/lxc/cluster-api-provider-incus - adapter to provision k8s cluster nodes on Incus, including as LXC containers!
    - https://github.com/mobydeck/ssh2incus - exposes Incus instances through SSH, without SSH on the instance. Good for things that only work over SSH (Mutagen, VS Code remoting, etc.)
+   - https://github.com/cirruslabs/vetu
    - https://github.com/karmab/kcli
    - https://github.com/Xe/waifud
    - https://github.com/virt-lightning/virt-lightning libvirt + cloud images
