@@ -4,9 +4,8 @@ Also keeping things in a Org mode means I can classify and add notes.
 
 * Coding
 ** Version control and code management
-   - https://github.com/josh-project/josh Alternative to moe/copybara that looks simpler? [[https://github.com/rust-lang/josh-sync][Wrapper tool for CI]]
+   - https://github.com/josh-project/josh Simpler alternative to moe/copybara. [[https://github.com/rust-lang/josh-sync][Wrapper tool for CI]]
    - https://martinvonz.github.io/jj/ Alternative Git frontend
-   - https://radicle.xyz/ Decentralized forge
    - https://github.com/copier-org/copier/ - project templater
    - https://github.com/Skyscanner/turbolift - operating on multiple repos
    - https://github.com/sourcegraph/doctree - code browser
@@ -74,8 +73,6 @@ Also keeping things in a Org mode means I can classify and add notes.
     - https://github.com/lorint/AdventureWorks-for-Postgres
 **** Embedded databases
     - https://github.com/zonkyio/embedded-postgres-binaries - Embedded PostgreSQL
-    - https://duckdb.org/ - SQLite alternative
-    - https://github.com/chdb-io/chdb - embedded ClickHouse
     - https://github.com/cozodb/cozo - Datalog in Rust, different backends
 **** Tools
      - https://github.com/dbcli/pgcli
@@ -144,8 +141,6 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/mthom/scryer-prolog/
    - https://github.com/rla/prolog-markdown
    - https://github.com/aarroyoc/djota/tree/main - A Djot parser in Prolog
-** Emacs
-   - https://github.com/manateelazycat/lsp-bridge
 ** Durable execution platforms
    - https://github.com/temporalio/temporal
    - https://github.com/restatedev/restate
@@ -182,7 +177,6 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/stalwartlabs mail, calendar, contacts *and* files, using JMAP and WebDAV
 ** Portable environments
    - https://github.com/DavHau/nix-portable - portable Nix, no root required, works in an LXC container
-   - https://github.com/fsquillace/junest - Arch chroots
    - https://github.com/linuxserver/proot-apps - Portable container apps with just proot
    - https://github.com/lkl/linux - library-mode Linux
 ** Identity
@@ -235,7 +229,6 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/shell-pool/shpool screen or tmux, but only for detaching, should not mess with terminals
    - https://github.com/simple-login - email aliases
 * End-user software
-   - https://github.com/ventoy/Ventoy
    - https://github.com/mistweaverco/bananas Multiplaform screen sharing with multiple cursors
    - https://lalescu.ro/liviu/fet/ timetable optimizer
    - https://github.com/glide-browser/glide programmable Firefox
@@ -253,7 +246,6 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/wolpi/prim-ftpd
 ** Desktop
   - https://github.com/YaLTeR/niri/
-  - https://ublue.it/
   - https://github.com/kmonad/kmonad - advanced cross-platform keyboard remappings
 *** Gnome
   - https://extensions.gnome.org/extension/6784/wiggle/ - shake your pointer to embiggen
@@ -302,7 +294,6 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/SimonBrazell/privacy-redirect
    - https://github.com/benbusby/farside
    - https://github.com/timhutton/twitter-archive-parser
-   - https://sr.ht/~cloutier/bird.makeup/ - Twitter ActivityPub bridge
    - https://rss-parrot.net/ RSS to ActivityPub
 * Hardware
   - https://junkerhq.net/xrgb/index.php/OSSC - The Open Source Scan Converter is a low-latency video digitizer and scan converter designed primarily for connecting retro video game consoles and home computers to modern displays.
