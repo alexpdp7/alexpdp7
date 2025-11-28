@@ -71,4 +71,31 @@ host-record=router4g.bcn.int.pdp7.net,router4g,192.168.76.3
 
   class {'jellyfin':}
   class {'debian::backports':}  # basically to get emacs
+
+  package {'nfs-kernel-server':}
+  ->
+  file {"/etc/exports":
+    content => @(EOT)
+    # /etc/exports: the access control list for filesystems which may be exported
+    #		to NFS clients.  See exports(5).
+    #
+    # Example for NFSv2 and NFSv3:
+    # /srv/homes       hostname1(rw,sync,no_subtree_check) hostname2(ro,sync,no_subtree_check)
+    #
+    # Example for NFSv4:
+    # /srv/nfs4        gss/krb5i(rw,sync,fsid=0,crossmnt,no_subtree_check)
+    # /srv/nfs4/homes  gss/krb5i(rw,sync,no_subtree_check)
+    #
+
+    # insecure for Kodi
+    /srv/filer           192.168.76.0/24(rw,sync,fsid=0,crossmnt,no_subtree_check,insecure) 10.34.10.0/24(rw,sync,fsid=0,crossmnt,no_subtree_check,insecure)
+    /srv/filer           LibreELEC.bcn.int.pdp7.net(rw,sync,fsid=0,crossmnt,no_subtree_check,no_root_squash)
+    | EOT
+    ,
+  }
+  ~>
+  service {"nfs-kernel-server":
+    ensure => running,
+    enable => true,
+  }
 }
