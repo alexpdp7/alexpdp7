@@ -1,0 +1,2 @@
+name: Crunchyroll
+cmd: flatpak run com.google.Chrome --kiosk https://www.crunchyroll.com

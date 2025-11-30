@@ -1,0 +1,2 @@
+name: Netflix
+cmd: flatpak run com.google.Chrome --kiosk https://netflix.com

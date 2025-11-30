@@ -1,0 +1,2 @@
+name: Prime Video
+cmd: flatpak run com.google.Chrome --kiosk https://www.primevideo.com
