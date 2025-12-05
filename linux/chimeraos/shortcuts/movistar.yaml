@@ -1,0 +1,2 @@
+name: Movistar Plus
+cmd: flatpak run com.google.Chrome --kiosk https://ver.movistarplus.es
