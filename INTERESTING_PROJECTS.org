@@ -73,6 +73,7 @@ Also keeping things in a Org mode means I can classify and add notes.
     - https://github.com/lorint/AdventureWorks-for-Postgres
 **** Embedded databases
     - https://github.com/zonkyio/embedded-postgres-binaries - Embedded PostgreSQL
+    - https://github.com/orm011/pgserver - Pip-installable, embedded-like postgres server for your python app
     - https://github.com/cozodb/cozo - Datalog in Rust, different backends
 **** Tools
      - https://github.com/dbcli/pgcli
