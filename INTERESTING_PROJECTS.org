@@ -92,6 +92,7 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Low code
    - https://github.com/microsoft/Power-Fx
    - https://github.com/carltongibson/neapolitan - one of Django's authors does a variation on the Django admin?
+   - https://gitlab.levitnet.be/levit/django-admin-deux - another modernized Django admin
 ** Language-specific
 *** Python
    - https://github.com/inducer/pudb Full-screen console debugger for Python
