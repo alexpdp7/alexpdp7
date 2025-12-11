@@ -121,6 +121,10 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://lexi-lambda.github.io/hackett/
   - https://coalton-lang.github.io/
   - https://docs.racket-lang.org/ts-guide/
+*** Shells
+  - https://github.com/oils-for-unix/oils/ a POSIX-style shell and a modern shell. They also document [[https://github.com/oils-for-unix/oils/wiki/Alternative-Shells][alternative shells]], and [[https://github.com/oils-for-unix/oils/wiki/Internal-DSLs-for-Shell][internal DSLs for shell]].
+  - https://xon.sh/ Python shell
+  - https://github.com/nushell/nushell Powershell-y shell in Rust
 ** Email
    - https://github.com/moggers87/salmon - Mail applications
 ** Parsers
