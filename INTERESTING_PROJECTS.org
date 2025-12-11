@@ -18,7 +18,7 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://github.com/bazelbuild/remote-apis - Bazel's remote APIs for compiling, artifacts, and log streaming; with links to projects that support them
   - https://github.com/lima-vm/lima-actions - Lima for GitHub Actions
   - https://cloud.devenv.sh/ Nix-based CI for GitHub
-  - https://github.com/cirruslabs/ - CI for GitHub, with Starlark workflow definitions that can import definitions from other places. (Cannot be self hosted, only runners.) (Has [[https://github.com/cirruslabs/cirrus-cli][an interesting CLI].)
+  - https://github.com/cirruslabs/ - CI for GitHub, with Starlark workflow definitions that can import definitions from other places. (Cannot be self hosted, only runners.) (Has [[https://github.com/cirruslabs/cirrus-cli][an interesting CLI]].)
 ** Observability
    - https://github.com/equinix-labs/otel-cli
    - https://github.com/hyperdxio/hyperdx
