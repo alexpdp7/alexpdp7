@@ -4,7 +4,7 @@ There is not a perfect set of headphones.
 
 These are a few notes about the headphones I use, with pros/cons.
 
-## Shokz OpenComm
+## Shokz OpenComm / MONODEAL MD08 PRO
 
 These are my favorite headphones for remote work, meaning calls.
 Shokz are bone conduction, meaning they do not go over your ear, or inside your ear, but rather sit on your temples.
@@ -41,6 +41,9 @@ They cost around 150€.
 
 My major doubt is if other Shokz headphones without a boom mic work well for calls.
 The OpenComm are more expensive than models without boom mic.
+
+Update: I lost the Shokz and got a MONODEAL MD08 PRO instead, which cost about half.
+They are fine too.
 
 ## Mpow Air 2.4G
 
@@ -120,6 +123,17 @@ I also use them plugged into my computer monitor, with an extension cable so I c
 
 Each pair costs 5-10€.
 
+## Sleep headband
+
+I took an acquaintance's unused sleep headband.
+That's a small Bluetooth control unit and flat speakers embedded in a fabric headband.
+I cannot find the original model- you can find many variants costing from 15-20€.
+
+They are a bit bizarre because the control buttons are in your forehead.
+
+They solve many problems about using headphones in bed: they are quite comfortable (although my head is slightly too big for those) and they don't fall, although they can slip out of position.
+Sound quality is not great, but it's decent for music for non-audiophiles.
+
 # Notes
 
 ## On form factors
@@ -131,7 +145,7 @@ I don't think it's possible for one headset to be good at everything:
 * Noise isolation vs environment awareness.
   Headphones isolate or not.
   Some isolating headphones have passthrough modes, but very few headphones can activate this immediately.
-* Comfort
+* Comfort (esp. in bed)
 * Battery life
 * Connection
 * Easy and varied controls (mute, volume, etc.)
