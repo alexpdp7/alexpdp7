@@ -1,0 +1,14 @@
+An org spreadsheet to split a supermarket ticket into four concepts.
+
+| al | an | cl | t |
+|----+----+----+---|
+|    |    |    |   |
+|    |    |    |   |
+|    |    |    |   |
+|    |    |    |   |
+|----+----+----+---|
+|  0 |  0 |  0 | 0 |
+|  0 |    |    |   |
+#+Tblfm: @>>=vsum(@I..II)::@>$1=vsum(@-1$<..@-1$>)
+
+M-x org-table-iterate to recalculate
