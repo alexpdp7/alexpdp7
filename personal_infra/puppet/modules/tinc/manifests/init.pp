@@ -42,8 +42,8 @@ cat /etc/ansible/tinc/public_${location['address']}.pem >>/etc/tinc/${tinc_name}
   }
 
   service {"tinc@${tinc_name}":
-    ensure => running,
-    enable => true,
+    ensure => stopped,
+    enable => false,
   }
 
   if($facts['os']['family'] == 'RedHat' and $facts['os']['release']['major'] == '9') {

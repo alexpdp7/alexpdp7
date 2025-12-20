@@ -1,0 +1,48 @@
+---
+- hosts: tinc
+  tasks:
+  - name: install wireguard
+    package:
+      name: wireguard-tools
+  - name: install iptables
+    package:
+      name: iptables
+  - name: generate keypair
+    shell:
+      cmd: umask 0077 && wg genkey | tee privatekey | wg pubkey > publickey
+      chdir: /etc/wireguard
+      creates: /etc/wireguard/publickey
+  - name: fetch public keys
+    fetch:
+      src: /etc/wireguard/publickey
+      dest: /tmp/wireguard-publickeys
+  - name: slurp private keys
+    slurp:
+      src: /etc/wireguard/privatekey
+    register: privatekey
+  - name: configure
+    copy:
+      content: |
+        [Interface]
+        Address = {{ network.self_internal_ip }}/24
+        SaveConfig = true
+        PostUp = iptables -A FORWARD -i %i -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+        PostDown = iptables -D FORWARD -i %i -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
+        ListenPort = 51820
+        PrivateKey = {{ privatekey['content'] | b64decode }}
+
+        {% for host in groups['tinc'] %}
+        {% if host != inventory_hostname %}
+        [Peer]
+        PublicKey = {{ lookup('file', '/tmp/wireguard-publickeys/{}/etc/wireguard/publickey'.format(host)) }}
+        AllowedIPs = {{ hostvars[host].network.self_internal_network }}
+        Endpoint = {{ hostvars[host].network.public_hostname }}:51820
+
+        {% endif %}
+        {% endfor %}
+      dest: /etc/wireguard/wg0.conf
+  - name: enable wireguard
+    service:
+      name: wg-quick@wg0
+      state: restarted
+      enabled: yes
