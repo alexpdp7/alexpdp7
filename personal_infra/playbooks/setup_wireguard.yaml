@@ -46,3 +46,8 @@
       name: wg-quick@wg0
       state: restarted
       enabled: yes
+  - name: set congestion control
+    copy:
+      content: |
+        net.ipv4.tcp_congestion_control = bbr
+      dest: /etc/sysctl.d/wireguard.conf
