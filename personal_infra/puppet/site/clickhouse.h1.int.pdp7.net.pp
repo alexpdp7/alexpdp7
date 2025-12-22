@@ -70,7 +70,9 @@ node 'clickhouse.h1.int.pdp7.net' {
     ,
   }
   ~>
-  exec {'/usr/bin/systemctl daemon-reload':}
+  exec {'/usr/bin/systemctl daemon-reload':
+    refreshonly => true,
+  }
   ~>
   Service['otelcol-contrib']
 }
