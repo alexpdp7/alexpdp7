@@ -261,6 +261,7 @@ https://mutedeck.com/ is basically this.
 - Small webapp for touch interface in phone
 - Displays and alerts on upcoming events
 - See https://github.com/alexpdp7/meet-controller
+- https://github.com/IsmaelMartinez/teams-for-linux wraps the Microsoft Teams app and adds MQTT support to control mute and other features
 
 * Parallel execution framework
 
