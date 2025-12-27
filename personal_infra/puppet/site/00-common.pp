@@ -12,7 +12,7 @@ if lookup({name => 'nagios.monitor', default_value => true}) {
   nagios_host {$nagios_host:
     use => 'generic-host',
     address => lookup({name => 'nagios.address', default_value => $facts['networking']['fqdn']}),
-    max_check_attempts => 5,
+    max_check_attempts => lookup({name => 'nagios.max_check_attempts', default_value => 5}),
     contact_groups => 'admins',
     hostgroups => 'linux',
     check_command => 'check-host-alive',
