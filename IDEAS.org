@@ -138,6 +138,7 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 ** Run Android on powerful x86 inside Kodi https://github.com/supechicken/waydroid-androidtv-build
 
 ** Test SteamOS/ChimeraOS for streaming service usage.
+** HDMI-CEC "fixer" daemon, see https://johnlian.net/posts/hdmi-cec/
 ** Streaming service planner
 
 - List shows you want to see, see a calendar of releases by service
