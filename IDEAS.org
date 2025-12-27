@@ -58,6 +58,8 @@ See https://github.com/alexpdp7/alexpdp7/blob/master/INTERESTING_PROJECTS.org#se
 - The mailing list UI can be completely customized to look like microblogging, blogs, comment systems, etc.
 - max n messages over m days feature. n=0, don't send me emails. n=1, send me a digest every m days. n>=2, stop at n-1, then wait until the m period is over to send me a digest.
 
+Alternatively, research https://public-inbox.org/README
+
 ** Federated real-time communications using open protocols https://github.com/alexpdp7/frtcuop
 
 - Integrate an XMPP server (such as [[https://esl.github.io/MongooseDocs/latest/tutorials/Jingle-SIP-setup/][MongooseIM with mod_jingle_sip]]) with SIP systems (such as Flexisip).
