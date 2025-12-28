@@ -1,4 +1,6 @@
-# Español (English below)
+# alexpdp7
+
+## Contenidos de este repo (English below)
 
 Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar esta.
 
@@ -17,7 +19,7 @@ Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar es
 * [Mi blog personal](blog/), que podéis ver más fácilmente en https://alex.corcoles.net/ (y en Gemini, aunque por algún motivo no puedo enlazar a Gemini con el Markdown de GitHub).
   Podéis enviar cambios para correcciones y demás, pero en verdad es más fácil ir al artículo en el blog y darle a "editar" al final de la página.
 
-# English
+## Contents of this repo
 
 (This list is shorter because some material is Spanish-only.)
 
@@ -31,3 +33,22 @@ Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar es
 * [Scripts I use on my workstations](scripts/) and [some bizarre stuff to build Distrobox/Toolbox containers with some tools I use](workstation/).
 * [The database schema for my health metrics tracking system](weight/), which has a web UI via [zqxjkcrud](https://github.com/alexpdp7/zqxjkcrud/), my CRUD rapid development framework.
 * [Cliffs' notes of books](cliffs_notes/), fairly barren.
+
+## Other usable projects of mine
+
+* https://github.com/alexpdp7/rpi-zero-usb-iso Converts a Raspberry Pi Zero 2W into a virtual USB drive for ISO
+* https://github.com/alexpdp7/ubpkg Upstream binary package installer
+* https://github.com/alexpdp7/selfhostwatch Publishing update history of self-hosted project packages such as YunoHost
+* https://github.com/alexpdp7/search-portal Static site generator to create your own search portal
+* https://github.com/alexpdp7/frozenplanetoid Static site generator from RSS feeds
+* https://github.com/alexpdp7/windows-usb Converts a Windows ISO into a bootable USB image
+* https://github.com/alexpdp7/seaweedfs-rpm RPM packaging for seaweedfs, a distributed storage engine
+* https://github.com/alexpdp7/djot-log A daily work log with time tracking
+* https://github.com/alexpdp7/zqxjkcrud A declarative, coder-friendly CRUD system
+* https://github.com/alexpdp7/ressh Try connecting to an SSH service until it works
+* https://github.com/alexpdp7/language-tool-utils Tools to run LanguageTool locally
+* https://github.com/alexpdp7/termflux A terminal client for Miniflux
+* https://github.com/alexpdp7/xbar-team-clock An xbar/Argos plugin to create a custom world clock for your team
+* https://github.com/alexpdp7/ragent A Nagios-compatible monitoring agent
+* https://github.com/alexpdp7/nagios-otel Nagios perfdata to OpenTelemetry
+* https://github.com/alexpdp7/talos-check Check for available updates for Talos K8S clusters, including Nagios check
