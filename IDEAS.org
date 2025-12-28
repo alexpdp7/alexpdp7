@@ -98,6 +98,21 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
 - https://bugzilla.mozilla.org/show_bug.cgi?id=444284 means Firefox Sync does not sync search engines.
 - OpenSearch-based static site?
 
+* Real-time data on websites
+** Non-completely OSS options
+- https://github.com/MaterializeInc/materialize
+- https://github.com/confluentinc/ksql
+** Full idea
+- Simple relational database
+- Can act as replication target of other databases
+- Supports a limited SQL subset that can be easily reasoned about functional dependencies
+- Can stream efficiently the results of an SQL query (e.g. keep a query running and receive new/modified rows)
+- Supports efficient replication of a subset of a database (initial checkpoint + streaming or batched updates)
+- Functional dependencies could be used to create materialized views *and* indexes
+** Basic implementation
+- Service that provides an API to interact with PostgreSQL logical replication
+- API that creates a publication and a subscription for a table with a filter
+- Libraries to interact with the service and create HTMX (or similar) components that live update.
 * Videoconference based on document (not screen) sharing
 
 - Microsoft 365 and Google already offer this, but with drawbacks (Google's is Chrome only, I haven't managed to do this with free Teams).
@@ -201,17 +216,6 @@ See https://github.com/EvgSkv/logica, [[https://prql-lang.org/]]
 - Makes queries composable (e.g. declare a query object, then add paging/sorting, for framework usage)
 - Declarative join via foreign key constraint names
 - Better ordering for code completion (e.g. FROMs first)
-
-* Streaming DB
-
-That's probably https://github.com/MaterializeInc/materialize , but it's not OSS.
-
-- Simple relational database
-- Can act as replication target of other databases
-- Supports a limited SQL subset that can be easily reasoned about functional dependencies
-- Can stream efficiently the results of an SQL query (e.g. keep a query running and receive new/modified rows)
-- Supports efficient replication of a subset of a database (initial checkpoint + streaming or batched updates)
-- Functional dependencies could be used to create materialized views *and* indexes
 
 * Ecosystem for mountable e-ink displays with wireless charging and magnets
 
