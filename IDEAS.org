@@ -43,14 +43,6 @@ Make it easier for people to get a domain and own their email address.
 ** Document hosting providers
 
 - https://community.exoscale.com/documentation/platform/billing/#pre-paid-billing Exoscale is cloud-y, but has pre-paid payment so overuse only results in suspension
-** Database of self-hosting packages
-
-In progress: https://github.com/alexpdp7/selfhostwatch
-
-See https://github.com/alexpdp7/alexpdp7/blob/master/INTERESTING_PROJECTS.org#self-hosting-solutions
-
-- Track versions so you can determine update track records.
-
 ** Research alternative networks
 *** Research if https://yggdrasil-network.github.io/ + https://opennic.org/ can self-host systems such as YunoHost without a public IP, nor spending money on DNS, etc.
 ** Nice mailing lists
@@ -87,16 +79,10 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
   -  Reverse proxies
 
 * [[programming/the-content-web-manifesto/README.md][Simpler web]]
-* [[https://github.com/alexpdp7/frozenplanetoid/][Public RSS reader / GitHub Actions/Pages-powered Planet]]
 * Responsive handwriting
 
 - A tool that helps create handwritten documents that adapt to different screen and text sizes
 - [[https://alexpdp7.github.io/responsive-handwriting/][Manual proof of concept]].
-
-* Search portal https://github.com/alexpdp7/search-portal
-
-- https://bugzilla.mozilla.org/show_bug.cgi?id=444284 means Firefox Sync does not sync search engines.
-- OpenSearch-based static site?
 
 * Real-time data on websites
 ** Non-completely OSS options
@@ -190,23 +176,6 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 
 See https://github.com/alexpdp7/pandocsql https://github.com/alexpdp7/pandoc_datalog
 
-* CRUD framework
-
-- https://github.com/alexpdp7/v2f
-- https://github.com/alexpdp7/zqxjkcrud
-
-A completely declarative SQL CRUD framework
-
-- CRUD definition is done through SQL objects (schemas, views, etc.)
-- Permissions
-- Row auditing
-- Multiple components
-  -  Server-side HTML frontend
-  -  REST API
-- Commercial frontend for design
-
-** Layer FastAPI on top of the Django ORM to add APIs to Django applications.
-
 * SQL2
 
 See https://github.com/EvgSkv/logica, [[https://prql-lang.org/]]
@@ -222,14 +191,6 @@ See https://github.com/EvgSkv/logica, [[https://prql-lang.org/]]
 - For example, a small e-ink tablet that you can attach to a wireless charger with magnets in your fridge, with an always-on display of a shopping list, and a microphone to add new items.
 - The tablet is completely optional, can be replaced by a different device, etc.
 - How to have flexibility, such as different form factors and still provide a pleasant and pretty experience? (e.g. can you attach displays of different sizes to the same fridge and have it usable and look good?)
-
-* Binary "upstream" package manager
-
-https://github.com/alexpdp7/ubpkg/ (also discusses some alternatives)
-
-- Package manager that downloads published binaries on the Internet
-- Manifests describe how to fetch binaries (e.g. from GitHub releases)
-- Manifests are just files that can be referenced by URLs, or be contained in repositories of manifests
 
 * Ultrasound small transfer utility
 
