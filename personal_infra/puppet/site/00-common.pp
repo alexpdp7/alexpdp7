@@ -13,6 +13,7 @@ if lookup({name => 'nagios.monitor', default_value => true}) {
     use => 'generic-host',
     address => lookup({name => 'nagios.address', default_value => $facts['networking']['fqdn']}),
     max_check_attempts => lookup({name => 'nagios.max_check_attempts', default_value => 5}),
+    flap_detection_enabled => lookup({name => 'nagios.flap_detection_enabled', default_value => "1"}),
     contact_groups => 'admins',
     hostgroups => 'linux',
     check_command => 'check-host-alive',
