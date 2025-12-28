@@ -19,6 +19,7 @@ node 'nagios.h1.int.pdp7.net' {
   nagios_host {"archerc7.bcn.int.pdp7.net":
     use => 'generic-host',
     max_check_attempts => 20,
+    flap_detection_enabled => 0,
     contact_groups => 'admins',
     check_command => 'check-host-alive',
     parents => ["dixie.bcn.int.pdp7.net"],
@@ -27,6 +28,7 @@ node 'nagios.h1.int.pdp7.net' {
   nagios_host {"router4g.bcn.int.pdp7.net":
     use => 'generic-host',
     max_check_attempts => 20,
+    flap_detection_enabled => 0,
     contact_groups => 'admins',
     check_command => 'check-host-alive',
     parents => ["dixie.bcn.int.pdp7.net"],
