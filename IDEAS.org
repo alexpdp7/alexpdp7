@@ -32,6 +32,9 @@ Make it easier for people to get a domain and own their email address.
 ** Mutual encrypted backups
 
 - Software to do mutual encrypted backups over the Internet
+- Make NAS devices have a simple backup process to send encrypted backups to someone of your trust.
+- You enter a code on both NAS, configure disk usage, and you get remote backups that can't be read on the target.
+- You can speed up the backup via sneakernet.
 
 * Better access to news
 ** https://github.com/las-noticias for Spain
@@ -63,12 +66,6 @@ Alternatively, research https://public-inbox.org/README
 ** Federated real-time communications using open protocols https://github.com/alexpdp7/frtcuop
 
 - Integrate an XMPP server (such as [[https://esl.github.io/MongooseDocs/latest/tutorials/Jingle-SIP-setup/][MongooseIM with mod_jingle_sip]]) with SIP systems (such as Flexisip).
-
-** Peer-to-peer encrypted NAS backups
-
-- Make NAS devices have a simple backup process to send encrypted backups to someone of your trust.
-- You enter a code on both NAS, configure disk usage, and you get remote backups that can't be read on the target.
-- You can speed up the backup via sneakernet.
 
 ** Easier own-your-Fedipub identity
 *** ActivityPub reverse proxy
