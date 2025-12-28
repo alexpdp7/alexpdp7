@@ -36,6 +36,8 @@ Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar es
 
 ## Other usable projects of mine
 
+(From less to more niche)
+
 * https://github.com/remote-es/remotes This is a repository listing companies which offer full-time remote jobs with Spanish contracts
 * https://github.com/festivus-es/festivus ICS calendars of bank holidays in Spain, by city
 * https://github.com/alexpdp7/rpi-zero-usb-iso Converts a Raspberry Pi Zero 2W into a virtual USB drive for ISO
