@@ -259,7 +259,7 @@ https://mutedeck.com/ is basically this.
 - See https://github.com/alexpdp7/meet-controller
 - https://github.com/IsmaelMartinez/teams-for-linux wraps the Microsoft Teams app and adds MQTT support to control mute and other features
 - https://playwright.dev/docs/api/class-electron maybe Playwright can manipulate the Slack Electron application
-
+- https://github.com/eclipse-mosquitto/mosquitto/issues/3421 for the glue
 * Parallel execution framework
 
 See https://github.com/alexpdp7/scripts-py-libs
