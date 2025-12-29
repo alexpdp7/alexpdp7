@@ -5,6 +5,7 @@ SCHEMA = None
 
 LINKS = (
     ("@yo@alex.femto.pub", "https://alex.femto.pub/@yo@alex.femto.pub/"),
+    ("IMDb", "https://www.imdb.com/user/ur0633823/ratings/?sort=top_rated%2Cdesc"),
     ("GitHub", "https://github.com/alexpdp7/"),
     ("TVmaze", "https://www.tvmaze.com/users/35495/koala/stats"),
     ("LinkedIn", "https://es.linkedin.com/in/alexcorcoles"),
