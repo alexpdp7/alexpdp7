@@ -104,3 +104,11 @@ To me, this points to people not having other people to collaborate with, or pre
 Although this might not be unequivocally harmful, it worries me, and I think we should spend time and resources looking at this phenomenon.
 
 Personally, I think we should offer ourselves to others more, probably in a tit-for-tat fashion.
+
+## Other sources
+
+* [The Future of Software Development is Software Developers](https://codemanship.wordpress.com/2025/11/25/the-future-of-software-development-is-software-developers/)
+  > “But this time it’s different, Jason!”
+  > [...]
+  > And there’s another important distinction: in previous cycles, the technology worked reliably.
+  > We really could produce working software faster with VB or with Microsoft Access.
