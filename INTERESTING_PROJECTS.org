@@ -11,6 +11,7 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://github.com/sourcegraph/doctree - code browser
    - https://mergiraf.org/ - Language-aware merge conflict solver
    - https://forge.rust-lang.org/triagebot/range-diff.html show diffs after rewriting history
+   - https://github.com/antonmedv/gitmal - "web repo browsing" as static site generator
 *** CI/CD
   - https://github.com/earthly/earthly - Standalone build tool with containers
   - https://github.com/reviewdog/reviewdog - Error parser than can annotate GitHub pull requests
