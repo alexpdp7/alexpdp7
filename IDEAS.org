@@ -45,6 +45,7 @@ Make it easier for people to get a domain and own their email address.
 - https://community.exoscale.com/documentation/platform/billing/#pre-paid-billing Exoscale is cloud-y, but has pre-paid payment so overuse only results in suspension
 ** Research alternative networks
 *** Research if https://yggdrasil-network.github.io/ + https://opennic.org/ can self-host systems such as YunoHost without a public IP, nor spending money on DNS, etc.
+** Research confidential computing so that users can run private workloads on shared systems such as tildes
 ** Nice mailing lists
 
 - GH-style user/organization creation
