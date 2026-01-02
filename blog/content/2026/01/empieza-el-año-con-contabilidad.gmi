@@ -1,0 +1,45 @@
+# Empieza el año con contabilidad
+2026-01-02
+
+Antes de que empezara el 2025 me propuse llevar una contabilidad. Tengo varias cuentas bancarias y dadas mis limitaciones, hasta me costaba saber si estaba ahorrando o no. Por no hablar de que mi percepción sobre dónde gasto dinero era más bien borrosa.
+
+Como soy como soy, me decidí por usar "ledger", que lleva años petándolo entre la gente como yo.
+
+ledger se basa en un formato de texto donde se registran entradas como esta:
+
+```
+2026-01-02 * Restaurante Delicioso
+    Gastos:Restauración                        42.15 EUR
+    Cuentas:Mi Banco:Corriente
+```
+
+A lo largo de 2025, he introducido más de 800 entradas de este tipo, lo que me permite hacer cosas como:
+
+```
+$ ledger bal facturas
+         xxxx.yy EUR  Gastos:Facturas
+          xxx.yy EUR    Agua
+          xxx.yy EUR    Electricidad
+          xxx.yy EUR    Gas
+          xxx.yy EUR    Internet
+--------------------
+         xxxx.yy EUR
+```
+
+Aunque pueda parecer la mar de tedioso, si tenéis interés en seguir vuestras transacciones, estoy seguro de que podréis encontrar una manera de hacerlo. Yo intento meter los gastos tan pronto como estoy delante del teclado, de manera que no se me acumulan demasiadas transacciones por anotar. Hay gente que saca los datos de su banco y usa herramientas para convertirlos al formato de ledger. (Yo hago una pasada mensual para poner al día las cuentas que no uso directamente y asegurarme de que todo está cuadrado.)
+
+La mayor dificultad es definir la estructura de cuentas. En cada transacción hay dos cuentas, que siguen el formato foo:bar:baz. Como veis en el informe de balance, los informes usan la estructura jerárquica de cuentas para dar totales y subtotales.
+
+Por tanto, la estructura que definamos está directamente relacionada con los informes que podremos sacar fácilmente.
+
+En 2025, por supuesto, no tenía ni puñetera idea de cómo hacer esto. Podemos hacer una estructura tan burda o detallada como queramos. Por ejemplo, yo uso una cuenta "supermercado" que no me permite distinguir alimentación de higiene, por ejemplo, porque me parece muy tedioso dividir los gastos. Pero sí que divido los gastos de supermercado por el "ser" que consume.
+
+No tardé demasiado en hacerme una idea de la estructura que me funciona bien a mí, así que he vuelto a empezar desde cero en 2026, porque me daba un palo horrible ir atrás y reorganizar las cuentas "correctamente". Y además, quería las cuentas de un año entero.
+
+(Así que quizá me equivoco en publicar esta entrada a inicios de año. Quizá sería mejor estrategia comenzar uno o dos meses antes de que acabe el año y tener clara la estructura al principio del año. O quizá reestructurar a posteriori no es tan tedioso. Pero sí os diré que con mi estructura "de novato", el registro de 2025 ya me ha resultado muy útil. Así que yo de vosotros no me preocuparía de esto si tenéis ganas de lanzaros a la piscina.)
+
+Gracias a esto, por ejemplo en 2025 identifiqué la factura de la luz como la más cuantiosa, con lo que me centré en ahorrar ahí (básicamente usar el QR de la factura para encontrar una alternativa con la que ya estoy ahorrando algo de dinero). O para darme cuenta de que tener gato apenas me cuesta dos euros diarios y ver lo rentable que sale en compañía y cariño.
+
+Entiendo que a muchos les echará para atrás trabajar con texto plano. Yo creo que no es para tanto, pero claro, yo vivo en texto plano. Existen por supuesto otras opciones. Pero os animo a descubrir este mundo, por ejemplo visitando la siguiente web (en inglés):
+
+=> https://plaintextaccounting.org/ Plan Text Accounting
