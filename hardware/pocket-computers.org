@@ -20,6 +20,7 @@ See also <https://www.bringbackblackberry.com/>.
 - The keyboard has deteriorated with age (some keys require extra pressure to activate, meaning typing is painful)
 - The keyboard software is insufficient for writing in Spanish and Catalan
 
+*** [[https://www.clicksphone.com/communicator][Clicks Communicator]]
 *** [[https://www.lilygo.cc/products/t-deck][T-Deck]] / [[https://www.lilygo.cc/products/t-keyboard][T-Keyboard]]
 *** [[https://beepy.sqfmi.com/][Beepy]]
 *** [[https://shop.m5stack.com/products/m5stack-cardputer-kit-w-m5stamps3][Cardputer]]
