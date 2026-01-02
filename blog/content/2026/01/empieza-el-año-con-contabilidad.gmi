@@ -42,4 +42,4 @@ Gracias a esto, por ejemplo en 2025 identifiqué la factura de la luz como la m�
 
 Entiendo que a muchos les echará para atrás trabajar con texto plano. Yo creo que no es para tanto, pero claro, yo vivo en texto plano. Existen por supuesto otras opciones. Pero os animo a descubrir este mundo, por ejemplo visitando la siguiente web (en inglés):
 
-=> https://plaintextaccounting.org/ Plan Text Accounting
+=> https://plaintextaccounting.org/ Plain Text Accounting
