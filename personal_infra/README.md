@@ -112,13 +112,13 @@ I use Grafana to explore monitoring information in ClickHouse.
 I use:
 
 * Proxmox, as it provides LXC containers (and VMs if needed) and ZFS storage. I like ZFS for its protection about bitrot, and because send/recv and snapshots are great for backups
-* EL9, using Rocky Linux.
+* EL9/EL10, using Rocky Linux 9 and AlmaLinux 10.
 * Debian in a few hosts.
 * LibreElec for my mediacenter Raspberry. Common distros are not an option, as they don't support hardware video acceleration. LibreElec sets up everything I need with minimal fuss, so while it's the system that doesn't use configuration management, it works fine.
 
 ## Software updates
 
-I use `dnf-automatic` on EL9, and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
+I use `dnf-automatic` on EL9/EL10, and `unattended-upgrades` on Debian/Ubuntu so updates are automatically installed.
 
 `ragent` monitors when systems need a reboot and warns me through Nagios.
 
