@@ -175,7 +175,3 @@ For testing and occasional calls I use [Linphone](https://www.linphone.org/).
 For smartphones, SIP has the drawback that it requires a persistent connection to the SIP server to receive calls- thus draining the battery a bit.
 Linphone/Flexisip are supposed to use mobile push, but I have not set this up.
 So the only devices that are connected 24/7 are the ATAs, I use my smartphone and my laptop occasionally.
-
-## Possible improvements
-
-* Add a lab so I can experiment with things in isolated environments.
