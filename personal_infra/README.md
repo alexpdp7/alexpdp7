@@ -134,8 +134,6 @@ Media and other non-critical files are stored in the Proliant and shared via Sam
 
 ### Media
 
-I run a Jellyfin server on the Proliant to serve media to phones, a MiBox and a Raspberry running LibreElec.
-
 The Raspberry has a DVB-T tuner and TVHeadend, recordings are stored on the Proliant in an NFS share.
 
 ### Backup
