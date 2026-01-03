@@ -30,7 +30,7 @@ See [HACKING](HACKING.md) for more "usage" instructions.
     * Wireguard/ocserv
   * Raspberry Pi 3B (1Gb RAM) running LibreElec + TVHeadend, records to NFS share on HP server
 * Flat 2
-  * N100 running Debian, runs DHCP/DNS, Wireguard/ocserv
+  * Fanless N100 running Debian, runs DHCP/DNS, Wireguard/ocserv
 * Netcup 2Gb RAM VPS running FreeIPA (also Wireguard/ocserv)
 
 ## Configuration management
