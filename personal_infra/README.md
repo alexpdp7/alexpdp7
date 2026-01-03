@@ -3,7 +3,7 @@
 This is a general overview.
 See [HACKING](HACKING.md) for more "usage" instructions.
 
-* Hetzner auction server: 128Gb RAM, 2x1Tb SSD. Runs Proxmox, tinc/ocserv, Apache as reverse proxy
+* Hetzner auction server: 128Gb RAM, 2x1Tb SSD. Runs Proxmox, Wireguard/ocserv, Apache as reverse proxy
   * LXC container running Nextcloud
   * LXC container running Vaultwarden
   * LXC container running Miniflux
@@ -27,11 +27,11 @@ See [HACKING](HACKING.md) for more "usage" instructions.
     * DHCP/DNS
     * Runs SMB/NFS
     * ZFS backups on external USB drives
-    * tinc/ocserv
+    * Wireguard/ocserv
   * Raspberry Pi 3B (1Gb RAM) running LibreElec + TVHeadend, records to NFS share on HP server
 * Flat 2
-  * N100 running Debian, runs DHCP/DNS, tinc/ocserv
-* Netcup 2Gb RAM VPS running FreeIPA (also tinc/ocserv)
+  * N100 running Debian, runs DHCP/DNS, Wireguard/ocserv
+* Netcup 2Gb RAM VPS running FreeIPA (also Wireguard/ocserv)
 
 ## Configuration management
 
@@ -65,7 +65,7 @@ rev-server=net.mask.of/flat1,ip.of.flat1.dns
 So one dnsmasq instance can lookup records (even reverse DNS) on the other dnsmasq instances, so I can address systems on other networks by their name.
 This could also be achieved by NS records, if I'm not mistaken, but this way everything is private on my own dnsmasq servers and not on public DNS.
 
-I join all networks using tinc in a mesh. Tinc keys are generated and distributed using an Ansible playbook.
+I join all networks using Wireguard. Wireguard keys are generated and distributed using an Ansible playbook.
 
 On every network I've also set up ocserv to provide remote access if I'm outside these networks; I can pick the closest access point and reach my entire network.
 
