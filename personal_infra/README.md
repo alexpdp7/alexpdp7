@@ -171,7 +171,7 @@ Those are quite cheap (around 40€), but they are quite fancy professional netw
 They connect directly to Flexisip over the Internet, autoconfiguring via DHCP, so in theory they could work anywhere in the world with a network connection.
 After configuration and assigning an extension, you only need to connect cheap wireless phones to them, and start making calls with the 1000...1020 extensions.
 
-For testing and occasional calls I use [Baresip](https://github.com/baresip/baresip) and [Linphone](https://www.linphone.org/) from F-Droid in my smartphone, and from Debian in my laptop.
+For testing and occasional calls I use [Linphone](https://www.linphone.org/).
 For smartphones, SIP has the drawback that it requires a persistent connection to the SIP server to receive calls- thus draining the battery a bit.
 Linphone/Flexisip are supposed to use mobile push, but I have not set this up.
 So the only devices that are connected 24/7 are the ATAs, I use my smartphone and my laptop occasionally.
