@@ -38,6 +38,10 @@
 ** Git
 - [[https://blog.gitbutler.com/git-tips-3-really-large-repositories/][Git Tips 3: Really Large Repositories]]
 
+** Accessibility
+
+- [[https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility][The text mode lie: why modern TUIs are a nightmare for accessibility]]
+
 * Systems
 
 - [[https://chrisdown.name/2018/01/02/in-defence-of-swap.html][In defence of swap: common misconceptions]]
