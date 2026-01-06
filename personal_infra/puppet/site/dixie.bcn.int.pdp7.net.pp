@@ -53,6 +53,7 @@ host-record=router4g.bcn.int.pdp7.net,router4g,192.168.76.3
       replicate case.ces.int.pdp7.net rpool/user/backed/filer cesar_hdd_red_2/filer
 
       sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-204-disk-1 rpool/user/backed/pg-h1-int-pg --quiet
+      sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-207-disk-1 rpool/user/backed/ws --quiet
       sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-208-disk-1 rpool/user/backed/nextcloud_new --quiet
       sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-211-disk-1 rpool/user/backed/gitolite --quiet
       sudo -u backups /usr/sbin/syncoid --no-privilege-elevation --no-sync-snap backups@h1.pdp7.net:rpool/data/subvol-214-disk-1 rpool/user/backed/weed --quiet
