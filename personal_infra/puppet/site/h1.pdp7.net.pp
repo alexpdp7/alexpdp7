@@ -9,6 +9,10 @@ node 'h1.pdp7.net' {
       [rpool/data/subvol-204-disk-1]
         use_template = backup
 
+      # ws
+      [rpool/data/subvol-207-disk-1]
+        use_template = backup
+
       # nextcloud
       [rpool/data/subvol-208-disk-1]
         use_template = backup
