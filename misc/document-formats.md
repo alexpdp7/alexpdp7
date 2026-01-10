@@ -59,6 +59,14 @@ Typst is very new and is not yet very popular.
 [Typesetter](https://codeberg.org/haydn/typesetter) is a desktop application that embeds Typst, so no additional setup is needed.
 However, Typesetter is only available as a Flatpak.
 
+### [Verso](https://github.com/leanprover/verso)
+
+A Markdown-like closely tied to [the Lean programming language](https://lean-lang.org/):
+
+* Eliminates ambiguous syntax for easier parsing and is stricter (not all text is valid Verso)
+* Has a (Lean) data model
+* Designed for extensibility
+
 ### TODO: other formats
 
 - https://github.com/nota-lang/nota
