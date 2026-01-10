@@ -1,0 +1,22 @@
+# Moderación
+2026-01-10
+
+Las listas de correo moderadas son un invento antiguo y simple: todo mensaje va a un administrador que debe aprobarlo antes de aparecer públicamente en la lista.
+
+Estoy ojeando la documentación de Mastodon (no nos engañemos, el Fediverso es Mastodon) y no veo claramente una opción para que el autor de un hilo controle de la misma manera lo que aparece en el hilo. Y me parece de traca.
+
+Obviamente los problemas humanos complejos jamás tienen una solución técnica sencilla (ni compleja), pero la moderación ayudaría.
+
+Lo que me lleva a un tema del que buscando irónicamente encuentro muchos toots en mi cuenta de microblogging, pero del que sólo encuentro en este blog este post un poco opaco:
+
+=> https://alex.corcoles.net/2025/03/viajar-en-el-tiempo-a-2006-para-comerle-la-cabeza-a-jack/ Viajar en el tiempo a 2006 para comerle la cabeza a Jack
+
+Y es que cada vez pienso más que el microblogging fue un error. Nunca antes de Twitter existió un mecanismo diseñado para maximizar la difusión de nuestros comentarios personales. ¿Para qué sirve esto? Antes seleccionábamos a quién llegaban nuestros comentarios personales. Quizá alguien podría reproducirlos, pero no era común y si sucedía en contra de nuestra voluntad, teníamos cierto control de que al menos no se repitiese.
+
+Es algo hipócrita que llevo como 15 años de microblogging o que la primera entrada de las más de 1200 entradas de este blog tiene más de 20 años, pero por algún motivo misterioso, creo que en general raramente he publicado nada controvertido o realmente personal. Pese a tener la suerte de que nada de mi perfil es susceptible de causarme daño, ni me doy cuenta ya de que me autocensuro. (Obviamente, soy un respondedor estúpido y anda que no digo paridas en respuestas. Creedme que intento moderarme.)
+
+Sigo sin dar con la tecla de cómo expresar esto, porque me parece elitista y snob recomendar algo que en efecto es una limitación de la expresión humana, y que todas las justificaciones que encuentro son básicamente que el mundo es un lugar horrible. Pero creo que algo no funciona y que debemos hacer algo.
+
+Mi otra obsesión reciente son las comunidades pequeñas y algo restringidas. (¡Todavía más elitismo!) Pero esta es una fórmula que no sé si funciona bien, pero lleva tiempo funcionando y creo que al menos bastante mejor que el microblogging.
+
+No pretendo que nadie cambie su comportamiento, principalmente porque no tengo ni puñetera idea de cómo debe cambiarse ni buenos motivos para hacerlo, ni ninguna autoridad moral. Pero os invito a reflexionar sobre si el microblogging es lo que realmente queréis y qué queréis realmente microbloggear.
