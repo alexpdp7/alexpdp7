@@ -1,6 +1,6 @@
 # ledger
 
-[ledger](https://ledger-cli.org/) is a dobule-entry accounting system based on a text file format.
+[ledger](https://ledger-cli.org/) is a double-entry accounting system based on a text file format.
 The [Plain text accounting](https://plaintextaccounting.org/) website lists more software based on the ideas.
 
 This document contains notes about how I use ledger.
