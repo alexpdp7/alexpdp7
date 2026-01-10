@@ -30,14 +30,14 @@ On top of that, some features that I don't always need:
 * However, there is a wide variety of variants and quirks
 * Especifically, because Markdown was not designed with parsing in mind, so tools based on different parsers can have differences in behavior
 
-### Djot
+### [Djot](https://djot.net/)
 
 It is very similar to Markdown, except:
 
 * It is designed for parsing, so independent parsing implementations are very compatible with each other
 * It is not so popular, so there are less extension and tool support
 
-### AsciiDoc
+### [AsciiDoc](https://asciidoc.org/)
 
 Compared to Markdown:
 
@@ -46,7 +46,7 @@ Compared to Markdown:
 * Supports sophisticated code blocks
 * It has a smaller ecosystem than Markdown, but many good quality tools such as Antora
 
-### Typst
+### [Typst](https://typst.app/)
 
 Checks all my boxes, except:
 
