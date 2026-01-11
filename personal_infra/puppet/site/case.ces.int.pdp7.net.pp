@@ -8,10 +8,5 @@ host-record=case.ces.int.pdp7.net,case,10.17.19.3
 ',
   }
 
-  # For some reason, I had to tweak /etc/samba/smb.conf
-  #
-  # interfaces = vmbr0
-  # bind interfaces only = yes
-  #
-  # Otherwise nmbd fails to start
+  # nmbd does not start correctly when wg is up. stop wg, restart nmb, start wg
 }
