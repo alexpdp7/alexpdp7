@@ -23,9 +23,27 @@ Hasta donde yo sé:
 Los filtros de Google son moderadamente efectivos, pero no están al alcance de todo el mundo.
 Además, los falsos positivos de los filtros pueden hacer perdernos comunicaciones legítimas importantes.
 
+### Recomendaciones frente a la basura telefónica
+
 A nivel individual, podemos formarnos para hacernos menos vulnerables a los fraudes, pero es prácticamente imposible evitar las molestias.
 
-Otras referencias:
+Mi recomendación para quien tenga un móvil con posibilidad de reportar llamadas de spam, es coger las llamadas que muestren un número y:
+
+* Decir algo.
+  Si no decimos nada, muchas centralitas de spam no conectan a un operador, con lo que no podemos tener 100% la certeza de que sea spam.
+* Esperar a que respondan para asegurarnos de que es spam.
+* Si parece que hay un robot al otro lado de la línea, colgar inmediatamente.
+  Si parece que hay un humano, esperar a que cuelgue.
+  (Con esto, el humano no está libre para hacer otra llamada, con lo que les frenamos un poco.
+  También podemos intentar alargar la llamada, aunque yo personalmente no tengo paciencia.)
+* Marcar la llamada como spam.
+
+Tengo la sensación de que los indicadores de spam de muchos teléfonos se basan en las denuncias que recibe cada número.
+Así que cuantas más llamadas se cojan y se marquen como spam, antes aparecerán marcadas claramente como spam para otras personas.
+
+(Es importante que los filtros antispam sean precisos.)
+
+### Otras referencias
 
 * [Hiya Global Call Threat Report Q4 2024](https://www.hiya.com/global-call-threat-report), que redirige a [este PDF](https://6751436.fs1.hubspotusercontent-na1.net/hubfs/6751436/Global%20Call%20Threat%20Report_2024Q4.pdf).
 
