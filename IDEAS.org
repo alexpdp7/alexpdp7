@@ -82,6 +82,26 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
   -  Reverse proxies
 
 * [[programming/the-content-web-manifesto/README.md][Simpler web]]
+** Gemini mirror
+
+- A Gemini server designed *only* for proxying http content as Gemini
+- With virtual hosting support
+
+Configure httpd with:
+
+- [[https://httpd.apache.org/docs/trunk/content-negotiation.html#negotiation][multiviews]] so httpd can serve .gmi files
+- Any cgi or whatever you want to generate dynamic content if needed
+
+Then the mirror makes requests to httpd requesting Gemini content.
+
+Your static site generator can do:
+
+- /foo.gmi
+- /foo.html
+
+httpd will serve the HTML for /foo for regular browsers.
+The mirror requests /foo to httpd, which returns the gemtext.
+
 * Responsive handwriting
 
 - A tool that helps create handwritten documents that adapt to different screen and text sizes
