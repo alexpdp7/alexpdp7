@@ -90,6 +90,7 @@ Also keeping things in a Org mode means I can classify and add notes.
      - https://github.com/feldera/feldera
 *** Other databases
    - https://www.symas.com/mdb A Berkeley-style database where multiple processes can access the same database concurrently.
+   - https://github.com/tansu-io/tansu Kafka-compatible, on top of others like SQLite, PostgreSQL, etc., seems simple on single node.
 ** Low code
    - https://github.com/microsoft/Power-Fx
    - https://github.com/carltongibson/neapolitan - one of Django's authors does a variation on the Django admin?
