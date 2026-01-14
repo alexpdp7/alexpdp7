@@ -120,6 +120,8 @@
 (use-package puppet-mode :ensure t)
 
 (use-package terraform-mode :ensure t)
+;; ubpkg terraform-ls
+(add-hook 'terraform-mode-hook 'eglot-ensure)
 
 ;; Python notebooks
 (use-package ein
