@@ -93,6 +93,7 @@
 - [[https://en.wikipedia.org/wiki/Sturgeon%27s_law][Sturgeon's law]] is an adage stating "ninety percent of everything is crap".
 - [[https://en.wikipedia.org/wiki/Schedule_chicken][Schedule chicken]] is when two or more parties working towards a common goal all claim to be holding to their original schedules for delivering their part of the work, even after they know those schedules are impossible to meet. Each party hopes the other will be the first to have their failure exposed.
 - [[https://everything2.com/title/Your+radical+ideas+about+society%252C+individualism%252C+and+religion+have+already+occurred+to+others][Your radical ideas about society, individualism, and religion have already occurred to others]].
+- [[https://en.wikipedia.org/wiki/Slate_Star_Codex#Lizardman's_Constant][Lizardman's constant]] the approximate percentage of responses to a poll, survey, or quiz that are not sincere
 
 See also [[misc/greek-task-list.md][Greek task list]].
 
