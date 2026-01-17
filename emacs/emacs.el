@@ -22,9 +22,14 @@
 
 (load-theme 'modus-vivendi :no-confirm) ; colorblind-friendly theme... but has issues with emoji and other unicode. If facing issues, M-x disable-theme
 
+;; completion:
+;; C-M-i or TAB: accept suggestion if unique/shown, pop up completion list otherwise
+;; M-i; complete as much as possible / pop up completion list
 (global-completion-preview-mode 1) ; show things that you can tab-complete
 (setq tab-always-indent 'complete) ; allow tab to complete
 (setq text-mode-ispell-word-completion nil) ; but do not complete dictionary words
+(setq completion-auto-select t) ; focus the minibuffer for completion
+(setq completions-format 'one-column)
 
 (windmove-default-keybindings) ; S-cursor to move to different windows
 
