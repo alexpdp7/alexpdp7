@@ -199,6 +199,14 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 
 See https://github.com/alexpdp7/pandocsql https://github.com/alexpdp7/pandoc_datalog
 
+* Agenda
+
+- An API-based daemon that keeps a list of date, string[] tag, string message, int ordering, internal id
+- Ordering is -1, -2, -3, ..., -n, 0, 1, 2, 3, ... n
+- Negative ordering items are done, 0 is in progress, positive are todo
+- Processes that poll external sources (calendars, org-mode, ticket trackers, etc.) and add elements to the list.
+  For processes that poll sources without stable ids, the daemon does similarity comparisons for identity
+- UIs show the list by ordering, allow reordering, filtering by tag
 * SQL2
 
 See https://github.com/EvgSkv/logica, [[https://prql-lang.org/]]
