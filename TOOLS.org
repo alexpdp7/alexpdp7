@@ -8,9 +8,13 @@ See also:
 - Servers are mostly RHEL clones and Proxmox.
 - Thinking about IncusOS
 
+** [[https://github.com/DavHau/nix-portable][nix-portable]] for running some software
+** [[https://linuxcontainers.org/incus/][Incus]] for running VMs and system containers on workstations
+** Podman for application containers
+
 * Desktop
 
-- Gnome with [[https://extensions.gnome.org/extension/6099/paperwm/][PaperWM]]
+- Gnome with [[https://extensions.gnome.org/extension/6099/paperwm/][PaperWM]] and [[https://extensions.gnome.org/extension/6784/wiggle/][wiggle]] to shake your pointer to embiggen
 
 ** Browser: Firefox with...
 *** NoScript
@@ -35,8 +39,10 @@ See also:
 *** eglot for LSP use
 *** TRAMP for remote editing
 
+** https://www.visidata.org/ for tabular data
 * Services
 ** Bitwarden for secrets
+** Migadu for email
 ** Instant messaging and chat
 
 - IRC with Soju as a bouncer, Senpai as a client (I have given up on mobile chat).

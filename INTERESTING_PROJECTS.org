@@ -2,6 +2,8 @@ I have decided to not use GitHub stars any more.
 Mainly because it excludes projects not on GitHub.
 Also keeping things in a Org mode means I can classify and add notes.
 
+See also [[TOOLS.org][tools I use]].
+
 * Coding
 ** Version control and code management
    - https://github.com/josh-project/josh Simpler alternative to moe/copybara. [[https://github.com/rust-lang/josh-sync][Wrapper tool for CI]]
@@ -66,7 +68,6 @@ Also keeping things in a Org mode means I can classify and add notes.
 *** Tabular data
   - https://github.com/gristlabs/grist-core
   - https://github.com/aardappel/treesheets
-  - https://www.visidata.org/
 *** Relational databases
     - https://github.com/EvgSkv/logica
     - [[https://prql-lang.org/]]
@@ -184,7 +185,6 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** Groupware
    - https://github.com/stalwartlabs mail, calendar, contacts *and* files, using JMAP and WebDAV
 ** Portable environments
-   - https://github.com/DavHau/nix-portable - portable Nix, no root required, works in an LXC container
    - https://github.com/linuxserver/proot-apps - Portable container apps with just proot
    - https://github.com/lkl/linux - library-mode Linux
 ** Identity
@@ -199,7 +199,6 @@ Also keeping things in a Org mode means I can classify and add notes.
 ** PaaS
    - https://github.com/piku/piku
 *** Virtualization
-   - https://linuxcontainers.org/incus/ - LXD fork, supports VMs, has good "cloud" templates.
    - https://github.com/lxc/cluster-api-provider-incus - adapter to provision k8s cluster nodes on Incus, including as LXC containers!
    - https://github.com/mobydeck/ssh2incus - exposes Incus instances through SSH, without SSH on the instance. Good for things that only work over SSH (Mutagen, VS Code remoting, etc.)
    - https://github.com/cirruslabs/vetu
@@ -256,8 +255,6 @@ Also keeping things in a Org mode means I can classify and add notes.
   - https://github.com/YaLTeR/niri/
   - https://github.com/kmonad/kmonad - advanced cross-platform keyboard remappings
 *** Gnome
-  - https://extensions.gnome.org/extension/6784/wiggle/ - shake your pointer to embiggen
-  - https://extensions.gnome.org/extension/6099/paperwm/ - easy tiling
   - https://extensions.gnome.org/extension/6000/quick-settings-audio-devices-renamer/ / https://extensions.gnome.org/extension/5964/quick-settings-audio-devices-hider/ - hide and rename audio devices
 *** Firefox
   - https://github.com/mozilla/policy-templates - some configuration as code for Firefox
@@ -277,7 +274,6 @@ Also keeping things in a Org mode means I can classify and add notes.
    - https://letsconvene.im/ - browser-based conversations without accounts
    - https://github.com/kiwiirc/plugin-conference - Jitsi/KiwiIRC integration
    - https://github.com/esl/MongooseIM - XMPP server with SIP interop (see https://esl.github.io/MongooseDocs/latest/tutorials/Jingle-SIP-setup/ and https://esl.github.io/MongooseDocs/latest/modules/mod_jingle_sip/)
-   - https://wiki.linphone.org/xwiki/wiki/public/view/Flexisip/ SIP with (custom) push
 ** Password managers
    - https://keeweb.info/ / https://github.com/PhilippC/keepass2android have built-in support for remote storage, so they do not rely on external file synchronization
 ** Networking
@@ -293,8 +289,6 @@ Also keeping things in a Org mode means I can classify and add notes.
 *** Fediverse
     - https://github.com/bashrc2/epicyon
     - https://microblog.pub/
-    - https://jointakahe.org/ (active fork https://github.com/avaraline/incarnator)
-    - https://github.com/enafore/enafore - Keyboard-friendly Mastodon web client, compatible with Takahe/Incarnator
     - https://github.com/ihabunek/toot - Terminal Mastodon web client.
 ** Pubnix
    - https://github.com/cwmccabe/pubnixhist
