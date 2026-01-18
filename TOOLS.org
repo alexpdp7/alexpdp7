@@ -35,25 +35,25 @@ See also:
 *** eglot for LSP use
 *** TRAMP for remote editing
 
-** Services
-*** Bitwarden for secrets
-*** Instant messaging and chat
+* Services
+** Bitwarden for secrets
+** Instant messaging and chat
 
 - IRC with Soju as a bouncer, Senpai as a client (I have given up on mobile chat).
 - DeltaChat as aspirational instant messaging
 - Matrix, Signal, WhatsApp, Telegram, Discord because I have to :(
 - XMPP with Conversations as an experiment
 
-*** Miniflux as RSS reader
-*** Google Calendar
-*** TVmaze for TV show tracking
-*** Nextcloud for file storage and sharing
-*** Fediverse
-**** Enafore for desktop
-**** Tusky for Android
-**** Incarnator as my own server
-*** [[https://ledger-cli.org/][Ledger]] for accounting
-*** Google services
-**** Maps
-**** Spreadsheets
+** Miniflux as RSS reader
+** Google Calendar
+** TVmaze for TV show tracking
+** Nextcloud for file storage and sharing
+** Fediverse
+*** Enafore for desktop
+*** Tusky for Android
+*** Incarnator as my own server
+** [[https://ledger-cli.org/][Ledger]] for accounting
+** Google services
+*** Maps
+*** Spreadsheets
 *** OpenFoodFacts
