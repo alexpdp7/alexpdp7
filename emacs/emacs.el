@@ -67,6 +67,9 @@
   :config
   (global-kkp-mode +1))
 
+;; Helps eglot locate remote language servers, such as ones in ~/.local/bin
+(add-to-list 'tramp-remote-path 'tramp-own-remote-path)
+
 ;; Install xclip so cutting/copying in Emacs on a terminal affects the graphical clipboard
 (use-package xclip
   :ensure t
