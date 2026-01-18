@@ -43,6 +43,7 @@ See also:
 * Services
 ** Bitwarden for secrets
 ** Migadu for email
+*** [[https://github.com/lefcha/imapfilter][imapfilter]] for forwarding (!)
 ** Instant messaging and chat
 
 - IRC with Soju as a bouncer, Senpai as a client (I have given up on mobile chat).
