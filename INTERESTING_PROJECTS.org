@@ -247,6 +247,7 @@ See also [[TOOLS.org][tools I use]].
    - https://github.com/simonrob/email-oauth2-proxy
    - https://pimalaya.org/ Rust email tools, including sync, MIME...
    - https://github.com/leahneukirchen/mblaze/ - CLI email "UNIX-philosophy" tools
+   - https://git.sr.ht/~whynothugo/ImapGoose instant IMAP sync to local mailboxes
 *** Notmuch
     - https://github.com/gauteh/lieer - GMail
 ** Phones
