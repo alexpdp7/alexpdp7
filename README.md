@@ -9,6 +9,7 @@ Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar es
   Antes usaba las estrellitas de GitHub, pero de vez en cuando me encontraba algo (¡cielos!) que no estaba en GitHub (y además, las estrellitas me dan un poco de tirria).
 * [Gran parte del código que soporta mi infraestructura personal](personal_infra/).
 * [Ideas en las que me gustaría trabajar algún día, pero que cuelgo aquí por si algún incauto pica](IDEAS.org).
+* [Herramientas que uso](TOOLS.org).
 * Artículos varios un poco tipo wiki sobre diversos temas, como [hardware](hardware/), [Linux](linux/) y [programación](programming/).
 * [Mi configuración de Emacs](emacs/).
 * [Unos cuantos scripts que uso en mis "estaciones de trabajo"](scripts/) y [un par de barbaridades para montar un contenedor para Distrobox/Toolbox con algunas de las herramientas que uso](workstation/).
@@ -28,6 +29,7 @@ Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar es
   Previously I used GitHub stars, but some stuff is not in GitHub (gasp!) (also, I dislike GitHub stars).
 * [Most of the code for my personal infra](personal_infra/).
 * [Ideas I'd like to work on someday, but mostly making them public to bait people into implementing them instead of me](IDEAS.org).
+* [Tools I use](TOOLS.org).
 * Wiki-like articles on topics such as [hardware](hardware/), [Linux](linux/), and [programming](programming/).
 * [My emacs config](emacs/).
 * [Scripts I use on my workstations](scripts/) and [some bizarre stuff to build Distrobox/Toolbox containers with some tools I use](workstation/).

@@ -1,0 +1,59 @@
+See also:
+
+- [[personal_infra][personal_infra]]
+
+* Operating system
+
+- Workstations are mostly Debian
+- Servers are mostly RHEL clones and Proxmox.
+- Thinking about IncusOS
+
+* Desktop
+
+- Gnome with [[https://extensions.gnome.org/extension/6099/paperwm/][PaperWM]]
+
+** Browser: Firefox with...
+*** NoScript
+
+- Accidentally blocks many ads and paywalls.
+- Makes some sites go faster.
+- Blank pages are a good website quality heuristic.
+
+*** Violentmonkey
+
+- Mostly for [[https://github.com/alexpdp7/aelevenymonkey][alevenymonkey]], my own attempt at adding transcriptions to websites
+
+*** Multi-Account Containers (mostly for Enafore)
+
+** Thunderbird for email and calendars (also on Android)
+** WezTerm as a terminal
+
+- Keyboard-driven copy and paste
+
+** Emacs as editor (see [[emacs][emacs]])
+*** org-mode for organization (Orgzly revived on Android, via Nextcloud)
+*** eglot for LSP use
+*** TRAMP for remote editing
+
+** Services
+*** Bitwarden for secrets
+*** Instant messaging and chat
+
+- IRC with Soju as a bouncer, Senpai as a client (I have given up on mobile chat).
+- DeltaChat as aspirational instant messaging
+- Matrix, Signal, WhatsApp, Telegram, Discord because I have to :(
+- XMPP with Conversations as an experiment
+
+*** Miniflux as RSS reader
+*** Google Calendar
+*** TVmaze for TV show tracking
+*** Nextcloud for file storage and sharing
+*** Fediverse
+**** Enafore for desktop
+**** Tusky for Android
+**** Incarnator as my own server
+*** [[https://ledger-cli.org/][Ledger]] for accounting
+*** Google services
+**** Maps
+**** Spreadsheets
+*** OpenFoodFacts
