@@ -131,6 +131,12 @@ The mirror requests /foo to httpd, which returns the gemtext.
 - Could start with just pdf.js sharing and document location synchronization
 
 * Tool to replace all text files in a repository with a link, to migrate from a Git forge to another place without breaking links
+* Code review tool
+
+- It runs automatic validation on unchecked commits continuously, adding git notes with the result
+- Provides a UI to approve individual commits
+- For validated *and* approved commits, it implements a merge queue that works on a per-commit basis.
+
 * Typing database
 
 - A database of keyboard layouts.
