@@ -60,6 +60,15 @@ If you are using an LLM to create an illustration instead of commissioning an il
 
 (As mentioned, I think very few authors would object to an LLM describing images to a blind person without making an obscene profit.)
 
+#### LLMs might need to be forced to publish all their output
+
+I read somewhere that LLM output should not be copyrightable.
+
+Making all LLM output public would solve a few issues:
+
+* Generated LLM content is now easy to identify by searching into the generated LLM output.
+* IP laundering would result in public material that can be easily replicated and would make commercial benefit difficult.
+
 ## LLMs are hype
 
 ### LLMs might not be effective for writing code
