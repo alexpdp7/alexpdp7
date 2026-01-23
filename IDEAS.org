@@ -130,6 +130,7 @@ The mirror requests /foo to httpd, which returns the gemtext.
 - With documents that allow collaborative editing, meeting participants can edit live
 - Could start with just pdf.js sharing and document location synchronization
 
+* Tool to replace all text files in a repository with a link, to migrate from a Git forge to another place without breaking links
 * Typing database
 
 - A database of keyboard layouts.
