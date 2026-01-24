@@ -4,7 +4,7 @@ node 'ws.h1.int.pdp7.net' {
     storage_driver => 'zfs',
   }
 
-  package {['isync', 'gnutls-utils']:}
+  package {['isync', 'gnutls-utils', 'borgbackup']:}
 
   class {'workstation':}
   class {'remote_desktop':}
