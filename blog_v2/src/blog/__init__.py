@@ -114,7 +114,6 @@ def build(from_: pathlib.Path, to: pathlib.Path):
 
     for e in reversed(dated_entries[0:10]):
         title, date, *_ = e.read_text().splitlines()
-        print(date, datetime.date.fromisoformat(date))
         title = title.removeprefix("# ")
         path = "/".join(e.parts[2:]).removesuffix('.gmi')
 
