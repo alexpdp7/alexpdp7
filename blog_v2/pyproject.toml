@@ -6,7 +6,11 @@ authors = [
     { name = "alex", email = "alex@pdp7.net" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "feedgen>=1.0.0",
+    "htmlgenerator>=1.2.32",
+    "lxml>=6.0.2",
+]
 
 [project.scripts]
 blog = "blog:main"
