@@ -131,7 +131,7 @@ def build(from_: pathlib.Path, to: pathlib.Path):
         fe.content(b"\n".join(list(map(lxml.html.tostring, lxml.html.document_fromstring(e.with_suffix(".html").read_bytes()).body[2:]))), type="html")
     feed_dir = to / "feed"
     feed_dir.mkdir()
-    (feed_dir / "index.html").write_bytes(fg.rss_str(pretty=True))
+    (feed_dir / "index.rss").write_bytes(fg.rss_str(pretty=True))
 
 
 def main() -> None:
