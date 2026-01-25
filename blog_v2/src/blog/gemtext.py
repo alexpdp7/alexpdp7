@@ -228,7 +228,7 @@ class Pre:
     content: str
 
 
-def convert(gemtext, title=None):
+def convert(gemtext, title=None, feed=None):
     content = parse(gemtext)
     if not title:
         title = content[0]
@@ -236,6 +236,18 @@ def convert(gemtext, title=None):
         assert title.level == 1
         title = title.text
 
+    if feed:
+        href, title = feed
+        feed = [
+            h.LINK(
+                rel="alternate",
+                type="application/rss+xml",
+                title=title,
+                href=href,
+            ),
+        ]
+    else:
+        feed = []
     return pretty.pretty_html(
         h.render(
             h.HTML(
@@ -260,6 +272,7 @@ def convert(gemtext, title=None):
                         }
                         """).lstrip()
                     ),
+                    *feed,
                 ),
                 h.BODY(
                     *gemini_to_html(content),

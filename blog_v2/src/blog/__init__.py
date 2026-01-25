@@ -103,8 +103,7 @@ def build(from_: pathlib.Path, to: pathlib.Path):
                 subject = gmi.read_text().splitlines()[3]
                 assert subject.startswith("Subject: "), subject
                 title = subject.removeprefix("Subject: ")
-        html.write_text(gemtext.convert(gmi.read_text(), title))
-
+        html.write_text(gemtext.convert(gmi.read_text(), title, ("feed/", TITLE) if gmi.relative_to(to) == pathlib.Path("index.gmi") else None))
 
     # Generate RSS
     fg = feed.FeedGenerator()
