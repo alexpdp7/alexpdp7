@@ -4,7 +4,6 @@ import textwrap
 
 import htmlgenerator as h
 
-from blog import gemtext
 from blog import pretty
 
 
@@ -278,18 +277,18 @@ def gemini_to_html(parsed):  # noqa: C901, PLR0912, PLR0915
     while i < len(parsed):
         gem_element = parsed[i]
 
-        if isinstance(gem_element, gemtext.Header):
+        if isinstance(gem_element, Header):
             header = [h.H1, h.H2, h.H3, h.H4, h.H5, h.H6][gem_element.level - 1]
             result.append(header(gem_element.text))
             i = i + 1
             continue
 
-        if isinstance(gem_element, gemtext.List):
+        if isinstance(gem_element, List):
             result.append(h.UL(*[h.LI(i.text) for i in gem_element.items]))
             i = i + 1
             continue
 
-        if isinstance(gem_element, gemtext.Link):
+        if isinstance(gem_element, Link):
             url = gem_element.url
             if url.startswith("gemini://"):
                 url = url.replace("gemini://", "https://portal.mozz.us/gemini/")
@@ -298,11 +297,11 @@ def gemini_to_html(parsed):  # noqa: C901, PLR0912, PLR0915
             i = i + 1
             continue
 
-        if gem_element == gemtext.Line(""):
+        if gem_element == Line(""):
             i = i + 1
             continue
 
-        if isinstance(gem_element, gemtext.BlockQuote):
+        if isinstance(gem_element, BlockQuote):
             content = []
             for line in gem_element.lines:
                 if line.text:
@@ -312,12 +311,12 @@ def gemini_to_html(parsed):  # noqa: C901, PLR0912, PLR0915
             i = i + 1
             continue
 
-        if isinstance(gem_element, gemtext.Line):
+        if isinstance(gem_element, Line):
             paragraph = [gem_element.text]
             i = i + 1
             while i < len(parsed):
                 gem_element = parsed[i]
-                if isinstance(gem_element, gemtext.Line) and gem_element.text != "":
+                if isinstance(gem_element, Line) and gem_element.text != "":
                     paragraph.append(h.BR())
                     paragraph.append(gem_element.text)
                     i = i + 1
@@ -326,7 +325,7 @@ def gemini_to_html(parsed):  # noqa: C901, PLR0912, PLR0915
             result.append(h.P(*paragraph))
             continue
 
-        if isinstance(gem_element, gemtext.Pre):
+        if isinstance(gem_element, Pre):
             result.append(h.PRE(gem_element.content))
             i = i + 1
             continue
