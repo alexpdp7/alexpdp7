@@ -88,7 +88,7 @@ def build(from_: pathlib.Path, to: pathlib.Path):
     for e in dated_entries:
         title, date, *_ = e.read_text().splitlines()
         title = title.removeprefix("# ")
-        index += f"=> {'/'.join(e.parts[2:]).removesuffix('.gmi')} {date} {title}\n"
+        index += f"=> {'/'.join(e.parts[-3:]).removesuffix('.gmi')} {date} {title}\n"
 
     (to / "index.gmi").write_text(index)
 
