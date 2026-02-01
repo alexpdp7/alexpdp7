@@ -4,7 +4,6 @@ kind: Kustomization
 resources:
   - https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.1/deploy/static/provider/cloud/deploy.yaml
   - https://github.com/alexpdp7/talos-check/raw/main/manifest.yaml
-  - https://raw.githubusercontent.com/alexpdp7/alexpdp7/master/blog/k8s.yaml
 
 patches:
   - patch: |-
