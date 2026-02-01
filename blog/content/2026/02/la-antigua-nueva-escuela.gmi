@@ -1,0 +1,37 @@
+# La antigua nueva escuela
+2026-02-01
+
+Si todo va bien, estaréis leyendo una versión totalmente nueva de este blog con el mismo aburrido contenido de siempre.
+
+Mi primer blog fue un invento raro que hice en PHP creo que con MySQL que corría en mi casa
+
+He perdido un poco la cuenta de las distintas encarnaciones del motor de este blog. Los primeros posts eran mi propio motor (PHP con creo que MySQL) que usé de 2003 hasta 2010. En 2010 decidí pasarme a WordPress comenzando de 0:
+
+=> ../../2010/04/inauguracion El primer post de mi blog en WordPress.
+
+En 2021, descubrí el protocolo Gemini[1] y le di la patada a WordPress (que me tocaba bastante las narices). Volví por tanto a programar mi propio blog y montar una abominación que desplegaba sobre Kubernetes para establecer un bonito contraste con el minimalismo de Gemini. Aquí migré todo el contenido de WordPress.
+
+=> ../../2021/03/los-gemelos-golpean-dos-veces El post donde expliqué el cambio a Gemini.
+
+En 2022 recuperé mi primer blog y una lista de correo donde escribía críticas de cine, incorporando su contenido.
+
+Y finalmente, tras una semanita entretenida, aquí está la última iteración.
+
+La idea es explorar mecanismos para facilitar la publicación de contenido simultáneamente en la web y en el Geminiespacio.
+
+Para ello, me aventuré a redescubrir la técnica clásica de la negociación de contenido. El nuevo motor de este blog es básicamente un generador de webs estáticas que parte de un montón de ficheros en el formato gemtext de Gemini, masajeándolo un poco y creando una segunda copia en formato HTML.
+
+A partir de ahí, configuro Apache httpd para que sirva HTML o gemtext Gemini dependiendo de lo que pida el cliente. Los navegadores web piden el HTML, claro. Y paralelamente a esto, monto un servidor Gemini que sólo responde a peticiones pidiendo contenido gemtext a Apache.
+
+Esto es bastante guay porque podemos configurar sólo Apache y aprovechar todas sus características, y todo se verá reflejado automáticamente en el geminiespacio sin trabajo adicional.
+
+Obviamente hay bastantes más detalles que iré detallando y documentando con el objetivo de que sea más fácilmente replicable.
+
+De momento, le podéis echar un vistazo a:
+
+=> https://github.com/alexpdp7/alexpdp7/tree/master/blog El código y el contenido de la versión nueva del blog
+=> https://github.com/alexpdp7/gemini-from-http El servidor de Gemini
+
+Hay alguna simplificación más, como por ejemplo que el proceso de publicación se hace mediante un "hook" de Git, así que esta entrada se publica automáticamente cuando empujo cambios mediante Git, en vez del retorcido proceso anterior.
+
+=> https://geminiprotocol.net/ [1] El protocolo Gemini
