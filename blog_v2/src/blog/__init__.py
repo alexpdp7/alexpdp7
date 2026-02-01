@@ -64,6 +64,17 @@ def migrate(from_: pathlib.Path, to: pathlib.Path):
             reconstruct += "\n"
         g.write_text(reconstruct)
 
+    # Build old URL slash removal redirect list
+    redirections = textwrap.dedent("""
+    # This is a list of the pre-migration URLs of this blog.
+    # URLs in this list might had been linked with a trailing slash.
+    # Use Apache httpd's RewriteMap to preserve only old URLs
+    """).lstrip()
+    for g in to.glob("**/*.gmi"):
+        url = str(g.relative_to(to).with_suffix(""))
+        redirections += f"{url}/ {url}\n"
+    pathlib.Path(to / "redirections.txt").write_text(redirections)
+
 
 def build(from_: pathlib.Path, to: pathlib.Path):
     TITLE = "El blog es mío"
