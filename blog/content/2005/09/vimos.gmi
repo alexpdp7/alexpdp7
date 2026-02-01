@@ -3,4 +3,4 @@
 
 Miracle Mile [1]
 
-=> /laspelis/1000 [1] Miracle Mile
+=> ../../laspelis/1000 [1] Miracle Mile

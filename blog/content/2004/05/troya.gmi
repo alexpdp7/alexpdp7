@@ -3,4 +3,4 @@
 
 Vista, criticada [1].
 
-=> /laspelis/961 [1] criticada
+=> ../../laspelis/961 [1] criticada

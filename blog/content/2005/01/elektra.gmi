@@ -3,4 +3,4 @@
 
 ¡Huíd, insensatos! [1]
 
-=> /laspelis/982 [1] ¡Huíd, insensatos!
+=> ../../laspelis/982 [1] ¡Huíd, insensatos!

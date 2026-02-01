@@ -3,6 +3,6 @@
 
 God bless The Queen y tal [1]. De bonus, versión ensaunada finesa [2] de lo que otros cantan cuando les crucifican literalmente [3].
 
-=> /laspelis/1039 [1] God bless The Queen y tal
+=> ../../laspelis/1039 [1] God bless The Queen y tal
 => http://mutantur.blogspot.com/2006/11/si-es-que-slo-saben-quejarse.html [2] versión ensaunada finesa
 => http://en.wikipedia.org/wiki/Always_Look_on_the_Bright_Side_of_Life [3] lo que otros cantan cuando les crucifican literalmente

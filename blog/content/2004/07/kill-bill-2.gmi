@@ -3,4 +3,4 @@
 
 Criticada [1]
 
-=> /laspelis/964 [1] Criticada
+=> ../../laspelis/964 [1] Criticada

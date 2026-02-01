@@ -3,4 +3,4 @@
 
 La última de Gondry [1].
 
-=> /laspelis/1047 [1] La última de Gondry
+=> ../../laspelis/1047 [1] La última de Gondry

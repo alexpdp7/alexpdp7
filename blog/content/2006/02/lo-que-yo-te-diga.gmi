@@ -5,7 +5,7 @@ He mencionado tangencialmente [1] El Cine De Lo Que Yo Te Diga [2], un programa 
 
 Pues ahora veo que se les puede escuchar en podcast [5]. Habrá que probarlo.
 
-=> gemini://alex.corcoles.net/2005/09/cacharrito-podcasts/ [1] mencionado tangencialmente
+=> ../../2005/09/cacharrito-podcasts [1] mencionado tangencialmente
 => http://www.loqueyotediga.net [2] El Cine De Lo Que Yo Te Diga
 => http://www.cadenaser.com/programas.html?anchor=serprocin [3] programa de radio
 => http://www.cadenaser.com/ [4] Ser

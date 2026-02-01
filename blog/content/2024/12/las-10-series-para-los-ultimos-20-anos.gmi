@@ -3,8 +3,8 @@
 
 Por completar los posts anteriores:
 
-=> gemini://alex.corcoles.net/2024/11/14-series-10-anos/ 14 series en 10 años, 2014-2024
-=> gemini://alex.corcoles.net/2024/12/6-series-para-otros-10-anos/ 6 series para otros 10 años, 2004-2014
+=> ../../2024/11/14-series-10-anos 14 series en 10 años, 2014-2024
+=> ../../2024/12/6-series-para-otros-10-anos 6 series para otros 10 años, 2004-2014
 
 Acabo con 10 series más, que por temas biológicos son más o menos 1984-2004.
 
@@ -40,7 +40,7 @@ Poco se puede decir de Doctor en Alaska; esta sí es la serie de culto que ha he
 
 ## Sigue Soñando / Dream On (1990-1996)
 
-=> gemini://alex.corcoles.net/2021/05/en-pijama/
+=> ../../2021/05/en-pijama 
 
 Quizá pongo esto para presumir de fondo de armario, pero a principios de los 90 HBO ya hacía series "adultas" y Kauffman y Crane ya hacían cosas antes de su otra serie. Aquí, supongo que Canal+ la vio perfecta para intentar coger prestigio televisivo.
 
@@ -62,7 +62,7 @@ Como en otras ocasiones, el personaje principal de la serie no me dice nada, per
 
 ## Firefly (2002)
 
-=> gemini://alex.corcoles.net/2005/10/firefly/
+=> ../../2005/10/firefly 
 
 Y no podía acabar esto con algo que no fuese Firefly.
 

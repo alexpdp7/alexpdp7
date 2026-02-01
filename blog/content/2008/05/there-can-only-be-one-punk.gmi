@@ -7,7 +7,7 @@ Aún no he puesto en orden mis pensamientos. Les mantendremos informados.
 
 => http://www.imdb.com/name/nm0000142/ [1] el tito Clint
 => http://www.imdb.com/news/sb/2008-05-20/film/2 [2]
-=> /laspelis/1064 [3] momento de genuflexión
+=> ../../laspelis/1064 [3] momento de genuflexión
 => http://www.imdb.com/title/tt0371746/ [4] Iron Man
 => http://www.comingsoon.net/news/movienews.php?id=45313 [5] va a por... Los Inmortales
 => http://www.imdb.com/title/tt0091203/ [6] esta película

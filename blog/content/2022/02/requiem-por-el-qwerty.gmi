@@ -9,7 +9,7 @@ La noticia de que BlackBerry vendía sus patentes de telefonía móvil de hace u
 
 Cuando la batería de mi fabulosa KeyONE ya no aguantaba ni un suspiro, ya decidí comprarme un móvil barato[1] intentando "cubrir mis apuestas". Si salía la BlackBerry de Onward Mobility, no me sabría tan mal desechar un móvil de menos de un año. Y no nos engañemos, si pasaba lo que parecía más probable y parece que está cerca de ser un hecho... pues siempre podría optar a comprarme un móvil "decente" y usar el móvil barato de recambio (compré uno con actualizaciones hasta 2025 y batería exagerada también en cierta manera para alargar el tiempo durante el cual podría servir de recambio).
 
-=> gemini://alex.corcoles.net/2021/09/vuelve-rim [1] Previsor que es uno (aunque el título del artículo, "Vuelve Rim" era una invitación al gafe)
+=> ../../2021/09/vuelve-rim [1] Previsor que es uno (aunque el título del artículo, "Vuelve Rim" era una invitación al gafe)
 
 Ciertamente, esperaré a que se confirme la noticia, pero aunque el luto ha comenzado, comienzo a mirar opciones. El PinePhone y su funda-teclado es de las mejores opciones, pero también es una opción extrema con doble cabriola por no ser Android y el peso de WhatsApp en mi entorno (no se puede usar WhatsApp sin un móvil Android o iOS activo. Podría tener dos móviles, pero también Mark Zuckerberg podría dejar de fastidiarme y dar una API de cliente como la de Telegram, ¿no?). Pero por $150 el teléfono y $50 el teclado, es una opción tentadora.
 

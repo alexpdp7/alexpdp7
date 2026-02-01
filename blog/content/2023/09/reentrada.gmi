@@ -9,14 +9,14 @@
 
 A las entregas anteriores:
 
-=> gemini://alex.corcoles.net/2007/06/ritmos-cercanos/
-=> gemini://alex.corcoles.net/2009/02/otro-otro/
+=> ../../2007/06/ritmos-cercanos 
+=> ../../2009/02/otro-otro 
 
 Ahora hay que añadirle otro más (y quizá, aún más inexplicable):
 
 => https://youtube.com/watch?v=6gUiQ8CqLcY Travis Scott - Sirens
 
-=> gemini://alex.corcoles.net/2022/11/el-doble-factor-y-su-progenitora/ Debo admitir que cuando os cité el XKCD sobre precisión y exactitud, creo que no lo entendí completamente. Pero porque fui tan vago de no mirar los artículos de la Wikipedia sobre el tema:
+=> ../../2022/11/el-doble-factor-y-su-progenitora Debo admitir que cuando os cité el XKCD sobre precisión y exactitud, creo que no lo entendí completamente. Pero porque fui tan vago de no mirar los artículos de la Wikipedia sobre el tema:
 
 => https://en.wikipedia.org/wiki/Accuracy_and_precision
 => https://es.wikipedia.org/wiki/Precisi%C3%B3n_y_exactitud

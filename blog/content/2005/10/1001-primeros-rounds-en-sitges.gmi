@@ -3,4 +3,4 @@
 
 Reseñas de Sitges, aquí [1]
 
-=> /laspelis/1001 [1] Reseñas de Sitges, aquí
+=> ../../laspelis/1001 [1] Reseñas de Sitges, aquí

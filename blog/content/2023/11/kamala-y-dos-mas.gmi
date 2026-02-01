@@ -1,7 +1,7 @@
 # Kamala y dos más
 2023-11-10
 
-=> gemini://alex.corcoles.net/2022/07/senorita-maravilla/ Ya sabéis que aquí somos de Ms. Marvel, así que tened presente el sesgo.
+=> ../../2022/07/senorita-maravilla Ya sabéis que aquí somos de Ms. Marvel, así que tened presente el sesgo.
 
 Ayer me vi The Marvels, el supuesto fiasco que confirmaría la "fatiga" con el MCU y la moderna decadencia del imperio roedor.
 

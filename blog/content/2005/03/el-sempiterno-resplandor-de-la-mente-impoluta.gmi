@@ -3,4 +3,4 @@
 
 ... o algo [1]
 
-=> /laspelis/984 [1] ... o algo
+=> ../../laspelis/984 [1] ... o algo

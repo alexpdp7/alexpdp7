@@ -3,4 +3,4 @@
 
 Vimos Infiltrados [1].
 
-=> /laspelis/1065 [1] Infiltrados
+=> ../../laspelis/1065 [1] Infiltrados

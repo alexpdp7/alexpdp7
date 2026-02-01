@@ -7,4 +7,4 @@ En continuación a éste post anterior [1]...
 
 Tengo miedo.
 
-=> gemini://alex.corcoles.net/2006/11/artefactologia/ [1] éste post anterior
+=> ../../2006/11/artefactologia [1] éste post anterior

@@ -3,6 +3,6 @@
 
 Pequeña actualización en:
 
-=> gemini://alex.corcoles.net/2021/09/vuelve-rim/
+=> ../../2021/09/vuelve-rim 
 
 Para señalar un defecto grave con el A02S con Bluetooth y llamadas (si a uno le importa esa funcionalidad). Si consigo resolverlo haré otra actualización, pero de momento, no recomiendo ese teléfono si se quieren hacer llamadas con auriculares Bluetooth.

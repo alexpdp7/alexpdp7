@@ -5,6 +5,6 @@ Por motivos ajenos a nuestra voluntad (o quizás no tan ajenos) hemos zanjado Si
 
 => http://www.cinemasitges.com/ [1] Sitges
 => http://www.imdb.com/title/tt0457430/ [2] El Laberinto del Fauno
-=> /laspelis/1035 [3] criticamos
-=> /laspelis/1033 [4] tercero
-=> /laspelis/1034 [5] cuarto
+=> ../../laspelis/1035 [3] criticamos
+=> ../../laspelis/1033 [4] tercero
+=> ../../laspelis/1034 [5] cuarto

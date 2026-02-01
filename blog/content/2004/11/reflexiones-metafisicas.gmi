@@ -3,4 +3,4 @@
 
 sobre Los Increíbles [1], por un servidor...
 
-=> /laspelis/973 [1] sobre Los Increíbles
+=> ../../laspelis/973 [1] sobre Los Increíbles

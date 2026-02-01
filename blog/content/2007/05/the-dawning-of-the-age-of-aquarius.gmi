@@ -3,4 +3,4 @@
 
 Critiquemos Zodiac [1].
 
-=> /laspelis/1051 [1] Critiquemos Zodiac
+=> ../../laspelis/1051 [1] Critiquemos Zodiac

@@ -11,7 +11,7 @@ Aún en la capital del reino, seguimos con la peculiar aritmética del gremio de
 
 [‡ Menu de 2 personas, 17 euros por barba, 17,20 euros en total]
 
-=> gemini://alex.corcoles.net/2008/08/it-s-a-viewtyful-day/ [1] la reseña de mi móvil
+=> ../../2008/08/it-s-a-viewtyful-day [1] la reseña de mi móvil
 => http://www.emtmadrid.es/emt/verlinea/verlinea.asp?codlinea=N14 [2] el N14 de la capital del reino
 
 Volviendo a la no-capital del reino, nos hayamos ante un sorprendente descubrimiento ortográfico-catalán de un diario obviamente low-cost :

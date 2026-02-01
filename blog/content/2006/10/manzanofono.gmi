@@ -4,5 +4,5 @@
 Denme las gracias los que quieran un móvil Apple [1]. He provocado [2] que saquen uno [3].
 
 => http://www.apple.com [1] Apple
-=> gemini://alex.corcoles.net/2006/10/computer-computer/ [2] He provocado
+=> ../../2006/10/computer-computer [2] He provocado
 => http://obm.corcoles.net/20061017/iphone/ [3] que saquen uno

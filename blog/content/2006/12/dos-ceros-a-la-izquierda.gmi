@@ -3,4 +3,4 @@
 
 ... del 7 [1]
 
-=> /laspelis/1040 [1] ... del 7
+=> ../../laspelis/1040 [1] ... del 7

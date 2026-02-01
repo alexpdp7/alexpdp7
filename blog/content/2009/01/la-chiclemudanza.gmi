@@ -5,4 +5,4 @@ Mirando mi triste y solitario Analytics [1], he visto que Mudanzas Mac Guibar [2
 
 => http://www.google.com/analytics/ [1] mi triste y solitario Analytics
 => http://www.macguibar.es/ [2] Mudanzas Mac Guibar
-=> gemini://alex.corcoles.net/2007/08/torturas-pospuestas/ [3] mi recuerdo digital
+=> ../../2007/08/torturas-pospuestas [3] mi recuerdo digital

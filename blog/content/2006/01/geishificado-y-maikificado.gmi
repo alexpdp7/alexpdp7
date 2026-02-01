@@ -3,5 +3,5 @@
 
 Con cierto retraso (ajetreos varios y haber retomado mi propia obra faraónica, la confección de mi ránking de películas), he aquí mi barrocamente recargada crítica [1] de Memorias de una Geisha [2].
 
-=> /laspelis/1009 [1] he aquí mi barrocamente recargada crítica
+=> ../../laspelis/1009 [1] he aquí mi barrocamente recargada crítica
 => http://www.imdb.com/title/tt0397535/combined [2] Memorias de una Geisha

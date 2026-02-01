@@ -7,5 +7,5 @@ Pese a que me considero todo un veterano de las versiones imposibles [1], de vez
 
 My mind was aching, indeed...
 
-=> gemini://alex.corcoles.net/2005/10/versiones-imposibles/ [1] las versiones imposibles
+=> ../../2005/10/versiones-imposibles [1] las versiones imposibles
 => https://youtube.com/watch?v=FONt47Z0KZg [2] Celine Dion y Anastacia haciendo una canción de AC/DC

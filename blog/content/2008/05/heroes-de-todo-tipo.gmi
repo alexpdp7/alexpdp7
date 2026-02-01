@@ -3,5 +3,5 @@
 
 Calamari Wrestler [1] y Iron Man [2].
 
-=> /laspelis/1063 [1] Calamari Wrestler
-=> /laspelis/1064 [2] Iron Man
+=> ../../laspelis/1063 [1] Calamari Wrestler
+=> ../../laspelis/1064 [2] Iron Man

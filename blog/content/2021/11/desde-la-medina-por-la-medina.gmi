@@ -11,7 +11,7 @@ Se trata de un vehículo para el mayor lucimiento del carismático Ryan Reynolds
 
 Más atrás, Cruella. La verdad que detesté la peli sobre el Joker[1] y Cruella, aunque no sea una gran película, es una excelente demostración de cómo hacer una versión soportable de ese insulso y pretencioso Guasón. Quizá sea todo porque Emma Stone tiene más carisma y se preocupa más en entretener que en impresionar con su actuación que el amigo Joaquín.
 
-=> gemini://alex.corcoles.net/2019/11/el-guason/ Mi reseña del Joker. Si la queréis ver, ahí recomiendo ver La Naranja Mecánica, pero si queréis una alternativa light, Cruella os servirá.
+=> ../../2019/11/el-guason Mi reseña del Joker. Si la queréis ver, ahí recomiendo ver La Naranja Mecánica, pero si queréis una alternativa light, Cruella os servirá.
 
 ### La Viuda Negra
 
@@ -49,4 +49,4 @@ Casi lo contrario que esta serie que se ha ganado merecidamente la clasificació
 
 En mi afán de repasar viejas glorias[1], me decidí a retomar esta serie de animación de la MTV de prestigio e intelectualidad. Aeon Flux es una confusa visión de un futuro distópico que aturde más que otra cosa. Tiene un par de golpes de ingenio (especialmente la primera temporada) y más de una perturbadora idea de ciencia ficción, pero la verdad que no merece demasiado el esfuerzo de escarbar (a no ser que uno quiera presumir de fondo de catálogo).
 
-=> gemini://alex.corcoles.net/2021/05/en-pijama/ Mi reseña de Sigue Soñando, aquella serie de los noventa puntuada por clips de televisión en blanco y negro.
+=> ../../2021/05/en-pijama Mi reseña de Sigue Soñando, aquella serie de los noventa puntuada por clips de televisión en blanco y negro.

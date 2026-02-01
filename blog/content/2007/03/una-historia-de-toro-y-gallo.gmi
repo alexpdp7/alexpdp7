@@ -3,4 +3,4 @@
 
 Desconciertos isleños [1].
 
-=> /laspelis/1049 [1] Desconciertos isleños
+=> ../../laspelis/1049 [1] Desconciertos isleños

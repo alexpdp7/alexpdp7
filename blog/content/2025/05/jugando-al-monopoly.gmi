@@ -45,6 +45,6 @@ Mis recomendaciones iniciales pasan por:
 
 => https://mastodon.social/@chechar/114444705177197924 [1] opino que la mejor sanción contra las prácticas monopolísticas ilegales de Google...
 => https://en.wikipedia.org/wiki/Microsoft_litigation [2] Microsoft en los juzgados
-=> gemini://alex.corcoles.net/2025/01/epistolas-inmediatas/ [3] Sobre mensajería instantánea en español
+=> ../../2025/01/epistolas-inmediatas [3] Sobre mensajería instantánea en español
 => https://github.com/alexpdp7/alexpdp7/blob/master/misc/internet-communication-channels.md [4] Sobre mensajería instantánea en inglés
-=> gemini://alex.corcoles.net/2025/03/viajar-en-el-tiempo-a-2006-para-comerle-la-cabeza-a-jack/ [5] Sobre redes sociales
+=> ../../2025/03/viajar-en-el-tiempo-a-2006-para-comerle-la-cabeza-a-jack [5] Sobre redes sociales

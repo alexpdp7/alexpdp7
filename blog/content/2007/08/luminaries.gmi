@@ -3,6 +3,6 @@
 
 ... quizás prosiguiendo este post [1], no sólo debo informarles que Brian May [2] ya casi es doctor sino que además... Blossom [3] también está a punto de ser doctora... en neurología (¿Neuroscience es neurología? ¡Qué sé yo!).
 
-=> gemini://alex.corcoles.net/2006/09/el-sol-brilla-luminoso/ [1] este post
+=> ../../2006/09/el-sol-brilla-luminoso [1] este post
 => http://en.wikipedia.org/wiki/Brian_May [2] Brian May
 => http://en.wikipedia.org/wiki/Mayim_Bialik [3] Blossom

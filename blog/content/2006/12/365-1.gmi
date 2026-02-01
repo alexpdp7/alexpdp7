@@ -8,7 +8,7 @@ Uno no es dado a la retrospectiva, pero visto el aburrimiento y sopor generaliza
 Es curioso que una peli Bond que se salta a la torera los elementos que tradicionalmente más me gustan de la saga se haga un hueco en el ránking, pero el refrescante cambio de tercio merece que recompensemos esta apuesta relativamente arriesgada. La primera persecución de la cinta es antológica.
 
 => http://www.imdb.com/title/tt0381061/ [1] Casino Royale
-=> /laspelis/1040 [2] Crítica
+=> ../../laspelis/1040 [2] Crítica
 
 7. The Queen [3] (Crítica [4])
 
@@ -19,11 +19,11 @@ La magnífica interpretación de esta actriz [5] de origen ruso y al parecer muy
 El perpetrador de Gattaca [9] contraataca con otro tema tan agradable como es el contrabando de armas en el tercer mundo. Sólo el número uno de esta lista puede desbancar al prodigioso plano secuencia inicial de la cinta- y ese no es el mayor logro de la película. Pese a sus irregularidades (que no se centran, como podría sospecharse, en los posibles excesos interpretativos de Nicolas Cage [10]), el preciosista acabado y la destreza en el manejo de un tema delicado hacen a este lord of war merecedor de la sexta posición.
 
 => http://www.imdb.com/title/tt0436697/ [3] The Queen
-=> /laspelis/1039 [4] Crítica
+=> ../../laspelis/1039 [4] Crítica
 => http://www.imdb.com/name/nm0000545/ [5] esta actriz
 => http://www.imdb.com/name/nm0001241/ [6] Stephen Frears
 => http://www.imdb.com/title/tt0399295/ [7] El señor de la guerra
-=> /laspelis/1024 [8] Crítica
+=> ../../laspelis/1024 [8] Crítica
 => http://www.imdb.com/title/tt0119177/ [9] Gattaca
 => http://www.imdb.com/name/nm0000115/ [10] Nicolas Cage
 
@@ -36,12 +36,12 @@ No es sólo por presumir de preestreno. La habitual fórmula de Paul Verhoeven [
 Después de que Hellboy [18] nos dejase totalmente encantados, Guillermo del Toro [19] intenta superarse con un cuento fantástico con el telón de fondo de la Guerra Civil. Imaginativa, divertida y terrorífica, refleja perfectamente el mundo de la protagonista infantil, una Ivana Baquero [20] a la que esperamos ver más. La magnífica composición de Sergi López [21] como "El Antagonista" se torna uno de los mejores villanos recientes.
 
 => http://www.imdb.com/title/tt0389557/ [11] Zwartboek
-=> /laspelis/1033 [12] Crítica
+=> ../../laspelis/1033 [12] Crítica
 => http://www.imdb.com/name/nm0000682/ [13] Paul Verhoeven
 => http://www.imdb.com/name/nm0396924/ [14] Carice van Houten
 => http://www.imdb.com/title/tt0093870/ [15] Robocop
 => http://www.imdb.com/title/tt0457430/ [16] El Laberinto del Fauno
-=> /laspelis/1035 [17] Crítica
+=> ../../laspelis/1035 [17] Crítica
 => http://www.imdb.com/title/tt0167190/ [18] Hellboy
 => http://www.imdb.com/name/nm0868219/ [19] Guillermo del Toro
 => http://www.imdb.com/name/nm1419440/ [20] Ivana Baquero
@@ -56,9 +56,9 @@ Ciertamente poner un documental tan arriba nos expone a acusaciones de pseudoint
 La última de nuestro manchego preferido (incluso más que el queso) nos cogió por su evocadora recreación de nuestros propios recuerdos. Añádase a una Carmen Maura [26] en estado de gracia encabezando un reparto de actrices con el que mejor las dirige detrás y ni Penélope Cruz desentona. Perfecta de arriba a abajo con su combinación de docenas de ingredientes dispares, es esto una auténtica delicia para todos los públicos, hasta para los que estén hartos de los excesos almodovarianos.
 
 => http://www.imdb.com/title/tt0436231/ [22] The Devil and Daniel Johnston
-=> /laspelis/1036 [23] Crítica
+=> ../../laspelis/1036 [23] Crítica
 => http://www.imdb.com/title/tt0441909/ [24] Volver
-=> /laspelis/1014 [25] Crítica
+=> ../../laspelis/1014 [25] Crítica
 => http://www.imdb.com/name/nm0560962/ [26] Carmen Maura
 
 1. Children of men [27] (Crítica [28])
@@ -66,6 +66,6 @@ La última de nuestro manchego preferido (incluso más que el queso) nos cogió 
 Es en contadas ocasiones que tenemos la ocasión de dar la bienvenida a una cinta a la exclusiva categoría de clásicos de la ciencia ficción. Sin embargo, creo que esta película podría merecerlo si resiste un poco el paso del tiempo. Siguiendo la línea británica de Max Headroom [29], cumple en todos los requisitos del género: imaginación, profundidad y originalidad. El siempre intachable Clive Owen [30] sostiene el ritmo de una película redonda y impactante. Completa el pastel el apartado técnico, con un estilo visual muy conseguido y dos espectaculares planos secuencia de libro texto que nos brindan algunos de los minutos más intensos del año. Una verdadera joya.
 
 => http://www.imdb.com/title/tt0206634/ [27] Children of men
-=> /laspelis/1037 [28] Crítica
+=> ../../laspelis/1037 [28] Crítica
 => http://www.imdb.com/title/tt0089568/ [29] Max Headroom
 => http://www.imdb.com/name/nm0654110/ [30] Clive Owen

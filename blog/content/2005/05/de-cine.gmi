@@ -5,5 +5,5 @@ Mi critiquilla del Episodio 3 [1] (junto con unas cuantas pelis más).
 
 Por último, pelis que no se filmaron [2].
 
-=> /laspelis/991 [1] Mi critiquilla del Episodio 3
+=> ../../laspelis/991 [1] Mi critiquilla del Episodio 3
 => http://ockhamist.com/funny/moviesthatdidnthappen.htm [2] pelis que no se filmaron

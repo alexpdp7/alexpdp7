@@ -3,4 +3,4 @@
 
 O en otras palabras, mi crítica de El Castillo Ambulante [1]
 
-=> /laspelis/1011 [1] mi crítica de El Castillo Ambulante
+=> ../../laspelis/1011 [1] mi crítica de El Castillo Ambulante

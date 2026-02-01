@@ -3,4 +3,4 @@
 
 Pese a la fatiga acumulada, podéis leer mi crítica aquí [1].
 
-=> /laspelis/1003 [1] aquí
+=> ../../laspelis/1003 [1] aquí

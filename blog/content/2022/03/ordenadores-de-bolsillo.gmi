@@ -3,11 +3,11 @@
 
 Uno de los motivos por los que me he enfrascado esta mañana a recuperar mi blog antiguo[1] es hacer un poco de arqueología de los móviles que he tenido.
 
-=> gemini://alex.corcoles.net/2022/03/reliquias/ [1] Recuperando posts de mi blog antiguo.
+=> ../../2022/03/reliquias [1] Recuperando posts de mi blog antiguo.
 
 No he encontrado ningún post hablando de mi primer móvil; sólo esta referencia[1] que me confirma que era un Siemens. He estado un rato por GSMArena mirando Siemens para ver si se me encendía la bombilla, pero es que hay muchos Siemens de esa época que son casi idénticos[2] (y nos quejamos hoy de que todos los móviles son iguales).
 
-=> gemini://alex.corcoles.net/2006/04/228252/ [1] Quejándome sobre el T9 sin catalán de mi móvil Siemens
+=> ../../2006/04/228252 [1] Quejándome sobre el T9 sin catalán de mi móvil Siemens
 => https://www.gsmarena.com/siemens-phones-f-3-0-p2.php [2] La variedad de modelos de Siemens
 
 No recuerdo mucho de ese móvil, aparte de jugar a (creo) ponerle un tono de llamada creado por mí. La verdad que sí, en aquella época los móviles eran bastante limitados.
@@ -20,23 +20,23 @@ Corrijo: tremendo error, se me ha olvidado que tuve un Sony Ericsson Z520i, inmo
 
 El susodicho móvil según GSMArena salió en 2005, así que realmente aunque recuerdo que me encantaba ese móvil, parece ser que decidí retirarlo rápido.
 
-=> gemini://alex.corcoles.net/2006/10/computer-computer/ 2006 - Nokia 6234
+=> ../../2006/10/computer-computer 2006 - Nokia 6234
 
 Diría que el Nokia 6234 fue mi segundo (tercer) móvil, y el primero (segundo) que me compré con mi dinero. Esto era dos años antes de que saliese el N97 y lo que me suena que dominaba en ese momento era el S40 de Nokia. El 6234 era una variante del más normal 6233, y como indico en la reseña de arriba, lo que me atrajo era la posibilidad de escuchar música e incluso ver vídeos.
 
 En aquella época veía House (2004-2012), pero creo que nunca pude ver episodios satisfactoriamente en el Nokia; básicamente los reproductores de vídeo de S40 eran muy primitivos (no permitían avanzar/retroceder bien sin hacks, ni soportaban subtítulos), y aunque desarrollé un burdo reproductor usando J2ME que usaba vídeos partidos en trozos pequeños, creo que nunca tuvo tracción la cosa.
 
-=> gemini://alex.corcoles.net/2008/08/it-s-a-viewtyful-day/ 2008 - LG Viewty
+=> ../../2008/08/it-s-a-viewtyful-day 2008 - LG Viewty
 
 En 2007 saldría el iPhone, pero no estuvo disponible en España hasta 2008 (aunque creo recordar a alguien que compró alguno de los primeros modelos en EEUU y lo usó en España).
 
 Yo todavía no había descubierto las BlackBerries, y mi eterno resquemor a gastar dinero (y que nunca he sido muy fan de Apple) me llevó a comprarme un LG Viewty, uno de los primeros móviles táctiles (pero resistivo, no capacitativo. Esa distinción de la que ya no se habla... ¡y con lápiz!), para explorar el nuevo mundo. Pero el Viewty era un móvil con un sistema operativo limitado (por lo que reseño, igual más limitado que un S40), el mundo de las aplicaciones seguía siendo el páramo de J2ME y además, según apunto, ya habíamos llegado a la "gloriosa" era de los móviles que se tenían que cargar a diario.
 
-=> gemini://alex.corcoles.net/2010/07/resena-nokia-c5/ 2010 - Nokia C5
+=> ../../2010/07/resena-nokia-c5 2010 - Nokia C5
 
 Parece ser que el Viewty murió, y me agencié un S60 por 160€- un Nokia C5 un poco más serio. Con S60 esto ya se parecía más a un smartphone (según la reseña, el navegador tenía ¡Flash!), pero aún con un teclado numérico y T9 (¡con el que aparentemente hacía SSH!). Yo ya navegaba bastante en móvil con el 6234 y el Viewty, pero con el C5 parece que ya comencé a hacer cosas modernas como usar el GPS para registrar las rutas cuando salía a correr. También parecía tener mensajería instantánea (¡un cliente multiprotocolo con Google Talk y MSN!).
 
-=> gemini://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/ 2011 - BlackBerry Bold 9780
+=> ../../2011/06/dinosaurios-que-rondan-la-tierra 2011 - BlackBerry Bold 9780
 
 Poco después de comprarme el C5, entré en una empresa donde algunos de mis compañeros usaban BlackBerries. Sí, era 2011 y ya había iPhones y Androids, pero yo estaba impresionado por el tecladito de las narices (y que la pésima pantalla resistiva del Viewty quizá me había escamado) y por 140€ y puntos me pude hacer con lo que en ese momento era una BlackBerry gama alta.
 
@@ -44,19 +44,19 @@ Que BlackBerry ya estaba de capa caída en esa época, pero la Bold 9780 era un 
 
 Pero bueno, ya apuntaba en las reseñas todas las limitaciones que tenía el móvil. Aunque aguantó mucho tiempo y creo que fue el primer móvil que tuve con todo el potencial de los smartphones.
 
-=> gemini://alex.corcoles.net/2014/04/tengo-dos-moviles/ 2014 - Samsung Galaxy S III (secundario)
+=> ../../2014/04/tengo-dos-moviles 2014 - Samsung Galaxy S III (secundario)
 
 Pero en 2014 el sistema operativo clásico de BlackBerry dejaba de ser viable y, curiosamente, Google Reader dejó de ser usable en la Bold, así que por un tiempo me decidí a llevar dos móviles encima- uno de ellos mi primer Android (y para más inri, un Samsung).
 
 Allí ya me lamentaba del desastre de las pantallas táctiles (que la del S III se supone que era buena, no como la del Viewty), lo que me llevaría a...
 
-=> gemini://alex.corcoles.net/2015/03/clasicos-de-ayer-y-de-hoy/ 2015 - BlackBerry Classic
+=> ../../2015/03/clasicos-de-ayer-y-de-hoy 2015 - BlackBerry Classic
 
 Quizá el mejor móvil que he tenido nunca. La BlackBerry Classic fue en mi opinión (aunque hay mucho fan de la gigantesca Passport) el último canto de cisne de los sistemas operativos de BlackBerry. Con navegación por gestos (que iPhone y Android adoptarían poco después), touchpad, cierta compatibilidad con aplicaciones Android y un ecosistema medio decente, la Classic no sólo conjugaba BlackBerry y smartphones táctiles modernos, sino que además tenía un diseño industrial espectacular.
 
 Lamentablemente, BlackBerry ya llevaba varios años muerta a los ojos de la gente y esta nueva ola no tuvo ningún éxito. Además, Mark Zuckerberg siempre ha sido mi villano de esta historia y decidió matar a WhatsApp en BlackBerry OS al cerrarse el 2017, así que aunque no lo quisiese, tuve que abandonar esta pequeña maravilla.
 
-=> gemini://alex.corcoles.net/2017/11/teclado-uno-alguien-cero/ 2017 - BlackBerry KeyONE
+=> ../../2017/11/teclado-uno-alguien-cero 2017 - BlackBerry KeyONE
 
 BlackBerry capituló y se pasó a Android. Android realmente no era mucho peor que el sistema operativo de BlackBerry moderno, y el ecosistema era obviamente infinitamente mejor. Y la KeyONE tenía un QWERTY perfecto (pero ya no el touchpad para hacer de puntero) y en su versión de 4GB, su mayor defecto era que era espectacularmente cara (la Classic ya me costó 400€, el doble de lo que me gastaba en móviles hasta entonces. La KeyONE fueron 600€) y que tenía el nombre de BlackBerry asociado.
 
@@ -64,12 +64,12 @@ Creo que la KeyONE es de los móviles que más he usado- 4 años hasta que su ba
 
 En ese momento, ya no era posible comprar un móvil con QWERTY. Onward Mobility prometió una nueva BlackBerry, pero yo no podía esperar más.
 
-=> gemini://alex.corcoles.net/2021/09/vuelve-rim/ 2021 - Samsung Galaxy A02s
+=> ../../2021/09/vuelve-rim 2021 - Samsung Galaxy A02s
 
 Con lo que me compré un Samsung barato para salir del paso. Aparte de ser el primer móvil "grande" que he usado (suficiente como para ver series cómodamente sin sacar el Kindle Fire, aparcado desde entonces), el A02S era un móvil anodino y en el afán de no gastarme demasiado dinero, además lastrado por no tener lector de huella ni NFC.
 
 Con lo que en cuanto se anunció que Onward Mobility había muerto y BlackBerry parecía quemar naves para no volver a involucrarse jamás en crear un nuevo móvil, tras barajar unas cuantas alternativas[1], me pasé a un Titan Pocket.
 
-=> gemini://alex.corcoles.net/2022/02/requiem-por-el-qwerty/ [1] Mis reflexiones sobre BlackBerry
+=> ../../2022/02/requiem-por-el-qwerty [1] Mis reflexiones sobre BlackBerry
 
 Escribiré una reseña más completa sobre el Titan Pocket pronto- se trata de un extraño cruce entre una KeyONE, un Passport y unas curiosas maniobras evasivas para con las patentes de los teclados BlackBerries, combinado con unas cuantas bizarradas adicionales, pero que de momento es una opción más que decente para permitirme seguir con mis peculiaridades mentales (que principalmente consisten en la dichosa manía de no querer teclear en cristal, cosa que sólo hice brevemente con el Viewty [2008-2010] y con el A02S [unos meses entre 2021-2022]).

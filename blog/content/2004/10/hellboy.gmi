@@ -3,4 +3,4 @@
 
 está muy bien [1]
 
-=> /laspelis/968 [1] está muy bien
+=> ../../laspelis/968 [1] está muy bien

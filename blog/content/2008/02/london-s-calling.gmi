@@ -3,4 +3,4 @@
 
 Con muchísimo retraso, mi visión del Sweeney Todd de Tim Burton [1].
 
-=> /laspelis/1062 [1] mi visión del Sweeney Todd de Tim Burton
+=> ../../laspelis/1062 [1] mi visión del Sweeney Todd de Tim Burton

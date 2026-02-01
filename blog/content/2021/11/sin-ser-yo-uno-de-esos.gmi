@@ -3,8 +3,8 @@
 
 Creo que ya es un poco cliché el tema de los auriculares. Puede que Wirecutter tenga más artículos sobre insertarse aparatos en las orejas que sobre cualquier otro tema. Pero lo cierto es que se usan mucho estos aparatitos y yo ya he caído en el vicio de explicaros mis derroches en el tema:
 
-=> gemini://alex.corcoles.net/2021/04/contra-el-vikingo-del-diente-azul/
-=> gemini://alex.corcoles.net/2018/12/el-futuro-ya-esta-aqui/
+=> ../../2021/04/contra-el-vikingo-del-diente-azul 
+=> ../../2018/12/el-futuro-ya-esta-aqui 
 
 La tercera entrega de esta trilogía viene de los inquietantes Aftershokz. Uno pensaba que no debían quedar muchas más opciones tras "meterse algo en la oreja" y "ponerse algo sobre la oreja", pero resulta ser que los sres. de Aftershokz se han centrado en una tercera vía: "poner algo en el craneo, fuera pero cerca de la oreja". La idea es que así ganamos en comodidad y, aunque no lo parezca, seguimos conectados al mundo- algo que en principio sorprende dada la abundancia de auriculares que pretenden desconectarnos del mundo.
 

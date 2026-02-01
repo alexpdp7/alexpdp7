@@ -62,8 +62,8 @@ En definitiva y resumiendo un poco:
 Para mi, la Classic está muy cerca de ser el móvil ideal. Si BlackBerry se hubiese decidido por una experiencia más Google (usar Android de base, acatar las condiciones de Play Store), probablemente sería casi perfecto. Los otros fallos son la cámara (que es pasable) y la batería no extraíble, que podría no ser problema. No es un móvil para todos los públicos, pero para su público es un móvil excelente. El mayor problema, sin embargo, es el futuro incierto de BlackBerry...
 
 
-=> gemini://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/ 1: gemini://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/
-=> gemini://alex.corcoles.net/2012/07/si-sigo-usando-una-blackberry/ 2: gemini://alex.corcoles.net/2012/07/si-sigo-usando-una-blackberry/
-=> gemini://alex.corcoles.net/2013/12/mi-carta-de-navidad-a-los-reyes/ 3: gemini://alex.corcoles.net/2013/12/mi-carta-de-navidad-a-los-reyes/
-=> gemini://alex.corcoles.net/2014/04/tengo-dos-moviles/ 4: gemini://alex.corcoles.net/2014/04/tengo-dos-moviles/
-=> gemini://alex.corcoles.net/2015/01/igual-deberia-comprarme-una-blackberry-classic/ 5: gemini://alex.corcoles.net/2015/01/igual-deberia-comprarme-una-blackberry-classic/
+=> ../../2011/06/dinosaurios-que-rondan-la-tierra 1: gemini://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/
+=> ../../2012/07/si-sigo-usando-una-blackberry 2: gemini://alex.corcoles.net/2012/07/si-sigo-usando-una-blackberry/
+=> ../../2013/12/mi-carta-de-navidad-a-los-reyes 3: gemini://alex.corcoles.net/2013/12/mi-carta-de-navidad-a-los-reyes/
+=> ../../2014/04/tengo-dos-moviles 4: gemini://alex.corcoles.net/2014/04/tengo-dos-moviles/
+=> ../../2015/01/igual-deberia-comprarme-una-blackberry-classic 5: gemini://alex.corcoles.net/2015/01/igual-deberia-comprarme-una-blackberry-classic/

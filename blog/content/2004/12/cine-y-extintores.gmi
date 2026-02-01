@@ -1,7 +1,7 @@
 # Cine y extintores...
 2004-12-30
 
-=> /laspelis/978 [1] Sky Captain, criticada.
+=> ../../laspelis/978 [1] Sky Captain, criticada.
 
 Ya había visto los extintores Unix [2]. Hoy he visto los extintores Minimax [3]. ¿Hay alguna marca más de extintores "informáticos"?
 

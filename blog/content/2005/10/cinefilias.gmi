@@ -9,7 +9,7 @@ Enganchado por terceros [6], me he puesto un botoncillo a la derecha para medir 
 => http://www.imdb.com/title/tt0108598/ [2] Los Pantalones Equivocados
 => http://www.imdb.com/title/tt0112691/ [3] Un afeitado apurado
 => http://www.imdb.com/title/tt0104361/ [4] A Grand Day Out
-=> /laspelis/1002 [5] Crítica aquí
+=> ../../laspelis/1002 [5] Crítica aquí
 => http://obm.corcoles.net/?p=1487 [6] terceros
 => http://www.imdb.com/top_250_films [7] Top 250 de la IMDB
 => http://twofifty.org/ [8] aquí

@@ -3,7 +3,7 @@
 
 Ya habíamos hablado aquí [1] de pósters motivacionales [2] y demás. En unos foros que frecuento [3] han descubierto [4] un generador automático de estas cosas [5]. Los resultados van de lo disgusting hasta lo obscenamente ofensivo, pero me quedo con 1 [6], 2 [7] y hasta (por motivos personales-históricos) 3 [8].
 
-=> gemini://alex.corcoles.net/2006/07/arte-mural/ [1] Ya habíamos hablado aquí
+=> ../../2006/07/arte-mural [1] Ya habíamos hablado aquí
 => http://eu.art.com/asp/display-asp/_/id--1945/Motivational.htm [2] pósters motivacionales
 => http://episteme.arstechnica.com/eve/forums [3] unos foros que frecuento
 => http://episteme.arstechnica.com/eve/forums/a/tpc/f/34709834/m/124004211831/p/1 [4] han descubierto

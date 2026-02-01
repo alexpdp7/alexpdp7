@@ -9,4 +9,4 @@ y paso después a mostrarles el combustible de los empujateclas:
 
 [‡ caramelos Pez panda, smint y zumo de manzana]
 
-=> gemini://alex.corcoles.net/2007/05/volando-cerca-del-sol/ [1] las cabezas
+=> ../../2007/05/volando-cerca-del-sol [1] las cabezas
