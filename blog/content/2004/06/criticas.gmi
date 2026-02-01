@@ -3,5 +3,5 @@
 
 El Club de la Lucha [1] y Lawrence de Arabia [2].
 
-=> /laspelis/962 [1] El Club de la Lucha
-=> /laspelis/963 [2] Lawrence de Arabia
+=> ../../laspelis/962 [1] El Club de la Lucha
+=> ../../laspelis/963 [2] Lawrence de Arabia

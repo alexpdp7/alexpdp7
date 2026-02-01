@@ -1,5 +1,10 @@
 import dataclasses
 import re
+import textwrap
+
+import htmlgenerator as h
+
+from blog import pretty
 
 
 def parse(s):
@@ -221,3 +226,123 @@ class BlockQuote:
 @dataclasses.dataclass
 class Pre:
     content: str
+
+
+def convert(gemtext, title=None, feed=None):
+    content = parse(gemtext)
+    if not title:
+        title = content[0]
+        assert isinstance(title, Header), title
+        assert title.level == 1
+        title = title.text
+
+    if feed:
+        href, title = feed
+        feed = [
+            h.LINK(
+                rel="alternate",
+                type="application/rss+xml",
+                title=title,
+                href=href,
+            ),
+        ]
+    else:
+        feed = []
+    return pretty.pretty_html(
+        h.render(
+            h.HTML(
+                h.HEAD(
+                    h.TITLE(title),
+                    h.STYLE(
+                        textwrap.dedent("""
+                        :root {
+                            color-scheme: light dark;
+                        }
+                        body {
+                            max-width: 40em;
+                            margin-left: auto;
+                            margin-right: auto;
+                            padding-left: 2em;
+                            padding-right: 2em;
+                        }
+                        p, blockquote, li {
+                            /* from Mozilla reader mode */
+                            line-height: 1.6em;
+                            font-size: 20px;
+                        }
+                        """).lstrip()
+                    ),
+                    *feed,
+                ),
+                h.BODY(
+                    *gemini_to_html(content),
+                ),
+                doctype="html",
+            ),
+            {},
+        )
+    )
+
+
+def gemini_to_html(parsed):  # noqa: C901, PLR0912, PLR0915
+    i = 0
+    result = []
+    while i < len(parsed):
+        gem_element = parsed[i]
+
+        if isinstance(gem_element, Header):
+            header = [h.H1, h.H2, h.H3, h.H4, h.H5, h.H6][gem_element.level - 1]
+            result.append(header(gem_element.text))
+            i = i + 1
+            continue
+
+        if isinstance(gem_element, List):
+            result.append(h.UL(*[h.LI(i.text) for i in gem_element.items]))
+            i = i + 1
+            continue
+
+        if isinstance(gem_element, Link):
+            url = gem_element.url
+            if url.startswith("gemini://"):
+                url = url.replace("gemini://", "https://portal.mozz.us/gemini/")
+
+            result.append(h.P(h.A(gem_element.text or gem_element.url, href=url)))
+            i = i + 1
+            continue
+
+        if gem_element == Line(""):
+            i = i + 1
+            continue
+
+        if isinstance(gem_element, BlockQuote):
+            content = []
+            for line in gem_element.lines:
+                if line.text:
+                    content.append(line.text)
+                content.append(h.BR())
+            result.append(h.BLOCKQUOTE(*content))
+            i = i + 1
+            continue
+
+        if isinstance(gem_element, Line):
+            paragraph = [gem_element.text]
+            i = i + 1
+            while i < len(parsed):
+                gem_element = parsed[i]
+                if isinstance(gem_element, Line) and gem_element.text != "":
+                    paragraph.append(h.BR())
+                    paragraph.append(gem_element.text)
+                    i = i + 1
+                else:
+                    break
+            result.append(h.P(*paragraph))
+            continue
+
+        if isinstance(gem_element, Pre):
+            result.append(h.PRE(gem_element.content))
+            i = i + 1
+            continue
+
+        assert False, f"unknown element {gem_element}"
+
+    return result

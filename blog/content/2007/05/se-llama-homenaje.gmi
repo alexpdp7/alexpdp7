@@ -4,4 +4,4 @@
 Me pasan un anuncio [1] que podría ser la continuación, fusilada o parodia de lo mencionado en este post anterior [2].
 
 => https://youtube.com/watch?v=E3B__ovj2jU [1] un anuncio
-=> gemini://alex.corcoles.net/2007/03/high-in-the-charts/ [2] este post anterior
+=> ../../2007/03/high-in-the-charts [2] este post anterior

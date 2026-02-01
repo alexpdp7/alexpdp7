@@ -18,7 +18,7 @@ Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar es
 * [Resúmenes de libros](cliffs_notes/), aunque la verdad no hay mucho.
 * [Alguna cosilla de ficción que he escrito](fiction_writing/)
 * [Mi blog personal](blog/), que podéis ver más fácilmente en https://alex.corcoles.net/ (y en Gemini, aunque por algún motivo no puedo enlazar a Gemini con el Markdown de GitHub).
-  Podéis enviar cambios para correcciones y demás, pero en verdad es más fácil ir al artículo en el blog y darle a "editar" al final de la página.
+  Podéis enviar cambios para correcciones y demás.
 
 ## Contents of this repo
 

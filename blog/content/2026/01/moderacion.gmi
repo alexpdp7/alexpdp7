@@ -9,7 +9,7 @@ Obviamente los problemas humanos complejos jamás tienen una solución técnica 
 
 Lo que me lleva a un tema del que buscando irónicamente encuentro muchos toots en mi cuenta de microblogging, pero del que sólo encuentro en este blog este post un poco opaco:
 
-=> gemini://alex.corcoles.net/2025/03/viajar-en-el-tiempo-a-2006-para-comerle-la-cabeza-a-jack/ Viajar en el tiempo a 2006 para comerle la cabeza a Jack
+=> ../../2025/03/viajar-en-el-tiempo-a-2006-para-comerle-la-cabeza-a-jack Viajar en el tiempo a 2006 para comerle la cabeza a Jack
 
 Y es que cada vez pienso más que el microblogging fue un error. Nunca antes de Twitter existió un mecanismo diseñado para maximizar la difusión de nuestros comentarios personales. ¿Para qué sirve esto? Antes seleccionábamos a quién llegaban nuestros comentarios personales. Quizá alguien podría reproducirlos, pero no era común y si sucedía en contra de nuestra voluntad, teníamos cierto control de que al menos no se repitiese.
 

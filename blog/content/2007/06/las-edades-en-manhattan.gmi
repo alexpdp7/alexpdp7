@@ -6,4 +6,4 @@ Me hago viejo. He tenido doble oportunidad de ver Cerdos Salvajes [1] por partid
 Sin embargo, si tuve tiempo para criticar a la pequeña Miss Sunshine [2].
 
 => http://www.imdb.com/title/tt0486946/ [1] Cerdos Salvajes
-=> /laspelis/1052 [2] criticar a la pequeña Miss Sunshine
+=> ../../laspelis/1052 [2] criticar a la pequeña Miss Sunshine

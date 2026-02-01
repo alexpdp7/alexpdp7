@@ -3,4 +3,4 @@
 
 Geriátricos orbitales criticados [1].
 
-=> /laspelis/1038 [1] Geriátricos orbitales criticados
+=> ../../laspelis/1038 [1] Geriátricos orbitales criticados

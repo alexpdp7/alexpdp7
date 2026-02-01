@@ -3,4 +3,4 @@
 
 Au hasard Balthazar [1]
 
-=> /laspelis/1054 [1] Au hasard Balthazar
+=> ../../laspelis/1054 [1] Au hasard Balthazar

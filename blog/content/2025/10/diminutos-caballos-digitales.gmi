@@ -3,8 +3,8 @@
 
 Otro de mis monotemas es el correo electrónico. Revisando el blog podemos encontrar:
 
-=> gemini://alex.corcoles.net/2011/04/como-un-maldito-replicante/ Sobre cómo en 2011 unifiqué mi correo en Google Workspace.
-=> gemini://alex.corcoles.net/2020/11/sagrada-correspondencia/ Para en 2020 darme cuenta de que quizá necesitaba una copia de seguridad.
+=> ../../2011/04/como-un-maldito-replicante Sobre cómo en 2011 unifiqué mi correo en Google Workspace.
+=> ../../2020/11/sagrada-correspondencia Para en 2020 darme cuenta de que quizá necesitaba una copia de seguridad.
 
 , que es menos de lo que esperaba, ya que el correo electrónico es una pieza clave de Internet, y uno de los máximos exponentes de por qué los protocolos abiertos son importantes. Con lo que, por supuesto, me obsesiona.
 

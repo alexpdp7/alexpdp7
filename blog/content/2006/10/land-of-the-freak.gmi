@@ -10,11 +10,11 @@ Comencemos con ironía, justicia divina... como quieran llamarlo:
 [‡ grúa llevándose un coche...] [‡ con el logo del Need For Speed: Most Wanted]
 
 => http://www.cinemasitges.com/ [1] Sitges 2006
-=> /laspelis/1031 [2] una el sábado
-=> /laspelis/1032 [3] cuatro el domingo
+=> ../../laspelis/1031 [2] una el sábado
+=> ../../laspelis/1032 [3] cuatro el domingo
 => http://eucaliptus.ath.cx/~alex/gallery/view.php?fileName=/2006%20-%20Sitges/Imagen000.jpg&fixedHeight=500 [4] resultado que cabía esperar
 => http://eucaliptus.ath.cx/~alex/gallery/?path=/2006%20-%20Sitges [5] unas cuantas fotos
-=> gemini://alex.corcoles.net/2006/10/computer-computer/ [6] móvil nuevo
+=> ../../2006/10/computer-computer [6] móvil nuevo
 
 Luego contemplamos el retorno disimulado de unos invasores...
 

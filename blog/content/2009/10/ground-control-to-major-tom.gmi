@@ -3,4 +3,4 @@
 
 Vimos Moon [1]
 
-=> /laspelis/1073 [1] Moon
+=> ../../laspelis/1073 [1] Moon

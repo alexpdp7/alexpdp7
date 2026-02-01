@@ -3,5 +3,5 @@
 
 Angus [1] y Ice Age 2: El Deshielo [2]
 
-=> /laspelis/1012 [1] Angus
-=> /laspelis/1013 [2] Ice Age 2: El Deshielo
+=> ../../laspelis/1012 [1] Angus
+=> ../../laspelis/1013 [2] Ice Age 2: El Deshielo

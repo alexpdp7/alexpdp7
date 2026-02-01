@@ -27,5 +27,5 @@ La próxima programación del Méliès [11] no me llama demasiado, pero claro, e
 P.D.: ya mencioné [12] la nueva sala "culta" de Barnacity. Al parecer al menos ya tienen dominio [13], aunque parece que su web está en construcción todavia.
 
 => http://cinesmelies.net/programacio.asp [11] Méliès
-=> gemini://alex.corcoles.net/2005/10/nueva-sala-de-reestrenos/ [12] mencioné
+=> ../../2005/10/nueva-sala-de-reestrenos [12] mencioné
 => http://www.scope-web.com/ [13] dominio

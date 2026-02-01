@@ -4,4 +4,4 @@
 Number six, number six, number six. Number six with a smile. Probablemente un documental en el que se supere a aquel matemático que abrió un documental ordeñando una vaca (mediante una entrevista a un aludido durante una visita al dentista), o la cinta que nos desvele el secreto del genio, o quizás dos horas muy entrenenidas y boquiabridoras. The Devil and Daniel Johnston [1]. Criticamos [2].
 
 => http://www.imdb.com/title/tt0436231 [1] The Devil and Daniel Johnston
-=> /laspelis/1036 [2] Criticamos
+=> ../../laspelis/1036 [2] Criticamos

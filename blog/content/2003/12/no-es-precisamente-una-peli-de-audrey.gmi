@@ -3,4 +3,4 @@
 
 y también, Mystic River [1]...
 
-=> /laspelis/953 [1] Mystic River
+=> ../../laspelis/953 [1] Mystic River

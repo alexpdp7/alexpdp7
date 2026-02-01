@@ -3,4 +3,4 @@
 
 Arrepentíos, haced penitencia o lo que sea. Tenemos nuevo clásico de la ciencia ficción [1].
 
-=> /laspelis/1037 [1] Tenemos nuevo clásico de la ciencia ficción
+=> ../../laspelis/1037 [1] Tenemos nuevo clásico de la ciencia ficción

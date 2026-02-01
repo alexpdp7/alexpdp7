@@ -6,4 +6,4 @@ Me hacen llegar esta hilarante reflexión sobre Pachelbel y progresiones de acor
 => https://youtube.com/watch?v=OGM7PsXGkgg [1] hilarante reflexión sobre Pachelbel y progresiones de acordes
 => http://members.optusnet.com.au/pennywyatt/Interests/Tripod/Miscellaneous/Miscellaneous02.html [2] Oasis Medley
 => http://www.3pod.com.au/ [3] Tripod
-=> gemini://alex.corcoles.net/2006/01/it-s-tripod/ [4] mencionamos anteriormente
+=> ../../2006/01/it-s-tripod [4] mencionamos anteriormente

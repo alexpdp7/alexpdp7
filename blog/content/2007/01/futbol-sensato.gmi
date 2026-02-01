@@ -7,7 +7,7 @@ El Sensible Soccer [2] es el mejor videojuego de todos los tiempos.
 
 Quizás es un poco atrevido, pero da gusto leerlo. Y oye, el hecho de que un videojuego con 15 años de edad (¡15!) siga siendo la bomba, como mínimo es destacable.
 
-=> gemini://alex.corcoles.net/2006/05/jubilo-clasico-teaser/ [1] revivir momentos clave de nuestra vida
+=> ../../2006/05/jubilo-clasico-teaser [1] revivir momentos clave de nuestra vida
 => http://en.wikipedia.org/wiki/Sensible_Soccer [2] Sensible Soccer
 
 El Sensi, que por sus características parece más un entrenamiento de monje shaolín que un entretenimiento es uno de los más claros ejemplos de ideas sencillas ejecutadas a la perfección. 22 seres de menos de 100 píxels cuadrados cada uno (más un arbitro ocasionalmente), una pelota microscópica y un campo bastante extenso son unos ingredientes básicos con los que se logra un entretenimiento prácticamente perfecto.

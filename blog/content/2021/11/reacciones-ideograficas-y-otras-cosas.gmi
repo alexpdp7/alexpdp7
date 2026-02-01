@@ -24,7 +24,7 @@ Aparte de su catálogo sorprendente y distinto, otra idea fantástica es que Pri
 
 Ya sabéis que yo soy anti-Apple[1]. Pero su anuncio sobre reparabilidad[2] les hizo subir bastantes puntos a mis ojos (intentaré seguirme alejado de sus productos, pero algo es algo). Pero aquí explican un poco que igual les estaban poniendo una pistola en la sien[3]. Aun así, bien por Apple.
 
-=> gemini://alex.corcoles.net/2015/12/por-que-no-uso-productos-apple/ [1] Por qué no uso productos Apple
+=> ../../2015/12/por-que-no-uso-productos-apple [1] Por qué no uso productos Apple
 => https://www.apple.com/newsroom/2021/11/apple-announces-self-service-repair/ [2] Apple announces Self Service Repair
 => https://www.theverge.com/2021/11/17/22787336/apple-right-to-repair-self-service-diy-reason-microsoft [3] The shareholder fight that forced Apple’s hand on repair rights
 

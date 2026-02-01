@@ -3,6 +3,6 @@
 
 ... María Antonieta [1], Hero [2] y Match Point [3].
 
-=> /laspelis/1044 [1] María Antonieta
-=> /laspelis/1045 [2] Hero
-=> /laspelis/1046 [3] Match Point
+=> ../../laspelis/1044 [1] María Antonieta
+=> ../../laspelis/1045 [2] Hero
+=> ../../laspelis/1046 [3] Match Point

@@ -3,4 +3,4 @@
 
 Padecida, criticada [1]
 
-=> /laspelis/966 [1] Padecida, criticada
+=> ../../laspelis/966 [1] Padecida, criticada

@@ -3,4 +3,4 @@
 
 Vedla, malditos [1]
 
-=> /laspelis/981 [1] Vedla, malditos
+=> ../../laspelis/981 [1] Vedla, malditos

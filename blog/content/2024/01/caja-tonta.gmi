@@ -9,16 +9,16 @@ Voy a "ignorar" los descarriles. Pocas series de Marvel tienen más de ocho epis
 
 Las imprescindibles:
 
-=> gemini://alex.corcoles.net/2022/07/senorita-maravilla/ Ms. Marvel
-=> gemini://alex.corcoles.net/2019/07/jessica-jones-y-sus-fabulosos-amigos/ Jessica Jones
-=> gemini://alex.corcoles.net/2017/12/senor-que-castigo/ The Punisher
+=> ../../2022/07/senorita-maravilla Ms. Marvel
+=> ../../2019/07/jessica-jones-y-sus-fabulosos-amigos Jessica Jones
+=> ../../2017/12/senor-que-castigo The Punisher
 
 No me hagáis decidir entre estas tres. Hasta estos años recientes, JJ superaba un poquito a Gruñisher, pero vinieron tiempos oscuros donde no apetecía tanta oscuridad, que vino Iman Vellani y su oleada de positivismo y... nos dio lo que necesitábamos en estos momentos.
 
 Las que sorprenden:
 
-=> gemini://alex.corcoles.net/2021/07/el-pajaro-loco/ Loki
-=> gemini://alex.corcoles.net/2022/10/injuriosos-a-la-bandera/ She-Hulk: Attorney at Law
+=> ../../2021/07/el-pajaro-loco Loki
+=> ../../2022/10/injuriosos-a-la-bandera She-Hulk: Attorney at Law
 What If...?
 
 Tom Hiddleston tiene encanto que le permite sostener Loki contra viento y marea. Y claro, tiene ese episodio (el de Richard E. Grant) que conjuga todos los elementos que funcionan de la serie en 49 minutos brillantes.
@@ -30,7 +30,7 @@ Por último, What If...? es otro recurso de la Marvel que se aprovecha muy bien 
 Los pequeños placeres:
 
 Hawkeye
-=> gemini://alex.corcoles.net/2017/09/los-dan-defensores/ Luke Cage
+=> ../../2017/09/los-dan-defensores Luke Cage
 
 Jeremy Renner como Ojo de Halcón era una presencia constante, efectiva aunque más bien anodina, en las pelis con Los Vengadores. Aquí, pasa la antorcha (o el arco) a una espléndida Hailee Steinfeld (Spidergwen en los despiporres animados de Spider-man), para conseguir un clásico navideño que si no bien del calibre de La Jungla de Cristal, resulta muy deleitable gracias a los mafiosos en chándal, la aparición estelar de Tony Dalton (Lalo en Better Call Saul, al que yo me refiero cariñosa y casualmente como Spider-lalo) y pinceladas de Kingpin, otra Viuda, y a la Echo que debería estar viendo en vez de escribir esto.
 
@@ -47,9 +47,9 @@ El arranque retrocatódico de Wandavision compite con los atemporales... ¿70? d
 
 Las que se dejan ver:
 
-=> gemini://alex.corcoles.net/2021/11/desde-la-medina-por-la-medina/ Agent Carter
-=> gemini://alex.corcoles.net/2017/09/los-dan-defensores/ Daredevil
-=> gemini://alex.corcoles.net/2020/08/la-agencia-maravillas/ Agents of S.H.I.E.L.D
+=> ../../2021/11/desde-la-medina-por-la-medina Agent Carter
+=> ../../2017/09/los-dan-defensores Daredevil
+=> ../../2020/08/la-agencia-maravillas Agents of S.H.I.E.L.D
 
 Las dos series sobre S.H.I.E.L.D son bastante distintas, pero ambas cuentan con algún elemento que las hace entretenidas.
 
@@ -62,9 +62,9 @@ Las que mejor no ver:
 Secret Invasion
 Moon Knight
 Runaways
-=> gemini://alex.corcoles.net/2017/09/los-dan-defensores/ The Defenders
+=> ../../2017/09/los-dan-defensores The Defenders
 Cloak & Dagger
-=> gemini://alex.corcoles.net/2017/09/los-dan-defensores/ Iron Fist
+=> ../../2017/09/los-dan-defensores Iron Fist
 Inhumans
 
 Secret Invasion lamentablemente demuestra que S.H.I.E.L.D no lo puede arreglar todo, todo y todo, ni con la presencia de la agente Robin Sparkles, ni con la memorable aparición estelar de Olivia Colman. Samuel L. Jackson derrumba un poco todo lo que había conseguido en otras partes, lamentablemente. Por el mismo lado va Moon Knight, que a pesar de alguna bizarría y el molonismo de (no me estoy inventando nada) la Escarabaja Escarlata, tiene suficientes descarrilamientos como para superar las proezas recientes en las inmediaciones de la estación de Atocha.

@@ -7,4 +7,4 @@ Mi hermano escribe sobre Halt and Catch Fire. Yo dije la mía sobre el tema por 
 
 
 => http://informatica.blogs.uoc.edu/2020/07/28/halt-and-catch-fire/ 1: http://informatica.blogs.uoc.edu/2020/07/28/halt-and-catch-fire/
-=> gemini://alex.corcoles.net/2017/10/los-adorables-perturbados-que-me-leen-la-mente-mientras-duermo/ 2: gemini://alex.corcoles.net/2017/10/los-adorables-perturbados-que-me-leen-la-mente-mientras-duermo/
+=> ../../2017/10/los-adorables-perturbados-que-me-leen-la-mente-mientras-duermo 2: gemini://alex.corcoles.net/2017/10/los-adorables-perturbados-que-me-leen-la-mente-mientras-duermo/

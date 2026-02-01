@@ -29,8 +29,8 @@ La peli de Taika Waititi de 2014 (a su vez basada en un corto del mismo) da pie 
 
 Tras Aeon Flux[1] y Sigue Soñando[2], mi afán revisionista me ha llevado a Gargoyles, que no recuerdo ver asiduamente en su momento (mediados de los noventa). Gargoyles es una serie que ganó un seguimiento de culto, y que incluso pudo haber dado pie a una peli de acción "para adultos"[3]. La verdad es que sorprende el atrevimiento de una serie de Disney de esa época con sus villanos con ambigüedades morales, conflictos multilaterales y el ciberespacio; aunque también episodios muy especiales y... sigue siendo una serie de dibujos animados para jóvenes adultos, con lo que por momentos se echa en falta "un poco más". A destacar que yo creo que los guionistas, aparte de ser fans de Star Trek (la mitad del reparto viene de TNG), también parece que sean tan fans como servidor de Los Inmortales (la peli una década anterior a la serie).
 
-=> gemini://alex.corcoles.net/2021/11/desde-la-medina-por-la-medina/ [1] Reseñas en batiburrillo, Aeon Flux es la última
-=> gemini://alex.corcoles.net/2021/05/en-pijama/ [2] Mi reseña de Sigue Soñando
+=> ../../2021/11/desde-la-medina-por-la-medina [1] Reseñas en batiburrillo, Aeon Flux es la última
+=> ../../2021/05/en-pijama [2] Mi reseña de Sigue Soñando
 => https://www.polygon.com/movies/22436088/gargoyles-movie-live-action-90s-script [3] Sobre la posible peli de Gargoyles que os mencioné hace poco
 
 ### Shang-Chi

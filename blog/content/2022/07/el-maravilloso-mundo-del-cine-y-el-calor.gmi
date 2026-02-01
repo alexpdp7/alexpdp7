@@ -9,7 +9,7 @@ Como no puedo dormir por el calor y antes me han sonsacado esto, os clasifico la
 
 Iron Man: no es sólo porque fue la primera y fue la que lo tenía más difícil, es porque hasta que llegó Iman Vellani[1], encontraron en Robert Downey Jr. al puñetero Tony Stark en carne y hueso. Además es una peli divertida y sin pretensiones, y aunque es el debut de muchos, es especialmente el debut del Agente Coulson y los impecablemente trajeados agentes de S.H.I.E.L.D.
 
-=> gemini://alex.corcoles.net/2022/06/sigue-la-escasez/ [1] Aquí sobre Kamala
+=> ../../2022/06/sigue-la-escasez [1] Aquí sobre Kamala
 
 Doctor Strange: yo creo que supera levemente a la siguiente de esta lista con los mejores y más imaginativos efectos especiales del MCU. El resto está muy bien, pero el homenaje a la estética psicotrónica Marvel de cierta época es una gozada que la catapulta por encima de su irregular segunda parte.
 
@@ -17,7 +17,7 @@ Ant-Man: y esta otra no es sólo que aproveche el filón de uno de los superhér
 
 Black Panther: a pesar de que el tristemente desaparecido Chadwick Boseman es de lo más flojillo de la cinta, ya os expliqué[1] que una peli donde salen Angela Bassett y Forest Whitaker y no destacan tiene algo. Precisamente un Michael B. Jordan absolutamente espectacular como el villano Killmonger y las Dora Milaje, yo creo que lo más molón del MCU.
 
-=> gemini://alex.corcoles.net/2018/03/wakanda-tours/ [1] Mi reseña completa sobre Wakanda Forever
+=> ../../2018/03/wakanda-tours [1] Mi reseña completa sobre Wakanda Forever
 
 Guardians of the Galaxy: poner a un tromado de la Troma al mando de un equipo cara B de Marvel que incluye a un mapache armado hasta los dientes sólo podía salir... ¡muy bien! Cachonda, impecable y con esas referencias culturales que hacen imposible que no te guste, hace que hasta un acérrimo anti tema galáctico Marvel como un servidor se rinda.
 

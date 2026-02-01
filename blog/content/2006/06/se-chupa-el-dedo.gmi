@@ -3,4 +3,4 @@
 
 (Esta vez sí) criticamos Thumbsucker [1].
 
-=> /laspelis/1022 [1] criticamos Thumbsucker
+=> ../../laspelis/1022 [1] criticamos Thumbsucker

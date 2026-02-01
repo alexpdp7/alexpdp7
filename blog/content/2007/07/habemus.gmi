@@ -4,4 +4,4 @@
 Pirámide [1] (véase [2])
 
 => http://video.google.com/videoplay?docid=1684746020072516833 [1] Pirámide
-=> gemini://alex.corcoles.net/2006/07/obras-faraonicas/ [2] véase
+=> ../../2006/07/obras-faraonicas [2] véase

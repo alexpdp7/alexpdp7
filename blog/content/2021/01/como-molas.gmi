@@ -26,4 +26,4 @@ Otro punto interesante es la cantidad de secretos y detalles que oculta el juego
 Creo que Control fue el gran pelotazo de 2019, con mogollón de premios y reconocimiento, con los que desde luego estoy bastante de acuerdo. Muy recomendable para los que gusten de los juegos de acción de tiros.
 
 
-=> gemini://alex.corcoles.net/2020/11/si-los-fanfarrones-volasen/ 1: gemini://alex.corcoles.net/2020/11/si-los-fanfarrones-volasen/
+=> ../../2020/11/si-los-fanfarrones-volasen 1: gemini://alex.corcoles.net/2020/11/si-los-fanfarrones-volasen/

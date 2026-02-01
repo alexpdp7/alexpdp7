@@ -22,4 +22,4 @@ Para una criatura de mi época, este es un gancho absolutamente irresistible y p
 Mis queridos Chrises, que sé que me leeréis la mollera cuando me acueste esta noche, hacedme otra serie, por favor.
 
 
-=> gemini://alex.corcoles.net/2014/12/detente-y-prendete-fuego/ 1: gemini://alex.corcoles.net/2014/12/detente-y-prendete-fuego/
+=> ../../2014/12/detente-y-prendete-fuego 1: gemini://alex.corcoles.net/2014/12/detente-y-prendete-fuego/

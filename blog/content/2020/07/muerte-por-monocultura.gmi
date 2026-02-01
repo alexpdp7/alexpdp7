@@ -15,5 +15,5 @@ Quizá el fediverso, la IndieWeb o lo que sea esta semana aún no están listos 
 
 (1) ¿Qué le da más insomnio a Zuck? ¿Los monstruos gigantes pero lentos que son los gobiernos o que Coca-Cola decida retirar su publicidad de Facebook?[2]
 
-=> gemini://alex.corcoles.net/2020/07/noticiarios-y-documentales/ 1: gemini://alex.corcoles.net/2020/07/noticiarios-y-documentales/
+=> ../../2020/07/noticiarios-y-documentales 1: gemini://alex.corcoles.net/2020/07/noticiarios-y-documentales/
 => https://www.theverge.com/21307454/unilever-verizon-coca-cola-starbucks-microsoft-ads-facebook 2: https://www.theverge.com/21307454/unilever-verizon-coca-cola-starbucks-microsoft-ads-facebook

@@ -27,6 +27,6 @@ Bola extra: aquí un artículo sobre un soporte histórico, desconocido para mí
 => https://youtube-dl.org/ 1: https://youtube-dl.org/
 => https://newpipe.schabi.org/ 2: https://newpipe.schabi.org/
 => https://f-droid.org/ 3: https://f-droid.org/
-=> gemini://alex.corcoles.net/2020/11/sagrada-correspondencia/ 4: gemini://alex.corcoles.net/2020/11/sagrada-correspondencia/
+=> ../../2020/11/sagrada-correspondencia 4: gemini://alex.corcoles.net/2020/11/sagrada-correspondencia/
 => https://github.com/iv-org/invidious/wiki/Invidious-Instances 5: https://github.com/iv-org/invidious/wiki/Invidious-Instances
 => https://gizmodo.com/i-miss-videodiscs-the-fragile-garbage-that-shaped-my-c-1845700764 6: https://gizmodo.com/i-miss-videodiscs-the-fragile-garbage-that-shaped-my-c-1845700764

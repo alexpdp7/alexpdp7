@@ -5,7 +5,7 @@ Siguiendo con la tónica [1], uno ya sabía que los suplementos de los juegos de
 
 Pero esta noticia [4] del Tío Oso [5] es aún más sorprendente: al parecer Barnes and Noble [6] ha clasificado un suplemento sobre Nueva York cthulhiano como "Historia Americana'.
 
-=> gemini://alex.corcoles.net/2006/05/cinema-history-x/ [1] la tónica
+=> ../../2006/05/cinema-history-x [1] la tónica
 => http://paizo.com/store/brand/cyberpunk/v5748btpy7ayx [2] Pacific Rim Sourcebook
 => http://www.talsorian.com/cpindex.shtml [3] Cyberpunk 2020
 => http://unclebear.com/comments.php?id=P2681_0_1_0 [4] esta noticia

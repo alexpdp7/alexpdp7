@@ -3,4 +3,4 @@
 
 Ayer me fuí a ver Zatoichi. En tres palabras, im-presionante, masajista [1].
 
-=> /laspelis/955 [1] im-presionante, masajista
+=> ../../laspelis/955 [1] im-presionante, masajista

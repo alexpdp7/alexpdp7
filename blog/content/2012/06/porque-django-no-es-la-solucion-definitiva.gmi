@@ -37,4 +37,4 @@ A un nivel más profundo, el código de Django no es muy amigable a la extensió
 Pese a todos estos puntos, sigo pensando que el admin de Django es realmente algo único que nos puede ahorrar muchísimo trabajo y proporcionar un resultado de gran calidad para muchos, muchísimos proyectos. Pero aún es mejorable- y con unas pocas mejoras localizadas podría mejorar muchísimo.
 
 
-=> gemini://alex.corcoles.net/2011/01/django-o-la-fabrica-de-churros/ 1: gemini://alex.corcoles.net/2011/01/django-o-la-fabrica-de-churros/
+=> ../../2011/01/django-o-la-fabrica-de-churros 1: gemini://alex.corcoles.net/2011/01/django-o-la-fabrica-de-churros/

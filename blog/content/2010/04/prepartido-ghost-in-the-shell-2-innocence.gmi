@@ -4,4 +4,4 @@
 Vimos y criticamos Ghost in the Shell 2[1].
 
 
-=> /laspelis/1077 1: /laspelis/1077
+=> ../../laspelis/1077 1: /laspelis/1077

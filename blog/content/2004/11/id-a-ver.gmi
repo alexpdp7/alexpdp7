@@ -3,4 +3,4 @@
 
 Shaun of the Dead [1]
 
-=> /laspelis/972 [1] Shaun of the Dead
+=> ../../laspelis/972 [1] Shaun of the Dead

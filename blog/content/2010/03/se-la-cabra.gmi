@@ -3,4 +3,4 @@
 
 Las miramos, sí [1].
 
-=> /laspelis/1074 [1] Las miramos, sí
+=> ../../laspelis/1074 [1] Las miramos, sí

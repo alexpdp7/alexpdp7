@@ -1,7 +1,7 @@
 # The Bangle.js 2
 2025-01-04
 
-=> gemini://alex.corcoles.net/2024/08/tu-transportas/ Mencioné anteriormente que entre otras cosas, en agosto me compré un Bangle.js 2.
+=> ../../2024/08/tu-transportas Mencioné anteriormente que entre otras cosas, en agosto me compré un Bangle.js 2.
 
 Mi intención era apoyar un reloj inteligente más "abierto" y quizá trastear un poco.
 

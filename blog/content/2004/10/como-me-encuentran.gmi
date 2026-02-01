@@ -5,5 +5,5 @@ Segúnmis logs, la gente me encuentra en Google buscando principalmente eucalipt
 
 Los caminos de la red son inescrutables, hermanos.
 
-=> gemini://alex.corcoles.net/2004/04/como-fabricar-una-steadycam/ [1] steady cams
-=> gemini://alex.corcoles.net/2004/05/buscando/ [2] Jesucristo Cazavampiros
+=> ../../2004/04/como-fabricar-una-steadycam [1] steady cams
+=> ../../2004/05/buscando [2] Jesucristo Cazavampiros

@@ -21,5 +21,5 @@ A Dominique Thorne le toca ser la desaprovechada en esta entrega, como Ironheart
 
 En fin, quizá a la peli le sobre media hora de sus casi tres horas. Pero las Dora Milaje cumplen, y con eso a mí me basta.
 
-=> gemini://alex.corcoles.net/2018/03/wakanda-tours/ [1] Mi crítica de Black Panther 1.
-=> gemini://alex.corcoles.net/2022/10/y-yo-te-traigo-el-m-c-u [2] Mi sesuda clasificación del MCU
+=> ../../2018/03/wakanda-tours [1] Mi crítica de Black Panther 1.
+=> ../../2022/10/y-yo-te-traigo-el-m-c-u [2] Mi sesuda clasificación del MCU

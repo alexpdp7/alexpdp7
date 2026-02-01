@@ -34,6 +34,6 @@ Una vez aquí, tenemos que ser capaces de:
 Con estos puntos cubierto, podemos dar un servicio que, pese a no ser completamente profesional, sin un uptime perfecto y sin redundancias, puede ser más que adecuado para la mayoría de los propósitos.
 
 
-=> gemini://alex.corcoles.net/2012/03/la-guia-del-autoestopista-galactico-a-la-administracion-de-sistemas-i/ 1: gemini://alex.corcoles.net/2012/03/la-guia-del-autoestopista-galactico-a-la-administracion-de-sistemas-i/
+=> ../../2012/03/la-guia-del-autoestopista-galactico-a-la-administracion-de-sistemas-i 1: gemini://alex.corcoles.net/2012/03/la-guia-del-autoestopista-galactico-a-la-administracion-de-sistemas-i/
 => https://www.virtualbox.org/ 2: https://www.virtualbox.org/
 => http://www.redmine.org/ 3: http://www.redmine.org/

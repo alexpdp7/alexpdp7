@@ -21,4 +21,4 @@ Además, la ergonomía no se limita al teclado. El trackpad es superior a la pan
 Por supuesto, si existiese un Android (e incluso un iOS, pero lo veo menos probable que suceda) con teclado y touchpad, que los aprovechase bien (i.e. que las aplicaciones y el sistema operativo tengan atajos de teclado y sean navegables por touchpad), cuya batería aguantase y que no tuviera serias incompatibilidades... Pues probablemente no dudaría en cambiar, pero de momento, sólo hay un fabricante que se dedica a este segmento; segmento que cada vez parece más pequeño y que me temo que acabe desapareciendo...
 
 
-=> gemini://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/ 1: gemini://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/
+=> ../../2011/06/dinosaurios-que-rondan-la-tierra 1: gemini://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/
