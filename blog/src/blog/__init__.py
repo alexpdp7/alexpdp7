@@ -83,9 +83,10 @@ def build(from_: pathlib.Path, to: pathlib.Path):
     to.mkdir(parents=True, exist_ok=False)
     shutil.copytree(from_, to, dirs_exist_ok=True)
 
-    dated_entries = [b for b in to.glob("**/*.gmi") if re.match(r"\d{4}-\d{2}-\d{2}", b.read_text().splitlines()[1])]
-    dated_entries.sort()
+    dated_entries = [(b, b.read_text().splitlines()[1]) for b in to.glob("**/*.gmi") if re.match(r"\d{4}-\d{2}-\d{2}", b.read_text().splitlines()[1])]
+    dated_entries.sort(key=lambda t: t[1])
     dated_entries.reverse()
+    dated_entries = [t[0] for t in dated_entries]
 
     # Generate index.gmi
     index = textwrap.dedent(f"""
