@@ -1,0 +1,12 @@
+---
+- Rule:
+  - Test: [thumb_wheel_up, 10]
+  - KeyPress:
+    - XF86_AudioRaiseVolume
+    - click
+- Rule:
+  - Test: [thumb_wheel_down, 10]
+  - KeyPress:
+    - XF86_AudioLowerVolume
+    - click
+  
