@@ -300,6 +300,7 @@ See also [[TOOLS.org][tools I use]].
    - https://github.com/benbusby/farside
    - https://github.com/timhutton/twitter-archive-parser
    - https://rss-parrot.net/ RSS to ActivityPub
+   - https://github.com/prsai/irgramd Another Telegram <-> IRC bridge
 * Hardware
   - https://junkerhq.net/xrgb/index.php/OSSC - The Open Source Scan Converter is a low-latency video digitizer and scan converter designed primarily for connecting retro video game consoles and home computers to modern displays.
   - https://openterface.com/ - Adds KVM capabilities to a laptop.
