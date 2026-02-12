@@ -23,6 +23,12 @@ This text is long, and just reading and processing it might take more time than 
 The alternatives I describe certainly have drawbacks compared to the services I am asking you to avoid.
 However, in the long run I think making an extra effort to make an informed choice pays off.
 
+## A quick litmus test
+
+If you only thing about a single thing, then think about this: how many independent clients are for this communication channel?
+
+How tightly the people behind the channel control clients is a good indicator of how much they want to maximize profits.
+
 ## Alternatives
 
 ### Instant messaging
