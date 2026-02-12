@@ -90,6 +90,20 @@ Interesting projects:
 * https://halloy.chat/ (Graphical desktop client)
 * https://git.sr.ht/~delthas/senpai (Terminal client)
 
+#### XMPP
+
+XMPP is younger than IRC, but older than Matrix.
+Compared to Matrix:
+
+* End-to-end encryption and audio/video conferencing is possible with XMPP, but in practice it can be difficult to access these features.
+
+* There's more XMPP clients than Matrix clients, but it is also hard to find clients that support all the features you need on different platforms.
+
+For some scenarios, if you find the right combination of XMPP server and clients, XMPP can be a great option.
+
+Historically, XMPP was not well-suited to mobile usage.
+Nowadays, mobile usage is better, but finding the right clients to use is still a challenge.
+
 #### Matrix
 
 Matrix is a more modern chat protocol that addresses some of the drawbacks of IRC:
@@ -112,20 +126,6 @@ But also some disadvantages compared to IRC:
 
 * There are fewer clients and tools, and generally they are more complex, more resource intensive, and less featureful.
   (And not all clients support all features.)
-
-#### XMPP
-
-XMPP is younger than IRC, but older than Matrix.
-Compared to Matrix:
-
-* End-to-end encryption and audio/video conferencing is possible with XMPP, but in practice it can be difficult to access these features.
-
-* There's more XMPP clients than Matrix clients, but it is also hard to find clients that support all the features you need on different platforms.
-
-For some scenarios, if you find the right combination of XMPP server and clients, XMPP can be a great option.
-
-Historically, XMPP was not well-suited to mobile usage.
-Nowadays, mobile usage is better, but finding the right clients to use is still a challenge.
 
 #### Other instant messaging alternatives to consider
 
