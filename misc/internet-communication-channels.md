@@ -90,6 +90,15 @@ Interesting projects:
 * https://halloy.chat/ (Graphical desktop client)
 * https://git.sr.ht/~delthas/senpai (Terminal client)
 
+### Delta Chat
+
+Delta Chat is an instant messaging system that tries to be very similar to the most popular instant messaging systems.
+
+However, there are multiple clients and anyone can run a server.
+
+The strangest thing about Delta Chat is that is uses email underneath.
+However, I would recommend ignoring this fact.
+
 #### XMPP
 
 XMPP is younger than IRC, but older than Matrix.
