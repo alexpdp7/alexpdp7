@@ -36,7 +36,33 @@ node 'nagios.h1.int.pdp7.net' {
     address => "192.168.76.3",
   }
 
-  package {'nagios-plugins-pgsql':}
+  nagios_host {"xn--ix-yja.es":
+    use => 'generic-host',
+    max_check_attempts => 5,
+    contact_groups => 'admins',
+    check_command => 'check-host-alive',
+    address => '155.133.26.104',
+  }
+
+  nagios_service {'alex.corcoles.net-gemini-cert':
+    use => 'generic-service',
+    service_description => 'alex.corcoles.net-gemini-cert',
+    host_name => 'xn--ix-yja.es',
+    check_command => 'check_alex.corcoles.net-gemini-cert',
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+  }
+
+  nagios_command {'check_alex.corcoles.net-gemini-cert':
+    command_name => 'check_alex.corcoles.net-gemini-cert',
+    command_line => '/usr/lib64/nagios/plugins/check_ssl_validity -H alex.corcoles.net -I alex.corcoles.net -p 1965 -c 10 5',
+    require => Package['nagios'],
+    notify => Service['nagios'],
+    owner => 'nagios',
+  }
+
+  package {['nagios-plugins-all', 'perl-Math-BigInt']:}
 
   class {'otel':
     version => '0.88.0',
