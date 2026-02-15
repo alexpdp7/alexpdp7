@@ -98,6 +98,9 @@ See also [[TOOLS.org][tools I use]].
    - https://github.com/microsoft/Power-Fx
    - https://github.com/carltongibson/neapolitan - one of Django's authors does a variation on the Django admin?
    - https://gitlab.levitnet.be/levit/django-admin-deux - another modernized Django admin
+** Cross compilation/Windows
+   - https://github.com/Jake-Shadle/xwin - sets up Linux to crosscompile to Windows
+   - https://github.com/marler8997/msvcup - a standalone tool for installing the MSVC toolchain and Windows SDK without Visual Studio
 ** Language-specific
 *** Python
    - https://github.com/inducer/pudb Full-screen console debugger for Python
