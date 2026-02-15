@@ -15,6 +15,7 @@ See also [[TOOLS.org][tools I use]].
    - https://forge.rust-lang.org/triagebot/range-diff.html show diffs after rewriting history
    - https://github.com/antonmedv/gitmal - "web repo browsing" as static site generator
    - https://opendev.org/opendev an OSS-based full infra setup- both service and blueprint
+   - https://github.com/gitgitgadget/gitgitgadget - turns GitHub PRs into mailing list patches
 *** CI/CD
   - https://github.com/earthly/earthly - Standalone build tool with containers
   - https://github.com/reviewdog/reviewdog - Error parser than can annotate GitHub pull requests
