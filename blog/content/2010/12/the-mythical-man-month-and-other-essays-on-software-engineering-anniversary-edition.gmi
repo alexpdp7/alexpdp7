@@ -1,5 +1,4 @@
-# The Mythical Man Month and Other Essays on Software Engineering - Anniversary Edition
-2010-12-12
+# 2010-12-12 The Mythical Man Month and Other Essays on Software Engineering - Anniversary Edition
 
 Pocos libros tienen la fama y popularidad de The Mythical Man Month. Hace tiempo ya que quería leer este libro sobre la ingeniería del software y aprovechando la destrucción de fronteras de Amazon Reino Unido, me hice con mi copia.
 

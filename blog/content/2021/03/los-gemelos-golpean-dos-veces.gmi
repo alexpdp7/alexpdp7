@@ -1,5 +1,4 @@
-# Los gemelos golpean dos veces
-2021-03-13
+# 2021-03-13 Los gemelos golpean dos veces
 
 Esta es la primera entrada que creo en mi blog en el Geminiespacio (¿Gemeloespacio? ¿Geminispacio? Dudo que la RAE o la Fundéu me ayuden con esto). El Geminiespacio es un fascinante proyecto del que ya os hablé[1] anteriormente que define un protocolo parecido a la web, pero simplificado al máximo- los que recuerden el protocolo Gopher les sonará- pero el Geminiespacio está modernizado (requiere TLS, por ejemplo) y aprende unas cuantas lecciones de la web.
 

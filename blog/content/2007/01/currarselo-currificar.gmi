@@ -1,5 +1,4 @@
-# Currárselo, currificar
-2007-01-30
+# 2007-01-30 Currárselo, currificar
 
 En honor a un importante británico que no lee esto, les presento a la paradoja del de Curry [1].
 

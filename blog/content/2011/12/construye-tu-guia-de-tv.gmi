@@ -1,5 +1,4 @@
-# Construye tu guía de TV
-2011-12-18
+# 2011-12-18 Construye tu guía de TV
 
 He publicado en Github tvguide[1], un miniproyectillo que incluye un scraper de guía televisiva (la de El Mundo) y un mini-interfaz web que muestra los 5 próximos programas de los canales que recibo en mi casa que están recogidos por El Mundo (i.e. falta RAC105 y algunos locales).
 

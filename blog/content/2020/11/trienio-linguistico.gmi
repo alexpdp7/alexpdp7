@@ -1,5 +1,4 @@
-# Trienio lingüístico
-2020-11-01
+# 2020-11-01 Trienio lingüístico
 
 Veo que hace tiempo de la última vez que hablé sobre lenguajes de programación[1]. Unas notas desde entonces:
 

@@ -1,5 +1,4 @@
-# Emulando a la mula
-2020-09-08
+# 2020-09-08 Emulando a la mula
 
 Podría ser que la segunda versión del protocolo BitTorrent resolviese el mayor defecto que le veo.
 

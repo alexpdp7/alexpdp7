@@ -1,5 +1,4 @@
-# Llamadas comerciales...
-2007-12-24
+# 2007-12-24 Llamadas comerciales...
 
 Una alternativa a hacerles un DoS teniéndoles a la espera mientras atendemos asuntos más urgentes como rascarnos la oreja durante 10 minutos.
 

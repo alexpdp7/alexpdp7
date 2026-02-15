@@ -1,5 +1,4 @@
-# Consolación en serie
-2011-07-29
+# 2011-07-29 Consolación en serie
 
 Con la triste excusa de que no me van muy finas las máquinas virtuales en mi servidor personal (la pantalla no se actualiza bien, con lo que es una lata crear una máquina virtual nueva), he investigado un poco cómo hacer instalaciones por consola de serie, es decir, sin teclado ni pantalla- ni siquiera virtual.
 

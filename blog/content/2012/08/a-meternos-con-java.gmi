@@ -1,5 +1,4 @@
-# A meternos con Java
-2012-08-30
+# 2012-08-30 A meternos con Java
 
 Es deporte olímpico desde hace tiempo meterse con Java. Como plataforma es lenta, insegura e inútil. Como lenguaje, causa daños cerebrales irreparables a los programadores que lo utilizan. Para colmo, ahora ya no es propiedad de Sun (que era bastante molona), sino que ha sido absorbida por la malvada Oracle.
 

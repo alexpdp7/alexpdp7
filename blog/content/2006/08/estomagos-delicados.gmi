@@ -1,5 +1,4 @@
-# Estómagos delicados
-2006-08-02
+# 2006-08-02 Estómagos delicados
 
 La referencia del PKCS#11 [1] especifica como posible error "CKR_KEY_INDIGESTIBLE". No sé que es peor; que se intente comer una llave o que después de hacerlo se queje que es indigesta.
 

@@ -1,5 +1,4 @@
-# Cómo crear un escritorio Linux remoto de dominio
-2010-09-02
+# 2010-09-02 Cómo crear un escritorio Linux remoto de dominio
 
 En alguna ocasión nos puede ser útil crear un sistema que corre un entorno de escritorio y está siempre encendido. Por ejemplo, queremos que usuarios acostumbrados a un entorno gráfico puedan ejecutar tareas largas desacopladas de su terminal.
 

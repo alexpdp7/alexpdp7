@@ -1,5 +1,4 @@
-# IE sin Windows
-2011-07-20
+# 2011-07-20 IE sin Windows
 
 Algunas personas tienen en ocasiones el impulso de usar ese navegador vintage que es IE6, por oscuros motivos. Aquí explicamos cómo hacerlo gratis.
 

@@ -1,5 +1,4 @@
-# Popurrí
-2020-12-05
+# 2020-12-05 Popurrí
 
 Parece ser que Apple ha alterado los términos de uso de macOS de manera que permite servicios cloud basados en macOS, pero con un periodo mínimo de 24h[1]. Curiosamente, esto ha sucedido a la vez que AWS ha sacado su servicio de EC2 con macOS[2]. He usado algún servicio (Flow[3]) para cuando he necesitado hacer algo con macOS sin disponer de hardware físico; por una parte se agradece que por fin haya cierta claridad legal, pero por otra parte, el mínimo de 24h le quita bastante el sentido para algunos usos. Para CI/CD GitHub Actions tiene runners con macOS que se cobran al minuto (!), pero para uso general, el Mac Mini de AWS sale a unos 24€ por día. Son unos 30 días para que cueste como comprarse un Mac Mini, con la ventaja de no tener que mantenerlo/reemplazarlo/etc.
 

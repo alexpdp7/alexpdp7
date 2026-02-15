@@ -1,5 +1,4 @@
-# Encyclopedia Mythica
-2004-05-16
+# 2004-05-16 Encyclopedia Mythica
 
 Un buen recursillo para informarse sobre mitologías y cosas (incluye rollo griego, artúrico y más). Aquí [1].
 

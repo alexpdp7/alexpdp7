@@ -1,5 +1,4 @@
-# Mi lenguaje de programación favorito
-2014-10-11
+# 2014-10-11 Mi lenguaje de programación favorito
 
 A todos nos gusta meternos en disquisiciones filosóficas inútiles, generalmente de la forma de "escoger el mejor X". Para esta aburrida mañana de sábado, voy a hablar de mi lenguaje de programación preferido- un tema nada original.
 

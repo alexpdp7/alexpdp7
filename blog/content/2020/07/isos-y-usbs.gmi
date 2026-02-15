@@ -1,5 +1,4 @@
-# ISOs y USBs
-2020-07-01
+# 2020-07-01 ISOs y USBs
 
 => https://github.com/alexpdp7/alexpdp7/blob/master/hardware/using-an-rpi-zero-as-an-usb-drive-to-install-operating-systems.md EDIT 2025-01-12: Aquí documento una manera de hacer estas cosas con una Raspberry Pi Zero.
 

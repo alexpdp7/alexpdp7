@@ -1,5 +1,4 @@
-# Hazañas informáticas III: la criptografía asimétrica
-2011-04-25
+# 2011-04-25 Hazañas informáticas III: la criptografía asimétrica
 
 Desde el principio de los tiempos, los humanos han deseado en ocasiones mantener la privacidad de sus comunicaciones. En tiempos de los romanos ya se utilizaban técnicas de criptografía como el cifrado César para las comunicaciones militares.
 

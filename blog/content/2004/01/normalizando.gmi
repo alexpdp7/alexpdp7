@@ -1,5 +1,4 @@
-# Normalizando
-2004-01-07
+# 2004-01-07 Normalizando
 
 Si software en catalán se dice programari y hardware es maquinari... ¿cómo se traduce pelotaware?
 

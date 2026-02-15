@@ -1,5 +1,4 @@
-# La ley del batiburrillo
-2021-04-05
+# 2021-04-05 La ley del batiburrillo
 
 Saben que me gusta mucho la falacia de McNamara [1] y por tanto What Data Can't Do de The New Yorker [2] que me descubre la ley de Goodhart [3] es de cita obligada para mí.
 

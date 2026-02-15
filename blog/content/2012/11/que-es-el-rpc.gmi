@@ -1,5 +1,4 @@
-# ¿Qué es el RPC?
-2012-11-28
+# 2012-11-28 ¿Qué es el RPC?
 
 Aunque ciertos conceptos de programación son más viejos que yo, hay ciertas técnicas muy potentes que son desconocidas o ignoradas por mucha (demasiada) gente.
 

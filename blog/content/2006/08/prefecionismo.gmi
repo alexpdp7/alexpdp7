@@ -1,5 +1,4 @@
-# Prefecionismo
-2006-08-25
+# 2006-08-25 Prefecionismo
 
 Generalmente no hablo de cosas informáticas aburridas, pero mis integristas preferidos los tíos de Debian [1] hicieron un concursillo hace poco sobre los bugs de Debian [2] (Debian es una distribución de software libre que integra decenas de miles de programas de diferentes orígenes- hacen un seguimiento de los problemas que dan para arreglarlos localmente o comunicárselos a sus autores).
 

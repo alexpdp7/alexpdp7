@@ -1,5 +1,4 @@
-# Backups con ZFS
-2012-01-19
+# 2012-01-19 Backups con ZFS
 
 Hasta ahora había estado usando el excelente rdiff-backup para hacer backups de mis datos (unos 700gb) a una unidad externa USB. Realmente funciona muy bien; el último backup está directamente disponible en el disco- sin necesitar usar rdiff-backup para leerlo y se guardan incrementos, con lo que es relativamente sencillo recuperar ficheros borrados (usando sus herramientas). Podemos eliminar incrementales fácilmente y en definitiva, es una solución sencilla y harto recomendable.
 

@@ -1,5 +1,4 @@
-# Database in Depth - Relational Theory for Practitioners
-2010-12-12
+# 2010-12-12 Database in Depth - Relational Theory for Practitioners
 
 Database in Depth es un libro del mítico C. J. Date[1], que ha publicado una barbaridad de libros sobre bases de datos relacionales.
 

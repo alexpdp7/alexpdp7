@@ -1,5 +1,4 @@
-# Google Analytics
-2005-11-17
+# 2005-11-17 Google Analytics
 
 Servidor también se apunta al carro del Google Analytics [1], que me confirma lo que ya sabía; a mi web se viene a buscar como fabricar steadycams [2] e incienso. Pero yo ya lo sabía [3].
 

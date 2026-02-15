@@ -1,5 +1,4 @@
-# Feed inverso
-2008-01-18
+# 2008-01-18 Feed inverso
 
 Al parecer, no necesito RSS para que me lleguen noticias de todo gadget relacionado con R2-D2 (supongo que por cosas como esta [1]).
 

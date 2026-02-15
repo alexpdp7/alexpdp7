@@ -1,5 +1,4 @@
-# Dineropelota
-2012-11-17
+# 2012-11-17 Dineropelota
 
 El éxito de Nate Silver prediciendo las últimas elecciones en USA ha sido todo un acontecimiento público. Los medios se han hartado de comentar los métodos que le han permitido acertar correctamente el resultado en **todos** los estados con un margen de error mínimo, humillando a la legión de comentaristas políticos que extienden un dedo, lo levantan y miran de dónde sopla el viento para hacer sus predicciones.
 

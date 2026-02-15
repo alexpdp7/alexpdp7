@@ -1,5 +1,4 @@
-# Una máquina según Turing
-2011-03-25
+# 2011-03-25 Una máquina según Turing
 
 Elbot[1], uno de los programas que más se ha acercado a pasar el test de Turing. Más que algunos humanos, diríase.
 

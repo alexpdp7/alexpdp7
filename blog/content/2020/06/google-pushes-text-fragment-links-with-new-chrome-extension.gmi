@@ -1,5 +1,4 @@
-# Google pushes “text fragment links” with new Chrome extension
-2020-06-19
+# 2020-06-19 Google pushes “text fragment links” with new Chrome extension
 
 https://arstechnica.com/gadgets/2020/06/google-pushes-text-fragment-links-with-new-chrome-extension/[1][2]
 

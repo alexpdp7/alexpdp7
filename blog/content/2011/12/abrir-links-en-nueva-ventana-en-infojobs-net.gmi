@@ -1,5 +1,4 @@
-# Abrir links en nueva ventana en infojobs.net
-2011-12-06
+# 2011-12-06 Abrir links en nueva ventana en infojobs.net
 
 Si estáis hasta las narices de que no podáis usar el botón de la ruedecita para abrir ofertas de trabajo en una ventana nueva en infojobs.net[1], el siguiente script de Greasemonkey[2] os puede ser útil:
 

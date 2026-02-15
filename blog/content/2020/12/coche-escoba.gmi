@@ -1,5 +1,4 @@
-# Coche escoba
-2020-12-25
+# 2020-12-25 Coche escoba
 
 Sobre los orígenes del lenguaje de programación C (con detalles sobre su antepasado BCPL, famoso por su influencia en el Commodore Amiga).[1]
 

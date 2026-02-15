@@ -1,5 +1,4 @@
-# Esquemas de datos explícitos e implícitos
-2013-06-06
+# 2013-06-06 Esquemas de datos explícitos e implícitos
 
 Hablando de bases de datos relacionales, es común referirse al esquema de datos como la definición de las tablas, vistas, funciones, etc. que conforman la base de datos[1]. El esquema es sumamente importante, por supuesto, nos define qué datos admitimos y nos condiciona todo código que accede a la base de datos.
 

@@ -1,5 +1,4 @@
-# Designing Data-Intensive Applications
-2020-07-05
+# 2020-07-05 Designing Data-Intensive Applications
 
 Creo que una métrica fundamental de un libro técnico es su periodo de vigencia, especialmente en contraste con su precio y tamaño.
 

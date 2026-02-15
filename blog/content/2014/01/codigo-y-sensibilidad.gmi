@@ -1,5 +1,4 @@
-# Código y sensibilidad
-2014-01-10
+# 2014-01-10 Código y sensibilidad
 
 Cada persona, y los programadores no dejan de ser personas, desarrolla a lo largo del tiempo diferentes sensibilidades. A base de cometer errores y sufrir por ellos, nos hacemos especialmente perceptivos a los síntomas que nos causan dolor. Un programador de lenguajes de la familia de C es capaz de notar la ausencia de un ; para terminar una sentencia en una pantalla plagada de símbolos. Alguien que trabaje con SQL habitualmente desarrolla un sexto sentido para no lanzar un DELETE que no lleve WHERE (normalmente tras el tercer incidente grave). Y así, cada uno enumerará sus ejemplos favoritos en los que ha desarrollado una aptitud sobrehumana para evitar inacabables pérdidas de tiempo.
 

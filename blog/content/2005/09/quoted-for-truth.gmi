@@ -1,5 +1,4 @@
-# Quoted for truth
-2005-09-07
+# 2005-09-07 Quoted for truth
 
 in programming there's no such number as 2, and oftentimes, there's not even any such number as 1 [1], PeterB dixit
 

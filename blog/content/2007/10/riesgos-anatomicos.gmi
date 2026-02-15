@@ -1,5 +1,4 @@
-# Riesgos anatómicos
-2007-10-18
+# 2007-10-18 Riesgos anatómicos
 
 En un nuevo episodio de la cruzada [1], uno de los bandos añade un editor de vídeo [2]. No hay puntos por adivinar cuál. Eso sí, los dos lo usarán como argumento.
 

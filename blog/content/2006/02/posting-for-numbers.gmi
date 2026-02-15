@@ -1,5 +1,4 @@
-# Posting for numbers...
-2006-02-17
+# 2006-02-17 Posting for numbers...
 
 Desde hace ya tiempo que news.google [1] ofrece señales [2] RSS de sus contenidos, pero hasta hoy, las noticias en cristiano espanish no tenían RSS.
 

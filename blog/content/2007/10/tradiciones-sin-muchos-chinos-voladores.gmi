@@ -1,5 +1,4 @@
-# Tradiciones sin muchos chinos voladores
-2007-10-04
+# 2007-10-04 Tradiciones sin muchos chinos voladores
 
 El tablero está puesto, las fichas se mueven y tal. Ya tenemos programa (provisional) para Sitges [1] :
 

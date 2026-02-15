@@ -1,5 +1,4 @@
-# Maventuras
-2011-02-08
+# 2011-02-08 Maventuras
 
 Los que me conozcan sabrán que éste es un momento de derrota. Tras casi 9 años participando en proyectos de desarrollo Java, hoy he commitado a Subversion un pom.xml.
 

@@ -1,5 +1,4 @@
-# HDMI-CEC, algunas cosas que se enchufan a la tele y complementos
-2017-06-25
+# 2017-06-25 HDMI-CEC, algunas cosas que se enchufan a la tele y complementos
 
 He estado remozando mi montaje de cosas conectadas a la tele y quería aprovechar para recoger unos cuantos pensamientos sobre el tema.
 

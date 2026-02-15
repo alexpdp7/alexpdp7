@@ -1,5 +1,4 @@
-# Café y olé
-2010-06-27
+# 2010-06-27 Café y olé
 
 Java 4-Ever[1]. Sólo para friquis. Y friquis de Java.
 

@@ -1,5 +1,4 @@
-# A simple syntax for complex argumentation
-2020-06-30
+# 2020-06-30 A simple syntax for complex argumentation
 
 https://argdown.org/[1][2]
 

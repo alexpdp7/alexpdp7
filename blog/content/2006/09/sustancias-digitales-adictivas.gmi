@@ -1,5 +1,4 @@
-# Sustancias digitales adictivas
-2006-09-07
+# 2006-09-07 Sustancias digitales adictivas
 
 Uno de los abismos más insondables de la inmundicia informática son los juegos Roguelike [1], descendientes del histórico Rogue [2] - juegos cuyos gráficos son simples caracteres y donde el jugador encarna a un personaje (tradicionalmente representado por una arroba) que merodea por su entorno combatiendo contra bichos y llevando a cabo misiones, típicamente en una ambientación medieval fantástica.
 

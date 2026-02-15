@@ -1,5 +1,4 @@
-# Un dios griego, el servicio postal, una frambuesa y un elemento de una imagen
-2020-12-25
+# 2020-12-25 Un dios griego, el servicio postal, una frambuesa y un elemento de una imagen
 
 ```
 $ cat check_pixel

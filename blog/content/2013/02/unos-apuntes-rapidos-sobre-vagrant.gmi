@@ -1,5 +1,4 @@
-# Unos apuntes rápidos sobre Vagrant
-2013-02-20
+# 2013-02-20 Unos apuntes rápidos sobre Vagrant
 
 En las últimas semanas he estado jugando bastante con Vagrant[1]. Se trata de una herramienta para automatizar el uso de VirtualBox (de momento).
 

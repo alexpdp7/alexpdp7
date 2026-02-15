@@ -1,5 +1,4 @@
-# Babel
-2006-06-16
+# 2006-06-16 Babel
 
 Quien quiera adoctrinarse en el fascinante mundo de los lenguajes de los lenguajes de programación, haría bien en leer este artículo [1].
 

@@ -1,5 +1,4 @@
-# Desorden de letras
-2008-09-21
+# 2008-09-21 Desorden de letras
 
 Impresionante lista de anagramas [1], acompañada de un generador de ídems [2].
 

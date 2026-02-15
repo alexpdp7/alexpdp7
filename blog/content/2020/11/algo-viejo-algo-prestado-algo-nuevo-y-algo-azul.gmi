@@ -1,5 +1,4 @@
-# Algo viejo, algo prestado, algo nuevo y algo azul
-2020-11-19
+# 2020-11-19 Algo viejo, algo prestado, algo nuevo y algo azul
 
 Cada día vertemos más confianza en un campo relativamente nuevo como es la seguridad informática. Muestra de ello son las contraseñas, un concepto más bien primitivo (si bien el uso informático está relativamente cercano en el tiempo, las contraseñas indudablemente llevan milenios en uso. Particularmente entrañable revisar la historia de su primo el shibboleth[1]) del que pende muchísima de nuestra seguridad.
 

@@ -1,5 +1,4 @@
-# El bene-volo
-2006-10-21
+# 2006-10-21 El bene-volo
 
 El dilema del prisionero [1] es una de esas cosas muy fáciles de explicar pero que dan para escribir libros. En breve, es un cabroncete juego para dos jugadores que consiste en lo siguiente:
 

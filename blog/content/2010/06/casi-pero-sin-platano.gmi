@@ -1,5 +1,4 @@
-# Casi, pero sin plátano
-2010-06-23
+# 2010-06-23 Casi, pero sin plátano
 
 Enumeración en la Wikipedia sobre descubrimientos múltiples[1] (a raíz de recordar que el famoso RSA[2] en realidad lo inventó Cocks[3]).
 

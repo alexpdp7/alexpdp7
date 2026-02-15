@@ -1,5 +1,4 @@
-# Más palos y astillas
-2011-01-29
+# 2011-01-29 Más palos y astillas
 
 Actualizando este post anterior[1], una versión evolucionada del evolucionador de vehículos[2].
 

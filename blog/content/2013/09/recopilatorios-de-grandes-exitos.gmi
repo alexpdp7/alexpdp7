@@ -1,5 +1,4 @@
-# Recopilatorios de grandes éxitos
-2013-09-14
+# 2013-09-14 Recopilatorios de grandes éxitos
 
 Indudablemente, una de las asignaturas coco de cuando yo estudiaba informática era Compiladores- compis, para los amigos. No porque hubiese una tonelada de apuntes que memorizar, ni porque los profesores fuesen particularmente estrictos sino porque, simplemente, era tremendamente complicada.
 

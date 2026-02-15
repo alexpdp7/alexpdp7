@@ -1,5 +1,4 @@
-# Chunorris
-2006-02-17
+# 2006-02-17 Chunorris
 
 Más aleccionamiento para mis lectores [1].
 

@@ -1,5 +1,4 @@
-# Contra el vikingo del diente azul
-2021-04-16
+# 2021-04-16 Contra el vikingo del diente azul
 
 Aunque sigo muy contento con mis Jabra [1], la verdad que los problemas de Bluetooth (los propios de Linux, y los generales de este protocolo) me impedían amortizarlos tanto como me gustaría. El emparejamiento Bluetooth nos limita un poco cuando podríamos querer usar unos auriculares en una cantidad significativa de cacharros (móvil, tablet, tres portátiles, Chromecast con Google TV). Además, al usar un micrófono, los cacharros Bluetooth cambian a un modo de operación que reduce la calidad del sonido de una manera importante.
 

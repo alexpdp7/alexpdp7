@@ -1,5 +1,4 @@
-# Mejoras en Google Docs
-2010-04-14
+# 2010-04-14 Mejoras en Google Docs
 
 Es bien conocida mi afición por las hojas de cálculo- esa herramienta de programación funcional[1] frecuentemente mal empleada como base de datos[2] que es fácilmente comprensible.
 

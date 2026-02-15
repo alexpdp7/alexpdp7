@@ -1,5 +1,4 @@
-# MATE + xmonad
-2012-09-07
+# 2012-09-07 MATE + xmonad
 
 Aunque Gnome 3 no me desagrada tanto como a otros, llevo un tiempo trasteando con xmonad[1], MATE[2] y otras alternativas. Tras jugar un poco hoy con el multimonitor de xmonad, he decidido lanzarme a la piscina con una combinación de MATE y xmonad.
 

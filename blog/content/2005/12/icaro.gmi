@@ -1,5 +1,4 @@
-# Ícaro...
-2005-12-08
+# 2005-12-08 Ícaro...
 
 Una de mis aficiones es un juego de tablero llamado Blue Max [1], que le pone a uno a los mandos de aviones históricos como el Fokker Dr. I [2] del Barón Rojo [3].
 

@@ -1,5 +1,4 @@
-# Why it is Important that Software Projects Fail
-2020-09-10
+# 2020-09-10 Why it is Important that Software Projects Fail
 
 => https://www.berglas.org/Articles/ImportantThatSoftwareFails/ImportantThatSoftwareFails.html
 

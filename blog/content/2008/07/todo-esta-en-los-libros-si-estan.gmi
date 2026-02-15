@@ -1,5 +1,4 @@
-# Todo está en los libros si están
-2008-07-28
+# 2008-07-28 Todo está en los libros si están
 
 Iberlibro [1] es una versión hispana de AbeBooks [2], que parece un interesante recurso para encontrar árboles muertos.
 

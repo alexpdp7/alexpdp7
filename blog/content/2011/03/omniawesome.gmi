@@ -1,5 +1,4 @@
-# Omniawesome
-2011-03-26
+# 2011-03-26 Omniawesome
 
 Los que uséis Google Chrome y echéis en falta la *asombrosidad* de la Awesome Bar de Firefox[1], about:flags[2] y "Enable better omnibox history matching".
 

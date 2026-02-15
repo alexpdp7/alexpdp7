@@ -1,5 +1,4 @@
-# Sobrecarga sensorial
-2006-09-30
+# 2006-09-30 Sobrecarga sensorial
 
 Parece que el remodelado [1] del Google Reader [2], el lector de RSS [3] de Google, lo ha puesto al nivel de mi preferido Bloglines [4] - o incluso por encima.
 

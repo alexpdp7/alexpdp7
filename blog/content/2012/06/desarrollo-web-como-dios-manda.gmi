@@ -1,5 +1,4 @@
-# Desarrollo web como Dios manda
-2012-06-23
+# 2012-06-23 Desarrollo web como Dios manda
 
 Con la cantidad de faena a hacer en el mundo del desarrollo web, es natural preguntarse cosas como qué tecnología elegir y por dónde comenzar si uno quiere dedicarse a esto.
 

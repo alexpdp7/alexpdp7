@@ -1,5 +1,4 @@
-# Otra taxonomía, con algo de predominancia de serpientes
-2021-02-13
+# 2021-02-13 Otra taxonomía, con algo de predominancia de serpientes
 
 Scott Hanselman no es sólo el autor del imprescindible Dark Matter Developers[1], sino que además comparte conmigo dificultades en finalizar conversaciones. Lo que no comparto con él es su genio para encontrar una deliciosa solución:
 

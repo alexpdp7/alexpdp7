@@ -1,5 +1,4 @@
-# Ronda relámpago
-2020-10-04
+# 2020-10-04 Ronda relámpago
 
 => https://www.polygon.com/entertainment/2020/9/15/21436961/disneys-failed-attempts-to-bring-don-quixote-to-the-screen La quijotesca saga inacabada de Disney y el ingenioso hidalgo
 => https://unix.stackexchange.com/questions/50058/what-is-the-point-of-the-cd-external-command ¿Por qué los sistemas POSIX tienen un binario de cd (que no puede servir para cambiar de directorio)?

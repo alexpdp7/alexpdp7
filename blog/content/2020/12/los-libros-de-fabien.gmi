@@ -1,5 +1,4 @@
-# Los libros de Fabien
-2020-12-05
+# 2020-12-05 Los libros de Fabien
 
 Ha llegado a mis manos una edición física del libro de Fabien sobre Doom[1] para acompañar a la del Wolfenstein 3D[2]. Como el anterior, es un descenso a las profundidades del Doom, que incluye una variedad de temas que incluyen:
 

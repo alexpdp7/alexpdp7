@@ -1,5 +1,4 @@
-# Preservaciones
-2004-01-24
+# 2004-01-24 Preservaciones
 
 En Slashdot [1] enlazan a una guía para mantener en buen estado de conservación CDs y DVDs [2] del programa del NIST para la preservación digital [3]. Hay un resumen para los impacientes [4].
 

@@ -1,5 +1,4 @@
-# Por petición (no muy) popular
-2006-05-18
+# 2006-05-18 Por petición (no muy) popular
 
 Los avezados en los temas de ceros y unos (una costumbre informática que surge por las 2,0 neuronas en el cerebro del informático medio), sabrá que cuando un informático dice mega no piensa en mil, sino en el mágico número 1024- mismamente con los gigas y los petas y demás cosas fumables- siempre y cuando no se intente vender algo; ahí entra la contabilidad creativa y mega querrá decir 1024 o 1000 según más convenga.
 

@@ -1,5 +1,4 @@
-# El retorno (demorado) del Thinkpad
-2016-07-31
+# 2016-07-31 El retorno (demorado) del Thinkpad
 
 Allí por 2005, enamorado por los portátiles negros que pululaban por la oficina fuera de mi alcance, me compré un hermoso Thinkpad T42 por unos significantes 1400€. Un hermoso aparato, de los últimos en ser fabricados por IBM, con una espectacular pantalla 4:3 de 1400x1050 y que le daba mil vueltas al portátil Dell que sustituyó (carísimo por tener una tarjeta gráfica, pero en todos los demás aspectos, bastante mediocre). En aquella época, las prestaciones de los ordenadores aún progresaban rápidamente, así que unos 5 años después decidí pasarme a una combinación de sobremesa y un netbook, que me ofrecía un sistema más potente para el trabajo serio y para usar de servidor 24x7 y un sistema ultraligero (1,1kg, la mitad de los 2,2kg del Thinkpad- y con 5 horas de batería que superaban la muy deteriorada batería de 5 años del T42) para el uso fuera de casa o en el sofá- por un precio muy económico.
 

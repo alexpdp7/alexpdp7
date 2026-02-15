@@ -1,5 +1,4 @@
-# Hazañas informáticas IV: Las funciones hash
-2011-05-14
+# 2011-05-14 Hazañas informáticas IV: Las funciones hash
 
 Los mayores problemas de rendimiento de un sistema informático vienen causados por tener que trabajar con volúmenes grandes de información. La mayoría de algoritmos tienen un tiempo de ejecución relacionado con el tamaño de la información que manejan. Por ejemplo, encontrar el valor máximo de un conjunto de valores es directamente proporcional al tamaño del conjunto- si duplicamos el tamaño del conjunto, tardamos el doble en encontrar el  máximo.
 

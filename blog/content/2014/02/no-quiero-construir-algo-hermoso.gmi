@@ -1,5 +1,4 @@
-# NO quiero construir algo hermoso
-2014-02-02
+# 2014-02-02 NO quiero construir algo hermoso
 
 El proyecto con más estrellitas ahora mismo en Github[1] es el famoso Bootstrap (con más del doble de estrellas que su más inmediato perseguidor, jQuery), ese framework CSS *beautiful* y *awesome* que nos asegura que nuestra web tenga un aspecto único e individual como un extraordinario copo de nieve.
 

@@ -1,5 +1,4 @@
-# Batiburrillo por Gemini, no por interfaz neuronal
-2021-06-08
+# 2021-06-08 Batiburrillo por Gemini, no por interfaz neuronal
 
 => https://openbci.com/ Comentan en el curro que lo de enchufar un USB a una rana, ahora puede ser open source.
 => https://www.polygon.com/22524397/in-defense-of-scrabble-feature El torneo de Scrabble eterno.

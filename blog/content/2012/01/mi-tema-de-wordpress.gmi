@@ -1,5 +1,4 @@
-# Mi tema de Wordpress
-2012-01-04
+# 2012-01-04 Mi tema de Wordpress
 
 .assistive-text, .screen-reader-text, .menu, #nav-above, #colophon {  display: none; }
 

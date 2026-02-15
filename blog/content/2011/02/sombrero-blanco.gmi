@@ -1,5 +1,4 @@
-# Sombrero blanco
-2011-02-07
+# 2011-02-07 Sombrero blanco
 
 Los que tengáis ADSL con Movistar o Jazztel que no hayáis cambiado la clave original de encriptación del router, quizás querráis comprobar aquí[1] si vuestra clave es fácil de adivinar. La fuente, ./[2]
 

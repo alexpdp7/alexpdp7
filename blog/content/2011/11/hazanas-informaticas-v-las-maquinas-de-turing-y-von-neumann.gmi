@@ -1,5 +1,4 @@
-# Hazañas informáticas V: Las máquinas de Turing y Von Neumann
-2011-11-05
+# 2011-11-05 Hazañas informáticas V: Las máquinas de Turing y Von Neumann
 
 ¿Qué es un ordenador?
 

@@ -1,5 +1,4 @@
-# El brazo rápido de la manzana
-2020-11-16
+# 2020-11-16 El brazo rápido de la manzana
 
 Aviso: no me considero un experto mucho menos en temas de arquitectura, historia de la computación, la supercomputación o incluso el mercado informático. Tampoco he hecho un esfuerzo brutal en verificar todo lo que digo debajo. Comentarios, correcciones y sugerencias más que bienvenidas.
 

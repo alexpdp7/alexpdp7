@@ -1,5 +1,4 @@
-# Mi opinión sobre unos cuantos lenguajes de programación
-2015-08-14
+# 2015-08-14 Mi opinión sobre unos cuantos lenguajes de programación
 
 (sobre el TIOBE de Agosto 2015, básicamente).
 

@@ -1,5 +1,4 @@
-# Codecs y eso
-2005-01-02
+# 2005-01-02 Codecs y eso
 
 Una guía [1] por si no sabéis con qué codificar vuestros videos
 

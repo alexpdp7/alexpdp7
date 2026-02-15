@@ -1,5 +1,4 @@
-# El mito de la escalabilidad
-2011-10-22
+# 2011-10-22 El mito de la escalabilidad
 
 Hace mucho mucho tiempo, en una galaxia muy muy lejana, existía una web de noticias informáticas llamada Slashdot[1]. Por motivos oscuros, Slashdot creció brutalmente en popularidad y por tanto, cada vez que aparecía una noticia en portada de Slashdot enlazando a una web, una cantidad elevada de personas hacía click en la noticia, dirigiendo a ésta ingentes cantidades de tráfico. En los inicios de Internet, no muchas webs estaban suficientemente bien preparadas para soportar carga como Slashdot, y por tanto este tráfico tendía a colapsar los sistemas que recibían enlaces de Slashdot- este efecto fue denominado "Slashdot Effect[2]".
 

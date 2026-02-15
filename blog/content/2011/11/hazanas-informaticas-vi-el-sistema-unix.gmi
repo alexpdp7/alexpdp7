@@ -1,5 +1,4 @@
-# Hazañas informáticas VI: el sistema UNIX
-2011-11-16
+# 2011-11-16 Hazañas informáticas VI: el sistema UNIX
 
 Si habéis estado siguiendo esta serie de artículos[1], habréis podido percibir un notable patrón- los sujetos de los que hablo no suelen ser muy recientes. Internet se conoce como tal desde el 82, el modelo relacional se formuló en el 69, las funciones hash aparecen mencionadas en una publicación en el 53, el sistema RSA data del 78 y las máquina de Turing y von Neumann son de allá por los años 40.
 

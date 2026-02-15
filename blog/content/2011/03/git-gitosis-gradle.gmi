@@ -1,5 +1,4 @@
-# Git, gitosis, gradle
-2011-03-13
+# 2011-03-13 Git, gitosis, gradle
 
 Dos apuntes rápidos.
 

@@ -1,5 +1,4 @@
-# Aparcando
-2024-06-02
+# 2024-06-02 Aparcando
 
 Tengo un Tilt Five. Estoy esperando a liberar mi PC con gráficos potentes y que me llegue el reemplazo de un cable defectuoso para una evaluación completa, pero... funciona, aunque es menos mágico de lo que esperaba y parece haber poco software, lamentablemente.
 

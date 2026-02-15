@@ -1,5 +1,4 @@
-# JCR, Modeshape, programación web en general
-2010-04-10
+# 2010-04-10 JCR, Modeshape, programación web en general
 
 Una cosa muy habitual requerida de un programador es realizar páginas web. La programación web, a un nivel muy alto, particularmente se preocupa de dos cosas:
 

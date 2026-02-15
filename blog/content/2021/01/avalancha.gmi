@@ -1,5 +1,4 @@
-# Avalancha
-2021-01-17
+# 2021-01-17 Avalancha
 
 Los que tengáis unos cuantos servicios de streaming de películas y vídeo, quizá encontréis útil JustWatch[1], que en España conglomera el catálogo de Netflix, Prime Video, Disney+, HBO, Filmin, Movistar+, Atres Player, FlixOlé, CrunchyRoll, Mitele y más de una decena de otros servicios más.
 

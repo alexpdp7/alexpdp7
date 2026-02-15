@@ -1,5 +1,4 @@
-# Vulnerabilidades en instalación por defecto de osCommerce v2.2 RC2a
-2010-06-30
+# 2010-06-30 Vulnerabilidades en instalación por defecto de osCommerce v2.2 RC2a
 
 Una pequeña nota para compañeros del gremio:
 

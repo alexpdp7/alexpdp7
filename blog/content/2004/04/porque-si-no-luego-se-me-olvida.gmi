@@ -1,5 +1,4 @@
-# Porque si no, luego se me olvida
-2004-04-10
+# 2004-04-10 Porque si no, luego se me olvida
 
 Los de Eclipse [1] parece ser que tienen una versión preliminar [2] del soporte para el JDK 1.5. Bug de seguimiento [3].
 

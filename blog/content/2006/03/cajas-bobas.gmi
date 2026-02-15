@@ -1,5 +1,4 @@
-# Cajas bobas
-2006-03-15
+# 2006-03-15 Cajas bobas
 
 Desgraciadamente, los requirements [1] hacen que servidor no pueda disfrutar del nuevo AOL IN2TV [2] que ya han mencionado otros [3].
 

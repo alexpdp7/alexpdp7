@@ -1,5 +1,4 @@
-# Proxies y cachés (me niego a que sea cach)
-2006-03-04
+# 2006-03-04 Proxies y cachés (me niego a que sea cach)
 
 Me notifican que parece que ser que la conexión ADSL doméstica ha dejado de estar detrás del famoso proxy-caché de Telefónica [1] (también me niego a que se escriba sin acento).
 

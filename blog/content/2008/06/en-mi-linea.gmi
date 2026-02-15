@@ -1,5 +1,4 @@
-# En mi línea...
-2008-06-05
+# 2008-06-05 En mi línea...
 
 De ser una especie de agregador RSS humano de mensajes relacionados con R2-D2... los bolilegos [1].
 

@@ -1,5 +1,4 @@
-# Más retrógrado y con la pierna intangible
-2022-02-27
+# 2022-02-27 Más retrógrado y con la pierna intangible
 
 Creo que una resurrección de las listas de correo sería importante para librarnos de las redes sociales comerciales. El gran problema es que hoy en día es muy complicado crear listas de correo y diría que imposible ofrecer una experiencia de uso moderna. Los chicos de Shortwave sólo me respondieron con un mail educado cuando les expliqué esto, pero su artículo "Email: The Future of Messaging"[1] me llena de esperanza. No creo que resuciten Wave, pero con eso y JMAP[2], estoy esperanzado.
 

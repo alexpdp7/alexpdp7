@@ -1,5 +1,4 @@
-# El doble factor y su progenitora
-2022-11-27
+# 2022-11-27 El doble factor y su progenitora
 
 Google me ha obligado a poner autenticación de doble factor. No estoy nada contento. El doble factor es fantástico e imprescindible en entornos empresariales, pero una bomba de relojería en algo como Google, donde prácticamente no tenemos relación con la empresa. Es relativamente complejo tener un buen respaldo del doble factor si no tenemos mecanismos como poder ir a un sitio físico y enseñar nuestro DNI para identificarnos; si no podemos hacer algo así, o bien usamos un respaldo relativamente poco seguro como es SMS, o tenemos que tener una buena estrategia para mantener ese respaldo, lo cual es algo complejo para mucha gente que depende mucho de su cuenta de Google.
 

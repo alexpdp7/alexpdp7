@@ -8,7 +8,6 @@ import tempfile
 
 target_ref = "refs/heads/master"
 pushed_commit = None
-uv = pathlib.Path.home() / ".local" / "bin" / "uv"
 dest = pathlib.Path.home() / "public_html"
 
 refs = sys.stdin.readlines()
@@ -30,6 +29,5 @@ with tempfile.TemporaryDirectory() as tempdir:
     subprocess.run(["git", "worktree", "add", repo, pushed_commit], check=True)
     blog = repo / "blog"
     os.chdir(blog)
-    built = tempdir / "built"
-    subprocess.run([uv, "run", "blog", "build", blog, built], check=True)
-    subprocess.run(["rsync", "-r", "--delete-after", f"{built}/", f"{dest}/"], check=True)
+    os.environ["PATH"] = "/home/alex/.local/bin:" + os.environ["PATH"]
+    subprocess.run(["./build.sh", dest], check=True)

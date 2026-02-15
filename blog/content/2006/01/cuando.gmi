@@ -1,5 +1,4 @@
-# Cuando...
-2006-01-27
+# 2006-01-27 Cuando...
 
 ... uno no sabe que decir, emplea las palabras de otros. Sí, no puedo resistirme a las buenas citas ni tampoco a las buenas frases. Me he puesto a leer un O'Reilly [1] (que alguna llamaría oh-really) sobre Asterisk [2] que está disponible en copyleft aquí [3] y, para explicar porqué la telefonía ha tardado tanto en tener estándares abiertos en internet, me he topado con esto:
 

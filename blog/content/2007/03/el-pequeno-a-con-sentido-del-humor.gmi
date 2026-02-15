@@ -1,5 +1,4 @@
-# El pequeño A* con sentido del humor
-2007-03-30
+# 2007-03-30 El pequeño A* con sentido del humor
 
 Fijénse en el trayecto NY, NY a Paggí, Fgans [1] que nos ofrece Google. Particularmente, el paso 23.
 

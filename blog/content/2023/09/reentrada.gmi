@@ -1,5 +1,4 @@
-# Reentrada
-2023-09-10
+# 2023-09-10 Reentrada
 
 => https://cassidyjames.com/blog/fediverse-blog-comments-mastodon/ Sobre monotemas, usar el Fediverso como sistema de comentarios me parece altamente interesante.
 
@@ -9,8 +8,8 @@
 
 A las entregas anteriores:
 
-=> ../../2007/06/ritmos-cercanos 
-=> ../../2009/02/otro-otro 
+=> ../../2007/06/ritmos-cercanos
+=> ../../2009/02/otro-otro
 
 Ahora hay que añadirle otro más (y quizá, aún más inexplicable):
 

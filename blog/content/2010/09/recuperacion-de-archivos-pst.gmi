@@ -1,5 +1,4 @@
-# Recuperación de archivos .pst
-2010-09-02
+# 2010-09-02 Recuperación de archivos .pst
 
 Outlook debería morir, pero muchos se niegan a lo que es correcto. Outlook sin Exchange es una combinación particularmente letal por muchos motivos.
 

@@ -1,6 +1,7 @@
 # This is a list of the pre-migration URLs of this blog.
 # URLs in this list might had been linked with a trailing slash.
 # Use Apache httpd's RewriteMap to preserve only old URLs
+feed/ index.rss
 about/ about
 laspelis/57/ laspelis/57
 laspelis/527/ laspelis/527

@@ -1,5 +1,4 @@
-# Postvacacional
-2021-08-30
+# 2021-08-30 Postvacacional
 
 Apunte rápido que aunque una suscripción a O'Reilly (el "Netflix" de los libros técnicos) son $500/año, ser miembro de la ACM (algo así como un colegio de informáticos) incluye gran parte de los beneficios (faltan vídeos y laboratorios, pero los libros están) pero por sólo $100/año.
 

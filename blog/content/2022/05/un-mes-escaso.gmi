@@ -1,5 +1,4 @@
-# Un mes escaso
-2022-05-28
+# 2022-05-28 Un mes escaso
 
 => https://togethr.party/ El primer servicio gestionado "ponga su propio dominio" de Mastodon. El fin se acerca.
 

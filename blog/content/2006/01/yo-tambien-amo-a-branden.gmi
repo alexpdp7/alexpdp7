@@ -1,5 +1,4 @@
-# Yo también amo a Branden
-2006-01-12
+# 2006-01-12 Yo también amo a Branden
 
 Siempre me tranquiliza saber que mi querida Debian [1] está en manos de un lider experto en diplomacia [2].
 

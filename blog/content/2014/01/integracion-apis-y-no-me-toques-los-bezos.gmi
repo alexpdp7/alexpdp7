@@ -1,5 +1,4 @@
-# Integración, APIs y no me toques los bezos
-2014-01-10
+# 2014-01-10 Integración, APIs y no me toques los bezos
 
 Según Steve Yegge, un día Jeff Bezos, el capo de Amazon, envió un memorándum interno que venía a decir:
 

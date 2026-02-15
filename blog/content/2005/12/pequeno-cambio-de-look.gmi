@@ -1,5 +1,4 @@
-# Pequeño cambio de look
-2005-12-26
+# 2005-12-26 Pequeño cambio de look
 
 Para mi (pequeñísima audiencia), he hecho un par de cambios en la estructura de la página. Lo más importante es que ahora podéis ver mis subscripciones de Bloglines [1] en la derecha en vez de la pobre lista de enlaces que había antes.
 

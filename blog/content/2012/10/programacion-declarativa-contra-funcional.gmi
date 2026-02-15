@@ -1,5 +1,4 @@
-# Programación declarativa contra funcional
-2012-10-06
+# 2012-10-06 Programación declarativa contra funcional
 
 Creo que la gran parte de programadores han dado sus primeros pasos con la programación imperativa tradicional. En esta, se utilizan lenguajes de programación que reflejan más o menos directamente el funcionamiento de los ordenadores típicos; instrucciones ejecutadas secuencialmente con variables que vamos modificando y control de flujo. Por ejemplo, un problema básico de "sumar los números entre n y m" se podría implementar primitivamente de la siguiente manera:
 

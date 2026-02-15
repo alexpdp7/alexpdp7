@@ -1,5 +1,4 @@
-# Un PC enchufado a la tele
-2012-05-27
+# 2012-05-27 Un PC enchufado a la tele
 
 Como todo buen informático que se precie, llevo un tiempo trabajando en un proyecto "PC enchufado a la tele". Detallo aquí un poco mi montaje actual.
 

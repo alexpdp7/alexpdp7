@@ -1,5 +1,4 @@
-# Hazañas informáticas II: el modelo de datos relacional
-2011-04-24
+# 2011-04-24 Hazañas informáticas II: el modelo de datos relacional
 
 Los primeros ordenadores se destinaron a la introducción y proceso de datos- no en vano los orígenes de IBM se remontan a la gestión del censo de habitantes de los Estados Unidos. Naturalmente, hasta el más primitivo de los sistemas de programación provee de primitivas de almacenamiento de datos, mecanismos sencillos para almacenar, organizar y acceder a datos en la memoria volátil del sistema (es decir, que estos datos se pierden al finalizar la ejecución del programa).
 

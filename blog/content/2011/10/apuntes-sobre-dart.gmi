@@ -1,5 +1,4 @@
-# Apuntes sobre Dart
-2011-10-10
+# 2011-10-10 Apuntes sobre Dart
 
 Google ha sacado hoy Dart[1].
 

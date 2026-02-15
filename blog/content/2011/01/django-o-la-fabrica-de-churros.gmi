@@ -1,5 +1,4 @@
-# Django o la fábrica de churros
-2011-01-08
+# 2011-01-08 Django o la fábrica de churros
 
 Programar aburre, porque tendemos a programar lo mismo una y otra vez. Así, muchos caen en la tentación de buscar en exceso maneras de reducir el código. Dijo Wirth que algoritmos más estructuras de datos igual a programas; y cabe añadir que en la mayoría de programación web, poco algoritmo hay- así que con definir el esquema de datos, poco más deberíamos hacer, ¿no?
 

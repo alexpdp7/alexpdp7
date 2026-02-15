@@ -1,5 +1,4 @@
-# Everybody trusts the big G
-2007-04-01
+# 2007-04-01 Everybody trusts the big G
 
 => https://support.google.com/chrome/answer/2765944?visit_id=638373286031232666-2607066086&rd=2 1,
 => http://www.google.com/support/bin/answer.py?answer=10366 2,

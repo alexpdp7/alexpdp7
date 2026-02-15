@@ -1,5 +1,4 @@
-# ¿Por qué el CRUD es importante?
-2014-01-10
+# 2014-01-10 ¿Por qué el CRUD es importante?
 
 No sé si se vislumbra completamente por aquí, pero llevo mucho, mucho tiempo prácticamente obsesionado con encontrar *la* solución para el CRUD. Ya desde mi primer curro, allá por el 2001-2002, donde usaba el jurásico ATG Dynamo- que pese a primitivo ya se enfrentaba al CRUD bastante frontalmente pude apreciar que en un significativo número de trabajos por los que te pueden pagar, el CRUD es vital.
 

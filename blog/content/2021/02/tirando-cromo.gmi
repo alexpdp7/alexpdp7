@@ -1,5 +1,4 @@
-# Tirando cromo
-2021-02-26
+# 2021-02-26 Tirando cromo
 
 El nuevo tercer elemento que tengo conectado a mi tele (que sólo tiene dos entradas HDMI, así que tengo la PS4 y el PC para jugar en un conmutador) es el nuevo dispositivo de Google, con el sencillo nombre de "Chromecast con Google TV". He perdido la cuenta de alternativas para poder ver en grande contenido audiovisual (la familia Android/Google TV, los Fire TV de Amazon, el Apple TV, los hágalo usted mismo...), pero el término "Chromecast" siempre me ha seducido (buscar en este blog indica que tuve uno al menos en 2015 y sobre el que escribí en una anterior encarnación de este artículo[1]).
 

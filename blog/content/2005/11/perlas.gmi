@@ -1,5 +1,4 @@
-# Perlas...
-2005-11-23
+# 2005-11-23 Perlas...
 
 He de admitir que yo de Perl [1], ni leches. Hay buenos motivos [2].
 

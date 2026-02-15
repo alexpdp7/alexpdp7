@@ -1,5 +1,4 @@
-# Moderación
-2026-01-10
+# 2026-01-10 Moderación
 
 Las listas de correo moderadas son un invento antiguo y simple: todo mensaje va a un administrador que debe aprobarlo antes de aparecer públicamente en la lista.
 

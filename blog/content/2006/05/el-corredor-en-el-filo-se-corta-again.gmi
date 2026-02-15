@@ -1,5 +1,4 @@
-# El corredor en el filo se corta (again)
-2006-05-28
+# 2006-05-28 El corredor en el filo se corta (again)
 
 ¿ Versión nueva tras resolver los problemas legales [1]? Veremos, veremos.
 

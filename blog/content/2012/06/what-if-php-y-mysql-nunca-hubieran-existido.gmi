@@ -1,5 +1,4 @@
-# What if... PHP y MySQL nunca hubieran existido?
-2012-06-09
+# 2012-06-09 What if... PHP y MySQL nunca hubieran existido?
 
 Marvel tenía (o tiene, estoy tremendamente desactualizado) un cómic titulado "What if...?" que trataba de qué pasaría en los universos Marvel si algún acontecimiento clave hubiese seguido otro curso. Así pues, podíamos leer cosas como qué hubiese pasado si Spider-Man hubiese sucumbido al simbionte o Gwen Stacy no hubiera muerto.
 

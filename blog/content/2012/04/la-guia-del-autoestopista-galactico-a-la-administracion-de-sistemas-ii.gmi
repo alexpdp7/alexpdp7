@@ -1,5 +1,4 @@
-# La guía del autoestopista galáctico a la administración de sistemas (II)
-2012-04-22
+# 2012-04-22 La guía del autoestopista galáctico a la administración de sistemas (II)
 
 Si seguisteis la entrega anterior de esta saga[1], deberíais estar con una lista de requerimientos y una decisión más o menos en firme de qué distribución de Linux usaremos para cumplir nuestros requerimientos (seguramente Debian o CentOS).
 

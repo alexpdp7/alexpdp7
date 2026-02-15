@@ -1,5 +1,4 @@
-# Debian GNU/Windows
-2015-04-11
+# 2015-04-11 Debian GNU/Windows
 
 ACTUALIZACIÓN 2022-09-10: Obviamente ahora existe WSL, que es algo parecido a esto, pero no es lo mismo... Últimamente pienso que lo que molaría es coger una distro Linux, compilarla a WASM, y modificarla para que se pueda ejecutar como proceso de usuario sin privilegios.
 

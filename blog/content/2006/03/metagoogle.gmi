@@ -1,5 +1,4 @@
-# Metagoogle
-2006-03-08
+# 2006-03-08 Metagoogle
 
 Es bien sabido que Google [1] se basa en los enlaces y el texto de estos a la hora de generar sus resultados. Por tanto, búsquedas como "failure" [2] pueden dar resultados "graciosos" si suficiente gente se pone de acuerdo para enlazar con un determinado texto a una determinada página.
 

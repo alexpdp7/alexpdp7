@@ -1,5 +1,4 @@
-# HOWTO:
-2004-07-19
+# 2004-07-19 HOWTO:
 
 Hacer la Enterprise a partir de un diskette [1]
 

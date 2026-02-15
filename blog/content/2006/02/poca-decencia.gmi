@@ -1,5 +1,4 @@
-# Poca decencia...
-2006-02-15
+# 2006-02-15 Poca decencia...
 
 bash.org [1] (sin relación con el otro bash [2]) es una especie de repositorio de citas de IRC. Vaya, que se supone que si oyes una lindez online, la envías allí. Aunque hay moderación, el nivel no es precisamente alto, pero de cuando en cuando hay alguna perlilla y es una entre otras tantas formas de perder el tiempo tontamente.
 

@@ -1,5 +1,4 @@
-# The Dr. is in
-2007-01-30
+# 2007-01-30 The Dr. is in
 
 El Dr. Dobb's [1] es una de las revistas con solera del mundillo informático. Lleva ahí más que la mayoría de nosotros (nació tres años despues antes que un servidor) y seguramente nos sobrevivirá. Es sobre desarrollo de software profesional bastante hardcore y de nivel- en ella encuentro muchas cosas que no entiendo, algo que normalmente sólo me pasa en Lambda The Ultimate [2].
 

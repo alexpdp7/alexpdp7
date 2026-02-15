@@ -1,5 +1,4 @@
-# Sistemas oxidados
-2020-08-11
+# 2020-08-11 Sistemas oxidados
 
 Dentro de mi complicado impulso por aprender Rust, estas navidades pensé que disponer de un sistema físico de potencia limitada me ayudaría a tener una excusa para no programar en mis lenguajes habituales.
 

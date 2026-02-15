@@ -1,5 +1,4 @@
-# select * from everything
-2020-08-19
+# 2020-08-19 select * from everything
 
 https://www.splitgraph.com/blog/data-delivery-network-launch[1][2]
 

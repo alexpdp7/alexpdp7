@@ -1,5 +1,4 @@
-# Upserts...
-2011-12-17
+# 2011-12-17 Upserts...
 
 Trabajando en un pequeño experimento[1], se me ha ocurrido un insert idempotente:
 

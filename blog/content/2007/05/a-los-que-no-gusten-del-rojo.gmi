@@ -1,5 +1,4 @@
-# A los que no gusten del rojo
-2007-05-12
+# 2007-05-12 A los que no gusten del rojo
 
 Supongo que la mejor alternativa es que haya circuito hamiltoniano [1].
 

@@ -1,5 +1,4 @@
-# La web dospuntocero-monástica
-2006-09-12
+# 2006-09-12 La web dospuntocero-monástica
 
 Casi todo el mundo [que hace cosas web] conoce a estas alturas el CSS Zen Garden [1], lugar donde se demuestra que los CSS [2] están en el camino de la virtud del diseño web.
 

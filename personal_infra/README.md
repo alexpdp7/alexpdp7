@@ -18,7 +18,6 @@ See [HACKING](HACKING.md) for more "usage" instructions.
   * LXC container running Grafana
   * LXC container running ClickHouse
   * Two VMs running Talos, providing two Kubernetes clusters (production/test)
-    * My blog
     * Incarnator
     * A CRUD system I run to track my weight
     * Some other small projects
@@ -149,6 +148,7 @@ I use Talos Linux to run Kubernetes.
 ## My blog
 
 See [blog](../blog).
+(Running on a tilde I'm setting up.)
 
 ## Phones
 

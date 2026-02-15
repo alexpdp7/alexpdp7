@@ -1,0 +1,15 @@
+:root {
+    color-scheme: light dark;
+}
+body {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+p, blockquote, li {
+    /* from Mozilla reader mode */
+    line-height: 1.6em;
+    font-size: 20px;
+}

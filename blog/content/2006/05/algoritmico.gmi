@@ -1,5 +1,4 @@
-# Algorítmico
-2006-05-06
+# 2006-05-06 Algorítmico
 
 Las discusiones de Lamba The Ultimate [1] como esta [2] algún día me llevarán a crear un blog sobre programación.
 

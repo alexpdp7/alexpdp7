@@ -1,5 +1,4 @@
-# más p-p-p
-2006-04-25
+# 2006-04-25 más p-p-p
 
 Un desarrollador [1] de Mozilla [2] (de hecho, yo uso muchos de sus bookmarklets [3]) nos enseña "excusas" [4].
 

@@ -1,5 +1,4 @@
-# Porqué Django no es La Solución Definitiva
-2012-06-02
+# 2012-06-02 Porqué Django no es La Solución Definitiva
 
 Hace tiempo ya explicaba por aquí las virtudes de Django[1]. En  resumen, se trata de un framework de desarrollo en web Python que implementa un interfaz de administración prácticamente automático a un esquema relacional. Vaya, que defines tus tablas y genera un interfaz dinámico para editar registros que te ahorra una barbaridad de tiempo (como podrá atestiguar cualquiera que haya tenido que hacerse uno).
 

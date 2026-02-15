@@ -1,5 +1,4 @@
-# Tapos y estudios
-2021-02-26
+# 2021-02-26 Tapos y estudios
 
 Estos tiempos extraños me han terminado de arrastrar a la vorágine de las cámaras de videoconferencia. Ante la hambruna y escasez, he decidido innovar y probar si una cámara de vigilancia IP de 20€[1] puede sustituir a pongamos la webcam recomendada por Wirecutter de Logitech[2], que ahora mismo cuesta cinco veces más.
 

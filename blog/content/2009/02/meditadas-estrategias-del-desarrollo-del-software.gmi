@@ -1,5 +1,4 @@
-# Meditadas estrategias del desarrollo del software
-2009-02-26
+# 2009-02-26 Meditadas estrategias del desarrollo del software
 
 >
 >

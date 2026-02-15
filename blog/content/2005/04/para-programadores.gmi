@@ -1,5 +1,4 @@
-# Para programadores...
-2005-04-20
+# 2005-04-20 Para programadores...
 
 Esto es una de las formas más visuales que he visto de entender ciertos problemas de la ingeniería del software. [1]
 

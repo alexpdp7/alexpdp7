@@ -1,5 +1,4 @@
-# Es un trabajo duro, pero alguien tiene que hacerlo
-2007-03-16
+# 2007-03-16 Es un trabajo duro, pero alguien tiene que hacerlo
 
 Dice el artículo de xkcd de la Wikipedia [1] que cada tira de xkcd [2] incluye un "tooltip" con coletilla bonus.
 

@@ -1,5 +1,4 @@
-# Lucha temática
-2013-08-07
+# 2013-08-07 Lucha temática
 
 Esto de tener una base de datos con la programación televisiva (desde diciembre de 2011), lleva a uno preguntarse cosas como "¿repiten mucho las pelis en los canales temáticos de cine?". Pues...
 

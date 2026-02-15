@@ -1,5 +1,4 @@
-# Recargando la panoplia
-2021-02-26
+# 2021-02-26 Recargando la panoplia
 
 No soy **nada** fan de las limitaciones artificiales de hardware. PERO, esto de que Nvidia lastre el minado de Bitcoin para intentar que la gente juegue con su hardware diseñado para jugar[1], aunque me siga pareciendo problemático (como a John Carmack, que propone mecanismos más libremercadistas para cumplir ese propósito[2], que tampoco me convencen del todo), me parece interesante.
 

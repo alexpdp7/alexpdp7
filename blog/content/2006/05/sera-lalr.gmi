@@ -1,5 +1,4 @@
-# ¿Será LALR?
-2006-05-15
+# 2006-05-15 ¿Será LALR?
 
 Me he comprado esto [1], compra que me ha hecho feliz. Preocupante, lo sé.
 

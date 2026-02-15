@@ -1,5 +1,4 @@
-# La guía del autoestopista galáctico a la administración de sistemas (I)
-2012-03-18
+# 2012-03-18 La guía del autoestopista galáctico a la administración de sistemas (I)
 
 Tradicionalmente se divide el campo de la informática en dos grandes áreas: programación y administración. El programador idea software nuevo o modifica el existente para cumplir con requisitos que no cubre ningún sistema disponible, mientras que el administrador utiliza software existente para cubrir estos requisitos. El entusiasta informático (o pringado de turno) a veces adquire alguna de estas (o ambas) funciones, aunque con mayor frecuencia suele desempeñar la segunda.
 

@@ -1,5 +1,4 @@
-# El batiburrillo periódico
-2021-01-30
+# 2021-01-30 El batiburrillo periódico
 
 Nunca usé Gopher, pero estoy loco por Project Gemini[1]. Desgraciadamente no creo que pueda justificar mover todo lo que pueda al espacio Géminis, pero sería algo maravilloso.
 

@@ -1,5 +1,4 @@
-# Gustos y colores
-2007-02-25
+# 2007-02-25 Gustos y colores
 
 ¿Hay algo peor que hacerse un programa que descarga la cartelera de LaNetro [1], saca una ventanita:
 

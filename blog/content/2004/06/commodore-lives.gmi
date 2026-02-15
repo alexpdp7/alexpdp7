@@ -1,5 +1,4 @@
-# Commodore Lives...
-2004-06-20
+# 2004-06-20 Commodore Lives...
 
 Parece ser que Commodore [1], fabricante del C64, el ordenador más vendido de todos los tiempos (que creo que aún se fabrica) y el Amiga, ahora vende hardware (incluyendo el genialmente denominado eVic-20GB [2]) e incluso ofrece descargas [3] (pagadas) de ROMs de juegos populares de C64.
 

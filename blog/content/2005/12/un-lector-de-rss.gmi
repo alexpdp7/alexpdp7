@@ -1,5 +1,4 @@
-# Un lector de RSS
-2005-12-09
+# 2005-12-09 Un lector de RSS
 
 atípico [1]. El chiste fácil es "pa cagarse".
 

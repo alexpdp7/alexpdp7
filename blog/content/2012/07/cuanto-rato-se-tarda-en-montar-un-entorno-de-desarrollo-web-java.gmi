@@ -1,5 +1,4 @@
-# ¿Cuánto rato se tarda en montar un entorno de desarrollo web Java?
-2012-07-07
+# 2012-07-07 ¿Cuánto rato se tarda en montar un entorno de desarrollo web Java?
 
 Una de las quejas más comunes sobre desarrollar en Java es lo complejo que resulta montarse el entorno de desarrollo. Ciertamente, la situación hace años era un poco rollo; grandes descargas del JDK perdido entre las tinieblas, Eclipse por piezas difícil de instalar...
 

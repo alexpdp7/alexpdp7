@@ -1,5 +1,4 @@
-# Reacciones ideográficas y otras cosas
-2021-11-20
+# 2021-11-20 Reacciones ideográficas y otras cosas
 
 Atesorad este momento. Este RFC[1] para añadir "reacciones emoji" al correo electrónico me parece una idea cojonuda (y a vosotros también si estuvieseis suscritos a una lista de correo con un elevado volumen de mensajes "+1"). De hecho, creo que las reacciones emoji (de Slack, Google Meet, etc.) son una innovación mayúscula en la comunicación electrónica. Poder confirmar un mensaje como recibido *sin* generar una notificación es una opción útil. Obviamente, sigo pensando que los emojis son el mal (sigo esperando saber si [2] sigue siendo cierto), y me parecería infinitamente más apropiado poder usar smileys ASCII tradicionales. ¿Pero no sería irónico que algún cliente de correo adelantase a Telegram y WhatsApp con esto?
 

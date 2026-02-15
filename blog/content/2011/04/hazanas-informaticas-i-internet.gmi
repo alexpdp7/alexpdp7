@@ -1,5 +1,4 @@
-# Hazañas informáticas I: Internet
-2011-04-21
+# 2011-04-21 Hazañas informáticas I: Internet
 
 En los inicios, había muy poquitos ordenadores- grandes como habitaciones e increíblemente caros. Muchos de estos ordenadores tenían múltiples pantallas y teclados para que los pudiesen utilizar simultáneamente muchas personas y que se rentabilizasen mejor. Cada ordenador era un mundo en sí mismo. Algunos de estos ordenadores permitían la comunicación entre personas sentadas en diferentes terminales.
 
