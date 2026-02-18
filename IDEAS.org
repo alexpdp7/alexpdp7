@@ -137,6 +137,13 @@ The mirror requests /foo to httpd, which returns the gemtext.
 - Provides a UI to approve individual commits
 - For validated *and* approved commits, it implements a merge queue that works on a per-commit basis.
 
+* Complexity explorer (Acomplejator)
+
+- Qualifies a set of files (by programming language, type of asset [lock file, documentation, etc.], etc.)
+- Interactive exploration by directory and type
+- Per-project configuration file with rules
+- Uses a fast compression algorithm to provide complexity metrics
+
 * Typing database
 
 - A database of keyboard layouts.
