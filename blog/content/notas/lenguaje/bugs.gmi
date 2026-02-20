@@ -1,0 +1,22 @@
+# Bugs
+
+Aunque el español es mi lengua materna y quizá no tengo la mejor perspectiva, siempre me ha parecido un idioma en general fácil en cuanto a pronunciación (comparado por ejemplo con el inglés) y ortografía (menos que la pronunciación).
+
+Pero dentro de esto, me parece la mar de curiosos unos cuantos fenómenos que considero "bugs" que complican un poco las cosas. Aquí recojo los que voy descubriendo para ayudarme a recordarlos.
+
+## La palabra que no se puede escribir.
+
+"Salme al paso" da la orden a alguien de salir al paso de quien habla.
+
+¿Cómo se escribiría si queremos que se salga al paso de una tercera persona?
+
+=> https://www.rae.es/ortografía/secuencias-de-dos-consonantes-iguales Artículo de "Ortografía de la lengua española" que menciona este bug
+
+## Palabras que se pronuncian distinto según el contexto
+
+¿Cómo pronuncias la palabra "pie"?
+
+¿Y en la frase "no pie porque no me gusta el vino"?
+
+=> https://dle.rae.es/piar La conjugación de piar que confirma que la primera persona del singular del pretérito perfecto simple se escribe sin ninguna tilde
+=> https://neopaquita.es/@microblogc/116103777349573512 Toot donde me descubrieron este bug
