@@ -1,0 +1,5 @@
+# Notas
+
+## Lenguaje
+
+=> lenguaje/bugs Bugs en el español
