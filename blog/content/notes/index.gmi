@@ -14,3 +14,4 @@ Notes about some books I like:
 
 => tech/gadgets/about-headphones About headphones
 => tech/gadgets/x12 Lenovo ThinkPad X12 Detachable Gen 1
+=> tech/gadgets/pocket-computers Pocket computers
