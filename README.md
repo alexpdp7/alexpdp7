@@ -16,7 +16,7 @@ Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar es
 * [La definición del modelo de datos del sistema que uso para registrar métricas de salud](weight/), que se convierte en una web gracias a [zqxjkcrud](https://github.com/alexpdp7/zqxjkcrud/), mi framework para desarrollo rápido de CRUD.
 * [Algunas cosas que sigo en RSS](FUENTES.md)
 * [Resúmenes de libros](https://alex.corcoles.net/notes/), aunque la verdad no hay mucho.
-* [Alguna cosilla de ficción que he escrito](fiction_writing/)
+* [Alguna cosilla de ficción que he escrito](https://alex.corcoles.net/notas/ficcion/)
 * [Mi blog personal](blog/), que podéis ver más fácilmente en https://alex.corcoles.net/ (y en Gemini, aunque por algún motivo no puedo enlazar a Gemini con el Markdown de GitHub).
   Podéis enviar cambios para correcciones y demás.
 

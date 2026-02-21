@@ -1,3 +1,5 @@
+# Mariano, el programador
+
 Mariano era un programador. No era el mejor, ni tampoco el peor. Había aprendido poco a poco, por su cuenta, hasta que un día descubrió que se podía ganar la vida con ello. Acabó trabajando en un olvidado engranaje del gobierno, programando poco a poco, día a día, tranquilamente.
 
 Mariano era el responsable de un pequeño programa que tomaba decisiones muy simples sobre gastos de un departamento muy pequeño de una subdelegación de un pequeño departamento que no estaba en boca de todos. Una vez al mes, alguien pulsaba un botón en el programa de Mariano y el presupuesto se repartía. No era un reparto particularmente ingenioso o eficiente, pero funcionaba- bueno, de cuando en cuando había algún problema pero Mariano siempre estaba ahí para resolverlo.

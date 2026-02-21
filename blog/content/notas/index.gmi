@@ -3,3 +3,16 @@
 ## Lenguaje
 
 => lenguaje/bugs Bugs en el español
+
+## Ficción
+
+=> ficcion/cuentos_del_triangulo_verde Cuentos del triángulo verde
+=> ficcion/el_principe El príncipe, el rey y el verdadero mal
+=> ficcion/maldito_clip Maldito clip
+
+=> ficcion/lucifer_martinez Lucifer Martínez
+=> ficcion/conmutatividad Conmutatividad
+=> ficcion/mariano_el_programador Mariano, el programador
+=> ficcion/en_los_mejores_cines En los mejores cines
+=> ficcion/un_paseo_por_el_rio Un paseo por el río
+=> ficcion/invoco_al_diablo Invocó al diablo y lo que sucedió a continuación te sorprenderá
