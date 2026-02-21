@@ -21,6 +21,7 @@ cat >index.gmi <<EOF
 Envíame email a alex arroba corcoles punto net.
 
 => notas Notas
+=> notes Notes
 
 EOF
 find . -path './2???/??/*.gmi' -type f -print0 | coppewebite-indexer . >>index.gmi

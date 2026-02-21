@@ -1,6 +1,8 @@
-https://luminosoa.org/site/books/m/10.1525/luminos.181/
+# Governable spaces
 
-# Introduction: democracy in the wild
+=> https://luminosoa.org/site/books/m/10.1525/luminos.181/
+
+## Introduction: democracy in the wild
 
 * Online communities are different to in-person communities.
 * Online politics in the small reflect in the large.
@@ -38,7 +40,7 @@ https://luminosoa.org/site/books/m/10.1525/luminos.181/
 * Sometimes governable spaces should be highly participative, in others, use representation.
 * Governance designs sensitive to economy of attention.
 
-# Implicit feudalism. The origins of counter-democratic design
+## Implicit feudalism. The origins of counter-democratic design
 
 * A popular group that called for accountability had a flagship organization with a single board member.
 * Facebook claimed having "the hacker way": open, meritocratic, but Mark Zuckerberg has majority control.

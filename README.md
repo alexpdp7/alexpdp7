@@ -15,7 +15,7 @@ Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar es
 * [Unos cuantos scripts que uso en mis "estaciones de trabajo"](scripts/) y [un par de barbaridades para montar un contenedor para Distrobox/Toolbox con algunas de las herramientas que uso](workstation/).
 * [La definición del modelo de datos del sistema que uso para registrar métricas de salud](weight/), que se convierte en una web gracias a [zqxjkcrud](https://github.com/alexpdp7/zqxjkcrud/), mi framework para desarrollo rápido de CRUD.
 * [Algunas cosas que sigo en RSS](FUENTES.md)
-* [Resúmenes de libros](cliffs_notes/), aunque la verdad no hay mucho.
+* [Resúmenes de libros](https://alex.corcoles.net/notes/), aunque la verdad no hay mucho.
 * [Alguna cosilla de ficción que he escrito](fiction_writing/)
 * [Mi blog personal](blog/), que podéis ver más fácilmente en https://alex.corcoles.net/ (y en Gemini, aunque por algún motivo no puedo enlazar a Gemini con el Markdown de GitHub).
   Podéis enviar cambios para correcciones y demás.
@@ -34,7 +34,7 @@ Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar es
 * [My emacs config](emacs/).
 * [Scripts I use on my workstations](scripts/) and [some bizarre stuff to build Distrobox/Toolbox containers with some tools I use](workstation/).
 * [The database schema for my health metrics tracking system](weight/), which has a web UI via [zqxjkcrud](https://github.com/alexpdp7/zqxjkcrud/), my CRUD rapid development framework.
-* [Cliffs' notes of books](cliffs_notes/), fairly barren.
+* [Cliffs' notes of books](https://alex.corcoles.net/notes/), fairly barren.
 
 ## Other usable projects of mine
 

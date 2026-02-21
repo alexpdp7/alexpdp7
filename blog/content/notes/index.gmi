@@ -1,0 +1,9 @@
+# Notes
+
+## Cliff's notes
+
+Notes about some books I like:
+
+=> cliffs/mythical-man-month The Mythical Man-Month
+=> cliffs/governable-spaces Governable Spaces
+=> cliffs/peopleware Peopleware
