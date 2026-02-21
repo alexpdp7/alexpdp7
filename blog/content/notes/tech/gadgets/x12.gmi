@@ -1,7 +1,6 @@
 # Lenovo ThinkPad X12 Detachable Gen 1
 
-This is the laptop I use for work for a few months now.
-The laptop is leased, and was built on late 2021.
+This is the laptop I used for work from early 2024 to early 2026. The laptop is leased, and was built on late 2021.
 
 ## Linux compatibility
 
