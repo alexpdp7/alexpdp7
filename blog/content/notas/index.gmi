@@ -16,3 +16,8 @@
 => ficcion/en_los_mejores_cines En los mejores cines
 => ficcion/un_paseo_por_el_rio Un paseo por el río
 => ficcion/invoco_al_diablo Invocó al diablo y lo que sucedió a continuación te sorprenderá
+
+## Tele
+
+=> tele/el-estado-de-esta-nacion-grabando El estado de esta nación grabando
+=> tele/teles Teles
