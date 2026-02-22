@@ -17,6 +17,7 @@ Notes about some books I like:
 => tech/ssh-for-beginners SSH for beginners
 => tech/document-formats Document formats
 => tech/internet-communication-channels Internet communication channels
+=> tech/ledger Ledger
 
 ### Gadgets
 
