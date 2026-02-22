@@ -18,6 +18,7 @@ Notes about some books I like:
 => tech/document-formats Document formats
 => tech/internet-communication-channels Internet communication channels
 => tech/ledger Ledger
+=> tech/migadu Migadu
 
 ### Gadgets
 
