@@ -21,3 +21,7 @@
 
 => tele/el-estado-de-esta-nacion-grabando El estado de esta nación grabando
 => tele/teles Teles
+
+## Tecnología
+
+=> tecnologia/quiero-instalar-linux Quiero instalar Linux
