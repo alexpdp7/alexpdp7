@@ -19,6 +19,7 @@ Notes about some books I like:
 => tech/internet-communication-channels Internet communication channels
 => tech/ledger Ledger
 => tech/migadu Migadu
+=> tech/ripping Ripping
 
 ### Gadgets
 

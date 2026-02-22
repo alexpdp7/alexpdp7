@@ -1,0 +1,67 @@
+# Ripping
+
+## Media
+
+=> https://arstechnica.com/civis/threads/ripping-optical-media.1507399/post-43734994 Main source
+
+### Audio CD
+
+About 200-300 MB per album CD when ripped to FLAC.
+
+### DVD
+
+About 4-8 GB per disc, averaging 5.6 GB per movie as ISO.
+
+### Blu-ray
+
+About 20-50 GB per disc, averaging 37 GB per movie as ISO.
+
+## Hardware
+
+### Reader
+
+I got a Verbatim external USB Blu-ray writer for about 120€.
+
+### Storage
+
+=> https://diskprices.com/ See diskprices.com
+
+## Software
+
+### Audio
+
+=> https://abcde.einval.com/wiki/ abcde  claims to rip and compress to FLAC and tag automatically.
+
+### DVD
+
+Use dd to rip DVD. However, dd can fail on some disks, perhaps due to damage or copy protection.
+
+=> https://unix.stackexchange.com/a/642790 This post on unix.stackexchange describes a trick that works:
+
+* Start playback of the disc using VLC.
+* Try dd first, if it fails, then run a command like "ddrescue -n -b2048 -K1M /dev/sr0 x.iso x.map".
+* After dd or ddrescue starts running, quit VLC.
+
+For playback, most software (including Kodi and VLC for Android) can play back DVD ISO with full menu support
+
+### Blu-ray
+
+=> http://fvonline-db.bplaced.net/ FindVUK has the keys to play Blu-ray discs ripped with dd.
+
+However, with encrypted Blu-ray discs, you need to configure the keys in each device where you want to play back the content. (And this is not easy or possible in some cases.)
+
+=> https://git.sr.ht/~shironeko/blu-save blu-save can remove the encryption.
+
+Remember to specify the path to the keys when running blu-save.
+
+However, VLC is confused by the AACS and CERTIFICATE directories that blu-save copies to the output. If you remove them, then VLC can play the BDMV directory with menus, etc.
+
+You can repack a Blu-ray extracted with blu-save by running a command like:
+
+```
+mkisofs -allow-limited-size -o .../my.iso .
+```
+
+from the directory that contains *only* the BDMV directory.
+
+VLC for desktop computers can open a repacked Blu-ray ISO and show the menus. Kodi for Android can open a repacked Blu-ray ISO and identify the titles. However, Kodi did not support the menus for the Blu-ray I tested.
