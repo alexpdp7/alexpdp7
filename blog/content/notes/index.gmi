@@ -10,6 +10,8 @@ Notes about some books I like:
 
 ## Tech
 
+=> tech/misc_linux_stuff Misc Linux stuff
+
 ### Gadgets
 
 => tech/gadgets/about-headphones About headphones
