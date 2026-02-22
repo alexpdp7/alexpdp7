@@ -10,7 +10,7 @@ Notes about some books I like:
 
 ## Tech
 
-=> tech/misc_linux_stuff Misc Linux stuff
+=> tech/misc-linux-stuff Misc Linux stuff
 
 ### Gadgets
 
