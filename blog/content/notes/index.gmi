@@ -11,6 +11,7 @@ Notes about some books I like:
 ## Tech
 
 => tech/misc-linux-stuff Misc Linux stuff
+=> tech/running-commands-in-linux Running commands in Linux
 
 ### Gadgets
 
