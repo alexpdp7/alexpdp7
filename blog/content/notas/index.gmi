@@ -25,3 +25,4 @@
 ## Tecnología
 
 => tecnologia/quiero-instalar-linux Quiero instalar Linux
+=> tecnologia/problemas Problemas
