@@ -2,20 +2,17 @@
 
 Containers are everywhere, and I feel today they are the default answer to many problems for many people.
 
-[Although the author of one of the handiest quotes does not want people to use it](https://www.jwz.org/blog/2014/05/so-this-happened/), I think that quote adequately describes the situation.
-Definitely, containers are no silver bullet.
+=> https://www.jwz.org/blog/2014/05/so-this-happened/ Although the author of one of the handiest quotes does not want people to use it, I think that quote adequately describes the situation. Definitely, containers are no silver bullet.
 
-Containers are a good example of an “easy but not simple” technique (see [the "Simple Made Easy" - Rich Hickey (2011) talk](https://www.youtube.com/watch?v=SxdOUGdseq4)).
+Containers are a good example of an “easy but not simple” technique.
 
-Containers are easy because they automate getting arbitrary "isolated" Linux environments and running processes on them.
-Additionally, you can find container images for mostly everything on the Internet.
-For this reason, it is very easy to run much software using containers, often with a single command.
+=> https://www.youtube.com/watch?v=SxdOUGdseq4 (See the "Simple Made Easy" - Rich Hickey 2011 talk.)
 
-However, containers are easy, but not simple.
-Containers combine many different techniques to achieve their ease, and thus, frequently you hit problems derived from any of the techniques containers use.
+Containers are easy because they automate getting arbitrary "isolated" Linux environments and running processes on them. Additionally, you can find container images for mostly everything on the Internet. For this reason, it is very easy to run much software using containers, often with a single command.
 
-However, Docker popularized many good ideas, both directly related to containerization and general ideas!
-There are still places where containers are the right answer.
+However, containers are easy, but not simple. Containers combine many different techniques to achieve their ease, and thus, frequently you hit problems derived from any of the techniques containers use.
+
+However, Docker popularized many good ideas, both directly related to containerization and general ideas! There are still places where containers are the right answer.
 
 ## Reasons not to use containers
 
@@ -35,11 +32,9 @@ Most issues can be worked around, but this requires more effort, or at least, mo
 
 ### Container images are big and expensive
 
-Optimizing the size of container images can require significant effort.
-Popular public images are often optimized for size, but even with optimized images, storing and moving container images frequently requires much more bandwidth and storage than the alternatives.
+Optimizing the size of container images can require significant effort. Popular public images are often optimized for size, but even with optimized images, storing and moving container images frequently requires much more bandwidth and storage than the alternatives.
 
-There are free ways to host private container images, but they are frequently limited in size, bandwidth, or both.
-You can easily run into Docker Hub limits, GitHub only provides 2gb of storage, etc.
+There are free ways to host private container images, but they are frequently limited in size, bandwidth, or both. You can easily run into Docker Hub limits, GitHub only provides 2gb of storage, etc.
 
 Building container images also can require significant resources.
 
@@ -47,23 +42,17 @@ Building container images also can require significant resources.
 
 Using containers frequently requires learning quite a few things specific about containers.
 
-* `Containerfile` design is not obvious.
-  Some questions, like `ADD` and `COPY`, or `CMD` and `ENTRYPOINT` are difficult and not well documented.
+* Containerfile design is not obvious. Some questions, like ADD and COPY, or CMD and ENTRYPOINT are difficult and not well documented.
 
-* Container design is not obvious.
-  Docker popularized "application containers", a fuzzy concept that is related to "single process containers", 12 factor architecture, and a few other ideas.
-  Solving your problem might require good knowledge of application container design and use.
+* Container design is not obvious. Docker popularized "application containers", a fuzzy concept that is related to "single process containers", 12 factor architecture, and a few other ideas. Solving your problem might require good knowledge of application container design and use.
 
-* Container tools are complex, because containerization is difficult.
-  Likely you need to know some intricate details of how Linux file permissions and users work, for example.
+* Container tools are complex, because containerization is difficult. Likely you need to know some intricate details of how Linux file permissions and users work, for example.
 
 Not using containers can mean avoiding having to think about these things, and being able to use the time you save to actually solve your problem.
 
 ### Docker is not so good, targeting multiple container engines is not trivial
 
-Docker was the first popular container engine.
-Docker was a revolution and invented or popularized many great ideas.
-However, knowledge about containers was not well established when Docker was invented, and since then, better ways of doing many things have been discovered.
+Docker was the first popular container engine. Docker was a revolution and invented or popularized many great ideas. However, knowledge about containers was not well established when Docker was invented, and since then, better ways of doing many things have been discovered.
 
 Other tools such as Podman or Fedora Toolbx and adjacent tools such as Distrobox have introduced many improvements respect Docker, while still reusing and being compatible with many Docker concepts.
 
@@ -71,8 +60,7 @@ However, creating processes and tools across these different tools can be diffic
 
 ### In some scenarios, containers do not add much
 
-Mainly after the rise of the Go programming language, distributing binaries has become easier.
-Distributing binaries on Windows and macOS has always been simpler than distributing binaries on Linux.
+Mainly after the rise of the Go programming language, distributing binaries has become easier. Distributing binaries on Windows and macOS has always been simpler than distributing binaries on Linux.
 
 However, nowadays many programming languages can create binaries that can be downloaded and executed on most Linux distributions.
 
@@ -80,8 +68,7 @@ One of the main benefits of Docker has been ease of distribution of software, bu
 
 ### Beware container images
 
-Much software is distributed nowadays as container images.
-The abundance of container images means that learning how to use containers helps you run a wide variety of software distributed as a container image.
+Much software is distributed nowadays as container images. The abundance of container images means that learning how to use containers helps you run a wide variety of software distributed as a container image.
 
 However, many container images are not of great quality, nor are adequately updated.
 
@@ -105,10 +92,9 @@ Finding the right combination that makes software portable can require significa
 
 ### Some container-related software has good and unique ideas
 
-For example, the controversial Kubernetes still provides a distributed standardized operating system that can be managed in a declarative way.
-This is a powerful concept, and still the preferred way to package software for Kubernetes depends on container images.
+For example, the controversial Kubernetes still provides a distributed standardized operating system that can be managed in a declarative way. This is a powerful concept, and still the preferred way to package software for Kubernetes depends on container images.
 
 ## What to use instead of container images
 
 * Binaries
-* "Portable-friendly" development tools such as Go, `uv`, or Cargo.
+* "Portable-friendly" development tools such as Go, uv, or Cargo.

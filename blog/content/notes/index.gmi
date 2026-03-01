@@ -22,6 +22,7 @@ Notes about some books I like:
 => tech/ripping Ripping
 => tech/about-apis About APIs
 => tech/about-relational-databases About relational databases
+=> tech/containers-might-not-be-the-right-answer Containers might not be the right answer
 
 ### Gadgets
 
