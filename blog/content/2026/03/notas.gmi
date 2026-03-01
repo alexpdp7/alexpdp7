@@ -1,0 +1,32 @@
+# 2026-03-01 Notas
+
+Hoy tocaba escribir en el blog, pero en vez de ello me he dedicado a migrar más contenido (principalmente "ensayos") a esta web.
+
+Durante mucho tiempo, metía ficheros de texto (mayoritariamente en Markdown) en mi "monorepo" Git personal. (El monorepo es un amalgama de un montón de cosas, incluido este blog y muchas más cosas.) Esta técnica no funciona mal y es muy cómoda, pero me ataba demasiado a GitHub.
+
+Ahora podéis leer ese contenido en:
+
+=> ../../notes Notes (en inglés)
+=> ../../notas Notas (en español)
+
+Con lo que ahora todo tiene URLs controladas por un servidor.
+
+Además, he convertido todo (a manopla) al formato gemtext de Gemini. gemtext es mucho más limitado que Markdown, con lo que he tenido que simplificar un poco el formato. Pero creo que esta "sencillez obligada" me ayuda a estructurar las cosas de una manera más simple y más adaptable a distintos formatos. (Como que por ejemplo, podéis leer todo usando un navegador de Gemini, lo que ofrece en mi opinión muchas ventajas.)
+
+Tras borrar también bastante contenido obsoleto o de baja calidad, creo que ya no queda casi nada susceptible de pasarse a gemtext. Todavía hay algo material, pero es mayormente:
+
+* Listados en formato Org con mucha jerarquía que no funcionarían muy bien en gemtext.
+* Un par de artículos que debería actualizar y modernizar bastante... cosa que seguramente no haré a corto plazo y esperaré a que necesiten un remodelado profundo.
+
+Con esto creo que cierro una primera fase de la iteración de este sitio web (ahora cápsula y no sólo blog). Curiosamente he "perdido" funcionalidad:
+
+* Falta navegabilidad; básicamente sólo podemos desandar nuestros pasos en la nueva web usando el botón de "atrás" de nuestro navegador.
+* He perdido la editabilidad que me daba GitHub; antes los textos en GitHub tenían un botón editar la mar de majo y las entradas del blog tenían un enlace para editarlas en GitHub.
+
+Lo primero creo que tengo maneras de resolverlas que intentaré aplicar igual a corto plazo.
+
+Lo segundo me fastidia mucho más y no se me ocurre una buena manera de subsanarlo. Podría seguir usando las funcionalidades de GitHub, pero claro, estoy intentando reducir mi dependencia. Podría usar software equivalente a GitHub, pero me estoy inclinando por alternativas mucho más sencillas para hospedar Git que no tienen funcionalidad equivalente (y que me resultan muy atractivas por otros motivos).
+
+Para cerrar comentaré que ahora mismo el contenido de esta web es más o menos de 700.000 palabras. A veces en mi cabeza le llamo a esto "mi universo cinemático", porque no es más que una película que me he montado en la cabeza durante más de un cuarto de siglo. Por suerte o por desgracia no soy Jack Kerouac[1], pero al menos os diré que tanta verborrea me entretiene y creo que me enriquece. Os animo a montar vuestros propios universos cinemáticos.
+
+=> https://sabr.org/journal/article/jack-kerouac-the-beat-of-fantasy-baseball/ [1] Jack Kerouac: The Beat of Fantasy Baseball
