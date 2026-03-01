@@ -31,6 +31,7 @@ Notes about some books I like:
 => tech/take-the-less-traveled-road Take the less traveled road
 => tech/the-tragedy-of-the-geeks The tragedy of the geeks
 => tech/misc-python-stuff Misc Python stuff
+=> tech/python-modules-primer Python modules primer
 
 ### Gadgets
 
