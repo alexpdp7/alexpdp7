@@ -21,6 +21,7 @@ Notes about some books I like:
 => tech/migadu Migadu
 => tech/ripping Ripping
 => tech/about-apis About APIs
+=> tech/about-relational-databases About relational databases
 
 ### Gadgets
 
