@@ -28,6 +28,7 @@ Notes about some books I like:
 => tech/git-advice Git advice
 => tech/github-annoyances GitHub annoyances
 => tech/prolog-vs-sql Prolog vs. SQL
+=> tech/take-the-less-traveled-road Take the less traveled road
 
 ### Gadgets
 
