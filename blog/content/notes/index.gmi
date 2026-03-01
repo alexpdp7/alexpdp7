@@ -26,6 +26,7 @@ Notes about some books I like:
 => tech/crud-is-an-important-unsolved-problem CRUD is an important unsolved problem
 => tech/about-django About Django
 => tech/git-advice Git advice
+=> tech/github-annoyances GitHub annoyances
 
 ### Gadgets
 
