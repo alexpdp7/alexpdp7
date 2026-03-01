@@ -1,0 +1,62 @@
+# Misc Python stuff
+
+## Tools
+
+* Use uv for your software. It's modern and good.
+* pipx is packaged by many distros and useful for installing Python software. Provide instructions for installing your software using pipx.
+* Use pytest for testing. It's PEP-8 compliant unlike unittest in the standard library. doctest is good too.
+* Use ruff for validation.
+
+## Python versions
+
+Try to support Python versions in popular LTS distros such as RHEL and its clones, and Debian and its derivates (like Ubuntu).
+
+## Writing command line tools
+
+* Use entry points so that when using pipx or uv to install your tool, they install the tool to the user's path.
+
+### Nice Python libraries
+
+* appdirs for using the proper configuration, cache, etc. directories on multiple platforms
+* keyring for cross-platform secret storage
+* tqdm for progress bars
+
+### Writing dependencyless Python
+
+If you can write your program without using dependencies, then it automatically becomes much easier to distribute and run. This is quite possible for many tools! And helps you replace problematic shell scripts.
+
+The standard library still includes a lot of batteries:
+
+* argparse is clunkier that third-party libraries, but it works well enough. The documentation provides a pattern for subcommands under "one particularly effective way of handling sub-commands...". argcomplete is a third party library that adds tab completion for argparse programs. Review the types that argparse provides support for, such as Path, enumerated choices, etc.
+* compression allows working with many archive formats without shelling out to tar or (un)zip.
+* concurrent.futures for executing things in parallel, esp. the map function combined with a ThreadPoolExecutor (for IO-bound tasks) or ProcessPoolExecutor (to avoid the GIL in tasks that use the CPU).
+* getpass to read passwords from the terminal properly. Also to obtain the current user.
+* hashlib to avoid shelling out to commands such as sha256sum.
+* http.server is useful for simple web servers (and also as a quick web server in the command line).
+* json is about the only structured format supported in the standard library.
+* logging to print output with timestamps.
+* pathlib for any kind of path manipulation, esp. the read|write_text|bytes methods that are so convenient. shutil still contains a few functions missing from pathlib, esp. in older Python versions.
+* textwrap.dedent and str.[lr]strip for embedding multiline strings in code.
+* urllib.request is clunkier than third-party libraries, but it's usable.
+
+(Also for very simple stuff, tkinter can implement simple graphical tools.)
+
+### Subprocess
+
+The main problem of using Python for scripting is that the subprocess functions do not default to check=True and shell=False.
+
+Likely many of your scripts will start with a subprocess wrapper suited to your script.
+
+You can use shlex.join to print commands you execute in a copy-pastable way.
+
+## Writing scrapers
+
+=> https://playwright.dev/python/ Use Playwright
+
+* Playwright automatically sets up headless browsers.
+* Provides convenient abstractions for locating elements in a page (mostly no XPath required. It can match "intelligently" using text).
+* Has a handy UI tool that records your actions in a browser and writes equivalent *readable* Playwright code.
+
+Further reading:
+
+=> https://new.pythonforengineers.com/blog/web-automation-dont-use-selenium-use-playwright/ Web automation: don't use Selenium, use Playwright
