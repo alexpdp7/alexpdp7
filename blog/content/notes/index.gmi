@@ -32,6 +32,7 @@ Notes about some books I like:
 => tech/the-tragedy-of-the-geeks The tragedy of the geeks
 => tech/misc-python-stuff Misc Python stuff
 => tech/python-modules-primer Python modules primer
+=> tech/so-you-want-to-play-with-functional-programming So you want to play with functional programming
 
 ### Gadgets
 
