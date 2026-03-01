@@ -9,7 +9,6 @@ Although programmers have been written a huge amount of CRUD systems for decades
 There are two major approaches to implementing CRUD systems:
 
 * Traditional programming: combining a relational database and most existing programming languages enables programmers to create CRUD systems.
-
 * "No code" (or "low code"): many products and services enable non-programmers to describe their data structure and the user interface requiring less technical knowledge than the traditional programming approach.
 
 ## About implementing CRUD systems with traditional programming
@@ -20,24 +19,15 @@ Most of what you need to do when using Django is to describe what you need, inst
 
 Out of the box, Django provides:
 
-* List and detail views, including nested views.
-  Many systems provide "flat" details view where you can edit a record, but not associated records.
-  For example, they provide a detail view for customers where you can edit the customer name and other information, but any "multiple" information, such as multiple addresses or phone numbers, must be edited in a different view.
-  This is frequently a huge issue, and it can require writing a significant amount of code in other systems.
-  With Django, you can implement this by describing the associated data.
-
-* Multi user authentication and role-based authentication.
-  With Django and without programming any code, administrators can create groups, assign users to groups, and limit the kinds of records that each group can view or edit.
-
-* Primitive change tracking.
-  Out of the box, changes to records are tracked automatically and can be consulted.
+* List and detail views, including nested views. Many systems provide "flat" details view where you can edit a record, but not associated records. For example, they provide a detail view for customers where you can edit the customer name and other information, but any "multiple" information, such as multiple addresses or phone numbers, must be edited in a different view. This is frequently a huge issue, and it can require writing a significant amount of code in other systems. With Django, you can implement this by describing the associated data.
+* Multi user authentication and role-based authentication. With Django and without programming any code, administrators can create groups, assign users to groups, and limit the kinds of records that each group can view or edit.
+* Primitive change tracking. Out of the box, changes to records are tracked automatically and can be consulted.
 
 For most CRUD implementations, alternative platforms require significantly more effort to implement those features.
 
 Additionally, the entire stack is open source software that does not require paying licenses.
 
-(Surprisingly, in the past there existed even more sophisticated CRUD platforms.
- But sadly, most have disappeared.)
+(Surprisingly, in the past there existed even more sophisticated CRUD platforms. But sadly, most have disappeared.)
 
 ## About implementing CRUD systems with no code
 
@@ -51,8 +41,7 @@ However, because those systems focus on no code usage, frequently you hit roadbl
 
 When you need a feature that they do not provide, it is either impossible to do it, or it requires programming in an unfriendly environment.
 
-Programming CRUD features can be complex.
-While traditional programming tools have evolved providing many features such as automated testing and advanced code revision control systems (rolling back bad changes and others), no code CRUD platforms do not reuse the wealth of programming tools that have been developed for traditional programming.
+Programming CRUD features can be complex. While traditional programming tools have evolved providing many features such as automated testing and advanced code revision control systems (rolling back bad changes and others), no code CRUD platforms do not reuse the wealth of programming tools that have been developed for traditional programming.
 
 Non-developers frequently face huge challenges going beyond the basics of what the tool provides, and developers struggle and suffer by working in environments that are more limiting compared to others.
 
@@ -72,8 +61,7 @@ In most cases, organizations cannot justify the costs of tailoring the CRUD syst
 
 ### Improving existing traditional programming CRUD platforms
 
-I believe systems such as Django can still see many improvements.
-Likely, both the amount of technical knowledge to use these systems and the amount of effort to design CRUD systems can be reduced significantly.
+I believe systems such as Django can still see many improvements. Likely, both the amount of technical knowledge to use these systems and the amount of effort to design CRUD systems can be reduced significantly.
 
 ### Providing systems to transition from no code approaches to traditional programming
 
@@ -83,10 +71,8 @@ However, no code platforms cannot provide all features needed, and in many cases
 
 Providing a way to migrate to a traditional programming approach would enable breaking this barrier and scaling systems more effectively.
 
-(Some no code platforms have APIs.
- With them, programmers can write code to extend the no code CRUD systems using traditional programming approaches.
- However, implementing functionalities through APIs has limitations and specific problems.)
+(Some no code platforms have APIs. With them, programmers can write code to extend the no code CRUD systems using traditional programming approaches. However, implementing functionalities through APIs has limitations and specific problems.)
 
 ## Further reading
 
-* [About Django](python/about_django.md).
+=> about-django About Django
