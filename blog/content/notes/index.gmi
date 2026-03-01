@@ -27,6 +27,7 @@ Notes about some books I like:
 => tech/about-django About Django
 => tech/git-advice Git advice
 => tech/github-annoyances GitHub annoyances
+=> tech/prolog-vs-sql Prolog vs. SQL
 
 ### Gadgets
 

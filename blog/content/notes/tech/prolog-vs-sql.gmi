@@ -1,15 +1,12 @@
 # Showing the similarities between SQL and Prolog
 
-SQL is a very common programming language, which sometimes is compared to the relatively more obscure Prolog language.
-Both are examples of declarative languages, where you define some facts, then you can ask questions about those facts, and the system answers the questions without you writing an explicit program.
+SQL is a very common programming language, which sometimes is compared to the relatively more obscure Prolog language. Both are examples of declarative languages, where you define some facts, then you can ask questions about those facts, and the system answers the questions without you writing an explicit program.
 
-However, I could not find a good example of their similarities.
-This text presents the most typical Prolog example, and translates it to SQL.
+However, I could not find a good example of their similarities. This text presents the most typical Prolog example, and translates it to SQL.
 
 ## A typical Prolog example
 
-`[x]` reads Prolog facts from file `x`.
-We can use the special file `user` to read facts from the REPL, ending the facts with ctrl+d:
+"[x]" reads Prolog facts from file "x". We can use the special file "user" to read facts from the REPL, ending the facts with ctrl+d:
 
 
 ```
@@ -23,8 +20,7 @@ $ swipl
 true.
 ```
 
-You should read `father(X,Y)` as "`X` is the father of `Y`".
-So Jim is the father of Julian, and so on.
+You should read "father(X,Y)" as "X is the father of Y". So Jim is the father of Julian, and so on.
 
 We can ask Prolog questions:
 
@@ -33,8 +29,7 @@ We can ask Prolog questions:
 false.
 ```
 
-Is Julian the father of Jim? There is no known fact about this, so no.
-But Julian *is* the father of Joe:
+Is Julian the father of Jim? There is no known fact about this, so no. But Julian *is* the father of Joe:
 
 ```
 ?- father(julian, joe).
@@ -49,7 +44,7 @@ X = joe ;
 X = jerome.
 ```
 
-(You press `;` to get further answers.)
+(You press ; to get further answers.)
 
 ## A simple translation to SQL
 
@@ -86,8 +81,7 @@ The typical example continues with some logic:
 true.
 ```
 
-`X` is the grandfather of `Y` if `X` is the father of `Z`, and `Z` is the father of `Y`.
-Then you can ask questions, and Prolog knows the answers:
+X is the grandfather of Y if X is the father of Z and Z is the father of Y. Then you can ask questions, and Prolog knows the answers:
 
 ```
 ?- grandfather(jim, X).
