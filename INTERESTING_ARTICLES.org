@@ -56,6 +56,7 @@
 - [[https://luminousmen.com/post/senior-engineer-fatigue][Senior Engineer Fatigue]]
 - [[https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/][Things You Should Never Do, Part I]] About rewriting software from scratch
 - [[https://dl.acm.org/doi/10.1145/1464122.1464146][Some observations concerning large programming efforts]] Someone figured most of it out in 1964.
+- [[https://www.jofreeman.com/joreen/tyranny.htm][The tyranny of structurelessness]]
 
 ** Project management
 
