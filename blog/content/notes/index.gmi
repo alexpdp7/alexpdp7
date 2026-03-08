@@ -4,12 +4,12 @@
 
 ## Cliff's notes
 
-Notes about some books I like:
+Notes about some books and long articles I like:
 
 => cliffs/mythical-man-month The Mythical Man-Month
 => cliffs/governable-spaces Governable Spaces
 => cliffs/peopleware Peopleware
-
+=> cliffs/the-tyranny-of-structurelessness The tyranny of structurelessness
 ## Tech
 
 => tech/misc-linux-stuff Misc Linux stuff
