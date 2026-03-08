@@ -221,6 +221,11 @@ See https://github.com/alexpdp7/pandocsql https://github.com/alexpdp7/pandoc_dat
 - Processes that poll external sources (calendars, org-mode, ticket trackers, etc.) and add elements to the list.
   For processes that poll sources without stable ids, the daemon does similarity comparisons for identity
 - UIs show the list by ordering, allow reordering, filtering by tag
+
+* Unix domain sockets proxies
+
+- Make it easier to run local daemons (for development, for example) listening on Unix domain sockets (that are named and do not have collisions like port numbers).
+
 * SQL2
 
 See https://github.com/EvgSkv/logica, [[https://prql-lang.org/]]
