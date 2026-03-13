@@ -8,4 +8,22 @@ node 'stb.mad.int.pdp7.net' {
   }
   ~>
   Exec['/usr/bin/systemctl reset-failed']
+
+  user {'kodi':
+    ensure => present,
+  }
+
+  package {['kodi', 'lightdm']:}
+
+  file {'/etc/lightdm/lightdm.conf':
+    content => @(EOT)
+    [Seat:*]
+    user-session=kodi
+    autologin-user=kodi
+    | EOT
+    ,
+    require => [Package['kodi'], User['kodi']],
+  }
+  ~>
+  service {'lightdm':}
 }
