@@ -4,28 +4,28 @@ class flexisip($flexisip_sdp_port_range_min, $flexisip_sdp_port_range_max, $flex
       # keep this repository enabled even if you enable beta/alpha repositories
       [Belledonne-stable]
       name=Belledonne-stable
-      baseurl=http://www.linphone.org/snapshots/$contentdir/$releasever/stable
+      baseurl=https://download.linphone.org/snapshots/$contentdir/$releasever/stable
       enabled=1
       gpgcheck=0
 
       # enable this if you want post-release patches
       [Belledonne-hotfix]
       name=Belledonne-hotfix
-      baseurl=http://www.linphone.org/snapshots/$contentdir/$releasever/hotfix
+      baseurl=https://download.linphone.org/snapshots/$contentdir/$releasever/hotfix
       enabled=1
       gpgcheck=0
 
       # enable this if you want next release beta packages
       [Belledonne-beta]
       name=Belledonne-beta
-      baseurl=http://www.linphone.org/snapshots/$contentdir/$releasever/beta
+      baseurl=https://download.linphone.org/snapshots/$contentdir/$releasever/beta
       enabled=0
       gpgcheck=0
 
       # enable this to have development (unstable) packages
       [Belledonne-alpha]
       name=Belledonne-alpha
-      baseurl=http://www.linphone.org/snapshots/$contentdir/$releasever/alpha
+      baseurl=https://download.linphone.org/snapshots/$contentdir/$releasever/alpha
       enabled=0
       gpgcheck=0
       | EOT
