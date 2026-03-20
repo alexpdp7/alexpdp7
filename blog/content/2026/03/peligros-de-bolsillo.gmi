@@ -1,0 +1,45 @@
+# 2026-03-20 Peligros de bolsillo
+
+Google lleva un tiempo intentando controlar los programas que uno puede ejecutar en su móvil Android. La idea es que toda aplicación deba estar aprobada por Google, lo que incluye que Google pueda identificar a la persona física responsable de la aplicación.
+
+Esta es la enésima versión de cosas de las que ya he hablado varias veces por aquí:
+
+=> ../../2025/02/el-lento-adios-a-la-magia-de-los-ordenadores El lento adiós a la magia de los ordenadores (2025, sobre que nos limiten en el uso de nuestros dispositivos)
+
+=> ../../2015/12/por-que-no-uso-productos-apple Por qué no uso productos Apple (2015, sobre cómo Apple me parece de lo peor en este sentido)
+
+Pero la verdad, las medidas en concreto que Google propone ahora no me gustan, pero tampoco se me ocurre nada mejor.
+
+Básicamente, la opción que va a dar Google para que podamos ejecutar aplicaciones que no controlan parece draconiana: entre otras cosas, el botón para habilitar esta funcionalidad tardará un día entero en tomar efecto (y además estará bastante escondido).
+
+Para mí, esto es bastante más satisfactorio que lo que proponían antes y no se me ocurre una opción mejor.
+
+Los autores de F-Droid, un excelente sistema para distribuir aplicaciones de código libre en Android de donde instalo bastantes aplicaciones, firman la siguiente carta abierta en contra de estas medidas:
+
+=> https://keepandroidopen.org/es/ Keep Android Open
+
+Enlazo a la traducción en español que todavía no está actualizada con la respuesta a la última propuesta de Google, donde rechazan la propuesta. La verdad que su contraargumento principal es que todavía no se puede verificar que Google hará esto y que Google puede volver a cambiar las reglas cuando quiera. Ambas son ciertas y estoy de acuerdo, pero también dan énfasis a que las medidas son un poco draconianas.
+
+En mi opinión, Google está reaccionando a una amenaza concreta. Según Google, hay muchos entes malignos haciendo llamadas telefónicas a gente y engañándoles para que instalen aplicaciones maliciosas en su teléfono. Si esto es cierto, ¿qué hacemos?
+
+Antes de responder a esta pregunta, en este punto creo que debemos preguntarnos varias cosas.
+
+Lo primero es que cómo hemos llegado a esta situación. Instalar una aplicación maliciosa en tu móvil puede ser muy peligroso. Por muchas medidas de protección que se pongan, es inevitable que pongamos en peligro cualquier cosa a la que podamos acceder por ese móvil. Y eso, por muchos motivos distintos, incluye muchísimas cosas importantes.
+
+Y hoy en día, estamos casi obligados a usar en móvil y casi obligados a manejar cosas sensibles a través de él. Por ejemplo, hoy en día el canal de comunicación con muchos de nuestros allegados es por (mal que me pese) WhatsApp. Muchos bancos restringen el acceso a mucha funcionalidad útil a su aplicación del móvil. Incluso algunos organismos oficiales nos hacen pasar por el móvil.
+
+(Y ojo, esto no es para nada algo exclusivo del móvil. Esto ya no pasa tanto con los ordenadores de escritorio y portátiles porque simplemente están muriendo. Creo que todo el mundo tiene móvil y cada vez menos gente tiene ordenadores porque los móviles son más sencillos y requieren menos esfuerzo de uso que los ordenadores tradicionales.)
+
+Entonces viene la pregunta de si, siendo el móvil un dispositivo imprescindible para la vida moderna, todo el mundo debe aprender a manejarlo con responsabilidad para estar protegido.
+
+Yo creo que es mejor si podemos dar a la gente una opción para poder comunicarse por WhatsApp y gestionar su dinero de una manera segura sin tener que dedicar un esfuerzo importante en formación para no correr un peligro real y significativo.
+
+Y en ese punto, creo que las medidas de Google pueden ser útiles y no veo opciones mejores si quiero dar a la gente la opción que acabo de mencionar. Porque me creo que ese bloqueo de un día puede ser altamente efectivo.
+
+Pero que yo defienda estas medidas no quiere decir que esté contento con ellas. Que hayamos llegado hasta aquí es un problema, y que la gente que está dispuesta a aprender a protegerse tenga que aceptar todas las cosas malas que vienen en este paquete me parece terrible.
+
+Porque en efecto, todos estamos prácticamente obligados a usar un dispositivo totalmente controlado por Apple o Google, dos empresas privadas cuyo objetivo es ganar dinero. Y esto es una tragedia por innumerables motivos, tanto obvios como sutiles.
+
+En mi opinión, lo que necesitamos es que todo servicio "vital" se pueda usar sin pasar por el control de ninguna gran empresa privada. Si un sistema de mensajería es importante para vivir en sociedad, debe ser interoperable como es (o debería ser) el correo electrónico. Para usar WhatsApp tengo que usar un dispositivo controlado por Google o Apple y ejecutar en este dispositivo una aplicación controlada por Facebook. Con el correo electrónico (con ciertas notas al pie), puedo usar el dispositivo que me dé la gana, con el programa que me dé la gana y escogiendo el proveedor de servicio que me dé la gana. (E incluso, con más notas al pie, me lo puedo guisar todo yo mismo.)
+
+Si tenemos esto, las restricciones de Google me dan bastante igual, porque creo que bajo estas condiciones, no tendré un teléfono controlado por Google como lo tengo hoy en día, o al menos tendré la opción. Y si no tenemos esto, creo que tener que esperar un día para poder instalar aplicaciones de F-Droid quizá sea más bueno que malo.
