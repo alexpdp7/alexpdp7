@@ -33,6 +33,7 @@ Notes about some books and long articles I like:
 => tech/misc-python-stuff Misc Python stuff
 => tech/python-modules-primer Python modules primer
 => tech/so-you-want-to-play-with-functional-programming So you want to play with functional programming
+=> tech/motivating-example-for-logical-replication-for-dynamic-ui Motivating example for logical replication for dynamic UI
 
 ### Gadgets
 

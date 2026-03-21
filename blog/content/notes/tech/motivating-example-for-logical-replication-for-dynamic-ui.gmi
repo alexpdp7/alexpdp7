@@ -1,0 +1,61 @@
+# Motivating example for logical replication with dynamic UI
+
+(I'm almost sure what I write below is a horrible idea that will melt a PostgreSQL server with very few "real-time queries" at the same time. I'm very curious about how much load could PostgreSQL handle efficiently using this schema.)
+
+Suppose the following database schema (pseudo-SQL):
+
+```sql
+create table chat_messages (
+  id               serial primary key,
+  posted           timestamp not null,
+  channel          text not null references chats(id),
+  author           text not null references users(id),
+  message          text not null
+);
+```
+
+Imagine you could write an UI element that subscribed to the following publication:
+
+```
+create publication foo for table chat_messages where (channel in :list_of_channels_user_is_in and posted > :some_time_ago);
+```
+
+Without writing any additional code, the UI element would get instantly notified not only of all new messages, but also of editions, deletions, or messages moved in or out of the subscribed channels. I believe you could write a real-time UI element with much shorter and safer code than any alternative I can think of that only uses OSS code. (As far as I know, [ksqlDB](https://github.com/confluentinc/ksql) does a similar thing, but has non-OSS bits and seems much harder to deploy than PostgreSQL, besides you would also need to deploy PostgreSQL.)
+
+This has some caveats:
+
+* Publications cannot do "joins", and implementing any live UI element that requires joins would be much more complex. (And I'm not sure it would still be the best way to implement things.)
+* This likely cannot be implemented efficiently without having all working set data in RAM (e.g. all the data involved in all subscriptions).
+
+My idea is writing:
+
+* A daemon that provides an API that can be used as in the following example:
+
+```
+subscription = subscribe("chat_messages", column("channel").in(list_of_channels) and column("posted").gt(some_time_ago))
+while update = subscription.next():
+  for chat_message in sorted(update.all_current_results(), key=lambda chat_message: chat_message.posted):
+    print(chat_message.current_values, chat_messages.previous_values)
+  print(update.deleted_since_last_update_results())
+```
+
+* Libraries for stacks such as "Django + HTMX", "GTK", etc. that allow to build UI elements that use the daemon API underneath, so you could write things like:
+
+```
+<ul class="channels">
+  {% foreach channel in joined_channels %}
+    <li>
+      {{ channel.name }}
+      last message: {{ for chat_message in update_all_current_results() if chat_message.current_values.channel == channel | max(lambda chat_message: chat_message.current_values.posted) }}
+    </li>
+  {% end foreach %}
+</ul>
+
+<ul class="current_chat_messages">
+  {% foreach chat_message in update.all_current_results() if chat_message.current_values.channel == current_channel %}
+    <li>{{ chat_message.current_values.author }} {{ chat_message.current_values.message }}</li>
+  {% end foreach %}
+</ul>
+```
+
+For stacks such as Django/HTMX, in simpler websites you could have websites that degrade gracefully out of the box without JS, just losing real-time updates.
