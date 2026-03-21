@@ -8,15 +8,7 @@ The Blackberry KeyONE I used 2017-2021 was the last device I used that had this 
 
 Since then, I believe the loss of physical keyboard phones means that some uses of the smartphone have disappeared.
 
-=> https://www.bringbackblackberry.com/
-
 ## Current devices
-
-=> https://www.unihertz.com/products/titan-pocket Titan Pocket (owned)
-
-* The keyboard feels worse than a Blackberry
-* The keyboard has deteriorated with age (some keys require extra pressure to activate, meaning typing is painful)
-* The keyboard software is insufficient for writing in Spanish and Catalan
 
 => https://www.clicksphone.com/communicator Clicks Communicator
 => https://www.clicksphone.com/powerkeyboard Clicks Power Keyboard
@@ -28,6 +20,14 @@ Since then, I believe the loss of physical keyboard phones means that some uses 
 => https://mecha.so/comet Mecha Comet
 => https://www.tindie.com/stores/zitaotech ZitaoTech refurbs keyboards, but they seem to be permanently out of stock.
 => https://linkapus.com/ The Q25 project is a project to put an Android phone inside a Blackberry Classic shell.
+
+## Recent devices
+
+=> https://www.unihertz.com/products/titan-pocket Titan Pocket (owned)
+
+* The keyboard feels worse than a Blackberry and deteriorates with age (some keys require extra pressure to activate, meaning typing is painful)
+* The keyboard software is insufficient for writing in Spanish and Catalan
+* My battery swelled and I retired it
 
 ## Obstacles
 
