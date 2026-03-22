@@ -27,7 +27,9 @@ with tempfile.TemporaryDirectory() as tempdir:
     tempdir = pathlib.Path(tempdir)
     repo = tempdir / "repo"
     subprocess.run(["git", "worktree", "add", repo, pushed_commit], check=True)
-    blog = repo / "blog"
-    os.chdir(blog)
-    os.environ["PATH"] = "/home/alex/.local/bin:" + os.environ["PATH"]
-    subprocess.run(["./build.sh", dest], check=True)
+    try:
+        blog = repo / "blog"
+        os.environ["PATH"] = "/home/alex/.local/bin:" + os.environ["PATH"]
+        subprocess.run(["./build.sh", dest], check=True, cwd=blog)
+    finally:
+        subprocess.run(["git", "worktree", "remove", repo], check=True)
