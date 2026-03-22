@@ -1,0 +1,30 @@
+# Gemini
+
+This is my Gemini start page. I was unhappy with not having synchronized bookmarks in my Gemini clients, until I realized I could just publish a start page.
+
+The links below are Gemini links. You need a Gemini client to open them.
+
+## Aggregators
+
+=> gemini://cosmos.skyjake.fi/ Cosmos
+=> gemini://caracolito.mooo.com/deriva/ bot en deriva
+=> gemini://planet-gemini.fr Planet Gemini Francophonie - Agrégateur de capsules francophone
+
+## Search engines
+
+=> gemini://kennedy.gemi.dev/ Kennedy: Search Gemini Space
+=> gemini://tlgs.one/ TLGS - "Totally Legit" Gemini Search
+=> gemini://cdg.thegonz.net/ Collaborative Directory of Geminispace
+
+## Other stuff of interest
+
+The links below are web links, for those who do not have a Gemini client yet.
+
+### Clients
+
+=> https://gmi.skyjake.fi/lagrange/ Lagrange
+=> https://github.com/makew0rld/amfora Amfora
+
+### Other software
+
+=> https://ñix.es/cgit/alex/coppewebite.git/about/ Coppewebite is what I use to generate and serve this capsule
