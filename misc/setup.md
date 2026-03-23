@@ -44,14 +44,16 @@ I use Firefox with LanguageTool, Bitwarden and NoScript.
 
 ## Phone
 
-I use a Pixel 7A and a Titan Pocket.
+I use a Pixel 9A.
 
 - Firefox
+- Delta Chat
+- Conversations
 - F-Droid
 - Bitwarden
-- Orgzly (for Emacs org mode, synchronized via Nextcloud)
+- Orgzly revived (for Emacs org mode, synchronized via Nextcloud)
 - Bangle.js GadgetBridge (for my Bangle.js 2)
-- Termux (for occasional SSH use)
+- Connectbot
 - VLC
 - lichess
 - OpenFoodFacts
