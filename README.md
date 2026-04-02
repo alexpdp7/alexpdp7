@@ -4,7 +4,6 @@
 
 Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar esta.
 
-* [Artículos que cito a menudo](INTERESTING_ARTICLES.org), en una especie de esfuerzo de recopilar cosas que me veo explicando una y otra vez, para en vez de eso dar un artículo bien escrito por alguien más calificado.
 * [Proyectos interesantes](INTERESTING_PROJECTS.org).
   Antes usaba las estrellitas de GitHub, pero de vez en cuando me encontraba algo (¡cielos!) que no estaba en GitHub (y además, las estrellitas me dan un poco de tirria).
 * [Gran parte del código que soporta mi infraestructura personal](personal_infra/).
@@ -24,7 +23,6 @@ Más cosas escritas [en español](https://alex.corcoles.net/notas/) y [en inglé
 
 (This list is shorter because some material is Spanish-only.)
 
-* [Frequently-cited articles](INTERESTING_ARTICLES.org), to spare people from my explanations and give them a proper source.
 * [Interesting projects](INTERESTING_PROJECTS.org).
   Previously I used GitHub stars, but some stuff is not in GitHub (gasp!) (also, I dislike GitHub stars).
 * [Most of the code for my personal infra](personal_infra/).
