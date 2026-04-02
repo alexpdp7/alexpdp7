@@ -1,5 +1,7 @@
 # Notas
 
+=> comprar-bajo-en-sodio Comprar bajo en sodio
+
 ## Lenguaje
 
 => lenguaje/bugs Bugs en el español

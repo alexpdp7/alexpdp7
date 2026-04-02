@@ -30,7 +30,7 @@ Voy soltando reflexiones chorras en el Fediverso que me da un poco de vergüenza
 
 => https://sansec.io/research/polyfill-supply-chain-attack Y cómo las optimizaciones innecesarias... (y otras manías mías)... nos exponen a peligrosos agujeros de seguridad.
 
-=> https://github.com/alexpdp7/alexpdp7/blob/master/misc/comprar-bajo-en-sodio.org Consejos para comprar sin sal, de alguien que NO es una autoridad (yo).
+=> ../../notas/comprar-bajo-en-sodio Consejos para comprar sin sal, de alguien que NO es una autoridad (yo).
 
 => https://en.m.wikipedia.org/wiki/The_Vanilla_Ice_Project The Vanilla Ice Project is an American reality television series on the DIY Network. It is hosted by construction contractor and rapper Rob Van Winkle, a.k.a. Vanilla Ice, who has significant experience with home improvement and real estate flipping.
 
