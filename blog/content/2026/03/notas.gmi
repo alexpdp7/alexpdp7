@@ -6,8 +6,8 @@ Durante mucho tiempo, metía ficheros de texto (mayoritariamente en Markdown) en
 
 Ahora podéis leer ese contenido en:
 
-=> ../../notes Notes (en inglés)
-=> ../../notas Notas (en español)
+=> ../../notes/ Notes (en inglés)
+=> ../../notas/ Notas (en español)
 
 Con lo que ahora todo tiene URLs controladas por un servidor.
 
