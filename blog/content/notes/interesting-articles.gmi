@@ -143,7 +143,7 @@ A collective fallacy, in which a group of people collectively decide on a course
 => https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect The Dunning–Kruger effect
 A cognitive bias in which people with limited competence in a particular domain overestimate their abilities. Some researchers also include the opposite effect for high performers: their tendency to underestimate their skills. In popular culture, the Dunning–Kruger effect is often misunderstood as a claim about general overconfidence of people with low intelligence instead of specific overconfidence of people unskilled at a particular task.
 => https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.840180/full A Statistical Explanation of the Dunning–Kruger Effect
-This effect might only be caused by subjects in the bottom quartile can only make optimistic errors placing themselves into a higher quartile, while subjects in the top quartile can only make pessimistic errors placing themselves in a lower quartile]].
+This effect might only be caused by subjects in the bottom quartile can only make optimistic errors placing themselves into a higher quartile, while subjects in the top quartile can only make pessimistic errors placing themselves in a lower quartile.
 
 => https://en.wikipedia.org/wiki/Gell-Mann_amnesia_effect The Gell-Mann amnesia effect
 A cognitive bias describing the tendency of individuals to critically assess media reports in a domain they are knowledgeable about, yet continue to trust reporting in other areas despite recognizing similar potential inaccuracies.
