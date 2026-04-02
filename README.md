@@ -8,7 +8,6 @@ Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar es
   Antes usaba las estrellitas de GitHub, pero de vez en cuando me encontraba algo (¡cielos!) que no estaba en GitHub (y además, las estrellitas me dan un poco de tirria).
 * [Gran parte del código que soporta mi infraestructura personal](personal_infra/).
 * [Ideas en las que me gustaría trabajar algún día, pero que cuelgo aquí por si algún incauto pica](IDEAS.org).
-* Artículos varios un poco tipo wiki sobre diversos temas.
 * [Mi configuración de Emacs](emacs/).
 * [Unos cuantos scripts que uso en mis "estaciones de trabajo"](scripts/) y [un par de barbaridades para montar un contenedor para Distrobox/Toolbox con algunas de las herramientas que uso](workstation/).
 * [La definición del modelo de datos del sistema que uso para registrar métricas de salud](weight/), que se convierte en una web gracias a [zqxjkcrud](https://github.com/alexpdp7/zqxjkcrud/), mi framework para desarrollo rápido de CRUD.
@@ -26,7 +25,6 @@ Más cosas escritas [en español](https://alex.corcoles.net/notas/) y [en inglé
   Previously I used GitHub stars, but some stuff is not in GitHub (gasp!) (also, I dislike GitHub stars).
 * [Most of the code for my personal infra](personal_infra/).
 * [Ideas I'd like to work on someday, but mostly making them public to bait people into implementing them instead of me](IDEAS.org).
-* Wiki-like articles.
 * [My emacs config](emacs/).
 * [Scripts I use on my workstations](scripts/) and [some bizarre stuff to build Distrobox/Toolbox containers with some tools I use](workstation/).
 * [The database schema for my health metrics tracking system](weight/), which has a web UI via [zqxjkcrud](https://github.com/alexpdp7/zqxjkcrud/), my CRUD rapid development framework.
