@@ -2,8 +2,6 @@ I have decided to not use GitHub stars any more.
 Mainly because it excludes projects not on GitHub.
 Also keeping things in a Org mode means I can classify and add notes.
 
-See also [[TOOLS.org][tools I use]].
-
 * Coding
 ** Version control and code management
    - https://github.com/josh-project/josh Simpler alternative to moe/copybara. [[https://github.com/rust-lang/josh-sync][Wrapper tool for CI]]
