@@ -56,7 +56,7 @@ node 'nagios.h1.int.pdp7.net' {
 
   nagios_command {'check_alex.corcoles.net-gemini-cert':
     command_name => 'check_alex.corcoles.net-gemini-cert',
-    command_line => '/usr/lib64/nagios/plugins/check_ssl_validity -H alex.corcoles.net -I alex.corcoles.net -p 1965 -c 10 5',
+    command_line => '/usr/lib64/nagios/plugins/check_ssl_validity -H alex.corcoles.net -I alex.corcoles.net -p 1965 -c 10 -w 5',
     require => Package['nagios'],
     notify => Service['nagios'],
     owner => 'nagios',
