@@ -11,7 +11,7 @@ y que la suma se realice en el sistema remoto. A esto le llamaron llamada de pro
 
 Sun implementó uno de los primeros sistemas de RPC para implementar el sistema de archivos distribuido NFS, y a lo largo del tiempo han ido apareciendo diferentes mecanismos de RPC para diferentes plataformas y necesidades.
 
-Con la popularización de la WWW, el protocolo HTTP y Javascript en los 90, pronto la gente comenzó a implementar comunicaciones entre sistema utilizándolos. Por ejemplo, una web podía exponer algunos de sus contenidos y funcionalidades en HTML para consumo humano, pero también exponerlos para consumo de otros sistemas. Mecanismos simples como poner una URL en la que si hacemos un POST http con unos argumentos, nos devuelve el resultado de una operación en un formato fácilmente parseable.
+Con la popularización de la WWW, el protocolo HTTP y JavaScript en los 90, pronto la gente comenzó a implementar comunicaciones entre sistema utilizándolos. Por ejemplo, una web podía exponer algunos de sus contenidos y funcionalidades en HTML para consumo humano, pero también exponerlos para consumo de otros sistemas. Mecanismos simples como poner una URL en la que si hacemos un POST http con unos argumentos, nos devuelve el resultado de una operación en un formato fácilmente parseable.
 
 Pronto, uno de los padres fundadores del HTTP, procesó los principios fundamentales del HTTP y la WWW, en concreto que todo era una cuestión de URLs y acciones como GET/POST/PUT/DELETE que soporta el protocolo HTTP; cada URL representa un recurso y podemos expresar acciones mediante los "verbos" HTTP. A esto le llamó REST y supuso una perspectiva limpia y poderosa de lo que es la WWW.
 

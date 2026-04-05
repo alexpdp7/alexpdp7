@@ -21,7 +21,7 @@ Many computer languages have similar concepts:
 * C++ std::map
 * Java java.util.Map
 * C# System.Collections.Generic.Dictionary
-* Javascript Object
+* JavaScript Object
 * PHP arrays
 
 Relations are a natural concept, so although non-relational data systems exist, most data can be stored as relations.

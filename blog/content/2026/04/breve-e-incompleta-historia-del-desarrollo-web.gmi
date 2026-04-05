@@ -82,9 +82,9 @@ A diferencia del CGI, mediante el cual nacieron las webs dinámicas, PHP no trae
 
 Como muchos sabréis, ni PHP ni Perl han sido el final. Hoy en día, prácticamente todos los lenguajes de programación se usan para desarrollo web, con todo tipo de código reutilizable que cada vez nos aleja más del CGI.
 
-Paralelamente al desarrollo de CGI, PHP y las webs dinámicas, en 1995 apareció el primer navegador con Javascript. A diferencia de los ejemplos anteriores, donde el código que os he puesto se ejecuta en el servidor web, Javascript se ejecuta en vuestro navegador. Esto permite otro tipo de interacciones que ejemplificaremos con Google Maps lanzado en 2005, que ya nos permitía desplazarnos por el mapa de una manera mucho más interactiva que lo que nos permite ninguna web dinámica sin Javascript.
+Paralelamente al desarrollo de CGI, PHP y las webs dinámicas, en 1995 apareció el primer navegador con JavaScript. A diferencia de los ejemplos anteriores, donde el código que os he puesto se ejecuta en el servidor web, JavaScript se ejecuta en vuestro navegador. Esto permite otro tipo de interacciones que ejemplificaremos con Google Maps lanzado en 2005, que ya nos permitía desplazarnos por el mapa de una manera mucho más interactiva que lo que nos permite ninguna web dinámica sin JavaScript.
 
-Casi tres décadas más tarde, curiosamente el CGI sigue existiendo pero la mayoría del desarrollo web no tiene casi nada que ver con el de 1995 con PHP y Javascript. En mi opinión, los ejemplos que os he puesto anteriormente omiten algo de tedio, pero son mayormente representativos de esas maneras de desarrollo, mientras que me marea simplemente pensar en poner un ejemplo mínimo de desarrollo web moderno.
+Casi tres décadas más tarde, curiosamente el CGI sigue existiendo pero la mayoría del desarrollo web no tiene casi nada que ver con el de 1995 con PHP y JavaScript. En mi opinión, los ejemplos que os he puesto anteriormente omiten algo de tedio, pero son mayormente representativos de esas maneras de desarrollo, mientras que me marea simplemente pensar en poner un ejemplo mínimo de desarrollo web moderno.
 
 El fenómeno que observamos en mi opinión se repite por todo el ámbito del desarrollo del software: cada vez el paso inicial de desarrollo nos lleva más lejos, pero también es más difícil de abarcar.
 
