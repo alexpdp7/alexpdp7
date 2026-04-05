@@ -1,0 +1,93 @@
+# 2026-04-05 Breve e incompleta historia del desarrollo web
+
+El primer navegador y servidor web aparecieron en 1990, pero hasta 1993 la web era mayormente documentos estáticos; los servidores web tiraban de una carpeta con ficheros HTML con los que se construían las primeras páginas web. Cada vez que ibas a una dirección de la web, veías siempre el mismo documento, que podía contener enlaces a otros documentos.
+
+Es decir, nada de teclear un término de búsqueda en un formulario y obtener un listado de sitios web, ni por supuesto nada muchísimo más completo como poder escribir correo o publicar nada en la web usando sólo un navegador.
+
+(¡Esto no es del todo cierto! WorldWideWeb, el primer navegador, incorporaba un editor de páginas web. Pero sólo servía para editar el sitio web hospedado en el mismo ordenador donde ejecutábamos el navegador.)
+
+Últimamente pienso que nos debíamos haber quedado ahí, pero en 1993 apareció el "Common Gateway Interface", unas siglas bastante inescrutables excepto por el "Interface", con lo que lo dejaremos en CGI a secas.
+
+El CGI permite que un servidor web responda a la petición de un navegador no yendo a buscar un documento HTML dentro del ordenador, sino ejecutando un programa que genere la respuesta.
+
+Si os atrevéis con el terminal y tenéis Python instalado, podéis viajar al pasado siguiendo los siguientes pasos:
+
+1. Cread un directorio vacío.
+
+2. Cread un directorio con el nombre cgi-bin dentro del primer directorio.
+
+3. Cread un archivo con el nombre hola dentro del directorio cgi-bin con el siguiente contenido:
+
+```
+#!/bin/sh
+
+echo Content-type: text/html
+echo
+echo Hoy es $(date)
+```
+
+4. Haced que este archivo sea ejecutable con el siguiente comando:
+
+```
+chmod ugo+x cgi-bin/hola
+```
+
+5. Ejecutad un servidor web apropiado:
+
+```
+python3 -m http.server --cgi
+```
+
+6. Visitad http://0.0.0.0:8000/cgi-bin/hola y comprobad el resultado. Recargad la página varias veces y veréis que se actualiza la fecha, con lo que ya tenéis una página dinámica.
+
+Con este invento relativamente sencillo ya prácticamente podemos llegar a tener gran parte de la web hasta 2004 o así.
+
+El CGI es sencillo, pero algo tedioso. Cuando un programador escribe más de dos o tres programas CGI, se da cuenta de que se repiten los mismos patrones una y otra vez. El ejemplo anterior utiliza el lenguaje shell, pero la historia que conservamos parece indicar que el lenguaje de programación Perl fue de los más usados en los albores del CGI pues era de las maneras más convenientes de reutilizar código para implementar sitios web dinámicos mediante CGI.
+
+Seguramente uno de los primeros módulos para escribir CGI en Perl es CGI.pm, del que la versión más antigua que se conserva en el principal repositorio de código Perl es la 2.10 de 1995.
+
+Perl es un lenguaje de programación de propósito general que apareció en 1987, mucho antes que la web y el CGI.
+
+Allá por 1993, un programador comenzó a escribir un lenguaje de programación con el propósito de implementar su página personal. La primera versión oficial salió en 1997, con el nombre PHP.
+
+A diferencia del CGI, hoy en día es muy complejo reproducir la experiencia exacta de desarrollo de las primeras versiones de PHP, pero si tenéis PHP instalado, podéis hacer algo relativamente similar creando un archivo con el nombre index.php y el siguiente contenido:
+
+```
+<form>
+ <label>a: <input name="a" type="number">
+ <label>b: <input name="b" type="number">
+ <input type="submit">
+</form>
+
+<?php
+ if ($_GET['a'] && $_GET['b']) {
+   echo $_GET['a'] + $_GET['b'];
+ }
+?>
+```
+
+Luego, ejecutad el siguiente comando:
+
+```
+php -S 0.0.0.0:8000
+```
+
+Entonces visitad http://0.0.0.0:8000 con vuestro navegador, introducid dos números en los campos de entrada, pulsad el botón y veréis la suma.
+
+Implementar la misma funcionalidad con CGI, incluso reutilizando código como CGI.pm, es bastante más tedioso y requiere más conocimientos que usar PHP. Por eso el ejemplo que os he puesto de CGI es algo tan inútil.
+
+Yo mismo descubrí PHP por el año 2000 y, como muchísima otra gente, quedé hipnotizado por lo que en el momento era una de las mejores maneras de hacer cosas útiles con un ordenador para otra gente.
+
+A diferencia del CGI, mediante el cual nacieron las webs dinámicas, PHP no trae nada nuevo directamente al usuario de la web, sólo intenta simplificar la vida al programador. Pero facilitando la vida al programador, seguramente PHP aceleró el desarrollo web permitiendo a los programadores traer webs más útiles.
+
+Como muchos sabréis, ni PHP ni Perl han sido el final. Hoy en día, prácticamente todos los lenguajes de programación se usan para desarrollo web, con todo tipo de código reutilizable que cada vez nos aleja más del CGI.
+
+Paralelamente al desarrollo de CGI, PHP y las webs dinámicas, en 1995 apareció el primer navegador con Javascript. A diferencia de los ejemplos anteriores, donde el código que os he puesto se ejecuta en el servidor web, Javascript se ejecuta en vuestro navegador. Esto permite otro tipo de interacciones que ejemplificaremos con Google Maps lanzado en 2005, que ya nos permitía desplazarnos por el mapa de una manera mucho más interactiva que lo que nos permite ninguna web dinámica sin Javascript.
+
+Casi tres décadas más tarde, curiosamente el CGI sigue existiendo pero la mayoría del desarrollo web no tiene casi nada que ver con el de 1995 con PHP y Javascript. En mi opinión, los ejemplos que os he puesto anteriormente omiten algo de tedio, pero son mayormente representativos de esas maneras de desarrollo, mientras que me marea simplemente pensar en poner un ejemplo mínimo de desarrollo web moderno.
+
+El fenómeno que observamos en mi opinión se repite por todo el ámbito del desarrollo del software: cada vez el paso inicial de desarrollo nos lleva más lejos, pero también es más difícil de abarcar.
+
+Lo que me ha llevado a escribir este artículo es que esta mañana he decidido jugar con una idea que tenía desde hace tiempo en la cabeza, y mi prototipo han sido 100 líneas de Python con WSGI, un descendiente directo del CGI. Para otras ideas sin duda me habría ido a algo mucho más moderno y potente, pero para esta en concreto dudo que hubiese encontrado un camino más corto que las maneras más primitivas del desarrollo web. Pero, ¿habría tomado este camino si me hubiese iniciado en la programación web allá por 2013 con la primera versión de React?
+
+Yo creo que no. Y quizá ni lo hubiese intentado.
