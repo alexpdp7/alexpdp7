@@ -39,7 +39,7 @@ The standard library still includes a lot of batteries:
 * textwrap.dedent and str.[lr]strip for embedding multiline strings in code.
 * urllib.request is clunkier than third-party libraries, but it's usable.
 
-(Also for very simple stuff, tkinter can implement simple graphical tools.)
+For very simple stuff, tkinter can implement simple graphical tools and wsgiref can implement simple web apps (that you can even deploy with CGI).
 
 ### Subprocess
 
