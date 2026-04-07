@@ -1,0 +1,35 @@
+# 2026-04-08 El enemigo en casa
+
+Allá por 2013 cogí una webcam (diría que una de Playstation) y monté un pequeño sistema de videovigilancia para poder echar un ojo a la gata desde fuera de casa. Un programilla que sabía detectar movimiento y unos cuantos scripts hacían que recibiese un email con un vídeo cuando la gata pasaba delante de la cámara. Fue algo bastante práctico aunque dejé de usarlo en algún momento.
+
+Desde luego no fui un pionero, pero creo que poco después el tema de la domótica se puso muy de moda. No sólo entre la gente más acostumbrada a trastear, sino que además se sumó el público más general, en parte gracias a que comenzaron a aparecer muchos aparatos para estos menesteres con costes más bien asequibles que suponían mucha menos complicación que mi chapuza sujeta a base de chicle.
+
+Pero este boom se vio acompañado de mucha gente obsesionándose con aprender a marchas forzadas temas de seguridad informática para proteger su red doméstica por si estos nuevos y convenientes aparatos resultaban ser malignos. Ni trabajando en una empresa con muchos técnicos en redes había oído mencionar tanto el término vLAN.
+
+La verdad que en su momento tanta paranoia me parecía un poco exagerada. Mi razonamiento era más bien que a pesar de unos cuantos incidentes preocupantes, simplemente bastaría con usar productos de marcas más o menos establecidas con cierta necesidad de mantener su reputación. Es decir, no meter en casa un aparato de quién sabe qué empresa que igual desaparece al mes que viene debería bastar para dormir tranquilo.
+
+(En 2024 me hice con un par de aparatos de este tipo que sigo teniendo conectados y con los que realmente no he tomado muchas precauciones. Pero seleccioné cuidadosamente la marca que elegí, entre otros motivos porque me daba bastante confianza.)
+
+Además, incluso aunque nos colasen un dispositivo malicioso, tampoco me parecía una amenaza tan seria.
+
+Creo que en ese momento mi razonamiento ya no era muy acertado, pero además últimamente hay acontecimientos que me hacen replantearme mucho más mi postura y mis recomendaciones.
+
+Los ataques de denegación de servicio no son algo nuevo; desde hace mucho tiempo hay actores malignos que bombardean servicios de Internet con una avalancha de peticiones que pueden incluso tumbar el servicio y causar muchos problemas a su operador. Sin embargo, hasta hace poco estos ataques tenían más bien pocos objetivos y en general se trataba de objetivos que ya tenían que preocuparse de defenderse ante todo tipo de hostilidades, y en la mayoría de casos, podían disponer de recursos para protegerse.
+
+Sin embargo, en tiempos recientes estos ataques se han expandido significativamente. Incluso servicios muy pequeños hospedados por particulares reciben ataques de este tipo constantemente. Incluso yo mismo he recibido cierta carga que por suerte no ha tenido mayores consecuencias que costarme un par de euros mensuales, pero nada en comparación con lo que veo sufrir a otros.
+
+Es especialmente difícil defenderse de estos ataques; es muy complicado identificar y bloquear el tráfico malicioso, pues proviene de muchísimas conexiones a Internet domésticas.
+
+Que es precisamente lo que se conseguiría controlando una buena cantidad de dispositivos de domótica maliciosos.
+
+(Sí es cierto que no es la única manera de conseguirlo. Hay empresas que ofrecen este tipo de "acceso a Internet", en general porque controlan aplicaciones para móviles "dudosas" y que por tanto pueden canalizar tráfico a través de los dispositivos en los que alguien ha instalado estas aplicaciones.)
+
+Lo curioso del caso es que las precauciones que se pusieron de moda para controlar los dispositivos de domótica en general no serán efectivas para prevenir esto, pues estas medidas se centraban en aislar estos dispositivos para que no pudiesen acceder al resto de nuestra red. Pero para usarlos para lanzar un ataque no hace falta que se conecten a otros dispositivos de nuestra red; basta con que puedan conectarse a Internet.
+
+Y la mayoría de estos dispositivos necesitan conectarse a Internet para ofrecer su modo de funcionamiento "fácil" en los que usan la infraestructura del fabricante en vez de requerirnos mantener nuestra propia infraestructura. (Es decir, en el caso de una cámara, por ejemplo, la cámara va enviando el vídeo al servicio del fabricante donde queda almacenado, y a posteriori nosotros nos conectamos al servicio del fabricante para ver las grabaciones.) Y por otras modernidades, a no ser que el fabricante del aparato lo facilite expresamente, no es tan fácil restringir la conexión a Internet de estos aparatos para que sólo se puedan conectar a lo imprescindible para su funcionamiento y no puedan usarse para lanzar ataques de denegación de servicio distribuidos.
+
+Con lo que yo antes hubiese recomendado despreocuparse un poco del tema, pero ahora me veo obligado a recomendar mucha cautela.
+
+Lamentablemente, la única alternativa segura (aparte de no usar estos dispositivos) sería usar sólo aparatos que no necesiten conexión a Internet para funcionar, pero esto necesariamente implica mucho más trabajo por nuestra parte, e incluso en ocasiones no será viable.
+
+Fuera de eso, sólo puedo insistir en mi consejo de limitarse a fabricantes que tengan más que perder que que ganar participando en actividades maliciosas. Pero dentro de esto seguimos teniendo un riesgo real de facilitar estos ataques y no es fácil mitigar este riesgo.
