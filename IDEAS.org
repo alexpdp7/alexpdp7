@@ -7,6 +7,10 @@ If you have interest on any of those ideas and you want to influence my prioriti
 If you send me a number between -1 and 1 for any ideas in these lists [or ideas outside the list!], I will add all numbers I receive and use that to estimate external interest.
 If you send me a list of ideas you are interested in, I will consider those votes with the value 1.)
 
+* Meta
+
+- https://lobste.rs/s/gns27z/what_are_your_programming_hunches_you
+
 * PiKVM Screenreader
 
 - Modern KVM products use HDMI USB capture cards and Linux gadget support to capture a display and send mouse/keyboard events to a headless machine.
