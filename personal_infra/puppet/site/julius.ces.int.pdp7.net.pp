@@ -1,4 +1,10 @@
 node 'julius.ces.int.pdp7.net' {
+  # further provisioning:
+  #
+  # - (provision using an initial dummy user)
+  # - remove initial user
+  # - set up root password
+
   # Raspberry Pi stuff; disable root
   file {'/etc/cloud/cloud.cfg':
     content => @("EOT")
@@ -89,4 +95,13 @@ node 'julius.ces.int.pdp7.net' {
     | - EOT
     ,
   }
+
+  file {'/etc/ssh/sshd_config.d/99-allow-root.conf':
+    content => @("EOT")
+    PermitRootLogin yes
+    | - EOT
+    ,
+  }
+  ~>
+  service {'ssh':}
 }
