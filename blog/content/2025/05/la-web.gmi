@@ -4,8 +4,7 @@ Vuelvo a escribir porque me suena una alarma y que llevabais más de un mes sin 
 
 Pero bueno, haré trampa; simplemente quiero dar bombo a dos artículos a los que, por diversos motivos, he estado haciendo mejoras esta mañana.
 
-=> https://github.com/alexpdp7/alexpdp7/blob/master/programming/the-content-web-manifesto/README.md The content web manifesto
-=> https://github.com/alexpdp7/alexpdp7/blob/master/programming/a_plan_against_the_current_web.md A plan against the current web
+Editado 2026-04-12: me cargué estos artículos porque al final todo se puede reducir a "haz que tu web funcione en lynx", que ya pongo más abajo.
 
 La web es una de las facetas más valiosas de Internet; ambas son juntas algo *importante* para todos nosotros. Pero están en peligro.
 
