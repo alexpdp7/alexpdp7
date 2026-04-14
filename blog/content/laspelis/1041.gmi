@@ -3,10 +3,11 @@ Date: Sun, 31 Dec 2006 13:49:25 -0000
 From: "koalillo" <koalillo@...>
 Subject: resumen del 2006
 
-```
 Lo podéis leer en mi blog:
-https://alex.corcoles.net/2006/12/365-1/
 
+=> ../2006/12/365-1
+
+```
 o aquí
 
 Uno no es dado a la retrospectiva, pero visto el aburrimiento y sopor
