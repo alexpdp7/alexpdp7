@@ -141,6 +141,12 @@ The mirror requests /foo to httpd, which returns the gemtext.
 - Provides a UI to approve individual commits
 - For validated *and* approved commits, it implements a merge queue that works on a per-commit basis.
 
+* Jerarco
+
+- Classifies items of a certain kind (e.g. links to projects)
+- Each item can have multiple hierarchical tags (e.g. software/for/end-users, software/implemented-in/python, maths/graph-theory, etc.)
+- Jerarco builds a "flat" categorization by taking the leaf tag with most items and printing all elements in that leaf tag, then removing the items from the list, and iterating until there are no more items.
+
 * Complexity explorer (Acomplejator)
 
 - Qualifies a set of files (by programming language, type of asset [lock file, documentation, etc.], etc.)
