@@ -1,6 +1,6 @@
 # 2022-07-11 La caja de herramientas
 
-=> https://github.com/alexpdp7/alexpdp7/blob/master/hardware/using-an-rpi-zero-as-an-usb-drive-to-install-operating-systems.md EDIT 2025-01-21: Aquí documento como hacer esto con una Raspberry Pi Zero.
+=> https://github.com/alexpdp7/rpi-zero-usb-iso EDIT 2027-04-14: Aquí documento una manera de hacer estas cosas con una Raspberry Pi Zero.
 
 Cuando uno se lía con lo que no debería, hace gastos inútiles, pero lo que aprende igual le sirve a alguien.
 

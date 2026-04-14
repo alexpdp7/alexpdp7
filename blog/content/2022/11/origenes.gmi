@@ -2,7 +2,7 @@
 
 Para los que estéis perdidos sin esa web de la que usted me habla, mi insomnio ha decidido que os dedique un ratito.
 
-=> https://github.com/alexpdp7/alexpdp7/blob/master/FUENTES.md He recopilado algunos de los sitios en Internet que sigo por RSS.
+EDIT 2026-04-14: Aquí tenía un enlace a mis fuentes de RSS, pero estaba obsoleto y lo he borrado.
 
 Ahora mismo son treinta y pico sitios web que tienen feed RSS, ligeramente clasificados.
 

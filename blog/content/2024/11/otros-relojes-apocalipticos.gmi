@@ -25,4 +25,4 @@ El resto, en batiburrillo:
 => https://github.com/mastodon/mastodon/issues/23153 Pero este es el mayor obstáculo para navegar el Fediverso desde una terminal, en mi opinión.
 => https://typst.app/blog/2024/typst-0.12 Typst pinta guay, aunque incide en mi sorpresa ante la insistencia en la paginación. Pero esto parece que podría cambiar.
 => https://hurmet.org/sample Esto también son cálculos en papel, pero más bien en pergamino.
-=> https://github.com/alexpdp7/alexpdp7/blob/master/hardware/ES-teles.md Artículo propio sobre la caja tonta
+=> ../../notas/tele/teles Artículo propio sobre la caja tonta

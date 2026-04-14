@@ -1,6 +1,6 @@
 # 2020-07-01 ISOs y USBs
 
-=> https://github.com/alexpdp7/alexpdp7/blob/master/hardware/using-an-rpi-zero-as-an-usb-drive-to-install-operating-systems.md EDIT 2025-01-12: Aquí documento una manera de hacer estas cosas con una Raspberry Pi Zero.
+=> https://github.com/alexpdp7/rpi-zero-usb-iso EDIT 2027-04-14: Aquí documento una manera de hacer estas cosas con una Raspberry Pi Zero.
 
 Actualización 2024-12-24: Tras un tiempo usándolo, estoy investigando otras vías porque Ventoy da algunos problemillas. IODD fabrica cacharros algo caros que hacen esto. También está el sistema "USB Gadget" de Linux que permite a algo tipo Raspberry actuar como CDROM USB.
 

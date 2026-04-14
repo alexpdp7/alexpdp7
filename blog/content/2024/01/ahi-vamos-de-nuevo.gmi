@@ -14,7 +14,7 @@ Demasiado escribo sobre esta nueva brujería, pero como sabéis, la evolución d
 Y el resto, en batiburrillo:
 
 => https://blog.google/products/search/improvements-to-using-spanish-in-search-and-gboard/ Sería mucho más interesante si esta colaboración de la RAE con Google resultase en algún recurso que podamos usar todos.
-=> https://github.com/alexpdp7/alexpdp7/blob/master/hardware/about_headphones.md Por cierto que también escribo demasiado en otros sitios. He comenzado a ir moviendo artículos a un repositorio en GitHub. El otro día añadí una referencia sobre auriculares.
+=> ../../2026/03/notas Por cierto que también escribo demasiado en otros sitios. He comenzado a ir moviendo artículos a un repositorio en GitHub. El otro día añadí una referencia sobre auriculares. EDIT 2026-04-14: Ahora lo he reemplazado por una web simple, esto enlaza a otra entrada del blog explicándolo.
 => https://blog.google/products/gmail/gmail-emoji-reactions/ Aunque os sorprenda, reaccionar con emojis a correos electrónicos me parece un paso en la dirección adecuada. Aunque lo suyo sería poder reaccionar con un simple +1.
 => https://plus.nasa.gov/ Muchas plataformas, pero esta es gratis y tiene plataformas de lanzamiento.
 => https://www.politico.eu/article/inside-giorgia-meloni-hobbit-fantasy-world-lord-of-the-rings-fratelli-italia-brothers-italy-politics/ Pobres hóbbits
