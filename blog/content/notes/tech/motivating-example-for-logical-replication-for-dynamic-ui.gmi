@@ -20,7 +20,7 @@ Imagine you could write an UI element that subscribed to the following publicati
 create publication foo for table chat_messages where (channel in :list_of_channels_user_is_in and posted > :some_time_ago);
 ```
 
-Without writing any additional code, the UI element would get instantly notified not only of all new messages, but also of editions, deletions, or messages moved in or out of the subscribed channels. I believe you could write a real-time UI element with much shorter and safer code than any alternative I can think of that only uses OSS code. (As far as I know, [ksqlDB](https://github.com/confluentinc/ksql) does a similar thing, but has non-OSS bits and seems much harder to deploy than PostgreSQL, besides you would also need to deploy PostgreSQL.)
+Without writing any additional code, the UI element would get instantly notified not only of all new messages, but also of editions, deletions, or messages moved in or out of the subscribed channels. I believe you could write a real-time UI element with much shorter and safer code than any alternative I can think of that only uses OSS code. (As far as I know, ksqlDB does a similar thing, but has non-OSS bits and seems much harder to deploy than PostgreSQL, besides you would also need to deploy PostgreSQL.)
 
 This has some caveats:
 
