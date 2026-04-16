@@ -107,6 +107,9 @@ Someone figured most of it out in 1964.
 => https://www.jofreeman.com/joreen/tyranny.htm The tyranny of structurelessness
 => cliffs/the-tyranny-of-structurelessness (My Cliff's Notes)
 
+=> https://www.lesswrong.com/posts/tscc3e5eujrsEeFN4/well-kept-gardens-die-by-pacifism Well-Kept Gardens Die By Pacifism
+About moderation in small communities
+
 ### Project management
 
 => https://apenwarr.ca/log/20171213 An epic treatise on scheduling, bug tracking, and triage
