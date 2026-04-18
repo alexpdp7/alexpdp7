@@ -1,0 +1,5 @@
+# About web development
+
+* Ensure that the website is as functional as possible using limited browsers such as Lynx, ELinks, w3m, or Dillo. (If you use a browser that can display images, ensure that the website is as functional as possible with images disabled too.)
+* Make sure all content in the website has a URL that can be shared conveniently.
+* If website users would benefit from learning about updates to your website, then provide well-visible open ways to follow updates, such as RSS/Atom feeds, email subscriptions, or ActivityPub feeds.
