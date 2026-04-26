@@ -1,0 +1,35 @@
+# 2026-04-26 De gnomos y retablets
+
+Por motivos varios, el ThinkPad X12 Detachable (20UW0003SP) que usaba para trabajar ahora es mío.
+
+Es un cacharro curioso; es un ThinkPad con todo lo que ello conlleva, pero también es un tablet. Aunque el teclado tiene su trackpoint, es una pieza separada que se pega a la pantalla magnéticamente. El PC en sí es una tableta que pesa tres cuartos de kilo pero que sigue siendo un PC bastante convencional con un procesador i5 con 16 gigas de RAM relativamente potente.
+
+La gran pega que tiene este cacharro es que el teclado no es usable sin una mesa, lo que es un fastidio comparado con un portátil convencional. Sin embargo, es un dispositivo ideal para experimentar con cosas que tengo en la cabeza desde hace tiempo. Para mi uso personal, los tablets me parecen un sinsentido excepto para ver series o películas en la cama. Un móvil es demasiado pequeño para la mayoría de lo que me gusta ver y los portátiles son un absoluto engorro en la cama.
+
+(Tendríais razón si dijeseis que mejor no usar pantallas en la cama. Pero no es un ángulo que comentaremos aquí.)
+
+Me parece absurdo comprarme un tablet sólo para ese propósito. Además, sigo sin querer darle dinero a Apple[1] y si ya me parece que 380€ por el iPad más barato es una exageración, las alternativas seguramente son más caras. (Ya cometí el error de gastarme 250€ en un Lenovo IdeaPad Duet con ChromeOS absurdamente lento.)
+
+Así que tener un tablet con un i5 "gratis" es una oportunidad única para trastear. Y lo más interesante: el X12 en cuestión viene con Windows, pero Linux funciona casi perfectamente en él sin demasiado esfuerzo. Con lo que además puedo divagar sobre una controversia que pronto será mayor de edad.
+
+Tras el iPhone de 2007, en 2010 salió el primer iPad. Parecía que (y resulto que) los dispositivos táctiles "para dedo" se iban a comer todo. En 2012 Microsoft sacó Windows 8 supuestamente funcional tanto como para ordenadores convencionales como para dispositivos táctiles, en una especie de continuación de su Windows Phone de 2010.
+
+En el mundo del software libre, salvo cosas como las tablets de Nokia con Maemo de 2005, no me parece que hubiese demasiada actividad en dispositivos táctiles.
+
+Sin embargo, en una de tantas controversias del software libre, el entorno de escritorio GNOME decidió llevar a cabo una revolución en 2011 con su versión 3. GNOME 2 era para muchos (entre los que me incluyo) un entorno de escritorio querido y desde entonces se han volcado (y se siguen volcando) ríos de tinta sobre GNOME 3. De hecho, ¡a día de hoy todavía se mantienen activamente forks de GNOME 2!
+
+Todos los aspectos de GNOME 3 siguen siendo discutidos a día de hoy, tanto internos como externos, pero la simplificación de la interfaz de GNOME quizá fue de los cambios más sonados.
+
+Aunque excavando mucho hoy no he encontrado mucho material, la coincidencia en el tiempo con Windows 8 y el boom táctil de Apple, creo que llevó a muchos a decir que GNOME 3 era un desastre por querer adaptarse a dispositivos táctiles (que no abundaban en esa época). Ciertamente, GNOME ha ido evolucionando para adaptarse a nuevos dispositivos, existiendo variantes diseñadas para teléfonos.
+
+Por tanto, al expropiar el Thinkpad X12 Detachable lo primero que he decidido usar en él es Fedora con GNOME. Que ya estaba usando GNOME antes, pero usando el dispositivo sólo como portátil convencional, pero ahora lo uso la mayor parte del tiempo sin el teclado. (Y Fedora para tener una versión reciente de GNOME sin demasiados dolores de cabeza y con una experiencia lo más cercana posible a los designios de los desarrolladores de GNOME.)
+
+El resultado es curioso. El GNOME estándar funciona "bien" en modo tablet, pero tampoco se nota un supuesto sacrificio para el formato. Ciertamente, todas las tareas que se podrían desempeñar adecuadamente en un tablet se pueden hacer sin mayor problema, pero hay más pequeñas imperfecciones que usando GNOME como escritorio convencional. (Por ejemplo, muchas veces las cosas no se adaptan bien a la presencia del teclado virtual como hacen todos los demás entornos táctiles.)
+
+Pero por otra parte, el hecho de tener un ordenador de escritorio potente sí supone un hecho diferencial. Para usar cualquier servicio de streaming, puedo abrir la web del servicio en cuestión en Firefox y usarlo sin tener que instalar nada. Aunque se pierden algunas funcionalidades (por ejemplo, descargar una película para verla en un avión sin Internet), va mucho más fluido que la mayoría de trastos. Porque hoy en día, salvo Apple, los dispositivos pequeños suelen estar lastrados por tener mucha menos potencia que los aburridos PC convencionales.
+
+Entonces, ¿recomendaría un PC tablet con GNOME? Pues en general no, seguro que un iPad es mucho mejor. Pero como cacharro de uso mixto seguramente sí. GNOME con teclado (y más con un teclado como Dios manda como el de este X12 Detachable) en mi opinión le da mil vueltas a cualquier otra cosa que se pueda usar en un tablet (a falta de probar qué tal es hoy en día Windows en modo tablet).
+
+Si encuentro tiempo, probaré otras opciones. Pero dado los precios que se mueven hoy en día, a no ser que os caiga un cacharro del cielo como me ha pasado a mí, creo que no hay buenas opciones.
+
+=> https://alex.corcoles.net/2015/12/por-que-no-uso-productos-apple [1] Por qué no uso productos Apple
