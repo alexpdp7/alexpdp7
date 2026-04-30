@@ -56,7 +56,9 @@ Story points can be useful if planning poker helps developers address misunderst
 
 Story points are most useful the more detached from time they are. Associating story points with time puts useless pressure on developers that reduces their usefulness.
 
-In my experience, the number of value-delivering stories done per sprint is a good enough measure of progress. The amount of story points delivered per sprint does not have any value to stakeholders because story points are completely unrelated to value.
+Story points are not useful for stakeholders because story points are nearly completely unrelated to value. (If anything, stakeholders should favor stories with smaller estimations.)
+
+In my experience, the number of value-delivering stories done per sprint is a good enough measure of progress. Analyzing the total number of story points does not add much value in most cases, and might bias developers in their estimations and their prioritization without reason.
 
 ## Further reading
 
