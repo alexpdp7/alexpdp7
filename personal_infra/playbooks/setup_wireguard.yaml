@@ -30,6 +30,8 @@
         PostDown = iptables -D FORWARD -i %i -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
         ListenPort = 51820
         PrivateKey = {{ privatekey['content'] | b64decode }}
+        # The default of SaveConfig = true overwrites the config when stopping the daemon, replacing hostnames with IP addresses
+        SaveConfig = false
 
         {% for host in groups['tinc'] %}
         {% if host != inventory_hostname %}
