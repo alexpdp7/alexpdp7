@@ -36,6 +36,7 @@ Notes about some books and long articles I like:
 => tech/so-you-want-to-play-with-functional-programming So you want to play with functional programming
 => tech/motivating-example-for-logical-replication-for-dynamic-ui Motivating example for logical replication for dynamic UI
 => tech/about-web-development About web development
+=> tech/on-software-development On software development
 
 ### Gadgets
 

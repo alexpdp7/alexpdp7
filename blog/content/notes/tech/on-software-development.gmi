@@ -1,0 +1,64 @@
+# On software development
+
+This text tries to reflect my opinions and experiences on software development. Those are personal views that can help you understand how I like to work.
+
+## Agile
+
+=> https://agilemanifesto.org/ I do not like the Agile Manifesto because I think it is not clear enough.
+
+=> https://agilemanifesto.org/principles.html But I think that the principles behind the Agile Manifesto published on the same site are much clearer and I like them, specially:
+
+> Simplicity--the art of maximizing the amount of work not done--is essential.
+
+> Working software is the primary measure of progress.
+
+> Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+
+> Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+
+> Continuous attention to technical excellence and good design enhances agility.
+
+> Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+
+I believe following these principles is key.
+
+Software development is about building the right thing, and in my opinion, the problem is more frequently finding the right thing than the building process itself. We rarely know what the right thing is, and finding it requires trial and error. To improve our chances, we must make the trial and error process faster and focus only on delivering value.
+
+The customer rarely cares about technical excellence, but technical excellence is important to accelerate the development process to deliver valuable software to satisfy the customer.
+
+Therefore, we should spend as much time as possible delivering actual value to the customer; ideally a developer should deliver incremental value to customers with a steady, frequent rhythm. In most projects I have worked on, it was possible to do that a couple of times per week, although different kinds of projects can have a different pace. Most of the tasks we do should deliver value to customers when completed.
+
+Effort to address issues that prevent us from delivering value to customers quickly, such as addressing lapses in technical excellence or design, is better done as part of a task that delivers value to customers, directly helping the specific task.
+
+Exploratory work that does not end delivering immediate value to the customer is sometimes necessary, but should be tightly limited. It is frequently better to deliver something smaller to the customer that might need rework because it does not deliver value to the customer than to spend more time on something bigger that might have the same end result.
+
+## Scrum
+
+When someone pays software developers, this someone frequently wants to know if their money is well spent.
+
+Scrum is a popular process that can help the communication between the people who pay and the software developers. Because Scrum is popular, in theory using Scrum helps spend more time delivering value than thinking about the development process in communication. However, there is a big industry around Scrum that obfuscates understanding of Scrum.
+
+=> https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf Reading and understanding the Scrum Guide is required to clear some misconceptions around Scrum.
+
+Some people say that Scrum is a developer's immune response to common organizational problems, meaning that most practices in the Scrum Guide intend to resolve common problems in software development. I think this is true, and that if you do not have a solid justification for following some other process, following the Scrum Guide closely is a good starting point. However, when most members of the team have a provable understanding of Scrum, it can be a good idea to deviate from Scrum.
+
+Because finding the right thing to build is the most frequent problem, the product owner is key. Very few things can compensate for consistenly bad product ownership decisions. (However note that finding the right thing to build requires trial and error.)
+
+In my opinion, Scrum's focus on sprints is one of its most significant practices. I believe it is a source of inflexibility and problems, but on the other hand, reporting progress in chunks of equal duration is much easier to understand for many than reporting without sprints. However, it might be better to use sprints mostly for reporting to stakeholders and give flexibility to developers to not stick completely to the sprint structure.
+
+### Stories and story points
+
+Stories and story points are not part of the Scrum Guide.
+
+Stories can be useful to focus on delivering value to customers. Except for fixing defects that impact the customer, most tasks can be written in the "as a... I want to... so that..." format. The "as a" part should always be a customer. The "so that" part helps developers understand the purpose of the task and improve the product.
+
+Story points can be useful if planning poker helps developers address misunderstandings in the tasks quickly before starting work on the task. Frequently, when team members present very different estimations for the same task, this reveals an underlying problem that can be solved. Additionally, planning poker can help identify tasks that can reduce the capacity of the team to deliver incremental value frequently. However, it is undesirable to split big tasks into smaller tasks when any of those smaller tasks do not deliver immediate value to customers.
+
+Story points are most useful the more detached from time they are. Associating story points with time puts useless pressure on developers that reduces their usefulness.
+
+In my experience, the number of value-delivering stories done per sprint is a good enough measure of progress. The amount of story points delivered per sprint does not have any value to stakeholders because story points are completely unrelated to value.
+
+## Further reading
+
+=> https://linear.app/method The Linear method.
+Linear is a software development management tool that I like. Linear is designed for a process similar to Scrum, but with significant differences. The Linear method is an interesting read that describes this process.
