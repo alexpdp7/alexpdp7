@@ -1,5 +1,3 @@
 # 2004-10-06 ¿He dicho alguna vez...
 
-que me encanta Irregular Web Comic? [1]
-
-=> http://www.irregularwebcomic.net/cgi-bin/comic.pl?comic=618&annotate [1] que me encanta Irregular Web Comic?
+=> https://www.irregularwebcomic.net/618.html que me encanta Irregular Web Comic?
