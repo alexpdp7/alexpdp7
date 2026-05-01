@@ -8,6 +8,8 @@ HERE=$(pwd)
 rm -rf $TARGET
 cp -a content/ $TARGET
 
+python3 ../interesting-projects/interesting-projects.py >$TARGET/notes/interesting-projects.gmi
+
 echo Converting gmi to html...
 
 cd $TARGET

@@ -4,7 +4,7 @@ Sobre otra sección de mis paranoias, Nota[1] y Djot[2] son dos nuevas promesas 
 
 => https://nota-lang.org/ [1] Nota
 => https://github.com/jgm/djot [2] Djot
-=> https://github.com/alexpdp7/alexpdp7/blob/master/INTERESTING_PROJECTS.org[3] El sustituto de mis estrellas de GitHub
+=> ../../notes/interesting-projects [3] El sustituto de mis estrellas de GitHub
 
 => https://www.theverge.com/2022/8/24/23319608/blackberry-film-production-wrapped-glenn-howerton Otra paranoia distinta parece que la veremos recogida en una película épica... sobre BlackBerry.
 

@@ -4,8 +4,6 @@
 
 Como nunca tengo oportunidad de trabajar en modo monorepo, hay que aprovechar esta.
 
-* [Proyectos interesantes](INTERESTING_PROJECTS.org).
-  Antes usaba las estrellitas de GitHub, pero de vez en cuando me encontraba algo (¡cielos!) que no estaba en GitHub (y además, las estrellitas me dan un poco de tirria).
 * [Gran parte del código que soporta mi infraestructura personal](personal_infra/).
 * [Ideas en las que me gustaría trabajar algún día, pero que cuelgo aquí por si algún incauto pica](IDEAS.org).
 * [Mi configuración de Emacs](emacs/).
@@ -21,8 +19,6 @@ Más cosas escritas [en español](https://alex.corcoles.net/notas/) y [en inglé
 
 (This list is shorter because some material is Spanish-only.)
 
-* [Interesting projects](INTERESTING_PROJECTS.org).
-  Previously I used GitHub stars, but some stuff is not in GitHub (gasp!) (also, I dislike GitHub stars).
 * [Most of the code for my personal infra](personal_infra/).
 * [Ideas I'd like to work on someday, but mostly making them public to bait people into implementing them instead of me](IDEAS.org).
 * [My emacs config](emacs/).

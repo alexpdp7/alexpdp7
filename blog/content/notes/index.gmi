@@ -1,6 +1,7 @@
 # Notes
 
 => interesting-articles Interesting articles
+=> interesting-projects Interesting projects
 => greek-task-list Greek task list
 
 ## Cliff's notes
