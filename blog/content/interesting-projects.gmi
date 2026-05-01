@@ -1,0 +1,1372 @@
+=> https://josh-project.dev/ Josh
+Synchronize parts of Git repositories. See also:
+=> https://github.com/rust-lang/josh-sync Josh sync utilities for using Josh as a CLI
+:programmed-in:rust
+:kind:daemon
+:vcs:git
+
+=> https://www.jj-vcs.dev/ Jujutsu
+VCS that integrates with Git and identifies changes
+:programmed-in:rust
+:kind:cli
+:vcs
+
+=> https://github.com/Skyscanner/turbolift turbolift
+Apply changes across many GitHub repositories simultaneously
+:programmed-in:go
+:kind:cli
+:vcs:github
+:coding:refactor
+
+=> https://mergiraf.org/ Mergiraf
+Language-aware conflict resolver
+:programmed-in:rust
+:kind:cli
+:vcs
+
+=> https://forge.rust-lang.org/triagebot/range-diff.html range-diff
+Show diffs after rewriting history
+:programmed-in:rust
+:kind:bot
+:vcs:git
+
+=> https://github.com/antonmedv/gitmal Gitmal
+Git browser as static site generator
+:programmed-in:go
+:kind:cli
+:vcs:git
+
+=> https://opendev.org/ OpenDev
+Software forge with published infrastructure as code
+:kind:service
+:tool:forge
+
+=> https://gitgitgadget.github.io/ GitGitGadget
+Turn GitHub PRs into mailing list patches
+:programmed-in:typescript
+:kind:service
+:vcs:git
+
+=> https://earthly.dev/earthfile/ Earthly
+Container-based builds
+:programmed-in:go
+:coding:build
+:kind:cli
+
+=> https://github.com/reviewdog/reviewdog reviewdog
+Post review comments from parsing build output
+:programmed-in:go
+:coding:build
+:kind:cli
+
+=> https://github.com/getpatchwork/patchwork Patchwork
+Present patches from mailing lists as a website
+:programmed-in:python
+:vcs
+:kind:service
+
+=> https://github.com/bazelbuild/remote-apis remote-apis
+Bazel's remote APIs for compiling, artifacts, and log streaming; with links to projects that support them
+:coding:build
+
+=> https://github.com/lima-vm/lima-actions Lima on GitHub Actions
+Run Lima on GitHub Actions
+:coding:build
+:vcs
+:kind:github-action
+
+=> https://github.com/equinix-labs/otel-cli otel-cli
+CLI to send OpenTelemetry traces
+:coding:observability
+:kind:cli
+:programmed-in:go
+
+=> https://hyperdx.io/ HyperDX
+Visualize OpenTelemetry data stored in ClickHouse
+:coding:observability
+:kind:service
+:programmed-in:typescript
+:uses-storage:clickhouse
+
+=> https://pushpin.org/ Pushpin
+Proxy that helps build realtime APIs
+:coding:realtime
+:programmed-in:rust
+:coding:web
+
+=> https://xtermjs.org/ xterm.js
+Terminal for web pages
+:coding:web
+:programmed-in:typescript
+
+=> https://github.com/BafS/Gutenberg Gutenberg
+Make printable websites
+:web
+:print
+:programmed-in:scss
+
+=> https://barba.js.org/ Barba.js
+Make transitions on non-SPAs smooth
+:coding:web
+:programmed-in:typescript
+
+=> https://github.com/kristopolous/BOOTSTRA.386 Bootstrap/386
+Old-school Bootstrap theme
+:coding:web
+
+=> https://nanodjango.dev/ nanodjango
+Single-file Django applications
+:web:django
+:programmed-in:python
+
+=> https://diazo.org Diazo
+HTML "golden" templates
+:coding:web
+:programmed-in:python
+
+=> https://github.com/mit-pdos/noria Noria
+MySQL-compatible database for real-time applications
+:coding:realtime
+:database
+:programmed-in:rust
+
+=> https://frappe.io/framework Frappe Framework
+Database-oriented web framework
+:web:framework
+:web:database
+:programmed-in:python
+:uses-storage:mysql
+
+=> https://github.com/aquametalabs/aquameta aquameta
+PostgreSQL-based web framework
+:web:framework
+:web:database
+:programmed-in:plpgsql
+:uses-storage:postgresql
+
+=> https://github.com/urweb/urweb Ur/Web
+Ur is a functional programming language. Ur/Web is a library for building web applications backed by SQL databases
+:web:framework
+:web:database
+:programmed-in:sml
+
+=> https://postgrest.org PostgREST
+Derives a REST API from a PostgreSQL database
+:web:database
+:programmed-in:haskell
+:uses-storage:postgresql
+
+=> https://hurmet.org/ Hurmet
+A notebook for calculations
+:coding:notebook
+:coding:language
+:kind:service
+:programmed-in:javascript
+
+=> https://github.com/jupytercalpoly/reactivepy reactivepy
+Reactive Python kernel
+:coding:notebook
+:kind:jupyter-kernel
+:programmed-in:python
+
+=> https://jupyterbook.org/ Jupyter Book
+Create books from notebooks
+:coding:notebook
+:programmed-in:python
+:print
+:writing:format
+:kind:cli
+
+=> https://github.com/OKUA1/juvio Juvio
+Reproducible Git-friendly Python notebooks
+:coding:notebook
+:programmed-in:python
+:kind:jupyter-kernel
+
+=> https://arxman.com/micoo/ Micoo
+Screenshot diff tool for testing
+:coding:testing
+:programmed-in:javascript
+:kind:service
+
+=> https://github.com/minimaxir/big-list-of-naughty-strings The Big List of Naughty Strings
+A list of strings useful to test user input risks
+:coding:testing
+
+=> https://hackage.haskell.org/package/lhs2tex lhs2tex
+Typeset Haskell code using LaTeX
+:coding:literate
+:print
+:programmed-in:haskell
+:kind:cli
+
+=> https://github.com/simplistix/sybil Sybil
+Run tests embedded in code and documentation
+:coding:literate
+:coding:testing
+:programmed-in:python
+:kind:cli
+
+=> https://www.unison-lang.org/ Unison
+Distributed programming language
+:coding:distributed
+:coding:language
+:programmed-in:haskell
+
+=> https://twitchtv.github.io/twirp/ Twirp
+Protobuf/JSON RPC over HTTP
+:coding:rpc
+:kind:framework
+:programmed-in:go
+
+=> https://www.iroh.computer/ iroh
+Protocol for establishing peer-to-peer connections over the Internet
+:coding:distributed
+:programmed-in:rust
+:kind:library
+
+=> https://github.com/magic-wormhole/magic-wormhole Magic Wormhole
+Library and tool to transfer files peer-to-peer
+:coding:distributed
+:programmed-in:python
+:kind:library
+:kind:cli
+:tool:transfer
+
+=> https://www.singer.io/ Singer
+Standard for data sources and sinks
+:coding:etl
+
+=> https://github.com/dflemstr/rq Record Query
+Convert JSON, YAML, Protobuf, CSV...
+:kind:cli
+:tool:conversion
+:programmed-in:rust
+
+=> https://redash.io/ Redash
+SQL data explorer
+:kind:service
+:tool:database
+:programmed-in:python
+
+=> https://www.metabase.com/ Metabase
+SQL data explorer
+:kind:service
+:tool:database
+:programmed-in:clojure
+
+=> https://www.getgrist.com/ Grist
+Relational spreadsheets
+:kind:service
+:tool:database
+:programmed-in:typescript
+
+=> https://strlen.com/treesheets/ TreeSheets
+Hierarchical spreadsheets
+:kind:desktop-app
+:tool:spreadsheet
+:programmed-in:cpp
+
+=> https://logica.dev/ Logica
+Prolog-like programming language that compiles to SQL
+:coding:language
+:coding:sql
+:programmed-in:python
+:compiles-to:sql
+
+=> https://prql-lang.org/ PRQL
+Pipelined relational query language that compiles to SQL
+:coding:language
+:coding:sql
+:programmed-in:rust
+:compiles-to:sql
+
+=> https://geldata.com/ Gel
+Database on top of PostgreSQL with graphs
+:kind:service
+:coding:language
+:database:graph
+:programmed-in:python
+
+=> https://github.com/lorint/AdventureWorks-for-Postgres AdventureWorks for Postgres
+Sample database
+:database:postgres
+
+=> https://github.com/zonkyio/embedded-postgres-binaries Embedded Postgres Binaries
+Embedded Postgres Binaries
+:database:postgres
+
+=> https://github.com/orm011/pgserver pgserver
+Embed PostgreSQL in Python
+:kind:library
+:uses-storage:postgresql
+:programmed-in:python
+
+=> https://github.com/cozodb/cozo CozoDB
+Embeddable Datalog database
+:kind:library
+:database:graph
+:coding:language
+:programmed-in:rust
+
+=> https://www.pgcli.com/ pgcli
+PostgreSQL CLI with autocompletion
+:kind:cli
+:tool:database
+:uses-storage:postgresql
+:programmed-in:python
+
+=> https://github.com/okbob/pspg pspg
+Pager for PostgreSQL and MySQL tables
+:kind:cli
+:tool:database
+:uses-storage:postgresql
+:uses-storage:mysql
+:programmed-in:python
+
+=> https://github.com/djrobstep/results results
+PostgreSQL tool with a diff tool
+:kind:library
+:kind:cli
+:tool:database
+:uses-storage:postgresql
+
+=> https://github.com/julianhyde/sqlline SQLLine
+CLI tool for JDBC databases
+:kind:cli
+:tool:database
+:programmed-in:java
+
+=> https://pgroll.com/ pgroll
+PostgreSQL migrations based on switching schemas
+:kind:cli
+:tool:database
+:programmed-in:go
+
+=> https://www.sqlfluff.com/ SQLFluff
+SQL linter
+:kind:cli
+:coding:linter
+:tool:database
+
+=> https://github.com/feldera/feldera Feldera
+Incremental SQL query engine
+:kind:service
+:database
+:coding:realtime
+:programmed-in:rust
+
+=> https://www.symas.com/mdb Symas LMDB
+A Berkeley-style database where multiple processes can access the same database concurrently.
+:kind:library
+:database
+:programmed-in:c
+
+=> https://github.com/tansu-io/tansu Tansu
+Kafka-compatible backed by PostgreSQL, SQLite, S3...
+:kind:service
+:database
+:programmed-in:rust
+
+=> https://github.com/carltongibson/neapolitan Neapolitan
+Quick CRUD views for Django
+:web:django
+:programmed-in:python
+:kind:library
+
+=> https://codeberg.org/emmaDelescolle/django-admin-deux django-admin-deux
+New admin for Django
+:web:django
+:programmed-in:python
+:kind:library
+
+=> https://github.com/Jake-Shadle/xwin xwin
+Cross-compile to Windows
+:kind:cli
+:coding:build
+:programmed-in:rust
+:microsoft-windows
+
+=> https://github.com/marler8997/msvcup msvcup
+CLI installer for MSVC/SDK
+:kind:cli
+:coding:build
+:programmed-in:zig
+:microsoft-windows
+
+=> https://github.com/inducer/pudb PuDB
+Full-screen console debugger for Python
+:kind:tui
+:coding:debugger
+:programmed-in:python
+
+=> https://gregoryszorc.com/docs/python-build-standalone/main/ Python standalone builds
+Python standalone builds
+:coding:distribution
+:kind:binaries
+
+=> https://packaged.live/ packaged
+Package Python applications
+:coding:distribution
+
+=> https://github.com/bugen/pypipe pypipe
+Python-based AWK
+:programmed-in:python
+:tool:data
+:kind:cli
+
+=> https://github.com/fsspec/filesystem_spec/ filesystem_spec
+Python VFS API with Fuse driver
+:programmed-in:python
+:kind:library
+:coding:vfs
+
+=> https://thelig.ht/code/userspacefs/ userspacefs
+Python VFS API
+:programmed-in:python
+:kind:library
+:coding:vfs
+
+=> https://errbot.io Errbot
+Python framework for writing bots for multiple services
+:programmed-in:python
+:kind:framework
+:instant-messaging:bot
+
+=> https://github.com/flutter-rs/flutter-rs flutter-rs
+Add Flutter UIs to Rust programs
+:programmed-in:rust
+:kind:library
+:coding:gui
+
+=> https://github.com/crossterm-rs/crossterm Crossterm
+Cross-platform terminal UI
+:programmed-in:rust
+:kind:library
+:coding:tui
+
+=> https://github.com/matklad/xshell xshell
+Scripting in Rust
+:programmed-in:rust
+:kind:library
+:coding:scripting
+
+=> https://github.com/bytecodealliance/cap-std/ cap-std
+Capability-based version of the Rust standard library
+:programmed-in:rust
+:kind:library
+:coding:security
+
+=> https://www.lurklurk.org/effective-rust/ Effective Rust
+Rust programming book
+:coding:language
+
+=> https://gitlab.com/DPDmancul/clap-serde-derive Clap and Serde derive
+Derive CLI parser and serializer from the same source
+:programmed-in:rust
+:kind:library
+
+=> https://github.com/KittyCAD/delouse delouse
+Debug Tokio code
+:programmed-in:rust
+:kind:library
+:coding:debugger
+:coding:async
+:programmed-in:rust
+
+=> https://www.jbang.dev/ jBang
+Simplify distribution of Java CLI tools
+:programmed-in:java
+:coding:distribution
+:kind:cli
+
+=> https://github.com/mabe02/lanterna Lanterna
+Library to create TUIs in Java
+:programmed-in:java
+:coding:tui
+:kind:library
+
+=> https://testcontainers.com/ Testcontainers
+Run testing services in Java, Go, Node.js, Python, Rust...
+:kind:library
+:containers
+:coding:testing
+
+=> https://errorprone.info/ Error Prone
+Static Java analyzer
+:kind:cli
+:coding:build
+:programmed-in:java
+
+=> https://github.com/google/auto Auto
+Java code generator
+:kind:cli
+:coding
+:programmed-in:java
+
+=> https://lexi-lambda.github.io/hackett/ Hackett
+Haskell-like Lisp
+:programmed-in:racket
+:coding:language
+:coding:lisp
+:coding:static-typing
+
+=> https://coalton-lang.github.io/ Coalton
+Statically-typed Lisp
+:programmed-in:common-lisp
+:coding:language
+:coding:lisp
+:coding:static-typing
+
+=> https://docs.racket-lang.org/ts-guide/ Typed Racket
+Typed Racket
+:programmed-in:racket
+:coding:language
+:coding:lisp
+:coding:static-typing
+
+=> https://github.com/oils-for-unix/oils/ Oils
+Script programming language. See also:
+=> https://github.com/oils-for-unix/oils/wiki/Internal-DSLs-for-Shell Internal DSLs for Shell
+=> https://github.com/oils-for-unix/oils/wiki/Alternative-Shells Alternative Shells
+:programmed-in:python
+:coding:language
+:kind:cli
+:tool:shell
+
+=> https://xon.sh/ Xonsh
+Python shell
+:programmed-in:python
+:coding:language
+:kind:cli
+:tool:shell
+
+=> https://www.nushell.sh/ Nu
+Shell with structured data pipelines
+:programmed-in:rust
+:coding:language
+:kind:cli
+:tool:shell
+
+=> https://amber-lang.com/ Amber
+Statically-typed language that compiles to bash
+:programmed-in:rust
+:coding:language
+:coding:static-typing
+:compiles-to:bash
+
+=> https://codeberg.org/moggers87/salmon Salmon
+Mail server to write applications in Python
+:programmed-in:python
+:kind:framework
+:mail
+
+=> https://langium.org/ Langium
+Framework for writing languages, including language servers
+:programmed-in:typescript
+:kind:framework
+:coding:languages
+:coding:parsing
+:coding:lsp
+
+=> https://github.com/hydro-project/rust-sitter Rust Sitter
+Create Tree-sitter parsers in Rust
+:programmed-in:rust
+:kind:framework
+:coding:parsing
+
+=> https://langcc.io/ langcc
+Modern lex/yacc
+:programmed-in:cpp
+:kind:framework
+:coding:parsing
+
+=> https://github.com/petitparser PetitParser
+Create parsers in Dart, Java, Dart, and Kotlin
+:kind:framework
+:coding:parsing
+
+=> https://www.metaborg.org/ The Spoofax Language Workbench
+Platform to develop languages
+:programmed-in:java
+:kind:framework
+:coding:parsing
+:coding:languages
+
+=> https://github.com/antlr/grammars-v4 grammars-v4
+ANTLR v4 grammars
+:programmed-in:antlr
+:kind:dataset
+:coding:parsing
+
+=> https://tree-sitter.github.io/tree-sitter/ Tree-sitter
+Parser generator and incremental parser
+:programmed-in:rust
+:coding:parsing
+:kind:framework
+
+=> https://github.com/stephan-tolksdorf/fparsec FParsec
+Parser combinator library for F#
+:programmed-in:f-sharp
+:coding:parsing
+:kind:library
+
+=> https://github.com/Engelberg/instaparse Instaparse
+Parser in Clojure
+:programmed-in:clojure
+:coding:parsing
+:kind:library
+
+=> https://janet-lang.org/ Janet Language
+Lisp with PEGs instead of regular expressions
+:programmed-in:c
+:coding:parsing
+:coding:language
+:coding:lisp
+
+=> https://craftinginterpreters.com/ Crafting Interpreters
+Book about writing interpreters
+:coding:parsing
+:coding:languages
+
+=> https://pomsky-lang.org/ Pomsky
+Regular expression alternative
+:coding:language
+:coding:parsing
+:programmed-in:rust
+
+=> https://rosie-lang.org/ Rosie Pattern Language
+Regular expression alternative
+:coding:language
+:kind:cli
+:coding:parsing
+:programmed-in:c
+
+=> https://tratt.net/laurie/blog/2020/which_parsing_approach.html Which Parsing Approach?
+Explains parser types
+:coding:parsing
+
+=> https://www.scryer.pl/ Scryer Prolog
+Prolog with efficient strings
+:coding:language
+:coding:prolog
+:programmed-in:rust
+
+=> https://github.com/rla/prolog-markdown prolog-markdown
+Markdown parser in SWI-Prolog
+:kind:library
+:programmed-in:prolog
+:lightweight-markup:markdown
+:coding:parser
+
+=> https://github.com/aarroyoc/djota/tree/main Djota
+Djot parser in Prolog
+:kind:library
+:programmed-in:prolog
+:lightweight-markup:djot
+:coding:parser
+
+=> https://temporal.io/ Temporal
+Durable execution platform for Go, Java, Python, etc.
+:kind:framework
+:coding:distributed
+:programmed-in:go
+
+=> https://restate.dev Restate
+Durable execution platform for Go, Java, Python, Typescript, Kotlin, Rust
+:kind:framework
+:coding:distributed
+:programmed-in:rust
+
+=> https://github.com/yomaytk/elfconv elfconv
+Converts Linux ELF binaries into WASM
+:kind:cli
+:coding:wasm
+:programmed-in:cpp
+
+=> https://extism.org/ Extism
+Write WASM plugins for many languages
+:kind:library
+:kind:framework
+:coding:wasm
+:programmed-in:rust
+
+=> https://github.com/kellyjonbrazil/jc JC
+Converts the output of many tools into JSON
+:kind:cli
+:programmed-in:python
+:coding:parser
+
+=> https://open-meteo.com/ Open-Meteo
+Open weather service, free for non-commercial use
+:kind:service
+
+=> https://github.com/KDE/kitinerary/tree/master/src/lib/scripts kitinerary parsers
+Parser for many emails containing travel information
+:kind:library
+:coding:parser
+:programmed-in:javascript
+
+=> https://github.com/igor-petruk/scriptisto Scriptisto
+Shebang for single-line scripts with dependencies, packaged in many distros
+:kind:cli
+:coding:distribution
+:programmed-in:rust
+
+=> https://github.com/acaloiaro/ess ess
+Automatically keep env.sample files in sync with .env
+:kind:cli
+:coding
+:programmed-in:go
+
+=> https://yunohost.org/ YunoHost
+Self-hosting platform
+:tool:selfhosting
+:kind:service
+:programmed-in:python
+
+=> https://sandstorm.org/ Sandstorm
+Self-hosting platform
+:tool:selfhosting
+:kind:service
+:programmed-in:javascript
+
+=> https://caprover.com/ CapRover
+Self-hosted PaaS
+:tool:paas
+:tool:selfhosting
+:kind:service
+:programmed-in:typescript
+
+=> https://www.freedombox.org/ FreedomBox
+Self-hosting UI over Debian
+:tool:selfhosting
+:kind:service
+:programmed-in:python
+
+=> https://dokku.com/ Dokku
+Heroku-like PaaS
+:tool:paas
+:kind:service
+:programmed-in:go
+
+=> https://github.com/piku/piku piku
+Heroku-like PaaS
+:tool:paas
+:kind:service
+:programmed-in:python
+
+=> https://opencloud.eu/ OpenCloud
+Nextcloud alternative
+:tool:filesync
+:kind:service
+:programmed-in:go
+
+=> https://mutagen.io/ Mutagen
+Synchronize files from your workstation to a remote host via SSH
+:tool:filesync
+:kind:cli
+:programmed-in:go
+
+=> https://github.com/tkellogg/dura Dura
+Time travel for Git working copies
+:vcs:git
+:kind:cli
+:programmed-in:rust
+
+=> https://perkeep.org/ Perkeep
+Personal data storage
+:tool:filesync
+:kind:service
+:programmed-in:go
+
+=> https://www.filestash.app/ Filestash
+Web file manager for SFTP, S3, SMB, etc.
+:tool:files
+:kind:service
+:programmed-in:go
+
+=> https://fossil.kd2.org/karadav/doc/main/README.md KaraDAV
+WebDAV server compatible with NextCloud/ownCloud clients
+:tool:filesync
+:kind:service
+:programmed-in:php
+
+=> https://stalw.art/ Stalwart
+Groupware with JMAP support
+:mail:jmap
+:kind:service
+:programmed-in:rust
+
+=> https://github.com/linuxserver/proot-apps PRoot Apps
+Unprivileged self-contained apps
+:kind:cli
+:programmed-in:shell
+:tool:distribution
+
+=> https://github.com/lkl/linux Linux Kernel Library
+Run the Linux kernel as an application
+:kind:library
+
+=> https://kanidm.com/ Kanidm
+Identity plaform
+:kind:service
+:programmed-in:rust
+:identity
+
+=> https://github.com/adorsys/keycloak-config-cli keycloak-config-cli
+Configuration as code for Keycloak
+:kind:cli
+:programmed-in:java
+:identity:keycloak
+
+=> https://metacontroller.github.io/metacontroller/ Metacontroller
+Platform to write Kubernetes controllers
+:kind:framework
+:programmed-in:go
+:kubernetes
+
+=> https://github.com/Yakifo/amqtt aMQTT
+Python MQTT broker and client
+:kind:service
+:kind:library
+:programmed-in:python
+:mqtt
+
+=> https://capn.linuxcontainers.org/ Kubernetes Cluster API Provider Incus
+Deploy Kubernetes to Incus
+:kind:service
+:programmed-in:go
+:kubernetes
+:iaas:incus
+
+=> https://ssh2incus.com/ ssh2incus
+Access Incus instances via SSH
+:kind:service
+:programmed-in:go
+:iaas:incus
+
+=> https://github.com/cirruslabs/vetu vetu
+CLI to create Linux VMs quickly
+:kind:cli
+:programmed-in:go
+:tool:vms
+
+=> https://github.com/karmab/kcli kcli
+CLI to create Linux VMs quickly on multiple VMs systems
+:kind:cli
+:programmed-in:python
+:tool:vms
+
+=> https://github.com/virt-lightning/virt-lightning virt-lightning
+CLI to create Linux VMs quickly using libvirt
+:kind:cli
+:programmed-in:python
+:tool:vms
+
+=> https://tart.run/ Tart
+CLI to create VMs quickly on macOS
+:kind:cli
+:programmed-in:swift
+:tool:vms
+:macos
+
+=> https://vyos.net/ VyOS
+Declarative network appliance
+:kind:os
+:networking
+:programmed-in:python
+:infrastructure-as-code
+
+=> https://github.com/ansible-collections/community.openwrt community.openwrt Ansible collection
+Manage OpenWRT with Ansible
+:kind:ansible
+:programmed-in:python
+:networking:openwrt
+:infrastructure-as-code
+
+=> https://github.com/glennbrown/home-infra home-infra
+Infrastructure as code setup
+:kind:ansible
+:programmed-in:ansible
+:infrastructure-as-code
+
+=> https://github.com/lanefu/clammy-ng clammy-ng
+Ansible-managed Linux router on a nanopi
+:networking
+:kind:ansible
+:programmed-in:ansible
+:infrastructure-as-code
+
+=> https://publicsuffix.org/ Public suffix list
+List of domains with open subdomain registration
+:networking:dns
+:kind:dataset
+
+=> https://yggdrasil-network.github.io/ Yggdrasil network
+Overlay Internet on top of the Internet
+:vpn:public
+:kind:service
+:programmed-in:go
+:networking
+
+=> https://dn42.eu/ dn42
+Public VPN
+:vpn:public
+:kind:service
+:networking
+
+=> https://netbird.io/ Netbird
+Tailscale alternative
+:vpn
+:networking
+:programmed-in:go
+:kind:service
+
+=> https://datatracker.ietf.org/group/privacypass/about/ Privacy Pass
+Anonymous authorization
+:kind:protocol
+:cryptography
+
+=> https://github.com/smallstep/certificates certificates
+CA
+:kind:service
+:cryptography:ca
+:programmed-in:go
+
+=> https://age-encryption.org/ age
+Encryption format that supports SSH keys
+:kind:cli
+:kind:protocol
+:programmed-in:go
+:cryptography
+
+=> https://www.nitrokey.com/products/nethsm NetHSM
+HSM appliance
+:kind:service
+:programmed-in:ocaml
+:cryptography:hsm
+
+=> https://kasm.com/kasmvnc KasmVNC
+Web VNC
+:kind:service
+:programmed-in:cpp
+:tool:remote-desktop
+
+=> https://selkies-project.github.io/selkies/ Selkies
+Web remote desktop with graphics acceleration
+:kind:service
+:programmed-in:python
+:tool:remote-desktop
+
+=> https://moonlight-stream.org/ Moonlight
+Streaming client for Nvidia GameStream protocol
+:tool:remote-desktop
+:kind:gui
+:programmed-in:cpp
+
+=> https://docs.lizardbyte.dev/projects/sunshine/latest/ Sunshine
+Streaming server for Nvidia GameStream protocol
+:tool:remote-desktop
+:kind:service
+:programmed-in:cpp
+
+=> https://neko.m1k1o.net/ Neko
+Virtual browser
+:tool:remote-desktop
+:kind:service
+:programmed-in:go
+
+=> https://www.xrdp.org/ xrdp
+Microsoft RDP implementation, including X11 driver and client
+:tool:remote-desktop
+:kind:service
+:programmed-in:c
+
+=> https://github.com/marcan/takeover.sh takeover.sh
+Take over a remote Linux system to replace the operating system
+:tool:linux
+:kind:cli
+:programmed-in:shell
+
+=> https://tratt.net/laurie/src/pizauth/ pizauth
+Oauth tool to use email accounts that require OAuth with third-party tools
+:kind:cli
+:programmed-in:rust
+:mail:oauth
+
+=> https://github.com/simonrob/email-oauth2-proxy Email Oauth 2.0 Proxy
+Oauth tool to use email accounts that require OAuth with third-party tools
+:kind:cli
+:programmed-in:python
+:mail:oauth
+
+=> https://github.com/shell-pool/shpool shpool
+Lightweight alternative to GNU screen and tmux
+:kind:cli
+:tool:terminal
+:programmed-in:rust
+
+=> https://zmx.sh/ zmx
+Lightweight alternative to GNU screen and tmux
+:kind:cli
+:tool:terminal
+:programmed-in:zig
+
+=> https://simplelogin.io/ SimpleLogin
+Email aliases
+:kind:service
+:mail
+:programmed-in:python
+
+=> https://getbananas.net/ Bananas Screen Sharing
+Screen sharing with multiple cursors
+:kind:service
+:tool:screen-sharing
+:programmed-in:typescript
+
+=> https://lalescu.ro/liviu/fet/ FET
+Timetable scheduler
+:kind:gui
+:tool:timetables
+:programmed-in:cpp
+
+=> https://glide-browser.app Glide
+Keyboard-driven Firefox
+:kind:gui
+:tool:browser
+:programmed-in:typescript
+
+=> https://vdo.ninja/ VDO.Ninja
+Swiss army for WebRTC
+:kind:service
+:tool:screensharing
+:tool:streaming
+:programmed-in:javascript
+
+=> https://github.com/Manawyrm/AnotterKiosk AnotterKiosk
+Firefox kiosk
+:kind:gui
+:firefox:kiosk
+:programmed-in:shell
+
+=> https://github.com/mozilla/policy-templates Firefox policy templates
+Manage browser programatically
+:firefox:management
+
+=> https://linuxae.org.es/ LinuxAE
+Distribución GNU/Linux para el uso de la Administración Electrónica
+:linux-distribution
+:spain
+
+=> https://github.com/plp13/qman Qman
+Modern man page viewer for terminal
+:kind:tui
+:tool:documentation
+:programmed-in:c
+
+=> https://pimalaya.org/ Pimalaya
+Email tools
+:kind:cli
+:kind:tui
+:mail:client
+:programmed-in:rust
+
+=> https://github.com/leahneukirchen/mblaze/ mblaze
+CLI for maildir
+:kind:cli
+:mail:client
+:programmed-in:c
+
+=> https://git.sr.ht/~whynothugo/ImapGoose ImapGoose
+Bidirectional sync between maildir and IMAP with real time NOTIFY
+:kind:service
+:mail:sync
+:programmed-in:go
+
+=> https://lieer.gaute.vetsj.com/ Lieer
+Use GMail with Notmuch
+:kind:service
+:mail:sync
+:mail:notmuch
+:programmed-in:python
+
+=> https://github.com/Genymobile/scrcpy scrcpy
+Control Android devices remotely
+:kind:gui
+:tool:remote-desktop
+:android
+:programmed-in:c
+
+=> https://github.com/wolpi/prim-ftpd Primitive FTPd
+SFTP server for Android
+:kind:gui
+:tool:files
+:android
+:programmed-in:java
+
+=> https://niri-wm.github.io/niri/ niri
+Wayland scrollable-tiling compositor
+:desktop-environment:wayland
+:desktop-environment:scrollable-tiling
+:programmed-in:rust
+
+=> https://github.com/kmonad/kmonad KMonad
+Keyboard manager
+:kind:service
+:tool:keyboard
+:programmed-in:haskell
+
+=> https://losslesscut.app/ LosslessCut
+Edit video losslessly
+:kind:gui
+:tool:video
+:programmed-in:typescript
+
+=> https://github.com/zoriya/kyoo Kyoo
+Media server
+:kind:service
+:tool:video
+:programmed-in:typescript
+
+=> https://github.com/asapach/peerflix-server peerflix-server
+Streaming torrent client with web ui
+:kind:service
+:tool:video
+:p2p:torrent
+:programmed-in:javascript
+
+=> https://github.com/hauxir/rapidbay Rapid bay
+Streaming torrent client with web ui
+:kind:service
+:tool:video
+:p2p:torrent
+:programmed-in:python
+
+=> https://github.com/anacrolix/torrent torrent
+Torrent library with streaming video support. See README for projects using it
+:kind:library
+:p2p:torrent
+:programmed-in:go
+
+=> https://www.stirling.com/ Stirling
+PDF manipulation tool
+:kind:service
+:print:pdf
+:programmed-in:java
+
+=> https://github.com/mzucker/noteshrink noteshrink
+Convert scanned handwriting to PDF
+:kind:cli
+:print:pdf
+:programmed-in:python
+
+=> https://mixxx.org/ Mixxx
+Open source DJ software
+:kind:gui
+:tool:dj
+:programmed-in:cpp
+
+=> https://letsconvene.im/ Convene
+Browser-based conversations without accounts
+:kind:service
+:instant-messaging:matrix
+
+=> https://github.com/kiwiirc/plugin-conference KiwiIRC - Audio / Video conferencing
+Integrate Jitsi Meet with Kiwi IRC
+:kind:service
+:instant-messaging:irc
+
+=> https://keeweb.info/ KeeWeb
+Desktop and browser app for KeePass with sync
+:kind:service
+:kind:gui
+:tool:password
+:programmed-in:javascript
+
+=> https://github.com/PhilippC/keepass2android Keepass2Android
+Android for KeePass with sync
+:kind:gui
+:tool:password
+:programmed-in:c-sharp
+:android
+
+=> https://github.com/apenwarr/blip blip
+Web ping
+:kind:service
+:networking
+:programmed-in:javascript
+
+=> https://slipshow.org/
+Infinite presentations
+:kind:cli
+:kind:gui
+:tool:slides
+:programmed-in:ocaml
+
+=> https://github.com/CyberShadow/DFeed DFeed
+NNTP/mailing list/forum/ATOM/IRC
+:kind:service
+:social
+:programmed-in:d
+:nntp
+:mail
+
+=> https://github.com/epilys/sic sic
+Link aggregator
+:kind:service
+:social
+:programmed-in:python
+
+=> https://koldfront.dk/git/illuminant/about/ Illuminant
+ActivityPub server with an NNTP interface
+:kind:service
+:social:activitypub
+:nntp
+:programmed-in:haskell
+
+=> https://libreserver.org/epicyon/ Epicyon
+ActivityPub server that does not require Javascript, usable as PWA
+:kind:service
+:social:activitypub
+:programmed-in:python
+
+=> https://github.com/tsileo/microblog.pub microblog.pub
+Single user ActivityPub microblog
+:kind:service
+:social:activitypub
+:programmed-in:python
+
+=> https://github.com/ihabunek/toot Toot
+Mastodon CLI client
+:kind:tui
+:social:activitypub
+:programmed-in:python
+
+=> https://github.com/benbusby/farside Farside
+Redirect social websites to alternative frontends
+:kind:service
+:social
+:programmed-in:go
+
+=> https://github.com/timhutton/twitter-archive-parser twitter-archive-parser
+Parse and republish your Twitter archive
+:kind:cli
+:social:twitter
+:programmed-in:python
+
+=> https://rss-parrot.net/ RSS Parrot
+RSS to ActivityPub
+:kind:service
+:social:activitypub
+:rss
+:programmed-in:go
+
+=> https://src.presi.org/darcs/irgramd irgramd
+IRC Telegram gateway
+:kind:service
+:instant-messaging:irc
+:instant-messaging:telegram
+
+=> https://junkerhq.net/xrgb/index.php/OSSC Open Source Scan Converter
+Connect old devices to modern displays
+:hardware:retro
+
+=> https://openterface.com/ Openterface
+Turn laptops and computers into KVMs
+:hardware:kvm
+
+=> https://www.dpin.de/nf/linux-music-making-sonic-pi-lmms-akai-mpk-usb-midi/ Linux Music Making – Sonic Pi, LMMS, AKAI MPK USB MIDI
+Using AKAI MPK in Linux
+:hardware
+
+=> https://github.com/Dakkaron/Fairberry Fairberry
+And a Blackberry Q10 keyboard to a phone
+:hardware
+
+=> https://code.haverbeke.berlin/lezer/markdown @lezer/markdown
+Commonmark parser using Lezer
+:kind:library
+:coding:parser
+:lightweight-markup:markdown
+:programmed-in:typescript
+
+=> https://github.com/kivikakk/comrak Comrak
+Commonmark parser
+:kind:library
+:coding:parser
+:lightweight-markup:markdown
+:programmed-in:rust
+
+=> https://github.com/pulldown-cmark/pulldown-cmark pulldown-cmark
+Commonmark parser
+:kind:library
+:coding:parser
+:lightweight-markup:markdown
+:programmed-in:rust
+
+=> https://github.com/wooorm/markdown-rs markdown-rs
+Commonmark parser
+:kind:library
+:coding:parser
+:lightweight-markup:markdown
+:programmed-in:rust
+
+=> https://github.com/karlicoss/orgparse orgparse
+org-mode parser
+:kind:library
+:coding:parser
+:lightweight-markup:org
+:programmed-in:python
+
+=> https://github.com/200ok-ch/org-parser org-parser
+org-mode parser
+:kind:library
+:coding:parser
+:lightweight-markup:org
+:programmed-in:clojure
+
+=> https://markdoc.dev/ Markdoc
+Documentation site builder that uses Markdown
+:kind:cli
+:programmed-in:typescript
+:lightweight-markup:markdown
+:tool:documentation
+
+=> https://liascript.github.io/ LiaScript
+Interactive course builder that uses Markdown. Exports to SCORM, ePUB...
+:kind:service
+:programmed-in:elm
+:lightweight-markup:markdown
+:tool:documentation
+:education
+
+=> https://hedgedoc.org/ HedgeDoc
+Collaborative Markdown editor with with cute attributed blockquotes for commenting
+:kind:service
+:programmed-in:typescript
+:lightweight-markup:markdown
+:tool:documentation
+
+=> https://github.com/nota-lang/bene/ Bene
+A Lightweight EPUB Reader
+:kind:service
+:kind:gui
+:tool:documentation
+:epub
+
+=> https://github.com/jhuangtw/xg2xg xg2xg
+List of Google internal tools and alternatives
+:directory
+
+=> https://european-alternatives.eu/ European alternatives
+List of European services
+:directory
+
+=> https://developer.themoviedb.org/ TMDB
+Rate-limited APIs for TV shows and movies with airdates
+:public-api
+
+=> https://carpentries.org/ The Carpentries
+Teaching community
+:education
