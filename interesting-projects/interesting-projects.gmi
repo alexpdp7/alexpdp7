@@ -1370,3 +1370,11 @@ Rate-limited APIs for TV shows and movies with airdates
 => https://carpentries.org/ The Carpentries
 Teaching community
 :education
+
+=> https://github.com/bootc-dev/bcvk bootc virtualization kit
+Run virtual machines from bootc containers
+:iaas
+:infrastructure-as-code
+:kind:cli
+:programmed-in:rust
+:tool:vms
