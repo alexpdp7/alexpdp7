@@ -4,13 +4,9 @@ This is the laptop I used for work from early 2024 to early 2026. The laptop is 
 
 ## Linux compatibility
 
-Linux has several problems:
-
-* The keyboard is really a USB device (it is detachable), and you can only switch ctrl+fn using a Windows app or:
+The keyboard is really a USB device (it is detachable), and you can only switch ctrl+fn using a Windows app or:
 
 => https://github.com/manueljaeckle/thinkpad_x12_fn_switcher
-
-* Apparently, you cannot use the volume control keys in Linux either. However, I do not use those in Windows so I don't care.
 
 ## Form factor
 
