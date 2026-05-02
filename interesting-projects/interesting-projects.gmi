@@ -45,7 +45,7 @@ Software forge with published infrastructure as code
 Turn GitHub PRs into mailing list patches
 :programmed-in:typescript
 :kind:service
-:vcs:git
+:vcs:github
 
 => https://earthly.dev/earthfile/ Earthly
 Container-based builds
@@ -72,7 +72,7 @@ Bazel's remote APIs for compiling, artifacts, and log streaming; with links to p
 => https://github.com/lima-vm/lima-actions Lima on GitHub Actions
 Run Lima on GitHub Actions
 :coding:build
-:vcs
+:vcs:github
 :kind:github-action
 
 => https://github.com/equinix-labs/otel-cli otel-cli
@@ -929,7 +929,7 @@ Anonymous authorization
 :cryptography
 
 => https://github.com/smallstep/certificates certificates
-CA
+Certificate authority that supports ACME and can issue SSH certificates
 :kind:service
 :cryptography:ca
 :programmed-in:go
@@ -1038,7 +1038,7 @@ Keyboard-driven Firefox
 :programmed-in:typescript
 
 => https://vdo.ninja/ VDO.Ninja
-Swiss army for WebRTC
+Swiss army knife for WebRTC
 :kind:service
 :tool:screensharing
 :tool:streaming
@@ -1051,7 +1051,7 @@ Firefox kiosk
 :programmed-in:shell
 
 => https://github.com/mozilla/policy-templates Firefox policy templates
-Manage browser programatically
+Manage Firefox programatically
 :firefox:management
 
 => https://linuxae.org.es/ LinuxAE
@@ -1281,7 +1281,7 @@ Using AKAI MPK in Linux
 :hardware
 
 => https://github.com/Dakkaron/Fairberry Fairberry
-And a Blackberry Q10 keyboard to a phone
+Add a Blackberry Q10 keyboard to a phone
 :hardware
 
 => https://code.haverbeke.berlin/lezer/markdown @lezer/markdown
@@ -1342,7 +1342,7 @@ Interactive course builder that uses Markdown. Exports to SCORM, ePUB...
 :education
 
 => https://hedgedoc.org/ HedgeDoc
-Collaborative Markdown editor with with cute attributed blockquotes for commenting
+Collaborative Markdown editor with cute attributed blockquotes for commenting
 :kind:service
 :programmed-in:typescript
 :lightweight-markup:markdown
