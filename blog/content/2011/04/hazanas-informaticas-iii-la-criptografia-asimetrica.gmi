@@ -1,5 +1,10 @@
 # 2011-04-25 Hazañas informáticas III: la criptografía asimétrica
 
+Anteriores entregas:
+
+=> ../../2011/04/hazanas-informaticas-i-internet Hazañas informáticas I: Internet
+=> ../../2011/04/hazanas-informaticas-ii-el-modelo-de-datos-relacional Hazañas informáticas II: el modelo de datos relacional
+
 Desde el principio de los tiempos, los humanos han deseado en ocasiones mantener la privacidad de sus comunicaciones. En tiempos de los romanos ya se utilizaban técnicas de criptografía como el cifrado César para las comunicaciones militares.
 
 El cifrado César consiste en la sustitución simple de unas letras por otras, por ejemplo, sustituir la "a" por "c", "b" por "d", "c" por "e", etc. Con lo que por ejemplo, "cifrado cesar" se convertiría en "ekhtcfq eguct". Este sistema (y muchos otros) se basa en el secreto del sistema- sólo el emisor y receptor del mensaje conocen el método de cifrado y la manera en la que se realiza- en este caso, que cada letra se sustituye por la letra que existe a dos posiciones en el orden alfabético; lo que se conoce como clave secreta.
@@ -29,3 +34,9 @@ Lo mejor de todo es que obtener claves muy muy grandes (que hacen que la descomp
 El sistema RSA lo tiene todo: es muy, muy sencillo, podemos hacerlo tan difícilmente de romper como queramos (buscando primos mayores)... lo único que falla es que es relativamente lento; las operaciones de codificación son lentas. La solución aquí es sencilla- los esquemas de clave privada tienen a ser extremadamente veloces, así que normalmente lo que haremos es usar el sistema de criptografía asimétrica para intercambiar una clave para una codificación de clave privada; así el sistema de clave pública nos resuelve el problema de compartir la clave privada por un canal seguro: usamos la criptografía de clave pública para hacerlo, y a partir de entonces usamos los veloces algoritmos de clave privada para realizar el resto de comunicaciones.
 
 Este sistema es usado hoy en día en la mayoría de aplicaciones de seguridad informática. El criptosistema RSA basado en números primos sigue siendo la implementación más popular- existe un sistema alternativo basado en "curvas elípticas" que se considera más seguro, pero es mucho más complejo y, sobre todo, que algunas de estas curvas elípticas están patentadas y no está claro si se pueden realizar implementaciones de este sistema sin pagar a sus inventores (mientras que el sistema RSA es "libre").
+
+Próximas entregas:
+
+=> ../../2011/05/hazanas-informaticas-iv-las-funciones-hash Hazañas informáticas IV: Las funciones hash
+=> ../../2011/11/hazanas-informaticas-v-las-maquinas-de-turing-y-von-neumann Hazañas informáticas V: Las máquinas de Turing y Von Neumann
+=> ../../2011/11/hazanas-informaticas-vi-el-sistema-unix Hazañas informáticas VI: el sistema UNIX

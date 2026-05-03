@@ -1,5 +1,9 @@
 # 2011-04-24 Hazañas informáticas II: el modelo de datos relacional
 
+Anterior entrega:
+
+=> ../../2011/04/hazanas-informaticas-i-internet Hazañas informáticas I: Internet
+
 Los primeros ordenadores se destinaron a la introducción y proceso de datos- no en vano los orígenes de IBM se remontan a la gestión del censo de habitantes de los Estados Unidos. Naturalmente, hasta el más primitivo de los sistemas de programación provee de primitivas de almacenamiento de datos, mecanismos sencillos para almacenar, organizar y acceder a datos en la memoria volátil del sistema (es decir, que estos datos se pierden al finalizar la ejecución del programa).
 
 Rápidamente, los programadores se ocuparon de implementar funcionalidades que almacenaban estos datos en algún soporte persistente, de manera que los datos se conserven entre ejecución y ejecución del programa, y diseñaron maneras de organizar los datos de manera que las operaciones que se quieren realizar con ellos se hagan de una manera eficiente.
@@ -70,3 +74,10 @@ Adicionalmente, las aplicaciones se benefician de otras características de los 
 Estas y otras facilidades que ofrecen las bases de datos no son triviales de implementar, y el hecho de poder aprovechar la implementación de la base de datos nos permite desarrollar nuestra aplicación más rápidamente sin tenernos que preocupar de estos complicados detalles.
 
 Hoy en día, tras más de 40 de años desde su invención, el modelo relacional es el estándar de facto para almacenamiento de datos en aplicaciones donde la integridad de los datos es vital- y es también inmensamente popular en aplicaciones menos críticas por su conveniencia, sencillez y velocidad.
+
+Próximas entregas:
+
+=> ../../2011/04/hazanas-informaticas-iii-la-criptografia-asimetrica Hazañas informáticas III: la criptografía asimétrica
+=> ../../2011/05/hazanas-informaticas-iv-las-funciones-hash Hazañas informáticas IV: Las funciones hash
+=> ../../2011/11/hazanas-informaticas-v-las-maquinas-de-turing-y-von-neumann Hazañas informáticas V: Las máquinas de Turing y Von Neumann
+=> ../../2011/11/hazanas-informaticas-vi-el-sistema-unix Hazañas informáticas VI: el sistema UNIX

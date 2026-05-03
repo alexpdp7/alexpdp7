@@ -1,6 +1,14 @@
 # 2011-11-16 Hazañas informáticas VI: el sistema UNIX
 
-Si habéis estado siguiendo esta serie de artículos[1], habréis podido percibir un notable patrón- los sujetos de los que hablo no suelen ser muy recientes. Internet se conoce como tal desde el 82, el modelo relacional se formuló en el 69, las funciones hash aparecen mencionadas en una publicación en el 53, el sistema RSA data del 78 y las máquina de Turing y von Neumann son de allá por los años 40.
+Anteriores entregas:
+
+=> ../../2011/04/hazanas-informaticas-i-internet Hazañas informáticas I: Internet
+=> ../../2011/04/hazanas-informaticas-ii-el-modelo-de-datos-relacional Hazañas informáticas II: el modelo de datos relacional
+=> ../../2011/04/hazanas-informaticas-iii-la-criptografia-asimetrica Hazañas informáticas III: la criptografía asimétrica
+=> ../../2011/05/hazanas-informaticas-iv-las-funciones-hash Hazañas informáticas IV: Las funciones hash
+=> ../../2011/11/hazanas-informaticas-v-las-maquinas-de-turing-y-von-neumann Hazañas informáticas V: Las máquinas de Turing y Von Neumann
+
+Si habéis estado siguiendo esta serie de artículos, habréis podido percibir un notable patrón- los sujetos de los que hablo no suelen ser muy recientes. Internet se conoce como tal desde el 82, el modelo relacional se formuló en el 69, las funciones hash aparecen mencionadas en una publicación en el 53, el sistema RSA data del 78 y las máquina de Turing y von Neumann son de allá por los años 40.
 
 Es decir, la hazaña informática más jovencita es más vieja que yo con sus 33 años de edad. Pero ninguna de ellas está obsoleta- es más, todas ellas siguen vigentes y es posible que algunas sobrevivan más de un siglo (sólo es posible que el criptosistema RSA quede obsoleto si algún día la computación cuántica resulta práctica- aunque con toda probabilidad sea reemplazado por un criptosistema de clave pública similar).
 
@@ -21,6 +29,3 @@ En los 90, un estudiante de informática finlandés, frustrado por no disponer d
 Llegando hasta hoy, los Unix comerciales siguen teniendo su importancia en entornos empresariales- Linux y los BSD libres han ganado una gran importancia, OS X es el segundo sistema operativo para ordenadores personales más popular; en el ámbito móvil, Android se basa en Linux y según dice Apple, el iOS del iPhone también, con lo que en realidad, gran parte de los ordenadores de hoy en día son "Unix"- las excepciones más notables son Windows, los sistemas operativos de los mainframes (básicamente los de IBM descendientes de la serie 360) y los sistemas operativos de móviles que no son Android ni iOS (Blackberry está transicionando de su sistema operativo a QNX [un Unix], Nokia aún conserva su Series 40 para móviles de bajo coste y está matando Symbian...).
 
 El mérito de Unix radica en simplemente eso- su sencillez y claridad de conceptos inicial han perdurado hasta nuestros días- siendo difícil la valoración de su repercusión frente a la serie 360, pero claramente siendo uno de los desarrollos informáticos más significativos de la historia de la computación.
-
-
-=> ../../categoria/series/hazanas-informaticas 1: gemini://alex.corcoles.net/categoria/series/hazanas-informaticas/

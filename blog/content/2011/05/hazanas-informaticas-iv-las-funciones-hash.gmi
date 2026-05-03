@@ -1,5 +1,11 @@
 # 2011-05-14 Hazañas informáticas IV: Las funciones hash
 
+Anteriores entregas:
+
+=> ../../2011/04/hazanas-informaticas-i-internet Hazañas informáticas I: Internet
+=> ../../2011/04/hazanas-informaticas-ii-el-modelo-de-datos-relacional Hazañas informáticas II: el modelo de datos relacional
+=> ../../2011/04/hazanas-informaticas-iii-la-criptografia-asimetrica Hazañas informáticas III: la criptografía asimétrica
+
 Los mayores problemas de rendimiento de un sistema informático vienen causados por tener que trabajar con volúmenes grandes de información. La mayoría de algoritmos tienen un tiempo de ejecución relacionado con el tamaño de la información que manejan. Por ejemplo, encontrar el valor máximo de un conjunto de valores es directamente proporcional al tamaño del conjunto- si duplicamos el tamaño del conjunto, tardamos el doble en encontrar el  máximo.
 
 También es obvio que el tamaño de los datos afecta también a la velocidad de las comunicaciones- bajarse un fichero de dos megas normalmente cuesta el doble que uno de un mega.
@@ -59,3 +65,8 @@ Si escogemos una función hash que haga que cada valor hash sea más o menos equ
 Así pues, para localizar los datos de una persona sabiendo su nombre, calcularemos el hash de su nombre, y eso nos llevará a la lista donde están sus datos. Dentro de eso tendremos que recorrerla para encontrar sus datos, pero en vez de recorrer una lista de 40.000.000 de personas, recorreremos una lista reducida tanto como queramos.
 
 Aquí hay un pequeño balance que hay que hacer; cuantas más listas diferentes tengamos, menos eficiente será su almacenamiento y acceso, con lo cual seguramente no será efectivo escoger una función hash con 40.000.000 dde valores hash posible (con lo cual, encontrar una persona sería prácticamente inmediato), pero seguramente con funciones hash más pequeñas, sí que consigamos un aumento sustancial del rendimiento.
+
+Próximas entregas:
+
+=> ../../2011/11/hazanas-informaticas-v-las-maquinas-de-turing-y-von-neumann Hazañas informáticas V: Las máquinas de Turing y Von Neumann
+=> ../../2011/11/hazanas-informaticas-vi-el-sistema-unix Hazañas informáticas VI: el sistema UNIX

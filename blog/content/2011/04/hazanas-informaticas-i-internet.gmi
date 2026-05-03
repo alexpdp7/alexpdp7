@@ -22,8 +22,8 @@ Pese a que internet y su ecosistema asociado es infinitamente complejo, la gran 
 
 Próximas entregas:
 
-* Hazañas informáticas II: el modelo de datos relacional
-* Hazañas informáticas III: La criptografía asimétrica
-* Hazañas informáticas IV: Las funciones hash
-* Hazañas informáticas V: Las máquinas de Turing y Von Neumann
-* Hazañas informáticas VI: el sistema UNIX
+=> ../../2011/04/hazanas-informaticas-ii-el-modelo-de-datos-relacional Hazañas informáticas II: el modelo de datos relacional
+=> ../../2011/04/hazanas-informaticas-iii-la-criptografia-asimetrica Hazañas informáticas III: la criptografía asimétrica
+=> ../../2011/05/hazanas-informaticas-iv-las-funciones-hash Hazañas informáticas IV: Las funciones hash
+=> ../../2011/11/hazanas-informaticas-v-las-maquinas-de-turing-y-von-neumann Hazañas informáticas V: Las máquinas de Turing y Von Neumann
+=> ../../2011/11/hazanas-informaticas-vi-el-sistema-unix Hazañas informáticas VI: el sistema UNIX

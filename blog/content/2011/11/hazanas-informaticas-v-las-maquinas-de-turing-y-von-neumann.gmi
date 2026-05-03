@@ -1,5 +1,12 @@
 # 2011-11-05 Hazañas informáticas V: Las máquinas de Turing y Von Neumann
 
+Anteriores entregas:
+
+=> ../../2011/04/hazanas-informaticas-i-internet Hazañas informáticas I: Internet
+=> ../../2011/04/hazanas-informaticas-ii-el-modelo-de-datos-relacional Hazañas informáticas II: el modelo de datos relacional
+=> ../../2011/04/hazanas-informaticas-iii-la-criptografia-asimetrica Hazañas informáticas III: la criptografía asimétrica
+=> ../../2011/05/hazanas-informaticas-iv-las-funciones-hash Hazañas informáticas IV: Las funciones hash
+
 ¿Qué es un ordenador?
 
 A primera vista, esto parece una pregunta sencilla. ¿Es una cosa con pantalla y teclado? Si es eso, ¿es una calculadora de mesa convencional un ordenador? ¿Es una consola un ordenador? ¿Un móvil?
@@ -26,10 +33,13 @@ Pese a mejoras conceptuales, y por supuesto, una brutal evolución tecnológica,
 
 Así pues, en más de 60 años hemos visto una descomunal evolución en las máquinas programables- que han pasado de costar millones de euros y ocupar habitaciones a ser asequibles por todo el mundo y hacer cosas que nadie soñó cuando se crearon, pero por contra, aún no hemos superado los principios teóricos postulados por los fundadores de la informática.
 
+=> https://es.wikipedia.org/wiki/Mecanismo_de_Anticitera [1]: El Mecanismo de Anticitera
+=> https://es.wikipedia.org/wiki/Alan_Turing [2]: Alan Turing
+=> https://es.wikipedia.org/wiki/M%C3%A1quina_de_Turing#Definici%C3%B3n_formal [3]: Máquina de Turing, Definición Formal
+=> https://es.wikipedia.org/wiki/Konrad_Zuse [4]: Konrad Zuse
+=> https://es.wikipedia.org/wiki/EDVAC [5]: EDVAC
+=> https://es.wikipedia.org/wiki/John_von_Neumann [6]: John von Neumann
 
-=> http://en.wikipedia.org/wiki/Antikythera_mechanism 1: http://en.wikipedia.org/wiki/Antikythera_mechanism
-=> http://en.wikipedia.org/wiki/Alan_Turing 2: http://en.wikipedia.org/wiki/Alan_Turing
-=> http://en.wikipedia.org/wiki/Turing_machine#Formal_definition 3: http://en.wikipedia.org/wiki/Turing_machine#Formal_definition
-=> http://en.wikipedia.org/wiki/Konrad_Zuse 4: http://en.wikipedia.org/wiki/Konrad_Zuse
-=> http://en.wikipedia.org/wiki/EDVAC 5: http://en.wikipedia.org/wiki/EDVAC
-=> http://en.wikipedia.org/wiki/John_von_Neumann 6: http://en.wikipedia.org/wiki/John_von_Neumann
+Próxima y última entrega:
+
+=> ../../2011/11/hazanas-informaticas-vi-el-sistema-unix Hazañas informáticas VI: el sistema UNIX
