@@ -1,9 +1,5 @@
 # 2020-07-28 Enchufe familiar
 
-http://informatica.blogs.uoc.edu/2020/07/28/halt-and-catch-fire/[1]
+=> https://blogs.uoc.edu/informatica/es/halt-and-catch-fire/ Mi hermano escribe sobre Halt and Catch Fire.
 
-Mi hermano escribe sobre Halt and Catch Fire. Yo dije la mía sobre el tema por aquí anteriormente[2].
-
-
-=> http://informatica.blogs.uoc.edu/2020/07/28/halt-and-catch-fire/ 1: http://informatica.blogs.uoc.edu/2020/07/28/halt-and-catch-fire/
-=> ../../2017/10/los-adorables-perturbados-que-me-leen-la-mente-mientras-duermo 2: gemini://alex.corcoles.net/2017/10/los-adorables-perturbados-que-me-leen-la-mente-mientras-duermo/
+=> ../../2017/10/los-adorables-perturbados-que-me-leen-la-mente-mientras-duermo Yo dije la mía sobre el tema por aquí anteriormente.

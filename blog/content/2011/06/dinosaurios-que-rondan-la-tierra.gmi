@@ -1,4 +1,4 @@
-# 2011-06-15 Dinosaurios que rondan la tierra
+# 2011-06-15 Dinosaurios que rondan la Tierra
 
 Acabo de poner un clavo más en el ataúd de una compañía canadiense de cuyo nombre nadie se acuerda.
 
@@ -39,5 +39,4 @@ Más problemáticas:
 
 Aún así, de momento estoy plenamente contento con el aparatito. Creo que se merece la fama de artefacto adictivo y a su vez productivo... y además encaja bien en las idiosincrasias de uno... pero ya les contaré.
 
-
-=> ../../2010/07/resena-nokia-c5 1: gemini://alex.corcoles.net/2010/07/resena-nokia-c5/
+=> ../../2010/07/resena-nokia-c5 [1] Reseña Nokia C5

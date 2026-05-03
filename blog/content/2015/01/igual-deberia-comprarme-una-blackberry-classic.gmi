@@ -10,7 +10,7 @@ Y justo por estas fechas, esos canadienses decadentes han sacado la Blackberry C
 
 La Classic es prácticamente la Blackberry que yo querría. Formato Bold (pelín más grande, pero con trackpad y surtido de botones físicos), batería no intercambiable pero decente (GSM Arena le da 62h[5]- lejos de las 101h que le da al Z3 Compact, pero más que suficiente) y si bien no usa Android como yo querría, es compatible con algunas aplicaciones Android (básicamente lo que quiero es Feedly, que es lo que me llevó al SIII. Parece ser que se pueden meter las aplicaciones Google de maneras turbias, lo cuál sería la leche).
 
-Es decir, que sobre el papel han sacado un móvil que se acerca (realistamente) mucho a lo que yo querría[6], pero...
+Es decir, que sobre el papel han sacado un móvil que se acerca (realistamente) mucho a lo que yo querría[3], pero...
 
 # Contras
 
@@ -27,9 +27,8 @@ La única esperanza es que ya sea por un cambio de rumbo o una adquisición, Bla
 En fin, una decisión dura. Les mantendremos informados.
 
 
-=> ../../2011/06/dinosaurios-que-rondan-la-tierra 1: gemini://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/
-=> ../../2012/07/si-sigo-usando-una-blackberry 2: gemini://alex.corcoles.net/2012/07/si-sigo-usando-una-blackberry/
-=> ../../2013/12/mi-carta-de-navidad-a-los-reyes 3: gemini://alex.corcoles.net/2013/12/mi-carta-de-navidad-a-los-reyes/
-=> ../../2014/04/tengo-dos-moviles 4: gemini://alex.corcoles.net/2014/04/tengo-dos-moviles/
-=> http://www.gsmarena.com/blackberry_classic-review-1186p3.php 5: http://www.gsmarena.com/blackberry_classic-review-1186p3.php
-=> ../../2013/12/mi-carta-de-navidad-a-los-reyes 6: gemini://alex.corcoles.net/2013/12/mi-carta-de-navidad-a-los-reyes/
+=> ../../2011/06/dinosaurios-que-rondan-la-tierra [1]: Dinosaurios que rondan la Tierra
+=> ../../2012/07/si-sigo-usando-una-blackberry [2]: Sí, sigo usando una Blackberry
+=> ../../2013/12/mi-carta-de-navidad-a-los-reyes [3]: Mi carta de navidad a los reyes
+=> ../../2014/04/tengo-dos-moviles [4]: Tengo dos móviles
+=> https://www.gsmarena.com/blackberry_classic-review-1186p3.php [5]: BlackBerry Classic review: For old times' sake

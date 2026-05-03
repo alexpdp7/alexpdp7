@@ -12,7 +12,7 @@ Es especialmente flagrante cuando esta monocultura letal es innecesaria. Estuvim
 
 Quizá el fediverso, la IndieWeb o lo que sea esta semana aún no están listos del todo para reemplazar las redes sociales cerradas por un hermoso mundo distribuido y federado (yo, que tengo bastante obsesión por estos temas, aún no lo veo del todo claro para uso propio y aún estoy lejos de tener una recomendación para uso en general), pero hoy mismo se pueden dar pequeños pasos en la buena dirección
 
-(1) ¿Qué le da más insomnio a Zuck? ¿Los monstruos gigantes pero lentos que son los gobiernos o que Coca-Cola decida retirar su publicidad de Facebook?[2]
+=> https://www.theverge.com/21307454/unilever-verizon-coca-cola-starbucks-microsoft-ads-facebook (1) ¿Qué le da más insomnio a Zuck? ¿Los monstruos gigantes pero lentos que son los gobiernos o que Coca-Cola decida retirar su publicidad de Facebook?
 
-=> ../../2020/07/noticiarios-y-documentales 1: gemini://alex.corcoles.net/2020/07/noticiarios-y-documentales/
-=> https://www.theverge.com/21307454/unilever-verizon-coca-cola-starbucks-microsoft-ads-facebook 2: https://www.theverge.com/21307454/unilever-verizon-coca-cola-starbucks-microsoft-ads-facebook
+=> ../../2020/07/noticiarios-y-documentales [1]: Noticiarios y documentales
+

@@ -1,6 +1,6 @@
 # 2012-07-04 Sí, sigo usando una Blackberry
 
-Hace eones apunte por aquí[1] que me pasaba a Blackberry, esa compañía que en aquel momento estaba apunto de extinguirse y ahora lo está mucho más. Allí indicaba las razones por las que escogía y por qué en aquel momento estaba muy contento.
+=> ../../2011/06/dinosaurios-que-rondan-la-tierra Hace eones apunte por aquí que me pasaba a Blackberry, esa compañía que en aquel momento estaba apunto de extinguirse y ahora lo está mucho más. Allí indicaba las razones por las que escogía y por qué en aquel momento estaba muy contento.
 
 Sorprendentemente, y supongo que en gran parte porque me encanta llevar la contraria, un año después sigo muy contento.
 
@@ -18,6 +18,3 @@ Indudablemente, la Blackberry tiene una larguísima lista de defectos, pero al f
 Además, la ergonomía no se limita al teclado. El trackpad es superior a la pantalla táctil para muchas cosas; copiar y pegar, darle a enlaces pequeños en páginas web, moverse por listas, etc. Los atajos de teclado y búsquedas incrementales son la guinda.
 
 Por supuesto, si existiese un Android (e incluso un iOS, pero lo veo menos probable que suceda) con teclado y touchpad, que los aprovechase bien (i.e. que las aplicaciones y el sistema operativo tengan atajos de teclado y sean navegables por touchpad), cuya batería aguantase y que no tuviera serias incompatibilidades... Pues probablemente no dudaría en cambiar, pero de momento, sólo hay un fabricante que se dedica a este segmento; segmento que cada vez parece más pequeño y que me temo que acabe desapareciendo...
-
-
-=> ../../2011/06/dinosaurios-que-rondan-la-tierra 1: gemini://alex.corcoles.net/2011/06/dinosaurios-que-rondan-la-tierra/

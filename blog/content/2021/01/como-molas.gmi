@@ -4,7 +4,9 @@ Ayer me terminé el Control.
 
 Creo que desde que me acabé el GTA V (sobre el 2013, supongo), que no me acababa un juego de esos "triple A", y mucho menos en un PC.
 
-Todo comenzó como una investigación sobre cómo "amortizar" el PC con GTX 2060 que me compré para el Flight Simulator[1]. Todo apuntaba a este juego, desconocido por mí, que era de los primeros en soportar técnicas de trazado de rayos. Vi un par de vídeos en Youtube de esos que te ponen los dientes largos y, por suerte, cayó una oferta en Steam del juego y sus dos DLC por 20€ a finales de noviembre, y los festivos de diciembre fueron una ocasión propicia para dedicarle el tiempo que se merece (unas 50 horas, según Steam).
+=> ../../2020/11/si-los-fanfarrones-volasen Todo comenzó como una investigación sobre cómo "amortizar" el PC con GTX 2060 que me compré para el Flight Simulator.
+
+Todo apuntaba a este juego, desconocido por mí, que era de los primeros en soportar técnicas de trazado de rayos. Vi un par de vídeos en Youtube de esos que te ponen los dientes largos y, por suerte, cayó una oferta en Steam del juego y sus dos DLC por 20€ a finales de noviembre, y los festivos de diciembre fueron una ocasión propicia para dedicarle el tiempo que se merece (unas 50 horas, según Steam).
 
 Juego con un mando de Xbox desde el sofá, en una tele de 40 pulgadas que sólo llega a 1920x1080, con lo que mi sistema da para poner todo a tope. Eso quiere decir trazado de rayos con reflejos (todo se ve reflejado en cristales y suelos pulidos) y muchísimo detalle gráfico, que sobre todo permite que durante los combates haya una cantidad impresionante de escombros volando.
 
@@ -23,6 +25,3 @@ El combate es muy gratificante, especialmente a medida que mejoramos nuestras ap
 Otro punto interesante es la cantidad de secretos y detalles que oculta el juego. Por todo el escenario hay memorándums, grabaciones, proyectores y otros que nos van dando pequeños detalles sobre el mundo del juego. A destacar los curiosos vídeos de "Threshold Kids", una especie de serie para niños con marionetas bastante siniestra.
 
 Creo que Control fue el gran pelotazo de 2019, con mogollón de premios y reconocimiento, con los que desde luego estoy bastante de acuerdo. Muy recomendable para los que gusten de los juegos de acción de tiros.
-
-
-=> ../../2020/11/si-los-fanfarrones-volasen 1: gemini://alex.corcoles.net/2020/11/si-los-fanfarrones-volasen/

@@ -32,4 +32,4 @@ Entonces, ¿recomendaría un PC tablet con GNOME? Pues en general no, seguro que
 
 Si encuentro tiempo, probaré otras opciones. Pero dado los precios que se mueven hoy en día, a no ser que os caiga un cacharro del cielo como me ha pasado a mí, creo que no hay buenas opciones.
 
-=> https://alex.corcoles.net/2015/12/por-que-no-uso-productos-apple [1] Por qué no uso productos Apple
+=> ../../2015/12/por-que-no-uso-productos-apple [1] Por qué no uso productos Apple

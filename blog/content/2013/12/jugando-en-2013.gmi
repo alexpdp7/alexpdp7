@@ -29,13 +29,13 @@ Tenía la Playstation un poco olvidada- el GTA4 no era muy de mi agrado, el GT5 
 Sí, le doy más a los videojuegos que antes. Con los Humble Bundles y Steam, la barrera de preferir Linux se reduce bastante y puedo jugar cómodamente en el PC, con el complemento de la PS3. Vienen otras sorpresas, claro... y quizá tendría que hacer otras intentonas de MESS, UAE, Frodo y demás, pero el tiempo es limitado y uno no puede dedicar tanto tiempo como quisiera a los aspectos lúdicos. Pero da gusto gozar de las maravillas modernas y recuperar los clásicos que se demuestran imperecederos.
 
 
-=> http://www.bittripgame.com/ 1: http://www.bittripgame.com/
-=> http://positech.co.uk/gratuitousspacebattles/ 2: http://positech.co.uk/gratuitousspacebattles/
-=> http://www.shattergame.com/ 3: http://www.shattergame.com/
-=> http://spacepiratesandzombies.com/ 4: http://spacepiratesandzombies.com/
-=> ../../2013/06/ensaladilla-de-tiros-frozen-synapse 5: gemini://alex.corcoles.net/2013/06/ensaladilla-de-tiros-frozen-synapse/
-=> http://www.dejobaan.com/awesome/ 6: http://www.dejobaan.com/awesome/
-=> http://www.puppygames.net/ 7: http://www.puppygames.net/
-=> http://www.yamagi.org/quake2/ 8: http://www.yamagi.org/quake2/
-=> http://www.lmctf.com/ 9: http://www.lmctf.com/
-=> ../../2013/11/el-cinco 10: gemini://alex.corcoles.net/2013/11/el-cinco/
+=> https://web.archive.org/web/20100326174302/http://www.bittripgame.com/ [1]: Bit.Trip
+=> https://positech.co.uk/gratuitousspacebattles/ [2]: Gratuitous Space Battles
+=> https://store.steampowered.com/app/20820/Shatter/ [3]: Shatter
+=> https://minmax-games.com/SpacePiratesAndZombies/ [4] Space Pirates and Zombies
+=> ../../2013/06/ensaladilla-de-tiros-frozen-synapse [5] Ensaladilla de tiros: Frozen Synapse
+=> https://www.dejobaan.com/aaaaa [6]: AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome
+=> https://www.puppygames.net/ [7]: Puppygames
+=> https://www.yamagi.org/quake2/ [8]: Yamagi Quake II
+=> https://www.lmctf.com/ [9]: Loki's Minions Capture The Flag
+=> ../../2013/11/el-cinco [10]: El cinco
