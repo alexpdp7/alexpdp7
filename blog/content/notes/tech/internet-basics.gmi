@@ -1,0 +1,19 @@
+# Internet basics
+
+## Everyone must have a domain name with portable email addresses
+
+One of the pilars of Internet services is email. Nearly all important services offered on the Internet depend on the user having an email address. The Internet has evolved so that email is largely dominated by very few large companies and most people have their personal email address locked to these companies.
+
+Previously, most Internet users used an email address provided by their Internet service provider (ISP). Because of the large number of independent ISPs worldwide, email was not controlled by few large companies. However, Internet users were locked to their ISP because of their personal email address.
+
+Every Internet service associated to a physical person must include a DNS domain name and a portable email service.
+
+When you get Internet service, including each individual data service included with individual mobile phone numbers, the buyer can choose a DNS domain name.
+
+The portable email service enables the owner of the service to define email addresses and set a delivery target. ISPs should make the entire domain easily portable when a user switches to a different ISP.
+
+The ISP must control use of the email addresses with the domain to prevent spam.
+
+Delivery targets decouple the email domain from the email service that stores the email. Users can choose to store email in whatever service they prefer, including an ISP service or other services.
+
+Email services must support transferring stored email.
