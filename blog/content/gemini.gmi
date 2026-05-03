@@ -28,3 +28,33 @@ The links below are web links, for those who do not have a Gemini client yet.
 ### Other software
 
 => https://ñix.es/cgit/alex/coppewebite.git/about/ Coppewebite is what I use to generate and serve this capsule
+
+## Why Gemini is awesome
+
+In my opinion, Gemini is best understood as performative art that demonstrates how to make the Internet better, not as a medium designed to replace the existing ecosystem. By using Gemini you learn that most of the complexity of the web is unnecessary for most websites.
+
+### The reader rules
+
+In the web, the creator of a page has near absolute power over the user experience. With Gemini, the reader has more power over their experience.
+
+Although web browsers have features to improve readability of pages, because the web is so complex, these features can't work on all pages. Meanwhile on Gemini, you read every page with your preferred colors, font style, and font size. If your eyes are tired after a long day, increasing the text size on many websites does not work well, whereas it always works on Gemini.
+
+### Hacking on Gemini is simple
+
+Gemtext is much simpler than HTML, CSS, and JavaScript. Showing text on a website that renders properly on a phone requires arcane knowledge, while on Gemini it's automatic.
+
+Writing a web browser that renders most of the web well is a massive undertaking. Writing a basic Gemini browser that renders all of Geminispace can be done in infinitely less time.
+
+If you can do something in Gemini, then very likely the effort will be reasonable.
+
+### Implicit feeds are simple
+
+RSS/ATOM feeds are awesome. By providing a feed, readers can subscribe to all their favorite websites and get updates without visiting them individually.
+
+Unfortunately, creating feeds is complex. In Gemini, a page with a list of links with dates in them is a feed automatically, you do not need to generate an artifact that is easy for a program to parse.
+
+### The limitations help you shape your content
+
+You only have three levels of headers when writing gemtext. You cannot link to parts of a page. This gives you more direction when deciding how big your pages are.
+
+You cannot do inline links in text. This helps you write content that is self-contained and would work fine in print or offline. And if you need links, they will not be small targets that might be hard to press on a small touchscreen.
