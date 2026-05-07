@@ -140,7 +140,9 @@ The mirror requests /foo to httpd, which returns the gemtext.
 - It runs automatic validation on unchecked commits continuously, adding git notes with the result
 - Provides a UI to approve individual commits
 - For validated *and* approved commits, it implements a merge queue that works on a per-commit basis.
+* Pen and tablet diagram tool
 
+- Recognizes diagram elements and converts them to structured objects.
 * Jerarco
 
 - Classifies items of a certain kind (e.g. links to projects)
