@@ -364,6 +364,7 @@ https://github.com/alexpdp7/rust_tracing_starter
 
 - Multidevice bookmarks, certificates, etc.
 - Perhaps "personal" web frontend
+- Not so important because you can just create your own start page easily, like https://alex.corcoles.net/gemini / gemini://alex.corcoles.net/gemini
 
 * WOL tool
 
