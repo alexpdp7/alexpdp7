@@ -223,6 +223,15 @@ Vivaldi's "spatial navigation" supposedly does this, but chokes on D+.
 
 See https://github.com/alexpdp7/pandocsql https://github.com/alexpdp7/pandoc_datalog
 
+* An HTML-supporting terminal
+
+See https://infosec.exchange/@david_chisnall/116526545563279595
+
+- The terminal can detect programs that output HTML and show the HTML instead of regular console output
+- Programs can also signal that they run a web server, and the terminal shows the content of the embedded web server.
+  (So an HTML top could provide a real-time user interface.)
+- A command could also provide the way to open a URL in the terminal, so the terminal could replace a browser.
+
 * Agenda
 
 - An API-based daemon that keeps a list of date, string[] tag, string message, int ordering, internal id
