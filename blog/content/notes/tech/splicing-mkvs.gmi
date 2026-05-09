@@ -1,0 +1,67 @@
+# Splicing MKVs
+
+Just some additional notes on top of:
+
+=> https://mod16.org/hurfdurf/?p=8 101 things you never knew you could do with Matroska
+
+You can use MKVToolNix to create MKV files that combine content from several files:
+
+=> https://mkvtoolnix.download/ MKVToolNix – Matroska tools for Linux/Unix and Windows
+
+## Requirements
+
+Some MKV files.
+
+## Procedure
+
+Open MKVToolNix GUI.
+
+### Creating the chapter file
+
+Go to the "chapter editor".
+
+Click "new".
+
+Select the "edition entry" and check the "ordered" option.
+
+Select the first chapter.
+
+Click on the file selector for "segment UID" and choose the MKV file that contains the first segment.
+
+Fill the "start & end" fields with the segment of the MKV file that you want to include.
+
+Right click on the chapter in the list of editions and chapter and select "add new chapter after".
+
+Select the second chapter and select another file for "segment UID" and new start and end fields.
+
+Repeat the process until you have all segments.
+
+In the "chapter editor" menu, select "save as XML file" to create a chapter file.
+
+### Generating an MKV file from an XML chapter file
+
+Go to the "multiplexer".
+
+Select the "output" tab.
+
+Click the file selector for "chapter file" and select the chapter file from the previous step.
+
+Set the "destination file".
+
+Click "start multiplexing".
+
+## Additional information
+
+### Extracting precise frame information with mpv
+
+Run:
+
+```
+mpv --osd-fractions file.mkv
+```
+
+To open file.mkv and show timestamps with millisecond precision.
+
+Press shift+o to show timestamps continously.
+
+Use the "." and "," keys to skip frame by frame.
