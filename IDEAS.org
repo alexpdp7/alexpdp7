@@ -86,6 +86,7 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
   -  Reverse proxies
 
 * [[programming/the-content-web-manifesto/README.md][Simpler web]]
+** A terminal web browser with native HTMX support, but without JavaScript support
 ** Gemini mirror
 
 - A Gemini server designed *only* for proxying http content as Gemini
