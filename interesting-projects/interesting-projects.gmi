@@ -1390,3 +1390,9 @@ Ready-to-go LSP editor
 :kind:tui
 :programmed-in:zig
 :tool:editor
+
+=> https://github.com/google/git-appraise
+Code review tool that stores data in Git
+:kind:cli
+:programmed-in:go
+:vcs:git
