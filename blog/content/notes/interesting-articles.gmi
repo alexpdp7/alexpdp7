@@ -83,7 +83,7 @@ About janky browser applications and websites.
 
 ## Organizations
 
-=> [[https://charity.wtf/2024/07/24/pragmatism-neutrality-and-leadership/ Pragmatism, Neutrality and Leadership
+=> https://charity.wtf/2024/07/24/pragmatism-neutrality-and-leadership/ Pragmatism, Neutrality and Leadership
 (The parts about "As a leader, your job is to succeed", "Companies with shitty cultures win all the time".) This article connects with:
 => https://hbr.org/2007/03/why-i-wrote-the-no-asshole-rule The no asshole rule book
 
