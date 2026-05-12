@@ -1040,7 +1040,7 @@ Keyboard-driven Firefox
 => https://vdo.ninja/ VDO.Ninja
 Swiss army knife for WebRTC
 :kind:service
-:tool:screensharing
+:tool:screen-sharing
 :tool:streaming
 :programmed-in:javascript
 
