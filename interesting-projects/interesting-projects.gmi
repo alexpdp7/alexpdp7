@@ -1378,3 +1378,15 @@ Run virtual machines from bootc containers
 :kind:cli
 :programmed-in:rust
 :tool:vms
+
+=> https://gram-editor.com/ GRAM
+Zed fork, ready-to-go GUI LSP editor
+:kind:desktop-app
+:programmed-in:rust
+:tool:editor
+
+=> https://flow-control.dev/ Flow Control
+Ready-to-go LSP editor
+:kind:tui
+:programmed-in:zig
+:tool:editor
