@@ -114,3 +114,13 @@ Then bring the tap0 interface up and configure IP addresses on both hosts.
 # ip link set tap0 up
 # ip addr add $IP/$NETMASK dev tap0
 ```
+
+## Using a Nix flake without using root to install Nix
+
+=> https://nixos.wiki/wiki/Nix_Installation_Guide#nix-user-chroot Follow the nix-user-chroot installation instructions in the Nix wiki.
+
+To enter an environment with the Nix flake configuration, run the following command:
+
+```
+nix --extra-experimental-features nix-command --extra-experimental-features flakes develop
+```
