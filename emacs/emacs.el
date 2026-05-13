@@ -161,6 +161,9 @@
   :config
   (add-hook 'sql-mode-hook 'sqlind-minor-mode))
 
+(use-package nix-mode
+  :mode "\\.nix\\'")
+
 ;; the following is a bit fiddly, eglot requires some extra love to have extra flymake providers
 (use-package flymake-vale
   :vc (:url "https://github.com/tpeacock19/flymake-vale.git"
