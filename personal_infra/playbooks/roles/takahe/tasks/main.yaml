@@ -67,7 +67,7 @@
         TAKAHE_USE_PROXY_HEADERS: "true"
         TAKAHE_AUTO_ADMIN_EMAIL: "{{ takahe.admin_email }}"
         TAKAHE_CSRF_HOSTS: "{{ ['https://femto.pub', 'https://alex.femto.pub'] | to_json }}"
-        TAKAHE_ERROR_EMAILS: "{{ [takahe.admin_email] | to_json }}"
+        # TAKAHE_ERROR_EMAILS: "{{ [takahe.admin_email] | to_json }}"
   delegate_to: 127.0.0.1
 - name: create deployment
   k8s:
