@@ -1,0 +1,59 @@
+---
+- hosts: pis
+  gather_facts: false
+  tasks:
+    - name: hash passwords
+      command: mkpasswd -s
+      register: hashed_password
+      delegate_to: 127.0.0.1
+      args:
+        stdin: "{{ ansible_password }}"
+    - name: create pi-data
+      file:
+        path: "../pi-data/{{ inventory_hostname }}/"
+        state: directory
+      delegate_to: 127.0.0.1
+    - name: create file
+      copy:
+        content: |
+          #cloud-config
+
+          hostname: {{ inventory_hostname }}
+          manage_etc_hosts: true
+
+          timezone: Europe/Madrid
+
+          keyboard:
+            layout: es
+
+          users:
+            - name: root
+              lock_passwd: false
+              hashed_passwd: {{ hashed_password.stdout }}
+
+          enable_ssh: true
+          disable_root: false
+          ssh_pwauth: true
+
+          write_files:
+            - content: |
+                PermitRootLogin yes
+              path: /etc/ssh/sshd_config.d/permit-root-login.conf
+        dest: "../pi-data/{{ inventory_hostname }}/user-data"
+      delegate_to: 127.0.0.1
+    - name: create network-config
+      copy:
+        content: |
+          network:
+            version: 2
+            ethernets:
+              eth0:
+                dhcp4: no
+                addresses:
+                  - {{ network.self_internal_ip_with_prefixlen }}
+                gateway4: {{ network.router }}
+                nameservers:
+                  # only for bootstrapping
+                  addresses: [8.8.8.8]
+        dest: "../pi-data/{{ inventory_hostname }}/network-config"
+      delegate_to: 127.0.0.1
