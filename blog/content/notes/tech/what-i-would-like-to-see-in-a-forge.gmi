@@ -1,0 +1,35 @@
+# What I would like to see in a forge
+
+=> https://lobste.rs/s/wed6lj/what_would_you_want_from_forge Inspired by "what would you want from a forge" in Lobsters.
+
+## Merge queue-oriented
+
+(This is mostly inspired by Gerrit.)
+
+The forge should provide a merge queue implementation. The merge queue should work around individual commits.
+
+The forge scans continuously for new commits targetting a branch. If a commit is mergeable to main, then the forge runs static validation on the merge of the commit to the target branch. Commits that pass human validation requirements and static validation, get merged to their target branch.
+
+The forge should make it easy to list pending merge changes with clear display and filtering of unmet merge requirements.
+
+## Change-id aware
+
+All features of the forge that can benefit from change-id usage should do that.
+
+I want to be able to list the tags/releases with a specific change.
+
+I want the forge to mark a change as "pending deployment" when the change is in main, but not in the "production" branch, and mark the change as "done" when the change is in the production branch.
+
+## Author as approver option
+
+The forge should allow configuration where a change submitter can approve their own changes.
+
+For example, you might establish that all changes need a reviewer, but authors are (socially) allowed to approve their own trivial changes (e.g. typo fixes, etc.).
+
+(Lack of author approval might also be treated as a sort of "draft" status.)
+
+## Commit message review
+
+(Also present in Gerrit.)
+
+Commit messages should be reviewable/editable in the forge just like the rest of a change.

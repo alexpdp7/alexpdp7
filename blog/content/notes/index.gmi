@@ -40,6 +40,7 @@ Notes about some books and long articles I like:
 => tech/on-software-development On software development
 => tech/internet-basics Internet basics
 => tech/splicing-mkvs Splicing MKVs
+=> tech/what-i-would-like-to-see-in-a-forge What I would like to see in a forge
 
 ### Gadgets
 
