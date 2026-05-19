@@ -19,4 +19,11 @@ node 'nextcloud.h1.int.pdp7.net' {
     ensure => 'link',
     target => '/nextcloud/config.php',
   }
+
+  file {'/etc/php.d/memory.ini':
+    content => @(EOT)
+    memory_limit = 256M
+    | EOT
+    ,
+  }
 }
