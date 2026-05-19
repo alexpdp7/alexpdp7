@@ -78,6 +78,7 @@ A Markdown-like closely tied to the Lean programming language.
 => https://orgmode.org Org Mode (an Emacs-based tool based on a lightweight markup language)
 => https://github.com/nvim-neorg Neorg (similar to Org Mode for Neovim)
 => https://github.com/sile-typesetter/sile Sile (typesetting system)
+=> https://github.com/davidchisnall/igk David Chisnall's "I got Knuth'd", HTML + ePub + written/online PDF, modular Lua passes, etc.
 
 ## Creating your own formats
 
