@@ -20,6 +20,7 @@ setup-x12 = 'p7s.x12:setup_x12'
 senpai = 'p7s.senpai:main'
 ledger = 'p7s.ledger:main'
 google-meet-toggle-mute = 'p7s.google_meet:toggle_mute'
+google-meet-install-stream-deck-wsbroad-server = 'p7s.google_meet:install_stream_deck_google_meet_wsbroad_server'
 
 [tool.uv]
 package = true
