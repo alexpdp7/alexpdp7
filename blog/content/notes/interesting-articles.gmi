@@ -179,6 +179,9 @@ When two or more parties working towards a common goal all claim to be holding t
 => https://en.wikipedia.org/wiki/Slate_Star_Codex#Lizardman's_Constant Lizardman's constant
 The approximate percentage of responses to a poll, survey, or quiz that are not sincere
 
+=> https://en.wikipedia.org/wiki/Solomonoff%27s_theory_of_inductive_inference Solomonoff's theory of inductive inference
+Under its common sense assumptions (axioms), the best possible scientific model is the shortest algorithm that generates the empirical data under consideration. Solomonoff's induction naturally formalizes Occam's razor.
+
 See also:
 
 => greek-task-list Greek task list
