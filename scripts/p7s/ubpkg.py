@@ -1,12 +1,11 @@
 import os
 import pathlib
 import platform
-import shutil
-
-import httpx
+import urllib.request
 
 
 def setup_ubpkg():
     ubpkg = pathlib.Path.home() / ".local" / "bin" / "ubpkg"
-    ubpkg.write_bytes(httpx.get(f"https://github.com/alexpdp7/ubpkg/releases/latest/download/ubpkg-linux-{platform.machine()}", follow_redirects=True).content)
+    with urllib.request.urlopen(f"https://github.com/alexpdp7/ubpkg/releases/latest/download/ubpkg-linux-{platform.machine()}") as urlopen:
+        ubpkg.write_bytes(urlopen.read())
     os.chmod(ubpkg, 0o700)
