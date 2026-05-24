@@ -1396,3 +1396,9 @@ Code review tool that stores data in Git
 :kind:cli
 :programmed-in:go
 :vcs:git
+
+=> https://dianne.skoll.ca/projects/remind/ Remind
+A sophisticated calendar and alarm program.
+:kind:cli
+:programmed-in:c
+:tool:calendar
