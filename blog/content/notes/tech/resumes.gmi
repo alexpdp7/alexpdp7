@@ -1,0 +1,39 @@
+# Resumes
+
+Some day I should stop exporting my LinkedIn profile as a PDF.
+
+## Typst candidates
+
+=> https://typst.app/universe/package/acorn-resume
+
+=> https://typst.app/universe/package/ats-friendly-resume
+
+=> https://typst.app/universe/package/chicv
+
+=> https://typst.app/universe/package/cv-soft-and-hard
+
+=> https://typst.app/universe/package/gloat
+
+=> https://typst.app/universe/package/imprecv
+
+=> https://typst.app/universe/package/kiresume
+
+=> https://typst.app/universe/package/min-resume
+
+=> https://typst.app/universe/package/moderner-cv
+
+=> https://typst.app/universe/package/nutshell
+
+=> https://typst.app/universe/package/pesha
+
+=> https://typst.app/universe/package/pro-academic-cv
+
+=> https://typst.app/universe/package/resumania
+
+=> https://typst.app/universe/package/simple-technical-resume
+
+=> https://typst.app/universe/package/simple-xd-resume
+
+=> https://typst.app/universe/package/ttq-classic-resume
+
+=> https://typst.app/universe/package/yuan-resume
