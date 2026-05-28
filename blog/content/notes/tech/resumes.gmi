@@ -2,6 +2,10 @@
 
 Some day I should stop exporting my LinkedIn profile as a PDF.
 
+=> https://typst.app/universe/package/resumania resumania
+
+Resumania seems to work well for my purposes.
+
 ## Typst candidates
 
 => https://typst.app/universe/package/acorn-resume
@@ -27,8 +31,6 @@ Some day I should stop exporting my LinkedIn profile as a PDF.
 => https://typst.app/universe/package/pesha
 
 => https://typst.app/universe/package/pro-academic-cv
-
-=> https://typst.app/universe/package/resumania
 
 => https://typst.app/universe/package/simple-technical-resume
 
