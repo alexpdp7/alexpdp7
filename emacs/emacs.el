@@ -164,6 +164,14 @@
 (use-package nix-mode
   :mode "\\.nix\\'")
 
+;; nil can be a wrapper like:
+;; exec nix-user-chroot ~/.nix bash -l -c "nix-shell -p nil --run \"nil\""
+(with-eval-after-load 'eglot
+  (add-to-list 'eglot-server-programs
+               '(nix-mode . ("nil"))))
+
+(add-hook 'nix-mode-hook 'eglot-ensure)
+
 ;; the following is a bit fiddly, eglot requires some extra love to have extra flymake providers
 (use-package flymake-vale
   :vc (:url "https://github.com/tpeacock19/flymake-vale.git"
