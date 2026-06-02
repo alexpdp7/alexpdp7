@@ -172,6 +172,10 @@
 
 (add-hook 'nix-mode-hook 'eglot-ensure)
 
+;; when using nix-mode + editorconfig (I think) you get prompted all the time to trust indentation configuration
+;; this seems to silence it
+(setq safe-local-variable-values '((smie-indent-basic . 2)))
+
 ;; the following is a bit fiddly, eglot requires some extra love to have extra flymake providers
 (use-package flymake-vale
   :vc (:url "https://github.com/tpeacock19/flymake-vale.git"
