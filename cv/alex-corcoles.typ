@@ -1,6 +1,6 @@
 #import "@preview/resumania:1.0.0": *
 
-#let author = "Your Name"
+#let author = "Álex Córcoles"
 
 #let contacts = contact-section(
   phone: phone("+34 627 294 033"),
@@ -75,8 +75,8 @@
     location: "Barcelona",
     position: "Chief Technical Officer",
     timeframe: (
-      start: "October 2011",
-      end: "August 2019",
+      start: "February 2011",
+      end: "October 2011",
     )
   )[
     As a CTO, I led a 9-person team comprised of software developers and graphics designers, delivering projects revolving around social networks (such as analytics and e-commerce platforms and integrations).
