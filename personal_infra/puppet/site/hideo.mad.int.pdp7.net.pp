@@ -1,5 +1,6 @@
 node 'hideo.mad.int.pdp7.net' {
   class {'workstation':}
+  class {'autokey':}
   package {['zfs-dkms', 'sanoid', 'nextcloud-desktop']:}
 
   # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1026008
