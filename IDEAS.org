@@ -42,6 +42,11 @@ Make it easier for people to get a domain and own their email address.
 
 * Better access to news
 ** https://github.com/las-noticias for Spain
+* Sovereign desktops
+
+- Test hardware for Linux compatibility
+- Test Linux distributions for service compatibility
+- Track and improve accessibility
 * Archive transit data
 
 - Many transport agencies (trains, bus, etc.) publish real-time data in standard formats
