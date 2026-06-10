@@ -42,6 +42,13 @@ Make it easier for people to get a domain and own their email address.
 
 * Better access to news
 ** https://github.com/las-noticias for Spain
+* Archive transit data
+
+- Many transport agencies (trains, bus, etc.) publish real-time data in standard formats
+- However, you cannot consult historical data
+- Make polling, archiving, and publishing historical data easy
+- You can use the data to provide "probabilistic" scheduling (at which time should I be at X station to arrive to Y station before HH:MM?)
+
 * Easier self-hosted communities
 ** Regulatory compliance and self-hosting
 ** Document hosting providers
