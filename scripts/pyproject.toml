@@ -7,7 +7,6 @@ dependencies = []
 [project.scripts]
 ruscreen = 'p7s.ruscreen:main'
 setup-bash = 'p7s.bash:setup_bash'
-setup-bitlbee = 'p7s.bitlbee:setup_bitlbee'
 setup-emacs = 'p7s.emacs:setup_emacs'
 setup-mbsync = 'p7s.mail:setup_mbsync'
 setup-nextcloud = 'p7s.nextcloud:setup_nextcloud'

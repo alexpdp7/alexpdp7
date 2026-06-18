@@ -23,5 +23,3 @@ pipx install -e scripts/  # alternatively, use uv tool install -e .
 ...
 git remote set-url origin git@github.com:alexpdp7/alexpdp7.git
 ```
-
-See [workstation](../workstation) for further details.

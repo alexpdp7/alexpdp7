@@ -1,0 +1,31 @@
+# Modern IRC
+
+With the IRCv3 advances and modern software, IRC is a surprisingly nice chat/IM medium, although a bit complex to set up nicely.
+
+=> internet-communication-channels See also Internet communication channels.
+
+I use:
+
+* Soju as a bouncer. IRC basically only supports "synchronous" communication. If your IRC client disconnects from a chat (because you turn off your computer, for example), then you lose the messages in your chats. A bouncer is a persistent IRC client that you run on a 24/7 computer that connects to your IRC chats for you, then you connect a client to the bouncer. This way, the bouncer captures all messages and you can view them right after connecting a client. This achieves the "scrollback" that conventional chat clients provide. Soju also uses modern extensions to make the IRC experience simpler.
+* Senpai is a modern terminal IRC client that is "Soju-aware".
+
+With this setup, I can:
+
+* Connect to IRC chats in a friendly manner with modern comforts.
+* Access this setup via SSH, so I can use it on "foreign" computers.
+
+Senpai is now packaged in Debian, although I've had bugs and sometimes build it manually.
+
+After connecting Senpai to Soju, you talk to a bot called BouncerServ to connect to your IRC networks. When you join/part channels in any client, Soju takes care of making those actions permanent.
+
+## Possible improvements
+
+Gamja is another "Soju-aware" IRC client that provides a web interface. Gamja and Goguma even support OAuth for authentication.
+
+Right now I run Soju on a private network, so I cannot access it outside my VPN. For this reason, I use trivial passwords and plain-text protocols. For convenience (using Goguma on random networks without connecting to the VPN), I should set up TLS and proper authentication.
+
+## Other things I did
+
+I used Bitlbee as a bridge to Telegram. Bitlbee connects traditional IM networks, such as XMPP to IRC. There are plugins for many IM systems, including WhatsApp. However, WhatsApp does not have a "supported API", so I am wary to use anything else than official clients. But with Telegram, I could integrate IRC with it. However, building Bitlbee with the Telegram plugin was a pain, so it stopped maintaining this. However, using Telegram was much more pleasant through snappy Senpai and with good information density.
+
+Goguma is a Flutter/Android IRC client that is also "Soju-aware" and available in F-Droid. However, it is a bit unreliable, and I've decided anyway to only chat when I have a full-size physical keyboard.
