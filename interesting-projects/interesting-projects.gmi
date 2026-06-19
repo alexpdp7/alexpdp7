@@ -1402,3 +1402,9 @@ A sophisticated calendar and alarm program.
 :kind:cli
 :programmed-in:c
 :tool:calendar
+
+=> https://vit.am/~ololduck/abbaye/ Abbaye
+A static site generator for Git repositories
+:kind:cli
+:programmed-in:rust
+:vcs:git
