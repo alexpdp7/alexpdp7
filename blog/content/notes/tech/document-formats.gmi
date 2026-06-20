@@ -25,6 +25,7 @@ On top of that, some features that I don't always need:
 * Is very popular and supported everywhere
 * However, there is a wide variety of variants and quirks
 * Especifically, because Markdown was not designed with parsing in mind, so tools based on different parsers can have differences in behavior
+* Markdown is irrevocably coupled to HTML, and HTML is recommeded for "extensibility" and for markup not covered by Markdown itself.
 
 ### Djot
 
