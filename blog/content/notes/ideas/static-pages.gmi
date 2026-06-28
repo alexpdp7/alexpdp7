@@ -1,0 +1,27 @@
+# Static pages
+
+A service similar to GitHub pages, but only for custom domains.
+
+To use the service, you publish a TXT DNS record like "pages=$signing_public_key" to the domain that you want to use the service with. signing_public_key is a public key such as the ones used by Minisign.
+
+Publishing is then:
+
+* Create an archive of the site contents.
+* Sign the archive.
+* Upload the archive and the signature to a URL like https://staticpages/your.domain.here
+
+A command-line tool could automate all the steps.
+
+## Advantages
+
+No accounts, do not even need to keep credentials (you can always push a new signing key to DNS).
+
+## Other possibilities
+
+### Gemini support with Apache MultiViews
+
+=> https://github.com/alexpdp7/coppewebite Coppewebite describes a process to create dual Gemini/Gemtext + HTTP/HTML sites, along with software that helps implement and automate the process.
+
+## References
+
+=> https://jedisct1.github.io/minisign/ Minisign
