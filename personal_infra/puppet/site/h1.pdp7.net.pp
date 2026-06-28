@@ -7,7 +7,12 @@ node 'h1.pdp7.net' {
     sanoid_config =>  @("EOT")
       # pg data
       [rpool/data/subvol-204-disk-1]
-        use_template = backup
+        frequently=0
+        hourly=0
+        daily=10
+        monthly=3
+        yearly=0
+        autosnap=yes
 
       # ws
       [rpool/data/subvol-207-disk-1]
