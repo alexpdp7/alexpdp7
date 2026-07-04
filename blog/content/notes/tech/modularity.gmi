@@ -1,0 +1,23 @@
+# Modularity
+
+In 2012, I started working on a company to maintain a critical internal system implemented in Django. A key part of this system was a complex web form. This form was a massive mess involving serialized data structures in the database (Python pickles), complex form inputs and manipulation in a big, unmaintainable ball of code that no one wanted to touch. I would like to say that I went in and fixed this problem, but this is not what happened. This would have unlocked a ton of productivity gains, as our users would frequently have to do bulk updates one by one with this form and I believe at some point someone implemented some browser automation to deal with it.
+
+This form reinforced something I had known for quite a long time: do not mix form handling and business logic. And perhaps do not mix business logic and database manipulation, if you are feeling fancy.
+
+In 2006 I worked under someone deep into software architecture. We would have screaming matches because he wanted to modularize a lot, including multiple classes to represent our business data; data transfer objects, data objects, value objects and all sorts of complex structure which I felt was overkill.
+
+In the world before single page applications (SPAs), I think these conversations made plenty of sense. People suffered from web applications that were massively painful to add programmatic APIs to. While I think that just having an internal clean API that form handling interacts with is more than enough, even 20 years ago we were already discussing things that continue today with concepts such as hexagonal architecture.
+
+However, SPAs, despite the many problems I believe them to have, started with an API and then implemented a human interface for the API.
+
+Despite I think modularity is still a complex and valuable topic to discuss, I get the feeling that many of the modern discussions about "bounded contexts", hexagonal architecture, and others... try to solve the problems I had in 2012 and earlier with that unmaintainable web form, but which do not exist to that degree in modern web applications.
+
+What is more curious is that I think that some people proposing hexagonal architecture have not experienced the pre-SPA world in which those problems truly caused issues. This week I saw the main proponent of a hardcore architecture at work with much modularization walk back into some of the code structures they proposed, tying back into the discussions I had with my boss in 2006 about the tediousness of DTOs. Once put in place, the architecture they proposed felt to them a slog and they started to explore ways to dial it down a bit.
+
+What I told them is that the problems might be more basic. The database schema below my unmaintainable 2012 web form was completely against any good database schema design practices- with a proper database schema, we would have been able to write an API on top of it from scratch without so much effort. The form was also devoid of any kind of automated testing, which would have made refactors much less scary. Also, the rest of the application that contained that web form was completely fine with the excessive coupling it had; only that web form had enough complexity to cause problems and the rest of the application we were productive enough maintaining and extending even without a good architecture, schema design, or automated tests.
+
+In my opinion, with a good data schema and automated tests, just writing the simplest code that you want is likely the most productive way of starting. And with a good data schema and automated tests, adding a better architecture later should be easy.
+
+## Further reading
+
+=> ./about-apis About APIs
