@@ -49,6 +49,9 @@ Second of a series of three articles comparing software engineering with traditi
 => https://testing.googleblog.com/2024/10/smurf-beyond-test-pyramid.html SMURF: Beyond the Test Pyramid
 Test categories and the pyramid are excessively limited models.
 
+=> https://abseil.io/resources/swe-book/html/ch11.html#the_beyonceacutesemicolon_rule The Beyoncé Rule
+"If you liked it, then you shoulda put a test on it."
+
 ### Python
 
 => https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/ Python’s "Disappointing" Superpowers
