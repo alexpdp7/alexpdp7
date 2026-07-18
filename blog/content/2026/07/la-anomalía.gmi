@@ -1,0 +1,41 @@
+# 2026-07-18 La anomalía
+
+(Llevo varios días con esta entrada en la cabeza, pero curiosamente hace unas horas un banco me ha notificado que no podré operar por Internet sin Android o iOS.)
+
+=> ../../2013/01/conecte-el-teclado-al-televisor En 2013 escribí sobre aquello de teclear y que aparezca lo que escribas en la tele, y cómo cada vez hay menos teclados.
+
+(Curiosamente, he encontrado ese post buscando si ya había escrito aquí la anécdota con la que quería abrir este texto.)
+
+=> ../../2025/01/los-sistemas-operativos-y-un-amanecer-de-internet En 2025 escribí sobre ese momento alrededor del cambio de milenio donde comenzamos a tener Internet y sistemas operativos robustos en casa.
+
+=> ../../2025/02/el-lento-adios-a-la-magia-de-los-ordenadores También en 2025 escribí sobre los aparatos programables, y cómo cada vez son menos programables y menos nuestros.
+
+Pero lo que hace que escriba oootra vez más de lo mismo es este maravilloso artículo de menos de 3000 palabras (pero en inglés) publicado en 2013 (curiosamente, el mismo año que el primer artículo mío que os enlazo arriba) que me fascinó el otro día:
+
+=> https://www.winestockwebdesign.com/Essays/Eternal_Mainframe.html The Eternal Mainframe
+
+(Le han enviado nueve traducciones, pero ninguna al español. Si me aburro igual lo intento.)
+
+Es muy difícil poner fechas e hitos a las cosas. Según la Wikipedia, a mitad de los setenta comenzaron a publicarse diseños de ordenadores que resultaban viables de montarse en casa. Destacan el Altair 8800, que costaba 400 dólares pero que ni siquiera tenía teclado de serie; se podía programar una secuencia de arranque de instrucciones directas al procesador mediante un panel de interruptores. Poco después se pudieron comprar hechos esos teclados conectados al televisor que más que sistema operativo tenían el lenguaje de programación BASIC (ese lenguaje que destaca por el curioso honor de tener en su leyenda a Mary Kenneth Keller, una monja, y a Microsoft).
+
+Este fue el inicio de una anomalía de unos cincuenta años, que dudo que dure cincuenta años más.
+
+La anomalía igual ya les resulta anómala a algunos. Una parte significante de la población finalmente tuvo acceso al ordenador programable. Como he explicado otras veces, hay incontables máquinas complejas, pero el ordenador programable es una de esas máquinas que podemos hacer más complejas (lamentablemente la RAE no recoge la palabra "complejar" y "acomplejar" se refiere a los complejos malos). Es como cualquier herramienta que se puede usar para construir algo, pero lo que construye son básicamente bailes de electrones, algo que pese a ser mucho más intangible hemos visto que sus resultados pueden resultar increíblemente tangibles.
+
+El ordenador programable existía claro desde hace tiempo. Pese a otras historias entrañables, diré que unos cuarenta años antes del Altair 8800. Pero eran esos monstruos que no cabían en ninguna casa y que costaban más que una casa.
+
+El acceso a la tecnología es lo que acelera su desarrollo. Tras cuarenta años contando cosas y calculando trayectorias balísticas, en prácticamente un par de años de ordenadores en casa nacieron las primeras BBS ("bulletin board service", la Wikipedia española propone "tablón de anuncios") que conectaban ordenadores domésticos. Internet ya existía desde hace tiempo, pero en universidades y empresas; Internet iría sustituyendo a las BBS poco a poco durante un par de décadas.
+
+Aparte de tener el mágico ordenador programable en casa, la otra parte de la anomalía es que este ordenador programable era prácticamente abierto y manipulable, pero a pesar de ello poco a poco lo pudimos usar para partes imprescindibles de la vida. No sólo para comunicarnos con otras personas, sino también para hacer trámites, comprar, escuchar música o ver la tele. Me parece alucinante que básicamente el sistema con el que puedo presentar la declaración de la renta sea un heredero de esos ordenadores que la gente ensamblaba siguiendo las instrucciones de una revista y usando un sistema operativo cuyos origenes están en el tiempo libre de estudiantes y peterpanes.
+
+Pero la tendencia es que esto desaparezca. Es cierto que ha habido muchos momentos en los que para hacer estos "trámites vitales" teníamos que pasar por sistemas cerrados como Microsoft Windows (sí, esos que aparecen unos párrafos más arriba por sus BASICs en esos ordenadores programables domésticos), pero hemos tenido largos destellos de unos usos sin restricciones que comenzamos a añorar.
+
+Es agridulce, porque creo que la anomalía ha pasado su punto álgido. Creo que no desaparecerá, pero simplemente pasará a un segundo plano (con malas consecuencias, creo yo). Lo de "The Eternal Mainframe" que me ha hecho escribir esto y mis escritos anteriores citados al principio intentan explicar el cómo y el por qué. Lo que sigue es cómo creo que sobrevivirá la anomalía. (Curiosamente, cuatro parráfos tras bastantes más de introducción.)
+
+Los trámites que hacíamos en un ordenador abierto y programable se irán cada vez más a los móviles poco programables y cerrados excepto para Apple y Google, de las empresas con más poder que existen (precisamente en parte por este control que ejercen). Lo mismo pasará con muchas otras cosas; los jóvenes ya no se reirán de los viejos porque insistan en hacer cosas en el ordenador, porque ya no podrán.
+
+Y la verdad, no pasa (casi) nada.
+
+Espero que durante más tiempo del que me importa, sigamos pudiendo comprar ordenadores programables y no tener que ensamblarlos a partir de instrucciones en papel. Las posibilidades del ordenador programable seguirán siendo infinitas como lo han sido siempre para el que ha querido dedicarse a ellas. El otro componente es que de una manera u otra seguiremos pudiendo enviar ceros y uno de una punta a otra del mundo a un coste ridículo. Incluso comenzamos a tener buenas piezas para evitar alguna de las perversiones de la estructura de Internet que han entorpecido la anomalía (curiosamente, veo que no he escrito aquí sobre la red Yggdrasil y que lo que encuentro rápidamente sobre este tema son doce palabras en 2005; nota mental: hay que escribir una entrega sobre este tema).
+
+Las comunidades serán más pequeñas y los efectos creo que también. Por verle el lado positivo, el esfuerzo masivo que se ha dedicado a hacer que el ordenador programable sea útil para el mundo real quizá ya no sean necesarios: la inacabable ingeniería inversa para hacer funcionar sistemas operativos abiertos sobre ordenadores no diseñados con ese propósito, los bizantinos navegadores que intentan seguir la estela de Apple y Google; todos esos esfuerzos quizá se puedan destinar a otras cosas que hagamos con esos ordenadores programables si le dejamos las cosas oficiales a un aparato que no nos suponga un gran esfuerzo económico. Y quizá si le dedicamos más atención al ordenador programable con teclado al que acudimos explícitamente en peregrinamiento en vez de al pequeño aparato que inconscientemente ocupa nuestra mente por estar siempre en el bolsillo, haremos cosas más interesantes gracias a usar el aparato más interesante.
