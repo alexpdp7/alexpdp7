@@ -52,10 +52,10 @@ See [my kustomizations](../../../k8s/base/).
 
 ## Updates
 
-To update Talos, update `talosctl`, then:
+To update Talos, run `talosctl` with the version currently used by the cluster:
 
 ```
-$ talosctl upgrade --preserve --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com --wait
+$ talosctl upgrade --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com --image ghcr.io/siderolabs/installer:v1.13.6
 ```
 
 To update K8S:
