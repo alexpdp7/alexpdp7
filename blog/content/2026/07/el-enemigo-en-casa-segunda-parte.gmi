@@ -1,0 +1,21 @@
+# 2026-07-25 El enemigo en casa (segunda parte)
+
+=> https://alex.corcoles.net/2026/04/el-enemigo-en-casa Escribí hace unos meses sobre los peligros de ciertos dispositivos tipo cámaras domésticas y demás.
+
+El siguiente artículo comienza a darnos datos nuevos y preocupantes:
+
+=> https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/ FBI Seizes NetNut Proxy Platform, Popa Botnet - Krebs on Security
+
+> ... found 42 percent of apps available for download via the webOS operating system on LG smart TVs include SDKs that turn one’s television into an always-on residential proxy node. More than a quarter of the apps made for Samsung’s Tizen operating system had similar residential proxy components ...
+
+Básicamente, si nos vamos a la app store de las teles LG, casi la mitad de apps disponibles contienen un componente que permite "revender" la conexión a Internet de la tele a quien quiera pagar por ella para cualquier propósito. En la app store de Samsung esto se da en una cuarta parte de las aplicaciones.
+
+Hay gente que ya apuntaba que las teles "inteligentes" son una bicoca para los malvados; siempre están operativas si tienen corriente aunque estén "apagadas" (a diferencia de un ordenador suspendido o apagado), tienen una conexión a Internet constante (a diferencia de un móvil) y raramente nos podremos dar cuenta de que estén haciendo algo malicioso (a diferencia de un móvil que seguramente se caliente, pierda batería, se frene o consuma más datos). Y casi todo el mundo tiene una tele, y ¡casi todas las teles que se venden ahora tienen apps y conexión a Internet!
+
+Este estudio no demuestra nada (igual nadie instala estas aplicaciones), pero encaja.
+
+Mucha gente que lleva servicios de Internet lleva meses alertando de que reciben tráfico masivo que parece provenir de conexiones domésticas. Esto lo hace especialmente difícil de identificar como tráfico malicioso; miles de conexiones de un proveedor de hosting de algún país remoto a la web de tu gato son fáciles de identificar y bloquear, pero muchas conexiones distribuidas desde miles de hogares distintos de países variados son mucho más complicadas de tratar.
+
+Nadie parece tener una visión completa de lo que está pasando aquí. Muchos opinan que cierto fenómeno reciente requiere cantidades absurdas de contenido y que es muy conveniente usar estos servicios para aspirar webs indiscriminadamente sin control de una manera masiva. (Y ciertos actores de este fenómeno hacen esto abiertamente.) Pero no hay pruebas de que este tráfico camuflado forme parte de este fenómeno, aunque encaja.
+
+La recomendación es la de siempre: cuidadito con las teles, los dispositivos de streaming y las aplicaciones que provienen de marcas que no tienen mucha reputación que perder. Si ya tenéis un dispositivo de streaming de una marca conocida, podéis no conectar vuestra tele a Internet. Y en mi opinión, mejor sólo tener las aplicaciones de streaming de servicios que usamos (que digo yo que los proveedores de streaming conocidos no se arriesgarán a hacer estas barbaridades). De la piratería no opino, pero siempre conviene tener cuidado.
