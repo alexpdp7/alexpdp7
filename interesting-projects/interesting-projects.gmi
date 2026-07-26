@@ -107,7 +107,7 @@ Single-file Django applications
 :web:django
 :programmed-in:python
 
-=> https://diazo.org Diazo
+=> https://github.com/plone/diazo Diazo
 HTML "golden" templates
 :coding:web
 :programmed-in:python
@@ -355,7 +355,7 @@ Python standalone builds
 :coding:distribution
 :kind:binaries
 
-=> https://packaged.live/ packaged
+=> https://github.com/tusharsadhwani/packaged packaged
 Package Python applications
 :coding:distribution
 
@@ -1047,7 +1047,7 @@ Web ping
 :networking
 :programmed-in:javascript
 
-=> https://slipshow.org/
+=> https://github.com/panglesd/slipshow
 Infinite presentations
 :kind:cli
 :kind:gui
