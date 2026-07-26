@@ -11,13 +11,6 @@ VCS that integrates with Git and identifies changes
 :kind:cli
 :vcs
 
-=> https://github.com/Skyscanner/turbolift turbolift
-Apply changes across many GitHub repositories simultaneously
-:programmed-in:go
-:kind:cli
-:vcs:github
-:coding:refactor
-
 => https://mergiraf.org/ Mergiraf
 Language-aware conflict resolver
 :programmed-in:rust
@@ -93,11 +86,6 @@ Proxy that helps build realtime APIs
 :coding:realtime
 :programmed-in:rust
 :coding:web
-
-=> https://xtermjs.org/ xterm.js
-Terminal for web pages
-:coding:web
-:programmed-in:typescript
 
 => https://github.com/BafS/Gutenberg Gutenberg
 Make printable websites
@@ -200,13 +188,6 @@ Typeset Haskell code using LaTeX
 :programmed-in:haskell
 :kind:cli
 
-=> https://github.com/simplistix/sybil Sybil
-Run tests embedded in code and documentation
-:coding:literate
-:coding:testing
-:programmed-in:python
-:kind:cli
-
 => https://www.unison-lang.org/ Unison
 Distributed programming language
 :coding:distributed
@@ -249,12 +230,6 @@ SQL data explorer
 :tool:database
 :programmed-in:python
 
-=> https://www.metabase.com/ Metabase
-SQL data explorer
-:kind:service
-:tool:database
-:programmed-in:clojure
-
 => https://www.getgrist.com/ Grist
 Relational spreadsheets
 :kind:service
@@ -272,13 +247,6 @@ Prolog-like programming language that compiles to SQL
 :coding:language
 :coding:sql
 :programmed-in:python
-:compiles-to:sql
-
-=> https://prql-lang.org/ PRQL
-Pipelined relational query language that compiles to SQL
-:coding:language
-:coding:sql
-:programmed-in:rust
 :compiles-to:sql
 
 => https://geldata.com/ Gel
@@ -343,12 +311,6 @@ PostgreSQL migrations based on switching schemas
 :tool:database
 :programmed-in:go
 
-=> https://www.sqlfluff.com/ SQLFluff
-SQL linter
-:kind:cli
-:coding:linter
-:tool:database
-
 => https://github.com/feldera/feldera Feldera
 Incremental SQL query engine
 :kind:service
@@ -362,20 +324,8 @@ A Berkeley-style database where multiple processes can access the same database 
 :database
 :programmed-in:c
 
-=> https://github.com/tansu-io/tansu Tansu
-Kafka-compatible backed by PostgreSQL, SQLite, S3...
-:kind:service
-:database
-:programmed-in:rust
-
 => https://github.com/carltongibson/neapolitan Neapolitan
 Quick CRUD views for Django
-:web:django
-:programmed-in:python
-:kind:library
-
-=> https://codeberg.org/emmaDelescolle/django-admin-deux django-admin-deux
-New admin for Django
 :web:django
 :programmed-in:python
 :kind:library
@@ -474,23 +424,11 @@ Debug Tokio code
 :coding:async
 :programmed-in:rust
 
-=> https://www.jbang.dev/ jBang
-Simplify distribution of Java CLI tools
-:programmed-in:java
-:coding:distribution
-:kind:cli
-
 => https://github.com/mabe02/lanterna Lanterna
 Library to create TUIs in Java
 :programmed-in:java
 :coding:tui
 :kind:library
-
-=> https://testcontainers.com/ Testcontainers
-Run testing services in Java, Go, Node.js, Python, Rust...
-:kind:library
-:containers
-:coding:testing
 
 => https://errorprone.info/ Error Prone
 Static Java analyzer
@@ -534,20 +472,6 @@ Script programming language. See also:
 :kind:cli
 :tool:shell
 
-=> https://xon.sh/ Xonsh
-Python shell
-:programmed-in:python
-:coding:language
-:kind:cli
-:tool:shell
-
-=> https://www.nushell.sh/ Nu
-Shell with structured data pipelines
-:programmed-in:rust
-:coding:language
-:kind:cli
-:tool:shell
-
 => https://amber-lang.com/ Amber
 Statically-typed language that compiles to bash
 :programmed-in:rust
@@ -581,23 +505,12 @@ Modern lex/yacc
 :kind:framework
 :coding:parsing
 
-=> https://github.com/petitparser PetitParser
-Create parsers in Dart, Java, Dart, and Kotlin
-:kind:framework
-:coding:parsing
-
 => https://www.metaborg.org/ The Spoofax Language Workbench
 Platform to develop languages
 :programmed-in:java
 :kind:framework
 :coding:parsing
 :coding:languages
-
-=> https://github.com/antlr/grammars-v4 grammars-v4
-ANTLR v4 grammars
-:programmed-in:antlr
-:kind:dataset
-:coding:parsing
 
 => https://tree-sitter.github.io/tree-sitter/ Tree-sitter
 Parser generator and incremental parser
@@ -665,18 +578,6 @@ Djot parser in Prolog
 :programmed-in:prolog
 :lightweight-markup:djot
 :coding:parser
-
-=> https://temporal.io/ Temporal
-Durable execution platform for Go, Java, Python, etc.
-:kind:framework
-:coding:distributed
-:programmed-in:go
-
-=> https://restate.dev Restate
-Durable execution platform for Go, Java, Python, Typescript, Kotlin, Rust
-:kind:framework
-:coding:distributed
-:programmed-in:rust
 
 => https://github.com/yomaytk/elfconv elfconv
 Converts Linux ELF binaries into WASM
@@ -747,18 +648,6 @@ Self-hosting UI over Debian
 => https://dokku.com/ Dokku
 Heroku-like PaaS
 :tool:paas
-:kind:service
-:programmed-in:go
-
-=> https://github.com/piku/piku piku
-Heroku-like PaaS
-:tool:paas
-:kind:service
-:programmed-in:python
-
-=> https://opencloud.eu/ OpenCloud
-Nextcloud alternative
-:tool:filesync
 :kind:service
 :programmed-in:go
 
@@ -871,20 +760,6 @@ CLI to create VMs quickly on macOS
 :tool:vms
 :macos
 
-=> https://vyos.net/ VyOS
-Declarative network appliance
-:kind:os
-:networking
-:programmed-in:python
-:infrastructure-as-code
-
-=> https://github.com/ansible-collections/community.openwrt community.openwrt Ansible collection
-Manage OpenWRT with Ansible
-:kind:ansible
-:programmed-in:python
-:networking:openwrt
-:infrastructure-as-code
-
 => https://github.com/glennbrown/home-infra home-infra
 Infrastructure as code setup
 :kind:ansible
@@ -963,12 +838,6 @@ Web remote desktop with graphics acceleration
 Streaming client for Nvidia GameStream protocol
 :tool:remote-desktop
 :kind:gui
-:programmed-in:cpp
-
-=> https://docs.lizardbyte.dev/projects/sunshine/latest/ Sunshine
-Streaming server for Nvidia GameStream protocol
-:tool:remote-desktop
-:kind:service
 :programmed-in:cpp
 
 => https://neko.m1k1o.net/ Neko
@@ -1065,13 +934,6 @@ Modern man page viewer for terminal
 :tool:documentation
 :programmed-in:c
 
-=> https://pimalaya.org/ Pimalaya
-Email tools
-:kind:cli
-:kind:tui
-:mail:client
-:programmed-in:rust
-
 => https://github.com/leahneukirchen/mblaze/ mblaze
 CLI for maildir
 :kind:cli
@@ -1149,23 +1011,11 @@ Torrent library with streaming video support. See README for projects using it
 :p2p:torrent
 :programmed-in:go
 
-=> https://www.stirling.com/ Stirling
-PDF manipulation tool
-:kind:service
-:print:pdf
-:programmed-in:java
-
 => https://github.com/mzucker/noteshrink noteshrink
 Convert scanned handwriting to PDF
 :kind:cli
 :print:pdf
 :programmed-in:python
-
-=> https://mixxx.org/ Mixxx
-Open source DJ software
-:kind:gui
-:tool:dj
-:programmed-in:cpp
 
 => https://letsconvene.im/ Convene
 Browser-based conversations without accounts
@@ -1370,14 +1220,6 @@ Rate-limited APIs for TV shows and movies with airdates
 => https://carpentries.org/ The Carpentries
 Teaching community
 :education
-
-=> https://github.com/bootc-dev/bcvk bootc virtualization kit
-Run virtual machines from bootc containers
-:iaas
-:infrastructure-as-code
-:kind:cli
-:programmed-in:rust
-:tool:vms
 
 => https://gram-editor.com/ GRAM
 Zed fork, ready-to-go GUI LSP editor
