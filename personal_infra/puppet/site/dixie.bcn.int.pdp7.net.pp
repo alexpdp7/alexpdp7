@@ -91,7 +91,7 @@ dhcp-option=tag:!noroutes,option:classless-static-route,10.34.10.0/24,10.76.78.2
     #
 
     # insecure for Kodi
-    /srv/filer           192.168.76.0/24(rw,sync,fsid=0,crossmnt,no_subtree_check,insecure) 10.34.10.0/24(rw,sync,fsid=0,crossmnt,no_subtree_check,insecure)
+    /srv/filer           10.76.78.0/24(rw,sync,fsid=0,crossmnt,no_subtree_check,insecure) 10.34.10.0/24(rw,sync,fsid=0,crossmnt,no_subtree_check,insecure)
     /srv/filer           LibreELEC.bcn.int.pdp7.net(rw,sync,fsid=0,crossmnt,no_subtree_check,no_root_squash)
     | EOT
     ,

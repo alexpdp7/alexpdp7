@@ -23,7 +23,7 @@ node 'nagios.h1.int.pdp7.net' {
     contact_groups => 'admins',
     check_command => 'check-host-alive',
     parents => ["dixie.bcn.int.pdp7.net"],
-    address => "192.168.76.6",
+    address => "10.76.78.6",
   }
 
   nagios_host {"router4g.bcn.int.pdp7.net":
@@ -33,7 +33,7 @@ node 'nagios.h1.int.pdp7.net' {
     contact_groups => 'admins',
     check_command => 'check-host-alive',
     parents => ["dixie.bcn.int.pdp7.net"],
-    address => "192.168.76.3",
+    address => "10.76.78.3",
   }
 
   nagios_host {"xn--ix-yja.es":
