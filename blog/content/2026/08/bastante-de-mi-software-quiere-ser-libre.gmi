@@ -1,0 +1,33 @@
+# 2026-08-01 Bastante de mi software quiere ser libre
+
+=> https://neopaquita.es/@microblogc/116999804674122207 El otro día en una conversación de Mastodon reparé en que hay un aspecto de mis monotemas del que es posible que todavía no haya soltado ningún ladrillo.
+
+=> ../../2026/07/la-anomalía (La anterior entrega de mis monotemas, por si queréis poneros un poco en contexto.)
+
+Llevo aproximadamente treinta años escribiendo software medianamente relevante. (Comencé a intentarlo mucho antes, quizá incluso una década antes, pero tardé en aprender y que me llegasen los elementos adecuados. Aprender a programar muy joven en un 8 bits me parece muy complicado.)
+
+De esos treinta años, en como unos veintitrés también he escrito software para ganarme el pan.
+
+Debo decir que el software que he escrito sin cobrar nunca ha llegado particularmente lejos, pero algo del software que he escrito como trabajo sí ha tenido más alcance.
+
+Así que lo que voy a decir no tiene un efecto tan tangible sobre mí mismo, pero creo que eso no le quita validez.
+
+Es inaceptable que cada día haya más trabas para que cualquier persona pueda escribir software (de esto ya me he quejado) y distribuirlo libremente (esto es lo nuevo).
+
+Como vengo comentando, la gente cada vez avanza más a tener sólo dispositivos controlados por Google o Apple; principalmente móviles, pero también tabletas, Chromebooks que parecen portátiles pero que operan más como móviles y tabletas, e incluso ordenadores tradicionales pero mayormente con sistemas operativos también controlados (entrando aquí Microsoft).
+
+Y en muchos de estos dispositivos, Google y Apple (y en menor medida Microsoft) imponen controles sobre la distribución de software. Para móviles y tabletas, distribuir software implica pasar por la App Store de Apple o por la Play Store de Google. Para colocar nuestro software en ellas tenemos que pasar por puntos para evitar que Google y Apple puedan sufrir repercusiones por nuestro software; entre identificarnos legalmente, pagar dinero, comprometernos legalmente y más cosas que quizá desconozca.
+
+Todavía existe la distribución tradicional que partía de grabar una cinta de cassette con nuestro programa y que hoy evoluciona a colgar nuestro programa en la web, pero que hoy es harto más complicado en un móvil convencional.
+
+O sin ir más lejos, los móviles todavía tienen navegadores que pueden acceder a aplicaciones web creadas por cualquiera casi sin restricciones. (Aunque en la mayoría de casos, el alojamiento de estas webs también tiene ciertas implicaciones legales.)
+
+No es algo nuevo que las autoridades y las empresas privadas consideren el software como un montón de ceros y unos sospechosos de ser peligrosos. Pero antes esto se restringía a intervenciones específicas sobre subversiones como la criptografía que nos permite tener privacidad o a cualquier cosa susceptible de vulnerar derechos de autor. Hoy en día, ofrecer un juego cutre a nuestros amigos cada día se acerca más a distribuir el algoritmo que nos permite hacer copias de los DVD de nuestra propiedad o de los algoritmos de cifrado que son complicados de romper.
+
+Como he dicho, prácticamente nada que haya escrito en mis ratos libres ha alcanzado a demasiada gente, pero pensad cuánto software que usáis ha salido de alguien que en su momento se ilusionó con programar algo y que lo usase otra gente.
+
+=> ../../2026/03/peligros-de-bolsillo También es cierto que sí considero necesarias ciertas protecciones para los usuarios.
+
+Además, también agradezco que el software que escribo para comer goce de ciertas protecciones, pero creo que es posible encontrar medidas que funcionen adecuadamente para muchos escenarios distintos.
+
+El futuro cada día me parece más incierto y no sé qué pasará. Pero si tenéis energías y el tema os interesa, observad los dispositivos que usáis y pensad en lo fácil o difícil que resulta escribir software para ellos y que lo use otra gente. Y quizá dejad que esto influya en vuestras decisiones.
