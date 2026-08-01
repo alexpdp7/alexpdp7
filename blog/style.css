@@ -1,7 +1,7 @@
 :root {
     color-scheme: light dark;
     /* from Mozilla reader mode and https://lobste.rs/c/zeegjm */
-    line-height: 1.6em;
+    line-height: 1.5;
     font-size: max(1rem, 20px);
 }
 body {
