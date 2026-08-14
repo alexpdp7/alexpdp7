@@ -1250,3 +1250,10 @@ A static site generator for Git repositories
 :kind:cli
 :programmed-in:rust
 :vcs:git
+
+=> https://github.com/parenworks/clatter.el clatter.el
+Emacs IRC client with Soju support
+:instant-messaging:irc
+:kind:tui
+:programmed-in:elisp
+:editor:emacs
