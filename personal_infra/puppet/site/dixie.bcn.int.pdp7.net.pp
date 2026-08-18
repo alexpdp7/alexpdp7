@@ -3,13 +3,16 @@ node 'dixie.bcn.int.pdp7.net' {
   class {'dns_dhcp::opennic':}
   class {'filer':}
   file {'/etc/dnsmasq.d/static.conf':
-    content => "host-record=router,router.bcn.int.pdp7.net,10.76.78.1
-host-record=archerc7,archerc7.bcn.int.pdp7.net,10.76.78.6
-host-record=dixie.bcn.int.pdp7.net,dixie,10.76.78.2
-host-record=router4g.bcn.int.pdp7.net,router4g,10.76.78.3
+    content => @(EOT)
+    host-record=router,router.bcn.int.pdp7.net,10.76.78.1
+    host-record=dixie.bcn.int.pdp7.net,dixie,10.76.78.2
+    host-record=router4g.bcn.int.pdp7.net,router4g,10.76.78.3
+    dhcp-host=68:7F:F0:84:02:6C,tp-estudio,10.76.78.4
+    dhcp-host=68:7F:F0:83:FC:04,tp-comedor,10.76.78.5
 
-dhcp-option=tag:!noroutes,option:classless-static-route,10.34.10.0/24,10.76.78.2,10.43.43.0/24,10.76.78.2,10.17.19.0/24,10.76.78.2,0.0.0.0/0,10.76.78.1
-",
+    dhcp-option=tag:!noroutes,option:classless-static-route,10.34.10.0/24,10.76.78.2,10.43.43.0/24,10.76.78.2,10.17.19.0/24,10.76.78.2,0.0.0.0/0,10.76.78.1
+    | EOT
+    ,
     notify => Service["dnsmasq"],
   }
 
