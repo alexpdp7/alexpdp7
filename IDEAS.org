@@ -76,6 +76,7 @@ Make it easier for people to get a domain and own their email address.
 - Mailing lists have a web UI
 - The mailing list UI can be completely customized to look like microblogging, blogs, comment systems, etc.
 - max n messages over m days feature. n=0, don't send me emails. n=1, send me a digest every m days. n>=2, stop at n-1, then wait until the m period is over to send me a digest.
+- WebMention support?
 
 Alternatively, research https://public-inbox.org/README
 
