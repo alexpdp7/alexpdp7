@@ -26,3 +26,8 @@ Perhaps when you read this, my current config will be much bigger..
 But I'm definitely happy today with my 120-line config.
 
 Check [emacs.bash](https://github.com/alexpdp7/alexpdp7/blob/master/emacs/emacs.bash) for something you can source in your bash to keep Emacs running and prevent slow startup.
+
+## Newcomers presets
+
+Emacs 31.1 includes a `newcomers-presets` *theme* with friendlier defaults.
+Refer to [this article](https://sachachua.com/blog/2026/04/what-s-in-the-emacs-newcomers-presets-theme/ "What's in the Emacs newcomers-presets theme?") or to [the source code](https://github.com/emacs-mirror/emacs/blob/master/etc/themes/newcomers-presets-theme.el) to find more inspiration.
