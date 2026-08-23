@@ -84,6 +84,10 @@ About janky browser applications and websites.
 
 => https://chrisdown.name/2018/01/02/in-defence-of-swap.html In defence of swap: common misconceptions
 
+## Technical writing
+
+=> https://evaparish.com/blog/how-i-edit What I think about when I edit
+
 ## Organizations
 
 => https://charity.wtf/2024/07/24/pragmatism-neutrality-and-leadership/ Pragmatism, Neutrality and Leadership
