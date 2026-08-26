@@ -13,7 +13,7 @@
 #let education = education-section(
   undergrad: education(
     institution: "Universitat Autònoma de Barcelona",
-    study: "Computer Science, Computer vision, Security",
+    study: "Computer Science, computer vision, security",
     timeframe: "1997-2003",
   ),
 )
@@ -97,8 +97,8 @@
     - Technical guidance and analysis
     - Maintenance of the company's computing infrastructure, including 25 workstations, Windows and Linux servers, externally hosted servers and services and networking equipment
     - Technical liaison with providers and customers for services and custom projects
--    Digitalization of the company's digital catalogue, including the development of a custom management web application and a public facing website, using Java/J2EE, PostgreSQL, JSP, JSTL, custom tag libraries, XHTML, Javascript, jQuery, CSS, Spring
-     - Technical lead for in-house development projects, including analysis, design, coding, building, testing, deployment, version control and issue tracking
+    - Digitalization of the company's digital catalogue, including the development of a custom management web application and a public facing website, using Java/J2EE, PostgreSQL, JSP, JSTL, custom tag libraries, XHTML, Javascript, jQuery, CSS, Spring
+    - Technical lead for in-house development projects, including analysis, design, coding, building, testing, deployment, version control and issue tracking
   ],
 )
 
@@ -121,14 +121,14 @@
     "Puppet",
     "AWS",
     "Kubernetes",
-    "Containers",
+    "containers",
   ),
   skillset(
     "Others",
-    "Technical leadership",
+    "technical leadership",
     "Agile",
     "Lean",
-    "Technical writing",
+    "technical writing",
   )
 )
 
