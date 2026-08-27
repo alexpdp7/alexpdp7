@@ -1,0 +1,23 @@
+# 2026-08-27 Se supone que todo debería ser más fácil
+
+=> ../../2021/10/recargado-descargando Hace unos años mencioné de pasada el artículo "Kids can't use computers... and this is why it should worry you".
+
+Estoy bastante de acuerdo en que los ordenadores son una parte importante de nuestras vidas y vale la pena hacer un esfuerzo para aprender cómo funcionan, cosa que reduce las dificultades para usarlos.
+
+Pero creo que muchos de nosotros tenemos un sesgo poco productivo en este sentido.
+
+Hace unos cuantos años, los ordenadores eran dispositivos mágicos que nos abrían las puertas a cosas extraordinarias como los videojuegos o esa red que interconecta el mundo casi gratis y con milisegundos de latencia. Los ordenadores eran algo nuevo para el público en general y su facilidad de uso no estaba trabajada. Además, la tecnología era inmadura y cara. Con esto, mucha gente insistió e insistió con cosas como los conocimientos arcanos para manejar un ordenador con MS/DOS porque había una recompensa valiosa detrás que era casi imposible de obtener sin pasar por el aro.
+
+Pero esos conocimientos arcanos para usar MS/DOS eran accidentales y se han podido eliminar con el tiempo.
+
+En mi opinión, el autor del artículo confunde las cosas y cree que los conocimientos arcanos, aunque sean mucho menos arcanos hoy en día, son algo "deseable". Son algo que muchos asumimos como algo intrínseco al uso de los ordenadores y que asociamos con las recompensas que obtuvimos a través de ellos.
+
+Lo peor de este pensamiento es que esto influye en los incentivos para eliminar dificultades del uso de los ordenadores. Pero lo verdaderamente insidioso es que hay entidades malévolas que pueden aprovecharse de esto.
+
+Me repito con el tema, pero uno de los motivos por los que creo que la gente abandona los ordenadores por dispositivos menos libres es que estos dispositivos nos ofrecen recompensas similares exigiéndonos menos conocimientos arcanos. Las grandes empresas como Google y Apple tienen recursos de sobra que dedicar a eliminar las dificultades accidentales en sus móviles y tabletas. Y esto no lo hacen por altruismo, sino porque atrapar a la gente en sus plataformas es enormemente lucrativo.
+
+=> ../../2025/02/el-lento-adios-a-la-magia-de-los-ordenadores Quizá el lento adiós a la magia de los ordenadores haya sido en parte una herida autoinfligida porque muchos hemos perdido la sensibilidad al dolor de los sistemas difíciles de usar.
+
+Simplemente creo que cuando tenemos la tentación de mirar al infinito cuando alguien tiene dificultades que nosotros no tenemos, debemos considerar si esa dificultad es realmente necesaria, y si podemos hacer algo por evitarla.
+
+Y yo no creo que hacer las cosas más fáciles sea algo que nos aborregue necesariamente. Quizá sea más fácil que nos aborregue si las grandes empresas nos conducen a usar el tiempo ahorrado en pelearnos con los ordenadores por entretenimientos pasivos y simples, pero también cabe la posibilidad de que hagamos las cosas de manera que ese tiempo ahorrado se dedique a actividades de las que tengamos una mejor opinión.
