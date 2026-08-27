@@ -63,3 +63,18 @@ To update K8S:
 ```
 $ talosctl upgrade-k8s --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com --to kubernetes.version
 ```
+
+## Renewing certificates
+
+```
+$ talosctl ...
+error checking Talos version compatibility: error getting server versions: rpc error: code = Unavailable desc = connection error: desc = "error reading server preface: remote error: tls: expired certificate"
+```
+
+```
+rye run ansible-vault decrypt talos/k8s-test.example-secrets.yaml
+talosctl gen config --with-secrets talos/k8s-test.example-secrets.yaml --output-types talosconfig -o talosconfig k8s-test https://k8s-test.example.com
+mv talosconfig talos/talosconfig-k8s-test
+$EDITOR talos/talosconfig-k8s-test  # add the endpoint
+talosctl --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com kubeconfig
+git checkout talos/k8s-test...secrets.yaml
