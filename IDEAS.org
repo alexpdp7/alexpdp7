@@ -135,6 +135,7 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
 - Could start with just pdf.js sharing and document location synchronization
 
 * Tool to replace all text files in a repository with a link, to migrate from a Git forge to another place without breaking links
+* DeltaChat + webdxc bot framework to control services without exposing them to the Internet
 * Code review tool
 
 - It runs automatic validation on unchecked commits continuously, adding git notes with the result
