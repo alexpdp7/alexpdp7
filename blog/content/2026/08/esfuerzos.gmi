@@ -1,0 +1,15 @@
+# 2026-08-29 Esfuerzos
+
+Hace unos treinta años aprendía a programar más o menos en serio. Gracias al Blitz Basic del Amiga comencé a poder crear juegos sencillos, pero con cara y ojos, tras igual unos diez años de intentos y de lentos progresos.
+
+Poco después, con más casualidad de lo que uno se podía imaginar, entré en la universidad a estudiar informática. Más o menos al mismo tiempo, también abandonamos en casa al Amiga por el hegemónico Windows (95). Aunque quedaba poco para que los horrores de los Windows no NT quedasen atrás[1], ese sufrimiento y las exigencias de tener que usar el ordenador para cosas más serias me empujaron poco a poco al mundo de Linux.
+
+Caer en el mundo del software libre vino poco después. Uno de mis recuerdos más claros es comenzar a usar Firefox, entonces Phoenix, porque Internet Explorer me amargaba la existencia.
+
+Creo que en aquella época todo era más complicado. Usar Firefox o Linux me suponía muchos más problemas que hoy en día. Tuve que pelearme, aprender, renunciar y perseverar para hacer cambios que considero significativos. En 2002 compré mi primer ordenador personal para usarlo casi exclusivamente con software libre y a partir de entonces hasta hoy.
+
+24 años después, parece que nos acercamos a otro punto de inflexión. Tengo el doble de edad y quizá la mitad de energía. Pero mucho del software que utilizo comienza a dolerme como me dolía Windows 95 e Internet Explorer. El colectivo que opina igual todavía no está muy definido ni dirigido, pero comienza a haber proyectos que rechazan la dirección en la que parece que van las cosas, mientras que parte del colectivo en el que caí antes parece abrazar esta dirección.
+
+Parece difícil que este nuevo colectivo alcance el mismo impacto que el llamado software libre. Pero quizá haya que intentarlo igualmente.
+
+=> ../../2025/01/los-sistemas-operativos-y-un-amanecer-de-internet [1] Los sistemas operativos y un amanecer de Internet
