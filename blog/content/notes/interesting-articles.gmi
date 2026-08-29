@@ -117,6 +117,8 @@ Someone figured most of it out in 1964.
 => https://www.lesswrong.com/posts/tscc3e5eujrsEeFN4/well-kept-gardens-die-by-pacifism Well-Kept Gardens Die By Pacifism
 About moderation in small communities
 
+=> https://tzovar.as/scaling-up-and-on-being-the-right-size/ On 'scaling up' and being the right size
+
 ### Project management
 
 => https://apenwarr.ca/log/20171213 An epic treatise on scheduling, bug tracking, and triage
