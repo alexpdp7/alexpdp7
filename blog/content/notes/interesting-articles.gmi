@@ -10,6 +10,9 @@ Simplicity is sacrifice. See also:
 => https://www.geoffreylitt.com/2025/03/03/the-nightmare-bicycle.html Avoid the nightmare bicycle
 Good designs expose systematic structure; they lean on their users’ ability to understand this structure and apply it to new situations.
 
+=> https://earthly.dev/blog/thought-leaders/ Don't Feed the Thought Leaders
+Contingent advice (that depends on the situation) is in general better than generic advice. In my experience, one of the most difficult parts is knowning when you have to deviate from common practices.
+
 ## Programming
 
 => https://mikehadlow.blogspot.com/2012/05/configuration-complexity-clock.html The Configuration Complexity Clock
