@@ -2,10 +2,9 @@
 
 ## Tools
 
-* Use uv for your software. It's modern and good.
+* Use hatch for your software.
 * pipx is packaged by many distros and useful for installing Python software. Provide instructions for installing your software using pipx.
 * Use pytest for testing. It's PEP-8 compliant unlike unittest in the standard library. doctest is good too.
-* Use ruff for validation.
 
 ## Python versions
 
