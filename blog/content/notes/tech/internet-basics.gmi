@@ -35,3 +35,11 @@ Keeping data with sufficient resiliency is complex, because making proper backup
 Many storage providers do not give you enough control over your data if you want to move to a different provider. You should always keep a full copy of your data that you can access without the Internet. (You can achieve this by using systems that keep your data synchronized to at least a device you control, or by keeping your own backups.)
 
 (A way to provide this would be for NAS devices to support easy interoperable mutual encrypted backups, so that you can easily back up your data to someone you know in a way that they cannot read your data unless you want them to.)
+
+## Everyone must have a good password manager or trustable federated identities
+
+For good security, online accounts should have strong, unique passwords or no password at all.
+
+Strong unique passwords are still the best option, despite passkeys and federated identities, because they are lowest-common denominator and simple.
+
+Federated identities are useful, as long as the entity providing them is of enough trust for you. The providing entity can fail, deny you access,  or die at any time, taking your federated identity with you.
