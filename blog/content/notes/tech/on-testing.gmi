@@ -1,0 +1,23 @@
+# On testing
+
+This document is mostly a collection of links with some annotations.
+
+=> https://testing.googleblog.com/2014/05/testing-on-toilet-risk-driven-testing.html Your tests are a means. The bang is what counts. It’s your job to maximize it.
+
+=> https://abseil.io/resources/swe-book/html/ch11.html#the_beyonceacutesemicolon_rule The Beyoncé Rule says that you should test automatically anything you don't want to break. The Beyoncé rule also implies that you can break things that are not tested.
+
+=> https://testing.googleblog.com/2024/10/smurf-beyond-test-pyramid.html Test categories and the pyramid are excessively limited models; SMURF evaluates tests along the tradeoffs of speed, maintainability, utilization (resource usage), reliability, and fidelity. Instead of spending effort thinking about test types, try to write tests that cover what you do not want to break (as per the Beyoncé rule above) while balancing the SMURF tradeoffs.
+
+Test doubles are components that replace parts of a system in a test. The following documents explain different kinds of useful test doubles:
+
+=> https://testing.googleblog.com/2013/07/testing-on-toilet-know-your-test-doubles.html Know Your Test Doubles
+
+=> https://martinfowler.com/articles/mocksArentStubs.html Mocks Aren't Stubs
+
+"Mocks Aren't Stubs" also discusses the classic and mockist test styles (the classic style is also known as Detroit or Chicago style or school, while the mockist style is known as London style or school). Classic testing validates state, using doubles only when necessary (probably because of SMURF tradeoffs); mockist testing verifies interactions by using mocks.
+
+(My personal opinion is similar to Martin Fowler's in "Mocks Aren't Stubs", you should use classic testing and structure your programs to simplify classic testing, unless for specific scenarios where mocks are better, such as the example posed by Martin:
+
+> A great example of this is a cache. The whole point of a cache is that you can't tell from its state whether the cache hit or missed - this is a case where behavior verification would be the wise choice for even a hard core classical TDDer. I'm sure there are other exceptions in both directions.
+
+You should also reduce the use of doubles as much as possible within the SMURF tradeoffs, probably also influencing the structure of your programs.)

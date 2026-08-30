@@ -41,16 +41,7 @@ The history about Hungarian notations
 => https://www.hillelwayne.com/post/we-are-not-special/ We are not special
 Second of a series of three articles comparing software engineering with traditional engineering. Mostly dispels some myth and lack of knowledge about traditional engineering.
 
-### Testing
-
-=> https://testing.googleblog.com/2014/05/testing-on-toilet-risk-driven-testing.html Testing on the Toilet: Risk-Driven Testing
-"Your tests are a means. The bang is what counts. It’s your job to maximize it."
-
-=> https://testing.googleblog.com/2024/10/smurf-beyond-test-pyramid.html SMURF: Beyond the Test Pyramid
-Test categories and the pyramid are excessively limited models.
-
-=> https://abseil.io/resources/swe-book/html/ch11.html#the_beyonceacutesemicolon_rule The Beyoncé Rule
-"If you liked it, then you shoulda put a test on it."
+=> tech/on-testing See also my own "on testing" for further notes about testing, including risk-driven testing, the Beyoncé rule, SMURF, test doubles (dummies, fakes, stubs, spies, and mocks), and classic/mockist testing (also Chicago/Detroit/London).
 
 ### Python
 
@@ -174,8 +165,6 @@ A type of human behavior reactivity in which individuals modify an aspect of the
 
 => https://en.wikipedia.org/wiki/Novelty_effect Novelty effect
 An effect of introducing new elements on some activity or behavior.
-
-=> https://softwareengineering.stackexchange.com/questions/123627/what-are-the-london-and-chicago-schools-of-tdd What are the London and Chicago schools of TDD?
 
 => https://en.wikipedia.org/wiki/Sturgeon%27s_law Sturgeon's law
 An adage stating "ninety percent of everything is crap".
