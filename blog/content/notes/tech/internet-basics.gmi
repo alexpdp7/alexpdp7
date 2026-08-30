@@ -17,3 +17,21 @@ The ISP must control use of the email addresses with the domain to prevent spam.
 Delivery targets decouple the email domain from the email service that stores the email. Users can choose to store email in whatever service they prefer, including an ISP service or other services.
 
 Email services must support transferring stored email.
+
+## Everyone must have a feed reader. All website updates should work with feed readers
+
+Getting updates from websites is tedious.
+
+Many use social networks to centralize updates. However, social networks are mostly controlled by entities not aligned with you. Also, social networks are rarely used to centralize updates, so they tend to be suboptimal for this purpose.
+
+RSS, ATOM and others are standards for sites to provide feeds of updates. There are plenty of feed readers.
+
+When you use multiple devices to follow updates, having device synchronization of subscribed feeds and read items is nearly a necessity.
+
+## Everyone must have sufficient data storage with sufficient resilience and control
+
+Keeping data with sufficient resiliency is complex, because making proper backups is difficult and tedious.
+
+Many storage providers do not give you enough control over your data if you want to move to a different provider. You should always keep a full copy of your data that you can access without the Internet. (You can achieve this by using systems that keep your data synchronized to at least a device you control, or by keeping your own backups.)
+
+(A way to provide this would be for NAS devices to support easy interoperable mutual encrypted backups, so that you can easily back up your data to someone you know in a way that they cannot read your data unless you want them to.)
