@@ -6,9 +6,9 @@ Estoy bastante de acuerdo en que los ordenadores son una parte importante de nue
 
 Pero creo que muchos de nosotros tenemos un sesgo poco productivo en este sentido.
 
-Hace unos cuantos años, los ordenadores eran dispositivos mágicos que nos abrían las puertas a cosas extraordinarias como los videojuegos o esa red que interconecta el mundo casi gratis y con milisegundos de latencia. Los ordenadores eran algo nuevo para el público en general y su facilidad de uso no estaba trabajada. Además, la tecnología era inmadura y cara. Con esto, mucha gente insistió e insistió con cosas como los conocimientos arcanos para manejar un ordenador con MS/DOS porque había una recompensa valiosa detrás que era casi imposible de obtener sin pasar por el aro.
+Hace unos cuantos años, los ordenadores eran dispositivos mágicos que nos abrían las puertas a cosas extraordinarias como los videojuegos o esa red que interconecta el mundo casi gratis y con milisegundos de latencia. Los ordenadores eran algo nuevo para el público en general y su facilidad de uso no estaba trabajada. Además, la tecnología era inmadura y cara. Con esto, mucha gente insistió e insistió con cosas como los conocimientos arcanos para manejar un ordenador con MS-DOS porque había una recompensa valiosa detrás que era casi imposible de obtener sin pasar por el aro.
 
-Pero esos conocimientos arcanos para usar MS/DOS eran accidentales y se han podido eliminar con el tiempo.
+Pero esos conocimientos arcanos para usar MS-DOS eran accidentales y se han podido eliminar con el tiempo.
 
 En mi opinión, el autor del artículo confunde las cosas y cree que los conocimientos arcanos, aunque sean mucho menos arcanos hoy en día, son algo "deseable". Son algo que muchos asumimos como algo intrínseco al uso de los ordenadores y que asociamos con las recompensas que obtuvimos a través de ellos.
 
