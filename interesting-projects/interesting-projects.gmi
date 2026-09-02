@@ -1257,3 +1257,10 @@ Emacs IRC client with Soju support
 :kind:tui
 :programmed-in:elisp
 :editor:emacs
+
+=> https://tsunami-udp.sourceforge.net/ Tsunami UDP Protocol
+UDP file transfer utility that was used to great success at a previous job
+:kind:cli
+:tool:transfer
+:programmed-in:c
+:networking
