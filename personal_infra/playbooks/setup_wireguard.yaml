@@ -20,13 +20,13 @@
     slurp:
       src: /etc/wireguard/privatekey
     register: privatekey
-  - name: configure (no netplan)
+  - name: configure
     copy:
       content: |
         [Interface]
         Address = {{ network.self_internal_ip }}/24
         SaveConfig = true
-        PostUp = iptables -A FORWARD -i %i -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+        PostUp = iptables -A FORWARD -i %i -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE {% if inventory_hostname in groups['wg-route-hack'] %}; ip route del {{ network.self_internal_network }} dev wg0{% endif %}{{ '' }}
         PostDown = iptables -D FORWARD -i %i -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
         ListenPort = 51820
         PrivateKey = {{ privatekey['content'] | b64decode }}
@@ -43,35 +43,11 @@
         {% endif %}
         {% endfor %}
       dest: /etc/wireguard/wg0.conf
-    when: inventory_hostname not in groups['netplan']
-  - name: configure (netplan)
-    copy:
-      content: |
-        network:
-          tunnels:
-            wg0:
-              mode: wireguard
-              port: 51820
-              key: {{ privatekey['content'] | b64decode }}
-              addresses:
-                - {{ network.self_internal_ip }}/24
-              peers:
-        {% for host in groups['tinc'] %}
-        {% if host != inventory_hostname %}
-                - allowed-ips: [{{ hostvars[host].network.self_internal_network }}]
-                  endpoint: {{ hostvars[host].network.public_hostname }}:51820
-                  keys:
-                    public: {{ lookup('file', '/tmp/wireguard-publickeys/{}/etc/wireguard/publickey'.format(host)) }}
-        {% endif %}
-        {% endfor %}
-      dest: /etc/netplan/wireguard.yaml
-    when: inventory_hostname in groups['netplan']
-  - name: enable wireguard (no netplan)
+  - name: enable wireguard
     service:
       name: wg-quick@wg0
       state: restarted
       enabled: yes
-    when: inventory_hostname not in groups['netplan']
   - name: set congestion control
     copy:
       content: |
