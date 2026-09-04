@@ -1,4 +1,10 @@
 ---
+# Notes:
+#
+# Use Raspbian until https://bugs.debian.org/1130560 is fixed
+#
+# rye run ansible-playbook playbooks/pis.yaml
+# cp pi-data/$HOST/* $BOOT_MOUNT
 - hosts: pis
   gather_facts: false
   tasks:
