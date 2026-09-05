@@ -12,6 +12,7 @@ ragent:
       '13':
         x86_64: debian
         armv7l: debian_rpi3
+        aarch64: debian_rpi4
 #      '20': # and it also works for Ubuntu 20.04
 #        x86_64: debian_buster
     RedHat:
