@@ -10,4 +10,13 @@ node 'julius.ces.int.pdp7.net' {
     | EOT
     ,
   }
+
+  Package[$ipa_client_package]
+  ->
+  service {['sssd-pac.socket', 'sssd-sudo.socket', 'sssd-nss.socket', 'sssd-ssh.socket', 'sssd-pam.socket']:
+    ensure => stopped,
+    enable => mask,
+  }
+  ~>
+  Exec['/usr/bin/systemctl reset-failed']
 }
