@@ -29,3 +29,4 @@
 => tecnologia/quiero-instalar-linux Quiero instalar Linux
 => tecnologia/problemas Problemas
 => tecnologia/mama-quiero-ser-programador Mamá, quiero ser programador
+=> tecnologia/mi-historia-de-la-programación Mi historia de la programación

@@ -1,0 +1,164 @@
+# Mi historia de la programación
+
+Cuando tenía cuatro años, un Commodore 64 apareció en casa. A mi madre le gustaba explicar cómo ese día ni mi padre, ni mi hermano, ni yo comimos. Es una buena historia porque era un presagio de lo que iba a venir.
+
+En este texto quiero hablar de los ordenadores programables, un invento significativo de la humanidad. Hablaré de sus antecedentes, de sus manifestaciones primitivas y de los largos linajes, pero también de los indicios de su decadencia.
+
+De momento, este texto es un esquema con emplastes de entradas de mi blog sobre estos temas. Espero con el tiempo poder convertirlo en un texto lineal y engarzado.
+
+## La prehistoria
+
+* El algoritmo de Euclides
+* Ada
+
+Antes de 1936, existían bastantes máquinas bastante parecidas a ordenadores- existían calculadoras, máquinas de codificación como la Enigma, etc.; hasta los griegos construyeron máquinas que podían calcular la posición de las estrellas en el firmamento[1]. Sin embargo, ninguna de estas máquinas tenía la flexibilidad que tienen los ordenadores de hoy en día- las calculadoras pueden hacer operaciones matemáticas, Enigma podía codificar y decodificar textos, el mecanismo de Anticitera podía localizar los astros- pero ninguna de ellas podía hacer nada más que aquello para lo que estaban pensadas.
+
+### Referencias
+
+=> https://alex.corcoles.net/2011/11/hazanas-informaticas-v-las-maquinas-de-turing-y-von-neumann Hazañas informáticas V: Las máquinas de Turing y Von Neumann
+
+=> https://es.wikipedia.org/wiki/Mecanismo_de_Anticitera [1] El mecanismo de Anticitera
+
+## Ordenadores como habitaciones (primera parte)
+
+En 1936, Turing, uno de los padres fundadores, describió una sencilla máquina teórica que consiste en un cabezal situado sobre una cinta (infinita) que contiene símbolos. El cabezal puede desplazarse por la cinta, leyendo y escribiendo símbolos. Esta máquina tiene un estado, y según lo que lee mediante el cabezal, puede alterar su estado, desplazarse y escribir.
+
+Esta construcción simple (la definición informal es de un par de líneas; la formal no es mucho más larga) es sin embargo muy flexible. Dada una definición de estados y comportamientos adecuados, la máquina de Turing puede realizar, por ejemplo, cualquier cálculo que se nos ocurra; dada una cinta con símbolos que describan números, puede sumarlos, multiplicarlos, etc. y en general, realizar cualquier computación que pueda realizar un ordenador de hoy en día. Esto tiene un primer interés; la máquina de Turing puede modelizar cualquier proceso informatizable, y por tanto, nos puede servir como base teórica para analizarlos- podemos describir una máquina de Turing (sus comportamientos, símbolos, movimientos, estados, etc.) que realice cualquier cálculo.
+
+Sin embargo, podemos dar un paso más allá. Dado que podemos realizar cualquier operación computable con una máquina de Turing, esto nos lleva a decir que podríamos programar una máquina de Turing de manera que interprete los símbolos en su cinta como la descripción de una máquina de Turing- con los comportamientos del cabezal, sus estados, los símbolos etc.; y luego colocar más allá en la cinta los datos que queremos que procese. Es decir; podríamos describir el proceso de suma y luego colocarle unos números para que sume. Esta máquina de Turing podría, sin variar su programación y sólo cambiando los símbolos impresos en la cinta, realice cualquier cosa que pueda realizar una máquina de Turing- es decir, podemos obtener una máquina de Turing única "universal"- cuya programación le permite realizar cualquier cálculo computable.
+
+Este proceso mental teórico nos sugiere una cosa interesante- podemos construir una máquina que a partir de unos "datos" (en este caso, unos símbolos en una cinta) que describen el cálculo a realizar y los datos en sí, realice cualquier operación que podamos describir- en efecto, una máquina "programable".
+
+Una vez más, esto tiene un interés teórico considerable, pero obviamente una máquina que procese una cinta infinita, leyendo y escribiendo símbolos de ella no parece algo muy práctico (y de hecho no lo es).
+
+Paralelamente a las elucubraciones de Turing, otros científicos que trabajaban en máquinas de computación llegaban a ideas similares;  Konrad Zuse en Alemanía y Eckert y Mauchly en EEUU comenzaron a elaborar máquinas con conceptos de programabilidad; Zuse, aburrido de realizar cálculos en su trabajo como ingeniero aeronáutico,  creo el Z1, de programabilidad limitada y funcionamiento problemático en  1938, seguido del Z2 en 1939 y finalmente el completamente programable Z3  en 1941. Eckert y Mauchly trabajaban en el proyecto EDVAC, para crear una máquina para calcular trayectorias de artillería, al que se unió John Von Neumann en 1944. Se acredita a Von Neumann con la primera descripción "práctica" de una máquina programable ampliamente conocida publicada en 1945, que explica lo que ahora se conoce como arquitectura de Von Neumann.
+
+La arquitectura de von Neumann es en sí muy parecida a la máquina universal de Turing, pero con una implementación física mucho más realizable- un procesador con unidades capaces de realizar cálculos aritméticos y de almacenar pequeñas cantidades de información, una memoria que almacena datos y programas, dispositivos de entrada y salida (teclados, pantallas, etc.) y lo que une a todos; el hecho de que el procesador lee instrucciones de su memoria y las va ejecutando, leyendo y modificando datos de la misma memoria y interactuando mediante sus dispositivos.
+
+Las máquinas con arquitectura de Von Neumann eran infinitamente más versátiles que las máquinas de propósito único anteriores- eran programables y eso hacía que cualquier problema se pudiese afrontar con un programa nuevo, y que las mejoras en potencia de estas se verían traducidas en mejoras en la resolución de todos los problemas- máquinas potentes podrían resolver problemas más complejos y más grandes en menos tiempo.
+
+Pese a mejoras conceptuales, y por supuesto, una brutal evolución tecnológica, el ordenador donde estoy tecleando esto ahora mismo es esencialmente una máquina de Von Neumann según descripciones de hace 66 años, y los problemas que puede resolver no son ni más ni menos que aquellos que podía resolver teóricamente la máquina universal de Turing tal como fue descrita hace 75 años- sorprendentemente en todo esto tiempo aún no hemos inventado nada práctico que pueda resolver algo que no pudiera resolver una máquina de Turing. Además, ahora prácticamente cada dispositivo electrónico es programable- hasta las calculadoras de escritorio son por dentro máquinas de von Neumann (aunque no sean fácilmente programables)- las máquinas de un solo propósito están casi extintas.
+
+Así pues, en más de 60 años hemos visto una descomunal evolución en las máquinas programables- que han pasado de costar millones de euros y ocupar habitaciones a ser asequibles por todo el mundo y hacer cosas que nadie soñó cuando se crearon, pero por contra, aún no hemos superado los principios teóricos postulados por los fundadores de la informática.
+
+### Referencias
+
+=> https://alex.corcoles.net/2011/11/hazanas-informaticas-v-las-maquinas-de-turing-y-von-neumann Hazañas informáticas V: Las máquinas de Turing y Von Neumann
+
+## UNIX
+
+El que hoy nos ocupa es otro jovenzuelo- el sistema operativo UNIX nació en 1970 en un laboratorio de Bell Labs, como sistema operativo para un videojuego implementado por un equipo de programadores aburridos en el proyecto Multics. Con el pretexto de adaptarlo para el procesado de textos, Thompson, Ritchie, Kernighan, McIlroy y Ossanna asentaron una de las dos familias de sistemas operativos que aún hoy pervive con cierta popularidad (la otra sería la familia de los 360 de IBM, que es más antigua aún).
+
+UNIX se basa en conceptos sencillos- se implementa usando el lenguaje C (hijo del recientemente fallecido Ritchie) portable, simple y eficiente en un momento en que los sistemas operativos se implementaban directamente sobre el procesador, ligándolos al hardware para el cuál estaban diseñados y dificultando su desarrollo; un sistema de archivos jerárquico, cualidades de multiusuario y multitarea... todos ellos conceptos imprescindibles hoy en día. Además, introduce la filosofía Unix de programas pequeños comunicándose entre ellos- haciéndolo extremadamente versátil pero simple, una cualidad vital para ser extremadamente apropiado para gente como los programadores.
+
+Pero más allá de ello, UNIX fue "pionero" en el hecho de que su código (junto con el de los compiladores del lenguaje C) fueran distribuidos libremente- la condena de las prácticas monopolísticas de AT&T impedían su comercialización y por contra forzaban a distribuirlo a quien lo pidiera. Si hoy en día es increíblemente costoso desarrollar un sistema operativo, en esa época primitiva, lo era aún más; y los sistemas operativos de la época eran por tanto costosos y, al ser no portables, sólo funcionaban en un determinado tipo de hardware. La distribución de Unix, por tanto, permitía a cualquiera aprovechar su código, adaptarlo al hardware que tenían y disponer de un sistema operativo potente por un coste relativamente bajo.
+
+Lógicamente, mucha gente se sumó al carro- compañías comerciales que lo usaron o incluso lo extendieron y comercializaron (HP, Solaris, IBM, etc.; hasta Microsoft comercializaba su propio Unix hasta el 89). Pero el desarrollo quizás más importante se dio en universidades, particularmente en la de Berkeley en California. En el 83 AT&T quedó liberada de los corsés antimonopolistas y pudo comercializar Unix, movimiento con el cual los Unix no comerciales, y en especial el de Berkeley comenzaron a cobrar importancia, ya que eran los únicos que quedaban como libremente distribuibles.
+
+Los sistemas comerciales siguieron su camino y perduran hasta nuestros días; HPUX, AIX y especialmente Solaris aún son moderadamente populares, sobre todo en grandes entornos comerciales de computación.
+
+Por otra parte, los sistemas académicos también siguieron su evolución paralela.  Del código de Berkeley surgieron sistemas operativos como NetBSD, FreeBSD y OpenBSD- el BSD es de Berkeley Software Distribution- y el nucleo de Darwin que está en las entrañas de Mac OS X (y según dice Apple, el iOS del iPhone, iPod Touch e iPad) es también un "BSD".
+
+En los 90, un estudiante de informática finlandés, frustrado por no disponer de un sistema operativo Unix viable para ordenadores personales (que en aquel entonces eran básicamente Ataris, Amigas, Macs y PCs con MS-DOS y Windows), desarrolló un sistema operativo estilo Unix, aprovechando las herramientas GNU; algo que acabo dando luz a Linux (o GNU/Linux).
+
+Llegando hasta hoy, los Unix comerciales siguen teniendo su importancia en entornos empresariales- Linux y los BSD libres han ganado una gran importancia, OS X es el segundo sistema operativo para ordenadores personales más popular; en el ámbito móvil, Android se basa en Linux y según dice Apple, el iOS del iPhone también, con lo que en realidad, gran parte de los ordenadores de hoy en día son "Unix"- las excepciones más notables son Windows, los sistemas operativos de los mainframes (básicamente los de IBM descendientes de la serie 360) y los sistemas operativos de móviles que no son Android ni iOS (Blackberry está transicionando de su sistema operativo a QNX [un Unix], Nokia aún conserva su Series 40 para móviles de bajo coste y está matando Symbian...).
+
+El mérito de Unix radica en simplemente eso- su sencillez y claridad de conceptos inicial han perdurado hasta nuestros días- siendo difícil la valoración de su repercusión frente a la serie 360, pero claramente siendo uno de los desarrollos informáticos más significativos de la historia de la computación.
+
+### Referencias
+
+=> https://alex.corcoles.net/2011/11/hazanas-informaticas-vi-el-sistema-unix Hazañas informáticas VI: el sistema UNIX
+
+## Los primeros ordenadores personales
+
+Es muy difícil poner fechas e hitos a las cosas. Según la Wikipedia, a mitad de los setenta comenzaron a publicarse diseños de ordenadores que resultaban viables de montarse en casa. Destacan el Altair 8800, que costaba 400 dólares pero que ni siquiera tenía teclado de serie; se podía programar una secuencia de arranque de instrucciones directas al procesador mediante un panel de interruptores. Poco después se pudieron comprar hechos esos teclados conectados al televisor que más que sistema operativo tenían el lenguaje de programación BASIC (ese lenguaje que destaca por el curioso honor de tener en su leyenda a Mary Kenneth Keller, una monja, y a Microsoft).
+
+### Referencias
+
+=> https://alex.corcoles.net/2026/07/la-anomal%C3%ADa La anomalía
+
+## El Amiga, el MS-DOS y los demás
+
+...
+
+## Los ordenadores personales de la era Internet
+
+Windows XP salió en 2001. Mac OS X también. Me compré mi primer ordenador para usarlo exclusivamente con Linux en 2002. (Usaba Linux antes, pero "a tiempo parcial" y con bastantes dificultades.)
+
+En mi casa, en los noventa todavía usábamos el Amiga, pero estaba muriendo poco a poco. Aunque en algún momento tuve cierta interacción con el mundo de las BBS, no sería hasta 1997 cuando entré en la universidad que tuve algo de acceso regular a Internet. En 1999, creo que en casa fuimos de la primera oleada que se abalanzó sobre el ADSL, que era más o menos la primera opción ampliamente disponible para conectarse a Internet sin ocupar una línea de teléfono y con la famosa "tarifa plana" que suponía la rotura de una importante barrera psicológica.
+
+Sobre cómo el acceso a Internet más o menos universal ha cambiado la sociedad ya se ha escrito mucho, pero esta mañana me ha venido a la cabeza su "coincidencia" con el gran cambio en los sistemas operativos "ampliamente disponibles".
+
+Pese a los móviles y demás, Microsoft sigue teniendo el sistema operativo dominante para ordenadores desde los noventa. Pero antes de XP, disculpadme, pero eran sistemas operativos muy malos. No tengo experiencias significativas con Windows antes de Windows 95, pero Windows 95 y 98 eran terriblemente inestables y molestos. Soy consciente de que 95 era una gran evolución sobre 3.11 y MS-DOS, pero para aquellos familiarizados con los Amiga (o los Atari ST, supongo, u otros sistemas que menciono luego), tampoco era tan impresionante.
+
+Y de hecho, tampoco para nadie que estuviese familiarizado con el otro Windows. Hasta Windows XP era inaudito encontrarse con la familia Windows NT en las casas, sólo se usaba en ordenadores potentes y muy caros, pero me consta que mucho antes de Windows XP, las versiones anteriores de Windows NT eran muchísimo mejores que los Windows domésticos equivalentes. Los problemas eran dos; los mayores requerimientos de recursos (incluidos unos 8 ¡megas! más de memoría, que seguramente eran bastante caros en aquella época) y menor compatibilidad con aplicaciones domésticas... ¡sobre todo juegos!
+
+Y ese es el tema. Antes de 2000, había estaciones de trabajo con una experiencia de usuario "parecida" a la que nos sorprendía en el 2000; desde el NeXT (1988), pasando por los UNIX orientados a estaciones de trabajo (en la universidad podía usar sistemas Sun con Solaris que eran una maravilla) o quizá el OS/2 con cuya historia no estoy muy familiarizado. Pero todos ellos estaban fuera del alcance de los usuarios domésticos y seguramente no tenían el software necesario para ser útiles en estos contextos. (Y por supuesto, aunque los UNIX de los 90 tenían juegos, nada comparado a los juegos domésticos de la época, claro.)
+
+La otra dinastía es la del Mac. Pero el sistema operativo "clásico" de Apple anterior al OS X es según entiendo bastante bueno, pero con problemas de inestabilidad similares a los que tenía Windows antes de XP. La adopción de las entrañas de NeXT (un sistema bastante UNIX) es lo que llevó a Apple a tener un sistema operativo para este milenio.
+
+Linux apareció antes, en 1991. Pero no nos engañemos, aunque es discutible si hoy en día está preparado para el usuario doméstico, definitivamente si lo está, ha sido mucho más tarde de 1991. Y en mi opinión, el Linux "usable" coincide bastante con la llegada de XP y OS X.
+
+Seguramente no sea una coincidencia que la entrada del milenio trajese estos avances. Creo que todo el mundo que ha vivido el antes y el después de Windows XP y Mac OS X, lo marca como una de las transiciones más importantes. Desde luego, con la aparición de Internet y el incremento en el tiempo que pasábamos en nuestros hogares delante de un ordenador, era necesaria la aparición de sistemas operativos asequibles y robustos. Los avances en coste/potencia de los ordenadores llegaron al punto necesario para ellos, y seguramente las empresas comenzaron a ampliar la inversión en el mercado doméstico, que antes de Internet consistía mayormente de videojuegos.
+
+¿Hubiese sido distinta la historia con ciertos cambios? ¿Qué hubiese pasado si el hardware para mover Windows NT hubiese costado lo suficiente como para ponerlo en las casas? ¿O si Amiga o Atari no hubiesen implosionado? ¿O si OS/2 hubiese triunfado? Quizá Linux tal como lo entendemos hoy no existiría, pues creo que gran parte de su evolución se debe a las frustraciones de los Windows anteriores a XP. Quizá algún día un ejecutivo de Sun Microsystems tuvo la idea de fabricar un ordenador doméstico con Solaris, pero se le olvidó al salir de la ducha[1].
+
+### Referencias
+
+=> https://alex.corcoles.net/2025/01/los-sistemas-operativos-y-un-amanecer-de-internet Los sistemas operativos y un amanecer de Internet
+
+=> https://www.datagubbe.se/amix/ [1] Sobre los intentos de Sun Microsystems de sacar una estación de trabajo de bajo coste con Commodore basada en el Amiga. El proyecto acabo en el A3000UX que salió sólo con el impulso de Commodore en 1991. Por cinco mil dólares de la época tampoco cambió las cosas, pero bueno, que mi universo paralelo no estuvo tan lejos.
+
+## Los móviles
+
+Desde el día (hace más de cuarenta años) en que pude escribir en un teclado y hacer aparecer letras en una tele, me han fascinado los ordenadores. Mucho antes de que apareciesen los ordenadores, existían máquinas que podían realizar tareas muy complejas y útiles, pero ninguna tan versátil como un ordenador, porque el ordenador es programable.
+
+Si lo pensáis, esto es lo que hace que los ordenadores hayan conquistado el mundo. Cualquiera puede coger un ordenador, aprender cómo funciona, aprender a programarlo y descubrir nuevas cosas que hacer con el aparato. Y así, se han convertido en una de las herramientas más versátiles que podemos tener.
+
+Pero después de la revolución del ordenador personal, llegó la revolución del smartphone. Tras la conquista del mundo por los ordenadores, está claro que los móviles le han comido la tostada a los ordenadores y se han hecho con su territorio.
+
+¿No es el móvil un ordenador? Sí y no. Sí, se puede programar un móvil (me da un poco igual que en general necesitas un ordenador para programar un móvil), pero cada vez menos.
+
+Poco a poco se van introduciendo medidas de control. Aunque Apple se lleva gran parte de la fama sobre dispositivos cerrados, Google no es que ande tan lejos. Llevo días trasteando intentando inspeccionar qué hace una aplicación de Android. Me encuentro capa tras capa de protecciones, problemas e impedimentos que hacen evidente que tenemos mucho menos control de los móviles que de los ordenadores.
+
+Hay justificaciones más o menos aceptables a algunas de estas medidas de control. Puede disgustarnos que los artistas quieran imponer restricciones al consumo de sus obras para ganar dinero con ellas, pero hay suficientes artistas que no lo hacen para que podamos escoger consumir sólo productos sin restricciones.
+
+Pero la aplicación que estoy inspeccionando no está en esta situación. Lo que quiero hacer no va a hacer perder dinero a la empresa que lleva la aplicación (si acaso, lo contrario); sólo circunvalar defectos de usabilidad que me irritan y que esta empresa no piensa corregir. Quizá esta empresa esté justificada en buscar ciertas protecciones, pero en mi opinión estas protecciones no tienen por qué pasar por trabas infinitas para que yo no pueda saber qué se está ejecutando en un dispositivo de mi propiedad.
+
+Es complicado enmarcar esta discusión adecuadamente. Ya hace varias décadas que hay voces clamando contra estos movimientos. Y aunque hay críticas sin sentido, cada vez más hay mensajes que parecían disparates imposibles que han resultado ser previsiones milimétricas.
+
+Siempre digo que si hubiese llegado al mundo no muchos años más tarde, no sé si hubiese recorrido el mismo camino. Me preocupa que la versatilidad del ordenador ya no reina. Conforme menos gente juega con máquinas programables, a menos gente se le ocurren cosas nuevas que nos hagan avanzar.
+
+Es cierto que hay problemas mucho más graves en este mundo, pero todos tenemos nuestras preocupaciones idiosincráticas y esta es una de las mías. Si os halláis en un cruce de caminos, y uno de los caminos lleva a más pérdida de control sobre nuestros ordenadores, si podéis escoger el otro camino, aunque os suponga una inconveniencia, os animo a que vayáis por la senda menos transitada. Creo que todos saldremos ganando con ello.
+
+### Referencias
+
+=> https://alex.corcoles.net/2025/02/el-lento-adios-a-la-magia-de-los-ordenadores El lento adiós a la magia de los ordenadores
+
+## Ordenadores como habitaciones (segunda parte)
+
+El acceso a la tecnología es lo que acelera su desarrollo. Tras cuarenta años contando cosas y calculando trayectorias balísticas, en prácticamente un par de años de ordenadores en casa nacieron las primeras BBS ("bulletin board service", la Wikipedia española propone "tablón de anuncios") que conectaban ordenadores domésticos. Internet ya existía desde hace tiempo, pero en universidades y empresas; Internet iría sustituyendo a las BBS poco a poco durante un par de décadas.
+
+Aparte de tener el mágico ordenador programable en casa, la otra parte de la anomalía es que este ordenador programable era prácticamente abierto y manipulable, pero a pesar de ello poco a poco lo pudimos usar para partes imprescindibles de la vida. No sólo para comunicarnos con otras personas, sino también para hacer trámites, comprar, escuchar música o ver la tele. Me parece alucinante que básicamente el sistema con el que puedo presentar la declaración de la renta sea un heredero de esos ordenadores que la gente ensamblaba siguiendo las instrucciones de una revista y usando un sistema operativo cuyos origenes están en el tiempo libre de estudiantes y peterpanes.
+
+Pero la tendencia es que esto desaparezca. Es cierto que ha habido muchos momentos en los que para hacer estos "trámites vitales" teníamos que pasar por sistemas cerrados como Microsoft Windows (sí, esos que aparecen unos párrafos más arriba por sus BASICs en esos ordenadores programables domésticos), pero hemos tenido largos destellos de unos usos sin restricciones que comenzamos a añorar.
+
+Es agridulce, porque creo que la anomalía ha pasado su punto álgido. Creo que no desaparecerá, pero simplemente pasará a un segundo plano (con malas consecuencias, creo yo). Lo de "The Eternal Mainframe" que me ha hecho escribir esto y mis escritos anteriores citados al principio intentan explicar el cómo y el por qué. Lo que sigue es cómo creo que sobrevivirá la anomalía. (Curiosamente, cuatro parráfos tras bastantes más de introducción.)
+
+### Referencias
+
+=> https://alex.corcoles.net/2026/07/la-anomal%C3%ADa La anomalía
+
+## Resistid
+
+Los trámites que hacíamos en un ordenador abierto y programable se irán cada vez más a los móviles poco programables y cerrados excepto para Apple y Google, de las empresas con más poder que existen (precisamente en parte por este control que ejercen). Lo mismo pasará con muchas otras cosas; los jóvenes ya no se reirán de los viejos porque insistan en hacer cosas en el ordenador, porque ya no podrán.
+
+Y la verdad, no pasa (casi) nada.
+
+Espero que durante más tiempo del que me importa, sigamos pudiendo comprar ordenadores programables y no tener que ensamblarlos a partir de instrucciones en papel. Las posibilidades del ordenador programable seguirán siendo infinitas como lo han sido siempre para el que ha querido dedicarse a ellas. El otro componente es que de una manera u otra seguiremos pudiendo enviar ceros y uno de una punta a otra del mundo a un coste ridículo. Incluso comenzamos a tener buenas piezas para evitar alguna de las perversiones de la estructura de Internet que han entorpecido la anomalía (curiosamente, veo que no he escrito aquí sobre la red Yggdrasil y que lo que encuentro rápidamente sobre este tema son doce palabras en 2005; nota mental: hay que escribir una entrega sobre este tema).
+
+Las comunidades serán más pequeñas y los efectos creo que también. Por verle el lado positivo, el esfuerzo masivo que se ha dedicado a hacer que el ordenador programable sea útil para el mundo real quizá ya no sean necesarios: la inacabable ingeniería inversa para hacer funcionar sistemas operativos abiertos sobre ordenadores no diseñados con ese propósito, los bizantinos navegadores que intentan seguir la estela de Apple y Google; todos esos esfuerzos quizá se puedan destinar a otras cosas que hagamos con esos ordenadores programables si le dejamos las cosas oficiales a un aparato que no nos suponga un gran esfuerzo económico. Y quizá si le dedicamos más atención al ordenador programable con teclado al que acudimos explícitamente en peregrinamiento en vez de al pequeño aparato que inconscientemente ocupa nuestra mente por estar siempre en el bolsillo, haremos cosas más interesantes gracias a usar el aparato más interesante.
+
+### Referencias
+
+=> https://alex.corcoles.net/2026/07/la-anomal%C3%ADa La anomalía
