@@ -4,6 +4,8 @@ Cuando tenía cuatro años, un Commodore 64 apareció en casa. A mi madre le gus
 
 En este texto quiero hablar de los ordenadores programables, un invento significativo de la humanidad. Hablaré de sus antecedentes, de sus manifestaciones primitivas y de los largos linajes, pero también de los indicios de su decadencia.
 
+Llamo a esto mi historia de la programación porque la cuento desde mi experiencia personal, mis puntos de vista y con la narrativa que yo veo. Los ordenadores programables han tenido una gran influencia sobre mí y quiero intentar explicar porqué creo que ha sido así. Además, creo que podemos aprender de la historia que quiero contar y actuar para que los frutos de los ordenadores programables sigan nutriéndonos por mucho tiempo.
+
 De momento, este texto es un esquema con emplastes de entradas de mi blog sobre estos temas. Espero con el tiempo poder convertirlo en un texto lineal y engarzado.
 
 ## La prehistoria
