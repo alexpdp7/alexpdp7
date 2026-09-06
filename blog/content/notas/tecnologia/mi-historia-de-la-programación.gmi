@@ -23,6 +23,8 @@ Antes de 1936, existían bastantes máquinas bastante parecidas a ordenadores- e
 
 ## Ordenadores como habitaciones (primera parte)
 
+(Notas de puntos a tratar: estos ordenadores sólo eran accesibles a grandes empresas y universidades. Pero pronto [y más en la posterior era UNIX] se podrían programar casi como hoy en día.)
+
 En 1936, Turing, uno de los padres fundadores, describió una sencilla máquina teórica que consiste en un cabezal situado sobre una cinta (infinita) que contiene símbolos. El cabezal puede desplazarse por la cinta, leyendo y escribiendo símbolos. Esta máquina tiene un estado, y según lo que lee mediante el cabezal, puede alterar su estado, desplazarse y escribir.
 
 Esta construcción simple (la definición informal es de un par de líneas; la formal no es mucho más larga) es sin embargo muy flexible. Dada una definición de estados y comportamientos adecuados, la máquina de Turing puede realizar, por ejemplo, cualquier cálculo que se nos ocurra; dada una cinta con símbolos que describan números, puede sumarlos, multiplicarlos, etc. y en general, realizar cualquier computación que pueda realizar un ordenador de hoy en día. Esto tiene un primer interés; la máquina de Turing puede modelizar cualquier proceso informatizable, y por tanto, nos puede servir como base teórica para analizarlos- podemos describir una máquina de Turing (sus comportamientos, símbolos, movimientos, estados, etc.) que realice cualquier cálculo.
@@ -49,6 +51,8 @@ Así pues, en más de 60 años hemos visto una descomunal evolución en las máq
 
 ## UNIX
 
+(Notas sobre puntos a tratar: todavía no estaban al alcance del público en general. Aparición del C que perdura hasta hoy.)
+
 El que hoy nos ocupa es otro jovenzuelo- el sistema operativo UNIX nació en 1970 en un laboratorio de Bell Labs, como sistema operativo para un videojuego implementado por un equipo de programadores aburridos en el proyecto Multics. Con el pretexto de adaptarlo para el procesado de textos, Thompson, Ritchie, Kernighan, McIlroy y Ossanna asentaron una de las dos familias de sistemas operativos que aún hoy pervive con cierta popularidad (la otra sería la familia de los 360 de IBM, que es más antigua aún).
 
 UNIX se basa en conceptos sencillos- se implementa usando el lenguaje C (hijo del recientemente fallecido Ritchie) portable, simple y eficiente en un momento en que los sistemas operativos se implementaban directamente sobre el procesador, ligándolos al hardware para el cuál estaban diseñados y dificultando su desarrollo; un sistema de archivos jerárquico, cualidades de multiusuario y multitarea... todos ellos conceptos imprescindibles hoy en día. Además, introduce la filosofía Unix de programas pequeños comunicándose entre ellos- haciéndolo extremadamente versátil pero simple, una cualidad vital para ser extremadamente apropiado para gente como los programadores.
@@ -73,6 +77,8 @@ El mérito de Unix radica en simplemente eso- su sencillez y claridad de concept
 
 ## Los primeros ordenadores personales
 
+(Notas de puntos a tratar: disponibles para el público en general, pero todavía era muy dificultoso programarlos, muchas veces se programaban desde ordenadores más potentes. Casi sólo juegos.)
+
 Es muy difícil poner fechas e hitos a las cosas. Según la Wikipedia, a mitad de los setenta comenzaron a publicarse diseños de ordenadores que resultaban viables de montarse en casa. Destacan el Altair 8800, que costaba 400 dólares pero que ni siquiera tenía teclado de serie; se podía programar una secuencia de arranque de instrucciones directas al procesador mediante un panel de interruptores. Poco después se pudieron comprar hechos esos teclados conectados al televisor que más que sistema operativo tenían el lenguaje de programación BASIC (ese lenguaje que destaca por el curioso honor de tener en su leyenda a Mary Kenneth Keller, una monja, y a Microsoft).
 
 ### Referencias
@@ -80,6 +86,8 @@ Es muy difícil poner fechas e hitos a las cosas. Según la Wikipedia, a mitad d
 => https://alex.corcoles.net/2026/07/la-anomal%C3%ADa La anomalía
 
 ## El Amiga, el MS-DOS y los demás
+
+(Notas sobre puntos a tratar: los primeros ordenadores disponibles para el público en general que se podían programar casi tan bien como los sistemas más potentes.)
 
 ...
 
