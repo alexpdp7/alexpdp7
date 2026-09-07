@@ -68,7 +68,7 @@ Además, debido a su enorme coste, sólo unos pocos tenían acceso a ellos por p
 
 ## UNIX
 
-Las máquinas programables fueron evolucionando. De tarjetas perforadas se pasó a teletipos y pantallas con lo que el proceso de uso de los ordenadores cambió. De limitarse a introducir programas en tarjetas perforadas y esperar los resultados, los sistemas con teletipo eran mucho más interactivos. Los programas para estos sistemas podían, por ejemplo, preguntar datos al operador y realizar cálculos sobre esos datos al momento o confeccionar los programas directamente sentados delante del teletipo.
+Las máquinas programables fueron evolucionando. De tarjetas perforadas se pasó a teletipos y pantallas con lo que el proceso de uso de los ordenadores cambió. De limitarse a introducir programas en tarjetas perforadas y esperar los resultados, los sistemas con teletipo eran mucho más interactivos. Los programas para estos sistemas podían, por ejemplo, preguntar datos al operador y realizar cálculos sobre esos datos al momento o confeccionar los programas directamente sentados delante del teletipo, acelerando considerablemente el proceso del desarrollo del software.
 
 Nos centraremos aquí en el sistema operativo UNIX nació en 1970 en un laboratorio de Bell Labs, como sistema operativo para un videojuego implementado por un equipo de programadores aburridos en el proyecto Multics. Con el pretexto de adaptarlo para el procesado de textos, Thompson, Ritchie, Kernighan, McIlroy y Ossanna asentaron una de las dos familias de sistemas operativos que aún hoy pervive con cierta popularidad (la otra sería la familia de los 360 de IBM, que es más antigua aún).
 
@@ -104,6 +104,8 @@ En 1985, Commodore, la empresa que lanzó el ordenador personal más vendido de 
 
 Sin embargo, el Amiga estaba todavía más cerca de las máquinas UNIX. Como estas, pero a diferencia de los primeros PC, su sistema operativo podía ejecutar varios programas simultáneamente, aunque con menos robustez que los sistemas UNIX con capacidades hardware y mayor evolución en este sentido. (La primera versión de Microsoft Windows de 1985 también tenía esta funcionalidad, pero Windows era un sistema operativo mucho menos usado en los PC que el MS-DOS; hasta 1990 Windows no tendría un éxito significativo.) Además, el Amiga contaba con unas capacidades multimedia (gráficos, sonido) que aunque hoy nos parecerían primitivas, no fueron igualadas por los PC hasta mucho más tarde. Con sus capacidades multimedia, el Amiga además tenía un gancho mucho más potente; permitía hacer música que hasta podía entrar en las listas de éxitos y dar unos videojuegos con poco de envidiar a los de los salones de máquinas recreativas.
 
+Los sistemas con MS-DOS y con Windows acabarían matando al Amiga pronto. Los PC eran inmensamente más populares en las empresas y más allá de los juegos, había muchísimo desarrollo de software de productividad, tanto doméstica como empresarial. El desarrollo de software sobre los PC iba acortando la ventaja acumulada durante años por los sistemas UNIX, especialmente tras alcanzar los PC la suficiente potencia como para poder llevar a cabo la gestión de empresas cada vez más grandes.
+
 El Amiga quizá sería el primer ordenador personal al alcance del gran público que nos resultaría en muchos sentidos equivalente a los ordenadores que conocemos. Junto al vinieron otros sistemas, basados en el mismo procesador Motorola 68000 como los primeros Macintosh de Apple y el ST de Atari con capacidades similares. En conjunto con los PC, fueron los primeros ordenadores programables con suficiente potencia para proporcionar un entorno de programación como los que conocemos hoy, con el que programar quedaba más al alcance de la mayoría de sus usuarios.
 
 ## Los ordenadores personales de la era Internet
@@ -120,11 +122,13 @@ Antes de 2000, había estaciones de trabajo con una experiencia de usuario "pare
 
 Pero estos sistemas, junto con el acceso a todo el material sobre programación que había sido desarrollado en los sistemas UNIX durante décadas representó un salto cualitativo para muchos programadores. De repente no sólo disponían de entornos de programación punteros, sino que además tenían acceso código y materiales sobre programación que en épocas anteriores estaban al alcance de muy pocos.
 
+Curiosamente, esta terna de sistemas operativos también resultó ser más o menos el fin de los sistemas UNIX anteriores. Linux, con su modelo de código abierto, devoró a los UNIX comerciales que seguían existiendo, y Windows poco a poco se quedó con la otra parte del pastel. Del linaje del UNIX original, sólo sobreviven hoy en día, con mucha menos popularidad que Linux, los BSD como FreeBSD o NetBSD que todavía se derivan de la implementación de UNIX de la universidad de Berkeley.
+
 ### Referencias
 
 => https://alex.corcoles.net/2025/01/los-sistemas-operativos-y-un-amanecer-de-internet Los sistemas operativos y un amanecer de Internet
 
-## Los móviles
+## Los móviles y ordenadores como habitaciones (segunda parte)
 
 Después de la revolución del ordenador personal y de Internet, llegó la revolución del smartphone. Ya con Internet asentado en el gran público, muchos marcarían 2007 y la introducción del iPhone como el momento en que comenzamos a tener en el bolsillo un dispositivo con acceso continuo a Internet.
 
@@ -134,25 +138,18 @@ Además, poco a poco se van introduciendo medidas de control. Con justificacione
 
 Nuestra relación con los móviles también es distinta a los ordenadores personales. Hasta los ordenadores portátiles más pequeños disponen de unas pantallas más grandes que la de cualquier móvil y tablet, y los teclados táctiles de los móviles son inútiles y tediosos salvo para los usos más limitados y breves. No sólo olvidémonos de programar en estos dispositivos, sino de cualquier tipo de actividad exigente. Los móviles y tablets nos llevan un poco al pasado de los ordenadores de los ochenta, sobre todo utilizados para juegos y otras actividades de ocio.
 
-### Referencias
-
-=> https://alex.corcoles.net/2025/02/el-lento-adios-a-la-magia-de-los-ordenadores El lento adiós a la magia de los ordenadores
-
-## Ordenadores como habitaciones (segunda parte)
-
 El acceso a la tecnología es lo que acelera su desarrollo. Tras cuarenta años contando cosas y calculando trayectorias balísticas, en prácticamente un par de años de ordenadores en casa nacieron las primeras BBS ("bulletin board service", la Wikipedia española propone "tablón de anuncios") que conectaban ordenadores domésticos. Internet ya existía desde hace tiempo, pero en universidades y empresas; Internet iría sustituyendo a las BBS poco a poco durante un par de décadas.
 
 Aparte de tener el mágico ordenador programable en casa, la otra parte de la anomalía es que este ordenador programable era prácticamente abierto y manipulable, pero a pesar de ello poco a poco lo pudimos usar para partes imprescindibles de la vida. No sólo para comunicarnos con otras personas, sino también para hacer trámites, comprar, escuchar música o ver la tele. Me parece alucinante que básicamente el sistema con el que puedo presentar la declaración de la renta sea un heredero de esos ordenadores que la gente ensamblaba siguiendo las instrucciones de una revista y usando un sistema operativo cuyos origenes están en el tiempo libre de estudiantes y peterpanes.
 
 Pero la tendencia es que esto desaparezca. Es cierto que ha habido muchos momentos en los que para hacer estos "trámites vitales" teníamos que pasar por sistemas cerrados como Microsoft Windows (sí, esos que aparecen unos párrafos más arriba por sus BASICs en esos ordenadores programables domésticos), pero hemos tenido largos destellos de unos usos sin restricciones que comenzamos a añorar.
 
-Es agridulce, porque creo que la anomalía ha pasado su punto álgido. Creo que no desaparecerá, pero simplemente pasará a un segundo plano (con malas consecuencias, creo yo). Lo de "The Eternal Mainframe" que me ha hecho escribir esto y mis escritos anteriores citados al principio intentan explicar el cómo y el por qué. Lo que sigue es cómo creo que sobrevivirá la anomalía. (Curiosamente, cuatro parráfos tras bastantes más de introducción.)
-
 ### Referencias
 
+=> https://alex.corcoles.net/2025/02/el-lento-adios-a-la-magia-de-los-ordenadores El lento adiós a la magia de los ordenadores
 => https://alex.corcoles.net/2026/07/la-anomal%C3%ADa La anomalía
 
-## Resistid
+## El camino adelante
 
 Los trámites que hacíamos en un ordenador abierto y programable se irán cada vez más a los móviles poco programables y cerrados excepto para Apple y Google, de las empresas con más poder que existen (precisamente en parte por este control que ejercen). Lo mismo pasará con muchas otras cosas; los jóvenes ya no se reirán de los viejos porque insistan en hacer cosas en el ordenador, porque ya no podrán.
 
