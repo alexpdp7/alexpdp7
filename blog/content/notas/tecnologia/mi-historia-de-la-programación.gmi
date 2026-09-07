@@ -10,10 +10,25 @@ De momento, este texto es un esquema con emplastes de entradas de mi blog sobre 
 
 ## La prehistoria
 
-* El algoritmo de Euclides
-* Ada
+Desde mucho antes que los ordenadores, la humanidad ha hecho cálculos. Para las operaciones que no podemos memorizar o que no nos resultan obvias, a menudo buscamos procedimientos para realizarlos a partir de pasos bien definidos.
 
-Antes de 1936, existían bastantes máquinas bastante parecidas a ordenadores- existían calculadoras, máquinas de codificación como la Enigma, etc.; hasta los griegos construyeron máquinas que podían calcular la posición de las estrellas en el firmamento[1]. Sin embargo, ninguna de estas máquinas tenía la flexibilidad que tienen los ordenadores de hoy en día- las calculadoras pueden hacer operaciones matemáticas, Enigma podía codificar y decodificar textos, el mecanismo de Anticitera podía localizar los astros- pero ninguna de ellas podía hacer nada más que aquello para lo que estaban pensadas.
+Por ejemplo, para sumar dos números grandes, los escribimos alineados y sumamos las cifras de derecha a izquierda. También disponemos de procedimientos similares para otras operaciones matemáticas como la multiplicación o división.
+
+Estos procedimientos son algoritmos, que fueron una gran motivación en el desarrollo de las máquinas de calcular.
+
+Los matemáticos han ido inventando algoritmos más complejos con el paso del tiempo. Por ejemplo, para calcular el máximo común divisor de dos números se usa el algoritmo de Euclides (que probablemente no fue inventado por Euclides). En este algoritmo, vamos dividiendo los dos números de los que queremos calcular el máximo común divisor y repitiendo los pasos sustituyendo el número más grande por el resto de la división.
+
+Estos algoritmos se pueden realizar en lápiz y papel, pero conforme vamos tratando con datos de mayor tamaño, realizarlos a mano es cada vez más costoso y con mayor probabilidad de error.
+
+Quienes necesitaban realizar estos cálculos buscaban maneras de acelerarlos y hacerlos de una manera más automática. Por ejemplo, los ábacos son instrumentos que automatizan el cálculo de operaciones aritméticas simples.
+
+También se han fabricado máquinas para hacer operaciones más complejas. Por ejemplo, el mecanismo de Anticitera permitía calcular la posición de los astros allá por el siglo II a.c. También se han fabricado telares automáticos que pueden realizar patrones complejos.
+
+Precisamente los telares automáticos son la inspiración que llevo a Charles Babbage a intentar construir máquinas de calcular. Babbage no consiguió construir ni su máquina más sencilla, la máquina diferencial para hacer cálculos aritméticos, pero entre 1989 y 1991 el museo de la ciencia de Londres construyó una máquina diferencial a partir de sus planos que funcionaba. Babbage se dio cuenta que se podría generalizar su máquina diferencial, de manera de que se le pudiesen describir algoritmos más complejos y la máquina los ejecutase, y se centró en el diseño de esta máquina analítica que realizaba operaciones siguiendo las instrucciones descritas en tarjetas perforadas como las que se usaban en los telares automáticos para describir los patrones a tejer.
+
+Ada Lovelace, hija de Lord Byron y amiga de Babbage entendió que la máquina analítica podría ir más allá. No sólo trabajó en describir algoritmos complejos como instrucciones para la máquina analítica, sino que propuso que estas máquinas podrían servir para manipular otra información como notas musicales. Ada Lovelace nunca vio el futuro que imaginó, pero por sus primeros algoritmos para la máquina analítica se la considera la primera programadora de la historia.
+
+A pesar de que la máquina analítica tal como la diseñó Babbage todavía no ha sido construida, la podemos considerar como el primer ordenador programable de la historia. A diferencia del mecanismo de Anticitera, el telar automático y tantas otras máquinas complejas, que sólo podían realizar la operación específica para la que habían sido diseñadas, la máquina analítica podía realizar operaciones arbitrarias.
 
 ### Referencias
 
@@ -41,9 +56,11 @@ La arquitectura de von Neumann es en sí muy parecida a la máquina universal de
 
 Las máquinas con arquitectura de Von Neumann eran infinitamente más versátiles que las máquinas de propósito único anteriores- eran programables y eso hacía que cualquier problema se pudiese afrontar con un programa nuevo, y que las mejoras en potencia de estas se verían traducidas en mejoras en la resolución de todos los problemas- máquinas potentes podrían resolver problemas más complejos y más grandes en menos tiempo.
 
-Pese a mejoras conceptuales, y por supuesto, una brutal evolución tecnológica, el ordenador donde estoy tecleando esto ahora mismo es esencialmente una máquina de Von Neumann según descripciones de hace 66 años, y los problemas que puede resolver no son ni más ni menos que aquellos que podía resolver teóricamente la máquina universal de Turing tal como fue descrita hace 75 años- sorprendentemente en todo esto tiempo aún no hemos inventado nada práctico que pueda resolver algo que no pudiera resolver una máquina de Turing. Además, ahora prácticamente cada dispositivo electrónico es programable- hasta las calculadoras de escritorio son por dentro máquinas de von Neumann (aunque no sean fácilmente programables)- las máquinas de un solo propósito están casi extintas.
+Las primeras máquinas de Von Neumann tenían el tamaño de habitaciones y su programación era infinitamente tediosa y muy diferente a la programación que conocemos hoy en día. Inicialmente se programaban mediante las tarjetas perforadas usadas por los telares automáticos y que Babbage propuso para su máquina analítica. Es decir, el programador no usaba el ordenador para escribir el programa, lo confeccionaba a mano con papel y lápiz, lo traducía a tarjetas perforadas que entonces se introducían en el ordenador para producir el resultado.
 
-Así pues, en más de 60 años hemos visto una descomunal evolución en las máquinas programables- que han pasado de costar millones de euros y ocupar habitaciones a ser asequibles por todo el mundo y hacer cosas que nadie soñó cuando se crearon, pero por contra, aún no hemos superado los principios teóricos postulados por los fundadores de la informática.
+Estos fueron los primeros ordenadores programables, aunque aún eran muy diferentes de los ordeandores programables modernos.
+
+Además, debido a su enorme coste, sólo unos pocos tenían acceso a ellos por pertenecer a universidades o grandes empresas que podían disponer de ellos.
 
 ### Referencias
 
