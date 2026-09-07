@@ -70,7 +70,9 @@ Además, debido a su enorme coste, sólo unos pocos tenían acceso a ellos por p
 
 (Notas sobre puntos a tratar: todavía no estaban al alcance del público en general. Aparición del C que perdura hasta hoy.)
 
-El que hoy nos ocupa es otro jovenzuelo- el sistema operativo UNIX nació en 1970 en un laboratorio de Bell Labs, como sistema operativo para un videojuego implementado por un equipo de programadores aburridos en el proyecto Multics. Con el pretexto de adaptarlo para el procesado de textos, Thompson, Ritchie, Kernighan, McIlroy y Ossanna asentaron una de las dos familias de sistemas operativos que aún hoy pervive con cierta popularidad (la otra sería la familia de los 360 de IBM, que es más antigua aún).
+Las máquinas programables fueron evolucionando. De tarjetas perforadas se pasó a teletipos y pantallas con lo que el proceso de uso de los ordenadores cambió. De limitarse a introducir programas en tarjetas perforadas y esperar los resultados, los sistemas con teletipos eran mucho más interactivos. Los programas para estos sistemas podían, por ejemplo, preguntar datos al operador y realizar cálculos sobre esos datos al momento.
+
+Nos centraremos aquí en el sistema operativo UNIX nació en 1970 en un laboratorio de Bell Labs, como sistema operativo para un videojuego implementado por un equipo de programadores aburridos en el proyecto Multics. Con el pretexto de adaptarlo para el procesado de textos, Thompson, Ritchie, Kernighan, McIlroy y Ossanna asentaron una de las dos familias de sistemas operativos que aún hoy pervive con cierta popularidad (la otra sería la familia de los 360 de IBM, que es más antigua aún).
 
 UNIX se basa en conceptos sencillos- se implementa usando el lenguaje C (hijo del recientemente fallecido Ritchie) portable, simple y eficiente en un momento en que los sistemas operativos se implementaban directamente sobre el procesador, ligándolos al hardware para el cuál estaban diseñados y dificultando su desarrollo; un sistema de archivos jerárquico, cualidades de multiusuario y multitarea... todos ellos conceptos imprescindibles hoy en día. Además, introduce la filosofía Unix de programas pequeños comunicándose entre ellos- haciéndolo extremadamente versátil pero simple, una cualidad vital para ser extremadamente apropiado para gente como los programadores.
 
@@ -78,15 +80,11 @@ Pero más allá de ello, UNIX fue "pionero" en el hecho de que su código (junto
 
 Lógicamente, mucha gente se sumó al carro- compañías comerciales que lo usaron o incluso lo extendieron y comercializaron (HP, Solaris, IBM, etc.; hasta Microsoft comercializaba su propio Unix hasta el 89). Pero el desarrollo quizás más importante se dio en universidades, particularmente en la de Berkeley en California. En el 83 AT&T quedó liberada de los corsés antimonopolistas y pudo comercializar Unix, movimiento con el cual los Unix no comerciales, y en especial el de Berkeley comenzaron a cobrar importancia, ya que eran los únicos que quedaban como libremente distribuibles.
 
-Los sistemas comerciales siguieron su camino y perduran hasta nuestros días; HPUX, AIX y especialmente Solaris aún son moderadamente populares, sobre todo en grandes entornos comerciales de computación.
+Los sistemas comerciales siguieron su camino y perduran hasta nuestros días; HPUX, AIX y Solaris entraron en declive a principios del siglo XXI.
 
-Por otra parte, los sistemas académicos también siguieron su evolución paralela.  Del código de Berkeley surgieron sistemas operativos como NetBSD, FreeBSD y OpenBSD- el BSD es de Berkeley Software Distribution- y el nucleo de Darwin que está en las entrañas de Mac OS X (y según dice Apple, el iOS del iPhone, iPod Touch e iPad) es también un "BSD".
+Por otra parte, los sistemas académicos también siguieron su evolución paralela.  Del código de Berkeley surgieron sistemas operativos como NetBSD, FreeBSD y OpenBSD.
 
-En los 90, un estudiante de informática finlandés, frustrado por no disponer de un sistema operativo Unix viable para ordenadores personales (que en aquel entonces eran básicamente Ataris, Amigas, Macs y PCs con MS-DOS y Windows), desarrolló un sistema operativo estilo Unix, aprovechando las herramientas GNU; algo que acabo dando luz a Linux (o GNU/Linux).
-
-Llegando hasta hoy, los Unix comerciales siguen teniendo su importancia en entornos empresariales- Linux y los BSD libres han ganado una gran importancia, OS X es el segundo sistema operativo para ordenadores personales más popular; en el ámbito móvil, Android se basa en Linux y según dice Apple, el iOS del iPhone también, con lo que en realidad, gran parte de los ordenadores de hoy en día son "Unix"- las excepciones más notables son Windows, los sistemas operativos de los mainframes (básicamente los de IBM descendientes de la serie 360) y los sistemas operativos de móviles que no son Android ni iOS (Blackberry está transicionando de su sistema operativo a QNX [un Unix], Nokia aún conserva su Series 40 para móviles de bajo coste y está matando Symbian...).
-
-El mérito de Unix radica en simplemente eso- su sencillez y claridad de conceptos inicial han perdurado hasta nuestros días- siendo difícil la valoración de su repercusión frente a la serie 360, pero claramente siendo uno de los desarrollos informáticos más significativos de la historia de la computación.
+Sin embargo, aunque las máquinas que ejecutaban UNIX (y otros sistemas operativos de la época) eran menos gigantescas, seguían estando al alcance de muy pocos.
 
 ### Referencias
 
@@ -94,9 +92,11 @@ El mérito de Unix radica en simplemente eso- su sencillez y claridad de concept
 
 ## Los primeros ordenadores personales
 
-(Notas de puntos a tratar: disponibles para el público en general, pero todavía era muy dificultoso programarlos, muchas veces se programaban desde ordenadores más potentes. Casi sólo juegos.)
+Es muy difícil poner fechas e hitos a las cosas. Según la Wikipedia, a mitad de los setenta comenzaron a publicarse diseños de ordenadores que resultaban viables de montarse en casa. Destacan el Altair 8800 de 1974, que costaba 400 dólares pero que ni siquiera tenía teclado de serie; se podía programar una secuencia de arranque de instrucciones directas al procesador mediante un panel de interruptores. Poco después se pudieron comprar hechos esos teclados conectados al televisor que más que sistema operativo tenían el lenguaje de programación BASIC (ese lenguaje que destaca por el curioso honor de tener en su leyenda a Mary Kenneth Keller, una monja, y a Microsoft).
 
-Es muy difícil poner fechas e hitos a las cosas. Según la Wikipedia, a mitad de los setenta comenzaron a publicarse diseños de ordenadores que resultaban viables de montarse en casa. Destacan el Altair 8800, que costaba 400 dólares pero que ni siquiera tenía teclado de serie; se podía programar una secuencia de arranque de instrucciones directas al procesador mediante un panel de interruptores. Poco después se pudieron comprar hechos esos teclados conectados al televisor que más que sistema operativo tenían el lenguaje de programación BASIC (ese lenguaje que destaca por el curioso honor de tener en su leyenda a Mary Kenneth Keller, una monja, y a Microsoft).
+Entre los setenta y principios de los ochenta, fueron apareciendo más ordenadores personales que cada vez llegaban a más hogares.
+
+Estos ordenadores eran infinitamente más baratos que los ordenadores más potentes que encontrábamos en las empresas y universidades y por tanto también eran mucho más limitados. De hecho, principalmente servían para videojuegos sencillos y pequeñas herramientas de productividad. Llamativamente, aunque se podía programar en BASIC u otros lenguajes en la mayoría de ellos, era extremadamente tedioso desarrollar programas desde la misma máquina y muchos de los videojuegos y programas más complejos se desarrollaban en ordenadores mucho más grandes y costosos.
 
 ### Referencias
 
@@ -104,9 +104,11 @@ Es muy difícil poner fechas e hitos a las cosas. Según la Wikipedia, a mitad d
 
 ## El Amiga, el MS-DOS y los demás
 
-(Notas sobre puntos a tratar: los primeros ordenadores disponibles para el público en general que se podían programar casi tan bien como los sistemas más potentes.)
+En 1985, Commodore, la empresa que lanzó el ordenador personal más vendido de los 80, lanzó el Amiga 1000. El Amiga era un ordenador avanzado a su tiempo. En 1981 IBM ya había lanzado su primer PC (personal computer, ordenador personal) cuyo linaje todavía perdura hasta al menos el primer cuarto del siglo XXI. El IBM PC era marcadamente más potente que los primeros ordenadores personales y, por ejemplo, pronto dispuso de entornos de programación muy similares a los que se usan hoy en día y equiparables a los sofisticados entornos de programación de las máquinas UNIX y el resto de grandes computadoras de la época.
 
-...
+Sin embargo, el Amiga estaba todavía más cerca de las máquinas UNIX. Como estas, pero a diferencia de los primeros PC, su sistema operativo podía ejecutar varios programas simultáneamente. (La primera versión de Microsoft Windows de 1985 también tenía esta funcionalidad, pero Windows era un sistema operativo mucho menos usado en los PC que el MS-DOS; hasta 1990 Windows no tendría un éxito significativo.)
+
+El Amiga quizá sería el primer ordenador personal al alcance del gran público que nos resultaría en muchos sentidos equivalente a los ordenadores que conocemos. Junto con el IBM PC, fueron los primeros ordenadores programables con suficiente potencia para proporcionar un entorno de programación también como los actuales, con el que programar quedaba más al alcance de la mayoría de sus usuarios.
 
 ## Los ordenadores personales de la era Internet
 
