@@ -1,7 +1,5 @@
 # Mi historia de la programación
 
-(Secciones a considerar: máquinas recreativas.)
-
 Cuando tenía cuatro años, un Commodore 64 apareció en casa. A mi madre le gustaba explicar cómo ese día ni mi padre, ni mi hermano, ni yo comimos. Es una buena historia porque era un presagio de lo que iba a venir.
 
 En este texto quiero hablar de los ordenadores programables, un invento significativo de la humanidad. Hablaré de sus antecedentes, de sus manifestaciones primitivas y de los largos linajes, pero también de los indicios de su decadencia.
@@ -97,6 +95,14 @@ Sin embargo, muchos de los programadores de los ordenadores personales de los 80
 ### Referencias
 
 => https://alex.corcoles.net/2026/07/la-anomal%C3%ADa La anomalía
+
+## Un breve paseo por los salones recreativos
+
+Merecen una breve mención especial las máquinas recreativas. La historia de los ordenadores siempre ha ido ligada a los videojuegos. El concepto de locales de ocio no apareció con los ordenadores, pero enseguida gente de empresas como Atari se dio cuenta de que a las máquinas mecánicas como los pinball, se podían añadir entretenimientos basados en ordenadores.
+
+La economía de las máquinas recreativas era muy distinta a la de los ordenadores personales. Una máquina recreativa estaba en un salón recreativo, en un bar, o en otros locales de ocio devorando monedas poco a poco. Los juegos estaban también pensados para que los jugadores dejasen dinero constantemente. Con esto, resultaban rentables recreativas basadas en un hardware mucho más potente que el que se podía permitir cualquier usuario doméstico, de manera que los videojuegos de las recreativas siempre estaban un paso por delante de los ordenadores domésticos. (Además, muchas máquinas recreativas tenían hardware extremadamente especializado o de gran tamaño, como plataformas que movían al jugador, dispositivos que simulaban volantes o armas, que eran impensables para ordenadores domésticos.)
+
+Aunque estas máquinas obviamente eran cerradas y no programables, con la programación llevándose a cabo en ordenadores más potentes de los que se podían permitir los usuarios domésticos, las recreativas contribuyeron al interés por muchos por la programación. ¿Quién no querría trabajar haciendo esos videojuegos espectaculares?
 
 ## El Amiga, el MS-DOS y los demás
 
