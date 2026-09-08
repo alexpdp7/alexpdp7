@@ -78,3 +78,4 @@ mv talosconfig talos/talosconfig-k8s-test
 $EDITOR talos/talosconfig-k8s-test  # add the endpoint
 talosctl --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com kubeconfig
 git checkout talos/k8s-test...secrets.yaml
+```
