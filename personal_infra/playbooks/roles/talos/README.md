@@ -52,16 +52,20 @@ See [my kustomizations](../../../k8s/base/).
 
 ## Updates
 
-To update Talos, run `talosctl` with the version currently used by the cluster:
+To update Talos, run:
 
 ```
-$ talosctl upgrade --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com --image ghcr.io/siderolabs/installer:v1.13.6
+$ talosctl upgrade --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com --image factory.talos.dev/metal-installer/376567988ad370138ad8b2698212367b8edcb69b5fd68c80be1f2ec7d603b4ba:v$VERSION
 ```
+
+The hash corresponds to an installation without customizations nor extensions.
+
+If your `talosctl` version is the same as the version that you want to update to, you can omit the `--image` parameter.
 
 To update K8S:
 
 ```
-$ talosctl upgrade-k8s --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com --to kubernetes.version
+$ talosctl upgrade-k8s --talosconfig talos/talosconfig-k8s-test.example --nodes k8s-test.example.com --to v$VERSION
 ```
 
 ## Renewing certificates
