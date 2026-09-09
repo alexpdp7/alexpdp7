@@ -1,0 +1,75 @@
+# Real-time relations
+
+This document describes an intermediate mid-level data storage mechanism to support real-time queries.
+
+The mechanism is meant to be implemented on top of a low-level data storage layer such as [LMDB] that implements all necessary storage and retrieval operations.
+
+The mechanism is meant to be used directly or through a high-level storage/retrieval mechanism that implements more powerful operations.
+
+This document refers to this mechanism as RTR.
+
+## Base concepts
+
+### Tuples
+
+RTR centers around n-tuples of atoms of specific types.
+
+Atom types must have a total ordering.
+
+N-tuple types are designated with T, U, V...
+
+Atom types are designated with t, u, v...
+
+N-tuple type T is composed of atoms of types (t, u, v...).
+
+N-tuple type T has a total ordering derived from the ordering of its atoms from left to right.
+
+Values of N-tuples must have an encoding as a variable-length sequence of bytes.
+
+### Unique relation
+
+A unique relation is a mapping from one n-tuple to another n-tuple.
+
+Unique relations are designated with TT, UU, VV...
+
+Unique relation TT maps n-tuples of type T to n-tuples of type U.
+
+TT is described as having type (T -> U).
+
+Values of T must be unique in a unique relation. (Values of U can have duplicates.)
+
+## Operations
+
+All operations must have a serialized representation.
+
+### Unique relation data definition
+
+create_unique_relation(TT (name), T (key type), U (value type))
+drop_unique_relation(TT (name))
+
+### Unique relation data manipulation
+
+insert_into_unique_relation(TT (name), T (key type), U (value type)) -> ok|err if duplicate
+delete_from_unique_relation(TT (name), T (key type)) -> ok|err if missing
+update_unique_relation(TT (name), T (key type), U (value type)) -> ok|err if missing
+
+### One-off queries from unique relations
+
+select_single_from_unique_relation(TT (name), T (value)) -> U (value)
+select_range_from_unique_relation(TT (name), T (lower value), T (higher value) -> sorted list of (T,U) values where lower <= T < higher
+
+### Streaming queries from unique relations
+
+The one-off queries have a variant with the streaming_ prefix. They operate as follows:
+
+First, they return the same result as the one-off query.
+
+Then, until the user closes the query, any data manipulation operation is evaluated against the query condition.
+
+If an inserted or updated tuple matches the query, then an add event with the key and value is sent to the user.
+
+If a deleted tuple matches the query, then a remove event with the key is sent to the user.
+
+## References
+
+=> https://symas.com/lmdb.php [LMDB] LMDB: Lightning Memory-Mapped Database
