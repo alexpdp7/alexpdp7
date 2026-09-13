@@ -76,6 +76,8 @@ Sin embargo, aunque las máquinas que ejecutaban UNIX (y otros sistemas operativ
 
 Lógicamente, mucha gente se sumó al carro- compañías comerciales que lo usaron o incluso lo extendieron y comercializaron (HP, Solaris, IBM, etc.; hasta Microsoft comercializaba su propio Unix hasta el 89). Pero el desarrollo quizás más importante se dio en universidades, particularmente en la de Berkeley en California. En el 83 AT&T quedó liberada de los corsés antimonopolistas y pudo comercializar Unix, movimiento con el cual los Unix no comerciales, y en especial el de Berkeley comenzaron a cobrar importancia, ya que eran los únicos que quedaban como libremente distribuibles.
 
+Simultáneamente, Internet nació en los mismos entornos donde nació Internet: grandes organismos tanto públicos como privados (universidades, grandes empresas, el ejército, etcétera). Internet inicialmente sólo conectaba a los grandes ordenadores que corrían sistemas como UNIX y similares, pero también sólo a las personas en esos entornos. Y disponer de una red de comunicación mundial de esas características no estaba al alcance de todos. Sin duda, el desarrollo de UNIX tuvo mucho que agradecer a que Internet facilitase la comunicación entre programadores.
+
 ### Referencias
 
 => https://alex.corcoles.net/2011/11/hazanas-informaticas-vi-el-sistema-unix Hazañas informáticas VI: el sistema UNIX
@@ -90,7 +92,9 @@ Estos ordenadores eran infinitamente más baratos que los ordenadores más poten
 
 El mundo de la programación evolucionó medio en paralelo entre los usuarios domésticos que disponían de implementaciones de BASIC primitivas o que programaban casi a la antigua en lenguaje máquina con herramientas muy primitivas o incluso manuales, frente a los programadores en sistemas del calibre de UNIX que disponían de herramientas mucho más poderosas para máquinas con muchísimas más posibilidades.
 
-Sin embargo, muchos de los programadores de los ordenadores personales de los 80 que nunca hubieran tenido acceso a ordenadores más potentes ya estaban cautivados por las posibilidades totalmente nuevas a las que les exponían los ordenadores personales.
+Además, aunque pronto aparecieron sistemas como las BBS, algunas de las cuales se podían usar en ordenadores personales de bajo coste como el Commodore 64, los programadores de los primeros ordenadores personales no tenían tantos medios para comunicarse entre ellos como los programadores en los sistemas UNIX en entornos con acceso a Internet. Aprendían de revistas, de grupos de usuarios locales y de otros medios con menos interacción.
+
+Sin embargo, muchos de los programadores de los ordenadores personales de los 80 que nunca hubieran tenido acceso a ordenadores más potentes y a Internet ya estaban cautivados por las posibilidades totalmente nuevas a las que les exponían los ordenadores personales.
 
 ### Referencias
 
@@ -114,6 +118,8 @@ Los sistemas con MS-DOS y con Windows acabarían matando al Amiga pronto. Los PC
 
 El Amiga quizá sería el primer ordenador personal al alcance del gran público que nos resultaría en muchos sentidos equivalente a los ordenadores que conocemos. Junto al vinieron otros sistemas, basados en el mismo procesador Motorola 68000 como los primeros Macintosh de Apple y el ST de Atari con capacidades similares. En conjunto con los PC, fueron los primeros ordenadores programables con suficiente potencia para proporcionar un entorno de programación como los que conocemos hoy, con el que programar quedaba más al alcance de la mayoría de sus usuarios.
 
+Hacia el final de esta época también comenzaron a estar disponibles conexiones a Internet domésticas asequibles, comenzando a conectar el mundo doméstico con el de las grandes organizaciones con ordenadores potentes y acceso a Internet.
+
 ## Los ordenadores personales de la era Internet
 
 En 2001, Windows XP y Mac OS X llegaron al mercado. Por esa época, Linux también comenzaba a ser más factible de usar.
@@ -136,7 +142,7 @@ Curiosamente, esta terna de sistemas operativos también resultó ser más o men
 
 ## Los móviles y ordenadores como habitaciones (segunda parte)
 
-Después de la revolución del ordenador personal y de Internet, llegó la revolución del smartphone. Ya con Internet asentado en el gran público, muchos marcarían 2007 y la introducción del iPhone como el momento en que comenzamos a tener en el bolsillo un dispositivo con acceso continuo a Internet.
+Después de la revolución del ordenador personal y de Internet, llegó la revolución del smartphone. Ya con Internet asentado en el gran público, muchos marcarían 2007 y la introducción del iPhone como el momento en que comenzamos a tener en el bolsillo un dispositivo con acceso continuo a Internet. Además, Internet aceleró su uso comercial; de una red como medio de comunicación entre grandes organizaciones pasamos al mundo que trajo a la burbuja de las punto-com que a pesar de reventar en el 2000, hizo que Internet se convirtiese más en un lugar donde hacer negocios por encima de conectarnos.
 
 ¿No es el móvil un ordenador? Sí y no. Sí, se puede programar un móvil, pero cada vez menos. Curiosamente, como los ordenadores personales de los ochenta, de momento es infinitamente más conveniente y común programarlos desde los ordenadores convencionales.
 
