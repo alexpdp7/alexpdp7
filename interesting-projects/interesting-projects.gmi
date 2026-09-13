@@ -1047,7 +1047,7 @@ Web ping
 :networking
 :programmed-in:javascript
 
-=> https://github.com/panglesd/slipshow
+=> https://github.com/panglesd/slipshow Slipshow
 Infinite presentations
 :kind:cli
 :kind:gui
@@ -1233,7 +1233,7 @@ Ready-to-go LSP editor
 :programmed-in:zig
 :tool:editor
 
-=> https://github.com/google/git-appraise
+=> https://github.com/google/git-appraise git-appraise
 Code review tool that stores data in Git
 :kind:cli
 :programmed-in:go
