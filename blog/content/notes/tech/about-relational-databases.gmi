@@ -25,3 +25,15 @@ Many computer languages have similar concepts:
 * PHP arrays
 
 Relations are a natural concept, so although non-relational data systems exist, most data can be stored as relations.
+
+## Random notes
+
+### About schema design
+
+* Only denormalize when provably forced to.
+* If implementing business logic requires complex queries, then the schema might not be optimal.
+* Normalization is not always obvious. It might look redundant to include the product unit price in the line item of an order, because the database already stores the product price, but you need to record the price at the time of the order, which might not be permanent.
+
+### Others
+
+=> real-time-relations Real-time relations describes a simpler relational database for real-time software.
