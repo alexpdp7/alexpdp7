@@ -51,3 +51,7 @@ If the process return code is not 0, then the status is equivalent to:
 ```
 
 An adapter executable can be provided to adapt Nagios plugins to the new API.
+
+## TODOs
+
+* Are passive checks with liveness useful? Perhaps they overlap a bit with metrics-based alerting, which I would implement as a separate system.
