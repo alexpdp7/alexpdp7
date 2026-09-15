@@ -45,6 +45,7 @@ Notes about some books and long articles I like:
 => tech/internet-basics Internet basics
 => tech/splicing-mkvs Splicing MKVs
 => tech/what-i-would-like-to-see-in-a-forge What I would like to see in a forge
+=> tech/a-monitoring-system A monitoring system
 => tech/resumes Resumes
 
 ### Gadgets

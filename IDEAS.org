@@ -145,6 +145,7 @@ See also https://alex.corcoles.net/notes/tech/real-time-relations
 - Each item can have multiple hierarchical tags (e.g. software/for/end-users, software/implemented-in/python, maths/graph-theory, etc.)
 - Jerarco builds a "flat" categorization by taking the leaf tag with most items and printing all elements in that leaf tag, then removing the items from the list, and iterating until there are no more items.
 
+* [[https://alex.corcoles.net/notes/tech/a-monitoring-system][Monitoring system]]
 * Complexity explorer (Acomplejator)
 
 - Qualifies a set of files (by programming language, type of asset [lock file, documentation, etc.], etc.)
