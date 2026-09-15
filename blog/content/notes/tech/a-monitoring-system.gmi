@@ -17,7 +17,7 @@ However, Nagios has some problems:
 I think this can be improved by:
 
 * Instead of providing a user interface, provide an API as a first-class citizen.
-* Do not implement metrics. Metrics collection is better implemented separately.
+* Do not implement metrics. Metrics collection is better implemented separately. Probably you could implement checks that alert over data in the metrics system.
 * Make the configuration a JSON-like format that can be generated easily.
 * Only implement checks, dependencies and alerting rules.
 * Use JSON output as the main API for commands.
