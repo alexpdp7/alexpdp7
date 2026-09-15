@@ -1,0 +1,26 @@
+# 2026-09-15 Windows sólo es fácil a veces
+
+Por motivos curiosos, creo que necesitaré un ordenador con Windows o macOS pronto. Perfecto, tengo aquí un flamante Lenovo ThinkPad X12 que estuve usando un par de años para cosas del trabajo bastante satisfactoriamente, incluido un año con Windows.
+
+Pero un alma caritativa me arregló un problema de Linux con ese portátil y decidí borrar todo y reemplazar con Linux.
+
+Esto es un error, al menos en los últimos Lenovo ThinkPad que he usado, como veremos a continuación.
+
+Instalar Windows sobre el papel no es tan complicado. Microsoft tiene un proceso razonable para crear un USB con el instalador de Windows. Es menos razonable si no tienes un Windows donde hacerlo, pero se puede[1].
+
+Pero al hacer esto, se me queda un Windows funcional, pero con unas cuantas actualizaciones relacionadas con el hardware del portátil que siempre fallan al instalar. No es demasiado agradable.
+
+La otra opción es seguir el proceso de Lenovo para crear otro USB de recuperación que supuestamente te deja el Windows como venía de fábrica en el portátil.
+
+Esto es lo que estoy probando ahora y tiene varios problemas.
+
+El primero es que crear el USB sólo se puede hacer desde Windows y es un proceso terriblemente tedioso. Además, restaurar Windows con ese USB es horriblemente lento.
+
+El segundo, y más importante, es que el USB de recuperación te recupera un Windows 10. Con lo que aparte del inacabable proceso de restauración, hay que seguir con un largo proceso para actualizar a Windows 11.
+
+(Y de bonus, por ambos caminos, tanto el de Microsoft como el de Lenovo, he pasado por un par de pantallazos azules.)
+
+Seguramente esto es más culpa de Lenovo que de Microsoft. (Bastante decepcionante, hacen mis portátiles no Apple favoritos y uno esperaría que con su orientación empresarial supiesen dar una buena experiencia de instalación de Windows.) Pero es un recordatorio de que Windows es fácil en el camino trilladísimo de comprar un equipo con Windows preinstalado. (Y sospecho que Linux funciona igual de bien en ese escenario.) Linux tiene sus complicaciones y la experiencia para muchos es inferior, pero oye, al menos es gratis cuando los dos pueden fastidiarte una tarde igual.
+
+=> https://github.com/alexpdp7/windows-usb/ [1] Un script que tengo para convertir la imagen de Windows que ofrece Microsoft en un USB desde Linux
+=> https://github.com/alexpdp7/rpi-zero-usb-iso/ Además, si tenéis una Rasperry Pi Zero a mano, podéis usar esto para convertirla en un práctico USB "virtual"
