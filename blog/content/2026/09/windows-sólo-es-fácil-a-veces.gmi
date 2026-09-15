@@ -16,7 +16,7 @@ Esto es lo que estoy probando ahora y tiene varios problemas.
 
 El primero es que crear el USB sólo se puede hacer desde Windows y es un proceso terriblemente tedioso. Además, restaurar Windows con ese USB es horriblemente lento.
 
-El segundo, y más importante, es que el USB de recuperación te recupera un Windows 10. Con lo que aparte del inacabable proceso de restauración, hay que seguir con un largo proceso para actualizar a Windows 11.
+El segundo, y más importante, es que el USB de recuperación te recupera un Windows 10. Con lo que aparte del inacabable proceso de restauración, hay que seguir con un largo proceso para actualizar a Windows 11. (Que por cierto, la actualización no viene por Windows Update, hay que descargar un instalador específico.)
 
 (Y de bonus, por ambos caminos, tanto el de Microsoft como el de Lenovo, he pasado por un par de pantallazos azules.)
 
