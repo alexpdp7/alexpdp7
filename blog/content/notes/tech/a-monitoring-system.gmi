@@ -52,6 +52,24 @@ If the process return code is not 0, then the status is equivalent to:
 
 An adapter executable can be provided to adapt Nagios plugins to the new API.
 
+## Configuration
+
+```
+{
+  "checks": [
+    {
+      "id": "{string}",
+      "command": ["/full/path/to/check", "arg1", "arg2", "arg3"],
+      "requires": [
+        {"check-id": "{check-id}", "in-last-seconds": "{seconds}"},
+        ...
+      ]
+      "period-seconds": "{period seconds}"
+    },
+    ...
+  ]
+}
+
 ## TODOs
 
 * Alerting can possibly be a user interface based on the API (!)
