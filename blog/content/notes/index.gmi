@@ -9,9 +9,10 @@
 Notes about some books and long articles I like:
 
 => cliffs/mythical-man-month The Mythical Man-Month
-=> cliffs/governable-spaces Governable Spaces
 => cliffs/peopleware Peopleware
+
 => cliffs/the-tyranny-of-structurelessness The tyranny of structurelessness
+=> cliffs/governable-spaces Governable Spaces
 
 ## Tech
 
@@ -20,36 +21,45 @@ Notes about some books and long articles I like:
 => tech/misc-linux-stuff Misc Linux stuff
 => tech/running-commands-in-linux Running commands in Linux
 => tech/ssh-for-beginners SSH for beginners
-=> tech/document-formats Document formats
-=> tech/internet-communication-channels Internet communication channels
-=> tech/modern-irc Modern IRC
-=> tech/ledger Ledger
-=> tech/migadu Migadu
-=> tech/ripping Ripping
-=> tech/about-apis About APIs
-=> tech/modularity Modularity
-=> tech/about-relational-databases About relational databases
 => tech/containers-might-not-be-the-right-answer Containers might not be the right answer
-=> tech/crud-is-an-important-unsolved-problem CRUD is an important unsolved problem
-=> tech/about-django About Django
+=> tech/a-monitoring-system A monitoring system
+
 => tech/git-advice Git advice
 => tech/github-annoyances GitHub annoyances
-=> tech/prolog-vs-sql Prolog vs. SQL
-=> tech/take-the-less-traveled-road Take the less traveled road
-=> tech/the-tragedy-of-the-geeks The tragedy of the geeks
-=> tech/misc-python-stuff Misc Python stuff
-=> tech/python-modules-primer Python modules primer
-=> tech/so-you-want-to-play-with-functional-programming So you want to play with functional programming
-=> tech/motivating-example-for-logical-replication-for-dynamic-ui Motivating example for logical replication for dynamic UI
-=> tech/real-time-relations Real-time relations
+=> tech/what-i-would-like-to-see-in-a-forge What I would like to see in a forge
+
+=> tech/internet-communication-channels Internet communication channels
+=> tech/modern-irc Modern IRC
+=> tech/migadu Migadu
+=> tech/internet-basics Internet basics
+
+=> tech/document-formats Document formats
+=> tech/ledger Ledger
+=> tech/resumes Resumes
+
+=> tech/ripping Ripping
+=> tech/splicing-mkvs Splicing MKVs
+
+=> tech/modularity Modularity
+=> tech/about-apis About APIs
 => tech/about-web-development About web development
 => tech/on-software-development On software development
 => tech/on-testing On testing
-=> tech/internet-basics Internet basics
-=> tech/splicing-mkvs Splicing MKVs
-=> tech/what-i-would-like-to-see-in-a-forge What I would like to see in a forge
-=> tech/a-monitoring-system A monitoring system
-=> tech/resumes Resumes
+
+=> tech/misc-python-stuff Misc Python stuff
+=> tech/python-modules-primer Python modules primer
+=> tech/so-you-want-to-play-with-functional-programming So you want to play with functional programming
+
+=> tech/crud-is-an-important-unsolved-problem CRUD is an important unsolved problem
+=> tech/about-django About Django
+
+=> tech/about-relational-databases About relational databases
+=> tech/prolog-vs-sql Prolog vs. SQL
+=> tech/real-time-relations Real-time relations
+=> tech/motivating-example-for-logical-replication-for-dynamic-ui Motivating example for logical replication for dynamic UI
+
+=> tech/take-the-less-traveled-road Take the less traveled road
+=> tech/the-tragedy-of-the-geeks The tragedy of the geeks
 
 ### Gadgets
 
