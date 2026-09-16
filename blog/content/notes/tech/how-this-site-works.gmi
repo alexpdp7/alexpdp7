@@ -43,6 +43,8 @@ Interestingly, when the request does not have an Accept header that selects a un
 
 gemini-to-http serves all Gemini requests by making an equivalent HTTP request to a web server running on the same host with a text/gemini Accept header. Therefore, when requesting gemini://alex.corcoles.net/foo this queries Apache for https://alex.corcoles.net/foo, which returns foo.gmi that is proxied back to the Gemini client.
 
+(The site is actually published at two different URLs, so all internal links are relative. Also extra care is required to never include extensions in links. But the differences between the gemtext and HTML conversion is minimal.)
+
 ## Publishing the site
 
 The site is part of a Git repository. The server hosting this site has this Git repository.
@@ -52,6 +54,8 @@ The site is part of a Git repository. The server hosting this site has this Git 
 ## Observations
 
 I think this is a pretty optimal system to host a dual HTTP/HTML + Gemini/gemtext site. The coppewebite suite is less than 700 lines of Python code that only depends on two HTML libraries and an RSS library. The site-specific code is two shell scripts totaling less than 100 lines.
+
+Beyond the content, the Gemini server has barely any configuration; most of the small configuration is in Apache httpd. The overhead to support the dual site is minimal.
 
 (And if instead of using the indexer to generate the list of blog entries on the front page, you maintain a list by hand, you can eliminate a significant amount of code. The Git hook for publishing is another significant amount of complex code that you can avoid.)
 
