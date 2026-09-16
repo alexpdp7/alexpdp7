@@ -2,7 +2,7 @@
 
 ## The use of gemtext
 
-This site is composed of many gemtext files following the structure of the site.
+=> https://github.com/alexpdp7/alexpdp7/tree/master/blog/content This site is composed of many gemtext files following the structure of the site.
 
 Gemtext is the native response format of the Gemini protocol. Gemtext is much simpler and constrained than Markdown. Gemtext has only:
 
