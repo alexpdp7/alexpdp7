@@ -45,6 +45,8 @@ gemini-to-http serves all Gemini requests by making an equivalent HTTP request t
 
 (The site is actually published at two different URLs, so all internal links are relative. Also extra care is required to never include extensions in links. But the differences between the gemtext and HTML conversion is minimal.)
 
+(Also, multiviews helps with pretty URLs. Because canonical URLs do not include the file format extension, they look prettier. Many websites use URLs that end in a trailing slash instead, but that tends to be annoying to do with static site generators.)
+
 ## Publishing the site
 
 The site is part of a Git repository. The server hosting this site has this Git repository.
