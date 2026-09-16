@@ -1,0 +1,60 @@
+# How this site works
+
+## The use of gemtext
+
+This site is composed of many gemtext files following the structure of the site.
+
+Gemtext is the native response format of the Gemini protocol. Gemtext is much simpler and constrained than Markdown. Gemtext has only:
+
+* Three levels of headers
+* Links as full lines, no inline links
+* Single-level lists and quotes
+* Preformatted blocks
+
+Gemtext can be parsed with only a single state flag (whether you are in a preformatted block or not) and use only simple text parsing operations.
+
+This means that a full correct gemtext parser can be coded in a few hours with a few hundred lines in code. Additionally, gemtext constrains your content to the bare minimum structure. And unlike HTML files that have a complex hierarchical structure, gemtext files can for example be combined by plain text file concatenation; for example, you can concatenate a header, body, and footer with the cat command.
+
+The Gemini protocol suite of protocols also describes a way to derive a feed from a gemtext page. Links in a gemtext page whose link text starts with a YYYY-MM-DD timestamp form an implicit feed. Contrary to traditional feed formats like RSS and Atom, gemtext implicit feeds are easy to create with a plain text editor.
+
+## Static site generation
+
+As a first step, a process converts every foo/bar.gmi file to a foo/bar.html HTML file.
+
+=> https://github.com/alexpdp7/coppewebite/tree/main/gemini-to-web This is done with the coppewebite-to-html command part of my coppewebite suite of Gemini tools.
+
+Then, the root index.gmi is generated. The header is a static gemtext snippet. Then, coppewebite-indexer generates a series of links in chronological order to the articles in YYYY/MM/article.gmi files that follows the header.
+
+The series of links is an implicit gemtext feed, which the coppewebite-to-rss tool converts to RSS. index.gmi and index.rss both have an implicit gemtext feed and an RSS feed. Using coppewebite-to-html again, index.gmi is converted to index.html containing metadata embedding the feed.
+
+The result is a directory with .html, .gmi, and .rss files, including index.html, index.rss, index.gmi, but also notes/tech/how-this-site.works.html and .gmi.
+
+## Serving the static site
+
+Apache httpd is the main web server for this site.
+
+The directory that contains the static site has the MultiViews option enabled. This means that when serving foo/bar, Apache serves foo/bar.html or foo/bar.gmi depending on the Accept header of the request.
+
+For web browsers, which send text/html as their Accept header, the .html file is served. However, you can append .gmi to the URL to request the gemtext version.
+
+Interestingly, when the request does not have an Accept header that selects a unique file, Apache replies with the smallest file, which frequently is the gemtext version. When using curl in a terminal, Apache replies with the gemtext version, which is nicer to read on a terminal.
+
+=> https://github.com/alexpdp7/coppewebite/tree/main/gemini-from-http gemini-from-http from my coppewebite suite is the Gemini server.
+
+gemini-to-http serves all Gemini requests by making an equivalent HTTP request to a web server running on the same host with a text/gemini Accept header. Therefore, when requesting gemini://alex.corcoles.net/foo this queries Apache for https://alex.corcoles.net/foo, which returns foo.gmi that is proxied back to the Gemini client.
+
+## Publishing the site
+
+The site is part of a Git repository. The server hosting this site has this Git repository.
+
+=> https://github.com/alexpdp7/alexpdp7/blob/master/blog/post-receive The Git repository on the server has a post-receive hook that runs the site build script and stores the result in the Apache document root for the site.
+
+## Observations
+
+I think this is a pretty optimal system to host a dual HTTP/HTML + Gemini/gemtext site. The coppewebite suite is less than 700 lines of Python code that only depends on two HTML libraries and an RSS library. The site-specific code is two shell scripts totaling less than 100 lines.
+
+(And if instead of using the indexer to generate the list of blog entries on the front page, you maintain a list by hand, you can eliminate a significant amount of code. The Git hook for publishing is another significant amount of complex code that you can avoid.)
+
+I believe the tools I use enable anyone to publish a site by using only a plain text editor and requiring much less knowledge about web technologies than using regular HTML (especially for the feeds).
+
+I would like to package all of this in a way that enables anyone to create sites with little effort.

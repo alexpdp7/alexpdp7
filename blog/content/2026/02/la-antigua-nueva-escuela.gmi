@@ -16,6 +16,8 @@ En 2022 recuperé mi primer blog y una lista de correo donde escribía críticas
 
 Y finalmente, tras una semanita entretenida, aquí está la última iteración.
 
+=> ../../notes/tech/how-this-site-works Actualización: aquí hay una descripción casi completa en inglés.
+
 La idea es explorar mecanismos para facilitar la publicación de contenido simultáneamente en la web y en el Geminiespacio.
 
 Para ello, me aventuré a redescubrir la técnica clásica de la negociación de contenido. El nuevo motor de este blog es básicamente un generador de webs estáticas que parte de un montón de ficheros en el formato gemtext de Gemini, masajeándolo un poco y creando una segunda copia en formato HTML.

@@ -15,6 +15,8 @@ Notes about some books and long articles I like:
 
 ## Tech
 
+=> tech/how-this-site-works How this site works
+
 => tech/misc-linux-stuff Misc Linux stuff
 => tech/running-commands-in-linux Running commands in Linux
 => tech/ssh-for-beginners SSH for beginners
