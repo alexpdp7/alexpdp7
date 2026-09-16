@@ -64,3 +64,6 @@ In my experience, the number of value-delivering stories done per sprint is a go
 
 => https://linear.app/method The Linear method.
 Linear is a software development management tool that I like. Linear is designed for a process similar to Scrum, but with significant differences. The Linear method is an interesting read that describes this process.
+
+=> https://zwischenzugs.com/2022/05/29/business-value-management-autonomy-and-engineer-retention/ Business Value, Soccer Canteens, Engineer Retention, and the Bricklayer Fallacy
+About how to fit longer, less immediate tasks in incremental customer-oriented methodologies.
