@@ -22,5 +22,11 @@ El segundo, y más importante, es que el USB de recuperación te recupera un Win
 
 Seguramente esto es más culpa de Lenovo que de Microsoft. (Bastante decepcionante, hacen mis portátiles no Apple favoritos y uno esperaría que con su orientación empresarial supiesen dar una buena experiencia de instalación de Windows.) Pero es un recordatorio de que Windows es fácil en el camino trilladísimo de comprar un equipo con Windows preinstalado. (Y sospecho que Linux funciona igual de bien en ese escenario.) Linux tiene sus complicaciones y la experiencia para muchos es inferior, pero oye, al menos es gratis cuando los dos pueden fastidiarte una tarde igual.
 
+Actualización al día siguiente:
+
+Una peculiaridad de este portátil es que como muchos Lenovo, tiene las teclas CTRL y FN al revés de lo normal, cosa que me toca la moral. Y como es común en esta época, las teclas de función por defecto no hacen de teclas de función.
+
+En la mayoría de ThinkPads, la BIOS permite configurar esto. Pero esto es un tablet y el teclado en realidad es un dispositivo USB y la BIOS no soporta trastear con él. Lenovo tiene algunas utilidades para jugar con esto. Yo anteriormente usé "Lenovo Vantage" para esto, que es un poco frágil, pero permite hacer actualizaciones que no vienen en Windows Update y configurar el teclado. Por algún motivo, la imagen de recuperación de Lenovo traía "Lenovo Commercial Vantage", que muestra las opciones, pero no permite aplicarlas. Y ahora, "Lenovo Vantage" tampoco parece querer ni mostrarme las opciones.
+
 => https://github.com/alexpdp7/windows-usb/ [1] Un script que tengo para convertir la imagen de Windows que ofrece Microsoft en un USB desde Linux
 => https://github.com/alexpdp7/rpi-zero-usb-iso/ Además, si tenéis una Rasperry Pi Zero a mano, podéis usar esto para convertirla en un práctico USB "virtual"
