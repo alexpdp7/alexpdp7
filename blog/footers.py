@@ -33,12 +33,15 @@ for gmi in pathlib.Path.cwd().glob("**/*.gmi"):
 
     footer.append(CONTACT[language])
 
-    edit_url = None
+    content_source = None
     if relative_gmi in content_gmi_files:
-        edit_url = "https://github.com/alexpdp7/alexpdp7/edit/master/blog/content/" + relative_gmi
+        content_source = "blog/content/" + relative_gmi
 
-    if edit_url:
-        footer.append(f"=> {edit_url} {EDIT_IN_GITHUB[language]}")
+    if relative_gmi == "notes/interesting-projects.gmi":
+        content_source = "interesting-projects/interesting-projects.gmi"
+
+    if content_source:
+        footer.append(f"=> https://github.com/alexpdp7/alexpdp7/edit/master/{content_source} {EDIT_IN_GITHUB[language]}")
 
     gmi_content = gmi.read_text()
     assert gmi_content.endswith("\n"), f"{gmi} has no trailing new line"
