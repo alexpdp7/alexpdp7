@@ -9,6 +9,7 @@ The links below are Gemini links. You need a Gemini client to open them.
 => gemini://cosmos.skyjake.fi/ Cosmos
 => gemini://caracolito.mooo.com/deriva/ bot en deriva
 => gemini://planet-gemini.fr Planet Gemini Francophonie - Agrégateur de capsules francophone
+=> gemini://antenna.michaelnordmeyer.com/ Antenna
 
 ## Search engines
 
