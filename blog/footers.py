@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import pathlib
+import subprocess
 import sys
 
 content = pathlib.Path(sys.argv[1])
@@ -11,16 +12,34 @@ CONTACT = {
     "en": "Send me email at alex at corcoles dot net.",
 }
 
+EDIT_IN_GITHUB = {
+    "es": "Edita esta página.",
+    "en": "Edit this page.",
+}
+
 ENGLISH_PAGES = ('about.gmi', 'gemini.gmi',)
 
+content_gmi_files = [str(p.relative_to(content)) for p in pathlib.Path(content).glob("**/*.gmi")]
 
 for gmi in pathlib.Path.cwd().glob("**/*.gmi"):
     relative_gmi = str(gmi.relative_to(pathlib.Path.cwd()))
     if relative_gmi == "index.gmi":
         # index.gmi is endless, no footer for that one
         continue
+
     language = "en" if relative_gmi in ENGLISH_PAGES or relative_gmi.startswith("notes/") else "es"
-    footer = [CONTACT[language]]
+
+    footer = []
+
+    footer.append(CONTACT[language])
+
+    edit_url = None
+    if relative_gmi in content_gmi_files:
+        edit_url = "https://github.com/alexpdp7/alexpdp7/edit/master/blog/content/" + relative_gmi
+
+    if edit_url:
+        footer.append(f"=> {edit_url} {EDIT_IN_GITHUB[language]}")
+
     gmi_content = gmi.read_text()
     assert gmi_content.endswith("\n"), f"{gmi} has no trailing new line"
     assert not gmi_content.endswith("\n\n"), f"{gmi} has extra empty blank line"
