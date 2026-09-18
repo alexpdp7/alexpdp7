@@ -17,6 +17,11 @@ EDIT_IN_GITHUB = {
     "en": "Edit this page.",
 }
 
+PARENT = {
+    "es": "Subir.",
+    "en": "Go to parent."
+}
+
 ENGLISH_PAGES = ('about.gmi', 'gemini.gmi',)
 
 content_gmi_files = [str(p.relative_to(content)) for p in pathlib.Path(content).glob("**/*.gmi")]
@@ -42,6 +47,15 @@ for gmi in pathlib.Path.cwd().glob("**/*.gmi"):
 
     if content_source:
         footer.append(f"=> https://github.com/alexpdp7/alexpdp7/edit/master/{content_source} {EDIT_IN_GITHUB[language]}")
+
+    closest_index = gmi.with_name("index.gmi")
+    while closest_index == gmi or closest_index.is_relative_to(pathlib.Path.cwd()) and not closest_index.exists():
+        closest_index = closest_index.parent.parent / "index.gmi"
+
+    closest_index = closest_index if closest_index.exists() else None
+    if closest_index:
+        index_link = "/".join([".."] * (len(gmi.parts) - len(closest_index.parts))) + "/"
+        footer.append(f"=> {index_link} {PARENT[language]}")
 
     gmi_content = gmi.read_text()
     assert gmi_content.endswith("\n"), f"{gmi} has no trailing new line"
