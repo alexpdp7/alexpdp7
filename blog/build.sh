@@ -18,7 +18,7 @@ cat >index.gmi <<EOF
 # El blog es mío
 ## Hay otros como él, pero este es el mío
 
-Envíame email a alex arroba corcoles punto net.
+=> /contacto Contacta conmigo.
 
 => notas/ Notas
 => notes/ Notes

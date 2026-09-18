@@ -8,8 +8,8 @@ content = pathlib.Path(sys.argv[1])
 print("Generating footers...")
 
 CONTACT = {
-    "es": "Envíame email a alex arroba corcoles punto net.",
-    "en": "Send me email at alex at corcoles dot net.",
+    "es": "=> {relative_root}/contacto Contacta conmigo.",
+    "en": "=> {relative_root}/contact Contact me.",
 }
 
 EDIT_IN_GITHUB = {
@@ -22,7 +22,7 @@ PARENT = {
     "en": "Go to parent."
 }
 
-ENGLISH_PAGES = ('about.gmi', 'gemini.gmi',)
+ENGLISH_PAGES = ('about.gmi', 'gemini.gmi', "contact.gmi",)
 
 content_gmi_files = [str(p.relative_to(content)) for p in pathlib.Path(content).glob("**/*.gmi")]
 
@@ -36,7 +36,10 @@ for gmi in pathlib.Path.cwd().glob("**/*.gmi"):
 
     footer = []
 
-    footer.append(CONTACT[language])
+    relative_root = "/".join([".."] * (len(gmi.parts) - len(pathlib.Path.cwd().parts) - 1))
+
+    if relative_gmi not in ("contact.gmi", "contacto.gmi"):
+        footer.append(CONTACT[language].format(relative_root=relative_root))
 
     content_source = None
     if relative_gmi in content_gmi_files:
