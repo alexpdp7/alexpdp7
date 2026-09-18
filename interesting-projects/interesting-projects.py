@@ -89,11 +89,10 @@ for tag in sorted(list(chosen_tags.keys())):
         print()
 
     print("#" * (len(tag) + 1), " / ".join(tag))
-    print()
     for link in chosen_tags[tag]:
+        print()
         print(link.link)
         print(link.gemtext)
         print(" ".join(link.tags))
-        print()
 
     previous_tag = tag
