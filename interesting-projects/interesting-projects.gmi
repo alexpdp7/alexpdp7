@@ -1264,3 +1264,8 @@ UDP file transfer utility that was used to great success at a previous job
 :tool:transfer
 :programmed-in:c
 :networking
+
+=> https://bford.info/pub/lang/matchertext/ Matchertext
+A simple cross-language syntactic discipline that enables the safe embedding a string in any compliant language into a string in any other language via simple "copy-and-paste", in particular with no escaping, obfuscation, or expansion of embedded strings.
+:coding:parsing
+:lightweight-markup

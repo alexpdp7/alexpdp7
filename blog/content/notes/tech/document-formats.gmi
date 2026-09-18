@@ -80,6 +80,7 @@ A Markdown-like closely tied to the Lean programming language.
 => https://github.com/nvim-neorg Neorg (similar to Org Mode for Neovim)
 => https://github.com/sile-typesetter/sile Sile (typesetting system)
 => https://github.com/davidchisnall/igk David Chisnall's "I got Knuth'd", HTML + ePub + written/online PDF, modular Lua passes, etc.
+=> https://bford.info/2022/12/28/minml/ MinML is a more concise syntax for HTML-likes based on the interesting "matchertext" syntactic discipline
 
 ## Creating your own formats
 
