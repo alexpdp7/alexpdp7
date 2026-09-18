@@ -68,3 +68,7 @@ Notes about some books and long articles I like:
 => tech/gadgets/about-headphones About headphones
 => tech/gadgets/x12 Lenovo ThinkPad X12 Detachable Gen 1
 => tech/gadgets/pocket-computers Pocket computers
+
+## Others
+
+=> principles-of-service-and-support Principles of service and support

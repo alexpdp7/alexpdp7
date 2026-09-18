@@ -1,0 +1,54 @@
+# Principles of service and support
+
+This document is a reflection of my personal experiences both providing and support services, and using services.
+
+## Service criticality
+
+A basic requirement of good service and support is alignment on the criticality of the service.
+
+Both providers and users should have aligned expectations, which might be informed by the service cost, impact of problems, and others.
+
+It is fine to provide an "as-is" service with support that would be otherwise unacceptable, as long as users are aware and decide to use the service with full conscience of the provided level of support.
+
+## Support channels
+
+Always provide multiple support channels as independent as reasonable to minimize the possibilities of users not being able to reach support due to errors of any kind.
+
+Always provide multiple support channels that are public and do not require logging in to any service. A support channel inside your application can provide a better support experience, but might not be useful to report that the application is not working.
+
+Always provide multiple support channels that work over widely available "open" communication protocols, such as email or the public switched telephone network (i.e. a phone number). SMS might be valid, although not everyone has a mobile phone.
+
+For non-interactive support channels, consider providing clear and accurate means to verify any request has been received. For example, email confirmations.
+
+## Ownership
+
+Support requests and channels must have clear ownership at all times.
+
+Clear ownership includes:
+
+* A clear linear chain of individual human owners ending in the ultimate responsible of the organization
+* Aby non-human services in the chain are followed by the human responsibl for the service.
+* All humans in the chain knows which requests and channels they own and which are owned by humans below them in the chain.
+* All humans in the chain acknowledge their responsibility in the requests and services.
+
+## Service level objectives
+
+Support requests and channels should have clear service level objectives, such as "99% of support requests are solved automatically or receive a human response within 2 hours".
+
+Service level objectives measurements should be available at most times to as much people as possible, preferrably they should be completely public.
+
+The ultimate responsible of the organization is responsible for reviewing the service level objectives multiple times per year, although they can delegate the review.
+
+## Service status and incident information
+
+Services should provide an independent means of verifying the organization's known status of the service. For example, a public status page.
+
+Users should be able to consult any ongoing incidents (including known bugs) and a record of past incidents. Incidents should include a clear timeline of changes in their status.
+
+Any organization members responsible for the services must be able to consult all incidents related to their services.
+
+## Public complaints
+
+An individual human in the organization should be responsible for monitoring public complaints about the service outside the support channels.
+
+Public complaints about the service should be analyzed and measures should be taken to ensure that support channel problems are not causing the public complaints.
