@@ -19,13 +19,13 @@ The Gemini protocol suite of protocols also describes a way to derive a feed fro
 
 ## Static site generation
 
-As a first step, a process converts every foo/bar.gmi file to a foo/bar.html HTML file.
+=> https://github.com/alexpdp7/coppewebite/tree/main/gemini-to-web Besides the scripts specific to this blog, a big part of the job is converting gemtext to HTML and RSS, which is done by the generic gemini-to-web tools in my coppewebite suite of Gemini software.
 
-=> https://github.com/alexpdp7/coppewebite/tree/main/gemini-to-web This is done with the coppewebite-to-html command part of my coppewebite suite of Gemini tools.
+First, the root index.gmi is generated. The header is a static gemtext snippet. Then, coppewebite-indexer generates a series of links in chronological order to the articles in YYYY/MM/article.gmi files that follows the header. The series of links is an implicit gemtext feed, which the coppewebite-to-rss tool converts to RSS. index.gmi and index.rss both have an implicit gemtext feed and an RSS feed.
 
-Then, the root index.gmi is generated. The header is a static gemtext snippet. Then, coppewebite-indexer generates a series of links in chronological order to the articles in YYYY/MM/article.gmi files that follows the header.
+Then, a 70-line Python script adds a footer to most pages. Footers contain links for navigation, editing, and contact.
 
-The series of links is an implicit gemtext feed, which the coppewebite-to-rss tool converts to RSS. index.gmi and index.rss both have an implicit gemtext feed and an RSS feed. Using coppewebite-to-html again, index.gmi is converted to index.html containing metadata embedding the feed.
+Finally, another gemini-to-web tool converts every foo/bar.gmi file to a foo/bar.html HTML file, adding RSS feeds to pages with embedded gemtext feeds.
 
 The result is a directory with .html, .gmi, and .rss files, including index.html, index.rss, index.gmi, but also notes/tech/how-this-site.works.html and .gmi.
 
