@@ -1,0 +1,350 @@
+# Software I use
+
+Linux
+Operating system
+:os
+:desktop
+:server
+:3/10
+
+Android
+Mobile operating system
+:os
+:android
+:2/10
+
+Firefox
+:browser
+:android
+:desktop
+:4/10
+
+Lagrange
+Gemini client
+:gemini
+:android
+:desktop
+:9/10
+
+Amfora
+Gemini terminal client
+:gemini
+:terminal
+:8/10
+
+Thunderbird
+:email
+:android
+:desktop
+:7/10
+
+=> https://wezterm.org/ wezterm
+Terminal emulator with nice keyboard-based select and copy
+:terminal-emulator
+:desktop
+:7/10
+
+=> https://connectbot.org/ ConnectBoy
+Terminal emulator for Android
+:terminal-emulator
+:android
+:6/10
+
+=> https://git.sr.ht/~delthas/senpai/ Senpai
+Terminal IRC client
+:chat:irc
+:terminal
+:8/10
+
+=> https://soju.im/ soju
+IRC bouncer
+:chat:irc
+:server
+:8/10
+
+Discord
+Chat
+:chat
+:proprietary
+:service
+:4/10
+
+Slack
+Chat
+:chat
+:proprietary
+:service
+:3/10
+
+
+=> https://tuba.geopjr.dev/ Tuba
+GNOME ActivityPub client
+:activitypub
+:desktop:gnome
+:7/10
+
+=> https://tusky.app/ Tusky
+Android ActivityPub client
+:activitypub
+:android
+:8/10
+
+=> https://github.com/avaraline/incarnator Incarnator
+ActivityPub server with multidomain support
+:activitypub
+:server
+:7/10
+
+Signal
+Instant messenger
+:im
+:android
+:desktop
+:proprietary
+:3/10
+
+WhatsApp
+Instant messenger
+:im
+:android
+:desktop
+:proprietary
+:0/10
+
+Telegram
+Instant messenger
+:im
+:android
+:desktop
+:proprietary
+:3/10
+
+Conversations
+XMPP client for Android
+:im:xmpp
+:android
+:6/10
+
+=> https://github.com/trufae/parla Parla
+Delta Chat GNOME desktop client
+:im:delta-chat
+:desktop:gnome
+:8/10
+
+Delta Chat
+Instant messenger
+:im:delta-chat
+:android
+:9/10
+
+Emacs
+Text editor
+:text-editor:emacs
+:desktop
+:terminal
+:9/10
+
+GNOME
+Desktop environment
+:desktop:gnome
+:8/10
+
+=> https://github.com/paperwm/PaperWM PaperWM
+Tiling plugin for GNOME
+:desktop:gnome
+:9/10
+
+Bitwarden
+Password manager clients for Firefox and Android
+:password-manager
+:browser:extension
+:android
+:7/10
+
+Vaultwarden
+Bitwarden-compatible password manager server
+:password-manager
+:server
+:9/10
+
+Kagi
+(Paid) search engine
+:search-engine
+:service
+:paid
+:proprietary
+:6/10
+
+NoScript
+Extension to disable JavaScript in browsers
+:browser:extension
+:8/10
+
+Google Calendar
+Calendar service with email notifications
+:service
+:organization
+:proprietary
+:4/10
+
+GMail
+Email service
+:service
+:email
+:proprietary
+:4/10
+
+Migadu
+Email service
+:service
+:email
+:proprietary
+:paid
+:8/10
+
+Keep Notes
+Shopping lists
+:service
+:organization
+:proprietary
+:3/10
+
+org-mode
+Text format for organization
+:desktop
+:terminal
+:text-editor:emacs
+:organization
+:8/10
+
+=> https://orgzlyrevived.com/ Orgzly Revived
+Org-mode Android client with sync and widgets
+:text-editor:emacs
+:organization
+:android
+:8/10
+
+Nextcloud
+File synchronization and sharing
+:desktop
+:android
+:file-sync
+:server
+:6/10
+
+Cisco AnyConnect
+VPN client for Android
+:android
+:vpn
+:proprietary
+:6/10
+
+Wireguard
+Site-to-site VPN
+:server
+:vpn
+:7/10
+
+=> https://ocserv.openconnect-vpn.net/ ocserv
+VPN server
+:7/10
+:server
+:vpn
+
+Nagios
+Monitoring system
+:7/10
+:server
+
+F-Droid
+Android alternative appstore
+:android
+:6/10
+
+OpenFoodFacts
+Food database
+:service
+:9/10
+:android
+
+Pressreader
+Press reader
+:android
+:desktop
+:service
+:proprietary
+:7/10
+
+FreeIPA
+Identity service for desktops, servers, and websites
+:server
+:identity:freeipa
+:8/10
+
+Ipsilon
+SAML/OIDC for FreeIPA
+:server
+:identity:freeipa
+:8/10
+
+PostgreSQL
+Relational SQL database
+:server
+:database
+:9/10
+
+ClickHouse
+Relational SQL database for analytics
+:server
+:database
+:9/10
+
+Miniflux
+RSS Reader
+:rss
+:8/10
+:server
+
+Flexisip
+SIP server
+:phone
+:server
+:7/10
+
+Grafana
+Graph service
+:server
+:6/10
+
+=> https://seaweedfs.com/ SeaweedFS
+Object storage
+:server
+:7/10
+
+=> https://www.siderolabs.com/talos-linux Talos Linux
+Kubernetes distribution
+:server
+:kubernetes
+:6/10
+
+Proxmox
+Virtualization for servers
+:server
+:7/10
+
+GitHub
+Git hosting service
+:service
+:proprietary
+:3/10
+
+=> https://sourcehut.org/ Sourcehut
+Git hosting service
+:service
+:7/10
+
+=> https://www.tvmaze.com/ TVmaze
+TV show tracking service
+:service
+:proprietary
+:6/10
