@@ -32,6 +32,9 @@ About the Standard Model of Languages (SMoL)
 => https://dannorth.net/best-simple-system-for-now/ Best Simple System for Now
 A view I disagree on about IAGNI and the opposite concepts, but interesting
 
+=> https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/ Don’t Let Architecture Astronauts Scare You
+Thinking too much about abstraction and technology makes you lose the point. "[Architecture astronauts] tend to work for really big companies that can afford to have lots of unproductive people with really advanced degrees that don’t contribute to the bottom line."
+
 => https://mmapped.blog/posts/38-static-types-perfectionism Static types are for perfectionists
 Our programming style is influenced by our personality and life
 
