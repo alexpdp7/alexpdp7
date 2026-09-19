@@ -171,6 +171,9 @@ Espero que durante más tiempo del que me importa, sigamos pudiendo comprar orde
 
 Las comunidades serán más pequeñas y los efectos creo que también. Por verle el lado positivo, el esfuerzo masivo que se ha dedicado a hacer que el ordenador programable sea útil para el mundo real quizá ya no sean necesarios: la inacabable ingeniería inversa para hacer funcionar sistemas operativos abiertos sobre ordenadores no diseñados con ese propósito, los bizantinos navegadores que intentan seguir la estela de Apple y Google; todos esos esfuerzos quizá se puedan destinar a otras cosas que hagamos con esos ordenadores programables si le dejamos las cosas oficiales a un aparato que no nos suponga un gran esfuerzo económico. Y quizá si le dedicamos más atención al ordenador programable con teclado al que acudimos explícitamente en peregrinamiento en vez de al pequeño aparato que inconscientemente ocupa nuestra mente por estar siempre en el bolsillo, haremos cosas más interesantes gracias a usar el aparato más interesante.
 
+Creo que la primera mitad de este documento transmite el optimismo que tengo sobre los ordenadores programables. En mi opinión, tenemos que buscar argumentos para enfocarnos en lo positivo y en cómo seguir sacando rédito positivo de ellos. Las ideas introducidas en mensajes como el de "Don't take the black pill" ("no tomes la pastilla negra", una charla sobre estos temas[1]) pueden ayudarnos.
+
 ### Referencias
 
+=> https://www.youtube.com/watch?v=zLZwpH5lCD4 [1] Don't take the black pill
 => https://alex.corcoles.net/2026/07/la-anomal%C3%ADa La anomalía
