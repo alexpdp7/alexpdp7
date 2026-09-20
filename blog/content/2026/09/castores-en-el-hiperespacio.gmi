@@ -1,0 +1,23 @@
+# 2026-09-20 Castores en el hiperespacio
+
+Participando en una discusión sobre si hay cosas que molan hoy en día en el software, las dos cosas que he mencionado han sido monotemas, claro: Gemini y Delta Chat.
+
+Lo gracioso es que he acabado conectando esos dos hilos separados.
+
+En el hilo de Delta Chat, he mencionado como aparte de que Delta Chat me flipa, el sistema para incrustar aplicaciones en chats (Webxdc[1]) me parece algo que debería impulsarse más. Cualquiera puede desarrollar una aplicación que se puede meter en una conversación de Delta Chat con un poco de HTML y JavaScript. Y esto no requiere más infraestructura que un servidor web estático, de los que hay a patadas incluso gratis.
+
+En el hilo de Gemini me han mencionado Gopher de pasada. Y me he puesto a pensar en el linaje de las aplicaciones basadas en menús. En los setenta aparecieron las BBS, un hilo del mundo online paralelo a Internet, donde nos conectábamos a sistemas que nos ofrecían foros, juegos y demás. Muchas BBS se basaban en menús que hoy nos podrían parecer algo extraños porque "ganó" el hipertexto, o más bien que lo que hoy llamamos Internet es la web. (E incluso nos falta una palabra para describir lo que es Internet pero no es web.)
+
+Pero recientemente tuve que usar un servicio a través de menús de WhatsApp. Esto lo peta en muchas partes de Asia, donde las aplicaciones sobre sistemas de mensajería pueden llegar a ser imprescindibles en el día a día. Yo no entendía este fenómeno hasta que usé este servicio y me pareció idóneo en muchos aspectos.
+
+Y creo que hay que meter estas aplicaciones para completar el largo linaje que incluye a las BBS y al Gopher, porque son decididamente poco hipertextuales y porque en realidad, son lo mismo.
+
+Y curiosamente (para un occidental estúpido que a menudo se da cuenta de las cosas décadas después de que resulten obvias en ciertas partes de Asia), es posible que las aplicaciones basadas en menús tengan más sentido en el contexto de las limitaciones de los dispositivos móviles con interfaces limitados y conectividad intermitente.
+
+Me gusta la web porque el hipertexto es idóneo para la publicación. Podemos fluir entre cosas totalmente independientes de una manera ágil y transparente mediante los enlaces. Pero las aplicaciones sobre la web siempre me han parecido un emplaste. Que la web sea tan naturalmente portable a través de todo tipo de dispositivos y sistemas operativos es por supuesto ideal para la publicación, pero también para todo lo demás, incluidas las aplicaciones. Por supuesto que es tentador desarrollar aplicaciones web porque es de las maneras más eficientes de que funcionen en todos lados. Pero siempre me han cojeado las aplicaciones web complejas.
+
+A todo esto de junta mi desagrado por el ecosistema de las grandes appstores controladas por grandes empresas. Todo en ellas me repele.
+
+Como siempre, veo imposible la utopia, pero quizá un ecosistema abierto de aplicaciones sobre mensajería podría arreglar muchos de los problemas que veo. Pero ciertamente, creo que explorar el mundo de las aplicaciones basadas en menús sobre Delta Chat podría ser beneficioso.
+
+=> https://webxdc.org/ [1] Webxdc
