@@ -136,6 +136,10 @@ See also https://alex.corcoles.net/notes/tech/real-time-relations
 - It runs automatic validation on unchecked commits continuously, adding git notes with the result
 - Provides a UI to approve individual commits
 - For validated *and* approved commits, it implements a merge queue that works on a per-commit basis.
+* Rclone-style browser extension
+
+So that webapps can store data in a backend of your choosing.
+
 * Pen and tablet diagram tool
 
 - Recognizes diagram elements and converts them to structured objects.
