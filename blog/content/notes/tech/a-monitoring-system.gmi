@@ -11,7 +11,7 @@ However, Nagios has some problems:
 * The user interface is bad, although there are nicer alternative user interfaces.
 * Metrics collection is an afterthought, and the default implementation is not good.
 * Although Nagios configuration has macros and other features to make the configuration somewhat declarative, it is insufficient and in most complex configurations, using a program to generate the configuration is necessary. Command definition is clunky.
-* The host/service distinction is likely unnecessary, only dependencies are needed.
+* The host/service distinction is likely unnecessary.
 * The API for commands is a bit clunky and error-prone. (Generating perfdata and status lines is not straightforward. Return code as command status is error-prone to implement in most programming languages.)
 
 I think this can be improved by:
@@ -19,8 +19,10 @@ I think this can be improved by:
 * Instead of providing a user interface, provide an API as a first-class citizen.
 * Do not implement metrics. Metrics collection is better implemented separately. Probably you could implement checks that alert over data in the metrics system.
 * Make the configuration a JSON-like format that can be generated easily.
-* Only implement checks, dependencies and alerting rules.
+* Only implement checks, notifications can be implemented
 * Use JSON output as the main API for commands.
+
+TODO: the following entries are an MVP.
 
 ## Check API
 
@@ -29,25 +31,26 @@ Check plugins should output a JSON blob through stdout.
 The output looks like:
 
 ```
-{
-  "status": "OK"|"WARNING"|"CRITICAL"|"UNKNOWN",
-  "description": "free text here",
-  "extra": {any JSON value here}
-}
+[
+  {
+    "id": "{id}",
+    "status": "OK"|"WARNING"|"CRITICAL"|"UNKNOWN",
+    "description": "free text here",
+  },
+  ...
+]
 ```
 
 If the process return code is not 0, then the status is equivalent to:
 
 ```
-{
-  "status": "UNKNOWN",
-  "description": "command {command} exited with return code {return code}\n\nstdout:\n\n{stdout truncated to a reasonable size}\n\nstderr:\n\n{stderr truncated to a reasonable size}",
-  "extra": {
-    "return-code": "{return-code}",
-    "stdout": "{stdout truncated to a reasonable size}",
-    "stderr": "{stderr truncated to a reasonable size}"
+[
+  {
+    "id": "check",
+    "status": "UNKNOWN",
+    "description": "command {command} exited with return code {return code}\n\nstdout:\n\n{stdout truncated to a reasonable size}\n\nstderr:\n\n{stderr truncated to a reasonable size}",
   }
-}
+]
 ```
 
 An adapter executable can be provided to adapt Nagios plugins to the new API.
@@ -60,15 +63,12 @@ An adapter executable can be provided to adapt Nagios plugins to the new API.
     {
       "id": "{string}",
       "command": ["/full/path/to/check", "arg1", "arg2", "arg3"],
-      "requires": [
-        {"check-id": "{check-id}", "in-last-seconds": "{seconds}"},
-        ...
-      ]
-      "period-seconds": "{period seconds}"
+      "period-seconds": "{period seconds}",
     },
     ...
   ]
 }
+```
 
 ## TODOs
 
