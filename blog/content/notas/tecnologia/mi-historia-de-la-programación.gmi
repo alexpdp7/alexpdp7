@@ -1,5 +1,7 @@
 # Mi historia de la programación
 
+=> https://alex.corcoles.net/2026/09/castores-en-el-hiperespacio TODO: los hilos paralelos del hipertexto y las aplicaciones.
+
 Cuando tenía cuatro años, un Commodore 64 apareció en casa. A mi madre le gustaba explicar cómo ese día ni mi padre, ni mi hermano, ni yo comimos. Es una buena historia porque era un presagio de lo que iba a venir.
 
 En este texto quiero hablar de los ordenadores programables, un invento significativo de la humanidad. Hablaré de sus antecedentes, de sus manifestaciones primitivas y de los largos linajes, pero también de los indicios de su decadencia.
