@@ -16,7 +16,7 @@ Y curiosamente (para un occidental estúpido que a menudo se da cuenta de las co
 
 Me gusta la web porque el hipertexto es idóneo para la publicación. Podemos fluir entre cosas totalmente independientes de una manera ágil y transparente mediante los enlaces. Pero las aplicaciones sobre la web siempre me han parecido un emplaste. Que la web sea tan naturalmente portable a través de todo tipo de dispositivos y sistemas operativos es por supuesto ideal para la publicación, pero también para todo lo demás, incluidas las aplicaciones. Por supuesto que es tentador desarrollar aplicaciones web porque es de las maneras más eficientes de que funcionen en todos lados. Pero siempre me han cojeado las aplicaciones web complejas.
 
-A todo esto de junta mi desagrado por el ecosistema de las grandes appstores controladas por grandes empresas. Todo en ellas me repele.
+A todo esto se junta mi desagrado por el ecosistema de las grandes appstores controladas por grandes empresas. Todo en ellas me repele.
 
 Como siempre, veo imposible la utopia, pero quizá un ecosistema abierto de aplicaciones sobre mensajería podría arreglar muchos de los problemas que veo. Pero ciertamente, creo que explorar el mundo de las aplicaciones basadas en menús sobre Delta Chat podría ser beneficioso.
 
