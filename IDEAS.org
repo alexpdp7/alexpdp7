@@ -60,6 +60,7 @@ See also [[https://alex.corcoles.net/notes/tech/internet-basics][Internet basics
 ** Research confidential computing so that users can run private workloads on shared systems such as tildes
 
 - [[https://discuss.linuxcontainers.org/t/confidential-computing-support/25765/2][Does not seem to be there yet]]
+- [[https://mastodon.social/users/pid_eins/statuses/117307883706564416][systemd moving forward on this]]
 ** Nice mailing lists
 
 - GH-style user/organization creation
