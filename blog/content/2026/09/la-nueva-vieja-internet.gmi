@@ -1,0 +1,86 @@
+# 2026-09-24 La nueva vieja Internet
+
+Yo no existía cuando nació Internet. Pero sí viví los últimos coletazos de su formato original. Aunque Internet es una red compuesta de otras redes, la idea era que todos los dispositivos conectados a Internet parecían pertenecer a la red de la misma manera. Dos dispositivos cualquiera de Internet podían establecer conexiones mutuas sin importar dónde estaban ni a quién pertenecían, salvo que se pusiese un cortafuegos. Los ordenadores del aula de informática de mi universidad e incluso el ordenador personal en casa conectado por módem telefónico y las primeras líneas ADSL se comportaban así.
+
+Pero al poco tiempo, cuando lo que había en casa ya no era sólo un ordenador doméstico sino varios o quizá algún móvil con acceso a internet, los módems dieron paso a los routers y a las redes inalámbricas domésticas. Esto era infinitamente más conveniente que lo que había antes, pero rompió el formato tradicional de Internet sin que mucha gente se diese cuenta de la relevancia de lo que estaba pasando.
+
+Para que dos dispositivos en Internet se comuniquen (y para cualquier comunicación en general) cada dispositivo ha de tener una dirección. Durante mucho tiempo, estas direcciones eran cuatro números del 0 al 255 separadas por puntos, como 123.123.123.123. Esta es una dirección IPv4 (la versión 4 del protocolo Internet). En las conexiones a Internet tradicionales se asigna una dirección IPv4 a cada dispositivo y un dispositivo puede establecer una comunicación unidireccional sabiendo la IPv4 del dispositivo destino.
+
+## Tiempos de escasez
+
+Pero las direcciones IPv4 cuestan dinero, especialmente porque hay un número limitado de estas (dos multiplicado por dos treinta y dos veces, que sale a más de cuatro mil millones de direcciones que podrían parecer muchas hasta que las comparamos con el número de personas en el planeta). Los proveedores de Internet doméstico decidieron que dar una dirección IPv4 a cada dispositivo que tuviésemos en casa no era practicable y comenzaron a usar un truco: darle una única dirección IPv4 a la conexión.
+
+Pero seguimos con la necesidad de que cada dispositivo conectado a Internet tenga su propia conexión. Y aquí viene la parte complicada del truco. Hay unos rangos de direcciones IPv4 reservados que los dispositivos conectados directamente a Internet no pueden usar. Son las que tienen el formato 192.168.x.y que os sonará a muchos, pero también otros como 10.x.y.z. Los dispositivos dentro de una red doméstica reciben una dirección IPv4 en estos rangos y el router, que tiene una dirección IPv4 real, actúa de intermediario con el resto de Internet.
+
+Incluso con este truco, la explosión de conexiones a Internet y dispositivos, particularmente con la introducción de los móviles siempre conectados a Internet, los proveedores de Internet comenzaron a hacer trucos todavía más rocambolescos. Vuestro móvil, al salir de casa, no está en una red doméstica que os pertenezca en la que se puedan consolidar varios de vuestros dispositivos en una sola dirección. Así que los proveedores de Internet comenzaron a consolidar conexiones de abonados distintos de una manera masiva; si el esquema anterior se llamaba "Network Address Translation" (NAT, traducción de direcciones de red), el esquema nuevo era "carrier-grade network translation" (CGNAT, algo así como NAT "a lo grande" o de "escala de proveedor").
+
+No es raro que esto no afecte a la mayoría de la gente y además, como es algo tan común, la mayoría de servicios sobre Internet se diseñan para que funcionen bien bajo NAT y CGNAT. Salvo si un día queréis montar vuestro propio servicio sobre Internet.
+
+Recordad, todos los dispositivos de Internet necesitan tener una dirección en Internet para poderse comunicar. Cuando vuestro dispositivo establece una conexión a mi servidor web para que podáis ver esta página, vuestro dispositivo ha de averiguar la dirección de mi servidor web. Pero esto es posible gracias a que mi servidor web no se conecta a Internet a través de NAT y tiene una dirección IPv4 de verdad.
+
+Pero un dispositivo detrás de NAT no tiene una dirección de verdad y nadie puede establecer una conexión a un dispositivo que está en una red distinta con NAT.
+
+Como hay algunas cosas (curiosamente, particularmente servidores de juegos online) que la gente quería usar en sus conexiones domésticas, ya los primeros routers con NAT admitían redirigir conexiones específicas a dispositivos dentro de la red con NAT. Esto es lo que muchas veces conocemos como "abrir un puerto". Quizá habéis tenido que abrir un puerto para alguna tarea específica, pero es un poco farragoso y poco conveniente, aunque existen maneras de automatizar este proceso de manera que a veces incluso sucede de una manera automática.
+
+Esto funciona en las redes con NAT, pero ningún proveedor de Internet (que yo sepa) ofrece nada similar para los dispositivos que usan CGNAT. Si tenéis NAT, en general podréis dar la mayoría de servicios que queráis con algo de esfuerzo extra. Pero los proveedores de Internet cada vez se decantan más por ponernos en redes con CGNAT sin más alternativa que quizá pagar algo más para que nos pasen a NAT.
+
+## El eterno aspirante
+
+A finales de los 90, los cuatro mil millones de direcciones IPv4 ya se veían cortos, así que tras ciertos eventos curiosos, en 1998 se publicó IPv6, con una cantidad absurda de direcciones (en vez de multiplicar 2 consigo mismo 32 veces, se hace 128 veces, lo que resulta en un número que es hasta complejo de escribir; tiene 38 dígitos).
+
+Sin embargo, por un motivo u otro (daría para un artículo todavía más largo intentar buscar culpables), en casi 30 años la implantación de IPv6 parece ser que sólo ha llegado a la mitad de Internet, y esto cambia mucho según en qué país nos encontremos. En España, muchos proveedores de Internet no ofrecen IPv6.
+
+Pero si tenéis IPv6, aprendéis a usarla y vuestro proveedor de Internet no os pone palos en la rueda ni intencionados ni accidentales, igual podéis dar servicios a Internet sin "abrir puertos", pero seguramente tendréis que configurar un cortafuegos.
+
+Los ordenadores personales y los móviles evolucionaron en un mundo con NAT en el que, salvo apertura de puertos explícita, nadie podía conectarse a ellos directamente. El NAT actúa en cierta manera de cortafuegos implícito que nos protege en algunos sentidos de algunos ataques. Como los sistemas están pensados para vivir tras un NAT que los proteja, al pasar a IPv6 los proveedores de Internet siempre ponen un cortafuegos en el router para que no se abran nuevas vías de ataque accidentalmente. Con un poco de suerte, lo podremos reconfigurar para dar paso a nuestros servicios.
+
+Sin embargo, falta otra parte de la ecuación. Nuestro servicio IPv6 podrá dar servicio a... otros dispositivos con IPv6. Y la mitad no tiene. Aquí se establece una pescadilla que se muerde la cola, porque ¿para qué preocuparse del IPv6 si para uso general tendremos que dar IPv4 igualmente?
+
+## Capa sobre capa
+
+Pero la gente que trastea con ordenadores tiene una imaginación enfermiza que les permite superar dificultades de maneras insospechadas.
+
+Para otros propósitos, muchas entidades querían conectar dos redes separadas sin exponerlas a Internet. Algo que gusta mucho a la gente que trastea con redes es construir redes sobre otras redes y se inventaron lo que se conoce como "VPN" (virtual private network o red privada virtual), un servicio de red que permite interconectar dos redes (como lo que es Internet) mediante una conexión cifrada a través de dos puntos de Internet. Lo curioso de esto es que las VPN tienen características insospechadas, algunas de las cuales resultan muy tentadoras hasta para el público en general.
+
+Con las VPN podemos tener múltiples dispositivos en una VPN con direcciones IPv4 privadas (las 192.168.x.y que mencionábamos más arriba), pero todos los dispositivos dentro de la VPN pueden verse entre ellos, incluso los que están en redes NAT distintas.
+
+Esto se usaba con dos propósitos. Primero, para extender las redes corporativas a, por ejemplo, un portátil en la casa de un empleado o a su móvil en la calle. Segundo, para simplificar la comunicación entre dispositivos entre distintas sedes.
+
+Pero las VPN también sirven para otra cosa. Cuando un empleado está trabajando desde una red no confiable, la VPN cifra todo el tráfico dentro de la red corporativa evitando que pueda ser manipulado o espiado. Pero el tráfico a Internet no tiene por qué ir a través de la VPN, y por tanto podría ser manipulado o espiado, cosa que no le interesa a la empresa. Por tanto, se añadió a las VPN la capacidad de hacer llevar todo el tráfico de un dispositivo a través de ellas.
+
+Y esto tiene un efecto secundario curioso: las conexiones de red de los dispositivos de los empleados parecen salir de otra red que no es la red donde está realmente el dispositivo. Hay maneras de asociar una dirección IPv4 a una ubicación geográfica más o menos precisa. Si estamos en Alemania pero nuestro tráfico atraviesa una VPN y sale a Internet por Italia, pareceremos italianos para otros servicios.
+
+(Y en un mundo donde hay servicios restringidos por su geografía o donde ciertas actividades tienen repercusiones, esto ha disparado el interés del usuario de a pie sobre las VPN. Esto daría para otro artículo.)
+
+## El sistema de nombres de dominio
+
+Hay un elemento necesario para esta historia del que todavía no hemos hablado. Hemos mencionado que para establecer conexiones en Internet necesitamos direcciones IPv4 o IPv6. Y esto es cierto, pero conectarnos a servicios usando direcciones numéricas es una lata. Al menos las direcciones IPv4 son medio memorizables, pero recordemos que el número de direcciones IPv6 tiene 38 dígitos que por mucho que nos las ingeniemos para abreviar, resulta bastante inmanejable.
+
+Aquí interviene el sistema de Internet más conocido en su faceta de cabeza de turco: el DNS (domain name system o sistema de nombres de dominio) permite asociar un nombre amistoso como alex.corcoles.net a una dirección IPv4 o IPv6, para que las cosas sean más prácticas para los humanos.
+
+El DNS participa en toda clase de controversias, pero en general, cualquiera puede comprarse un dominio y darle nombres bonitos a sus dispositivos en Internet (o a su router para ofrecer sus servicios donde hay "puertos abiertos") para poder acceder más fácilmente a sus servicios.
+
+Hay un pequeño problema aquí derivado una vez más de la escasez de direcciones IPv4, pero que en general se resuelve fácil: los proveedores de Internet tienen tendencia a cambiarnos la dirección IPv4. Pero en general, hay servicios de DNS que nos permiten actualizar la dirección a la que apunta un nombre de dominio cuando cambia la dirección. Un poco más de faena, pero en general no muy problemático.
+
+## El árbol mágico
+
+Volviendo a las VPN, vemos que las VPN pronto se usaron para propósitos insospechados porque son una idea sencilla pero poderosa.
+
+Uno de los usos más destacables de las VPN es la red Yggdrasil[2].
+
+La red Yggdrasil es una VPN pública que puede funcionar sobre Internet (u otras redes) a la que cualquiera puede conectarse. Y por defecto, todos los dispositivos en Yggdrasil pueden establecer conexiones entre ellos. Es decir, que volvemos al formato tradicional de Internet en el que cualquier dispositivo puede ofrecer cualquier servicio a cualquier otro dispositivo.
+
+Pero además, Yggdrasil tiene una propiedad curiosa: la dirección de un dispositivo no depende de su ubicación en la red. Cuando un dispositivo se conecta a Yggdrasil por primera vez, se establece una dirección (curiosamente IPv6 de un rango reservado; pero no es necesario estar en una red IPv6 para usar Yggdrasil) que se mantiene todo el tiempo que queramos. Esto es bastante guay porque no sólo no hace falta que hagamos montajes de DNS para evitar los problemas de los cambios de dirección, sino que además, hay ciertas cosas que no usan DNS que resultan mucho más convenientes de usar cuando los dispositivos no van cambiando de dirección. (Por ejemplo, los cortafuegos.)
+
+Otra propiedad interesante es que automáticamente todo el tráfico en Yggdrasil va cifrado. Hay gente que no es fan de la centralización que aparece en muchos esquemas de cifrado que se usan en Internet hoy en día, pero el cifrado es indispensable para protegernos de ciertos ataques. Con Yggdrasil, podemos usar sólo el cifrado de Yggdrasil que no tiene ninguna centralización.
+
+## Un viejo mundo desconocido para los habitantes del nuevo mundo
+
+Y todo esto ¿para qué?
+
+Una de las consecuencias del NAT es que las dificultades que introduce el NAT ayudan a que los servicios de empresas sean más atractivos que los autohospedados porque el servicio autohospedado incrementa su dificultad por el NAT.
+
+Por sí mismo, Yggdrasil no hace que el autohospedado sea inmediatemente mejor que los servicios de grandes empresas, pero ayuda. Y hace esto volviendo al esquema más sencillo que hizo prosperar Internet al principio, pero que la escasez de direcciones IPv4 ayudo a viciar para alejar de los servicios autohospedados.
+
+=> https://en.wikipedia.org/wiki/Firesheep [1] Firesheep, un gran hermano muy fácil de usar.
+=> https://yggdrasil-network.github.io/ [2] Yggdrasil
