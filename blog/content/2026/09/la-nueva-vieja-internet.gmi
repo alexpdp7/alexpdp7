@@ -1,5 +1,7 @@
 # 2026-09-24 La nueva vieja Internet
 
+=> ../../notas/tecnologia/mi-historia-de-la-programación Actualización: partes de esto están incluidos en "mi historia de la programación"
+
 Yo no existía cuando nació Internet. Pero sí viví los últimos coletazos de su formato original. Aunque Internet es una red compuesta de otras redes, la idea era que todos los dispositivos conectados a Internet parecían pertenecer a la red de la misma manera. Dos dispositivos cualquiera de Internet podían establecer conexiones mutuas sin importar dónde estaban ni a quién pertenecían, salvo que se pusiese un cortafuegos. Los ordenadores del aula de informática de mi universidad e incluso el ordenador personal en casa conectado por módem telefónico y las primeras líneas ADSL se comportaban así.
 
 Pero al poco tiempo, cuando lo que había en casa ya no era sólo un ordenador doméstico sino varios o quizá algún móvil con acceso a internet, los módems dieron paso a los routers y a las redes inalámbricas domésticas. Esto era infinitamente más conveniente que lo que había antes, pero rompió el formato tradicional de Internet sin que mucha gente se diese cuenta de la relevancia de lo que estaba pasando.

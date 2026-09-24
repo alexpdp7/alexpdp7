@@ -1,5 +1,7 @@
 # 2026-09-20 Castores en el hiperespacio
 
+=> ../../notas/tecnologia/mi-historia-de-la-programación Actualización: partes de esto están incluidos en "mi historia de la programación"
+
 Participando en una discusión sobre si hay cosas que molan hoy en día en el software, las dos cosas que he mencionado han sido monotemas, claro: Gemini y Delta Chat.
 
 Lo gracioso es que he acabado conectando esos dos hilos separados.

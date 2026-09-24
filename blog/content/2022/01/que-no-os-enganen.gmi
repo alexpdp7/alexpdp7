@@ -1,5 +1,7 @@
 # 2022-01-29 Que no os engañen, la inflación es importante
 
+=> ../../notas/tecnologia/mi-historia-de-la-programación Actualización: partes de esto están incluidos en "mi historia de la programación"
+
 Reiterando un poco en mis obsesiones, estas semanas he estado un poco disperso.
 
 Lo más interesante ha sido descubrir que lo que parece que hoy en día se llama "pubnix"[1] sigue bastante activo. Los pubnix hoy en día son servidores corriendo algún sistema operativo tipo UNIX (frecuentemente Linux, pero abundan BSDs y cosas más esotéricas) que permiten registrarse y crearse una cuenta gratuita. Uno de los históricos y más impresionantes es SDF[2], Super Dimension Fortress, que hasta permite en esta era de nuestro señor acceder vía un modem y líneas telefónicas de cobre. Podemos acceder al servidor vía SSH y usar todo tipo de programas. Muy frecuentemente están vinculados a comunidades y proveen servicios ligeros y abiertos que podemos utilizar desde el terminal. Estos servicios son cosas más o menos friquis como IRC, pero abundan cosas tipo Gopher (con hosting gratuito). Una subcorriente de los pubnixes es el Tildeverso[3], que engloba varias pequeñas comunidades de intereses afines.

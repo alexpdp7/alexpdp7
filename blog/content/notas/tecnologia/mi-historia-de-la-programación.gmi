@@ -1,8 +1,5 @@
 # Mi historia de la programación
 
-=> ../../2026/09/castores-en-el-hiperespacio TODO: los hilos paralelos del hipertexto y las aplicaciones.
-TODO: ¿quizá mencionar tildes?
-=> ../../2026/09/la-nueva-vieja-internet TODO: apéndice con la nueva vieja Internet
 
 Cuando tenía cuatro años, un Commodore 64 apareció en casa. A mi madre le gustaba explicar cómo ese día ni mi padre, ni mi hermano, ni yo comimos. Es una buena historia porque era un presagio de lo que iba a venir.
 
@@ -166,7 +163,61 @@ Pero la tendencia es que esto desaparezca. Es cierto que ha habido muchos moment
 => ../../2025/02/el-lento-adios-a-la-magia-de-los-ordenadores El lento adiós a la magia de los ordenadores
 => ../../2026/07/la-anomal%C3%ADa La anomalía
 
-## El camino adelante
+## Apéndices
+
+### No es Internet, es la web
+
+La historia de la programación tiene muchísimo que ver con Internet y la web.
+
+Internet no es sólo el medio que aceleró la programación poniendo al alcance de todo el mundo más información sobre cualquier tema de la que nunca imaginamos, incluyendo todo tipo de documentación y materiales para aprender a programar. También nos permite soñar con que nuestros programas serán útiles para otros y nos conecta con otros programadores. Pero también es un medio que todo programa puede explotar para multiplicar sus posibilidades al ejecutarse sobre un dispositivo con acceso a Internet. Y la web curiosamente también cada día influencia más a las tecnologías que usamos para programar.
+
+Internet como la red que interconecta redes a escala mundial obviamente a parte de un hito en el avance de los dispositivos hardware para crear redes, también supuso el desarrollo masivo del software necesario para hacerla funcionar, muy entrelazado con la historia de la familia de sistemas operativos UNIX mencionadas anteriormente y que hoy son extremadamente significativos como sistemas operativos de los ordenadores programables.
+
+Como era de esperar, al igual que UNIX, Internet nació en las mismas grandes organizaciones y al principio sólo estaba al alcance de aquellos que trabajaban o estudiaban allí. Pero a finales de los noventa, Internet también entró en nuestras casas, de hecho de una manera mucho más importante de la que entraron en las casas los sistemas UNIX.
+
+Internet se diseño de manera que todos los dispositivos en las redes que interconectaba aparecían en Internet de una manera prácticamente transparente en relación a la red donde se hallaban físicamente. Un ordenador en una universidad de Australia podía conectarse directamente a un ordenador en otra universidad en California. Y en la era de los módems telefónicos e incluso el ADSL y otros primeros mecanismos de conexión a Internet doméstica, ese ordenador en la universidad también podía conectarse al ordenador en nuestro hogar.
+
+Sin embargo, pronto había más que un ordenador doméstico conectado a Internet. Había varios ordenadores o incluso móviles conectados a Internet. Al resultar costoso dar a cada dispositivo una de las relativamente escasas direcciones IPv4, se introdujo el NAT para que todos los dispositivos en una red doméstica apareciesen en Internet con una única dirección IPv4. Esto nos parecía un detalle pequeño, pero dificultaba que el resto de Internet accediese a servicios hospedados en conexiones domésticas. "Abrir puertos" y otros inventos resolvieron parte de los problemas que los usuarios domésticos sufrían por culpa del NAT e Internet evolucionó acorde con el NAT, centralizando servicios y penalizando que los usuarios domésticos ofreciesen sus propios servicios.
+
+A finales de los noventa este problema era tan obvio que hasta salió IPv6 que ampliaba el número de direcciones del IPv4 de una manera astronómica. Esto debería haber resuelto el problema, pero en 2026 todavía se cuantifica el avance de IPv6 como en poco más de la mitad de Internet. Un avance muy lento en casi tres décadas, pero quizá comprensible dada la complejidad de realizar cambios a gran escala en un sistema compuesto de tantísimos elementos.
+
+El ocaso de la programabilidad de los ordenadores quizá vaya un poco de la mano de la separación en la Internet de dos velocidades donde el usuario de a pie tiene más dificultades para ofrecer sus servicios que las empresas. Quizá volver a descentralizar la Internet (como en sus orígenes) también ayude a mantener la popularidad de los ordenadores programables en nuestros hogares.
+
+Un proyecto interesante en este sentido es Yggdrasil, una especie de VPN pública sobre Internet donde cada dispositivo tiene una dirección (IPv6, aunque no necesitamos tener una conexión a Internet IPv6 para usar Yggdrasil) fija y todos los dispositivos pueden ver a todos los dispositivos sin problema, reproduciendo el esquema de la Internet original.
+
+El otro aspecto de Internet que influye a la programación es la web, que apareció en 1991 y se desarrolló en paralelo en esa época dorada, con tanta importancia que hoy en día muchísima gente considera que Internet es la web.
+
+Antes de la web, los programas que funcionaban sobre Internet a menudo usaban protocolos especializados según lo que ofrecían los servicios. Por ejemplo, el famoso FTP (file transfer protocol) que como su nombre indica, es un protocolo para transferir ficheros. Aunque la web nació como una aplicación del hipertexto (usar enlaces para saltar de un documento a otro) para publicar documentos sobre Internet, poco a poco se le fueron añadieron funcionalidades que permitían realizar más y más aplicaciones sobre un navegador de Internet. De enviar formularios y transferir archivos, hasta hoy en día videoconferencias y aplicaciones prácticamente igual de funcionales que cualquier aplicación de escritorio.
+
+Las tecnologías de la web son tan populares y efectivas, que hoy en día se usan incluso para el desarrollo de aplicaciones de escritorio sin navegador visible de por medio.
+
+El competidor principal de la web era el protocolo Gopher que surgió más o menos a la vez. Curiosamente, la web era un invento europeo (nacido en el CERN suizo) mientras que Gopher salió de una universidad de Minnesota. Y si la web originalmente estaba orientada a la publicación de documentos, la estructura de menús de Gopher parecía tener más aplicaciones comerciales. Pero la web creció de una manera vertiginosa y dejó a Gopher atrás, que hoy en día sobrevive en el mundillo de los entusiastas y quizá en las aplicaciones basadas en chatbots sobre aplicaciones de mensajería instantánea, que muchas veces parecen pertenecer al linaje de las aplicaciones basadas en menús.
+
+Los navegadores han evolucionado hasta un nivel de complejidad tan extremo que hasta una empresa del tamaño de Microsoft se ha rendido y dejado de implementar su propio motor de navegación y ha pasado a depender del motor de navegación de Chrome, controlado por Google que es un competidor directo. Y esta complejidad, aunque plantea ciertas ventajas al poder aprovechar toda la potencia de la tecnología web en nuestros programas, también nos aliena y nos hace dependientes de los pocos organismos que tienen el poder sobre los pocos motores de navegación completos que existen.
+
+Quizá un resurgimiento de los ordenadores programables pase también por abandonar esos monstruos inabarcables que son los grandes navegadores y quizá reorientar el desarrollo hacia paradigmas más sencillos como las aplicaciones basadas en menú herederas de Gopher o los chatbots, pero sobre sistemas de mensajería abiertos.
+
+Referencias
+
+=> ../../2026/09/la-nueva-vieja-internet La nueva vieja Internet
+=> ../../2026/09/castores-en-el-hiperespacio Castores en el hiperespacio
+=> https://yggdrasil-network.github.io/ Yggdrasil
+
+### Tildados
+
+En la línea de Yggdrasil que recupera el antiguo modelo de Internet, hay otra línea evolutiva que se origina directamente en los sistemas compartidos de las grandes empresas con acceso a Internet en sus origenes. En aquella época, los miembros de una facultad universitaria quizá tenían un gran sistema UNIX o similar con cientos de terminales del mismo ordenador que podían usar. Cada miembro guardaba sus archivos en el gran sistema, quizá podían publicar en el servidor web de este sistema, y tenían mecanismos de comunicación dentro del propio sistema.
+
+Super Dimension Fortress es un sistema similar fundado en 1987 como club social sin ánimo de lucro. Cualquiera puede crearse una cuenta y conectarse a una serie de servicios gestionados de una manera muy parecida a los grandes sistemas UNIX multiusuario.
+
+Y en tiempos recientes, se ha dado un pequeño renacer de este tipo de sistemas. Una iniciativa curiosa es el tildeverso, donde se reunen toda una serie de "tildes" que ofrecen servicios a sus usuarios. (Se llaman tildes porque en los sistemas UNIX, se usa la tilde como abreviatura para referirse a los directorios donde los usuarios almacenan sus archivos, o para referirse a los usuarios en general. Así, ~alex es un atajo al directorio personal del usuario alex.)
+
+Aunque a primera vista las tildes y sistemas similares no parecen más que pequeñas aficiones, los usuarios de las tildes forman pequeñas comunidades quizá como nostalgia de las épocas anteriores que consideramos más doradas (y que incluso algunos de sus miembros no hayan vivido). Pero son comunidades de gente que quiere experimentar y crear, y cuyas evoluciones dependen del uso de los ordenadores programables donde se pueden crear tildes y el software asociado.
+
+Las tildes también han sido el caldo de cultivo de otros proyectos interesantes respecto a esta historia, como el protocolo Gemini. Gemini es un experimento que consiste en un protocolo y un formato de hipertexto parecidos a los de la web más primitiva, con muchísimas más limitaciones. Gemini desecha gran parte de la complejidad de la web, contrastando el hecho de que ni Microsoft se atreve a mantener un motor de navegador actual, con que cualquiera puede implementar los protocolos de Gemini en una tarde. Este tipo de proyectos pueden ayudar a devolver el espíritu experimentador e innovador de las épocas doradas.
+
+=> ../../2022/01/que-no-os-enganen Que no os engañen
+
+### El camino adelante
 
 Los trámites que hacíamos en un ordenador abierto y programable se irán cada vez más a los móviles poco programables y cerrados excepto para Apple y Google, de las empresas con más poder que existen (precisamente en parte por este control que ejercen). Lo mismo pasará con muchas otras cosas; los jóvenes ya no se reirán de los viejos porque insistan en hacer cosas en el ordenador, porque ya no podrán.
 
@@ -178,7 +229,7 @@ Las comunidades serán más pequeñas y los efectos creo que también. Por verle
 
 Creo que la primera mitad de este documento transmite el optimismo que tengo sobre los ordenadores programables. En mi opinión, tenemos que buscar argumentos para enfocarnos en lo positivo y en cómo seguir sacando rédito positivo de ellos. Las ideas introducidas en mensajes como el de "Don't take the black pill" ("no tomes la pastilla negra", una charla sobre estos temas[1]) pueden ayudarnos.
 
-### Referencias
+Referencias
 
 => https://www.youtube.com/watch?v=zLZwpH5lCD4 [1] Don't take the black pill
 => ../../2026/07/la-anomal%C3%ADa La anomalía
