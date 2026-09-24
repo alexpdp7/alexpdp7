@@ -1,5 +1,7 @@
 # 2011-11-16 Hazañas informáticas VI: el sistema UNIX
 
+=> ../../notas/tecnologia/mi-historia-de-la-programación Actualización: esto está reescrito y reorientado como parte de "mi historia de la programación"
+
 Anteriores entregas:
 
 => ../../2011/04/hazanas-informaticas-i-internet Hazañas informáticas I: Internet

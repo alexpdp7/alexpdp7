@@ -1,5 +1,7 @@
 # 2025-02-07 El lento adiós a la magia de los ordenadores
 
+=> ../../notas/tecnologia/mi-historia-de-la-programación Actualización: esto está reescrito y reorientado como parte de "mi historia de la programación"
+
 Desde el día (hace más de cuarenta años) en que pude escribir en un teclado y hacer aparecer letras en una tele, me han fascinado los ordenadores. Mucho antes de que apareciesen los ordenadores, existían máquinas que podían realizar tareas muy complejas y útiles, pero ninguna tan versátil como un ordenador, porque el ordenador es programable.
 
 Si lo pensáis, esto es lo que hace que los ordenadores hayan conquistado el mundo. Cualquiera puede coger un ordenador, aprender cómo funciona, aprender a programarlo y descubrir nuevas cosas que hacer con el aparato. Y así, se han convertido en una de las herramientas más versátiles que podemos tener.

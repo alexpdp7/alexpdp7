@@ -1,5 +1,7 @@
 # 2026-07-18 La anomalía
 
+=> ../../notas/tecnologia/mi-historia-de-la-programación Actualización: esto está reescrito y reorientado como parte de "mi historia de la programación"
+
 (Llevo varios días con esta entrada en la cabeza, pero curiosamente hace unas horas un banco me ha notificado que no podré operar por Internet sin Android o iOS.)
 
 => ../../2013/01/conecte-el-teclado-al-televisor En 2013 escribí sobre aquello de teclear y que aparezca lo que escribas en la tele, y cómo cada vez hay menos teclados.

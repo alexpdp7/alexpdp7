@@ -1,7 +1,8 @@
 # Mi historia de la programación
 
-=> https://alex.corcoles.net/2026/09/castores-en-el-hiperespacio TODO: los hilos paralelos del hipertexto y las aplicaciones.
+=> ../../2026/09/castores-en-el-hiperespacio TODO: los hilos paralelos del hipertexto y las aplicaciones.
 TODO: ¿quizá mencionar tildes?
+=> ../../2026/09/la-nueva-vieja-internet TODO: apéndice con la nueva vieja Internet
 
 Cuando tenía cuatro años, un Commodore 64 apareció en casa. A mi madre le gustaba explicar cómo ese día ni mi padre, ni mi hermano, ni yo comimos. Es una buena historia porque era un presagio de lo que iba a venir.
 
@@ -37,7 +38,7 @@ A pesar de que la máquina analítica tal como la diseñó Babbage todavía no h
 
 ### Referencias
 
-=> https://alex.corcoles.net/2011/11/hazanas-informaticas-v-las-maquinas-de-turing-y-von-neumann Hazañas informáticas V: Las máquinas de Turing y Von Neumann
+=> ../../2011/11/hazanas-informaticas-v-las-maquinas-de-turing-y-von-neumann Hazañas informáticas V: Las máquinas de Turing y Von Neumann
 
 ## Ordenadores como habitaciones (primera parte)
 
@@ -65,7 +66,7 @@ Además, debido a su enorme coste, sólo unos pocos tenían acceso a ellos por p
 
 ### Referencias
 
-=> https://alex.corcoles.net/2011/11/hazanas-informaticas-v-las-maquinas-de-turing-y-von-neumann Hazañas informáticas V: Las máquinas de Turing y Von Neumann
+=> ../../2011/11/hazanas-informaticas-v-las-maquinas-de-turing-y-von-neumann Hazañas informáticas V: Las máquinas de Turing y Von Neumann
 
 ## UNIX
 
@@ -83,7 +84,7 @@ Simultáneamente, Internet nació en los mismos entornos donde nació UNIX: gran
 
 ### Referencias
 
-=> https://alex.corcoles.net/2011/11/hazanas-informaticas-vi-el-sistema-unix Hazañas informáticas VI: el sistema UNIX
+=> ../../2011/11/hazanas-informaticas-vi-el-sistema-unix Hazañas informáticas VI: el sistema UNIX
 
 ## Los primeros ordenadores personales
 
@@ -101,7 +102,8 @@ Sin embargo, muchos de los programadores de los ordenadores personales de los 80
 
 ### Referencias
 
-=> https://alex.corcoles.net/2026/07/la-anomal%C3%ADa La anomalía
+=> ../../2013/01/conecte-el-teclado-al-televisor Conecte el teclado al televisor
+=> ../../2026/07/la-anomal%C3%ADa La anomalía
 
 ## Un breve paseo por los salones recreativos
 
@@ -141,7 +143,7 @@ Curiosamente, esta terna de sistemas operativos también resultó ser más o men
 
 ### Referencias
 
-=> https://alex.corcoles.net/2025/01/los-sistemas-operativos-y-un-amanecer-de-internet Los sistemas operativos y un amanecer de Internet
+=> ../../2025/01/los-sistemas-operativos-y-un-amanecer-de-internet Los sistemas operativos y un amanecer de Internet
 
 ## Los móviles y ordenadores como habitaciones (segunda parte)
 
@@ -161,8 +163,8 @@ Pero la tendencia es que esto desaparezca. Es cierto que ha habido muchos moment
 
 ### Referencias
 
-=> https://alex.corcoles.net/2025/02/el-lento-adios-a-la-magia-de-los-ordenadores El lento adiós a la magia de los ordenadores
-=> https://alex.corcoles.net/2026/07/la-anomal%C3%ADa La anomalía
+=> ../../2025/02/el-lento-adios-a-la-magia-de-los-ordenadores El lento adiós a la magia de los ordenadores
+=> ../../2026/07/la-anomal%C3%ADa La anomalía
 
 ## El camino adelante
 
@@ -179,4 +181,4 @@ Creo que la primera mitad de este documento transmite el optimismo que tengo sob
 ### Referencias
 
 => https://www.youtube.com/watch?v=zLZwpH5lCD4 [1] Don't take the black pill
-=> https://alex.corcoles.net/2026/07/la-anomal%C3%ADa La anomalía
+=> ../../2026/07/la-anomal%C3%ADa La anomalía

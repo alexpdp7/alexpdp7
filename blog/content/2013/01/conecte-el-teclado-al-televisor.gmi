@@ -1,5 +1,7 @@
 # 2013-01-17 Conecte el teclado al televisor
 
+=> ../../notas/tecnologia/mi-historia-de-la-programación Actualización: esto está reescrito y reorientado como parte de "mi historia de la programación"
+
 Mi madre disfruta contando la historia de cómo el día que mi padre trajo el primer ordenador a casa, un flamante Commodore C64, mi padre, mi hermano y yo no comimos y nos quedamos enganchados al aparato. Ese día se trastocó el mundo: a la televisión, el medio masivo de comunicación, le había salido un teclado que invertía su característica principal, la pasividad. El teclado y el mando de plástico manipulaban lo que salía por la tele. El primitivo muñeco que representaba a un futbolista respondía al mando y, lo que quizás resultaba más mágico, si pulsabas las letras dibujadas en el teclado, estas reaparecían en el televisor.
 
 Poco más tarde (y si se me permite introducir otra anécdota materna), tecleamos un programa de una revista. Como resultado, si nuestra madre nos decía una fecha, el ordenador respondía en qué día de la semana había caído nuestro nacimiento, o lo que fuese. El teclado no sólo permitía interactuar con lo que salía en pantalla, sino que nos permitía enseñar al aparato a hacer cosas que para nosotros eran bastante laboriosas y complejas (no para mi madre que, por supuesto, recordaba exactamente en qué día habían caído las efemérides).

@@ -1,5 +1,7 @@
 # 2025-01-05 Los sistemas operativos y un amanecer de Internet
 
+=> ../../notas/tecnologia/mi-historia-de-la-programación Actualización: esto está reescrito y reorientado como parte de "mi historia de la programación"
+
 Windows XP salió en 2001. Mac OS X también. Me compré mi primer ordenador para usarlo exclusivamente con Linux en 2002. (Usaba Linux antes, pero "a tiempo parcial" y con bastantes dificultades.)
 
 En mi casa, en los noventa todavía usábamos el Amiga, pero estaba muriendo poco a poco. Aunque en algún momento tuve cierta interacción con el mundo de las BBS, no sería hasta 1997 cuando entré en la universidad que tuve algo de acceso regular a Internet. En 1999, creo que en casa fuimos de la primera oleada que se abalanzó sobre el ADSL, que era más o menos la primera opción ampliamente disponible para conectarse a Internet sin ocupar una línea de teléfono y con la famosa "tarifa plana" que suponía la rotura de una importante barrera psicológica.
