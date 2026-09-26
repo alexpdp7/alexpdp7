@@ -57,7 +57,8 @@ for gmi in pathlib.Path.cwd().glob("**/*.gmi"):
 
     closest_index = closest_index if closest_index.exists() else None
     if closest_index:
-        index_link = "/".join([".."] * (len(gmi.parts) - len(closest_index.parts))) + "/"
+        levels_up = len(gmi.parts) - len(closest_index.parts)
+        index_link = "/".join([".."] * levels_up) + "/" if levels_up > 1 else "."
         footer.append(f"=> {index_link} {PARENT[language]}")
 
     gmi_content = gmi.read_text()
