@@ -43,4 +43,5 @@ class tvheadend {
     package {'tvheadend':}
 
     # TODO: initial users are set up using debconf
+    # TODO: copy puppet/site/finn.bcn.int.pdp7.net/*.fw to /lib/firmware
 }
