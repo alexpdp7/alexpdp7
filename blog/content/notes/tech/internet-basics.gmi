@@ -18,6 +18,8 @@ Delivery targets decouple the email domain from the email service that stores th
 
 Email services must support transferring stored email.
 
+Note: non-profit ISPs could be the best avenue to explore this.
+
 ## Everyone must have a feed reader. All website updates should work with feed readers
 
 Getting updates from websites is tedious.
