@@ -34,6 +34,7 @@ Notes about some books and long articles I like:
 => tech/modern-irc Modern IRC
 => tech/migadu Migadu
 => tech/internet-basics Internet basics
+=> tech/customizable-external-storage-for-applications Customizable external storage for applications
 
 => tech/document-formats Document formats
 => tech/ledger Ledger
@@ -47,6 +48,7 @@ Notes about some books and long articles I like:
 => tech/about-web-development About web development
 => tech/on-software-development On software development
 => tech/on-testing On testing
+=> tech/gemini-protocol-feeds Gemini protocol feeds
 
 => tech/misc-python-stuff Misc Python stuff
 => tech/python-modules-primer Python modules primer

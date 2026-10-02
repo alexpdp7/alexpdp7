@@ -38,6 +38,8 @@ Many storage providers do not give you enough control over your data if you want
 
 (A way to provide this would be for NAS devices to support easy interoperable mutual encrypted backups, so that you can easily back up your data to someone you know in a way that they cannot read your data unless you want them to.)
 
+=> customizable-external-storage-for-applications See also customizable external storage for applications
+
 ## Everyone must have a good password manager or trustable federated identities
 
 For good security, online accounts should have strong, unique passwords or no password at all.

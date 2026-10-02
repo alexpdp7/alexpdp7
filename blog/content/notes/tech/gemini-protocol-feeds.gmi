@@ -1,0 +1,45 @@
+# Gemini protocol feeds
+
+=> ../../gemini The Gemini protocol is performative art that shows us how the web could be better by being less.
+
+=> https://geminiprotocol.net/docs/companion/subscription.gmi One particularly notable aspect of Gemini is a companion specification about subscribing to Gemini pages.
+
+## Quick demonstration
+
+=> https://lagrange.skyjake.fi/ Visit a version of the Gemini protocol client Lagrange that runs in a browser without any installation.
+
+In the Lagrange URL bar, visit the gemini://antenna.michaelnordmeyer.com/ URL. Then, in the Bookrmarks menu, select "Subscribe to Page", then "Save Settings".
+
+Repeat the previous step with the gemini://cdg.thegonz.net/+recent URL.
+
+On the left side bar, click the star icon for the feeds panel. Then click "Refresh Feeds".
+
+Observe that you can see updates from both pages in chronological view.
+
+## Why Gemini protocol feeds are great
+
+### They are simple to implement
+
+Implementing feeds for regular web pages is not an easy process. Feed formats are very hard to write by hand, and you need additional steps to reference them in web pages so that things work smoothly.
+
+Also there are multiple feed formats and it is not easy to choose and implement the right one.
+
+Gemini feeds, on the other hand, you can add to any Gemini capsule very easily; just write a list of links whose link text starts with a date.
+
+You can do this even if you create your Gemini capsule using a minimal text editor.
+
+### They are everywhere
+
+Because Gemini protocol feeds are easy to implement, many Gemini capsules implement them, and many Gemini browser clients support them in different ways.
+
+### Feeds are needed for a better web browsing experience
+
+Without feeds, subscribing to updates requires using email at best, proprietary services at worst. Feeds are becoming less and less popular with web users, locking people to proprietary services that do not have aligned interests neither with publishers nor with readers.
+
+Feeds need to be low friction to be useful to most people. Visiting a page with a feed should prompt you to follow the page and that should work easily.
+
+## Missing parts
+
+Most people browse the web with multiple devices. For feed readers to be useful, it is very handy if what is read and what is not follows you from device to device.
+
+=> customizable-external-storage-for-applications Customizable external storage for applications would help implement this and many other things in a convenient way.

@@ -50,9 +50,7 @@ If you can do something in Gemini, then very likely the effort will be reasonabl
 
 ### Implicit feeds are simple
 
-RSS/ATOM feeds are awesome. By providing a feed, readers can subscribe to all their favorite websites and get updates without visiting them individually.
-
-Unfortunately, creating feeds is complex. In Gemini, a page with a list of links with dates in them is a feed automatically, you do not need to generate an artifact that is easy for a program to parse.
+=> notes/tech/gemini-protocol-feeds RSS/ATOM feeds are awesome. Gemini shows an even better approach.
 
 ### The limitations help you shape your content
 

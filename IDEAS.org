@@ -141,6 +141,8 @@ See also https://alex.corcoles.net/notes/tech/real-time-relations
 
 So that webapps can store data in a backend of your choosing.
 
+See also https://alex.corcoles.net/notes/tech/customizable-external-storage-for-applications
+
 * Pen and tablet diagram tool
 
 - Recognizes diagram elements and converts them to structured objects.

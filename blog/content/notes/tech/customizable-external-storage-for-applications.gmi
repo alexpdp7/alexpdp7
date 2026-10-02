@@ -1,0 +1,11 @@
+# Customizable external storage for applications
+
+Application writers should have an easy mechanism for their applications to store data accessible for multiple devices. This would remove the requirement of many application writers to run backend services for their applications, which can add significant cost and complexity.
+
+Storage backends should implement a standard interface so that applications can request access to a specific folder within the storage.
+
+Libraries should implement clients for this interface, so that an application writer can add this functionality easily to their application.
+
+Example storage backends could be proprietary services like Google Drive or iCloud, open services like Nextcloud, or even adapters for standards such as S3.
+
+Libraries should be available for web applications, desktop applications, mobile applications, and others.
