@@ -73,3 +73,7 @@ If a deleted tuple matches the query, then a remove event with the key is sent t
 ## References
 
 => https://symas.com/lmdb.php [LMDB] LMDB: Lightning Memory-Mapped Database
+
+## Notes
+
+=> https://github.com/jnwatson/py-lmdb/tree/py-lmdb_1.7.5 py-lmdb 1.7.5 is the last aligned py-lmdb release.
