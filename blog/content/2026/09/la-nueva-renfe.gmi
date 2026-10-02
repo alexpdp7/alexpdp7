@@ -13,3 +13,7 @@ En lo que a mí respecta, el proceso de compra era tedioso y dicen que lo van a 
 Hablan mucho de la claridad, cuando a veces el problema es otro. Las tarifas suelen ser opacas cuando su objetivo no parece ser beneficiar al viajero, sino intentar que la gente pague más empaquetando mejoras que podrían no estarlo o añadiendo pasos en la compra que te recuerdan por qué puedes pagar más si has comenzado pagando menos.
 
 Está claro que quizá tengo una visión muy personal de la web de RENFE y que ojalá que acierten y la mayoría queden contentos. Espero que al menos cumplan lo que prometen en accesibilidad. Pero a mí no me pinta bien.
+
+Edito: otra cosa en la que no había pensado es que mi experiencia en proyectos de desarrollo de software es que casi todo funciona mejor en pequeñas mejoras incrementales que en grandes reescrituras.
+
+=> https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/ "Things You Should Never Do, Part I" escrito en el año 2000 por Joel Spolsky explica bastante bien estas cosas.
