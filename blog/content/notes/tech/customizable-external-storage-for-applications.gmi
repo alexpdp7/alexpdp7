@@ -9,3 +9,7 @@ Libraries should implement clients for this interface, so that an application wr
 Example storage backends could be proprietary services like Google Drive or iCloud, open services like Nextcloud, or even adapters for standards such as S3.
 
 Libraries should be available for web applications, desktop applications, mobile applications, and others.
+
+## Prior art
+
+=> https://github.com/nexryai/google-drive-s3 Exposes Google Drive storage with an S3 API
