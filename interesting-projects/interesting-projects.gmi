@@ -1269,3 +1269,9 @@ UDP file transfer utility that was used to great success at a previous job
 A simple cross-language syntactic discipline that enables the safe embedding a string in any compliant language into a string in any other language via simple "copy-and-paste", in particular with no escaping, obfuscation, or expansion of embedded strings.
 :coding:parsing
 :lightweight-markup
+
+=> https://brutal-unix.com/ Brutal Unix
+POSIX shell script library, including test runner and multi-file shell scripts
+:coding:scripting
+:kind:library
+:programmed-in:shell
