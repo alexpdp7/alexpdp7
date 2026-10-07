@@ -1275,3 +1275,9 @@ POSIX shell script library, including test runner and multi-file shell scripts
 :coding:scripting
 :kind:library
 :programmed-in:shell
+
+=> https://www.cssbed.com/ CSS Bed
+Directory of classless CSS themes
+:coding:web
+:programmed-in:css
+:directory
