@@ -8,7 +8,7 @@ Por supuesto, son elucubraciones sobre ideas que he discutido aquí hasta la sac
 
 => ../../2013/01/conecte-el-teclado-al-televisor Conecte el teclado al televisor o cómo la magia sucede con una pantalla grande y un teclado
 
-Quizá la mejor manera de interactuar con Internet es en un espacio específico de nuestro hogar, con una pantalla de tamaño respetable (por concretar, ¿de más de 8 pulgadas de diagonal?), un teclado donde teclear sea agradable y un ordenador programable con el mínimo de restricciones artificiales posibles.
+=> ../../2026/10/el-dispositivo-de-culto Quizá la mejor manera de interactuar con Internet es en con un dispositivo de culto en un espacio específico de nuestro hogar, con una pantalla de tamaño respetable (por concretar, ¿de más de 8 pulgadas de diagonal?), un teclado donde teclear sea agradable y un ordenador programable con el mínimo de restricciones artificiales posibles.
 
 Y quizá debamos aceptar que este montaje no será suficiente para la vida moderna.
 
