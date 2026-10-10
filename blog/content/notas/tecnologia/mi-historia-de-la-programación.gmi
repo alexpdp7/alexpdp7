@@ -177,7 +177,15 @@ Una nota curiosa es que a día de hoy, los móviles están básicamente controla
 
 ## El dispositivo de obediencia y el dispositivo de culto
 
-TODO
+¿Cómo volver a la era dorada de los ordenadores personales programables? En esta sección intento describir un marco para entender la computación en esta nueva era.
+
+Cada día, necesitaremos más un dispositivo enteramente controlado para realizar trámites. Muchos bancos e incluso gobiernos tienden a querer que usemos un dispositivo que no podamos manipular. Esto tiene ciertas ventajas de cara a evitar fraudes, pero por supuesto tiene como contrapartida por definición que no tenemos control sobre el dispositivo. Estos dispositivo tienen pantallas pequeñas, interfaces táctiles y no están pensados para ser operados con teclados, con lo que nos llevan a realizar actividades más de consumo que de creación.
+
+Al ser un dispositivo necesario para operar en la sociedad, en este marco lo llamamos el dispositivo de obediencia. Sólo debemos usarlo para los trámites para los que resulta imprescindible y poco más.
+
+Para todo lo demás, este marco recomienda el uso del dispositivo de culto. El dispositivo de culto es un ordenador programable con el menor número de restricciones posibles a su uso. Y es de culto porque lo ubicamos en un lugar físico para rendirle culto, no lo llevamos todo el día en nuestro bolsillo. Cuando estamos delante suyo, podemos realizar todas las actividades de creación, como programar u otras muchas, sin restricciones. Pero una vez abandonamos su espacio físico, parece una buena idea minimizar el tiempo que dedicamos al dispositivo de obediencia para dedicarnos a otras actividades.
+
+El marco parte de la idea que aunque el acceso a Internet abrió una infinidad de posibilidades, llevar un dispositivo conectado a Internet siempre encima no parece habernos dado tanto rédito positivo.
 
 ### Referencias
 
