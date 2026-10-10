@@ -168,6 +168,8 @@ Aparte de tener el mágico ordenador programable en casa, la otra parte de la an
 
 Pero la tendencia es que esto desaparezca. Es cierto que ha habido muchos momentos en los que para hacer estos "trámites vitales" teníamos que pasar por sistemas cerrados como Microsoft Windows (sí, esos que aparecen unos párrafos más arriba por sus BASICs en esos ordenadores programables domésticos), pero hemos tenido largos destellos de unos usos sin restricciones que comenzamos a añorar.
 
+Una nota curiosa es que a día de hoy, los móviles están básicamente controlados por Apple y Google con sus sistemas operativos móviles. Android de Google usa el kernel de Linux (pero sustituye la mayoría de componentes que usan las distribuciones de Linux) y se dice que el sistema operativo de los iPhone de Apple comparte código esencial con Mac OS X, con lo que también forma parte del linaje UNIX. Así pues, a diferencia de los ordenadores de escritorio, donde NT le come parte del pastel a los herederos de UNIX, en los móviles esencialmente todo es UNIX. Irónicamente, el flexible y longevo UNIX que supone uno de los mejores entornos de desarrollo de software disponible se utiliza como base de unos dispositivos que cada vez son menos programables.
+
 ### Referencias
 
 => ../../2025/02/el-lento-adios-a-la-magia-de-los-ordenadores El lento adiós a la magia de los ordenadores
