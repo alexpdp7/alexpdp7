@@ -194,9 +194,7 @@ El marco parte de la idea que aunque el acceso a Internet abrió una infinidad d
 => ../../2026/08/el-dispositivo-de-obediencia El dispositivo de obediencia
 => ../../2026/10/el-dispositivo-de-culto El dispositivo de culto
 
-## Apéndices
-
-### No es Internet, es la web
+## Apéndice: No es Internet, es la web
 
 La historia de la programación tiene muchísimo que ver con Internet y la web.
 
@@ -228,13 +226,13 @@ Los navegadores han evolucionado hasta un nivel de complejidad tan extremo que h
 
 Quizá un resurgimiento de los ordenadores programables pase también por abandonar esos monstruos inabarcables que son los grandes navegadores y quizá reorientar el desarrollo hacia paradigmas más sencillos como las aplicaciones basadas en menú herederas de Gopher o los chatbots, pero sobre sistemas de mensajería abiertos.
 
-Referencias
+### Referencias
 
 => ../../2026/09/la-nueva-vieja-internet La nueva vieja Internet
 => ../../2026/09/castores-en-el-hiperespacio Castores en el hiperespacio
 => https://yggdrasil-network.github.io/ Yggdrasil
 
-### Tildados
+## Apéndice: Tildados
 
 En la línea de Yggdrasil que recupera el antiguo modelo de Internet, hay otra línea evolutiva que se origina directamente en los sistemas compartidos de las grandes empresas con acceso a Internet en sus origenes. En aquella época, los miembros de una facultad universitaria quizá tenían un gran sistema UNIX o similar con cientos de terminales del mismo ordenador que podían usar. Cada miembro guardaba sus archivos en el gran sistema, quizá podían publicar en el servidor web de este sistema, y tenían mecanismos de comunicación dentro del propio sistema.
 
@@ -245,5 +243,7 @@ Y en tiempos recientes, se ha dado un pequeño renacer de este tipo de sistemas.
 Aunque a primera vista las tildes y sistemas similares no parecen más que pequeñas aficiones, los usuarios de las tildes forman pequeñas comunidades quizá como nostalgia de las épocas anteriores que consideramos más doradas (y que incluso algunos de sus miembros no hayan vivido). Pero son comunidades de gente que quiere experimentar y crear, y cuyas evoluciones dependen del uso de los ordenadores programables donde se pueden crear tildes y el software asociado.
 
 Las tildes también han sido el caldo de cultivo de otros proyectos interesantes respecto a esta historia, como el protocolo Gemini. Gemini es un experimento que consiste en un protocolo y un formato de hipertexto parecidos a los de la web más primitiva, con muchísimas más limitaciones. Gemini desecha gran parte de la complejidad de la web, contrastando el hecho de que ni Microsoft se atreve a mantener un motor de navegador actual, con que cualquiera puede implementar los protocolos de Gemini en una tarde. Este tipo de proyectos pueden ayudar a devolver el espíritu experimentador e innovador de las épocas doradas.
+
+### Referencias
 
 => ../../2022/01/que-no-os-enganen Que no os engañen
