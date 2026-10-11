@@ -43,7 +43,7 @@ class nagios($otel_host) {
 
   nagios_command {'check_ragent':
     command_name => 'check_ragent',
-    command_line => '/usr/bin/check_ragent http://$HOSTADDRESS$:21488/ --warning-units dnf-makecache.service --warning-units dnf-automatic-install.service',
+    command_line => '/usr/bin/check_ragent http://$HOSTADDRESS$:21488/ --ignored-units dnf-makecache.service --warning-units dnf-automatic-install.service',
     require => Package['nagios'],
     notify => Service['nagios'],
     owner => 'nagios',
