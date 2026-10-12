@@ -13,3 +13,4 @@ Libraries should be available for web applications, desktop applications, mobile
 ## Prior art
 
 => https://github.com/nexryai/google-drive-s3 Exposes Google Drive storage with an S3 API
+=> https://remotestorage.io/ Standard for doing this. Very limited Google Drive and Dropbox support, uses specific servers
