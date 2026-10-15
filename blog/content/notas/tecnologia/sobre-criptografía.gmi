@@ -22,6 +22,8 @@ Pero si usamos este esquema con la operación xor y usamos la misma clave dos ve
 
 En algunos casos, esto sucede en la realidad, tanto por error como por organismos que ofrecen criptografía como baza comercial pero que pueden tener otros intereses. (También es cierto que hay unos contrapesos de reputación; haciendo cosas turbias siempre te juegas un escándalo cuyo coste en muchos casos puede no valer la pena.)
 
+Esto no quiere decir que los cifrados no sean útiles. ¡Ciertamente las comunicaciones sin cifrar no son más seguras! Pero hemos de ser siempre cuidadosos en función de nuestro perfil, ya que el uso de criptografía en sí mismo no garantiza mucho.
+
 ### Estudio: el cifrado extremo a extremo
 
 Muchas aplicaciones de mensajería dicen utilizar cifrado de extremo a extremo que asegura que el proveedor del servicio de mensajería no puede leer nuestros mensajes. En estos tiempos, esto es una baza comercial importante aunque no exista un riesgo grave de que espíen nuestras conversaciones en concreto. Así mismo, existen esquemas de cifrado extremo a extremo muy populares y que han sido sujetos a suficiente escrutinio como para que muchos expertos los consideren seguros a nivel criptográfico.
