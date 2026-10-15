@@ -30,3 +30,4 @@
 => tecnologia/problemas Problemas
 => tecnologia/mama-quiero-ser-programador Mamá, quiero ser programador
 => tecnologia/mi-historia-de-la-programación Mi historia de la programación
+=> tecnologia/sobre-criptografía Sobre criptografía

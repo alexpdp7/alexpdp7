@@ -1,0 +1,49 @@
+# Sobre criptografía
+
+Este documento contiene algunas notas sobre la criptografía. No soy un experto acreditado en seguridad y sólo trabajé muy brevemente en estos asuntos. Mis conocimientos básicamente vienen de un poco de alguna asignatura de la carrera de ingeniería informática, esto es, ni siquiera un nivel de posgrado. Aunque intento citar referencias que tengan cierta autoridad, nadie debería tomarse muy en serio lo que escribo aquí.
+
+## Es más fácil rodear un cifrado o explotar un uso incorrecto que descifrar
+
+=> https://xkcd.com/538/ Esta tira de xkcd ilustra un concepto importante a la hora de pensar en la criptografía.
+
+=> https://www.explainxkcd.com/wiki/index.php/538#Transcript (Versión de la tira con una transcripción y algo de explicación.)
+
+Una parte muy importante de la criptografía es de naturaleza matemática, algo abstracta y frecuentemente, fácil de malinterpretar.
+
+En cualquier momento, existen esquemas de cifrado que se consideran seguros. No se puede demostrar que un esquema de cifrado es seguro, simplemente existen incentivos para que quien rompa un cifrado popular haga público cómo lo ha conseguido. Siempre se rumorea que hay organismos poderosos que disponen de medios para romper algunos cifrados populares o que han colado puertas traseras sutiles, pero hasta donde yo sé, ni se ha demostrado nada relevante así jamás, ni hay muchos indicios de que suceda a una escala significativa para la mayoría de nosotros.
+
+Porque además, casi siempre hay maneras mucho mejores de acceder a información cifrada que no implican romper el cifrado.
+
+El uso en la vida real del cifrado depende de usarlo adecuadamente, cosa que es más difícil de lo que uno esperaría, y cualquier fallo puede hacer extremadamente fácil acceder a la información cifrada.
+
+Por ejemplo, es un resultado conocido y seguramente inatacable que un cifrado muy sencillo como usar la operación xor entre un texto a cifrar y una clave realmente aleatoria y tan larga como el texto a cifrar es en la práctica irrompible.
+
+Pero si usamos este esquema con la operación xor y usamos la misma clave dos veces, ¡es trivial romper el cifrado! (El artículo de la Wikipedia en español sobre la libreta de un solo uso contiene una explicación razonable. También detalla casos en los que se ha roto este esquema por usar claves no lo suficientemente aleatorias.)
+
+En algunos casos, esto sucede en la realidad, tanto por error como por organismos que ofrecen criptografía como baza comercial pero que pueden tener otros intereses. (También es cierto que hay unos contrapesos de reputación; haciendo cosas turbias siempre te juegas un escándalo cuyo coste en muchos casos puede no valer la pena.)
+
+### Estudio: el cifrado extremo a extremo
+
+Muchas aplicaciones de mensajería dicen utilizar cifrado de extremo a extremo que asegura que el proveedor del servicio de mensajería no puede leer nuestros mensajes. En estos tiempos, esto es una baza comercial importante aunque no exista un riesgo grave de que espíen nuestras conversaciones en concreto. Así mismo, existen esquemas de cifrado extremo a extremo muy populares y que han sido sujetos a suficiente escrutinio como para que muchos expertos los consideren seguros a nivel criptográfico.
+
+(Además de en mensajería, muchos servicios de almacenamiento de datos en la nube ofrecen cifrados similares para convencernos de que no pueden leer los datos que guardan para nosotros.)
+
+Un agujero muy sencillo podría ser extremadamente trivial: el proveedor del servicio podría decir que implementa este cifrado, pero no usarlo o introducir una puerta trasera deliberada. Esto se complica a medida que el escrutinio sobre un servicio crece; los expertos de seguridad pueden examinar la aplicación (extrayendo la aplicación del dispositivo y analizándola, ejecutándola en una red donde pueden interceptar las comunicaciones o pinchándola de otra manera) y es factible detectar textos transmitidos en claro y ciertas puertas traseras.
+
+Los proveedores de estos servicios pueden tomar medidas cada vez más sofisticadas para ocultar esto. Por ejemplo, pueden distribuir una versión de la aplicación que sí utiliza el cifrado correctamente, pero conspirar con las tiendas de aplicaciones para distribuir versiones inseguras a personas concretas. Esto complicaría extremadamente que los expertos en seguridad encontrasen estos agujeros.
+
+(En general, como muchos servicios de mensajería los llevan organismos independientes de los que llevan las tiendas de aplicaciones, se dificulta esta conspiración. Si en general cada persona implicada en una conspiración la hace más susceptible de ser descubierta, si hay que implicar a dos empresas más o menos independientes, la cosa se complica todavía más.)
+
+Pero además, hay muchos resquicios por donde se pueden colar agujeros.
+
+En abril de 2026, un competidor de WhatsApp acusó a WhatsApp de que las copias de seguridad de WhatsApp se guardan por defecto sin cifrar en Google Drive. Esto parece fácil de verificar porque hay opciones en la aplicación de WhatsApp para habilitar tal cifrado extremo a extremo y requieren que guardemos la clave del cifrado; parece complicado que haya un cifrado extremo a extremo por defecto sin que WhatsApp nos informe de una clave para que podamos recuperar la copia de seguridad.
+
+Además, siempre existe otro factor: los algoritmos de cifrado se ejecutan en un dispositivo y los datos a cifrar existen sin cifrar en ese dispositivo. WhatsApp podría usar cifrado de extremo a extremo de una manera idónea, pero se estaría ejecutando en un dispositivo típicamente controlado por Google o Apple, que pueden introducir código en el dispositivo para que recoja los datos antes de ser cifrados. (Esto también tiene riesgo de ser descubierto y tendría un impacto reputacional grave si se descubriera.)
+
+Otro ataque es que cualquiera que tenga acceso temporalmente para manipular WhatsApp puede agregar un segundo dispositivo en la aplicación. El cifrado extremo a extremo sigue funcionando, pero a partir de ese momento los mensajes van a parar convenientemente a otro dispositivo controlado por el atacante.
+
+Finalmente, recordemos que en una conversación siempre hay como mínimo dos extremos. Uno puede confiar en sí mismo, pero no siempre en los otros extremos. Por mucho cifrado extremo a extremo, nuestro interlocutor siempre puede leer nuestros mensajes en voz alta en un lugar público, alguien puede espiar su pantalla o como la cita de xkcd anterior, amenazarle para que revele nuestras conversaciones.
+
+## Referencias
+
+=> https://es.wikipedia.org/wiki/Libreta_de_un_solo_uso Libreta de un solo uso en la Wikipedia
