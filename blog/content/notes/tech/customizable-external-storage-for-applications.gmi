@@ -10,6 +10,12 @@ Example storage backends could be proprietary services like Google Drive or iClo
 
 Libraries should be available for web applications, desktop applications, mobile applications, and others.
 
+## Nextcloud
+
+=> https://docs.nextcloud.com/server/stable/user_manual/en/files/access_webdav.html#accessing-public-shares-over-webdav Nextcloud has a clunky way to achieve this using public shares and WebDAV.
+
+=> https://github.com/nextcloud/documentation/pull/15781 However, the documentation has a small inaccuracy that requires fixing before the instructions work.
+
 ## Prior art
 
 => https://github.com/nexryai/google-drive-s3 Exposes Google Drive storage with an S3 API
