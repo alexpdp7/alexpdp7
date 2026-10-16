@@ -16,6 +16,8 @@ Libraries should be available for web applications, desktop applications, mobile
 
 => https://github.com/nextcloud/documentation/pull/15781 However, the documentation has a small inaccuracy that requires fixing before the instructions work.
 
+=> https://github.com/nextcloud/server/issues/3131#issuecomment-5386010411 But likely due to CORS, this cannot be used from a browser.
+
 => https://github.com/nextcloud/server/issues/2866#issuecomment-1032304227 There's an issue to create a more proper feature.
 
 ## Prior art
