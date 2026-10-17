@@ -348,3 +348,9 @@ TV show tracking service
 :service
 :proprietary
 :6/10
+
+=> https://eloquent.sonny.re/ Eloquent
+Standalone LanguageTool Flatpak tool, including server
+:9/10
+:desktop:gnome
+:writing:checker
