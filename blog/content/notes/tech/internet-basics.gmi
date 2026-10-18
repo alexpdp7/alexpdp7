@@ -18,6 +18,8 @@ Delivery targets decouple the email domain from the email service that stores th
 
 Email services must support transferring stored email.
 
+Email storing services should support fetching email from other services. (It is the only way to do "email redirection" reliably.) This should support services with unconventional authentication such as Gmail. The email store service can already read your email, so it does not matter so much whether they keep your credentials of another email service.
+
 Note: non-profit ISPs could be the best avenue to explore this.
 
 ## Everyone must have a feed reader. All website updates should work with feed readers
