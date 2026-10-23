@@ -43,6 +43,8 @@ Notes about some books and long articles I like:
 => tech/ripping Ripping
 => tech/splicing-mkvs Splicing MKVs
 
+=> tech/language-tool LanguageTool
+
 => tech/modularity Modularity
 => tech/about-apis About APIs
 => tech/about-web-development About web development

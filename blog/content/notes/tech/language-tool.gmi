@@ -1,0 +1,41 @@
+# LanguageTool
+
+LanguageTool is an open source language checker with a corresponding commercial service.
+
+LanguageTool provides software such as browser extensions, word processor plugins, and others. LanguageTool software can work with either their commercial service or with a server that you can install and run.
+
+You can run LanguageTool in your machine with some limitations, but without having to rely on any external service.
+
+=> https://eloquent.sonny.re/ Eloquent provides a Flatpak that you can run on any Linux system that supports Flatpaks. Eloquent starts up the server automatically when you log in, so that you can use any LanguageTool software. Additionally, Eloquent provides a minimal text editor with LanguageTool integrated.
+
+=> https://formulae.brew.sh/formula/languagetool Brew packages LanguageTool for macOS and Linux. I have not tested this, but it provides straightforward instructions to start the server for use in any LanguageTool software.
+
+On Windows, I have not found any convenient packaging. This document describes how to set it up on Windows.
+
+In any case, except for the Eloquent text editor, you will also need some LanguageTool software (such as the browser extension) to check your text.
+
+## Running LanguageTool on Windows
+
+LanguageTool is a Java program and requires installing Java on your computer to run.
+
+However, Java is somewhat deprecated for use in desktop computers. If you search the Internet for Java, you will land on a page offering a Java 8 download. Java 8 was the last version of Java will full desktop support. However, LanguageTool is only easily available as a version that requires a more modern version of Java.
+
+To install a suitable Java version for LanguageTool, visit:
+
+=> https://www.oracle.com/java/technologies/downloads/
+
+This page offers both the latest version of Java and the last long-term support version. Both should work, these instructions have only been verified with the long-term support version.
+
+Download the long-term support Windows x64 installer and run it. (I am not sure about the status of Java on Windows on ARM CPUs.)
+
+After completing the installer, visit:
+
+=> https://dev.languagetool.org/http-server
+
+And follow the instructions. Note that by default, Windows hides extensions from files, so creating the .properties file might be challenging. I recommend making Windows show extensions in Explorer.
+
+To automate LanguageTool start, you can create a .bat or .ps1 text file in the same directory as the languagetool-server.jar and server.properties files with the java command from the instructions that starts the server. You can then start LanguageTool by executing the .bat or .ps1 file with the Windows file explorer.
+
+With LanguageTool running, LanguageTool software such as the browser extensions can use it. Remember to configure the extension or any other software to use the local server, as described in the documentation.
+
+The instructions have some notes about using fastText for improved language detection and how it is not available on Windows. In brief tests, language detection without fastText seemed to work well enough.
