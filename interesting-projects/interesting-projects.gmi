@@ -1281,3 +1281,12 @@ Directory of classless CSS themes
 :coding:web
 :programmed-in:css
 :directory
+
+=> https://codeberg.org/haydn/typesetter Typesetter
+Flatpak that includes Typst and a side-by-side text editor
+:editor
+:kind:desktop-app
+:lightweight-markup:typst
+:print
+:programmed-in:rust
+:tool:editor
