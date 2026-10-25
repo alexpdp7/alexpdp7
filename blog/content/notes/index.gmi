@@ -66,6 +66,7 @@ Notes about some books and long articles I like:
 
 => tech/take-the-less-traveled-road Take the less traveled road
 => tech/the-tragedy-of-the-geeks The tragedy of the geeks
+=> tech/the-compliance-device-and-the-cult-device The compliance device and the cult device
 
 ### Gadgets
 

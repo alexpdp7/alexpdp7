@@ -1,0 +1,44 @@
+# The "compliance device" and the "cult device"
+
+I have lately written in Spanish about a new framework I'm using around computing devices:
+
+=> https://alex.corcoles.net/2026/08/el-dispositivo-de-obediencia The compliance device
+=> https://alex.corcoles.net/2026/10/el-dispositivo-de-culto The cult device
+
+=> https://alex.corcoles.net/notas/tecnologia/mi-historia-de-la-programación I have also been writing "my computing history" in Spanish. One of the last parts is about this framework, although this text is meant to continue evolving.
+
+But I would like to write about it a bit here too.
+
+## The devices
+
+### The compliance device
+
+This device we use because we are forced to. Increasingly, basic business work like banks or even government processes require us to run software on devices controlled by large commercial companies. This is frequently a phone. Also, many people choose to use instant messaging systems that also require a device with the same control.
+
+In this framework, the compliance device is the device we own for those needs.
+
+We use it only strictly for what it is required, no more.
+
+### The cult device
+
+This device we use because we want to. Programmable computers are a significant invention and one that allows people to create in ways that were not possible before.
+
+Beyond being programmable, it typically has a larger display and a physical keyboard.
+
+Even for relatively simple tasks like writing, it is much more productive than any device we can carry on ourselves at all time like compliance devices typically are. This not only makes creative writing better, but also communication with others.
+
+I call this the cult device because I feel it's better to have a fixed space at home devoted to it, where we go to "pray" and have an explicit time for it.
+
+## Rationale
+
+This might look like looking at some decades ago with rose-tinted glasses. We didn't have smartphones and we mostly had desktop computers. It's possible that this is the case.
+
+I increasingly think that while wearing a communication device at all times is convenient for many things, many uses of this device are not good for us. We kill time on a small device that shapes what we do with it too much, during too much of our time.
+
+=> https://www.winestockwebdesign.com/Essays/Eternal_Mainframe.html The Eternal Mainframe article defends that microcomputers nearly killed the big computers that only big organizations could afford, but they are slowly replaced by smartphones controlled by those big organizations.
+
+Microcomputers shaped my life and I think they are great. For me, the key is programming. But no matter what, they are great devices to create many things and to communicate with others. This is why I think we should "pray in their altar".
+
+## Risks
+
+The other big factor here is the Internet. And to use the Internet, you need increasingly complex microcomputers and software. This in turn increases the reliance on such big organizations. We need to strike a good balance between the power of that computer and the control we can have over it as individuals.
