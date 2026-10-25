@@ -1,6 +1,6 @@
 # Lenovo ThinkPad X12 Detachable Gen 1
 
-This is the laptop I used for work from early 2024 to early 2026. The laptop is leased, and was built on late 2021.
+This is the laptop I used for work from early 2024 to early 2026, then I used it for personal purposes. The laptop is leased, and was built on late 2021.
 
 ## Linux compatibility
 
@@ -37,6 +37,10 @@ I have only used the battery when it was three years old already. I can use the 
 ### Pen
 
 Unfortunately, the leaser did not deliver a pen.
+
+=> https://psref.lenovo.com/l/accessory/4X81H95633 I bought a "Lenovo Digital Pen 2" (4X81H95633) when I started using it for personal purposes. It works OK.
+
+There's a small elastic fabric device to hold the pen on one of the short sides of the laptop. When stowing the laptop on a bag, I'm somewhat paranoid it will break if the pen ends up in the bottom of the bag.
 
 ## Others
 
