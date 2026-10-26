@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import pathlib
-import subprocess
 import sys
 
 content = pathlib.Path(sys.argv[1])
