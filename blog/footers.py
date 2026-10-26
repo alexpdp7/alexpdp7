@@ -33,7 +33,7 @@ for gmi in pathlib.Path.cwd().glob("**/*.gmi"):
 
     language = "en" if relative_gmi in ENGLISH_PAGES or relative_gmi.startswith("notes/") else "es"
 
-    footer = []
+    footer: list[str] = []
 
     relative_root = "/".join([".."] * (len(gmi.parts) - len(pathlib.Path.cwd().parts) - 1))
 
