@@ -1,0 +1,27 @@
+# 2026-10-26 El abandono de la web para todos
+
+Siempre digo que hubo un tiempo en que había gente que cogía un hosting compartido y se montaba un blog con WordPress, y que hoy gente similar no lo haría. Así como tampoco se abrirían un Blogspot o lo que sea.
+
+Por una parte, creo que las redes sociales y especialmente el microblogging se han cargado un poco esto. Menos gente quiere dedicar tiempo a escribir textos largos porque hay formatos que requieren menos esfuerzo que resultan incluso más atractivos. Hay muchos más factores, claro. Pero me entristece porque creo que escribir enriquece y debe fomentarse. (¿Escribirá más la gente en privado donde no lo veo? Podría ser, pero sospecho que no.)
+
+Pero hoy quiero comentar aquí otro fenómeno.
+
+En 2008, un fundador de GitHub creó Jekyll, un programa que crea una web a partir de archivos Markdown. GitHub facilitó que se usase Jekyll en su funcionalidad de hospedado de páginas estáticas, poniendo esta combinación muy disponible y gratis al gran colectivo de desarrolladores de software que usaban GitHub.
+
+En mi opinión, esta combinación era infinitamente más conveniente para los programadores que las mejores opciones para crear webs "de prosa" (como blogs, pero también otros formatos) que había en ese momento. Opino esto en gran parte porque observo que casi 20 años más tarde, la conciencia colectiva de los programadores está en la creación de webs de prosa con estas técnicas.
+
+Pero esto tiene un problema: desconozco que haya mecanismos para usar herramientas de este estilo (en inglés se denominan static site generators y se usa mucho la abreviación SSG, en español sería algo así como generadores de sitios web estáticos) que no requiera pasar por cosas que asustan más que abrir un hosting compartido. Suelen requerir usar un editor de texto, la línea de comandos y casi siempre, el sistema de control de versiones Git que asusta incluso a muchos programadores.
+
+Esto dificulta mucho que cualquiera pueda crear su espacio en la web. Estos días se descubrió una vulnerabilidad crítica en PHP que soporta la mitad de la web, incluyendo muchos de los blogs personales que sobreviven hoy en día. Las vulnerabilidades de este tipo prácticamente no afectan a las webs hechas con un SSG, y se ceban con la mayoría de mecanismos "fáciles" que existen hoy en día para hacerse una web como WordPress, gran parte de esa mitad de la web que depende de PHP.
+
+Creo que el problema radica es que aunque sería extremadamente beneficioso que más gente usase SSGs (por ejemplo, porque reducen muchísimo los problemas de seguridad), no observo incentivos para que esto suceda. Los que están cómodos con la línea de comandos ya sólo piensan en los SSG y no veo que nada les motive a hacer los SSG más accesibles a los que no están cómodos con lo que implica usar SSGs.
+
+Los únicos movimientos que más o menos irían en la dirección correcta son dos: la "web sencilla" y el protocolo Gemini.
+
+=> https://websencilla.editora.info/ Hay bastante gente abogando por "obviar" las partes más complejas del desarrollo web. Creo que es una aproximación muy acertada y a la que vale mucho la pena dedicar esfuerzos. La tecnología web de los noventa parece mucho más accesible en muchos sentidos que lo que hay hoy en día y muchísima gente conseguía hacer webs interesantes sin toda la complejidad del mundo moderno.
+
+Por otra parte, aunque siempre digo que Gemini es más una performance que nos muestra que una aproximación mucho más sencilla puede ser incluso mejor, hay una cantidad significativa de gente de esa que se abriría un hosting compartido hace décadas que experimenta con la creación de cápsulas Gemini.
+
+=> https://alex.corcoles.net/2026/02/la-antigua-nueva-escuela Yo mismo uso Gemini para crear esta web y he visto a más gente haciendo cosas parecidas. (Lo que hago es esencialmente un SSG, pero creo que se podría encaminar para hacer un SSG más accesible y me gustaría dedicar tiempo a ello.)
+
+No sé por dónde pasa hacer más accesible la creación de webs a más gente. Aunque me encantaría y me parecería genial que Gemini creciese, lo veo complicado. Así que creo que quizá haya que impulsar la web sencilla o simplemente concienciar a los que ya sólo piensan en los SSG de que ahora mismo nos estamos olvidando de mucha gente y eso nos perjudica.

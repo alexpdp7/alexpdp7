@@ -228,6 +228,8 @@ Los navegadores han evolucionado hasta un nivel de complejidad tan extremo que h
 
 Quizá un resurgimiento de los ordenadores programables pase también por abandonar esos monstruos inabarcables que son los grandes navegadores y quizá reorientar el desarrollo hacia paradigmas más sencillos como las aplicaciones basadas en menú herederas de Gopher o los chatbots, pero sobre sistemas de mensajería abiertos.
 
+=> ../../2026/10/el-abandono-de-la-web-para-todos TODO: ¿incorporar ideas del abandono de la web para todos?
+
 ### Referencias
 
 => ../../2026/09/la-nueva-vieja-internet La nueva vieja Internet
