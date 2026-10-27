@@ -96,6 +96,14 @@ This is basically a hybrid of https://linuxcontainers.org/incus/ and https://pro
   -  Reverse proxies
 
 * [[programming/the-content-web-manifesto/README.md][Simpler web]]
+** Tools to create feeds for handcrafted pages
+
+- Could parse HTML Gemfeed-style (i.e. links that start with YYYY-MM-DD are feed entries)
+- Or maybe it could use a simple data format, maybe Markdown/Djot-like
+- Or maybe research https://en.wikipedia.org/wiki/H-feed
+- Could be a CLI tool that you run when updating your site
+- Or perhaps a reverse proxy that can be a service to add feeds to handcrafted pages
+
 ** A terminal web browser with native HTMX support, but without JavaScript support
 ** A [[https://alex.corcoles.net/notes/ideas/static-pages][static pages]] service that requires no accounts and can support easy publishing of dual HTTP/HTML + Gemini/Gemtext sites
 * Responsive handwriting
