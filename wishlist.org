@@ -1,6 +1,7 @@
 * Libros
 
-Todos se pueden comprar en Kindle, tapa blanda o el formato que salga más barato
+Todos se pueden comprar en Kindle, tapa blanda o el formato que salga más barato.
+Pero ahora mismo busco libros manejables para llevar por la calle.
 
 ** Ficción
 
@@ -8,10 +9,10 @@ Todos se pueden comprar en Kindle, tapa blanda o el formato que salga más barat
   - Los volúmenes 1 a 8 de la serie principal en español
   - "BOCCHI THE ROCK COMIC ANTHOLOGY: Volume 1"
   - Los volúmenes 1 y 2 de Las Borracheras de Kikuri Hiroi
-- [[https://www.amazon.es/dp/0440539811/][The Illuminatus! Trilogy]]
-- Libros de Ursula K. Le Guin (tengo "La mano izquierda de la oscuridad") o de Lois McMaster Bujold
-- [[https://en.wikipedia.org/wiki/Bowling_Alone][Bowling alone]]
 - Libros de Karl Popper
+- Libros de Ursula K. Le Guin (tengo "La mano izquierda de la oscuridad") o de Lois McMaster Bujold
+- [[https://www.amazon.es/dp/0440539811/][The Illuminatus! Trilogy]]
+- [[https://en.wikipedia.org/wiki/Bowling_Alone][Bowling alone]]
 - Infinite Jest de David Foster Wallace
 - [[https://www.amazon.es/Highlander-Original-Screenplay-Gregory-Widen/dp/1787747506/][Highlander (The Original Screenplay)]]
 - [[https://en.wikipedia.org/wiki/Through_Darkest_Europe][Through Darkest Europe]]
@@ -19,7 +20,6 @@ Todos se pueden comprar en Kindle, tapa blanda o el formato que salga más barat
 ** No ficción
 
 - [[https://www.amazon.es/dp/0316491977/][The Soul of A New Machine]]
-- [[https://www.amazon.es/Guns-Germs-Steel-Anniversary-Everbody/dp/0099302780][Guns, Germs and Steel]]
 - [[https://en.wikipedia.org/wiki/Salt_Fat_Acid_Heat_(book)][Salt Fat Acid Heat]]
 
 * Cacharros
