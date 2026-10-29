@@ -17,6 +17,10 @@ This means that a full correct gemtext parser can be coded in a few hours with a
 
 The Gemini protocol suite of protocols also describes a way to derive a feed from a gemtext page. Links in a gemtext page whose link text starts with a YYYY-MM-DD timestamp form an implicit feed. Contrary to traditional feed formats like RSS and Atom, gemtext implicit feeds are easy to create with a plain text editor.
 
+Some tildes provide Gemini hosting. On those tildes, creating a capsule can be as simple as creating Gemtext files with the blog entries and an index.gmi file with timestamped links to them. Gemtext files can be composed directly on the tilde with a text editor. You can literally have a subscribable Gemlog in minutes.
+
+My setup below is more complex because I also want the content visible in conventional web browsers and I want some fancy features. But you do not need all of that if you start with a gemlog.
+
 ## Static site generation
 
 => https://github.com/alexpdp7/coppewebite/tree/main/gemini-to-web Besides the scripts specific to this blog, a big part of the job is converting gemtext to HTML and RSS, which is done by the generic gemini-to-web tools in my coppewebite suite of Gemini software.
