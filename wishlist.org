@@ -19,7 +19,6 @@ Pero ahora mismo busco libros manejables para llevar por la calle.
 
 ** No ficción
 
-- [[https://www.amazon.es/dp/0316491977/][The Soul of A New Machine]]
 - [[https://en.wikipedia.org/wiki/Salt_Fat_Acid_Heat_(book)][Salt Fat Acid Heat]]
 
 * Cacharros
