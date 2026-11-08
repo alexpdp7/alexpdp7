@@ -32,7 +32,7 @@ class proxmox {
   }
 
   file {'/etc/apt/sources.list.d/pve-no-subscription.list':
-    content => 'deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription
+    content => 'deb http://download.proxmox.com/debian/pve trixie pve-no-subscription
 ',
   }
 }
