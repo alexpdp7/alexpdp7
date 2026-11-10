@@ -7,18 +7,18 @@ content = pathlib.Path(sys.argv[1])
 print("Generating footers...")
 
 CONTACT = {
-    "es": "=> {relative_root}/contacto Contacta conmigo.",
-    "en": "=> {relative_root}/contact Contact me.",
+    "es": "=> {relative_root}/contacto Contacto",
+    "en": "=> {relative_root}/contact Contact",
 }
 
 EDIT_IN_GITHUB = {
-    "es": "Edita esta página.",
-    "en": "Edit this page.",
+    "es": "Editar esta página",
+    "en": "Edit this page",
 }
 
 PARENT = {
-    "es": "Subir.",
-    "en": "Go to parent."
+    "es": "Subir",
+    "en": "Up"
 }
 
 ENGLISH_PAGES = ('about.gmi', 'gemini.gmi', "contact.gmi",)
