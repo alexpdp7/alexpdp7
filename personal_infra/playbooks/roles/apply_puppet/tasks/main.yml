@@ -27,7 +27,7 @@
   local_action:
     module: copy
     dest: "{{ inventory_dir }}/build/puppet/global_vars/hostvars.json"
-    content: "{'hostvars': {{ hostvars }} }"
+    content: '{"hostvars": {{ hostvars|to_json }} }'
   run_once: True
   tags: puppet_fast
 - name: dump this
