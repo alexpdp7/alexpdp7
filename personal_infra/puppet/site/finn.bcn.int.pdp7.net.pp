@@ -5,4 +5,5 @@ node 'finn.bcn.int.pdp7.net' {
   }
   package {'gnome-software-plugin-flatpak':}
   package {'steam-devices':}
+  package {'vlc':}
 }
