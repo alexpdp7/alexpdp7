@@ -32,7 +32,11 @@ Add web of trust authorization to a network such as Yggdrasil:
 
 ## Alternatives
 
-Because Yggdrasil device IPv6 addresses are identity-based, allow and block lists of Yggdrasil IPv6 addresses might work well too.
+Because Yggdrasil device IPv6 addresses are identity-based, allow and block lists of Yggdrasil IPv6 addresses might work well too. An implementation based on fetching address lists from URLs periodically and using them to configure firewalls and other systems might be a valid approach.
+
+(Address lists on URLs could have dynamic content, so web-of-trust could be implemented there, by creating aggregating crawlers of those lists.)
+
+(TODO: research prior art. There are probably existing mechanisms to distribute IP address lists.)
 
 ## References
 
