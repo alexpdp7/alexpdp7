@@ -44,7 +44,7 @@ Terminal emulator with nice keyboard-based select and copy
 :desktop
 :7/10
 
-=> https://connectbot.org/ ConnectBoy
+=> https://connectbot.org/ ConnectBot
 Terminal emulator for Android
 :terminal-emulator
 :android
