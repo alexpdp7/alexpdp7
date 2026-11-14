@@ -16,6 +16,11 @@ EDIT_IN_GITHUB = {
     "en": "Edit this page",
 }
 
+CHANGE_LOG = {
+    "es": "Historial de cambios (con feed RSS)",
+    "en": "Change log (with RSS feed)",
+}
+
 PARENT = {
     "es": "Subir",
     "en": "Up"
@@ -49,6 +54,7 @@ for gmi in pathlib.Path.cwd().glob("**/*.gmi"):
 
     if content_source:
         footer.append(f"=> https://github.com/alexpdp7/alexpdp7/edit/master/{content_source} {EDIT_IN_GITHUB[language]}")
+        footer.append(f"=> https://alex.corcoles.net/cgit/alex/alexpdp7.git/log/{content_source} {CHANGE_LOG[language]}")
 
     closest_index = gmi.with_name("index.gmi")
     while closest_index == gmi or closest_index.is_relative_to(pathlib.Path.cwd()) and not closest_index.exists():
