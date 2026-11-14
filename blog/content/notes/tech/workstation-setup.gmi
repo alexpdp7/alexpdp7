@@ -1,0 +1,21 @@
+# Workstation setup
+
+Mostly a reminder of stuff that I need to configure (and perhaps automate).
+
+* FreeIPA enrollment
+* GNOME (pinned apps, seconds in clock, PaperWM)
+* Nextcloud
+* Firefox (Sync + UI configuration, search engines, NoScript)
+* Emacs
+* Email (Thunderbird?)
+* SSH
+* Wezterm
+* Bash
+* Senpai
+* Ledger
+* Tuba
+* Parla
+* Signal
+* Steam
+* Lagrange (start page, maybe sync?)
+* Eloquent

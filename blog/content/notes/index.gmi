@@ -2,6 +2,7 @@
 
 => interesting-projects Interesting projects
 => software-i-use Software I use
+=> tech/workstation-setup Workstation setup
 
 => interesting-articles Interesting articles
 => greek-task-list Greek task list
