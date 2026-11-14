@@ -1,0 +1,34 @@
+# A web of trust network
+
+Projects such as the Yggdrasil network create a virtual overlay network on top of existing networks such as the Internet.
+
+Yggdrasil has some ways of adding network authorization:
+
+* The AllowedPublicKeys configuration option to limit who can peer with a node
+* The GroupPassword configuration option to drop traffic from nodes that do not share the group password
+
+This document discusses an abstract web of trust authorization network.
+
+## Problem
+
+Traffic on the Internet is increasingly hostile and software vulnerabilities are becoming increasingly concerned.
+
+Web servers that provide a large URL space tend to be bogged down by malicious traffic, requiring increasingly user-hostile countermeasures.
+
+## Proposal
+
+Add web of trust authorization to a network such as Yggdrasil:
+
+* Provide means of creating web of trust identities.
+* Provide a way to allow or deny access to specific devices or services based on the web of trust.
+
+## Use cases
+
+* Provide a website that is available to all of the Yggdrasil network
+* Create a web of trust identity to represent "my personal administrative devices". SSH services and other private services on my personal infrastructure can only be accessed from devices trusted by the personal administrative device identity.
+* Create a web of trust identity to represent "members of a community". Services for the community can only be accessed by devices trusted by this identity.
+* Create a web of trust identity to represent "a web crawler". Configure my web servers to allow traffic from identities linked to web crawlers I trust.
+
+## Alternatives
+
+Because Yggdrasil device IPv6 addresses are identity-based, allow and block lists of Yggdrasil IPv6 addresses might work well too.

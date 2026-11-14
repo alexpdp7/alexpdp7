@@ -23,6 +23,8 @@ If you send me a list of ideas you are interested in, I will consider those vote
 
 See also [[https://alex.corcoles.net/notes/tech/internet-basics][Internet basics]].
 
+See also [[https://alex.corcoles.net/notes/tech/a-web-of-trust-network][A web of trust network]].
+
 ** Own your email or stable communities for email
 ** Mutual encrypted backups
 
