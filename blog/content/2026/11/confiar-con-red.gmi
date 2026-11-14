@@ -1,0 +1,17 @@
+# 2026-11-14 Confiar con red
+
+"Web of trust" (en la Wikipedia en español dicen "red de confianza") es un concepto de seguridad fascinante pero que lamentablemente ha despegado muy poco. (Nada que ver con la web que visitamos con los navegadores.)
+
+En la web of trust, cada participante tiene una identidad y "certifica" que otros participantes son de confianza. Por ejemplo, yo puedo validar identidades de gente que conozco en persona y con esto crear una web of trust de personas reales en la que en teoría nadie puede meterse sin convencer a un miembro de la red.
+
+La web of trust surgió en 1992 como una especie de alternativa a las infraestructuras de clave pública centralizada de las que el sistema X.509 que hoy en día regula la mayoría de tráfico de Internet.
+
+En los sistemas de clave pública centralizada, un conjunto limitado y regulado de autoridades de certificación se encarga de gestionar la confianza. Los sistemas operativos, navegadores de Internet y otros sistemas incluyen claves de las autoridades de certificación y confían en cualquier certificado firmado por estas claves.
+
+Existen ventajas y desventajas para ambos sistemas, tanto a nivel general sobre los conceptos en sí, como a nivel de las implementaciones específicas.
+
+En los últimos tiempos, el perfil de las hostilidades a las que estamos expuestos en Internet parece estar cambiando. Personalmente, ciertas comunidades de Internet basadas en invitaciones me han parecido que funcionaban bien para proteger de este nuevo perfil de hostilidades.
+
+Como todo buen desarrollador de software, siempre pienso en soluciones técnicas para problemas humanos. Pero últimamente me fascina pensar en la web of trust, especialmente combinándola con otras tecnologías como la red Yggdrasil. Yggdrasil es una red virtual que funciona sobre otras redes como Internet, en la que cada dispositivo tiene una identidad fija que es además su dirección en esta red. Es decir, si mi móvil pertenece a Yggdrasil, siempre es accesible en Yggdrasil con la misma dirección IP. Yggdrasil tiene algunos mecanismos para limitar el acceso a servicios que corren en la red, pero son algo toscos. Sería muy interesante limitar el acceso a servicios en Yggdrasil mediante una web of trust. Por ejemplo, tener servicios a los que sólo pueden acceder mis dispositivos, otros a los que sólo pueden acceder gente específica, otros a los que pueda participar una comunidad más amplia, etcétera.
+
+=> ../../notes/tech/a-web-of-trust-network En este documento en inglés, detallo un poco más esta idea.
