@@ -32,3 +32,7 @@ Add web of trust authorization to a network such as Yggdrasil:
 ## Alternatives
 
 Because Yggdrasil device IPv6 addresses are identity-based, allow and block lists of Yggdrasil IPv6 addresses might work well too.
+
+## References
+
+=> https://yggdrasil-network.github.io/ Yggdrasil network
