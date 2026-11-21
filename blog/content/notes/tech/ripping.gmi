@@ -68,3 +68,11 @@ mkisofs -allow-limited-size -o .../my.iso .
 from the directory that contains *only* the BDMV directory.
 
 VLC for desktop computers can open a repacked Blu-ray ISO and show the menus. Kodi for Android can open a repacked Blu-ray ISO and identify the titles. However, Kodi did not support the menus for the Blu-ray I tested.
+
+### Ultra HD Blu-ray
+
+When I insert the only Ultra HD Blu-ray disc I have into my USB Blu-ray reader, Linux shows a large UDF filesystem with files (about 90 gigabytes).
+
+However, neither VLC or the Blu-ray backup programs mentioned above seem to be able to handle the encryption.
+
+Reading online, apparently Ultra HD Blu-ray discs use other encryption keys that are more complex to obtain. My key file seems to contain keys for Ultra HD Blu-ray discs, but not for the one I have.
